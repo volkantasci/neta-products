@@ -1,0 +1,1481 @@
+{
+  "category_no": "07",
+  "category_tr": "Havuz Kimyasal Ürünleri",
+  "category_en": "Pool Chemical Product",
+  "family_count": 11,
+  "variant_count": 37,
+  "families": [
+    {
+      "family_product_id": "gc-56-granular-chlorine",
+      "family_title_tr": "Gc 56 Granular Chlorine",
+      "family_title_en": "Gc 56 Granular Chlorine",
+      "family_description_tr": "%56 ve %90 aktif klor içeren yüksek kaliteli granül klor. 20–40 mm tanecik boyutunda, profesyonel kullanıma yönelik 50 kg, 25 kg, 10 kg ve 5 kg ambalaj seçenekleriyle sunulur.",
+      "family_line_count": 89,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [
+        "MSDS belgesine ulaşmak için QR kodu okutun.",
+        "*Scan the QR code to access the MSDS document.*",
+        "![QR code linking to the MSDS document.](1f0858ee764d5fdb5ba4d88d704de210_img.jpg)",
+        "QR code linking to the MSDS document."
+      ],
+      "family_notes": [
+        "MSDS belgesine ulaşmak için QR kodu okutun.",
+        "*Scan the QR code to access the MSDS document.*",
+        "![QR code linking to the MSDS document.](1f0858ee764d5fdb5ba4d88d704de210_img.jpg)",
+        "QR code linking to the MSDS document."
+      ],
+      "tables": [
+        {
+          "table_id": "table_10469",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "AMBALAJ PACKING",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "54015133005",
+              "50",
+              "--"
+            ],
+            [
+              "54015133014",
+              "25",
+              "---"
+            ],
+            [
+              "54015133003",
+              "10",
+              "--"
+            ],
+            [
+              "54015133002",
+              "5",
+              "--"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "2dc64dee2d08ff4454c933a04bcf3f4d_img.jpg",
+          "alt": "A large white plastic container of Gc 56 Granular Chlorine with a label showing product information and a logo.",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "1e53e7b22e266fc707ed0293f73d8f3f_img.jpg",
+          "alt": "Diagram showing a plastic drum (Plastik Kova / Plastic Drum) with a weight range of 5 - 10 - 25 Kg.",
+          "caption": "",
+          "type": "diagram"
+        },
+        {
+          "file": "829d3dc753aae791b70399bbaa86d973_img.jpg",
+          "alt": "Diagram showing a fiber drum (Karton Varil / Fiber Drum) with a weight of 50 Kg.",
+          "caption": "",
+          "type": "diagram"
+        },
+        {
+          "file": "b746e64aa2c0fa2f98d19497b1cf11ce_img.jpg",
+          "alt": "Three white plastic containers of Gc 56 Granular Chlorine in different sizes.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "8373856537eff60029d7f9ea0d954aea_img.jpg",
+          "alt": "Warning icon: a triangle with a drop mark.",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "1f0858ee764d5fdb5ba4d88d704de210_img.jpg",
+          "alt": "QR code linking to the MSDS document.",
+          "caption": "",
+          "type": "qr"
+        }
+      ],
+      "variants": [
+        {
+          "code": "54015133005",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "54015133005",
+            "packing": "50",
+            "price": "--"
+          }
+        },
+        {
+          "code": "54015133014",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "54015133014",
+            "packing": "25",
+            "price": "---"
+          }
+        },
+        {
+          "code": "54015133003",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "54015133003",
+            "packing": "10",
+            "price": "--"
+          }
+        },
+        {
+          "code": "54015133002",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "54015133002",
+            "packing": "5",
+            "price": "--"
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "gc-90-granular-chlorine",
+      "family_title_tr": "Gc 90 Granular Chlorine",
+      "family_title_en": "Gc 90 Granular Chlorine",
+      "family_description_tr": "%56 ve %90 aktif klor içeren yüksek kaliteli granül klor. 20-40 mm tanecik boyutunda, profesyonel kullanıma yönelik 50 kg, 25 kg, 10 kg ve 5 kg ambalaj seçenekleriyle sunulur.",
+      "family_line_count": 89,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [
+        "MSDS belgesine ulaşmak için QR kodu okutun.",
+        "*Scan the QR code to access the MSDS document.*",
+        "![MSDS QR Code](6159f1a427fd09d54c258fcf8069c974_img.jpg)",
+        "MSDS QR Code"
+      ],
+      "family_notes": [
+        "MSDS belgesine ulaşmak için QR kodu okutun.",
+        "*Scan the QR code to access the MSDS document.*",
+        "![MSDS QR Code](6159f1a427fd09d54c258fcf8069c974_img.jpg)",
+        "MSDS QR Code"
+      ],
+      "tables": [
+        {
+          "table_id": "table_10561",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "AMBALAJ PACKING",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "54015133010",
+              "50",
+              "--"
+            ],
+            [
+              "54015133012",
+              "25",
+              "---"
+            ],
+            [
+              "54015133008",
+              "10",
+              "--"
+            ],
+            [
+              "54015133007",
+              "5",
+              "--"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "bacc3bc12d359782c3dd64268e66929a_img.jpg",
+          "alt": "Gc 90 Granular Chlorine big container",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "d01f4371bb8136148156771a18b9ea89_img.jpg",
+          "alt": "",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "ffd08ed71f8fe40f48651642ad6aa48f_img.jpg",
+          "alt": "Gc 90 Granular Chlorine plastic drums packaging options",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "bc000baa96148db42240845c3fa226a1_img.jpg",
+          "alt": "Warning hazard icon",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "6159f1a427fd09d54c258fcf8069c974_img.jpg",
+          "alt": "MSDS QR Code",
+          "caption": "",
+          "type": "qr"
+        }
+      ],
+      "variants": [
+        {
+          "code": "54015133010",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "54015133010",
+            "packing": "50",
+            "price": "--"
+          }
+        },
+        {
+          "code": "54015133012",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "54015133012",
+            "packing": "25",
+            "price": "---"
+          }
+        },
+        {
+          "code": "54015133008",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "54015133008",
+            "packing": "10",
+            "price": "--"
+          }
+        },
+        {
+          "code": "54015133007",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "54015133007",
+            "packing": "5",
+            "price": "--"
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "the-secret-weapon-of-indoor-pools",
+      "family_title_tr": "THE SECRET WEAPON OF INDOOR POOLS",
+      "family_title_en": "THE SECRET WEAPON OF INDOOR POOLS",
+      "family_description_tr": "Profesyonel granül yapı – %70 aktif klor",
+      "family_line_count": 78,
+      "qualitative": {
+        "bullets_tr": [
+          "Ca (ClO)2 formülüne sahip inorganik bir bileşiktir",
+          "Suda yüksek oranda çözünür değildir ve daha tercihen yumuşak ila orta sertlikte suda kullanılır",
+          "Kalsiyum hipoklorit genel olarak yüzme havuzlarını ve içme suyunu dezenfekte etmek için kullanılır",
+          "Beyaz, granül, klor bazlı bir üründür",
+          "Legionella'ya karşı etkindir",
+          "Granül olduğu için kullanımı kolay ve pratiktir",
+          "Bağlı klor yükseldiğinde şoklama için idealdir",
+          "Inorganic compound with the formula Ca (ClO)2",
+          "Not highly soluble in water and more preferably used in soft to medium hard water",
+          "Calcium hypochlorite is generally used to disinfect swimming pools and drinking water",
+          "It is a white, granular, chlorine based product",
+          "Active against Legionella",
+          "It is easy and practical to use because of granular",
+          "Ideal for shock when bound chlorine rises"
+        ],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [
+        "MSDS belgesine ulaşmak için QR kodu okutun.",
+        "*Scan the QR code to access the MSDS document.*",
+        "![QR code linking to the MSDS document.](b82d019ebcb1955f7c90ea6a01e89501_img.jpg)",
+        "QR code linking to the MSDS document."
+      ],
+      "family_notes": [
+        "MSDS belgesine ulaşmak için QR kodu okutun.",
+        "*Scan the QR code to access the MSDS document.*",
+        "![QR code linking to the MSDS document.](b82d019ebcb1955f7c90ea6a01e89501_img.jpg)",
+        "QR code linking to the MSDS document."
+      ],
+      "tables": [
+        {
+          "table_id": "table_10650",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "AMBALAJ PACKING",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "440002006",
+              "40",
+              "--"
+            ],
+            [
+              "440002011",
+              "25",
+              "---"
+            ],
+            [
+              "440002012",
+              "10",
+              "--"
+            ],
+            [
+              "440002005",
+              "5",
+              "--"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "201563b276c635ff3c8e55f59ca9e9fc_img.jpg",
+          "alt": "A large white plastic drum of Ch 70 Calcium Hypochlorite granules.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "b01ec626d8a0cbbebb8b2b51290bdbbd_img.jpg",
+          "alt": "Packaging options: Plastik Kova / Plastic Drum 5 - 10 - 25 - 40 Kg",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "b4117fc511295f4b12b223457ecfd8ba_img.jpg",
+          "alt": "Two white plastic drums of Ch 70 Calcium Hypochlorite granules, one larger than the other.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "af7eb00763e5bc346dc57fde3747e2e1_img.jpg",
+          "alt": "Warning icon: a triangle with a drop inside.",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "b82d019ebcb1955f7c90ea6a01e89501_img.jpg",
+          "alt": "QR code linking to the MSDS document.",
+          "caption": "",
+          "type": "qr"
+        }
+      ],
+      "variants": [
+        {
+          "code": "440002006",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "440002006",
+            "packing": "40",
+            "price": "--"
+          }
+        },
+        {
+          "code": "440002011",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "440002011",
+            "packing": "25",
+            "price": "---"
+          }
+        },
+        {
+          "code": "440002012",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "440002012",
+            "packing": "10",
+            "price": "--"
+          }
+        },
+        {
+          "code": "440002005",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "440002005",
+            "packing": "5",
+            "price": "--"
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "tc-200-chlorine-tablet",
+      "family_title_tr": "Tc 200 Chlorine Tablet",
+      "family_title_en": "Tc 200 Chlorine Tablet",
+      "family_description_tr": "200 g yavaş çözünen tablet form – Sürekli ve etkin dezenfeksiyon.",
+      "family_line_count": 99,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [
+          "### SILENT SAVIOR"
+        ],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [
+        "MSDS belgesine ulaşmak için QR kodu okutun.",
+        "Scan the QR code to access the MSDS document.",
+        "![QR code linking to the MSDS document.](3c656a4f3226134bf339e1169aec5b57_img.jpg)",
+        "QR code linking to the MSDS document."
+      ],
+      "family_notes": [
+        "MSDS belgesine ulaşmak için QR kodu okutun.",
+        "Scan the QR code to access the MSDS document.",
+        "![QR code linking to the MSDS document.](3c656a4f3226134bf339e1169aec5b57_img.jpg)",
+        "QR code linking to the MSDS document."
+      ],
+      "tables": [
+        {
+          "table_id": "table_10752",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "AMBALAJ PACKING",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "54016133004",
+              "50",
+              "--"
+            ],
+            [
+              "54016133007",
+              "25",
+              "---"
+            ],
+            [
+              "54016133002",
+              "10",
+              "--"
+            ],
+            [
+              "54016133003",
+              "5",
+              "--"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "d740ca3c4110579e86de4400c75a06e5_img.jpg",
+          "alt": "Tablet icon",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "95e0dd1f75964e79798d74a9eb833054_img.jpg",
+          "alt": "90% icon",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "08b8733091eede54c65f13024f1c2704_img.jpg",
+          "alt": "A large white plastic drum of Tc 200 Chlorine Tablet with a red and white label.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "7374350e6d067648bb7e147c32bc04d9_img.jpg",
+          "alt": "Diagram showing packaging options: Plastic Drum (5-10-25 Kg) and Fiber Drum (50 Kg).",
+          "caption": "",
+          "type": "diagram"
+        },
+        {
+          "file": "3c656a4f3226134bf339e1169aec5b57_img.jpg",
+          "alt": "QR code linking to the MSDS document.",
+          "caption": "",
+          "type": "qr"
+        },
+        {
+          "file": "54d65466bcc1e4c56b8f7d4ba5b62493_img.jpg",
+          "alt": "Three white plastic drums of Tc 200 Chlorine Tablet in different sizes.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "f2ebfcd59cbdd8f4ea9815c3e122dda4_img.jpg",
+          "alt": "Warning icon: a triangle with a drop inside.",
+          "caption": "",
+          "type": "icon"
+        }
+      ],
+      "variants": [
+        {
+          "code": "54016133004",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "54016133004",
+            "packing": "50",
+            "price": "--"
+          }
+        },
+        {
+          "code": "54016133007",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "54016133007",
+            "packing": "25",
+            "price": "---"
+          }
+        },
+        {
+          "code": "54016133002",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "54016133002",
+            "packing": "10",
+            "price": "--"
+          }
+        },
+        {
+          "code": "54016133003",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "54016133003",
+            "packing": "5",
+            "price": "--"
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "b-t-n-bakim-complete-care",
+      "family_title_tr": "BÜTÜN BAKIM COMPLETE CARE",
+      "family_title_en": "BÜTÜN BAKIM COMPLETE CARE",
+      "family_description_tr": "%90 aktif klor, yosun önleyici ve çöktürücü katkılı",
+      "family_line_count": 91,
+      "qualitative": {
+        "bullets_tr": [
+          "Yosun önleyici, çöktürücü ve %90 tablet klor içeren",
+          "Dezenfeksiyonu, yosun oluşumunun engellenmesini ve",
+          "Kış bakım kimyasalı olarak da kullanılır",
+          "In the form of 200 gr tablets containing anti-algae, flocculant and",
+          "Its disinfection prevents the formation of algae and allows",
+          "Also used as a winter care chemical"
+        ],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [
+        "MSDS belgesine",
+        "access the MSDS",
+        "![QR code linking to the MSDS document.](49e22ec5a87d94c27df5d2c9e104997b_img.jpg)",
+        "QR code linking to the MSDS document."
+      ],
+      "family_notes": [
+        "MSDS belgesine",
+        "access the MSDS",
+        "![QR code linking to the MSDS document.](49e22ec5a87d94c27df5d2c9e104997b_img.jpg)",
+        "QR code linking to the MSDS document."
+      ],
+      "tables": [
+        {
+          "table_id": "table_10846",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "AMBALAJ PACKING",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "54022002001",
+              "50",
+              "--"
+            ],
+            [
+              "54022002011",
+              "20",
+              "---"
+            ],
+            [
+              "54022002002",
+              "10",
+              "--"
+            ],
+            [
+              "54022002010",
+              "5",
+              "--"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "5a75c509d53a0ea43e855b271541b3ba_img.jpg",
+          "alt": "Tablet icon",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "5ab01c5de59b6eb800c2b9b133bb7583_img.jpg",
+          "alt": "%90 icon",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "a29b6e1a1b079703f4e9ad0266ae1977_img.jpg",
+          "alt": "A large white plastic bucket of Mft Multifunctional Tablet with a label showing a person swimming and product details.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "20f6c9c0f7e7565a4eff7a3894acff9f_img.jpg",
+          "alt": "Diagram showing packaging options: Plastic Drum (5-10-20) and Fiber Drum (50).",
+          "caption": "",
+          "type": "diagram"
+        },
+        {
+          "file": "7a6d5a6f9e5690e8791448e01e9a0c20_img.jpg",
+          "alt": "Three white plastic buckets of Mft Multifunctional Tablet in different sizes.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "ce193ab3992461f79ddaa57a6d2a49b9_img.jpg",
+          "alt": "Warning icon: a triangle with a drop inside.",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "49e22ec5a87d94c27df5d2c9e104997b_img.jpg",
+          "alt": "QR code linking to the MSDS document.",
+          "caption": "",
+          "type": "qr"
+        }
+      ],
+      "variants": [
+        {
+          "code": "54022002001",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "54022002001",
+            "packing": "50",
+            "price": "--"
+          }
+        },
+        {
+          "code": "54022002011",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "54022002011",
+            "packing": "20",
+            "price": "---"
+          }
+        },
+        {
+          "code": "54022002002",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "54022002002",
+            "packing": "10",
+            "price": "--"
+          }
+        },
+        {
+          "code": "54022002010",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "54022002010",
+            "packing": "5",
+            "price": "--"
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "pr-ph-reducer",
+      "family_title_tr": "Pr (-) Ph Reducer",
+      "family_title_en": "Pr (-) Ph Reducer",
+      "family_description_tr": "Havuz suyunda ideal pH dengesini sağlayan granül sodyum bisülfat. 25 kg torba, 10 kg ve 6 kg kova seçenekleriyle sunulur.",
+      "family_line_count": 78,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [
+        "MSDS belgesine ulaşmak için QR kodu okutun.",
+        "Scan the QR code to access the MSDS document.",
+        "![QR code linking to the MSDS document.](8bd382a6ca4f71a03496323ce707fec9_img.jpg)",
+        "QR code linking to the MSDS document."
+      ],
+      "family_notes": [
+        "MSDS belgesine ulaşmak için QR kodu okutun.",
+        "Scan the QR code to access the MSDS document.",
+        "![QR code linking to the MSDS document.](8bd382a6ca4f71a03496323ce707fec9_img.jpg)",
+        "QR code linking to the MSDS document."
+      ],
+      "tables": [
+        {
+          "table_id": "table_10927",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "AMBALAJ PACKING",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "55015133001",
+              "25 Kova Drum",
+              "--"
+            ],
+            [
+              "55015133004",
+              "25 PP Torba PP Back",
+              "---"
+            ],
+            [
+              "55015133002",
+              "10",
+              "--"
+            ],
+            [
+              "55015133003",
+              "6",
+              "--"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "123ec20db51cc0e3ec8a0d20e951086b_img.jpg",
+          "alt": "A large white plastic bucket of Pr Ph (-) Düşürücü (Pr Ph (-) Reducer) granular product. The label features a person swimming in a pool and text in Turkish and English.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "6a4afb85a7825575e79494b5cf38b254_img.jpg",
+          "alt": "Diagram showing packaging options: Plastik Kova (Plastic Drum) with weights 6, 10, and 25 kg, and Torba (Bag) with weight 25 kg.",
+          "caption": "",
+          "type": "diagram"
+        },
+        {
+          "file": "15ced3ce0eeaf7fd0ea68200b7d336ad_img.jpg",
+          "alt": "Three white plastic buckets of Pr Ph (-) Düşürücü (Pr Ph (-) Reducer) granular product in different sizes.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "1b5c1096005aac26481b909e8f809351_img.jpg",
+          "alt": "Warning icon: a triangle with a drop inside.",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "8bd382a6ca4f71a03496323ce707fec9_img.jpg",
+          "alt": "QR code linking to the MSDS document.",
+          "caption": "",
+          "type": "qr"
+        }
+      ],
+      "variants": [
+        {
+          "code": "55015133001",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "55015133001",
+            "packing": "25 Kova Drum",
+            "price": "--"
+          }
+        },
+        {
+          "code": "55015133004",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "55015133004",
+            "packing": "25 PP Torba PP Back",
+            "price": "---"
+          }
+        },
+        {
+          "code": "55015133002",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "55015133002",
+            "packing": "10",
+            "price": "--"
+          }
+        },
+        {
+          "code": "55015133003",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "55015133003",
+            "packing": "6",
+            "price": "--"
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "pr-ph-increaseer",
+      "family_title_tr": "Pr (+) Ph Increaseer",
+      "family_title_en": "Pr (+) Ph Increaseer",
+      "family_description_tr": "Sodyum karbonat bazlı granül formu ile havuz suyunda pH seviyesini yükseltir. 10 kg ve 5 kg ambalaj seçenekleriyle sunulur.",
+      "family_line_count": 64,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [
+        "MSDS belgesine ulaşmak için QR kodu okutun.",
+        "Scan the QR code to access the MSDS document.",
+        "![QR code linking to the MSDS document.](0b388b5dcc215252818d331042c4c177_img.jpg)",
+        "QR code linking to the MSDS document."
+      ],
+      "family_notes": [
+        "MSDS belgesine ulaşmak için QR kodu okutun.",
+        "Scan the QR code to access the MSDS document.",
+        "![QR code linking to the MSDS document.](0b388b5dcc215252818d331042c4c177_img.jpg)",
+        "QR code linking to the MSDS document."
+      ],
+      "tables": [
+        {
+          "table_id": "table_10996",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "AMBALAJ PACKING",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "5016132002",
+              "5",
+              "--"
+            ],
+            [
+              "55016132001",
+              "10",
+              "--"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "22a5f9aa688de819f68a2c11ed98e7cc_img.jpg",
+          "alt": "A large white plastic bucket of Pr Ph (+) Yükseltici granular product with a label showing a person swimming in a pool.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "1ffa1705306a4221aefea59fedc0f241_img.jpg",
+          "alt": "Diagram showing two packaging options: a plastic drum (Plastik Kova) and a 5-10 kg bag (Kg).",
+          "caption": "",
+          "type": "diagram"
+        },
+        {
+          "file": "0b388b5dcc215252818d331042c4c177_img.jpg",
+          "alt": "QR code linking to the MSDS document.",
+          "caption": "",
+          "type": "qr"
+        },
+        {
+          "file": "b7bd3bb24e9d923ba24c9c2ae387b709_img.jpg",
+          "alt": "Two white plastic buckets of Pr Ph (+) Yükseltici granular product, one larger and one smaller.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "f29752bb78d5ceeab1dece1efa70b649_img.jpg",
+          "alt": "Warning icon: a triangle with a drop inside.",
+          "caption": "",
+          "type": "icon"
+        }
+      ],
+      "variants": [
+        {
+          "code": "5016132002",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "5016132002",
+            "packing": "5",
+            "price": "--"
+          }
+        },
+        {
+          "code": "55016132001",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "55016132001",
+            "packing": "10",
+            "price": "--"
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "lac-liquid-algaecide",
+      "family_title_tr": "Lac Liquid Algaecide",
+      "family_title_en": "Lac Liquid Algaecide",
+      "family_description_tr": "%4 DDAC formülüyle yosunlara karşı güçlü koruma.",
+      "family_line_count": 99,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [
+        "MSDS belgesine",
+        "access the MSDS",
+        "![QR code linking to the MSDS document.](0b7b240345472c356f4c755e1a3e311f_img.jpg)",
+        "QR code linking to the MSDS document."
+      ],
+      "family_notes": [
+        "MSDS belgesine",
+        "access the MSDS",
+        "![QR code linking to the MSDS document.](0b7b240345472c356f4c755e1a3e311f_img.jpg)",
+        "QR code linking to the MSDS document."
+      ],
+      "tables": [
+        {
+          "table_id": "table_11097",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "AMBALAJ PACKING",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "54017131001",
+              "20",
+              "--"
+            ],
+            [
+              "54017131002",
+              "10",
+              "---"
+            ],
+            [
+              "54017131003",
+              "5",
+              "--"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "d0106665313a450f6fa3a58088633743_img.jpg",
+          "alt": "Liquid icon",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "925ad77d249af8096f67fa8b03f8ff3f_img.jpg",
+          "alt": "A large white plastic drum of Lac Liquid Algaecide with a red cap and a label.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "69132502c8767be7a1eb813abf59486c_img.jpg",
+          "alt": "NETA HAVUZ PRODUCT logo",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "cd3cb5897f88949353afe7dfb3097bad_img.jpg",
+          "alt": "Plastic drum icon",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "551d540389d28f116351ee7fc777be92_img.jpg",
+          "alt": "Kg icon",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "f1fe4069b13b68ab374796d04778a353_img.jpg",
+          "alt": "Three white plastic drums of Lac Liquid Algaecide in different sizes (5L, 10L, 20L) with red caps.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "0f827c8834116e62dbf0b95b91a58c24_img.jpg",
+          "alt": "Warning icon",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "0b7b240345472c356f4c755e1a3e311f_img.jpg",
+          "alt": "QR code linking to the MSDS document.",
+          "caption": "",
+          "type": "qr"
+        }
+      ],
+      "variants": [
+        {
+          "code": "54017131001",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "54017131001",
+            "packing": "20",
+            "price": "--"
+          }
+        },
+        {
+          "code": "54017131002",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "54017131002",
+            "packing": "10",
+            "price": "---"
+          }
+        },
+        {
+          "code": "54017131003",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "54017131003",
+            "packing": "5",
+            "price": "--"
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "cleaner-s-power",
+      "family_title_tr": "CLEANER'S POWER",
+      "family_title_en": "CLEANER'S POWER",
+      "family_description_tr": "PAC bazlı çökelti formülüyle havuz suyunu berraklaştırır, süpürgenin işini kolaylaştırır. 5, 10 ve 20 litrelik ambalaj seçenekleriyle profesyonel kullanıma uygundur.",
+      "family_line_count": 71,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [
+        "MSDS belgesine ulaşmak için QR kodu okutun.",
+        "Scan the QR code to access the MSDS document.",
+        "![QR code linking to the MSDS document.](1510aec4b0e2cc142902e2eab478a45e_img.jpg)",
+        "QR code linking to the MSDS document."
+      ],
+      "family_notes": [
+        "MSDS belgesine ulaşmak için QR kodu okutun.",
+        "Scan the QR code to access the MSDS document.",
+        "![QR code linking to the MSDS document.](1510aec4b0e2cc142902e2eab478a45e_img.jpg)",
+        "QR code linking to the MSDS document."
+      ],
+      "tables": [
+        {
+          "table_id": "table_11175",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "AMBALAJ PACKING",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "55018131001",
+              "20",
+              "--"
+            ],
+            [
+              "55018131002",
+              "10",
+              "---"
+            ],
+            [
+              "55018131003",
+              "5",
+              "--"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "257b8b5bbc3d59ee67a6bd2f9c985b95_img.jpg",
+          "alt": "Sıvı Liquid icon",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "17968e67058dbae257bb6d530f876f6d_img.jpg",
+          "alt": "A large white plastic drum of Liquid Flocculant with a red cap and a label showing a person swimming in a pool.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "f27b97e3c41fb9cf208c31694c92576d_img.jpg",
+          "alt": "NETA HAVUZ PRODUCT logo",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "ef600974fbc1e10f06de64bd83a54fce_img.jpg",
+          "alt": "Diagram showing packaging options: a plastic drum icon labeled 'Plastik Bidon Plastic Drum' and a weight icon labeled '5 - 10 - 20'.",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "457fe6dbae2b2f086f609f7580b6e4f8_img.jpg",
+          "alt": "Three white plastic drums of Liquid Flocculant in 5L, 10L, and 20L sizes, each with a red cap and a label showing a person swimming in a pool.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "bc4fb1c4535c46ce1961d88f689739b8_img.jpg",
+          "alt": "Warning icon: a triangle with a drop inside.",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "1510aec4b0e2cc142902e2eab478a45e_img.jpg",
+          "alt": "QR code linking to the MSDS document.",
+          "caption": "",
+          "type": "qr"
+        }
+      ],
+      "variants": [
+        {
+          "code": "55018131001",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "55018131001",
+            "packing": "20",
+            "price": "--"
+          }
+        },
+        {
+          "code": "55018131002",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "55018131002",
+            "packing": "10",
+            "price": "---"
+          }
+        },
+        {
+          "code": "55018131003",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "55018131003",
+            "packing": "5",
+            "price": "--"
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "lb-liquid-brighener",
+      "family_title_tr": "Lb Liquid Brighener",
+      "family_title_en": "Lb Liquid Brighener",
+      "family_description_tr": "Her damlada berrak bir ışık, her havuzda göz alıcı bir parlaklık. PAC ve DDAC formülüyle müşterilerinize profesyonel berraklığı yaşatın.",
+      "family_line_count": 75,
+      "qualitative": {
+        "bullets_tr": [
+          "Yüzme havuzlarında, partiküler kirliliğin filtrelerde tutunmasını sağlayarak koloidal kirliliği giderir",
+          "Havuz suyunun temiz ve berrak kalmasını sağlar",
+          "It removes colloidal pollution in swimming pools by keeping the particulate pollution on the filters",
+          "It keeps the pool water clean and clear"
+        ],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [
+        "MSDS belgesine ulaşmak için QR kodu okutun.",
+        "*Scan the QR code to access the MSDS document.*",
+        "![QR code linking to the MSDS document](aeb0cc39ca0fef030e58caf282e0dbae_img.jpg)",
+        "QR code linking to the MSDS document"
+      ],
+      "family_notes": [
+        "MSDS belgesine ulaşmak için QR kodu okutun.",
+        "*Scan the QR code to access the MSDS document.*",
+        "![QR code linking to the MSDS document](aeb0cc39ca0fef030e58caf282e0dbae_img.jpg)",
+        "QR code linking to the MSDS document"
+      ],
+      "tables": [
+        {
+          "table_id": "table_11253",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "AMBALAJ PACKING",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "55017131005",
+              "20",
+              "--"
+            ],
+            [
+              "55017131002",
+              "10",
+              "---"
+            ],
+            [
+              "55017131003",
+              "5",
+              "--"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "925596022b31c8bb2cb83ee8503e9f65_img.jpg",
+          "alt": "Liquid drop icon",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "2fdbe6b1a4a4786282d7278b0900c718_img.jpg",
+          "alt": "A large white plastic drum of Liquid Brighener with a red cap and a label showing a person swimming.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "4941dff0252732e33b99987463e34adb_img.jpg",
+          "alt": "NETA HAVUZ PRODUCT logo",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "a8d9e9db09c63aade40b21f869a428e0_img.jpg",
+          "alt": "Plastic drum icon",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "ac53c489683dd4a83e99716f08558b7f_img.jpg",
+          "alt": "Weight icon",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "aeb0cc39ca0fef030e58caf282e0dbae_img.jpg",
+          "alt": "QR code linking to the MSDS document",
+          "caption": "",
+          "type": "qr"
+        },
+        {
+          "file": "379bc396281b8d0f23b89f425c49fcbd_img.jpg",
+          "alt": "Warning triangle icon",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "afd80d9aaf2604c74ac5131f7ea0f192_img.jpg",
+          "alt": "Three white plastic drums of Liquid Brighener in different sizes (5L, 10L, 20L) with red caps and labels.",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "55017131005",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "55017131005",
+            "packing": "20",
+            "price": "--"
+          }
+        },
+        {
+          "code": "55017131002",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "55017131002",
+            "packing": "10",
+            "price": "---"
+          }
+        },
+        {
+          "code": "55017131003",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "55017131003",
+            "packing": "5",
+            "price": "--"
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "sc-liquid-surface-cleaner",
+      "family_title_tr": "Sc Liquid Surface Cleaner",
+      "family_title_en": "Sc Liquid Surface Cleaner",
+      "family_description_tr": "Yüzeylerdeki kir ve kalıntıları etkili şekilde temizler, hijyen ve estetik görünüm kazandırır. Profesyonel temizlik için ideal çözümdür.",
+      "family_line_count": 71,
+      "qualitative": {
+        "bullets_tr": [
+          "İnorganik esaslı asit içerir",
+          "Havuz yüzeyleri ve diğer yüzeyler üzerinde birikmiş olan kireç ve mineral kir tabakasını temizler",
+          "Contains inorganic acid",
+          "It cleans the lime and mineral dirt layer accumulated on pool surfaces and other surfaces"
+        ],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_11312",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "AMBALAJ PACKING",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "54021132002",
+              "20",
+              "--"
+            ],
+            [
+              "54021132001",
+              "5",
+              "--"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "74975e4ad71c69a879b9f0fe0ca12cf1_img.jpg",
+          "alt": "Sıvı Liquid icon",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "ef03ec4c256bc05f9d372705c7027b38_img.jpg",
+          "alt": "A large white plastic drum of Sc Liquid Surface Cleaner with a red cap and a label showing a person cleaning a surface.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "25a200d04944bc7c0e414be211168a25_img.jpg",
+          "alt": "Diagram showing two packaging options: a plastic drum (Plastik Bidon) and a weight (Kg) with a range of 5 - 20.",
+          "caption": "",
+          "type": "diagram"
+        },
+        {
+          "file": "da0e1ad8e628ab9d5ce46e5931cc8007_img.jpg",
+          "alt": "Two white plastic drums of Sc Liquid Surface Cleaner, one larger and one smaller, both with red caps and labels.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "6b941c3e28a32bd4250f0039f5c92bf3_img.jpg",
+          "alt": "Warning icon: a triangle with an exclamation mark.",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "432839fdba975a95098b73bb471ae7bd_img.jpg",
+          "alt": "Deep Blue logo with the text 'HAVUZ KİMYASALLARI' below it.",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "435f27d1a5a91607e99651981dd30fa7_img.jpg",
+          "alt": "Deep Blue logo with the text 'HAVUZ KİMYASALLARI' below it.",
+          "caption": "",
+          "type": "icon"
+        }
+      ],
+      "variants": [
+        {
+          "code": "54021132002",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "54021132002",
+            "packing": "20",
+            "price": "--"
+          }
+        },
+        {
+          "code": "54021132001",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "54021132001",
+            "packing": "5",
+            "price": "--"
+          }
+        }
+      ]
+    }
+  ]
+}

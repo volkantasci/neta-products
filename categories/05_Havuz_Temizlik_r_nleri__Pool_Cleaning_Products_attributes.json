@@ -1,0 +1,2268 @@
+{
+  "category_no": "05",
+  "category_tr": "Havuz Temizlik Ürünleri",
+  "category_en": "Pool Cleaning Products",
+  "family_count": 17,
+  "variant_count": 34,
+  "families": [
+    {
+      "family_product_id": "goodrob-easy",
+      "family_title_tr": "Goodrob Easy",
+      "family_title_en": "Goodrob Easy",
+      "family_description_tr": "Her havuzlu evde olması gereken bir süpürge olan Goodrob Easy, yalnızca havuz tabanını temizlemek için tasarlanmış kablosuz bir çözümdür.",
+      "family_line_count": 140,
+      "qualitative": {
+        "bullets_tr": [
+          "Betonarme, liner, polyester, spa havuzlarında kullanılır",
+          "Kablosuz tasarım",
+          "Hızlı şarj, uzun çalışma süresi",
+          "60,5 lt/dk güçlü emiş özelliği",
+          "Teleskopik sap uzunluğu 2,4 metre",
+          "Giriş: 1 inç",
+          "Köşeleri temizlemek için çok amaçlı vakum başlığı",
+          "Duvar ya da basamakları iyi temizler",
+          "Kum, talaş, böcek, küçük yaprakları süpürür",
+          "Can be used in reinforced concrete, liner, polyester, Spa pools",
+          "Cordless design",
+          "Fast charging, long running time",
+          "Powerful suction 60,5 lt / mins",
+          "Telescopic pole length 2,4 m",
+          "Inlet size 1\"",
+          "For corners multi-purpose triangular vacuum head",
+          "Replaceable cleaning head, perfect for pool steps and hard-to-clean walls&corners",
+          "Vacuums leaves, small twigs, bugs, debris, dirt, sand & algae"
+        ],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_6843",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "SAP UZUNLUĞU POLE LENGTH",
+            "GÜÇ POWER INPUT",
+            "AĞIRLIK WEIGHT",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "19815273202",
+              "0,7 - 2,4 mt",
+              "100-240 V 50/60 HZ",
+              "3,5 kg",
+              "299 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "9be28adb02d5c9bb556201f996227b97_img.jpg",
+          "alt": "Cordless icon",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "45288f34fe16a1994087949fbe230ecd_img.jpg",
+          "alt": "Working time icon",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "0efd6f12e56065db5c69e0c6619267e7_img.jpg",
+          "alt": "Capacity icon",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "005420cc3e72ba1b776e3dfab2b7388a_img.jpg",
+          "alt": "Charging time icon",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "9a2f8bc9a45777246c2932a0858167a9_img.jpg",
+          "alt": "IP rating icon",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "2de45e7888b80928240dffd4898411dc_img.jpg",
+          "alt": "Telescopic pole icon",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "9a8ac420e06b5006028630e9a2bed723_img.jpg",
+          "alt": "NETA HAVUZ PRODUCT logo",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "c4b216a3e792ef5e00c2d7c0ad9c6937_img.jpg",
+          "alt": "Goodrob Easy vacuum cleaner",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "3838d5fd17c1598ce24bcc8fdbedefec_img.jpg",
+          "alt": "Goodrob Easy vacuum cleaner and accessories",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "7572273b00919c194f8e28cc086d7a0f_img.jpg",
+          "alt": "Triangular vacuum head",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "161c22c1b0b505ed72e7bb3cfa486974_img.jpg",
+          "alt": "QR code for user manual",
+          "caption": "",
+          "type": "qr"
+        },
+        {
+          "file": "a3c889dc227c1283c000c7f5bc224ff1_img.jpg",
+          "alt": "QR code for unboxing",
+          "caption": "",
+          "type": "qr"
+        },
+        {
+          "file": "758f014ea748ccee9c2a124c9fd52cb9_img.jpg",
+          "alt": "QR code for user comments",
+          "caption": "",
+          "type": "qr"
+        }
+      ],
+      "variants": [
+        {
+          "code": "19815273202",
+          "price": "299 €",
+          "price_eur": 299.0,
+          "values": {
+            "code": "19815273202",
+            "pole_length": "0,7 - 2,4 mt",
+            "power_input": "100-240 V 50/60 HZ",
+            "weight": "3,5 kg",
+            "price": "299 €",
+            "price_eur": 299.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "goodrob-easy-plus",
+      "family_title_tr": "Goodrob Easy Plus",
+      "family_title_en": "Goodrob Easy Plus",
+      "family_description_tr": "Goodrob Easy Plus, havuz tabanını temizlemek için tasarlanmış kablosuz bir süpürge dir. Geniş başlığı ve büyük haznesiyle pratik ve güçlü bir çözümdür.",
+      "family_line_count": 131,
+      "qualitative": {
+        "bullets_tr": [
+          "Betonarme, liner, polyester, spa havuzlarında kullanılır",
+          "Kablosuz tasarım",
+          "Hızlı şarj, uzun çalışma süresi",
+          "LED ışık sistemi, cihazın güç seviyesini yeşil ve kırmızı ışıklarla göstererek düşük şarj durumunda kullanıcıyı uyarır",
+          "Optimize edilebilir fırça konumu ve daha büyük vakum başlığı",
+          "Bakır Sargı: Ürün, bakır sargılı motor ile dayanıklılık sağlar.",
+          "Nominal Güç: 40W - Nominal Voltaj: DC 18V",
+          "Pil Kapasitesi: 2AH",
+          "Kullanım Süresi: Tam şarj ile 50-60 dakika",
+          "Şarj Süresi: 90 dakika",
+          "Şarj Cihazı Kablo Uzunluğu: 1,2 m",
+          "Çıkış: 21V-1,5A",
+          "Maksimum Parçacık Geçiş: <25 mm",
+          "Giriş Boyutu: 1\"",
+          "Maksimum Basma Yüksekliği: 2,5 - 3 m",
+          "Maksimum Akış Hızı: 4200 l/h",
+          "Suitable for concrete, liner, polyester, and spa pools",
+          "Cordless design",
+          "Fast charging, long working time",
+          "LED light system indicates the device's power level with green and red lights, alerting the user when the charge is low",
+          "Optimizable brush position and larger vacuum head",
+          "Copper Wire: The product ensures durability with a copper-wound motor",
+          "Rated Power: 40W - Rated Voltage: DC 18V",
+          "Battery Capacity: 2AH",
+          "Usage Time: 50-60 minutes on a full charge",
+          "Charging Time: 90 minutes",
+          "Charger Cable Length: 1.2 m",
+          "Output: 21V-1.5A",
+          "Maximum Passage Particles: <25 mm",
+          "Inlet Size: 1\"",
+          "Maximum head is between 2.5 - 3 m",
+          "Maximum Flow Rate: 4200 l/h"
+        ],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_6975",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "SAP UZUNLUĞU POLE LENGTH",
+            "GÜÇ POWER INPUT",
+            "AĞIRLIK WEIGHT",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "19815273203",
+              "0,7 - 2,4 mt",
+              "100-240 V 50/60 HZ",
+              "3 kg",
+              "339 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "b7b398aad41549374bb0e832cb40ca97_img.jpg",
+          "alt": "Cordless icon",
+          "caption": "KABLOSUZ",
+          "type": "icon"
+        },
+        {
+          "file": "3470656b30b6b9ec4b12aca9c89b8502_img.jpg",
+          "alt": "Working time icon",
+          "caption": "60 DK ÇALIŞMA SÜRESİ",
+          "type": "icon"
+        },
+        {
+          "file": "5f14d13c8732cabf33c0851f477e9f44_img.jpg",
+          "alt": "Capacity icon",
+          "caption": "1,8 LT HAZNE KAPASİTESİ",
+          "type": "icon"
+        },
+        {
+          "file": "80d9c316f2af47b5a300de83baeb8a17_img.jpg",
+          "alt": "Charging time icon",
+          "caption": "1,5 SAAT ŞARJ OLUR",
+          "type": "icon"
+        },
+        {
+          "file": "365041449e985f10ed845c60a1e4b82f_img.jpg",
+          "alt": "IP rating icon",
+          "caption": "IP X8",
+          "type": "icon"
+        },
+        {
+          "file": "397e810041f3127c0780c660c094d697_img.jpg",
+          "alt": "Power indicator icon",
+          "caption": "GÜÇ GÖSTERGE IŞIĞI",
+          "type": "icon"
+        },
+        {
+          "file": "c1d34e09a9a751379016eb82f5c6337d_img.jpg",
+          "alt": "Huge vacuum head icon",
+          "caption": "DAHA BÜYÜK BAŞLIK",
+          "type": "icon"
+        },
+        {
+          "file": "a2effcd55819108748c9da3d84f6ba76_img.jpg",
+          "alt": "Telescopic handle icon with text: Teleskopik Saplı Telescopic-Handheld",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "f056a5e4eb84884ac9b8e14720534cc3_img.jpg",
+          "alt": "NETA HAVUZ PRODUCT logo",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "5df91759057ff2c387aead0f3acdf624_img.jpg",
+          "alt": "Goodrob Easy Plus vacuum cleaner",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "8b0c37b0b976c592379e8e4f5d998557_img.jpg",
+          "alt": "CE mark",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "5be5479a38be6637fd74ed371b4481f5_img.jpg",
+          "alt": "Goodrob Easy Plus vacuum cleaner and its components",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "c27505de3928686b3e5a431a01e4b966_img.jpg",
+          "alt": "QR code linking to the user manual",
+          "caption": "",
+          "type": "qr"
+        },
+        {
+          "file": "466dd2108046cc8649e12cb444dac3f8_img.jpg",
+          "alt": "Comparison of standard and enlarged suction port",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "cbdd0c05827e5ce4dc499a7b9a4630ec_img.jpg",
+          "alt": "Comparison of standard and optimized brush design",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "19815273203",
+          "price": "339 €",
+          "price_eur": 339.0,
+          "values": {
+            "code": "19815273203",
+            "pole_length": "0,7 - 2,4 mt",
+            "power_input": "100-240 V 50/60 HZ",
+            "weight": "3 kg",
+            "price": "339 €",
+            "price_eur": 339.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "goodrob-maxi",
+      "family_title_tr": "Goodrob Maxi",
+      "family_title_en": "Goodrob Maxi",
+      "family_description_tr": "Yalnızca havuz tabanını temizlemek için tasarlanmış kablosuz bir robottur. Uzun çalışma süresi ve güçlü emişiyle profesyonellerin güvenilir yardımcısıdır.",
+      "family_line_count": 145,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_7121",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "ŞARJ SÜRESİ CHARGING TIME",
+            "GÜÇ POWER",
+            "AĞIRLIK WEIGHT",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "19815273200",
+              "4 Saat Hour",
+              "30W",
+              "3,9 kg",
+              "490 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "230875af8b63597f0bc18881adef7ceb_img.jpg",
+          "alt": "Cordless icon",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "60cf2e0550a5abebe405754840c0926a_img.jpg",
+          "alt": "Working time icon",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "09850acc1ab247e53cf56c6865a83518_img.jpg",
+          "alt": "Light weight icon",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "a357f5db8980ed09871bd7cf00328a74_img.jpg",
+          "alt": "Charging time icon",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "740f8acc7c00727e796260e80d6e341f_img.jpg",
+          "alt": "IP X8 icon",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "ec3a16906db567f3d2ac42395db23507_img.jpg",
+          "alt": "Goodrob Maxi robot",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "5d4a01a540767ea3f8a75cf76606835e_img.jpg",
+          "alt": "NETA HAVUZ PRODUCT logo",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "66846f0bbd28fe3c0262d9b4363f34a6_img.jpg",
+          "alt": "Internal components of the robot",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "085c9f31af73bac5c8304294f237dfaa_img.jpg",
+          "alt": "Robot showing smart sensor navigation",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "c6b766812c2830d2f5ae7282aeeba71a_img.jpg",
+          "alt": "QR code for user manual",
+          "caption": "",
+          "type": "qr"
+        },
+        {
+          "file": "4a696543e19063185ebc9ab82ba08e96_img.jpg",
+          "alt": "QR code for performance video",
+          "caption": "",
+          "type": "performance_curve"
+        }
+      ],
+      "variants": [
+        {
+          "code": "19815273200",
+          "price": "490 €",
+          "price_eur": 490.0,
+          "values": {
+            "code": "19815273200",
+            "charging_time": "4 Saat Hour",
+            "power_w": "30W",
+            "weight": "3,9 kg",
+            "price": "490 €",
+            "price_eur": 490.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "goodrob-pro",
+      "family_title_tr": "Goodrob Pro",
+      "family_title_en": "Goodrob Pro",
+      "family_description_tr": "NETA HAVUZ PRODUCT logo",
+      "family_line_count": 211,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [
+          "DUVARA TIRMANIR"
+        ],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_7253",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "ŞARJ SÜRESİ CHARGING TIME",
+            "GÜÇ POWER",
+            "AĞIRLIK WEIGHT",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "1981527320",
+              "4 Saat Hour",
+              "65W",
+              "7,7 kg",
+              "1.280 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "fee76185b064b43dcfcd4a67a19565ae_img.jpg",
+          "alt": "NETA HAVUZ PRODUCT logo",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "f8b9cd80c1c2f90dcc644b4c3cc30aaa_img.jpg",
+          "alt": "KABLOSUZ CORDLESS icon",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "84bc5af9dfd55f0146d3759535524594_img.jpg",
+          "alt": "110 DK ÇALIŞMA SÜRESİ 110 MINS. WORKING TIME icon",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "4e0595fe58f30757d9559d67f566fbdd_img.jpg",
+          "alt": "DUVARA TIRMANIR CLIMB THE WALL icon",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "7d9ac1ef3da0f623e334c58b4304fcb0_img.jpg",
+          "alt": "4 SAAT ŞARJ OLUR 4 CHARGING TIME icon",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "24fed54a9d2ca97fe00b99d2f9c05fd4_img.jpg",
+          "alt": "IP X8 icon",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "15319e08a13f3831e88452d45fba361e_img.jpg",
+          "alt": "Goodrob Pro pool cleaner robot",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "421ea21ac94d9ef6ba7ab404ade99944_img.jpg",
+          "alt": "Close-up of the wide suction door of the Goodrob Pro pool cleaner.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "723a0b7ada6afb2c61ff4dd8e0c17b68_img.jpg",
+          "alt": "QR code for performance video",
+          "caption": "",
+          "type": "performance_curve"
+        },
+        {
+          "file": "0b5c031cf888cf0fe7e72e16ff04a0ec_img.jpg",
+          "alt": "QR code for user manual",
+          "caption": "",
+          "type": "qr"
+        },
+        {
+          "file": "518b481cfb74bbecd98a26caaf888ce0_img.jpg",
+          "alt": "A goodgrab robot vacuum cleaner, shown from a top-down perspective, is positioned on a blue tiled pool floor. The robot is bright green and black, with a large black top cover and a green base. It has four wheels and a chain drive system.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "aa7b41817cb2e1daaa35aafce4039a5c_img.jpg",
+          "alt": "A top-down view of the goodgrab robot vacuum cleaner on a blue tiled pool floor, showing its compact design and the chain drive system.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "83b1ba0ce4c97ed727c2e068af88130e_img.jpg",
+          "alt": "A goodgrab robot vacuum cleaner is shown in a swimming pool, with its reflection visible on the water surface. The robot is bright green and black.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "60e5a3ebca87f8bced466e4c2d23a5c3_img.jpg",
+          "alt": "A goodgrab robot vacuum cleaner is shown from a side view, highlighting its modular design. The robot is bright green and black, with a large black top cover and a green base.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "6b586d166ba63b19075bb1fe89fd9372_img.jpg",
+          "alt": "A small orange battery icon.",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "960b9cffb11b28bb74c2aa9644cf5234_img.jpg",
+          "alt": "A small icon representing a path, showing a line with an arrow.",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "1c7092d0bdd520092e255309fdd6a9d1_img.jpg",
+          "alt": "A small orange plus sign icon.",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "2df330657179eae3e26dae59f8968cf5_img.jpg",
+          "alt": "A small orange icon representing a filter.",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "47f847995ad26dcbfe2c9d1f50d86a7e_img.jpg",
+          "alt": "A small icon showing a hand holding a smartphone with a app open.",
+          "caption": "",
+          "type": "icon"
+        }
+      ],
+      "variants": [
+        {
+          "code": "1981527320",
+          "price": "1.280 €",
+          "price_eur": 1280.0,
+          "values": {
+            "code": "1981527320",
+            "charging_time": "4 Saat Hour",
+            "power_w": "65W",
+            "weight": "7,7 kg",
+            "price": "1.280 €",
+            "price_eur": 1280.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "goodrob-king-500",
+      "family_title_tr": "Goodrob King 500",
+      "family_title_en": "Goodrob King 500",
+      "family_description_tr": "NETA HAVUZ PRODUCT logo",
+      "family_line_count": 125,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [
+          "DUVARA TIRMANIR"
+        ],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_7459",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "ÖNERİLEN HAVUZ BOYUTU RECOMMENDED POOL SIZE",
+            "ŞARJ SÜRESİ CHARGING TIME",
+            "GÜÇ POWER",
+            "AĞIRLIK WEIGHT",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "19815273204",
+              "2",
+              "6 Saat Hour",
+              "100W",
+              "9,4 kg",
+              "3.800 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "9a2e0224fed754d6b740485c9d4a6107_img.jpg",
+          "alt": "NETA HAVUZ PRODUCT logo",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "7297cd8ed1845dcdfa22ef025026b860_img.jpg",
+          "alt": "KABLOSUZ CORDLESS icon",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "a2ff826c07cf3c3963f0eb84ad54f8da_img.jpg",
+          "alt": "6 SAAT ÇALIŞMA SÜRESİ 6 HOURS WORKING TIME icon",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "ab33c50548370024302c66651f0fe784_img.jpg",
+          "alt": "IP X8 icon",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "0cf36fa3eac0a494a24965cabfb71c94_img.jpg",
+          "alt": "Goodrob King 500 robot image",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "c33562796bebeda980b352f214e91fe3_img.jpg",
+          "alt": "CE logo",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "801966b617bd0e0607436d552ac8e0a1_img.jpg",
+          "alt": "Goodrob King 500 robot with accessories",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "f36215d037457040da28de4c0765a99d_img.jpg",
+          "alt": "Intelligent Path Plannig diagram",
+          "caption": "",
+          "type": "diagram"
+        },
+        {
+          "file": "64e8112b95187f2a5a22e32f0245a3b8_img.jpg",
+          "alt": "QR code for user manual",
+          "caption": "",
+          "type": "qr"
+        }
+      ],
+      "variants": [
+        {
+          "code": "19815273204",
+          "price": "3.800 €",
+          "price_eur": 3800.0,
+          "values": {
+            "code": "19815273204",
+            "recommended_pool_size": "2",
+            "charging_time": "6 Saat Hour",
+            "power_w": "100W",
+            "weight": "9,4 kg",
+            "price": "3.800 €",
+            "price_eur": 3800.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "goodrob-king-1250",
+      "family_title_tr": "Goodrob King 1250",
+      "family_title_en": "Goodrob King 1250",
+      "family_description_tr": "NETA HAVUZ PRODUCT logo",
+      "family_line_count": 126,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [
+          "DUVARA TIRMANIR"
+        ],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_7586",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "ÖNERİLEN HAVUZ BOYUTU RECOMMENDED POOL SIZE",
+            "ŞARJ SÜRESİ CHARGING TIME",
+            "GÜÇ POWER",
+            "AĞIRLIK WEIGHT",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "19815273205",
+              "< 1.250m²",
+              "6 Saat Hour",
+              "100W",
+              "9,4 kg",
+              "4.500 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "d80c383f693dabedc326d89e896806da_img.jpg",
+          "alt": "NETA HAVUZ PRODUCT logo",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "4f15f199d7453d6a8254b6e14f4e033b_img.jpg",
+          "alt": "KABLOSUZ CORDLESS icon",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "7eb88bd36f4e41cd83ca083bfaa2ef76_img.jpg",
+          "alt": "Goodrob King 1250 robot image",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "899428453bac25589c760e0eee24ce0f_img.jpg",
+          "alt": "CE logo",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "185b82c6c77513d43564e609083549ad_img.jpg",
+          "alt": "Goodrob King 1250 robot image showing accessories",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "4726d710f69cfcb4989521ca912f11b6_img.jpg",
+          "alt": "Intelligent Path Planning diagram",
+          "caption": "",
+          "type": "diagram"
+        },
+        {
+          "file": "5f1a0ed1508801400dd4ccc71d4a7700_img.jpg",
+          "alt": "QR code for user manual",
+          "caption": "",
+          "type": "qr"
+        }
+      ],
+      "variants": [
+        {
+          "code": "19815273205",
+          "price": "4.500 €",
+          "price_eur": 4500.0,
+          "values": {
+            "code": "19815273205",
+            "recommended_pool_size": "< 1.250m²",
+            "charging_time": "6 Saat Hour",
+            "power_w": "100W",
+            "weight": "9,4 kg",
+            "price": "4.500 €",
+            "price_eur": 4500.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "goodrob-king-serisi-yedek-par-alar",
+      "family_title_tr": "Goodrob King Serisi Yedek Parçaları",
+      "family_title_en": "Goodrob King Serisi Yedek Parçaları",
+      "family_description_tr": "Two black solar panels for the Goodrob King series.",
+      "family_line_count": 29,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_7601",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "2099004531",
+              "--"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_7612",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "2099004530",
+              "--"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "34af25a63fcdc3adfea1abcfbd3e379d_img.jpg",
+          "alt": "Two black solar panels for the Goodrob King series.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "ccc61b30dcf6c493ccd4b603d2cd2477_img.jpg",
+          "alt": "Two white and black skimmers for the Goodrob King series.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "2e8e1107dd79e33f6e3800111ebead43_img.jpg",
+          "alt": "Hayward Pool Products logo.",
+          "caption": "",
+          "type": "icon"
+        }
+      ],
+      "variants": [
+        {
+          "code": "2099004531",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "2099004531",
+            "price": "--"
+          }
+        },
+        {
+          "code": "2099004530",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "2099004530",
+            "price": "--"
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "poolvac-v-flex",
+      "family_title_tr": "PoolVac™ V-Flex",
+      "family_title_en": "PoolVac™ V-Flex",
+      "family_description_tr": "Performans videosu için QR kodu okutun.",
+      "family_line_count": 41,
+      "qualitative": {
+        "bullets_tr": [
+          "Patentli V-Flex® teknolojisi, büyük parçacıkları bile yakalayıp optimum temizlik sağlar",
+          "AquaPilot® yönlendirme sistemi ile havuzun her noktasına ulaşır",
+          "Hidrodinamik tasarımı sayesinde serbest ve kesintisiz hareket eder",
+          "Elektrik bağlantısı gerektirmez; skimmer veya vakum nozulu ile çalışır",
+          "6x12 m'ye kadar betonarme, liner ve polyester havuzlarda kullanılabilir",
+          "10 dakikadan kısa sürede kurulumu hazırdır",
+          "Patented V-Flex® technology captures larger debris for optimum cleaning",
+          "Exclusive AquaPilot® steering system ensures complete pool coverage",
+          "Hydrodynamic design allows smooth and unhindered movement",
+          "No electrical connection required; operates via skimmer or vacuum nozzle",
+          "Suitable for reinforced concrete, liner, and polyester pools up to 6x12 m",
+          "Ready to use in less than 10 minutes"
+        ],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_7658",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "HORTUM UZUNLUĞU HOSE LENGTH",
+            "MAX. HAVUZ ÖLÇÜSÜ POOL MAX. SIZE",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "14016273009",
+              "12 mt",
+              "6 m x 12 m",
+              "749 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "1fbc4a97c79ef4b088469f3f63367554_img.jpg",
+          "alt": "QR code linking to the PoolVac V-Flex performance video.",
+          "caption": "",
+          "type": "performance_curve"
+        },
+        {
+          "file": "506be785cae971aae58b4dde4e4899a1_img.jpg",
+          "alt": "The PoolVac V-Flex robotic pool cleaner.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "27966036b6c857605c0f098de010d776_img.jpg",
+          "alt": "Diagram showing the V-Flex technology with flexible blades capturing debris.",
+          "caption": "",
+          "type": "diagram"
+        }
+      ],
+      "variants": [
+        {
+          "code": "14016273009",
+          "price": "749 €",
+          "price_eur": 749.0,
+          "values": {
+            "code": "14016273009",
+            "hose_length": "12 mt",
+            "pool_max_size": "6 m x 12 m",
+            "price": "749 €",
+            "price_eur": 749.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "tigershark",
+      "family_title_tr": "TigerShark®",
+      "family_title_en": "TigerShark®",
+      "family_description_tr": "TigerShark® pool cleaner unit, showing the blue handle and grey body.",
+      "family_line_count": 29,
+      "qualitative": {
+        "bullets_tr": [
+          "Akıllı mikroişlemci tabanlı teknoloji",
+          "Güçlü vakum gücü sağlayan dahili motor",
+          "4 saatte taban, duvar ve basamakları temizler",
+          "Temizlik bitince otomatik durur",
+          "Kartuş filtreler kolayca hortumla durulanır",
+          "Ek pompa veya hortum gerektirmez",
+          "Filtrasyon sisteminden bağımsız çalışır, geri yıkamayı azaltır",
+          "24V verimli motor ile düşük enerji tüketimi",
+          "Smart microprocessor-based technology",
+          "Built-in motor delivers strong vacuum power",
+          "Cleans pool floor, walls, and steps in 4 hours",
+          "Automatically stops after cleaning cycle",
+          "Cartridge filters easily rinsed with a garden hose",
+          "No extra pump or hose required",
+          "Operates independently from filtration system, reduces backwash",
+          "24V efficient motor for low energy consumption"
+        ],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_7709",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "HORTUM UZUNLUĞU HOSE LENGTH",
+            "MAX. HAVUZ ÖLÇÜSÜ POOL MAX. SIZE",
+            "EMİŞ KAPASİTESİ SUCTION CAPACITY",
+            "TEMİZLİK HIZI CLEANING SPEED",
+            "FİLTASYON HASSASİYETİ FILTRATION FINENESS",
+            "AĞIRLIK WEIGHT",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "14016273014",
+              "16,76 mt",
+              "7 m x 15 m",
+              "17 m³/h",
+              "18 m/min",
+              "30μ",
+              "11.40 kg",
+              "1.900 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "89512288f8cfc824238c7ea27085a95d_img.jpg",
+          "alt": "TigerShark® pool cleaner unit, showing the blue handle and grey body.",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "14016273014",
+          "price": "1.900 €",
+          "price_eur": 1900.0,
+          "values": {
+            "code": "14016273014",
+            "hose_length": "16,76 mt",
+            "pool_max_size": "7 m x 15 m",
+            "suction_capacity": "17 m³/h",
+            "cleaning_speed": "18 m/min",
+            "filtration_fineness": "30μ",
+            "weight": "11.40 kg",
+            "price": "1.900 €",
+            "price_eur": 1900.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "tigershark-qc",
+      "family_title_tr": "TigerShark® QC",
+      "family_title_en": "TigerShark® QC",
+      "family_description_tr": "TigerShark® QC pool cleaner unit, showing the blue handle and grey body.",
+      "family_line_count": 25,
+      "qualitative": {
+        "bullets_tr": [
+          "6 x 12 m'ye kadar konut tipi havuzlar için tasarlanmıştır",
+          "Havuz kaplamasına göre sünger veya konik kauçuk fırça seçeneği",
+          "4 saatte taban, duvar ve su çizgisi temizliği",
+          "Quick Clean modu ile 90 dakikada tam temizlik",
+          "ASCL mikroişlemci teknolojisiyle optimize edilmiş temizlik",
+          "Güçlü vakum sistemiyle etkili kir ve tortu temizliği",
+          "Designed for residential pools up to 6 x 12 m",
+          "Available with foam or conical rubber brush options for different coatings",
+          "Cleans pool floor, walls, and waterline in 4 hours",
+          "Quick Clean mode completes full cleaning in just 90 minutes",
+          "Optimised cleaning with ASCL microprocessor technology",
+          "Powerful suction system for effective dirt and debris removal"
+        ],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_7735",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "HORTUM UZUNLUĞU HOSE LENGTH",
+            "MAX. HAVUZ ÖLÇÜSÜ POOL MAX. SIZE",
+            "EMİŞ KAPASİTESİ SUCTION CAPACITY",
+            "TEMİZLİK HIZI CLEANING SPEED",
+            "FİLTASYON HASSASİYETİ FILTRATION FINENESS",
+            "AĞIRLIK WEIGHT",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "14016273013",
+              "16,76 mt",
+              "7 m x 15 m",
+              "17 m³/h",
+              "18 m/min",
+              "30μ",
+              "11.40 kg",
+              "1.950 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "950d5b196625608bb8dc20bd6ec271df_img.jpg",
+          "alt": "TigerShark® QC pool cleaner unit, showing the blue handle and grey body.",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "14016273013",
+          "price": "1.950 €",
+          "price_eur": 1950.0,
+          "values": {
+            "code": "14016273013",
+            "hose_length": "16,76 mt",
+            "pool_max_size": "7 m x 15 m",
+            "suction_capacity": "17 m³/h",
+            "cleaning_speed": "18 m/min",
+            "filtration_fineness": "30μ",
+            "weight": "11.40 kg",
+            "price": "1.950 €",
+            "price_eur": 1950.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "tigershark-xl-qc",
+      "family_title_tr": "TigerShark® XL QC™",
+      "family_title_en": "TigerShark® XL QC™",
+      "family_description_tr": "Performans videosu için QR kodu okutun.",
+      "family_line_count": 37,
+      "qualitative": {
+        "bullets_tr": [
+          "Akıllı mikroişlemci teknolojisi",
+          "Güçlü vakum motoru",
+          "4 saatte taban, duvar ve basamak temizliği",
+          "Süre bitince otomatik durma özelliği",
+          "Kartuş filtre kolayca temizlenir",
+          "Ek pompa veya hortum gerekmez",
+          "Filtrasyondan bağımsız çalışır, geri yıkamayı azaltır",
+          "24V verimli motor ile düşük enerji tüketimi",
+          "Smart microprocessor technology",
+          "Powerful vacuum motor",
+          "Cleans floor, walls, and steps in 4 hours",
+          "Automatically stops when cycle ends",
+          "Cartridge filter is easy to clean",
+          "No extra pump or hose required",
+          "Operates independently from filtration, reduces backwash",
+          "24V efficient motor ensures low energy use"
+        ],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_7773",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "HORTUM UZUNLUĞU HOSE LENGTH",
+            "MAX. HAVUZ ÖLÇÜSÜ POOL MAX. SIZE",
+            "EMİŞ KAPASİTESİ SUCTION CAPACITY",
+            "TEMİZLİK HIZI CLEANING SPEED",
+            "FİLTASYON HASSASİYETİ FILTRATION FINENESS",
+            "AĞIRLIK WEIGHT",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "14016273011",
+              "16,76 mt",
+              "7 m x 15 m",
+              "17 m³/h",
+              "18 m/min",
+              "30μ",
+              "11.40 kg",
+              "1.950 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "b044c2f88ab7627aac8406b8dae9ec77_img.jpg",
+          "alt": "QR code for TigerShark XL QC performance video",
+          "caption": "",
+          "type": "performance_curve"
+        },
+        {
+          "file": "b8e22912ee06a89e35a05e44e3ae05d1_img.jpg",
+          "alt": "TigerShark XL QC pool cleaner unit",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "14016273011",
+          "price": "1.950 €",
+          "price_eur": 1950.0,
+          "values": {
+            "code": "14016273011",
+            "hose_length": "16,76 mt",
+            "pool_max_size": "7 m x 15 m",
+            "suction_capacity": "17 m³/h",
+            "cleaning_speed": "18 m/min",
+            "filtration_fineness": "30μ",
+            "weight": "11.40 kg",
+            "price": "1.950 €",
+            "price_eur": 1950.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "tigershark-2",
+      "family_title_tr": "TigerShark® 2",
+      "family_title_en": "TigerShark® 2",
+      "family_description_tr": "Performans videosu için QR kodu okutun.",
+      "family_line_count": 135,
+      "qualitative": {
+        "bullets_tr": [
+          "Ticari havuzlara uygundur",
+          "Akıllı mikroişlemci teknolojisi",
+          "Güçlü vakum motoru",
+          "7 saatte taban, duvar ve basamak temizliği",
+          "Temizlik bitince otomatik durur",
+          "Kartuş filtre kolayca temizlenir",
+          "Ek pompa veya hortum gerekmez",
+          "Filtrasyondan bağımsız çalışır, geri yıkamayı azaltır",
+          "24V verimli motor ile düşük enerji tüketimi",
+          "Suitable for commercial pools",
+          "Smart microprocessor technology",
+          "Powerful vacuum motor",
+          "Cleans floor, walls, and steps in 7 hours",
+          "Automatically stops when cycle ends",
+          "Cartridge filter is easy to clean",
+          "No extra pump or hose required",
+          "Operates independently from filtration, reduces backwash",
+          "24V efficient motor ensures low energy consumption"
+        ],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_7823",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "HORTUM UZUNLUĞU HOSE LENGTH",
+            "MAX. HAVUZ ÖLÇÜSÜ POOL MAX. SIZE",
+            "EMİŞ KAPASİTESİ SUCTION CAPACITY",
+            "TEMİZLİK HIZI CLEANING SPEED",
+            "FİLTASYON HASSASİYETİ FILTRATION FINENESS",
+            "AĞIRLIK WEIGHT",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "14016273018 Fırçalı Brush",
+              "30 mt",
+              "25 m x 20 m",
+              "17 m³/h",
+              "5 m²/dk",
+              "5μ",
+              "19 kg",
+              "3.350 €"
+            ],
+            [
+              "14016273017 Sngerli Foam",
+              "30 mt",
+              "25 m x 20 m",
+              "17 m³/h",
+              "5 m²/dk",
+              "5μ",
+              "19 kg",
+              "3.350 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "c6b652f46b32a79a80d4c160f16322d2_img.jpg",
+          "alt": "QR code for TigerShark 2 performance video",
+          "caption": "",
+          "type": "performance_curve"
+        },
+        {
+          "file": "7297faae04e580f59704ee48c1b48942_img.jpg",
+          "alt": "TigerShark 2 pool cleaner unit with Sngerli Foam brush",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "18bbb6219a7ca43b103ac0b337c65ac9_img.jpg",
+          "alt": "TigerShark 2 pool cleaner unit with Fırçalı Brush",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "5ba4fe92956bfd0844230908f86ddd06_img.jpg",
+          "alt": "Icon showing a pool floor being cleaned.",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "c2f3e160c2ff46d70acee444c4a9e772_img.jpg",
+          "alt": "Icon showing a pool wall being cleaned.",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "17b2f8c384547dd8ada56ec6439c79f2_img.jpg",
+          "alt": "Icon showing a pool waterline being cleaned.",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "f83206835cbcc1aec4ca73e3ccf988fd_img.jpg",
+          "alt": "Icon showing a pool clean-up process.",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "d2f23641b54f0f81d867df4bcb30e008_img.jpg",
+          "alt": "Icon showing a robotic clean-up process.",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "b2ee5df935d93c96022d5def1423e822_img.jpg",
+          "alt": "Icon showing a 7-hour clean-up process.",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "72a96e67cbc635b6c6a8c93023f52c24_img.jpg",
+          "alt": "Icon showing a 30m cable clean-up process.",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "03ad417e930c3638d8c0c388cd779181_img.jpg",
+          "alt": "Icon showing a thumbs up sign.",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "cd09062d2942a406ce12df349e4afa97_img.jpg",
+          "alt": "Icon showing a 'BEST VALUE' seal.",
+          "caption": "",
+          "type": "icon"
+        }
+      ],
+      "variants": [
+        {
+          "code": "14016273018",
+          "price": "3.350 €",
+          "price_eur": 3350.0,
+          "values": {
+            "code": "14016273018 Fırçalı Brush",
+            "hose_length": "30 mt",
+            "pool_max_size": "25 m x 20 m",
+            "suction_capacity": "17 m³/h",
+            "cleaning_speed": "5 m²/dk",
+            "filtration_fineness": "5μ",
+            "weight": "19 kg",
+            "price": "3.350 €",
+            "price_eur": 3350.0
+          }
+        },
+        {
+          "code": "14016273017",
+          "price": "3.350 €",
+          "price_eur": 3350.0,
+          "values": {
+            "code": "14016273017 Sngerli Foam",
+            "hose_length": "30 mt",
+            "pool_max_size": "25 m x 20 m",
+            "suction_capacity": "17 m³/h",
+            "cleaning_speed": "5 m²/dk",
+            "filtration_fineness": "5μ",
+            "weight": "19 kg",
+            "price": "3.350 €",
+            "price_eur": 3350.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "havuz-robotu-ta-ma-arabas-caddy-card",
+      "family_title_tr": "Havuz Robotu Taşıma Arabası Caddy Card",
+      "family_title_en": "Havuz Robotu Taşıma Arabası Caddy Card",
+      "family_description_tr": "Image of the Caddy Card, a white plastic cart with wheels and a handle, designed for carrying the pool robot.",
+      "family_line_count": 20,
+      "qualitative": {
+        "bullets_tr": [
+          "Taşıma ve depolama yapar",
+          "Otomatik süpürgenin kolay ve hızlı taşınmasını sağlar",
+          "Makes moving and storing",
+          "Provides easy and fast transport of the automatic cleaner"
+        ],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_7930",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "AĞIRLIK WEIGHT",
+            "ÖLÇÜLER SIZE",
+            "UYUMLULUK COMPATIBILITY",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "19815273013",
+              "8 Kg",
+              "89 x 46 x 28 cm",
+              "TigerShark®, AquaVac® models",
+              "245 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "5291a22f0c454bc71c6d5f7b1ececa6d_img.jpg",
+          "alt": "Image of the Caddy Card, a white plastic cart with wheels and a handle, designed for carrying the pool robot.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "9770402ebb3234bb57b5f526f7c68b8f_img.jpg",
+          "alt": "Image of a person using the Caddy Card to transport the pool robot.",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "19815273013",
+          "price": "245 €",
+          "price_eur": 245.0,
+          "values": {
+            "code": "19815273013",
+            "weight": "8 Kg",
+            "size": "89 x 46 x 28 cm",
+            "compatibility": "TigerShark®, AquaVac® models",
+            "price": "245 €",
+            "price_eur": 245.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "havuz-kep-eleri-leaf-scoops",
+      "family_title_tr": "Havuz Kepçeleri Leaf Scoops",
+      "family_title_en": "Havuz Kepçeleri Leaf Scoops",
+      "family_description_tr": "Three models of Deep Bottom Leaf Scoops: 1. Blue frame with blue bag, 2. Blue frame with blue bag, 3. Black frame with black bag.",
+      "family_line_count": 51,
+      "qualitative": {
+        "bullets_tr": [
+          "Havuzun dibindeki pislikleri almak için üretilmiştir",
+          "Derin torbası sayesinde pislikleri rahatça toplar",
+          "UV dayanımlı çerçeve",
+          "Kaliteli ve dayanıklı ağ",
+          "Her sapa uyumlu klipsli bağlantı",
+          "Made to get trash at the bottom of the pool",
+          "Thanks to its deep bag, it collects dirt easily",
+          "UV resistant frame",
+          "Quality and durable leaf",
+          "Suitable for every poles models with clip-on connection",
+          "Havuzun dibindeki pislikleri almak için üretilmiştir",
+          "Sığ torbası sayesinde yüzeyde biriken yaprak, böcek gibi kalıntıları kolayca toplar",
+          "UV dayanımlı çerçeve",
+          "Kaliteli ve dayanıklı ağ",
+          "Her sapa uyumlu klipsli bağlantı",
+          "Made to get trash at the bottom of the pool",
+          "Thanks to its shallow bag, it easily collects residues such as leaf insects on the surface",
+          "UV resistant frame",
+          "Quality and durable leaf",
+          "Suitable for every poles models with clip-on connection"
+        ],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_7955",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "MODEL",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "14019123001",
+              "1 Taraklı Ekonomik Model Economic Deep Bag Rake",
+              "9 €"
+            ],
+            [
+              "14019123002",
+              "2 Taraklı Lüks Model Deluxe Deep Bag Rake",
+              "11 €"
+            ],
+            [
+              "14019123006",
+              "3 Kalın Yeşil Çerçevesi Lüks Model Plastic Deep Leaf Rake In Green Color",
+              "15 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_7980",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "MODEL",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "14019123003",
+              "1 Standart Model Kepçe Standart Leaf Skimmer",
+              "7.25 €"
+            ],
+            [
+              "14019123004",
+              "2 Plastik Lüks Model Kepçe Heavy Duty Plastic Leaf Skimmer",
+              "10.45 €"
+            ],
+            [
+              "14019123005",
+              "3 Alüminyum Tutamaklı Kepçe Leaf Skimmer With Aluminium Pole",
+              "11.55 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "aa5b4fe5ea9a65d15789baa3e8dc1565_img.jpg",
+          "alt": "Three models of Deep Bottom Leaf Scoops: 1. Blue frame with blue bag, 2. Blue frame with blue bag, 3. Black frame with black bag.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "e4e1eb6989c9af4663efbbe9bdb2ffde_img.jpg",
+          "alt": "Three models of Surface Type Pool Leaf Scoops: 1. Blue frame with blue bag, 2. Black frame with black bag, 3. Blue frame with blue bag.",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "14019123001",
+          "price": "9 €",
+          "price_eur": 9.0,
+          "values": {
+            "code": "14019123001",
+            "model": "1 Taraklı Ekonomik Model Economic Deep Bag Rake",
+            "price": "9 €",
+            "price_eur": 9.0
+          }
+        },
+        {
+          "code": "14019123002",
+          "price": "11 €",
+          "price_eur": 11.0,
+          "values": {
+            "code": "14019123002",
+            "model": "2 Taraklı Lüks Model Deluxe Deep Bag Rake",
+            "price": "11 €",
+            "price_eur": 11.0
+          }
+        },
+        {
+          "code": "14019123006",
+          "price": "15 €",
+          "price_eur": 15.0,
+          "values": {
+            "code": "14019123006",
+            "model": "3 Kalın Yeşil Çerçevesi Lüks Model Plastic Deep Leaf Rake In Green Color",
+            "price": "15 €",
+            "price_eur": 15.0
+          }
+        },
+        {
+          "code": "14019123003",
+          "price": "7.25 €",
+          "price_eur": 7.25,
+          "values": {
+            "code": "14019123003",
+            "model": "1 Standart Model Kepçe Standart Leaf Skimmer",
+            "price": "7.25 €",
+            "price_eur": 7.25
+          }
+        },
+        {
+          "code": "14019123004",
+          "price": "10.45 €",
+          "price_eur": 10.45,
+          "values": {
+            "code": "14019123004",
+            "model": "2 Plastik Lüks Model Kepçe Heavy Duty Plastic Leaf Skimmer",
+            "price": "10.45 €",
+            "price_eur": 10.45
+          }
+        },
+        {
+          "code": "14019123005",
+          "price": "11.55 €",
+          "price_eur": 11.55,
+          "values": {
+            "code": "14019123005",
+            "model": "3 Alüminyum Tutamaklı Kepçe Leaf Skimmer With Aluminium Pole",
+            "price": "11.55 €",
+            "price_eur": 11.55
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "havuz-f-r-alar-pool-brushes",
+      "family_title_tr": "Havuz Fırçaları Pool Brushes",
+      "family_title_en": "Havuz Fırçaları Pool Brushes",
+      "family_description_tr": "Curved Plastic Wire Bristle Head brush",
+      "family_line_count": 49,
+      "qualitative": {
+        "bullets_tr": [
+          "Havuz tabanını, duvarlarını ve köşelerini temizlemek için tasarlanmıştır",
+          "Beton ve liner havuzlarda kullanıma uygundur",
+          "Yosun ve inatçı kirlerin kolaylıkla temizlenmesini sağlarlar",
+          "Her sapa uyumlu klipsli bağlantı",
+          "Designed to clean pool floors, walls and corners",
+          "Suitable for use in concrete and liner pools",
+          "Allows easy removal the algae and stubborn dirt",
+          "Suitable for every poles models with clip-on connection"
+        ],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_8004",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "MODEL",
+            "UZUNLUK LENGTH",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "14020123001",
+              "Kıvrık Plastik Telli Curved Plastic Wire Bristle Head",
+              "45 cm",
+              "8 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_8012",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "MODEL",
+            "UZUNLUK LENGTH",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "14020123002",
+              "Kıvrık Plastik Telli Alüminyum Destekli Curved Plastic Wire Bristle Head Aluminium Back",
+              "45 cm",
+              "13.50 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_8020",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "MODEL",
+            "UZUNLUK LENGTH",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "14020123003",
+              "Duvar Tip Düz Plastik Telli Wall Type Flat Plastic Wire Bristle Head",
+              "26 cm",
+              "5.90 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_8028",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "MODEL",
+            "UZUNLUK LENGTH",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "14020123004",
+              "Düz Paslanmaz Çelik Telli Flat Type Stainless Steel Wire Bristle Head",
+              "26 cm",
+              "12 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "a596b780b58199b0798dce4f48112ae1_img.jpg",
+          "alt": "Curved Plastic Wire Bristle Head brush",
+          "caption": "",
+          "type": "performance_curve"
+        },
+        {
+          "file": "f5bc2beba679296ee19bb5d5240e1d6a_img.jpg",
+          "alt": "Curved Plastic Wire Bristle Head brush with Aluminium Back",
+          "caption": "",
+          "type": "performance_curve"
+        },
+        {
+          "file": "3a563b3c9048d78fa029da3c77ab186a_img.jpg",
+          "alt": "Wall Type Flat Plastic Wire Bristle Head brush",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "fbebc18263a4dade04a54c89169d0f86_img.jpg",
+          "alt": "Wall Type Flat Stainless Steel Wire Bristle Head brush",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "14020123001",
+          "price": "8 €",
+          "price_eur": 8.0,
+          "values": {
+            "code": "14020123001",
+            "model": "Kıvrık Plastik Telli Curved Plastic Wire Bristle Head",
+            "length": "45 cm",
+            "price": "8 €",
+            "price_eur": 8.0
+          }
+        },
+        {
+          "code": "14020123002",
+          "price": "13.50 €",
+          "price_eur": 13.5,
+          "values": {
+            "code": "14020123002",
+            "model": "Kıvrık Plastik Telli Alüminyum Destekli Curved Plastic Wire Bristle Head Aluminium Back",
+            "length": "45 cm",
+            "price": "13.50 €",
+            "price_eur": 13.5
+          }
+        },
+        {
+          "code": "14020123003",
+          "price": "5.90 €",
+          "price_eur": 5.9,
+          "values": {
+            "code": "14020123003",
+            "model": "Duvar Tip Düz Plastik Telli Wall Type Flat Plastic Wire Bristle Head",
+            "length": "26 cm",
+            "price": "5.90 €",
+            "price_eur": 5.9
+          }
+        },
+        {
+          "code": "14020123004",
+          "price": "12 €",
+          "price_eur": 12.0,
+          "values": {
+            "code": "14020123004",
+            "model": "Düz Paslanmaz Çelik Telli Flat Type Stainless Steel Wire Bristle Head",
+            "length": "26 cm",
+            "price": "12 €",
+            "price_eur": 12.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "magic-eraser-temizlik-s-nger-magic-eraser",
+      "family_title_tr": "Magic Eraser Temizlik Sünger Magic Eraser",
+      "family_title_en": "Magic Eraser Temizlik Sünger Magic Eraser",
+      "family_description_tr": "Magic Eraser cleaning sponge box",
+      "family_line_count": 17,
+      "qualitative": {
+        "bullets_tr": [
+          "Nano teknolojisi ile üretilmiştir",
+          "Havuzda oluşan su kötü çizgilerinin temizlenmesinde mükemmel sonuç verir",
+          "Made with nano technology",
+          "It gives excellent results in cleaning the water level lines formed in the pool"
+        ],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_8050",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "ÖLÇÜ SIZE",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "14021133001",
+              "7 x 11 cm",
+              "4,5 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "8aa6c0e248da23e38e8819bef7e531c6_img.jpg",
+          "alt": "Magic Eraser cleaning sponge box",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "14021133001",
+          "price": "4,5 €",
+          "price_eur": 4.5,
+          "values": {
+            "code": "14021133001",
+            "size": "7 x 11 cm",
+            "price": "4,5 €",
+            "price_eur": 4.5
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "havuz-ve-spa-termometleri",
+      "family_title_tr": "Havuz Ve Spa Termometleri",
+      "family_title_en": "Havuz Ve Spa Termometleri",
+      "family_description_tr": "Three views of the solar floating thermometer: front, side, and back.",
+      "family_line_count": 124,
+      "qualitative": {
+        "bullets_tr": [
+          "Güneş enerjisiyle çalışır, pil gerektirmez",
+          "Suya bırakıldığında 1-2 dakikada sıcaklığı ölçer",
+          "Fahrenheit ve Santigrat göstergeli geniş ekran",
+          "Yüksek hassasiyetli sensör ile doğru sıcaklık ölçümü",
+          "Dayanıklı gövde: oksidasyon ve korozyona karşı dirençli",
+          "0°C-50°C (32°F-122°F) aralığında ölçüm yapar",
+          "\"Aç/Kapat\" ve \"°C/°F\" dönüştürme tuşları bulunur",
+          "Havuz, gölet, spa ve akvaryumlarda kullanıma uygundur",
+          "Solar panel sayesinde ekran sürekli açık kalır",
+          "Solar-powered, no battery required",
+          "Measures temperature within 1-2 minutes when placed in water",
+          "Large display with Fahrenheit and Celsius readings",
+          "High-precision sensor for accurate temperature detection",
+          "Durable, oxidation- and corrosion-resistant body",
+          "Measures within a 0°C-50°C (32°F-122°F) range",
+          "Features \"ON/OFF\" and \"°C/°F\" conversion buttons",
+          "Suitable for pools, ponds, spas, and aquariums",
+          "Solar panel keeps the display continuously on",
+          "Havuz suyu sıcaklığını ölçmek için kullanılırlar",
+          "Kapalı havuzlarda ortam sıcaklığını ölçmek için de kullanılabilir",
+          "Su içerisinde kolay okunabilirler",
+          "Used to measure pool water temperature",
+          "Also can be used to measure ambient temperature in indoor pools",
+          "Easy to read in water"
+        ],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_8109",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "MALZEME MATERIAL",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "14515123009",
+              "PP",
+              "--"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_8127",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "MODEL",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "14515123001",
+              "Ekonomik Model İpiyle Birlikte Economic Model With Rope",
+              "6 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_8135",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "MODEL",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "14515123002",
+              "Lüks Model Yüzer, İpiyle Birlikte Deluxe Model Floating With Rope",
+              "6 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_8143",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "MODEL",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "14515123003",
+              "Jumbo Model İpiyle Birlikte Jumbo Model With Rope",
+              "13.50 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_8151",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "MODEL",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "14515123004",
+              "Ekonomik Model Renkli İpiyle Birlikte Economic Model Color Type With Rope",
+              "12 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_8159",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "MODEL",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "14515123005",
+              "Hayvan Modeli İpiyle Birlikte Animal Form Floating With Rope",
+              "5 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_8167",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "MODEL",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "14515123006",
+              "Hayvan Figürlü Yüzer İpiyle Birlikte Animal Form Floating With Rope",
+              "5 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_8175",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "MODEL",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "14515123008",
+              "Profesyonel Tip Yüzer Deluxe Floating Dial",
+              "26 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "b9b7bf199f4c98220467f3b8495d77c6_img.jpg",
+          "alt": "NEW badge",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "82e2e340b71d31d390dc3b0e86f2373c_img.jpg",
+          "alt": "Three views of the solar floating thermometer: front, side, and back.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "50ed1f80c67fc2ae76e70b5f33c9652f_img.jpg",
+          "alt": "Diagram showing the thermometer in a shaded area and its internal components.",
+          "caption": "",
+          "type": "diagram"
+        },
+        {
+          "file": "90bdd58bf5288f033d1b5efc738c4ea3_img.jpg",
+          "alt": "Diagram showing the thermometer in a shaded area and its internal components.",
+          "caption": "",
+          "type": "diagram"
+        },
+        {
+          "file": "02e6b515d3ae9ae60a555d92d3066186_img.jpg",
+          "alt": "Economic Model with Rope temperature gauge",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "7149a64b0402161712aa41f1b4120b3c_img.jpg",
+          "alt": "Deluxe Model with Rope temperature gauge",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "d89a93718aaf0d3834fe5ae299d1d058_img.jpg",
+          "alt": "Jumbo Model with Rope temperature gauge",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "dfaf29111eba930a0c0877e238cbdbc9_img.jpg",
+          "alt": "Economic Model with Color Type and Rope",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "3864740fa0d2fc07527ed761ab094ca6_img.jpg",
+          "alt": "Animal Form Floating With Rope",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "62bddc0dc45a59e06bb99afb1442e1f3_img.jpg",
+          "alt": "Animal Form Floating With Rope",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "d3a1c9acbfad11316462ac2df408a1fe_img.jpg",
+          "alt": "Deluxe Floating Dial temperature gauge",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "14515123009",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "14515123009",
+            "material": "PP",
+            "price": "--"
+          }
+        },
+        {
+          "code": "14515123001",
+          "price": "6 €",
+          "price_eur": 6.0,
+          "values": {
+            "code": "14515123001",
+            "model": "Ekonomik Model İpiyle Birlikte Economic Model With Rope",
+            "price": "6 €",
+            "price_eur": 6.0
+          }
+        },
+        {
+          "code": "14515123002",
+          "price": "6 €",
+          "price_eur": 6.0,
+          "values": {
+            "code": "14515123002",
+            "model": "Lüks Model Yüzer, İpiyle Birlikte Deluxe Model Floating With Rope",
+            "price": "6 €",
+            "price_eur": 6.0
+          }
+        },
+        {
+          "code": "14515123003",
+          "price": "13.50 €",
+          "price_eur": 13.5,
+          "values": {
+            "code": "14515123003",
+            "model": "Jumbo Model İpiyle Birlikte Jumbo Model With Rope",
+            "price": "13.50 €",
+            "price_eur": 13.5
+          }
+        },
+        {
+          "code": "14515123004",
+          "price": "12 €",
+          "price_eur": 12.0,
+          "values": {
+            "code": "14515123004",
+            "model": "Ekonomik Model Renkli İpiyle Birlikte Economic Model Color Type With Rope",
+            "price": "12 €",
+            "price_eur": 12.0
+          }
+        },
+        {
+          "code": "14515123005",
+          "price": "5 €",
+          "price_eur": 5.0,
+          "values": {
+            "code": "14515123005",
+            "model": "Hayvan Modeli İpiyle Birlikte Animal Form Floating With Rope",
+            "price": "5 €",
+            "price_eur": 5.0
+          }
+        },
+        {
+          "code": "14515123006",
+          "price": "5 €",
+          "price_eur": 5.0,
+          "values": {
+            "code": "14515123006",
+            "model": "Hayvan Figürlü Yüzer İpiyle Birlikte Animal Form Floating With Rope",
+            "price": "5 €",
+            "price_eur": 5.0
+          }
+        },
+        {
+          "code": "14515123008",
+          "price": "26 €",
+          "price_eur": 26.0,
+          "values": {
+            "code": "14515123008",
+            "model": "Profesyonel Tip Yüzer Deluxe Floating Dial",
+            "price": "26 €",
+            "price_eur": 26.0
+          }
+        }
+      ]
+    }
+  ]
+}

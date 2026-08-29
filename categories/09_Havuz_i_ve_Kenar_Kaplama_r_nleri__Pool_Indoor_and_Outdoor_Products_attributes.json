@@ -1,0 +1,3162 @@
+{
+  "category_no": "09",
+  "category_tr": "Havuz İçi ve Kenar Kaplama Ürünleri",
+  "category_en": "Pool Indoor and Outdoor Products",
+  "family_count": 18,
+  "variant_count": 56,
+  "families": [
+    {
+      "family_product_id": "liner-pool-cover",
+      "family_title_tr": "Liner Pool Cover",
+      "family_title_en": "Liner Pool Cover",
+      "family_description_tr": "**4. katman:** Arttırılmış aşınma direnci, lekelenme direnci ve UV stabilitesi için tasarlanmış geliştirilmiş 4 katmanlı akrilik kaplama",
+      "family_line_count": 50,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_12784",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "ÜRÜN İSMİ PRODUCT NAME",
+            "KALINLIK THICKNESS",
+            "GENİŞLİK WIDTH",
+            "RULO m 2 ROLL m 2",
+            "UZUNLUK LENGTH",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "327274340008",
+              "NEW Stoneflex Sapphire",
+              "1,5 mm",
+              "165 cm",
+              "41,25",
+              "25 mt",
+              "52,5 €"
+            ],
+            [
+              "327274340009",
+              "NEW Stoneflex Urban 15",
+              "1,5 mm",
+              "165 cm",
+              "41,25",
+              "25 mt",
+              "52,5 €"
+            ],
+            [
+              "327074334002",
+              "Stoneflex Royal",
+              "1,5 mm",
+              "165 cm",
+              "41,25",
+              "25 mt",
+              "52,5 €"
+            ],
+            [
+              "327274340003",
+              "Stoneflex Jasper Sand",
+              "1,5 mm",
+              "165 cm",
+              "41,25",
+              "25 mt",
+              "52,5 €"
+            ],
+            [
+              "327198042001",
+              "Stonetile Elegance",
+              "1,5 mm",
+              "165 cm",
+              "41,25",
+              "25 mt",
+              "52,5 €"
+            ],
+            [
+              "327198042001",
+              "Stonetile Grey",
+              "1,5 mm",
+              "165 cm",
+              "41,25",
+              "25 mt",
+              "52,5 €"
+            ],
+            [
+              "327198043002",
+              "Stonetile Golden",
+              "1,5 mm",
+              "165 cm",
+              "41,25",
+              "25 mt",
+              "52,5 €"
+            ],
+            [
+              "327274340004",
+              "StoneFlex Forest",
+              "1,5 mm",
+              "165 cm",
+              "41,25",
+              "25 mt",
+              "52,5 €"
+            ],
+            [
+              "327274340005",
+              "StoneTile Marine 15",
+              "1,5 mm",
+              "165 cm",
+              "41,25",
+              "25 mt",
+              "52,5 €"
+            ],
+            [
+              "327274340006",
+              "StoneTile Tropic 15",
+              "1,5 mm",
+              "165 cm",
+              "41,25",
+              "25 mt",
+              "52,5 €"
+            ],
+            [
+              "327074730001",
+              "Pacific",
+              "1,5 mm",
+              "165 cm",
+              "41,25",
+              "25 mt",
+              "26,5 €"
+            ],
+            [
+              "67515123018",
+              "Galit Pvc",
+              "1,5 mm",
+              "165 cm",
+              "41,25",
+              "25 mt",
+              "26,5 €"
+            ],
+            [
+              "67516123028",
+              "Navy Blue 8287",
+              "1,5 mm",
+              "165 cm",
+              "41,25",
+              "25 mt",
+              "23 €"
+            ],
+            [
+              "67516123018",
+              "Light Blue 8286 Pvc",
+              "1,5 mm",
+              "165 cm",
+              "41,25",
+              "25 mt",
+              "23 €"
+            ],
+            [
+              "67515123015",
+              "Sarı Kum Desenli Pvc",
+              "1,5 mm",
+              "165 cm",
+              "41,25",
+              "25 mt",
+              "23 €"
+            ],
+            [
+              "67515123019",
+              "Snapir",
+              "1,5 mm",
+              "165 cm",
+              "41,25",
+              "25 mt",
+              "26,5 €"
+            ],
+            [
+              "67515123020",
+              "Granit NG 1",
+              "1,5 mm",
+              "165 cm",
+              "41,25",
+              "25 mt",
+              "26,5 €"
+            ],
+            [
+              "67516123029",
+              "Blue",
+              "1,5 mm",
+              "165 cm",
+              "41,25",
+              "25 mt",
+              "23 €"
+            ],
+            [
+              "67515123011",
+              "Green",
+              "1,5 mm",
+              "165 cm",
+              "41,25",
+              "25 mt",
+              "23 €"
+            ],
+            [
+              "67515123017",
+              "Grey",
+              "1,5 mm",
+              "165 cm",
+              "41,25",
+              "25 mt",
+              "23 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "ba6949c6d8f4a4509c5d02773801e619_img.jpg",
+          "alt": "Diagram showing the 4-layer structure of the pool liner with callout lines pointing to each layer.",
+          "caption": "",
+          "type": "diagram"
+        },
+        {
+          "file": "da3ef10466decc9278d47cfa60fbf85a_img.jpg",
+          "alt": "Badges for product features: 12 YEARS Waterproofing, 34°C Temp., 5 YEARS Stain Resistance, 5 YEARS Chlorine Lightfastness, NF 15836-2 YES.",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "327274340008",
+          "price": "52,5 €",
+          "price_eur": 52.5,
+          "values": {
+            "code": "327274340008",
+            "product_name": "NEW Stoneflex Sapphire",
+            "thickness": "1,5 mm",
+            "width": "165 cm",
+            "roll_m2": "41,25",
+            "length": "25 mt",
+            "price": "52,5 €",
+            "price_eur": 52.5
+          }
+        },
+        {
+          "code": "327274340009",
+          "price": "52,5 €",
+          "price_eur": 52.5,
+          "values": {
+            "code": "327274340009",
+            "product_name": "NEW Stoneflex Urban 15",
+            "thickness": "1,5 mm",
+            "width": "165 cm",
+            "roll_m2": "41,25",
+            "length": "25 mt",
+            "price": "52,5 €",
+            "price_eur": 52.5
+          }
+        },
+        {
+          "code": "327074334002",
+          "price": "52,5 €",
+          "price_eur": 52.5,
+          "values": {
+            "code": "327074334002",
+            "product_name": "Stoneflex Royal",
+            "thickness": "1,5 mm",
+            "width": "165 cm",
+            "roll_m2": "41,25",
+            "length": "25 mt",
+            "price": "52,5 €",
+            "price_eur": 52.5
+          }
+        },
+        {
+          "code": "327274340003",
+          "price": "52,5 €",
+          "price_eur": 52.5,
+          "values": {
+            "code": "327274340003",
+            "product_name": "Stoneflex Jasper Sand",
+            "thickness": "1,5 mm",
+            "width": "165 cm",
+            "roll_m2": "41,25",
+            "length": "25 mt",
+            "price": "52,5 €",
+            "price_eur": 52.5
+          }
+        },
+        {
+          "code": "327198042001",
+          "price": "52,5 €",
+          "price_eur": 52.5,
+          "values": {
+            "code": "327198042001",
+            "product_name": "Stonetile Elegance",
+            "thickness": "1,5 mm",
+            "width": "165 cm",
+            "roll_m2": "41,25",
+            "length": "25 mt",
+            "price": "52,5 €",
+            "price_eur": 52.5
+          }
+        },
+        {
+          "code": "327198042001",
+          "price": "52,5 €",
+          "price_eur": 52.5,
+          "values": {
+            "code": "327198042001",
+            "product_name": "Stonetile Grey",
+            "thickness": "1,5 mm",
+            "width": "165 cm",
+            "roll_m2": "41,25",
+            "length": "25 mt",
+            "price": "52,5 €",
+            "price_eur": 52.5
+          }
+        },
+        {
+          "code": "327198043002",
+          "price": "52,5 €",
+          "price_eur": 52.5,
+          "values": {
+            "code": "327198043002",
+            "product_name": "Stonetile Golden",
+            "thickness": "1,5 mm",
+            "width": "165 cm",
+            "roll_m2": "41,25",
+            "length": "25 mt",
+            "price": "52,5 €",
+            "price_eur": 52.5
+          }
+        },
+        {
+          "code": "327274340004",
+          "price": "52,5 €",
+          "price_eur": 52.5,
+          "values": {
+            "code": "327274340004",
+            "product_name": "StoneFlex Forest",
+            "thickness": "1,5 mm",
+            "width": "165 cm",
+            "roll_m2": "41,25",
+            "length": "25 mt",
+            "price": "52,5 €",
+            "price_eur": 52.5
+          }
+        },
+        {
+          "code": "327274340005",
+          "price": "52,5 €",
+          "price_eur": 52.5,
+          "values": {
+            "code": "327274340005",
+            "product_name": "StoneTile Marine 15",
+            "thickness": "1,5 mm",
+            "width": "165 cm",
+            "roll_m2": "41,25",
+            "length": "25 mt",
+            "price": "52,5 €",
+            "price_eur": 52.5
+          }
+        },
+        {
+          "code": "327274340006",
+          "price": "52,5 €",
+          "price_eur": 52.5,
+          "values": {
+            "code": "327274340006",
+            "product_name": "StoneTile Tropic 15",
+            "thickness": "1,5 mm",
+            "width": "165 cm",
+            "roll_m2": "41,25",
+            "length": "25 mt",
+            "price": "52,5 €",
+            "price_eur": 52.5
+          }
+        },
+        {
+          "code": "327074730001",
+          "price": "26,5 €",
+          "price_eur": 26.5,
+          "values": {
+            "code": "327074730001",
+            "product_name": "Pacific",
+            "thickness": "1,5 mm",
+            "width": "165 cm",
+            "roll_m2": "41,25",
+            "length": "25 mt",
+            "price": "26,5 €",
+            "price_eur": 26.5
+          }
+        },
+        {
+          "code": "67515123018",
+          "price": "26,5 €",
+          "price_eur": 26.5,
+          "values": {
+            "code": "67515123018",
+            "product_name": "Galit Pvc",
+            "thickness": "1,5 mm",
+            "width": "165 cm",
+            "roll_m2": "41,25",
+            "length": "25 mt",
+            "price": "26,5 €",
+            "price_eur": 26.5
+          }
+        },
+        {
+          "code": "67516123028",
+          "price": "23 €",
+          "price_eur": 23.0,
+          "values": {
+            "code": "67516123028",
+            "product_name": "Navy Blue 8287",
+            "thickness": "1,5 mm",
+            "width": "165 cm",
+            "roll_m2": "41,25",
+            "length": "25 mt",
+            "price": "23 €",
+            "price_eur": 23.0
+          }
+        },
+        {
+          "code": "67516123018",
+          "price": "23 €",
+          "price_eur": 23.0,
+          "values": {
+            "code": "67516123018",
+            "product_name": "Light Blue 8286 Pvc",
+            "thickness": "1,5 mm",
+            "width": "165 cm",
+            "roll_m2": "41,25",
+            "length": "25 mt",
+            "price": "23 €",
+            "price_eur": 23.0
+          }
+        },
+        {
+          "code": "67515123015",
+          "price": "23 €",
+          "price_eur": 23.0,
+          "values": {
+            "code": "67515123015",
+            "product_name": "Sarı Kum Desenli Pvc",
+            "thickness": "1,5 mm",
+            "width": "165 cm",
+            "roll_m2": "41,25",
+            "length": "25 mt",
+            "price": "23 €",
+            "price_eur": 23.0
+          }
+        },
+        {
+          "code": "67515123019",
+          "price": "26,5 €",
+          "price_eur": 26.5,
+          "values": {
+            "code": "67515123019",
+            "product_name": "Snapir",
+            "thickness": "1,5 mm",
+            "width": "165 cm",
+            "roll_m2": "41,25",
+            "length": "25 mt",
+            "price": "26,5 €",
+            "price_eur": 26.5
+          }
+        },
+        {
+          "code": "67515123020",
+          "price": "26,5 €",
+          "price_eur": 26.5,
+          "values": {
+            "code": "67515123020",
+            "product_name": "Granit NG 1",
+            "thickness": "1,5 mm",
+            "width": "165 cm",
+            "roll_m2": "41,25",
+            "length": "25 mt",
+            "price": "26,5 €",
+            "price_eur": 26.5
+          }
+        },
+        {
+          "code": "67516123029",
+          "price": "23 €",
+          "price_eur": 23.0,
+          "values": {
+            "code": "67516123029",
+            "product_name": "Blue",
+            "thickness": "1,5 mm",
+            "width": "165 cm",
+            "roll_m2": "41,25",
+            "length": "25 mt",
+            "price": "23 €",
+            "price_eur": 23.0
+          }
+        },
+        {
+          "code": "67515123011",
+          "price": "23 €",
+          "price_eur": 23.0,
+          "values": {
+            "code": "67515123011",
+            "product_name": "Green",
+            "thickness": "1,5 mm",
+            "width": "165 cm",
+            "roll_m2": "41,25",
+            "length": "25 mt",
+            "price": "23 €",
+            "price_eur": 23.0
+          }
+        },
+        {
+          "code": "67515123017",
+          "price": "23 €",
+          "price_eur": 23.0,
+          "values": {
+            "code": "67515123017",
+            "product_name": "Grey",
+            "thickness": "1,5 mm",
+            "width": "165 cm",
+            "roll_m2": "41,25",
+            "length": "25 mt",
+            "price": "23 €",
+            "price_eur": 23.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "pvc-kapl-metal-liner-montaj-tas-d-z-pvc-coated-metal-straigh",
+      "family_title_tr": "PVC Kaplı Metal Liner Montaj Çıtası Düz PVC Coated Metal Straight Liner Mounting Profile",
+      "family_title_en": "PVC Kaplı Metal Liner Montaj Çıtası Düz PVC Coated Metal Straight Liner Mounting Profile",
+      "family_description_tr": "PVC Coated Metal Straight Liner Mounting Profile",
+      "family_line_count": 16,
+      "qualitative": {
+        "bullets_tr": [
+          "PVC laminasyonu sayesinde linerin havuz duvarına tesbit edilmesi için uygun zemini oluşturur",
+          "Skimerli havuzlarda kullanıma uygundur",
+          "Thanks to its PVC lamination, the liner provides a suitable base for fastening to the pool wall.",
+          "Suitable for use in pools with skimmers."
+        ],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_13105",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "UZUNLUK LENGTH",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "69811002001",
+              "2 mt",
+              "5 € / mtül"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "0c411068de59442743e60ee009fa74e8_img.jpg",
+          "alt": "PVC Coated Metal Straight Liner Mounting Profile",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "69811002001",
+          "price": "5 € / mtül",
+          "price_eur": 5.0,
+          "values": {
+            "code": "69811002001",
+            "length": "2 mt",
+            "price": "5 € / mtül",
+            "price_eur": 5.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "pvc-kapl-metal-liner-tas-k-vr-lm-pvc-coated-metal-liner-fixi",
+      "family_title_tr": "PVC Kaplı Metal Liner Çıtası Kıvrılmış PVC Coated Metal Liner Fixing Profile",
+      "family_title_en": "PVC Kaplı Metal Liner Çıtası Kıvrılmış PVC Coated Metal Liner Fixing Profile",
+      "family_description_tr": "PVC Coated Metal Liner Fixing Profile",
+      "family_line_count": 16,
+      "qualitative": {
+        "bullets_tr": [
+          "PVC laminasyonu sayesinde linerin havuz duvarına tesbit edilmesi için uygun zemini oluşturur",
+          "Taşmalı ve skimerli havuzlarda kullanıma uygundur",
+          "Thanks to its PVC lamination, the liner provides a suitable base for fastening to the pool wall",
+          "Suitable for use in overflow and skimmer pools"
+        ],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_13122",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "UZUNLUK LENGTH",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "69811002002",
+              "2 mt",
+              "7 € / mtül"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "c96a015af9468e4de807a559db8f701c_img.jpg",
+          "alt": "PVC Coated Metal Liner Fixing Profile",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "69811002002",
+          "price": "7 € / mtül",
+          "price_eur": 7.0,
+          "values": {
+            "code": "69811002002",
+            "length": "2 mt",
+            "price": "7 € / mtül",
+            "price_eur": 7.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "liner-kenar-tutama-liner-handle",
+      "family_title_tr": "Liner Kenar Tutamağı Liner Handle",
+      "family_title_en": "Liner Kenar Tutamağı Liner Handle",
+      "family_description_tr": "",
+      "family_line_count": 16,
+      "qualitative": {
+        "bullets_tr": [
+          "PVC'den üretilmiştir",
+          "Genelde hazır havuzların dikilmiş linerlarını asarak monte etmek için kullanılır",
+          "Made of PVC",
+          "It is generally used to hang up the liners to the pool wall edge"
+        ],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_13139",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "UZUNL UK LE NGTH",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "69811002003",
+              "",
+              "4 € / mtül"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "88a149382a443eff2b9cfac00dd13717_img.jpg",
+          "alt": "Liner Handle",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "69811002003",
+          "price": "4 € / mtül",
+          "price_eur": 4.0,
+          "values": {
+            "code": "69811002003",
+            "length": "",
+            "price": "4 € / mtül",
+            "price_eur": 4.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "liner-liquid-transparent-liner-liquid-blue",
+      "family_title_tr": "Liner Liquid Transparent & Liner Liquid Blue",
+      "family_title_en": "Liner Liquid Transparent & Liner Liquid Blue",
+      "family_description_tr": "Two bottles of Liner Liquid, one transparent and one blue.",
+      "family_line_count": 16,
+      "qualitative": {
+        "bullets_tr": [
+          "Artan sağlamlığın yanı sıra dengelenmiş viskozite ve yeniden kullanılabilirlik özelliği",
+          "Increased durability, as well as stable viscosity & re-usable capability"
+        ],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_13158",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "TANIM DESCRIPTION",
+            "GRAMAJ WEIGHT",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "0462701",
+              "Şeffaf Transparent",
+              "1 Lt",
+              "55 €"
+            ],
+            [
+              "0462708",
+              "Mavi Blue",
+              "1 Lt",
+              "55 €"
+            ],
+            [
+              "327274340007",
+              "Liner Forest Likit Liquid",
+              "1 Lt",
+              "--"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "b3e29e133dd986546948ba4332cda172_img.jpg",
+          "alt": "Two bottles of Liner Liquid, one transparent and one blue.",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "0462701",
+          "price": "55 €",
+          "price_eur": 55.0,
+          "values": {
+            "code": "0462701",
+            "description": "Şeffaf Transparent",
+            "weight": "1 Lt",
+            "price": "55 €",
+            "price_eur": 55.0
+          }
+        },
+        {
+          "code": "0462708",
+          "price": "55 €",
+          "price_eur": 55.0,
+          "values": {
+            "code": "0462708",
+            "description": "Mavi Blue",
+            "weight": "1 Lt",
+            "price": "55 €",
+            "price_eur": 55.0
+          }
+        },
+        {
+          "code": "327274340007",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "327274340007",
+            "description": "Liner Forest Likit Liquid",
+            "weight": "1 Lt",
+            "price": "--"
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "liner-geotextile",
+      "family_title_tr": "Liner Geotextile",
+      "family_title_en": "Liner Geotextile",
+      "family_description_tr": "A roll of Liner Keçesi (Liner Geotextile).",
+      "family_line_count": 17,
+      "qualitative": {
+        "bullets_tr": [
+          "Taban betonundaki pürüzlü yüzeyin linera hasar vermesini önlemek için kullanılır",
+          "Used for preventing the rough surface of the base concrete from damaging to the liner",
+          "1 rulo 100 mt",
+          "1 rool 100 mt"
+        ],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_13177",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "GRAMAJ WEIGHT",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "2099002610",
+              "250 gr",
+              "1.75 € / m 2"
+            ],
+            [
+              "02099002613",
+              "500 gr",
+              "3.00 € / m 2"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "ddf4d4284b73b7de177cbbd23c331928_img.jpg",
+          "alt": "A roll of Liner Keçesi (Liner Geotextile).",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "2099002610",
+          "price": "1.75 € / m 2",
+          "price_eur": 1.75,
+          "values": {
+            "code": "2099002610",
+            "weight": "250 gr",
+            "price": "1.75 € / m 2",
+            "price_eur": 1.75
+          }
+        },
+        {
+          "code": "02099002613",
+          "price": "3.00 € / m 2",
+          "price_eur": 3.0,
+          "values": {
+            "code": "02099002613",
+            "weight": "500 gr",
+            "price": "3.00 € / m 2",
+            "price_eur": 3.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "liner-vinly-pool-repair-kit",
+      "family_title_tr": "Liner Vinly Pool Repair Kit",
+      "family_title_en": "Liner Vinly Pool Repair Kit",
+      "family_description_tr": "Liner Vinly Pool Repair Kit components: a tube of adhesive, a brush, and a patching vinyl.",
+      "family_line_count": 16,
+      "qualitative": {
+        "bullets_tr": [
+          "Vinil yapıştırıcı, sünger fırça ve yama vinil içerir",
+          "Su altında bile sıkıca bağlanır",
+          "Vinyl pool repair kit contains vinyl adhesive, dauber and patching vinyl",
+          "It binds tight even under water"
+        ],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_13197",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "GRAMAJ WEIGHT",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "69811123001",
+              "30 gr",
+              "7 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "ec8e83f09758f3919d1da3520af64a44_img.jpg",
+          "alt": "Liner Vinly Pool Repair Kit components: a tube of adhesive, a brush, and a patching vinyl.",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "69811123001",
+          "price": "7 €",
+          "price_eur": 7.0,
+          "values": {
+            "code": "69811123001",
+            "weight": "30 gr",
+            "price": "7 €",
+            "price_eur": 7.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "havuz-seramikleri-pool-ceramics",
+      "family_title_tr": "Havuz Seramikleri Pool Ceramics",
+      "family_title_en": "Havuz Seramikleri Pool Ceramics",
+      "family_description_tr": "Urban Blanco ceramic tile sample",
+      "family_line_count": 629,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_13482",
+          "type": "variants",
+          "headers": [
+            "",
+            "",
+            "SERAMİK KODLARI BASES",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "rows": [
+            [
+              "",
+              "",
+              "Rektifiye Edilmiş Rectified",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "15x15 147x147x8,5 mm",
+              "30x30 297x297x10 mm",
+              "30x60 297x597x10 mm",
+              "60x60 597x597x10 mm",
+              "20x120 197x1197x10 mm",
+              "60x120 597x1197x10 mm"
+            ],
+            [
+              "",
+              "",
+              "MC583",
+              "MC479",
+              "MC479",
+              "MC479",
+              "MC567",
+              "MC567"
+            ],
+            [
+              "",
+              "URBAN BLANCO Kaymaz Anti Slip Düz Mat Smooth",
+              "",
+              "Cod: 904237",
+              "Cod: 904245",
+              "Cod: 904253 Cod: 904249",
+              "",
+              "Cod: 906199 Cod: 906280"
+            ],
+            [
+              "",
+              "URBAN GRIS Kaymaz Anti Slip Düz Mat Smooth",
+              "",
+              "Cod: 904238",
+              "Cod: 904246",
+              "Cod: 904254 Cod: 904250",
+              "",
+              "Cod: 906198 Cod: 906345"
+            ],
+            [
+              "",
+              "URBAN BEIGE Kaymaz Anti Slip Düz Mat Smooth",
+              "",
+              "Cod: 904239",
+              "Cod: 904247",
+              "Cod: 904255 Cod: 904251",
+              "",
+              "Cod: 906200 Cod: 906278"
+            ],
+            [
+              "",
+              "URBAN CAOBA Kaymaz Anti Slip Düz Mat Smooth",
+              "",
+              "Cod: 905634 Cod: 905776",
+              "Cod: 905635 Cod: 905636",
+              "Cod: 905637 Cod: 905638",
+              "",
+              "Cod: 906249 Cod: 906250"
+            ],
+            [
+              "",
+              "URBAN GRAFITO Kaymaz Anti Slip Düz Mat Smooth",
+              "",
+              "Cod: 904763",
+              "Cod: 904765",
+              "Cod: 904767 Cod: 904766",
+              "",
+              "Cod: 906281 Cod: 906282"
+            ],
+            [
+              "",
+              "TIBET BIANCO Kaymaz Anti Slip Düz Mat Smooth",
+              "",
+              "Cod: 904911",
+              "Cod: 904919",
+              "",
+              "",
+              "Cod: 906201 Cod: 906195"
+            ],
+            [
+              "",
+              "TIBET GRIS Kaymaz Anti Slip Düz Mat Smooth",
+              "",
+              "Cod: 904912",
+              "Cod: 904920",
+              "",
+              "",
+              "Cod: 906202 Cod: 906197"
+            ],
+            [
+              "",
+              "TIBET BEIGE Kaymaz Anti Slip Düz Mat Smooth",
+              "",
+              "Cod: 904913",
+              "Cod: 904921",
+              "",
+              "",
+              "Cod: 906203 Cod: 906274"
+            ],
+            [
+              "",
+              "TIBET ANTRACITA Kaymaz Anti Slip Düz Mat Smooth",
+              "",
+              "Cod: 904914",
+              "Cod: 904922",
+              "",
+              "",
+              "Cod: 906273 Cod: 906196"
+            ],
+            [
+              "",
+              "CARRARA BIANCO Kaymaz Anti Slip Düz Mat Smooth",
+              "",
+              "",
+              "Cod: 905537",
+              "",
+              "",
+              "Cod: 906271 Cod: 906272"
+            ],
+            [
+              "",
+              "TRAVERTINO BEIGE Kaymaz Anti Slip Düz Mat Smooth",
+              "",
+              "",
+              "Cod: 905538",
+              "",
+              "",
+              "Cod: 906275 Cod: 906276"
+            ],
+            [
+              "",
+              "MARBLE PULPIS Kaymaz Anti Slip Düz Mat Smooth",
+              "",
+              "",
+              "Cod: 906367",
+              "",
+              "",
+              "Cod: 906369 Cod: 906368"
+            ],
+            [
+              "",
+              "CRONOS BIANCO Kaymaz Anti Slip Düz Mat Smooth",
+              "",
+              "",
+              "Cod: 906391",
+              "",
+              "",
+              "Cod: 906394 Cod: 906397"
+            ],
+            [
+              "",
+              "CRONOS GRIS Kaymaz Anti Slip Düz Mat Smooth",
+              "",
+              "",
+              "Cod: 906392",
+              "",
+              "",
+              "Cod: 906395 Cod: 906398"
+            ],
+            [
+              "",
+              "CRONOS CREMA Kaymaz Anti Slip Düz Mat Smooth",
+              "",
+              "",
+              "Cod: 906393",
+              "",
+              "",
+              "Cod: 906396 Cod: 906399"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_13509",
+          "type": "variants",
+          "headers": [
+            "",
+            "",
+            "SERAMİK KODLARI BASES",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "rows": [
+            [
+              "",
+              "",
+              "Rektifiye Edilmiş Rectified",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "15x15 147x147x8,5 mm",
+              "30x30 297x297x10 mm",
+              "30x60 297x597x10 mm",
+              "60x60 597x597x10 mm",
+              "20x120 197x1197x10 mm",
+              "60x120 597x1197x10 mm"
+            ],
+            [
+              "",
+              "",
+              "MC583",
+              "MC479",
+              "MC479",
+              "MC479",
+              "MC567",
+              "MC567"
+            ],
+            [
+              "Image: Wood texture sample",
+              "ORDESA BEIGE Kaymaz Anti Slip Düz Mat Smooth",
+              "",
+              "",
+              "",
+              "",
+              "Cod: 906259 Cod: 906283",
+              ""
+            ],
+            [
+              "Image: Wood texture sample",
+              "ORDESA NATURAL Kaymaz Anti Slip Düz Mat Smooth",
+              "",
+              "",
+              "",
+              "",
+              "Cod: 906261 Cod: 906286",
+              ""
+            ],
+            [
+              "Image: Wood texture sample",
+              "ORDESA MARRON Kaymaz Anti Slip Düz Mat Smooth",
+              "",
+              "",
+              "",
+              "",
+              "Cod: 905883 Cod: 906285",
+              ""
+            ],
+            [
+              "Image: Wood texture sample",
+              "PETRA OCRE Kaymaz Anti Slip Düz Mat Smooth",
+              "",
+              "Cod: 905908",
+              "Cod: 905907",
+              "Cod: 905906",
+              "",
+              "Cod: 905905 Cod: 905904"
+            ],
+            [
+              "Image: Wood texture sample",
+              "PETRA BEIGE Kaymaz Anti Slip Düz Mat Smooth",
+              "",
+              "Cod: 905913",
+              "Cod: 905912",
+              "Cod: 905911",
+              "",
+              "Cod: 905910 Cod: 905909"
+            ],
+            [
+              "Image: Wood texture sample",
+              "PETRA GRIS Kaymaz Anti Slip Düz Mat Smooth",
+              "",
+              "Cod: 905918",
+              "Cod: 905917",
+              "Cod: 905916",
+              "",
+              "Cod: 905915 Cod: 905914"
+            ],
+            [
+              "Image: Wood texture sample",
+              "RODENO HAYA Kaymaz Anti Slip Düz Mat Smooth",
+              "",
+              "",
+              "",
+              "",
+              "Cod: 906430 Cod: 906431",
+              ""
+            ],
+            [
+              "Image: Wood texture sample",
+              "RODENO ROBLE Kaymaz Anti Slip Düz Mat Smooth",
+              "",
+              "",
+              "",
+              "",
+              "Cod: 906089 Cod: 906088",
+              ""
+            ],
+            [
+              "Image: Wood texture sample",
+              "RODENO NOGAL Kaymaz Anti Slip Düz Mat Smooth",
+              "",
+              "",
+              "",
+              "",
+              "Cod: 906092 Cod: 906091",
+              ""
+            ],
+            [
+              "Image: Marble texture sample",
+              "OCEAN BLUE BAL Kaymaz Anti Slip Düz Mat Smooth",
+              "Cod: 905574 Cod: 905573",
+              "Cod: 905565",
+              "Cod: 906362 Cod: 906381",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Image: Marble texture sample",
+              "OCEAN CORAL BAY Kaymaz Anti Slip Düz Mat Smooth",
+              "Cod: 905502 Cod: 905498",
+              "Cod: 904803",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Image: Marble texture sample",
+              "OCEAN GREEN RIVER Kaymaz Anti Slip Düz Mat Smooth",
+              "Cod: 905503 Cod: 905499",
+              "Cod: 904802",
+              "Cod: 906361 Cod: 906380",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Image: Marble texture sample",
+              "OCEAN PEARL Kaymaz Anti Slip Düz Mat Smooth",
+              "Cod: 905505 Cod: 905501",
+              "Cod: 905273",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Image: Marble texture sample",
+              "ITACA GRIS Kaymaz Anti Slip Düz Mat Smooth",
+              "",
+              "Cod: 904075",
+              "Cod: 904089",
+              "Cod: 904129",
+              "",
+              ""
+            ],
+            [
+              "Image: Marble texture sample",
+              "ITACA MIX Kaymaz Anti Slip Düz Mat Smooth",
+              "",
+              "Cod: 904079",
+              "Cod: 904093",
+              "Cod: 904133",
+              "",
+              ""
+            ],
+            [
+              "Image: Marble texture sample",
+              "NADOR MIX Kaymaz Anti Slip Düz Mat Smooth",
+              "Cod: 905788 Cod: 905789",
+              "Cod: 906242",
+              "",
+              "",
+              "",
+              ""
+            ]
+          ]
+        },
+        {
+          "table_id": "table_13546",
+          "type": "spec",
+          "headers": [
+            "ÖZEL PARÇALAR SPECIAL PIECES",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "rows": [
+            [
+              "",
+              "",
+              "Straight stair-tread 60 597x315x14 mm",
+              "Straight stair-tread 120 1197x315x14 mm",
+              "Straight stair-tread 150 1497x315x14 mm",
+              "Monocomp. edge 120 1197x497x27 mm",
+              "Overflow channel* 297x244x30 mm"
+            ],
+            [
+              "",
+              "",
+              "PZ603",
+              "PZ724",
+              "PZ750",
+              "PZ730",
+              "PZ382"
+            ],
+            [
+              "",
+              "URBAN BLANCO Kaymaz Anti Slip",
+              "Cod: 970023",
+              "Cod: 970095",
+              "Cod: 970222",
+              "Cod: 970658",
+              "Cod: 904337"
+            ],
+            [
+              "",
+              "URBAN GRIS Kaymaz Anti Slip",
+              "Cod: 970024",
+              "Cod: 970096",
+              "Cod: 970223",
+              "Cod: 970660",
+              "Cod: 904338"
+            ],
+            [
+              "",
+              "URBAN BEIGE Kaymaz Anti Slip",
+              "Cod: 970025",
+              "Cod: 970097",
+              "Cod: 970227",
+              "Cod: 970659",
+              "Cod: 904339"
+            ],
+            [
+              "",
+              "URBAN GRAFITO Kaymaz Anti Slip",
+              "Cod: 970090",
+              "Cod: 970091",
+              "Cod: 970364",
+              "",
+              "Cod: 904787"
+            ],
+            [
+              "",
+              "TIBET BIANCO Kaymaz Anti Slip",
+              "",
+              "Cod: 970127",
+              "Cod: 970397",
+              "Cod: 970664",
+              "Cod: 905007"
+            ],
+            [
+              "",
+              "TIBET GRIS Kaymaz Anti Slip",
+              "",
+              "Cod: 970128",
+              "Cod: 970396",
+              "",
+              "Cod: 905008"
+            ],
+            [
+              "",
+              "TIBET BEIGE Kaymaz Anti Slip",
+              "",
+              "Cod: 970129",
+              "Cod: 970395",
+              "Cod: 970665",
+              "Cod: 905009"
+            ],
+            [
+              "",
+              "TIBET ANTRACITA Kaymaz Anti Slip",
+              "",
+              "Cod: 970130",
+              "Cod: 970398",
+              "",
+              ""
+            ],
+            [
+              "",
+              "CARRARA BIANCO Kaymaz Anti Slip",
+              "",
+              "Cod: 970178",
+              "Cod: 970225",
+              "",
+              ""
+            ],
+            [
+              "",
+              "TRAVERTINO BEIGE Kaymaz Anti Slip",
+              "",
+              "Cod: 970179",
+              "Cod: 970224",
+              "",
+              ""
+            ],
+            [
+              "",
+              "MARBLE PULPIS Kaymaz Anti Slip",
+              "",
+              "Cod: 970656",
+              "Cod: 970657",
+              "",
+              ""
+            ]
+          ]
+        },
+        {
+          "table_id": "table_13593",
+          "type": "spec",
+          "headers": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "rows": [
+            [
+              "Image: CRONOS BLANCO tile sample",
+              "CRONOS BLANCO Kaymaz Anti Slip",
+              "",
+              "Cod: 970679",
+              "Cod: 970685",
+              "",
+              ""
+            ],
+            [
+              "Image: CRONOS GRIS tile sample",
+              "CRONOS GRIS Kaymaz Anti Slip",
+              "",
+              "Cod: 970680",
+              "Cod: 970686",
+              "",
+              ""
+            ],
+            [
+              "Image: CRONOS CREMA tile sample",
+              "CRONOS CREMA Kaymaz Anti Slip",
+              "",
+              "Cod: 970681",
+              "Cod: 970687",
+              "",
+              ""
+            ],
+            [
+              "Image: ORDESA BEIGE tile sample",
+              "ORDESA BEIGE Kaymaz Anti Slip",
+              "Cod: 970065",
+              "Cod: 970068",
+              "Cod: 970379",
+              "",
+              "Cod: 904669"
+            ],
+            [
+              "Image: ORDESA NATURAL tile sample",
+              "ORDESA NATURAL Kaymaz Anti Slip",
+              "Cod: 970175",
+              "Cod: 970176",
+              "Cod: 970382",
+              "",
+              "Cod: 905529"
+            ],
+            [
+              "Image: ORDESA MARRON tile sample",
+              "ORDESA MARRON Kaymaz Anti Slip",
+              "Cod: 970066",
+              "Cod: 970069",
+              "Cod: 970381",
+              "",
+              "Cod: 904670"
+            ],
+            [
+              "Image: PETRA OCRE tile sample",
+              "PETRA OCRE Kaymaz Anti Slip",
+              "Cod: 970441",
+              "Cod: 970439",
+              "Cod: 970457",
+              "Cod: 970661",
+              "Cod: 905964"
+            ],
+            [
+              "Image: PETRA BEIGE tile sample",
+              "PETRA BEIGE Kaymaz Anti Slip",
+              "Cod: 970445",
+              "Cod: 970443",
+              "Cod: 970458",
+              "Cod: 970662",
+              "Cod: 905978"
+            ],
+            [
+              "Image: PETRA GRIS tile sample",
+              "PETRA GRIS Kaymaz Anti Slip",
+              "Cod: 970449",
+              "Cod: 970447",
+              "Cod: 970459",
+              "Cod: 970663",
+              "Cod: 905992"
+            ],
+            [
+              "Image: RODENO HAYA tile sample",
+              "RODENO HAYA Kaymaz Anti Slip",
+              "Cod: 970694",
+              "Cod: 970695",
+              "Cod: 970697",
+              "",
+              ""
+            ],
+            [
+              "Image: RODENO ROBLE tile sample",
+              "RODENO ROBLE Kaymaz Anti Slip",
+              "Cod: 970470",
+              "Cod: 970468",
+              "Cod: 970472",
+              "",
+              ""
+            ],
+            [
+              "Image: RODENO NOGAL tile sample",
+              "RODENO NOGAL Kaymaz Anti Slip",
+              "Cod: 970471",
+              "Cod: 970469",
+              "Cod: 970473",
+              "",
+              ""
+            ],
+            [
+              "Image: ITACA GRIS tile sample",
+              "ITACA GRIS Kaymaz Anti Slip",
+              "",
+              "Cod: 970043",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Image: ITACA MIX tile sample",
+              "ITACA MIX Kaymaz Anti Slip",
+              "",
+              "Cod: 970044",
+              "",
+              "",
+              ""
+            ]
+          ]
+        },
+        {
+          "table_id": "table_13614",
+          "type": "spec",
+          "headers": [
+            "",
+            "",
+            ""
+          ],
+          "rows": [
+            [
+              "Image: OCEAN BLUE BALL tile sample",
+              "OCEAN BLUE BALL Mat Matt Parlak Glossy",
+              "Cod: 905566 Cod: 905788"
+            ],
+            [
+              "Image: OCEAN CORAL BAY tile sample",
+              "OCEAN CORAL BAY Mat Matt Parlak Glossy",
+              "Cod: 905185 Cod: 905188"
+            ],
+            [
+              "Image: OCEAN GREEN RIVER tile sample",
+              "OCEAN GREEN RIVER Mat Matt Parlak Glossy",
+              "Cod: 905183 Cod: 905186"
+            ],
+            [
+              "Image: OCEAN PEARL tile sample",
+              "OCEAN PEARL Mat Matt Parlak Glossy",
+              "Cod: 905271 Cod: 905272"
+            ],
+            [
+              "Image: NODOR MIX tile sample",
+              "NODOR MIX Mat Matt Parlak Glossy",
+              "Cod: 906327 Cod: 906326"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_13648",
+          "type": "spec",
+          "headers": [
+            "",
+            "",
+            "Monoc. grooved grid 291x244x25 mm",
+            "Corner grid 388x244x25x 144 mm",
+            "Grooved Flexible grid 245x52x25 mm",
+            "Hidden ceramic grid 597x245x30 mm",
+            "External radial tile 297x42 mm",
+            "Internal radial tile 297x42 mm"
+          ],
+          "rows": [
+            [
+              "",
+              "",
+              "PZ603",
+              "PZ724",
+              "PZ750",
+              "PZ730",
+              "PZ382",
+              "PZ382"
+            ],
+            [
+              "",
+              "URBAN BLANCO Kaymaz Anti Slip",
+              "Cod: 905056",
+              "Cod: 905052",
+              "Cod: 905048",
+              "Cod: 970589",
+              "Cod: 904345",
+              "Cod: 904341"
+            ],
+            [
+              "",
+              "URBAN GRIS Kaymaz Anti Slip",
+              "Cod: 904909",
+              "Cod: 905053",
+              "Cod: 905049",
+              "Cod: 970644",
+              "Cod: 904346",
+              "Cod: 904342"
+            ],
+            [
+              "",
+              "URBAN BEIGE Kaymaz Anti Slip",
+              "Cod: 905058",
+              "Cod: 905054",
+              "Cod: 905050",
+              "Cod: 970645",
+              "Cod: 904347",
+              "Cod: 904343"
+            ],
+            [
+              "",
+              "URBAN GRAFITO Kaymaz Anti Slip",
+              "Cod: 905059",
+              "Cod: 905055",
+              "Cod: 905051",
+              "Cod: 970725",
+              "Cod: 904790",
+              "Cod: 904789"
+            ],
+            [
+              "",
+              "TIBET BIANCO Kaymaz Anti Slip",
+              "Cod: 904995",
+              "Cod: 904999",
+              "Cod: 905003",
+              "Cod: 970642",
+              "Cod: 905015",
+              "Cod: 905011"
+            ],
+            [
+              "",
+              "TIBET GRIS Kaymaz Anti Slip",
+              "Cod: 904996",
+              "Cod: 905000",
+              "Cod: 905004",
+              "Cod: 970643",
+              "Cod: 905016",
+              "Cod: 905012"
+            ],
+            [
+              "",
+              "TIBET BEIGE Kaymaz Anti Slip",
+              "Cod: 904997",
+              "Cod: 905001",
+              "Cod: 905005",
+              "Cod: 970726",
+              "Cod: 905017",
+              "Cod: 905013"
+            ],
+            [
+              "",
+              "ORDESA BEIGE Kaymaz Anti Slip",
+              "Cod: 905038",
+              "Cod: 905040",
+              "Cod: 905035",
+              "Cod: 970728",
+              "Cod: 904675",
+              "Cod: 904678"
+            ],
+            [
+              "",
+              "ORDESA NATURAL Kaymaz Anti Slip",
+              "Cod: 905526",
+              "Cod: 905527",
+              "Cod: 905528",
+              "Cod: 970591",
+              "Cod: 905531",
+              "Cod: 905532"
+            ],
+            [
+              "",
+              "ORDESA MARRON Kaymaz Anti Slip",
+              "Cod: 905037",
+              "Cod: 905041",
+              "Cod: 905036",
+              "Cod: 970729",
+              "Cod: 904676",
+              "Cod: 904679"
+            ],
+            [
+              "",
+              "PETRA ORCE Kaymaz Anti Slip",
+              "Cod: 905961",
+              "Cod: 905962",
+              "Cod: 905963",
+              "Cod: 970730",
+              "Cod: 905966",
+              "Cod: 905967"
+            ],
+            [
+              "",
+              "PETRA BEIGE Kaymaz Anti Slip",
+              "Cod: 905975",
+              "Cod: 905976",
+              "Cod: 905977",
+              "Cod: 970590",
+              "Cod: 905980",
+              "Cod: 905981"
+            ],
+            [
+              "",
+              "PETRA GRIS Kaymaz Anti Slip",
+              "Cod: 905989",
+              "Cod: 905990",
+              "Cod: 905991",
+              "Cod: 970646",
+              "Cod: 905994",
+              "Cod: 905995"
+            ],
+            [
+              "",
+              "OCEAN BLUE BAL Kaymaz Anti Slip",
+              "",
+              "",
+              "",
+              "",
+              "Cod: 905567",
+              "Cod: 905568"
+            ],
+            [
+              "",
+              "OCEAN CORAL BAY Kaymaz Anti Slip",
+              "",
+              "",
+              "",
+              "",
+              "Cod: 905170",
+              "Cod: 905167"
+            ],
+            [
+              "",
+              "OCEAN GREEN RIVER Kaymaz Anti Slip",
+              "",
+              "",
+              "",
+              "",
+              "Cod: 905168",
+              "Cod: 905165"
+            ],
+            [
+              "",
+              "OCEAN PEARL Kaymaz Anti Slip",
+              "",
+              "",
+              "",
+              "",
+              "Cod: 905266",
+              "Cod: 905265"
+            ],
+            [
+              "",
+              "NADOR MIX Kaymaz Anti Slip",
+              "",
+              "",
+              "",
+              "",
+              "Cod: 906243",
+              "Cod: 906244"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "56dc3c5e6e6a7df9b0521cb898370d67_img.jpg",
+          "alt": "Urban Blanco ceramic tile sample",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "d79ff8d6f5404538e7f2f657ddebf45a_img.jpg",
+          "alt": "Urban Gris ceramic tile sample",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "9d423995d35aa68bea3ec3a1bd923ce5_img.jpg",
+          "alt": "Urban Beige ceramic tile sample",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "0de5adadc1bab72f205a73ce0af10946_img.jpg",
+          "alt": "Urban Caoba ceramic tile sample",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "4344dcade92cbadd5e5d5b2ebe6c0ec2_img.jpg",
+          "alt": "Urban Grafito ceramic tile sample",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "c198f3ecece3e499bf7b451741eab030_img.jpg",
+          "alt": "Tibet Blanco ceramic tile sample",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "e4a4e932a76bd851a6a121478da477af_img.jpg",
+          "alt": "Tibet Gris ceramic tile sample",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "5f4a4f26b57f7ad154095f09583a2d27_img.jpg",
+          "alt": "Tibet Beige ceramic tile sample",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "60e9298cd0342d651cf8f69b8c0d1291_img.jpg",
+          "alt": "Tibet Antracita ceramic tile sample",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "9da3d08b059298e54d87262e051f670e_img.jpg",
+          "alt": "Marble Carrara Blanco ceramic tile sample",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "30eb61dbda17c9b321a463adf2baf74d_img.jpg",
+          "alt": "Marble Travertino Beige ceramic tile sample",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "99cbfefce3ad17970d10bafa7f67ffd6_img.jpg",
+          "alt": "Marble Pulpis ceramic tile sample",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "639d10610895e902e7a78daa9bd1d733_img.jpg",
+          "alt": "Cronos Blanco ceramic tile sample",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "a5b2b3b17a58b75e69de035d3283adc3_img.jpg",
+          "alt": "Cronos Gris ceramic tile sample",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "c1983846f1cf4dc562264ae6db6d375b_img.jpg",
+          "alt": "Cronos Crema ceramic tile sample",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "84a7f6eaead447476a3b1a782b5d7625_img.jpg",
+          "alt": "Marble Travertino Beige ceramic tile sample",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "f569ec87e5604d930ea912608910f9e1_img.jpg",
+          "alt": "Marble Pulpis ceramic tile sample",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "ad5cad051ec989dd43c3ca63c22f4df8_img.jpg",
+          "alt": "Cronos Blanco ceramic tile sample",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "6c6ca5e7993fc5d78ef9a2504b3b1607_img.jpg",
+          "alt": "Cronos Gris ceramic tile sample",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "f94aba0935359cadf017dcf2a513de80_img.jpg",
+          "alt": "Cronos Crema ceramic tile sample",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "777d55a0322d96bc13772cefeea2197d_img.jpg",
+          "alt": "Petra Gris ceramic tile sample",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "8b35f4e2a68303678d2fe1d701b5e38c_img.jpg",
+          "alt": "Rodeno Haya ceramic tile sample",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "ab3ede9c18268481a2fb3189c62a71ad_img.jpg",
+          "alt": "Rodeno Roble ceramic tile sample",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "0c479225d2ebb3667e657f6f39f4993b_img.jpg",
+          "alt": "Rodeno Nogal ceramic tile sample",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "1f2802c563b8c15449437e473592f47f_img.jpg",
+          "alt": "Ocean Blue Bali ceramic tile sample",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "03a011de47f08e8065f7d3202b3349f8_img.jpg",
+          "alt": "Ocean Coral Bay ceramic tile sample",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "05a74e9f0d3a0ebb4d9abd0e411e20ad_img.jpg",
+          "alt": "Ocean Green River ceramic tile sample",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "ca60107b0137a79e1cac3a8d59f59d06_img.jpg",
+          "alt": "Ocean Pearl ceramic tile sample",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "b8a7bda372f24aa881fc7d5e8f4a6b79_img.jpg",
+          "alt": "Itaca Gris ceramic tile sample",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "e2de7e388c38f6f79dce73c7ad9ea80e_img.jpg",
+          "alt": "Itaca Mix ceramic tile sample",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "a7ec8ab149eb4b7cbe3348721707df13_img.jpg",
+          "alt": "Nador Mix ceramic tile sample",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "fea41462e3c02e0ae57127974f156d30_img.jpg",
+          "alt": "Diagram of a 15x15 tile with dimensions 147x147 and a thickness of 8,5.",
+          "caption": "",
+          "type": "dimensions"
+        },
+        {
+          "file": "244fc5e532cfc9f6c7b5126a233213cf_img.jpg",
+          "alt": "Diagram of a 30x30 tile with dimensions 297x297 and a thickness of 10.",
+          "caption": "",
+          "type": "dimensions"
+        },
+        {
+          "file": "e7ddb8ebc00982d92ed19ca2d59652ca_img.jpg",
+          "alt": "Diagram of a 30x60 tile with dimensions 597x297 and a thickness of 10.",
+          "caption": "",
+          "type": "dimensions"
+        },
+        {
+          "file": "6befc9f99ced4268a8a62131432bdb94_img.jpg",
+          "alt": "Diagram of a 60x60 tile with dimensions 597x597 and a thickness of 10.",
+          "caption": "",
+          "type": "dimensions"
+        },
+        {
+          "file": "88268ff0c15ccaa1b58145fb3ff7f706_img.jpg",
+          "alt": "Diagram of a 20x120 tile with dimensions 1197x197 and a thickness of 10.",
+          "caption": "",
+          "type": "dimensions"
+        },
+        {
+          "file": "5ee818e2bfe4031d444f1205e0590664_img.jpg",
+          "alt": "Diagram of a 60x120 tile with dimensions 1197x597 and a thickness of 10.",
+          "caption": "",
+          "type": "dimensions"
+        },
+        {
+          "file": "d834d5838485b9cf097635819642cecc_img.jpg",
+          "alt": "A large photograph showing a modern architectural structure with a curved, light-colored surface and a set of wide, light-colored steps leading up to it. The surface appears to be made of large, light-colored tiles or stone slabs.",
+          "caption": "",
+          "type": "performance_curve"
+        },
+        {
+          "file": "c45736b79d3d4e9f7cabbaccac1b3887_img.jpg",
+          "alt": "Logo for ANTI-PATIDEN URUN ANTI-PATHOGEN PRODUCT",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "4f1572557af299bce9a6bc3a5be0c888_img.jpg",
+          "alt": "Technical drawings of special pieces for stairs and edges.",
+          "caption": "",
+          "type": "dimensions"
+        },
+        {
+          "file": "873f240ad231208031cd42f0d828b0a2_img.jpg",
+          "alt": "Logo for ANTI滑溜 product featuring a shield with a checkered pattern and the text 'ANTIPATIDEN ÜRÜN ANTI滑溜 PRODUCT'.",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "7e338b991e9ee774533d494ee977260b_img.jpg",
+          "alt": "A 3D rendering of a tiled floor with a central square feature, possibly a sink or a decorative element, surrounded by numbered circles 1 through 8 indicating different tile types or installation details.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "f8938ccee088eea23eb729497e25787e_img.jpg",
+          "alt": "Technical drawings of various grid and tile products with dimensions.",
+          "caption": "",
+          "type": "dimensions"
+        },
+        {
+          "file": "dd6ca069ca77109ad861ad55b7527083_img.jpg",
+          "alt": "Aciker Natural Anti slip tile color swatch",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "728176b1032abd8206ae409d9a9f10ca_img.jpg",
+          "alt": "Azul oscuro Anti slip tile color swatch",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "8001f778f2d1d713ba4e8f6a39b85718_img.jpg",
+          "alt": "Blanco Wall tile color swatch",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "484269077d36ef7ab6578db021e4e283_img.jpg",
+          "alt": "Aciker Gris Wall tile color swatch",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "08eb8ac66569283b3f01d958b640eef0_img.jpg",
+          "alt": "Azul palido Wall tile color swatch",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "187c967e6435f201697e952eb9ef9c6c_img.jpg",
+          "alt": "Negro Wall tile color swatch",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "5eb324fc11a25fb3c7d0869b06912fb3_img.jpg",
+          "alt": "Azul Wall tile color swatch",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "891ea3961a89a769db016c6c15b3fc7f_img.jpg",
+          "alt": "Aciker Natural Grooved tile color swatch",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "385cf9382a18dcda0978b869570cf7a3_img.jpg",
+          "alt": "Azul oscuro Grooved tile color swatch",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "7a8b9ce42306498912576ae67b7c4b3e_img.jpg",
+          "alt": "Blanco Grooved tile color swatch",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "7beee0e6381fa94b406066dfc627b89e_img.jpg",
+          "alt": "Aciker Gris Grooved tile color swatch",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "a61f523e980634b74f04b76129b7e278_img.jpg",
+          "alt": "Azul palido Grooved tile color swatch",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "9da94ce37440bf42e3a8f1759c1c29f5_img.jpg",
+          "alt": "Negro Grooved tile color swatch",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "62e5ffadf5079f8747a596cb73d8ddc2_img.jpg",
+          "alt": "Azul Grooved tile color swatch",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "2a30706a1972430db8afbcd26ae4d36d_img.jpg",
+          "alt": "Aciker Natural Cell texture color swatch",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "6eba37dbfdf14790720617759b18f2eb_img.jpg",
+          "alt": "Azul palido Cell texture color swatch",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "ac65dab78bc9b9edd9e953e9796fd41e_img.jpg",
+          "alt": "Azul Blue Cell texture color swatch",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "f8d99a0cf27a7780567d451c1fa18be4_img.jpg",
+          "alt": "Aciker Gris Cell texture color swatch",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "3108136bd3304b88ccd4fdbef4fa7929_img.jpg",
+          "alt": "Negro Cell texture color swatch",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "74ca926bcdebcc5cfa0ecfb0a826f294_img.jpg",
+          "alt": "Blanco/Gris combination color swatch",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "7be42c444979f37f544ef79644826621_img.jpg",
+          "alt": "Azul/Azul oscuro combination color swatch",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "943d5ef0db37bd69aa1b8496ced093a8_img.jpg",
+          "alt": "Blanco/Azul oscuro combination color swatch",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "4041b2f51024b40752055e6b58d6edb0_img.jpg",
+          "alt": "Natural/Azul oscuro combination color swatch",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "3660aa47df90db0a779640a55a98008b_img.jpg",
+          "alt": "12x25 size diagram showing dimensions 244 and 119, and a scale of 1/8",
+          "caption": "",
+          "type": "dimensions"
+        },
+        {
+          "file": "9d310b232f2486a99c4a91a47fab0935_img.jpg",
+          "alt": "25x25 size diagram showing dimensions 244 and 244, and a scale of 1/8",
+          "caption": "",
+          "type": "dimensions"
+        },
+        {
+          "file": "3100132a094ed6eb770c1d05b7e787d5_img.jpg",
+          "alt": "25x50 size diagram showing dimensions 494 and 244, and a scale of 1/8,5",
+          "caption": "",
+          "type": "dimensions"
+        }
+      ],
+      "variants": [
+        {
+          "code": "151514714785",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "unnamed": "60x120 597x1197x10 mm",
+            "ceramic_codes": "15x15 147x147x8,5 mm"
+          }
+        },
+        {
+          "code": "583",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "unnamed": "MC567",
+            "ceramic_codes": "MC583"
+          }
+        },
+        {
+          "code": "151514714785",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "unnamed": "60x120 597x1197x10 mm",
+            "ceramic_codes": "15x15 147x147x8,5 mm"
+          }
+        },
+        {
+          "code": "583",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "unnamed": "MC567",
+            "ceramic_codes": "MC583"
+          }
+        },
+        {
+          "code": "905574905573",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "unnamed": "",
+            "ceramic_codes": "Cod: 905574 Cod: 905573"
+          }
+        },
+        {
+          "code": "905502905498",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "unnamed": "",
+            "ceramic_codes": "Cod: 905502 Cod: 905498"
+          }
+        },
+        {
+          "code": "905503905499",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "unnamed": "",
+            "ceramic_codes": "Cod: 905503 Cod: 905499"
+          }
+        },
+        {
+          "code": "905505905501",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "unnamed": "",
+            "ceramic_codes": "Cod: 905505 Cod: 905501"
+          }
+        },
+        {
+          "code": "905788905789",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "unnamed": "",
+            "ceramic_codes": "Cod: 905788 Cod: 905789"
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "tutamak-kobalt-handle-cobalt",
+      "family_title_tr": "Tutamak Kobalt Handle Cobalt",
+      "family_title_en": "Oluklu Tutamak Kobalt Grooved Handle Cobalt",
+      "family_description_tr": "Two views of a Kobalt Grooved Handle tile: a side view showing the handle and a top view showing the textured surface.",
+      "family_line_count": 20,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_13856",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "MODEL",
+            "ÖLÇÜ SIZE"
+          ],
+          "rows": [
+            [
+              "580151002",
+              "Pötikare Petit Carre",
+              "12x25 cm"
+            ],
+            [
+              "68015152001",
+              "Düz Universal",
+              "12x25 cm"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_13867",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "MODEL",
+            "ÖLÇÜ SIZE"
+          ],
+          "rows": [
+            [
+              "68015152009",
+              "Pötikare Petit Carre",
+              "12x25 cm"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "5bf8403d032a24cce4db26b973fdf7f6_img.jpg",
+          "alt": "Two views of a Kobalt Grooved Handle tile: a side view showing the handle and a top view showing the textured surface.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "0a96b3186a7d0c227a534c6c0285aae6_img.jpg",
+          "alt": "Two views of a Kobalt Big Handle tile: a side view showing the handle and a top view showing the textured surface.",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "580151002",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "580151002",
+            "model": "Pötikare Petit Carre",
+            "size": "12x25 cm"
+          }
+        },
+        {
+          "code": "68015152001",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "68015152001",
+            "model": "Düz Universal",
+            "size": "12x25 cm"
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "oluklu-tutamak-kobalt-grooved-handle-cobalt",
+      "family_title_tr": "Oluklu Tutamak Kobalt Grooved Handle Cobalt",
+      "family_title_en": "Oluklu Tutamak Kobalt Grooved Handle Cobalt",
+      "family_description_tr": "Two views of a Kobalt Big Handle tile: a side view showing the handle and a top view showing the textured surface.",
+      "family_line_count": 9,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_13867",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "MODEL",
+            "ÖLÇÜ SIZE"
+          ],
+          "rows": [
+            [
+              "68015152009",
+              "Pötikare Petit Carre",
+              "12x25 cm"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "0a96b3186a7d0c227a534c6c0285aae6_img.jpg",
+          "alt": "Two views of a Kobalt Big Handle tile: a side view showing the handle and a top view showing the textured surface.",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "68015152009",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "68015152009",
+            "model": "Pötikare Petit Carre",
+            "size": "12x25 cm"
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "b-y-k-tutamak-kobalt-big-handle-cobalt",
+      "family_title_tr": "Büyük Tutamak Kobalt Big Handle Cobalt",
+      "family_title_en": "Oluklu Büyük Tutamak Kobalt Grooved Big Handle Cobalt",
+      "family_description_tr": "Two views of a Kobalt Grooved Big Handle tile: a side view showing the handle and a top view showing the textured surface.",
+      "family_line_count": 22,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_13877",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "MODEL",
+            "ÖLÇÜ SIZE"
+          ],
+          "rows": [
+            [
+              "580151014",
+              "Pötikare Petit Carre",
+              "25x25 cm"
+            ],
+            [
+              "580151026",
+              "Pötikare Petit Carre",
+              "30x25 cm"
+            ],
+            [
+              "68016152001",
+              "Düz Universal",
+              "25x25 cm"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_13889",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "MODEL",
+            "ÖLÇÜ SIZE"
+          ],
+          "rows": [
+            [
+              "68015152012",
+              "Pötikare Petit Carre",
+              "25x25 cm"
+            ],
+            [
+              "68015152013",
+              "Pötikare Petit Carre",
+              "30x25 cm"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "7524cb98bab99a8665657a26183b4399_img.jpg",
+          "alt": "Two views of a Kobalt Grooved Big Handle tile: a side view showing the handle and a top view showing the textured surface.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "9798ae22d5fadd0c18889fde200685bc_img.jpg",
+          "alt": "Two views of a Kobalt Big Profile tile: a side view showing the profile and a top view showing the textured surface.",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "580151014",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "580151014",
+            "model": "Pötikare Petit Carre",
+            "size": "25x25 cm"
+          }
+        },
+        {
+          "code": "580151026",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "580151026",
+            "model": "Pötikare Petit Carre",
+            "size": "30x25 cm"
+          }
+        },
+        {
+          "code": "68016152001",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "68016152001",
+            "model": "Düz Universal",
+            "size": "25x25 cm"
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "oluklu-b-y-k-tutamak-kobalt-grooved-big-handle-cobalt",
+      "family_title_tr": "Oluklu Büyük Tutamak Kobalt Grooved Big Handle Cobalt",
+      "family_title_en": "Oluklu Büyük Tutamak Kobalt Grooved Big Handle Cobalt",
+      "family_description_tr": "Two views of a Kobalt Big Profile tile: a side view showing the profile and a top view showing the textured surface.",
+      "family_line_count": 10,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_13889",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "MODEL",
+            "ÖLÇÜ SIZE"
+          ],
+          "rows": [
+            [
+              "68015152012",
+              "Pötikare Petit Carre",
+              "25x25 cm"
+            ],
+            [
+              "68015152013",
+              "Pötikare Petit Carre",
+              "30x25 cm"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "9798ae22d5fadd0c18889fde200685bc_img.jpg",
+          "alt": "Two views of a Kobalt Big Profile tile: a side view showing the profile and a top view showing the textured surface.",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "68015152012",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "68015152012",
+            "model": "Pötikare Petit Carre",
+            "size": "25x25 cm"
+          }
+        },
+        {
+          "code": "68015152013",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "68015152013",
+            "model": "Pötikare Petit Carre",
+            "size": "30x25 cm"
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "profilli-b-y-k-tutamak-kobalt-big-handle-big-profile-cobalt",
+      "family_title_tr": "Profilli Büyük Tutamak Kobalt Big Handle Big Profile Cobalt",
+      "family_title_en": "Profilli Oluklu Büyük Tutamak Kobalt Big Handle With Profile Grooved Cobalt",
+      "family_description_tr": "Profilli Oluklu Büyük Tutamak Kobalt Big Handle With Profile Grooved Cobalt",
+      "family_line_count": 21,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_13900",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "MODEL",
+            "ÖLÇÜ SIZE"
+          ],
+          "rows": [
+            [
+              "580151016",
+              "Pötikare Petit Carre",
+              "25x25 cm"
+            ],
+            [
+              "580151018",
+              "Pötikare Petit Carre",
+              "30x25 cm"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_13911",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "",
+            "ÖLÇÜ SIZE"
+          ],
+          "rows": [
+            [
+              "580151020",
+              "",
+              "25x25 cm"
+            ],
+            [
+              "580151019",
+              "",
+              "30x25 cm"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "cdc4a10d4160808f60cbddcd32a413e0_img.jpg",
+          "alt": "Profilli Oluklu Büyük Tutamak Kobalt Big Handle With Profile Grooved Cobalt",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "0ba76cf9e44e2bdf70c30182f7990ce7_img.jpg",
+          "alt": "Sırsız Kaymaz Unglazed Antisip",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "580151016",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "580151016",
+            "model": "Pötikare Petit Carre",
+            "size": "25x25 cm"
+          }
+        },
+        {
+          "code": "580151018",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "580151018",
+            "model": "Pötikare Petit Carre",
+            "size": "30x25 cm"
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "profilli-oluklu-b-y-k-tutamak-kobalt-big-handle-with-profile",
+      "family_title_tr": "Profilli Oluklu Büyük Tutamak Kobalt Big Handle With Profile Grooved Cobalt",
+      "family_title_en": "Profilli Oluklu Büyük Tutamak Kobalt Big Handle With Profile Grooved Cobalt",
+      "family_description_tr": "Sırsız Kaymaz Unglazed Antisip",
+      "family_line_count": 10,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_13911",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "",
+            "ÖLÇÜ SIZE"
+          ],
+          "rows": [
+            [
+              "580151020",
+              "",
+              "25x25 cm"
+            ],
+            [
+              "580151019",
+              "",
+              "30x25 cm"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "0ba76cf9e44e2bdf70c30182f7990ce7_img.jpg",
+          "alt": "Sırsız Kaymaz Unglazed Antisip",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "580151020",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "580151020",
+            "unnamed": "",
+            "size": "25x25 cm"
+          }
+        },
+        {
+          "code": "580151019",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "580151019",
+            "unnamed": "",
+            "size": "30x25 cm"
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "s-rs-z-kaymaz-unglazed-antisip",
+      "family_title_tr": "Sırsız Kaymaz Unglazed Antisip",
+      "family_title_en": "Profilli Sırsız Kaymaz Unglazed Antisip With Profile",
+      "family_description_tr": "Profilli Sırsız Kaymaz Unglazed Antisip With Profile",
+      "family_line_count": 19,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_13922",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "",
+            "ÖLÇÜ SIZE"
+          ],
+          "rows": [
+            [
+              "580151007",
+              "",
+              "12x25 cm"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_13932",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "",
+            "ÖLÇÜ SIZE"
+          ],
+          "rows": [
+            [
+              "580151017",
+              "",
+              "12x25 cm"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "74e17842b852da4f358e41b88a9c5bc0_img.jpg",
+          "alt": "Profilli Sırsız Kaymaz Unglazed Antisip With Profile",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "e624e869c68b0b0fb170809cad0a92ed_img.jpg",
+          "alt": "Dış Köşe External Corner Cobalt",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "580151007",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "580151007",
+            "unnamed": "",
+            "size": "12x25 cm"
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "profilli-s-rs-z-kaymaz-unglazed-antisip-with-profile",
+      "family_title_tr": "Profilli Sırsız Kaymaz Unglazed Antisip With Profile",
+      "family_title_en": "Profilli Sırsız Kaymaz Unglazed Antisip With Profile",
+      "family_description_tr": "Dış Köşe External Corner Cobalt",
+      "family_line_count": 9,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_13932",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "",
+            "ÖLÇÜ SIZE"
+          ],
+          "rows": [
+            [
+              "580151017",
+              "",
+              "12x25 cm"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "e624e869c68b0b0fb170809cad0a92ed_img.jpg",
+          "alt": "Dış Köşe External Corner Cobalt",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "580151017",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "580151017",
+            "unnamed": "",
+            "size": "12x25 cm"
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "d-k-e-external-corner-cobalt",
+      "family_title_tr": "Dış Köşe External Corner Cobalt",
+      "family_title_en": "İç Köşe Internal Corner Cobalt",
+      "family_description_tr": "İç Köşe Internal Corner Cobalt",
+      "family_line_count": 23,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_13942",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "",
+            "ÖLÇÜ SIZE"
+          ],
+          "rows": [
+            [
+              "580151024",
+              "",
+              "12,5x12,5 cm"
+            ],
+            [
+              "580151025",
+              "",
+              "25x25 cm"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_13953",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "",
+            "ÖLÇÜ SIZE"
+          ],
+          "rows": [
+            [
+              "580151010",
+              "",
+              "25x25 cm"
+            ],
+            [
+              "580151023",
+              "",
+              "30x25 cm"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "619680e77538d02c1ab8e1550d4e0575_img.jpg",
+          "alt": "İç Köşe Internal Corner Cobalt",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "81198a2bf24d5939ce9121693eaf7aa8_img.jpg",
+          "alt": "A close-up view of a white Jacuzzi hot tub filled with blue water, showing the internal jets and the surrounding dark interior.",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "580151024",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "580151024",
+            "unnamed": "",
+            "size": "12,5x12,5 cm"
+          }
+        },
+        {
+          "code": "580151025",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "580151025",
+            "unnamed": "",
+            "size": "25x25 cm"
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "i-k-e-internal-corner-cobalt",
+      "family_title_tr": "İç Köşe Internal Corner Cobalt",
+      "family_title_en": "İç Köşe Internal Corner Cobalt",
+      "family_description_tr": "",
+      "family_line_count": 6,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_13953",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "",
+            "ÖLÇÜ SIZE"
+          ],
+          "rows": [
+            [
+              "580151010",
+              "",
+              "25x25 cm"
+            ],
+            [
+              "580151023",
+              "",
+              "30x25 cm"
+            ]
+          ]
+        }
+      ],
+      "images": [],
+      "variants": [
+        {
+          "code": "580151010",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "580151010",
+            "unnamed": "",
+            "size": "25x25 cm"
+          }
+        },
+        {
+          "code": "580151023",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "580151023",
+            "unnamed": "",
+            "size": "30x25 cm"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,5235 @@
+{
+  "category_no": "03",
+  "category_tr": "Havuz İçi & Elektrik",
+  "category_en": "White Equipment & Lighting",
+  "family_count": 5,
+  "variant_count": 191,
+  "families": [
+    {
+      "family_product_id": "skimmer-skimmers",
+      "family_title_tr": "Skimmer Skimmers",
+      "family_title_en": "Skimmer Skimmers",
+      "family_description_tr": "Two views of a white skimmer unit with dimensions. The left view shows a side profile with dimensions 285 (top width), 390 (height), and 235 (bottom width). The right view shows a top-down perspective with dimensions 245 (top width), 220 (side width), 450 (bottom width), and 420 (bottom width).",
+      "family_line_count": 635,
+      "qualitative": {
+        "bullets_tr": [
+          "ABS'den mamül, UV dayanıklı, güneşten etkilenmez",
+          "Flanş ve contalar ürün içerisindedir",
+          "Kolay uygulanabilir",
+          "Daha keskin kıvrımlara ve bentlere sahip serbest havuzlar için idealdir",
+          "Ayrıca derinliği daha az ancak yüzey alanı daha fazla olan havuzlar içindir",
+          "UV resistant, unaffected by the sun",
+          "Produced from ABS plastic injection",
+          "Easy installation",
+          "Ideal for free pools with more acute bends and curves",
+          "Also for pools that have less depth but more surface area",
+          "Liner, polyester (fiberglass) ve beton havuzlar için uygundur",
+          "UV korumalı, beyaz enjeksiyon ABS malzemeden üretilmiştir",
+          "1½\" veya Ø63 mm giriş bağlantısı (5 m³/h veya 7,5 m³/h debi seçenekleri)",
+          "Ø32 mm taşma (overflow) bağlantısına sahiptir",
+          "EN 16582-1 ve EN 16713-2 standartlarına uygundur",
+          "Suitable for liner, fiberglass and concrete pools",
+          "Manufactured from white injected ABS with UV protection treatment",
+          "1½\" or Ø63 mm inlet connection (5 m³/h or 7.5 m³/h flow rate options)",
+          "Equipped with Ø32 mm overflow connection",
+          "Complies with EN 16582-1 and EN 16713-2 standards",
+          "ABS plastik enjeksiyon ürün",
+          "UV dayanıklıdır, güneşten etkilenmez",
+          "Oynar başlıklıdır, su istikameti istenilen açıda ayarlanabilir",
+          "Produced from ABS plastic injection",
+          "UV resistant, unaffected by the sun",
+          "Adjustable water direction",
+          "ABS plastik enjeksiyon ürün",
+          "UV dayanıklıdır, güneşten etkilenmez",
+          "Debi ayarlıdır",
+          "63 mm boruya uygulanır",
+          "Produced from ABS plastic injection",
+          "UV resistant, unaffected by the sun",
+          "Flow rate adjustable",
+          "63 mm pipe connection",
+          "Gövde ABS plastik enjeksiyondan üretilmiş",
+          "AISI 316 paslanmaz çelik önyüz",
+          "Açı ayarlı su çıkışı",
+          "63 mm boruya uygulanır",
+          "Body produced from ABS plastic injection",
+          "AISI 316 stainless steel face plate",
+          "Angle adjustable water outlet",
+          "63 mm pipe connection",
+          "ABS plastik enjeksiyondan üretilmiş",
+          "Güçlü ve sağlam gövde yapısına sahiptir",
+          "Bağlantı çapı 2\" (63 mm)",
+          "Gövde çapı: 180 mm",
+          "UV dayanıklıdır, güneşten etkilenmez",
+          "Produced from ABS plastic injection",
+          "Strong and durable body structure",
+          "Connection diameter: 2\" (63 mm)",
+          "Body diameter: 180 mm",
+          "UV resistant, unaffected by the sun",
+          "ABS plastik enjeksiyondan üretilmiş",
+          "İnşaat esnasında betona konulur",
+          "Olası bozukluk ve tıkanıklıklara karşı nozulları korumak amacıyla kullanılır",
+          "Produced from ABS plastic injection",
+          "This component is embedded in concrete during the construction work, thus preserving the nozzles from possible jamming or deterioration due to concrete",
+          "ABS plastik enjeksiyondan üretilmiştir",
+          "Güçlü ve sağlam gövde yapısına sahiptir",
+          "UV dayanıklıdır, güneşten etkilenmez",
+          "Produced from ABS plastic injection",
+          "Strong and durable body structure",
+          "UV resistant, unaffected by the sun"
+        ],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_4230",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "MODEL MODEL",
+            "BAĞLANTI CONNECTION",
+            "ŞEKİL TYPE",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "12515123021",
+              "Liner",
+              "50/63 mm",
+              "Standart",
+              "70 €"
+            ],
+            [
+              "12515123030",
+              "Liner",
+              "50/63 mm",
+              "Geniş Wide",
+              "85 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_4235",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "MODEL MODEL",
+            "BAĞLANTI CONNECTION",
+            "ŞEKİL TYPE",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "12515123020",
+              "Beton Concrete",
+              "50/63 mm",
+              "Standart",
+              "60 €"
+            ],
+            [
+              "12515123031",
+              "Beton Concrete",
+              "50/63 mm",
+              "Geniş Wide",
+              "70 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_4250",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "BAĞLANTI CONNECTION",
+            "ŞEKİL TYPE",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "12515113007",
+              "50 mm",
+              "İnce Geniş Ağız Liner Thin Wide Liner",
+              "240 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_4308",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "MODEL MODEL",
+            "BAĞLANTI CONNECTION",
+            "ŞEKİL TYPE",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "12515113001",
+              "SKSL.C",
+              "50 mm",
+              "Standart",
+              "72 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_4318",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "MODEL MODEL",
+            "BAĞLANTI CONNECTION",
+            "ŞEKİL TYPE",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "12515113002",
+              "SKA.C",
+              "50 mm",
+              "Geniş Wide",
+              "105 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_4339",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "MODEL MODEL",
+            "BAĞLANTI CONNECTION",
+            "ŞEKİL TYPE",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "12515113003",
+              "SKSL.C",
+              "50 mm",
+              "Standart",
+              "105 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_4343",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "MODEL MODEL",
+            "BAĞLANTI CONNECTION",
+            "ŞEKİL TYPE",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "12515113004",
+              "SKAL.C",
+              "50 mm",
+              "Geniş Wide",
+              "175 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_4361",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "MODEL MODEL",
+            "BAĞLANTI CONNECTION",
+            "ŞEKİL TYPE",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "12515113009",
+              "X PRO 60",
+              "50 mm",
+              "İnce Geniş Ağız Liner Thin Wide Liner",
+              "--"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_4395",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "BAĞLANTI CONNECTION",
+            "ŞEKİL TYPE",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "12515124001",
+              "50 mm",
+              "İnce Ağız Mirror Skimmer",
+              "455 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_4436",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "MODEL MODEL",
+            "BAĞLANTI CONNECTION",
+            "ŞEKİL TYPE",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "12515123009",
+              "SKLK",
+              "50 mm",
+              "Standart",
+              "69 €"
+            ],
+            [
+              "12515123010",
+              "SKLG",
+              "53 mm",
+              "Geniş Wide",
+              "70 €"
+            ],
+            [
+              "19812123007",
+              "-",
+              "50 mm",
+              "Uzatma Parçası Extension Part",
+              "13€"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_4463",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "RENK COLOR",
+            "ŞEKİL TYPE",
+            "ÇAP DIA",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "12517132019",
+              "Beyaz White",
+              "Yapıştırma Slip",
+              "Ø50",
+              "2.25 €"
+            ],
+            [
+              "12517132021",
+              "Siyah Black ★",
+              "Yapıştırma Slip",
+              "Ø63",
+              "2.50 €"
+            ],
+            [
+              "12517132020",
+              "Beyaz White",
+              "Yapıştırma Slip",
+              "Ø63",
+              "2.10 €"
+            ],
+            [
+              "12517123001",
+              "Beyaz White",
+              "Yapıştırma Slip",
+              "Ø63",
+              "2.55 €"
+            ],
+            [
+              "12517123002",
+              "Beyaz White",
+              "Dişli Threaded",
+              "Ø63",
+              "3.50 €"
+            ],
+            [
+              "12517132001",
+              "Beyaz White",
+              "Yapıştırma Slip",
+              "Ø63",
+              "2.00 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_4476",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "ÜRÜN ADI PRODUCT",
+            "ŞEKİL TYPE",
+            "ÇAP DIA",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "12517132009",
+              "Besleme Nozulu Inlet Nozzle",
+              "Yapıştırma Slip",
+              "Ø50",
+              "2.89 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_4489",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "RENK COLOR",
+            "ŞEKİL TYPE",
+            "ÇAP DIA",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "12517132016",
+              "Beyaz White",
+              "Yapıştırma Slip",
+              "Ø50",
+              "2.40 €"
+            ],
+            [
+              "12517132002",
+              "Siyah Black",
+              "Yapıştırma Slip",
+              "Ø63",
+              "2.00 €"
+            ],
+            [
+              "1014999100",
+              "Beyaz White",
+              "Konik Adj. Conic",
+              "Ø63",
+              "5.40 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_4499",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "RENK COLOR",
+            "ŞEKİL TYPE",
+            "ÇAP DIA",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "12517132015",
+              "Beyaz White",
+              "Yapıştırma Slip",
+              "Ø50",
+              "2.25 €"
+            ],
+            [
+              "12517132003",
+              "Beyaz White",
+              "Yapıştırma Slip",
+              "Ø63",
+              "2.50 €"
+            ],
+            [
+              "12517132013",
+              "★ Siyah Black",
+              "Konik Adj. Conic",
+              "Ø63",
+              "3.00 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_4512",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "ÜRÜN ADI PRODUCT",
+            "ŞEKİL TYPE",
+            "ÇAP DIA",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "12517132005",
+              "Besleme Nozulu Inlet Nozzle",
+              "Tabandan Floor Yapıştırma Slip",
+              "Ø63",
+              "2.99 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_4525",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "RENK COLOR",
+            "ŞEKİL TYPE",
+            "ÇAP DIA",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "12517132017",
+              "Beyaz White",
+              "Vakum Vacuum / Yapıştırma Slip",
+              "Ø50",
+              "2.00 €"
+            ],
+            [
+              "12517132004",
+              "Beyaz White",
+              "Vakum Vacuum / Yapıştırma Slip",
+              "Ø63",
+              "2.00 €"
+            ],
+            [
+              "12517132014",
+              "Siyah Black",
+              "Vakum Vacuum / Yapıştırma Slip",
+              "Ø63",
+              "2.50 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_4548",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "ÜRÜN ADI PRODUCT",
+            "ŞEKİL TYPE",
+            "ÇAP DIA",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "12517113001",
+              "Besleme Nozulu Inlet Nozzle",
+              "Tabandan Floor Dişli Threaded",
+              "Ø63",
+              "26 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_4560",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "ÜRÜN ADI PRODUCT",
+            "ŞEKİL TYPE",
+            "ÇAP DIA",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "12517113002",
+              "Besleme Nozulu Inlet Nozzle",
+              "Yandan Wall Dişli Threaded",
+              "Ø63",
+              "17.50 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_4568",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "ÜRÜN ADI PRODUCT",
+            "ŞEKİL TYPE",
+            "ÇAP DIA",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "12517132012",
+              "Besleme Nozulu Inlet Nozzle",
+              "Yandan Wall Yapıştırma Slip",
+              "Ø63",
+              "15 €"
+            ],
+            [
+              "12517113004",
+              "Besleme Nozulu Inlet Nozzle",
+              "Yandan Wall Yapıştırma Slip",
+              "Ø50",
+              "15 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_4585",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "ÜRÜN ADI PRODUCT",
+            "ŞEKİL TYPE",
+            "ÇAP DIA",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "12517123012",
+              "Besleme Nozulu Inlet Nozzle",
+              "Yandan Wall Dişli Threaded",
+              "Ø50",
+              "11 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_4610",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "ÜRÜN ADI PRODUCT",
+            "ŞEKİL TYPE",
+            "ÇAP DIA",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "12517132007",
+              "Besleme Nozulu Inlet Nozzle",
+              "Tabandan Floor Yapıştırma Slip",
+              "Ø63",
+              "55 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_4622",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "ÜRÜN ADI PRODUCT",
+            "ŞEKİL TYPE",
+            "ÇAP DIA",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "12517123010",
+              "Besleme Nozulu Inlet Nozzle",
+              "Tabandan Floor Yapıştırma Slip",
+              "Ø63",
+              "45 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_4634",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "ÜRÜN ADI PRODUCT",
+            "ŞEKİL TYPE",
+            "ÇAP DIA",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "12517132008",
+              "Vakum Nozulu Vacuum Nozzle",
+              "Tabandan Floor Yapıştırma Slip",
+              "Ø63",
+              "45 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_4663",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "ÜRÜN ADI PRODUCT",
+            "ŞEKİL TYPE",
+            "ÇAP DIA",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "12518123001",
+              "Dip Süzgeci Round Drain",
+              "Dişli Threaded",
+              "Ø63",
+              "20 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_4676",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "ÜRÜN ADI PRODUCT",
+            "ŞEKİL TYPE",
+            "ÇAP DIA",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "12518113001",
+              "Dip Süzgeci Round Drain",
+              "Dişli Threaded",
+              "Ø63",
+              "25 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_4704",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "ÜRÜN ADI PRODUCT",
+            "ŞEKİL TYPE",
+            "ÇAP DIA",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "12518123002",
+              "Besleme Nozulu Inlet Nozzle",
+              "Yandan Dişli Wall Threaded",
+              "Ø63",
+              "45 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_4717",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "ÜRÜN ADI PRODUCT",
+            "ŞEKİL TYPE",
+            "ÇAP DIA",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "12518113002",
+              "Besleme Nozulu Inlet Nozzle",
+              "Yandan Dişli Wall Threaded",
+              "Ø63",
+              "50 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_4735",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "BOY SIZE",
+            "AĞIRLIK WEIGHT",
+            "ÇAP DIA",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "12516123001",
+              "300 mm",
+              "0,20 Kg",
+              "Ø63",
+              "7.20 \\$"
+            ],
+            [
+              "12516113001 Dişli Threaded",
+              "300 mm",
+              "0,20 Kg",
+              "Ø63",
+              "10.50 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_4776",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "ÜRÜN ADI PRODUCT",
+            "ÖLÇÜ DIMENSION",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "12518121001",
+              "Kare Dip Süzgeç Kapağı Square Drain Cover",
+              "265x265 mm",
+              "9.00 €"
+            ],
+            [
+              "12518121002",
+              "Kare Dip Süzgeç Kapağı Square Drain Cover",
+              "300x300 mm",
+              "11.0 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_4781",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "ÜRÜN ADI PRODUCT",
+            "ÖLÇÜ DIMENSION",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "12518123006",
+              "Yuvarlak Dip Süzgeç Kapağı Round Drain Cover",
+              "Ø240 mm",
+              "11.00 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_4792",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "ÜRÜN ADI PRODUCT",
+            "ÖLÇÜ DIMENSION",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "12518121003",
+              "Dikdörtgen Dip Süzgeç Kapağı Rectangle Drain Cover",
+              "100x200 mm",
+              "9.52 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_4811",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "ÜRÜN ADI PRODUCT",
+            "ÖLÇÜ mm SIZE mm",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "12518122004",
+              "Süzgeç Kapağı Paslanmaz Çelik Drain Cover Stainless Steel",
+              "20x20",
+              "110 €"
+            ],
+            [
+              "148122010",
+              "Süzgeç Kapağı Paslanmaz Çelik Drain Cover Stainless Steel",
+              "25x25",
+              "130 €"
+            ],
+            [
+              "12518122013",
+              "Süzgeç Kapağı Paslanmaz Çelik Drain Cover Stainless Steel",
+              "26,5x26,5",
+              "135 €"
+            ],
+            [
+              "12518122005",
+              "Süzgeç Kapağı Paslanmaz Çelik Drain Cover Stainless Steel",
+              "30x30",
+              "155 €"
+            ],
+            [
+              "12518122011",
+              "Süzgeç Kapağı Paslanmaz Çelik Drain Cover Stainless Steel",
+              "45x45",
+              "170 €"
+            ],
+            [
+              "12518122007",
+              "Süzgeç Kapağı Paslanmaz Çelik Drain Cover Stainless Steel",
+              "50x50",
+              "180 €"
+            ],
+            [
+              "12518122008",
+              "Süzgeç Kapağı Paslanmaz Çelik Drain Cover Stainless Steel",
+              "55x55",
+              "190 €"
+            ],
+            [
+              "12518122010",
+              "Süzgeç Kapağı Paslanmaz Çelik Drain Cover Stainless Steel",
+              "60x60",
+              "200 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "8e5c3326ed0fd4d6481fd54b3727ce48_img.jpg",
+          "alt": "Two views of a white skimmer unit with dimensions. The left view shows a side profile with dimensions 285 (top width), 390 (height), and 235 (bottom width). The right view shows a top-down perspective with dimensions 245 (top width), 220 (side width), 450 (bottom width), and 420 (bottom width).",
+          "caption": "",
+          "type": "dimensions"
+        },
+        {
+          "file": "4afb75e09978531297632665edd9544f_img.jpg",
+          "alt": "Two views of a white skimmer unit with dimensions. The left view shows a side profile with dimensions 245 (top width), 220 (side width), 450 (bottom width), and 420 (bottom width). The right view shows a top-down perspective with dimensions 245 (top width), 220 (side width), 450 (bottom width), and 420 (bottom width).",
+          "caption": "",
+          "type": "dimensions"
+        },
+        {
+          "file": "ae5ea3b78247cbe241cac821a4c664fb_img.jpg",
+          "alt": "A view of a white skimmer unit with dimensions. The top width is 222, the height is 147, and the bottom width is 562.",
+          "caption": "",
+          "type": "dimensions"
+        },
+        {
+          "file": "f7750899e83649aaee602da7b6edd479_img.jpg",
+          "alt": "Technical drawings of a skimmer unit. The top view shows dimensions 387 (width), 371 (height), 144 (side width), 215 (bottom width), and 63 (bottom width). The side view shows dimensions 243 (width), 243 (height), and 128.500 (bottom width).",
+          "caption": "",
+          "type": "dimensions"
+        },
+        {
+          "file": "714e9fd4751252fd2a667bd05a96ba5c_img.jpg",
+          "alt": "Icon for Liner / Liner",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "00569c2a6c8a2cee07d933014bed3050_img.jpg",
+          "alt": "Icon for Metal Takım / Metal Inserts",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "cfe624efc3f3d4e9c6dc8b71b8a6f9e0_img.jpg",
+          "alt": "Icon for Beton / Concrete",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "836b092e453929b9c93fe23166900e52_img.jpg",
+          "alt": "SKSL.C Model concrete pool skimmer with dimensions: 225, 415, 198, 240, 420",
+          "caption": "",
+          "type": "dimensions"
+        },
+        {
+          "file": "b1939b29ae70227ffcce1e360e6a5a55_img.jpg",
+          "alt": "SKA.C Model concrete pool skimmer with dimensions: 225, 575, 250, 426, 420",
+          "caption": "",
+          "type": "dimensions"
+        },
+        {
+          "file": "2f90208c1e6ef572f0ebf2b93e236238_img.jpg",
+          "alt": "SKSL.C Model liner pool skimmer with dimensions: 225, 415, 198, 240, 420",
+          "caption": "",
+          "type": "dimensions"
+        },
+        {
+          "file": "0c8acfe54f966488af90aad8046df964_img.jpg",
+          "alt": "SKAL.C Model liner pool skimmer with dimensions: 225, 575, 250, 426, 420",
+          "caption": "",
+          "type": "dimensions"
+        },
+        {
+          "file": "92559ed2a425c10fbf2979d6da88909b_img.jpg",
+          "alt": "Image of the Hayward X-Line skimmer unit in grey, with three color options (black, grey, and brown) shown below it.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "5823067f8a8832aeed78027aba5497f7_img.jpg",
+          "alt": "Technical drawing of the Hayward X-Line skimmer showing dimensions: 248.7, 586.4, 171, 415.7, 22, 2",
+          "caption": "",
+          "type": "dimensions"
+        },
+        {
+          "file": "0e5d9514ac5b236dfa54d1df9c1fed4e_img.jpg",
+          "alt": "Technical drawing of the Hayward X-Line skimmer showing dimensions: 640, 598, 306, 190, 130, 87.",
+          "caption": "",
+          "type": "dimensions"
+        },
+        {
+          "file": "fc351f8c1d5cd53ed2263ee16e5b10e7_img.jpg",
+          "alt": "Icon representing 4 color options available.",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "49047d7a32a9dcc7de8b74c2da2883ef_img.jpg",
+          "alt": "Image of the Praher Smart High Water Level Skimmer unit.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "1bfaecbd0c14cb05f0fc507a42fd49c8_img.jpg",
+          "alt": "Technical drawing of the Praher skimmer showing dimensions: 427.50 mm, 337.00 mm, 262.00 mm, 445.00 mm, ø50.",
+          "caption": "",
+          "type": "dimensions"
+        },
+        {
+          "file": "7a9216f98a56e85383d677a9cd1ba75c_img.jpg",
+          "alt": "Technical drawing of the Praher skimmer showing dimensions: 540.00 mm, 493.00 mm, 80.00 mm, ø50.",
+          "caption": "",
+          "type": "dimensions"
+        },
+        {
+          "file": "64f4e0f947147897acf28af681c53cfa_img.jpg",
+          "alt": "Technical drawing of the Praher skimmer showing dimensions: 250.00 mm, ø50.",
+          "caption": "",
+          "type": "dimensions"
+        },
+        {
+          "file": "bffbd4616093a40496620fa4a100a805_img.jpg",
+          "alt": "Technical drawing of the Praher skimmer showing dimensions: 504.00 mm, 544.00 mm, 250.00 mm, ø50.",
+          "caption": "",
+          "type": "dimensions"
+        },
+        {
+          "file": "ccec4635878f95843adf1e439307de01_img.jpg",
+          "alt": "Image of the SKLK Model skimmer with dimensions: 255, 205, 215, 310.",
+          "caption": "",
+          "type": "dimensions"
+        },
+        {
+          "file": "fd688aaa4dacf22b80648b93ef3bfd30_img.jpg",
+          "alt": "Image of the SKLG Model skimmer with dimensions: 205, 195, 360, 320.",
+          "caption": "",
+          "type": "dimensions"
+        },
+        {
+          "file": "4a55a15665f843d69b3db2f923469dce_img.jpg",
+          "alt": "Image of the Uzatma Parçası Extension Part.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "d5631743468005dbb057901351920210_img.jpg",
+          "alt": "Two wall inlet nozzles: one white and one black with a red star.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "cd8f187b8a8fcf7d2fc1a64de05c9061_img.jpg",
+          "alt": "A white wall inlet nozzle.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "5042dc64f60197395236d1593dad2636_img.jpg",
+          "alt": "Two floor inlet nozzles: one white and one black.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "4de4cd8be491a10f784c32f0b1d05fda_img.jpg",
+          "alt": "Two circular floor drain covers, one white and one black, shown from top and side views. A red star is visible on the side of the black cover.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "e51c03cf6adbc1a17eeb24e0a21197e4_img.jpg",
+          "alt": "A white circular floor drain cover shown from a top-down perspective.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "abcecebd3396939174579f73990a3274_img.jpg",
+          "alt": "Two circular vacuum nozzle covers, one white and one black, shown from top and side views. A red star is visible on the side of the black cover.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "09c7d65342ef759022ad6821dbcb7659_img.jpg",
+          "alt": "Two views of a white plastic floor inlet nozzle for a liner pool. One view shows the top with a blue ring, and the other shows the side with a threaded connection.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "2c91d2189ec280629b0719c895950c0e_img.jpg",
+          "alt": "A white plastic wall inlet nozzle for a liner pool, shown from a side angle.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "ce1a455fc296c94ec09e1bd994b5958b_img.jpg",
+          "alt": "A white plastic wall inlet nozzle for a liner pool, shown from a top-down perspective.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "f3fd7f553c01bdb01da2312d2584b098_img.jpg",
+          "alt": "Water Fun logo featuring a stylized blue wave and a red fish.",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "bec3845be8a79563cca5370ca59a93f4_img.jpg",
+          "alt": "A white plastic wall inlet nozzle for a liner pool, shown from a side angle.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "34745a5ef5c932d6999724da89430a5b_img.jpg",
+          "alt": "AISI 304 stainless steel face plate with a circular design and a central water outlet.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "c8ab121f137e628ebe08ba979397da57_img.jpg",
+          "alt": "AISI 304 stainless steel face plate with a circular design and a central water outlet.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "cf69aed2c0efb18bb34ee0af9af07b78_img.jpg",
+          "alt": "AISI 304 stainless steel face plate with a circular design and a central water outlet.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "93718e27698d11056a6ba39bb7d984b1_img.jpg",
+          "alt": "A white, circular, threaded drain cover with a central hole and a small handle on the side.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "32b44d5d5fb613c7cbe00fcf2b804245_img.jpg",
+          "alt": "A white, circular, threaded drain cover with a central hole and a small handle on the side.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "4bde1ecc8847a172af97f3321324c275_img.jpg",
+          "alt": "Water Fun logo",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "6b49d4d764472724764aa53593a42523_img.jpg",
+          "alt": "KIPSOL logo",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "bfefdd9ca0aae988ea5a775fe0aac0a3_img.jpg",
+          "alt": "A white, circular, threaded drain cover with a central hole and a small handle on the side.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "040cd0ff25c8e54925759d67d10c052a_img.jpg",
+          "alt": "A white, circular, threaded drain cover with a central hole and a small handle on the side.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "d3fe95dd81410f48fa53afeb8d126ec6_img.jpg",
+          "alt": "Water Fun logo",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "ea66475a44dea15cb4af688c709fb9f7_img.jpg",
+          "alt": "KIPSOL logo",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "1b9b08ca4f8695630f11644eb3d9c8cf_img.jpg",
+          "alt": "Two white concrete wall conduit components, one with a threaded end and one with a smooth end.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "0aea973177e94c0298efc5c4f5e78cda_img.jpg",
+          "alt": "Square drain cover with a grid pattern.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "86878dc44a50db979cc10d0a3b240084_img.jpg",
+          "alt": "Round drain cover with a circular pattern.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "2c4bcb50d7b46d21d75584a4f8a57b77_img.jpg",
+          "alt": "Rectangular drain cover with a grid pattern.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "75ba5fe8866e91e17632f42105c5807c_img.jpg",
+          "alt": "A square, perforated stainless steel drain cover for a pool, shown from a top-down perspective.",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "12515123021",
+          "price": "70 €",
+          "price_eur": 70.0,
+          "values": {
+            "code": "12515123021",
+            "model": "Liner",
+            "connection": "50/63 mm",
+            "type": "Standart",
+            "price": "70 €",
+            "price_eur": 70.0
+          }
+        },
+        {
+          "code": "12515123030",
+          "price": "85 €",
+          "price_eur": 85.0,
+          "values": {
+            "code": "12515123030",
+            "model": "Liner",
+            "connection": "50/63 mm",
+            "type": "Geniş Wide",
+            "price": "85 €",
+            "price_eur": 85.0
+          }
+        },
+        {
+          "code": "12515123020",
+          "price": "60 €",
+          "price_eur": 60.0,
+          "values": {
+            "code": "12515123020",
+            "model": "Beton Concrete",
+            "connection": "50/63 mm",
+            "type": "Standart",
+            "price": "60 €",
+            "price_eur": 60.0
+          }
+        },
+        {
+          "code": "12515123031",
+          "price": "70 €",
+          "price_eur": 70.0,
+          "values": {
+            "code": "12515123031",
+            "model": "Beton Concrete",
+            "connection": "50/63 mm",
+            "type": "Geniş Wide",
+            "price": "70 €",
+            "price_eur": 70.0
+          }
+        },
+        {
+          "code": "12515113007",
+          "price": "240 €",
+          "price_eur": 240.0,
+          "values": {
+            "code": "12515113007",
+            "connection": "50 mm",
+            "type": "İnce Geniş Ağız Liner Thin Wide Liner",
+            "price": "240 €",
+            "price_eur": 240.0
+          }
+        },
+        {
+          "code": "12515113001",
+          "price": "72 €",
+          "price_eur": 72.0,
+          "values": {
+            "code": "12515113001",
+            "model": "SKSL.C",
+            "connection": "50 mm",
+            "type": "Standart",
+            "price": "72 €",
+            "price_eur": 72.0
+          }
+        },
+        {
+          "code": "12515113002",
+          "price": "105 €",
+          "price_eur": 105.0,
+          "values": {
+            "code": "12515113002",
+            "model": "SKA.C",
+            "connection": "50 mm",
+            "type": "Geniş Wide",
+            "price": "105 €",
+            "price_eur": 105.0
+          }
+        },
+        {
+          "code": "12515113003",
+          "price": "105 €",
+          "price_eur": 105.0,
+          "values": {
+            "code": "12515113003",
+            "model": "SKSL.C",
+            "connection": "50 mm",
+            "type": "Standart",
+            "price": "105 €",
+            "price_eur": 105.0
+          }
+        },
+        {
+          "code": "12515113004",
+          "price": "175 €",
+          "price_eur": 175.0,
+          "values": {
+            "code": "12515113004",
+            "model": "SKAL.C",
+            "connection": "50 mm",
+            "type": "Geniş Wide",
+            "price": "175 €",
+            "price_eur": 175.0
+          }
+        },
+        {
+          "code": "12515113009",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "12515113009",
+            "model": "X PRO 60",
+            "connection": "50 mm",
+            "type": "İnce Geniş Ağız Liner Thin Wide Liner",
+            "price": "--"
+          }
+        },
+        {
+          "code": "12515124001",
+          "price": "455 €",
+          "price_eur": 455.0,
+          "values": {
+            "code": "12515124001",
+            "connection": "50 mm",
+            "type": "İnce Ağız Mirror Skimmer",
+            "price": "455 €",
+            "price_eur": 455.0
+          }
+        },
+        {
+          "code": "12515123009",
+          "price": "69 €",
+          "price_eur": 69.0,
+          "values": {
+            "code": "12515123009",
+            "model": "SKLK",
+            "connection": "50 mm",
+            "type": "Standart",
+            "price": "69 €",
+            "price_eur": 69.0
+          }
+        },
+        {
+          "code": "12515123010",
+          "price": "70 €",
+          "price_eur": 70.0,
+          "values": {
+            "code": "12515123010",
+            "model": "SKLG",
+            "connection": "53 mm",
+            "type": "Geniş Wide",
+            "price": "70 €",
+            "price_eur": 70.0
+          }
+        },
+        {
+          "code": "19812123007",
+          "price": "13€",
+          "price_eur": 13.0,
+          "values": {
+            "code": "19812123007",
+            "model": "-",
+            "connection": "50 mm",
+            "type": "Uzatma Parçası Extension Part",
+            "price": "13€",
+            "price_eur": 13.0
+          }
+        },
+        {
+          "code": "12517132019",
+          "price": "2.25 €",
+          "price_eur": 2.25,
+          "values": {
+            "code": "12517132019",
+            "color": "Beyaz White",
+            "type": "Yapıştırma Slip",
+            "ap_dia": "Ø50",
+            "price": "2.25 €",
+            "price_eur": 2.25
+          }
+        },
+        {
+          "code": "12517132021",
+          "price": "2.50 €",
+          "price_eur": 2.5,
+          "values": {
+            "code": "12517132021",
+            "color": "Siyah Black ★",
+            "type": "Yapıştırma Slip",
+            "ap_dia": "Ø63",
+            "price": "2.50 €",
+            "price_eur": 2.5
+          }
+        },
+        {
+          "code": "12517132020",
+          "price": "2.10 €",
+          "price_eur": 2.1,
+          "values": {
+            "code": "12517132020",
+            "color": "Beyaz White",
+            "type": "Yapıştırma Slip",
+            "ap_dia": "Ø63",
+            "price": "2.10 €",
+            "price_eur": 2.1
+          }
+        },
+        {
+          "code": "12517123001",
+          "price": "2.55 €",
+          "price_eur": 2.55,
+          "values": {
+            "code": "12517123001",
+            "color": "Beyaz White",
+            "type": "Yapıştırma Slip",
+            "ap_dia": "Ø63",
+            "price": "2.55 €",
+            "price_eur": 2.55
+          }
+        },
+        {
+          "code": "12517123002",
+          "price": "3.50 €",
+          "price_eur": 3.5,
+          "values": {
+            "code": "12517123002",
+            "color": "Beyaz White",
+            "type": "Dişli Threaded",
+            "ap_dia": "Ø63",
+            "price": "3.50 €",
+            "price_eur": 3.5
+          }
+        },
+        {
+          "code": "12517132001",
+          "price": "2.00 €",
+          "price_eur": 2.0,
+          "values": {
+            "code": "12517132001",
+            "color": "Beyaz White",
+            "type": "Yapıştırma Slip",
+            "ap_dia": "Ø63",
+            "price": "2.00 €",
+            "price_eur": 2.0
+          }
+        },
+        {
+          "code": "12517132009",
+          "price": "2.89 €",
+          "price_eur": 2.89,
+          "values": {
+            "code": "12517132009",
+            "product_name": "Besleme Nozulu Inlet Nozzle",
+            "type": "Yapıştırma Slip",
+            "ap_dia": "Ø50",
+            "price": "2.89 €",
+            "price_eur": 2.89
+          }
+        },
+        {
+          "code": "12517132016",
+          "price": "2.40 €",
+          "price_eur": 2.4,
+          "values": {
+            "code": "12517132016",
+            "color": "Beyaz White",
+            "type": "Yapıştırma Slip",
+            "ap_dia": "Ø50",
+            "price": "2.40 €",
+            "price_eur": 2.4
+          }
+        },
+        {
+          "code": "12517132002",
+          "price": "2.00 €",
+          "price_eur": 2.0,
+          "values": {
+            "code": "12517132002",
+            "color": "Siyah Black",
+            "type": "Yapıştırma Slip",
+            "ap_dia": "Ø63",
+            "price": "2.00 €",
+            "price_eur": 2.0
+          }
+        },
+        {
+          "code": "1014999100",
+          "price": "5.40 €",
+          "price_eur": 5.4,
+          "values": {
+            "code": "1014999100",
+            "color": "Beyaz White",
+            "type": "Konik Adj. Conic",
+            "ap_dia": "Ø63",
+            "price": "5.40 €",
+            "price_eur": 5.4
+          }
+        },
+        {
+          "code": "12517132015",
+          "price": "2.25 €",
+          "price_eur": 2.25,
+          "values": {
+            "code": "12517132015",
+            "color": "Beyaz White",
+            "type": "Yapıştırma Slip",
+            "ap_dia": "Ø50",
+            "price": "2.25 €",
+            "price_eur": 2.25
+          }
+        },
+        {
+          "code": "12517132003",
+          "price": "2.50 €",
+          "price_eur": 2.5,
+          "values": {
+            "code": "12517132003",
+            "color": "Beyaz White",
+            "type": "Yapıştırma Slip",
+            "ap_dia": "Ø63",
+            "price": "2.50 €",
+            "price_eur": 2.5
+          }
+        },
+        {
+          "code": "12517132013",
+          "price": "3.00 €",
+          "price_eur": 3.0,
+          "values": {
+            "code": "12517132013",
+            "color": "★ Siyah Black",
+            "type": "Konik Adj. Conic",
+            "ap_dia": "Ø63",
+            "price": "3.00 €",
+            "price_eur": 3.0
+          }
+        },
+        {
+          "code": "12517132005",
+          "price": "2.99 €",
+          "price_eur": 2.99,
+          "values": {
+            "code": "12517132005",
+            "product_name": "Besleme Nozulu Inlet Nozzle",
+            "type": "Tabandan Floor Yapıştırma Slip",
+            "ap_dia": "Ø63",
+            "price": "2.99 €",
+            "price_eur": 2.99
+          }
+        },
+        {
+          "code": "12517132017",
+          "price": "2.00 €",
+          "price_eur": 2.0,
+          "values": {
+            "code": "12517132017",
+            "color": "Beyaz White",
+            "type": "Vakum Vacuum / Yapıştırma Slip",
+            "ap_dia": "Ø50",
+            "price": "2.00 €",
+            "price_eur": 2.0
+          }
+        },
+        {
+          "code": "12517132004",
+          "price": "2.00 €",
+          "price_eur": 2.0,
+          "values": {
+            "code": "12517132004",
+            "color": "Beyaz White",
+            "type": "Vakum Vacuum / Yapıştırma Slip",
+            "ap_dia": "Ø63",
+            "price": "2.00 €",
+            "price_eur": 2.0
+          }
+        },
+        {
+          "code": "12517132014",
+          "price": "2.50 €",
+          "price_eur": 2.5,
+          "values": {
+            "code": "12517132014",
+            "color": "Siyah Black",
+            "type": "Vakum Vacuum / Yapıştırma Slip",
+            "ap_dia": "Ø63",
+            "price": "2.50 €",
+            "price_eur": 2.5
+          }
+        },
+        {
+          "code": "12517113001",
+          "price": "26 €",
+          "price_eur": 26.0,
+          "values": {
+            "code": "12517113001",
+            "product_name": "Besleme Nozulu Inlet Nozzle",
+            "type": "Tabandan Floor Dişli Threaded",
+            "ap_dia": "Ø63",
+            "price": "26 €",
+            "price_eur": 26.0
+          }
+        },
+        {
+          "code": "12517113002",
+          "price": "17.50 €",
+          "price_eur": 17.5,
+          "values": {
+            "code": "12517113002",
+            "product_name": "Besleme Nozulu Inlet Nozzle",
+            "type": "Yandan Wall Dişli Threaded",
+            "ap_dia": "Ø63",
+            "price": "17.50 €",
+            "price_eur": 17.5
+          }
+        },
+        {
+          "code": "12517132012",
+          "price": "15 €",
+          "price_eur": 15.0,
+          "values": {
+            "code": "12517132012",
+            "product_name": "Besleme Nozulu Inlet Nozzle",
+            "type": "Yandan Wall Yapıştırma Slip",
+            "ap_dia": "Ø63",
+            "price": "15 €",
+            "price_eur": 15.0
+          }
+        },
+        {
+          "code": "12517113004",
+          "price": "15 €",
+          "price_eur": 15.0,
+          "values": {
+            "code": "12517113004",
+            "product_name": "Besleme Nozulu Inlet Nozzle",
+            "type": "Yandan Wall Yapıştırma Slip",
+            "ap_dia": "Ø50",
+            "price": "15 €",
+            "price_eur": 15.0
+          }
+        },
+        {
+          "code": "12517123012",
+          "price": "11 €",
+          "price_eur": 11.0,
+          "values": {
+            "code": "12517123012",
+            "product_name": "Besleme Nozulu Inlet Nozzle",
+            "type": "Yandan Wall Dişli Threaded",
+            "ap_dia": "Ø50",
+            "price": "11 €",
+            "price_eur": 11.0
+          }
+        },
+        {
+          "code": "12517132007",
+          "price": "55 €",
+          "price_eur": 55.0,
+          "values": {
+            "code": "12517132007",
+            "product_name": "Besleme Nozulu Inlet Nozzle",
+            "type": "Tabandan Floor Yapıştırma Slip",
+            "ap_dia": "Ø63",
+            "price": "55 €",
+            "price_eur": 55.0
+          }
+        },
+        {
+          "code": "12517123010",
+          "price": "45 €",
+          "price_eur": 45.0,
+          "values": {
+            "code": "12517123010",
+            "product_name": "Besleme Nozulu Inlet Nozzle",
+            "type": "Tabandan Floor Yapıştırma Slip",
+            "ap_dia": "Ø63",
+            "price": "45 €",
+            "price_eur": 45.0
+          }
+        },
+        {
+          "code": "12517132008",
+          "price": "45 €",
+          "price_eur": 45.0,
+          "values": {
+            "code": "12517132008",
+            "product_name": "Vakum Nozulu Vacuum Nozzle",
+            "type": "Tabandan Floor Yapıştırma Slip",
+            "ap_dia": "Ø63",
+            "price": "45 €",
+            "price_eur": 45.0
+          }
+        },
+        {
+          "code": "12518123001",
+          "price": "20 €",
+          "price_eur": 20.0,
+          "values": {
+            "code": "12518123001",
+            "product_name": "Dip Süzgeci Round Drain",
+            "type": "Dişli Threaded",
+            "ap_dia": "Ø63",
+            "price": "20 €",
+            "price_eur": 20.0
+          }
+        },
+        {
+          "code": "12518113001",
+          "price": "25 €",
+          "price_eur": 25.0,
+          "values": {
+            "code": "12518113001",
+            "product_name": "Dip Süzgeci Round Drain",
+            "type": "Dişli Threaded",
+            "ap_dia": "Ø63",
+            "price": "25 €",
+            "price_eur": 25.0
+          }
+        },
+        {
+          "code": "12518123002",
+          "price": "45 €",
+          "price_eur": 45.0,
+          "values": {
+            "code": "12518123002",
+            "product_name": "Besleme Nozulu Inlet Nozzle",
+            "type": "Yandan Dişli Wall Threaded",
+            "ap_dia": "Ø63",
+            "price": "45 €",
+            "price_eur": 45.0
+          }
+        },
+        {
+          "code": "12518113002",
+          "price": "50 €",
+          "price_eur": 50.0,
+          "values": {
+            "code": "12518113002",
+            "product_name": "Besleme Nozulu Inlet Nozzle",
+            "type": "Yandan Dişli Wall Threaded",
+            "ap_dia": "Ø63",
+            "price": "50 €",
+            "price_eur": 50.0
+          }
+        },
+        {
+          "code": "12516123001",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "12516123001",
+            "size": "300 mm",
+            "weight": "0,20 Kg",
+            "ap_dia": "Ø63",
+            "price": "7.20 \\$"
+          }
+        },
+        {
+          "code": "12516113001",
+          "price": "10.50 €",
+          "price_eur": 10.5,
+          "values": {
+            "code": "12516113001 Dişli Threaded",
+            "size": "300 mm",
+            "weight": "0,20 Kg",
+            "ap_dia": "Ø63",
+            "price": "10.50 €",
+            "price_eur": 10.5
+          }
+        },
+        {
+          "code": "12518121001",
+          "price": "9.00 €",
+          "price_eur": 9.0,
+          "values": {
+            "code": "12518121001",
+            "product_name": "Kare Dip Süzgeç Kapağı Square Drain Cover",
+            "dimension": "265x265 mm",
+            "price": "9.00 €",
+            "price_eur": 9.0
+          }
+        },
+        {
+          "code": "12518121002",
+          "price": "11.0 €",
+          "price_eur": 11.0,
+          "values": {
+            "code": "12518121002",
+            "product_name": "Kare Dip Süzgeç Kapağı Square Drain Cover",
+            "dimension": "300x300 mm",
+            "price": "11.0 €",
+            "price_eur": 11.0
+          }
+        },
+        {
+          "code": "12518123006",
+          "price": "11.00 €",
+          "price_eur": 11.0,
+          "values": {
+            "code": "12518123006",
+            "product_name": "Yuvarlak Dip Süzgeç Kapağı Round Drain Cover",
+            "dimension": "Ø240 mm",
+            "price": "11.00 €",
+            "price_eur": 11.0
+          }
+        },
+        {
+          "code": "12518121003",
+          "price": "9.52 €",
+          "price_eur": 9.52,
+          "values": {
+            "code": "12518121003",
+            "product_name": "Dikdörtgen Dip Süzgeç Kapağı Rectangle Drain Cover",
+            "dimension": "100x200 mm",
+            "price": "9.52 €",
+            "price_eur": 9.52
+          }
+        },
+        {
+          "code": "12518122004",
+          "price": "110 €",
+          "price_eur": 110.0,
+          "values": {
+            "code": "12518122004",
+            "product_name": "Süzgeç Kapağı Paslanmaz Çelik Drain Cover Stainless Steel",
+            "size_mm": "20x20",
+            "price": "110 €",
+            "price_eur": 110.0
+          }
+        },
+        {
+          "code": "148122010",
+          "price": "130 €",
+          "price_eur": 130.0,
+          "values": {
+            "code": "148122010",
+            "product_name": "Süzgeç Kapağı Paslanmaz Çelik Drain Cover Stainless Steel",
+            "size_mm": "25x25",
+            "price": "130 €",
+            "price_eur": 130.0
+          }
+        },
+        {
+          "code": "12518122013",
+          "price": "135 €",
+          "price_eur": 135.0,
+          "values": {
+            "code": "12518122013",
+            "product_name": "Süzgeç Kapağı Paslanmaz Çelik Drain Cover Stainless Steel",
+            "size_mm": "26,5x26,5",
+            "price": "135 €",
+            "price_eur": 135.0
+          }
+        },
+        {
+          "code": "12518122005",
+          "price": "155 €",
+          "price_eur": 155.0,
+          "values": {
+            "code": "12518122005",
+            "product_name": "Süzgeç Kapağı Paslanmaz Çelik Drain Cover Stainless Steel",
+            "size_mm": "30x30",
+            "price": "155 €",
+            "price_eur": 155.0
+          }
+        },
+        {
+          "code": "12518122011",
+          "price": "170 €",
+          "price_eur": 170.0,
+          "values": {
+            "code": "12518122011",
+            "product_name": "Süzgeç Kapağı Paslanmaz Çelik Drain Cover Stainless Steel",
+            "size_mm": "45x45",
+            "price": "170 €",
+            "price_eur": 170.0
+          }
+        },
+        {
+          "code": "12518122007",
+          "price": "180 €",
+          "price_eur": 180.0,
+          "values": {
+            "code": "12518122007",
+            "product_name": "Süzgeç Kapağı Paslanmaz Çelik Drain Cover Stainless Steel",
+            "size_mm": "50x50",
+            "price": "180 €",
+            "price_eur": 180.0
+          }
+        },
+        {
+          "code": "12518122008",
+          "price": "190 €",
+          "price_eur": 190.0,
+          "values": {
+            "code": "12518122008",
+            "product_name": "Süzgeç Kapağı Paslanmaz Çelik Drain Cover Stainless Steel",
+            "size_mm": "55x55",
+            "price": "190 €",
+            "price_eur": 190.0
+          }
+        },
+        {
+          "code": "12518122010",
+          "price": "200 €",
+          "price_eur": 200.0,
+          "values": {
+            "code": "12518122010",
+            "product_name": "Süzgeç Kapağı Paslanmaz Çelik Drain Cover Stainless Steel",
+            "size_mm": "60x60",
+            "price": "200 €",
+            "price_eur": 200.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "su-seviye-reg-lat-r-water-level-regulator",
+      "family_title_tr": "Su Seviye Regülatörü Water Level Regulator",
+      "family_title_en": "Su Seviye Regülatörü Water Level Regulator",
+      "family_description_tr": "A white plastic water level regulator. The image includes a 3D perspective view and two technical drawings. The top drawing shows a square base with a circular opening, labeled with dimensions 235x235. The side drawing shows the regulator's profile, indicating a minimum height of 276 and a maximum height of 310.",
+      "family_line_count": 9,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_4828",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "BAĞLANTI CONNECTION",
+            "DEBİ L/DK FLOWRATE LT/MIN",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "2099002418",
+              "Inlet: $\\phi$ 20 mm veya or 3/4\"BSP, Outlet: $\\phi$ 50mm",
+              "30-50",
+              "52 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "35b42631de613687d7870f627ccf8bca_img.jpg",
+          "alt": "A white plastic water level regulator. The image includes a 3D perspective view and two technical drawings. The top drawing shows a square base with a circular opening, labeled with dimensions 235x235. The side drawing shows the regulator's profile, indicating a minimum height of 276 and a maximum height of 310.",
+          "caption": "",
+          "type": "dimensions"
+        }
+      ],
+      "variants": [
+        {
+          "code": "2099002418",
+          "price": "52 €",
+          "price_eur": 52.0,
+          "values": {
+            "code": "2099002418",
+            "connection": "Inlet: $\\phi$ 20 mm veya or 3/4\"BSP, Outlet: $\\phi$ 50mm",
+            "flowrate_lt_min": "30-50",
+            "price": "52 €",
+            "price_eur": 52.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "par-56-amp-ller-bulbs-with-led-par-56",
+      "family_title_tr": "Par 56 Ampüller Bulbs With Led Par 56",
+      "family_title_en": "Par 56 Ampüller Bulbs With Led Par 56",
+      "family_description_tr": "A single PAR 56 LED bulb with a silver, ribbed polycarbonate lens and a metal base with three pins.",
+      "family_line_count": 50,
+      "qualitative": {
+        "bullets_tr": [
+          "PAR 56 LED ampul",
+          "Geniş açılı polikarbonat ön cam",
+          "POWERLED",
+          "Su altında çalışmaya uygun",
+          "Uzun ömürlü ve uygun fiyat"
+        ],
+        "bullets_en": [
+          "PAR 56 LED bulbs",
+          "Large angle wind screen from polycarbonate",
+          "POWERLED",
+          "Suitable for under water",
+          "Long lasting and competitive price"
+        ],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_4860",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "ÜRÜN ADI PRODUCT NAME",
+            "RENK COLOR",
+            "GÜÇ POWER",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "12519122139",
+              "JSMD-L06 POWERLED",
+              "Sıcak Beyaz Warm White",
+              "20w-12v",
+              "34 €"
+            ],
+            [
+              "12519122140",
+              "JSMD-L07 POWERLED",
+              "Buz Beyaz Cold White",
+              "20w-12v",
+              "34 €"
+            ],
+            [
+              "12519122151",
+              "JSMD-L08 POWERLED",
+              "Mavi Blue",
+              "20w-12v",
+              "34 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_4874",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "ÜRÜN ADI PRODUCT NAME",
+            "RENK COLOR",
+            "GÜÇ POWER",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "12519122136",
+              "JSMD-L10 SMD LED",
+              "Sıcak Beyaz Warm White",
+              "30w-12v",
+              "38 €"
+            ],
+            [
+              "12519122135",
+              "JSMD-L11 SMD LED",
+              "Buz Beyaz Cold White",
+              "30w-12v",
+              "38 €"
+            ],
+            [
+              "12519122093",
+              "JSMD-L12 SMD LED",
+              "Mavi Blue",
+              "30w-12v",
+              "38 €"
+            ],
+            [
+              "12519122090",
+              "JSMD-L13 SMD LED",
+              "RGB 4 Kablolu RGB 4 Cores",
+              "30w-12v",
+              "53 €"
+            ],
+            [
+              "12519122150",
+              "JSMD-L13 SMD LED",
+              "RGB 2 Kablolu RGB 2 Cores",
+              "30w-12v",
+              "57 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_4889",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "RENK COLOR",
+            "GÜÇ POWER",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "PLGPAR563012WCA",
+              "Soğuk Beyaz Cold White",
+              "30w-12v",
+              "33 €"
+            ],
+            [
+              "PLGPAR563012WW",
+              "Sıcak Beyaz Warm White",
+              "30w-12v",
+              "33 €"
+            ],
+            [
+              "PLGPAR563012BL",
+              "Mavi Blue",
+              "30w-12v",
+              "33 €"
+            ],
+            [
+              "PLGPAR5630124RGB",
+              "RGB 4 Kablolu RGB 4 Cores",
+              "30w-12v",
+              "39 €"
+            ],
+            [
+              "PLGPAR5630122RGB",
+              "RGB 2 Kablolu RGB 2 Cores",
+              "30w-12v",
+              "61,5 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "d892e79d540ae6841e9b70c59a3931e2_img.jpg",
+          "alt": "A single PAR 56 LED bulb with a silver, ribbed polycarbonate lens and a metal base with three pins.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "e3c57c87ed03be54510dd624d1b4dc86_img.jpg",
+          "alt": "Two PAR 56 LED bulbs side-by-side. The left one has a colorful rainbow-colored lens, and the right one has a clear, white lens. Both have a ribbed polycarbonate lens and a metal base with three pins.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "1a89bc3889e652dc3b181a04e16636f1_img.jpg",
+          "alt": "Two views of a 54 SMD LED bulb: a side profile showing the base and a top-down view of the LED array.",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "12519122139",
+          "price": "34 €",
+          "price_eur": 34.0,
+          "values": {
+            "code": "12519122139",
+            "product_name": "JSMD-L06 POWERLED",
+            "color": "Sıcak Beyaz Warm White",
+            "power_w": "20w-12v",
+            "price": "34 €",
+            "price_eur": 34.0
+          }
+        },
+        {
+          "code": "12519122140",
+          "price": "34 €",
+          "price_eur": 34.0,
+          "values": {
+            "code": "12519122140",
+            "product_name": "JSMD-L07 POWERLED",
+            "color": "Buz Beyaz Cold White",
+            "power_w": "20w-12v",
+            "price": "34 €",
+            "price_eur": 34.0
+          }
+        },
+        {
+          "code": "12519122151",
+          "price": "34 €",
+          "price_eur": 34.0,
+          "values": {
+            "code": "12519122151",
+            "product_name": "JSMD-L08 POWERLED",
+            "color": "Mavi Blue",
+            "power_w": "20w-12v",
+            "price": "34 €",
+            "price_eur": 34.0
+          }
+        },
+        {
+          "code": "12519122136",
+          "price": "38 €",
+          "price_eur": 38.0,
+          "values": {
+            "code": "12519122136",
+            "product_name": "JSMD-L10 SMD LED",
+            "color": "Sıcak Beyaz Warm White",
+            "power_w": "30w-12v",
+            "price": "38 €",
+            "price_eur": 38.0
+          }
+        },
+        {
+          "code": "12519122135",
+          "price": "38 €",
+          "price_eur": 38.0,
+          "values": {
+            "code": "12519122135",
+            "product_name": "JSMD-L11 SMD LED",
+            "color": "Buz Beyaz Cold White",
+            "power_w": "30w-12v",
+            "price": "38 €",
+            "price_eur": 38.0
+          }
+        },
+        {
+          "code": "12519122093",
+          "price": "38 €",
+          "price_eur": 38.0,
+          "values": {
+            "code": "12519122093",
+            "product_name": "JSMD-L12 SMD LED",
+            "color": "Mavi Blue",
+            "power_w": "30w-12v",
+            "price": "38 €",
+            "price_eur": 38.0
+          }
+        },
+        {
+          "code": "12519122090",
+          "price": "53 €",
+          "price_eur": 53.0,
+          "values": {
+            "code": "12519122090",
+            "product_name": "JSMD-L13 SMD LED",
+            "color": "RGB 4 Kablolu RGB 4 Cores",
+            "power_w": "30w-12v",
+            "price": "53 €",
+            "price_eur": 53.0
+          }
+        },
+        {
+          "code": "12519122150",
+          "price": "57 €",
+          "price_eur": 57.0,
+          "values": {
+            "code": "12519122150",
+            "product_name": "JSMD-L13 SMD LED",
+            "color": "RGB 2 Kablolu RGB 2 Cores",
+            "power_w": "30w-12v",
+            "price": "57 €",
+            "price_eur": 57.0
+          }
+        },
+        {
+          "code": "563012",
+          "price": "33 €",
+          "price_eur": 33.0,
+          "values": {
+            "code": "PLGPAR563012WCA",
+            "color": "Soğuk Beyaz Cold White",
+            "power_w": "30w-12v",
+            "price": "33 €",
+            "price_eur": 33.0
+          }
+        },
+        {
+          "code": "563012",
+          "price": "33 €",
+          "price_eur": 33.0,
+          "values": {
+            "code": "PLGPAR563012WW",
+            "color": "Sıcak Beyaz Warm White",
+            "power_w": "30w-12v",
+            "price": "33 €",
+            "price_eur": 33.0
+          }
+        },
+        {
+          "code": "563012",
+          "price": "33 €",
+          "price_eur": 33.0,
+          "values": {
+            "code": "PLGPAR563012BL",
+            "color": "Mavi Blue",
+            "power_w": "30w-12v",
+            "price": "33 €",
+            "price_eur": 33.0
+          }
+        },
+        {
+          "code": "5630124",
+          "price": "39 €",
+          "price_eur": 39.0,
+          "values": {
+            "code": "PLGPAR5630124RGB",
+            "color": "RGB 4 Kablolu RGB 4 Cores",
+            "power_w": "30w-12v",
+            "price": "39 €",
+            "price_eur": 39.0
+          }
+        },
+        {
+          "code": "5630122",
+          "price": "61,5 €",
+          "price_eur": 61.5,
+          "values": {
+            "code": "PLGPAR5630122RGB",
+            "color": "RGB 2 Kablolu RGB 2 Cores",
+            "power_w": "30w-12v",
+            "price": "61,5 €",
+            "price_eur": 61.5
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "par-56-powerled-amp-ller-bulbs-with-power-led-par-56",
+      "family_title_tr": "Par 56 PowerLed Ampüller Bulbs With Power Led Par 56",
+      "family_title_en": "Par 56 PowerLed Ampüller Bulbs With Power Led Par 56",
+      "family_description_tr": "Two views of a Par 56 PowerLed bulb: a side profile showing the heat sink and a top-down view of the lens.",
+      "family_line_count": 370,
+      "qualitative": {
+        "bullets_tr": [
+          "Gövde çapı 177x82 mm",
+          "Geniş açılı polikarbonat ön cam",
+          "CREE dünya markası power LED",
+          "Alüminyum-magnezyum karışım alaşım gövde",
+          "Nokta korozyona dayanıklı",
+          "Su soğutmalı, sadece su altında kullanılır",
+          "12 V 50/60 Hz IP 68 su sızdırmazlık",
+          "**Piyasadaki en kaliteli** su altı Power LED Ampul",
+          "Body diameters 177x82 mm",
+          "Large angle wind screen from polycarbonate",
+          "CREE global brand power LED",
+          "Aluminum-magnesium mixed alloy body",
+          "Spot corrosion resistant",
+          "Water cooled, can be used only under water",
+          "Beton havuzlar içindir",
+          "Havuz kaplama (cam, seramik ve mozaik) üzerine montaj edilir",
+          "Su soğutmalı, sadece su altında kullanılır",
+          "Geniş açılı polikarbonat ön cam",
+          "C ve DC voltajla çalışmaktadır",
+          "Üzerinde bulunan aparatlar sayesinde iç çapı Ø19-Ø21-Ø23 cm olan tüm lamba kovanları ile uyumludur",
+          "Sadece kablo ekini yapıp lambayı yerine takmanız yeterlidir",
+          "Works with AC and DC voltage",
+          "It is compatible with all light niches with inner diameter Ø19-Ø21-Ø23 cm thanks to the apparatus on it",
+          "Easy only to connect the cable and replace than install the light",
+          "Beton ve liner havuzlar içindir",
+          "Havuz kaplama (cam, seramik ve mozaik) üzerine montaj edilir",
+          "Su soğutmalıdır, sadece su altında kullanılır",
+          "Geniş açılı polikarbonat ön cam",
+          "For concrete and liner pools",
+          "Mounted on the pool covering (like as glass, ceramic and mosaic tiles)",
+          "Water cooled, can be used only under water",
+          "Large angle wind screen from polycarbonate",
+          "Havuz terasına gömülerek su altı aydınlatma armatürlerinin kablo geçişine müdahale olanağı sağlar",
+          "ABS plastik enjeksiyon gövde",
+          "UV dayanıklıdır, güneşten etkilenmez",
+          "By sinking into the pool terrace; It provides the opportunity to interfere with the cable passage of underwater lighting fixtures",
+          "ABS plastic injection body",
+          "UV resistant, unaffected by the sun",
+          "Kablo kılıf hortumu, lamba buatı ile lamba kovanının bağlantı sağlaması ve kablo koruması için kullanılır",
+          "İki ucu yapıştırmalı plastik adaptörlü",
+          "19-20-21 mm iç çap opsiyonlu üretim mevcuttur",
+          "Cable conduit to link the light's niche with the connection box",
+          "Plastic Adaptor - Slip connection for both ends",
+          "19-20-21 mm inner adaptor dia is possible for production",
+          "Plastik enjeksiyondan üretilmiştir",
+          "Paslanmaya dayanıklıdır",
+          "Uzaktan kumandalıdır",
+          "4 ana renk ve animasyon programlıdır",
+          "Produced from ABS plastic injection",
+          "Corrosion-resistant",
+          "With remote control",
+          "4 main colors and animation programs",
+          "Polipropilen plastik enjeksiyon gövde",
+          "Kapaklı elektrik bağlantı kutusu",
+          "Çalışmayı gösteren kırmızı led sinyal",
+          "Kendinden sigorta korumalı",
+          "Şık tasarım",
+          "Uzun ömürlü, kolay montaj",
+          "PP plastic injection body",
+          "Protected power connection with lid",
+          "Led indicator",
+          "With fuse",
+          "Stylish design",
+          "Long lasting, easy to install"
+        ],
+        "bullets_en": [
+          "For concrete pools",
+          "Mounted on the pool covering (like as glass, ceramic and mosaic tiles)",
+          "Water cooled, can be used only under water",
+          "Large angle wind screen from polycarbonate"
+        ],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_4922",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "RENK COLOR",
+            "GÜÇ POWER",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "12519122012",
+              "Sıcak Beyaz Warm White",
+              "27.8w-12v",
+              "118 \\$"
+            ],
+            [
+              "12519122013",
+              "Soğuk Beyaz Cold White",
+              "27.8w-12v",
+              "118 \\$"
+            ],
+            [
+              "12519122014",
+              "Doğal Beyaz Natural White",
+              "27.8w-12v",
+              "118 \\$"
+            ],
+            [
+              "12519122015",
+              "Kırmızı Red",
+              "13w-12v",
+              "118 \\$"
+            ],
+            [
+              "12519122016",
+              "Yeşil Green",
+              "15w-12v",
+              "118 \\$"
+            ],
+            [
+              "12519122017",
+              "Mavi Blue",
+              "15w-12v",
+              "118 \\$"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_4944",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "RENK COLOR",
+            "GÜÇ POWER",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "12519122137",
+              "Gün Işığı Day Light",
+              "30w-12v 84 SMD LED",
+              "48 €"
+            ],
+            [
+              "12519122138",
+              "Buz Beyaz Cold White",
+              "30w-12v 84 SMD LED",
+              "48 €"
+            ],
+            [
+              "12519122097",
+              "Mavi Blue",
+              "30w-12v 84 SMD LED",
+              "48 €"
+            ],
+            [
+              "12519122092",
+              "RGB 4 Damarlı RGB 4 Cores",
+              "30w-12v 84 SMD LED",
+              "69 €"
+            ],
+            [
+              "12519122149",
+              "RGB 2 Damarlı RGB 2 Cores",
+              "30w-12v 84 SMD LED",
+              "79 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_4956",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "RENK COLOR",
+            "GÜÇ POWER",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "12519122118",
+              "Gün Işığı Day Light",
+              "20w-12v 84 SMD LED",
+              "44 €"
+            ],
+            [
+              "12519122119",
+              "Buz Beyaz Cold White",
+              "20w-12v 84 SMD LED",
+              "44 €"
+            ],
+            [
+              "12519122071",
+              "Mavi Blue",
+              "20w-12v 84 SMD LED",
+              "44 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_4971",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "RENK COLOR",
+            "GÜÇ POWER",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "PLG1F3012WC",
+              "Soğuk Beyaz Cold White",
+              "30W / 12V SMD LED",
+              "36 €"
+            ],
+            [
+              "PLG1F3012WW",
+              "Sıcak Beyaz Warm White",
+              "30W / 12V SMD LED",
+              "36 €"
+            ],
+            [
+              "PLG1F3012BL",
+              "Mavi Blue",
+              "30W / 12V SMD LED",
+              "36 €"
+            ],
+            [
+              "PLG1F3012RGB",
+              "RGB 4 Damarlı RGB 4 Cores",
+              "30W / 12V SMD LED",
+              "48 €"
+            ],
+            [
+              "PLG1F3022RGB",
+              "RGB 2 Damarlı RGB 2 Cores",
+              "30W / 12V SMD LED",
+              "60 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_4983",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "RENK COLOR",
+            "GENİŞLİK WIDTH",
+            "GÜÇ POWER",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "PLG1FK3012WC",
+              "Soğuk Beyaz Cold White",
+              "28 cm",
+              "30W / 12V SMD LED",
+              "42 €"
+            ],
+            [
+              "PLG1FK3012WW",
+              "Sıcak Beyaz Warm White",
+              "28 cm",
+              "30W / 12V SMD LED",
+              "42 €"
+            ],
+            [
+              "PLG1FK3012BL",
+              "Mavi Blue",
+              "28 cm",
+              "30W / 12V SMD LED",
+              "42 €"
+            ],
+            [
+              "PLG1FK43012RGB",
+              "RGB 4 Damarlı RGB 4 Cores",
+              "28 cm",
+              "30W / 12V SMD LED",
+              "48 €"
+            ],
+            [
+              "PLG1FK23012RGB",
+              "RGB 2 Damarlı RGB 2 Cores",
+              "28 cm",
+              "30W / 12V SMD LED",
+              "56 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_4995",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "RENK COLOR",
+            "GENİŞLİK WIDTH",
+            "GÜÇ POWER",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "PLG1FK1012WCA",
+              "Soğuk Beyaz Cold White",
+              "15 cm",
+              "10W / 12V SMD LED",
+              "32 €"
+            ],
+            [
+              "PLG1FK10/12WW",
+              "Sıcak Beyaz Warm White",
+              "15 cm",
+              "10W / 12V SMD LED",
+              "32 €"
+            ],
+            [
+              "PLG1FK1012RGB",
+              "RGB 4 Damarlı RGB 4 Cores",
+              "15 cm",
+              "10W / 12V SMD LED",
+              "38 €"
+            ],
+            [
+              "PLG1FK612WCA",
+              "Soğuk Beyaz Cold White",
+              "12 cm",
+              "6W / 12V SMD LED",
+              "30 €"
+            ],
+            [
+              "PLG1FK612WW",
+              "Sıcak Beyaz Warm White",
+              "12 cm",
+              "6W / 12V SMD LED",
+              "30 €"
+            ],
+            [
+              "PLG1FK612RGB",
+              "RGB 4 Damarlı RGB 4 Cores",
+              "12 cm",
+              "6W / 12V SMD LED",
+              "36 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_5016",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "RENK COLOR",
+            "GENİŞLİK WIDTH",
+            "GÜÇ POWER",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "PLG0FK1012WCA",
+              "Soğuk Beyaz Cold White",
+              "15 cm",
+              "10W / 12V SMD LED",
+              "29 €"
+            ],
+            [
+              "PLG0FK10/12WW",
+              "Sıcak Beyaz Warm White",
+              "15 cm",
+              "10W / 12V SMD LED",
+              "29 €"
+            ],
+            [
+              "PLG0FK1012RGB",
+              "RGB 4 Damarlı RGB 4 Cores",
+              "15 cm",
+              "10W / 12V SMD LED",
+              "35€"
+            ],
+            [
+              "PLG1FK712WCA",
+              "Soğuk Beyaz Cold White",
+              "12 cm",
+              "6W / 12V SMD LED",
+              "27 €"
+            ],
+            [
+              "PLG1FK712WW",
+              "Sıcak Beyaz Warm White",
+              "12 cm",
+              "6W / 12V SMD LED",
+              "27 €"
+            ],
+            [
+              "PLG1FK712RGB",
+              "RGB 4 Damarlı RGB 4 Cores",
+              "12 cm",
+              "6W / 12V SMD LED",
+              "33 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_5035",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "RENK COLOR",
+            "GÜÇ POWER",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "12519122144",
+              "Buz Beyaz Cold White",
+              "30W/12V SMD LED",
+              "62 €"
+            ],
+            [
+              "12519122145",
+              "Gün Işığı Day Light",
+              "30W/12V SMD LED",
+              "62 €"
+            ],
+            [
+              "12519122146",
+              "Mavi Blue",
+              "30W/12V SMD LED",
+              "62 €"
+            ],
+            [
+              "12519122147",
+              "RGB",
+              "30W/12V SMD LED",
+              "81 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_5069",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "MODEL MODEL",
+            "RENK COLOR",
+            "GÜÇ POWER",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "12519122102",
+              "Beton Concrete",
+              "Mavi Blue",
+              "30W/12V",
+              "62 €"
+            ],
+            [
+              "12519122094",
+              "Beton Concrete",
+              "Soğuk Beyaz Cold White",
+              "30W/12V",
+              "62 €"
+            ],
+            [
+              "12519122142",
+              "Beton Concrete",
+              "Sıcak Beyaz Warm White",
+              "30W/12V",
+              "62€"
+            ],
+            [
+              "12519122104",
+              "Beton Concrete",
+              "RGB 4 Damarlı RGB 4 Cores",
+              "30W/12V",
+              "72 €"
+            ],
+            [
+              "12519122164",
+              "Beton Concrete",
+              "RGB 2 Damarlı RGB 2 Cores",
+              "30W/12V",
+              "76 €"
+            ],
+            [
+              "12519122157",
+              "Liner",
+              "Mavi Blue",
+              "30W/12V",
+              "67 €"
+            ],
+            [
+              "12519122156",
+              "Liner",
+              "Soğuk Beyaz Cold White",
+              "30W/12V",
+              "67 €"
+            ],
+            [
+              "12519122155",
+              "Liner",
+              "Sıcak Beyaz Warm White",
+              "30W/12V",
+              "67 €"
+            ],
+            [
+              "12519122148",
+              "Liner",
+              "RGB 4 Damarlı RGB 4 Cores",
+              "30W/12V",
+              "84 €"
+            ],
+            [
+              "12519122161",
+              "Liner",
+              "RGB 2 Damarlı RGB 2 Cores",
+              "30W/12V",
+              "88 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_5086",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "MODEL MODEL",
+            "RENK COLOR",
+            "GÜÇ POWER",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "12519122159",
+              "Beton Concrete",
+              "Gün Işığı Day Light",
+              "20W / 12v POWERLED",
+              "52 €"
+            ],
+            [
+              "12519122154",
+              "Beton Concrete",
+              "Buz Beyaz Cold White",
+              "20W / 12v POWERLED",
+              "52 €"
+            ],
+            [
+              "12519122158",
+              "Beton Concrete",
+              "Mavi Blue",
+              "20W / 12v POWERLED",
+              "52€"
+            ],
+            [
+              "12519122128",
+              "Liner",
+              "Gün Işığı Day Light",
+              "20W / 12v POWERLED",
+              "70 €"
+            ],
+            [
+              "12519122160",
+              "Liner",
+              "Buz Beyaz Cold White",
+              "20W / 12v POWERLED",
+              "70 €"
+            ],
+            [
+              "12519122131",
+              "Liner",
+              "Mavi Blue",
+              "20W / 12v POWERLED",
+              "70 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_5109",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "MODEL MODEL",
+            "RENK COLOR",
+            "GÜÇ POWER",
+            "DERİNLİK ÖLÇÜSÜ POWER",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "PLG1S1812RGB4C",
+              "Slim Led",
+              "RGB",
+              "18W/12V",
+              "-",
+              "54.00 €"
+            ],
+            [
+              "PLG1S3012WC",
+              "Slim Led",
+              "Soğuk Beyaz Cold White",
+              "30W/12V",
+              "-",
+              "45.00 €"
+            ],
+            [
+              "PLG1S3012BL",
+              "Slim Led",
+              "Mavi Blue",
+              "30W/12V",
+              "-",
+              "45.00 €"
+            ],
+            [
+              "19812122019",
+              "Yedek Dış Tası Niche Spare Part",
+              "-",
+              "-",
+              "7 cm",
+              "9.00€"
+            ],
+            [
+              "19812122004",
+              "Yedek Dış Tası Niche Spare Part",
+              "-",
+              "-",
+              "13 cm",
+              "9.00 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_5130",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "MODEL MODEL",
+            "RENK COLOR",
+            "GÜÇ POWER",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "17517122011",
+              "Damla Model Drop Type",
+              "Soğuk Beyaz Cold White",
+              "5W / 12v",
+              "47 €"
+            ],
+            [
+              "17517122021",
+              "Damla Model Drop Type",
+              "Gün Işığı Day Light",
+              "5W / 12v",
+              "47 €"
+            ],
+            [
+              "17517122022",
+              "Damla Model Drop Type",
+              "Mavi Blue",
+              "5W / 12v",
+              "47 €"
+            ],
+            [
+              "17517122031",
+              "Damla Model Drop Type",
+              "RGB 2 Damarlı RGB 2 Cores",
+              "9W / 12v",
+              "84 €"
+            ],
+            [
+              "17517122024",
+              "Damla Model Drop Type",
+              "RGB 4 Damarlı RGB 4 Cores",
+              "9W / 12v",
+              "55 €"
+            ],
+            [
+              "17517122050",
+              "Düz Görünümlü Smooth Type",
+              "Soğuk Beyaz Cold White",
+              "5W / 12v",
+              "63 €"
+            ],
+            [
+              "17517122051",
+              "Düz Görünümlü Smooth Type",
+              "Sıcak Beyaz Warm White",
+              "5W / 12v",
+              "63 €"
+            ],
+            [
+              "17517122052",
+              "Düz Görünümlü Smooth Type",
+              "Mavi Blue",
+              "5W / 12v",
+              "63 €"
+            ],
+            [
+              "17517122033",
+              "Paslanmaz Stainless",
+              "Mavi Blue AISI 316 Frame",
+              "5W / 12v",
+              "75 €"
+            ],
+            [
+              "17517122037",
+              "Paslanmaz Stainless",
+              "Soğuk Beyaz Cold White AISI 316 Frame",
+              "5W / 12v",
+              "75 €"
+            ],
+            [
+              "17517122038",
+              "Paslanmaz Stainless",
+              "Gün Işığı Day Light AISI 316 Frame",
+              "5W / 12v",
+              "75 €"
+            ],
+            [
+              "17517122041",
+              "Paslanmaz Stainless",
+              "RGB AISI 316 Frame",
+              "9W / 12v",
+              "84 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_5152",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "MODEL MODEL",
+            "RENK COLOR",
+            "GÜÇ POWER",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "17517122026",
+              "Spot Ayaklı Spot Footed",
+              "Beyaz White",
+              "5W / 12v",
+              "51 €"
+            ],
+            [
+              "17517122027",
+              "Spot Ayaklı Spot Footed",
+              "Gün Işığı Day Light",
+              "5W / 12v",
+              "51 €"
+            ],
+            [
+              "17517122028",
+              "Spot Ayaklı Spot Footed",
+              "Mavi Blue",
+              "5W / 12v",
+              "51 €"
+            ],
+            [
+              "17517122030",
+              "Spot Ayaklı Spot Footed",
+              "RGB 2 Damarlı RGB 2 Cores",
+              "5W / 12v",
+              "86 €"
+            ],
+            [
+              "17517122029",
+              "Spot Ayaklı Spot Footed",
+              "RGB 4 Damarlı RGB 4 Cores",
+              "5W / 12v",
+              "58 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_5166",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "MODEL MODEL",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "19812123008",
+              "WF.LB",
+              "12 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_5185",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "ÖLÇÜ DIAMETER",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "15017002035",
+              "1 mt",
+              "1.95 €"
+            ],
+            [
+              "15017002036",
+              "1,5 mt",
+              "2.25 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_5205",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "MODEL MODEL",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "15015122013",
+              "8 LAMBA LAMPS",
+              "190 €"
+            ],
+            [
+              "169002008",
+              "16 LAMBA LAMPS",
+              "250 €"
+            ],
+            [
+              "15015122014",
+              "24 LAMBA LAMPS",
+              "330 €"
+            ],
+            [
+              "15015122015",
+              "32 LAMBA LAMPS",
+              "400 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_5229",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "MUH.121",
+              "40 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_5254",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "GÜÇ POWER",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "TRAFO-50-220-12-PLS-WF",
+              "50W - 12v",
+              "33 €"
+            ],
+            [
+              "15016121001",
+              "100W - 12v",
+              "34 €"
+            ],
+            [
+              "15016121002",
+              "100W - 24v",
+              "38 €"
+            ],
+            [
+              "15016121003",
+              "150W - 12v",
+              "35 €"
+            ],
+            [
+              "15016121004",
+              "150W - 24v",
+              "40 €"
+            ],
+            [
+              "15016121005",
+              "300W - 12v",
+              "39 €"
+            ],
+            [
+              "15016121006",
+              "300W - 24v",
+              "45 €"
+            ],
+            [
+              "15016121007",
+              "400W - 12v",
+              "47 €"
+            ],
+            [
+              "15016121008",
+              "400W - 24v",
+              "50€"
+            ],
+            [
+              "15016121009",
+              "600W - 12v",
+              "89 €"
+            ],
+            [
+              "15016121010",
+              "600W - 24v",
+              "90 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "7d76db54b13a193d33ca803709b64dd3_img.jpg",
+          "alt": "Two views of a Par 56 PowerLed bulb: a side profile showing the heat sink and a top-down view of the lens.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "2b6b163068f2c1f73634c5a6052deee7_img.jpg",
+          "alt": "A circular flat type LED light with a white base and a colorful rainbow light pattern in the center.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "22529ce6e2914d705243ba1bf43be65d_img.jpg",
+          "alt": "A circular flat type LED light with a white base and a clear, textured lens in the center.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "7f038e84aa73063cce3bb1dd44791a5f_img.jpg",
+          "alt": "Circular pool light with a white frame and a blue lens.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "7fa14df34b3bee796ee083e7f7a67c80_img.jpg",
+          "alt": "Square pool light with a white frame and a blue lens.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "5e142ea3612c1b9541f3a4c3cc8eeb93_img.jpg",
+          "alt": "Square pool light with a white frame and a blue lens.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "eca30c4906d63415f871d3288dc6a6a1_img.jpg",
+          "alt": "Top view of a circular LED light fixture with a white base and a clear lens showing internal components.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "463215de07c4f0ed8905717e2f8f55b6_img.jpg",
+          "alt": "Top view of a circular LED light fixture with a white base and a clear lens showing internal components.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "1e030b5b6e3dbfb4ecf21f81c0f76458_img.jpg",
+          "alt": "Water Fun logo featuring a stylized blue wave and the text 'water fun'.",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "714e1c69f0773bf5baa9be5668cd65e4_img.jpg",
+          "alt": "Two views of the Joker Model Led Light. The left view shows the top of the light fixture with a clear lens and a white base. The right view shows the bottom of the light fixture, revealing the internal components and the base.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "b8b30b7a99aa84e981f8b6ab7de49e15_img.jpg",
+          "alt": "Two underwater LED light niche types: one with a colorful rainbow light and one with a white light.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "8d93e9d426fccc5d8a99f98562c38fa3_img.jpg",
+          "alt": "A single underwater LED light niche type with a white light.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "2c89962e75ab9e8ceddc51e6bddf3939_img.jpg",
+          "alt": "Three views of the Slimfit Niche Type Led Light: a top-down view of the light fixture, a side view showing the light fixture mounted on a base, and a front view of the light fixture.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "ff41abb396b7f498ad66836baa814996_img.jpg",
+          "alt": "Two images showing the Slimfit Niche Type Led Light installed in a swimming pool. The left image shows the light fixture on the pool floor, and the right image shows the light fixture on the pool wall.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "69959d0c3f45f3c08c4d85efdd0bf815_img.jpg",
+          "alt": "Four views of the 3 Power Ledli Spot Lamba: top view showing colorful light, side view showing the power cord, top view showing the light source, and side view showing the light source.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "15850698f2103fb2390a539a6ccd86ea_img.jpg",
+          "alt": "Two views of the Spot footed light: top view showing colorful light, and side view showing the light source.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "b33759a36fd647e71f29f152739006d4_img.jpg",
+          "alt": "A white plastic junction box with a circular opening and a small protruding port on the side.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "fae3b01e98c76b637b671abfb3bbec56_img.jpg",
+          "alt": "A coiled white flexible conduit hose with two ends.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "a8bdb566d9ba0977d358a78262eaf122_img.jpg",
+          "alt": "RGB Control Panel and Remote Control",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "f8ec06916ccab06ec9a2dc30628ee408_img.jpg",
+          "alt": "RGB 2 Damarlı Kumanda Remote Control",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "33c26c00ad51686905fa3efa03e7f5fc_img.jpg",
+          "alt": "Trafo Transformer",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "12519122012",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "12519122012",
+            "color": "Sıcak Beyaz Warm White",
+            "power_w": "27.8w-12v",
+            "price": "118 \\$"
+          }
+        },
+        {
+          "code": "12519122013",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "12519122013",
+            "color": "Soğuk Beyaz Cold White",
+            "power_w": "27.8w-12v",
+            "price": "118 \\$"
+          }
+        },
+        {
+          "code": "12519122014",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "12519122014",
+            "color": "Doğal Beyaz Natural White",
+            "power_w": "27.8w-12v",
+            "price": "118 \\$"
+          }
+        },
+        {
+          "code": "12519122015",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "12519122015",
+            "color": "Kırmızı Red",
+            "power_w": "13w-12v",
+            "price": "118 \\$"
+          }
+        },
+        {
+          "code": "12519122016",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "12519122016",
+            "color": "Yeşil Green",
+            "power_w": "15w-12v",
+            "price": "118 \\$"
+          }
+        },
+        {
+          "code": "12519122017",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "12519122017",
+            "color": "Mavi Blue",
+            "power_w": "15w-12v",
+            "price": "118 \\$"
+          }
+        },
+        {
+          "code": "12519122137",
+          "price": "48 €",
+          "price_eur": 48.0,
+          "values": {
+            "code": "12519122137",
+            "color": "Gün Işığı Day Light",
+            "power_w": "30w-12v 84 SMD LED",
+            "price": "48 €",
+            "price_eur": 48.0
+          }
+        },
+        {
+          "code": "12519122138",
+          "price": "48 €",
+          "price_eur": 48.0,
+          "values": {
+            "code": "12519122138",
+            "color": "Buz Beyaz Cold White",
+            "power_w": "30w-12v 84 SMD LED",
+            "price": "48 €",
+            "price_eur": 48.0
+          }
+        },
+        {
+          "code": "12519122097",
+          "price": "48 €",
+          "price_eur": 48.0,
+          "values": {
+            "code": "12519122097",
+            "color": "Mavi Blue",
+            "power_w": "30w-12v 84 SMD LED",
+            "price": "48 €",
+            "price_eur": 48.0
+          }
+        },
+        {
+          "code": "12519122092",
+          "price": "69 €",
+          "price_eur": 69.0,
+          "values": {
+            "code": "12519122092",
+            "color": "RGB 4 Damarlı RGB 4 Cores",
+            "power_w": "30w-12v 84 SMD LED",
+            "price": "69 €",
+            "price_eur": 69.0
+          }
+        },
+        {
+          "code": "12519122149",
+          "price": "79 €",
+          "price_eur": 79.0,
+          "values": {
+            "code": "12519122149",
+            "color": "RGB 2 Damarlı RGB 2 Cores",
+            "power_w": "30w-12v 84 SMD LED",
+            "price": "79 €",
+            "price_eur": 79.0
+          }
+        },
+        {
+          "code": "12519122118",
+          "price": "44 €",
+          "price_eur": 44.0,
+          "values": {
+            "code": "12519122118",
+            "color": "Gün Işığı Day Light",
+            "power_w": "20w-12v 84 SMD LED",
+            "price": "44 €",
+            "price_eur": 44.0
+          }
+        },
+        {
+          "code": "12519122119",
+          "price": "44 €",
+          "price_eur": 44.0,
+          "values": {
+            "code": "12519122119",
+            "color": "Buz Beyaz Cold White",
+            "power_w": "20w-12v 84 SMD LED",
+            "price": "44 €",
+            "price_eur": 44.0
+          }
+        },
+        {
+          "code": "12519122071",
+          "price": "44 €",
+          "price_eur": 44.0,
+          "values": {
+            "code": "12519122071",
+            "color": "Mavi Blue",
+            "power_w": "20w-12v 84 SMD LED",
+            "price": "44 €",
+            "price_eur": 44.0
+          }
+        },
+        {
+          "code": "13012",
+          "price": "36 €",
+          "price_eur": 36.0,
+          "values": {
+            "code": "PLG1F3012WC",
+            "color": "Soğuk Beyaz Cold White",
+            "power_w": "30W / 12V SMD LED",
+            "price": "36 €",
+            "price_eur": 36.0
+          }
+        },
+        {
+          "code": "13012",
+          "price": "36 €",
+          "price_eur": 36.0,
+          "values": {
+            "code": "PLG1F3012WW",
+            "color": "Sıcak Beyaz Warm White",
+            "power_w": "30W / 12V SMD LED",
+            "price": "36 €",
+            "price_eur": 36.0
+          }
+        },
+        {
+          "code": "13012",
+          "price": "36 €",
+          "price_eur": 36.0,
+          "values": {
+            "code": "PLG1F3012BL",
+            "color": "Mavi Blue",
+            "power_w": "30W / 12V SMD LED",
+            "price": "36 €",
+            "price_eur": 36.0
+          }
+        },
+        {
+          "code": "13012",
+          "price": "48 €",
+          "price_eur": 48.0,
+          "values": {
+            "code": "PLG1F3012RGB",
+            "color": "RGB 4 Damarlı RGB 4 Cores",
+            "power_w": "30W / 12V SMD LED",
+            "price": "48 €",
+            "price_eur": 48.0
+          }
+        },
+        {
+          "code": "13022",
+          "price": "60 €",
+          "price_eur": 60.0,
+          "values": {
+            "code": "PLG1F3022RGB",
+            "color": "RGB 2 Damarlı RGB 2 Cores",
+            "power_w": "30W / 12V SMD LED",
+            "price": "60 €",
+            "price_eur": 60.0
+          }
+        },
+        {
+          "code": "13012",
+          "price": "42 €",
+          "price_eur": 42.0,
+          "values": {
+            "code": "PLG1FK3012WC",
+            "color": "Soğuk Beyaz Cold White",
+            "width": "28 cm",
+            "power_w": "30W / 12V SMD LED",
+            "price": "42 €",
+            "price_eur": 42.0
+          }
+        },
+        {
+          "code": "13012",
+          "price": "42 €",
+          "price_eur": 42.0,
+          "values": {
+            "code": "PLG1FK3012WW",
+            "color": "Sıcak Beyaz Warm White",
+            "width": "28 cm",
+            "power_w": "30W / 12V SMD LED",
+            "price": "42 €",
+            "price_eur": 42.0
+          }
+        },
+        {
+          "code": "13012",
+          "price": "42 €",
+          "price_eur": 42.0,
+          "values": {
+            "code": "PLG1FK3012BL",
+            "color": "Mavi Blue",
+            "width": "28 cm",
+            "power_w": "30W / 12V SMD LED",
+            "price": "42 €",
+            "price_eur": 42.0
+          }
+        },
+        {
+          "code": "143012",
+          "price": "48 €",
+          "price_eur": 48.0,
+          "values": {
+            "code": "PLG1FK43012RGB",
+            "color": "RGB 4 Damarlı RGB 4 Cores",
+            "width": "28 cm",
+            "power_w": "30W / 12V SMD LED",
+            "price": "48 €",
+            "price_eur": 48.0
+          }
+        },
+        {
+          "code": "123012",
+          "price": "56 €",
+          "price_eur": 56.0,
+          "values": {
+            "code": "PLG1FK23012RGB",
+            "color": "RGB 2 Damarlı RGB 2 Cores",
+            "width": "28 cm",
+            "power_w": "30W / 12V SMD LED",
+            "price": "56 €",
+            "price_eur": 56.0
+          }
+        },
+        {
+          "code": "11012",
+          "price": "32 €",
+          "price_eur": 32.0,
+          "values": {
+            "code": "PLG1FK1012WCA",
+            "color": "Soğuk Beyaz Cold White",
+            "width": "15 cm",
+            "power_w": "10W / 12V SMD LED",
+            "price": "32 €",
+            "price_eur": 32.0
+          }
+        },
+        {
+          "code": "11012",
+          "price": "32 €",
+          "price_eur": 32.0,
+          "values": {
+            "code": "PLG1FK10/12WW",
+            "color": "Sıcak Beyaz Warm White",
+            "width": "15 cm",
+            "power_w": "10W / 12V SMD LED",
+            "price": "32 €",
+            "price_eur": 32.0
+          }
+        },
+        {
+          "code": "11012",
+          "price": "38 €",
+          "price_eur": 38.0,
+          "values": {
+            "code": "PLG1FK1012RGB",
+            "color": "RGB 4 Damarlı RGB 4 Cores",
+            "width": "15 cm",
+            "power_w": "10W / 12V SMD LED",
+            "price": "38 €",
+            "price_eur": 38.0
+          }
+        },
+        {
+          "code": "1612",
+          "price": "30 €",
+          "price_eur": 30.0,
+          "values": {
+            "code": "PLG1FK612WCA",
+            "color": "Soğuk Beyaz Cold White",
+            "width": "12 cm",
+            "power_w": "6W / 12V SMD LED",
+            "price": "30 €",
+            "price_eur": 30.0
+          }
+        },
+        {
+          "code": "1612",
+          "price": "30 €",
+          "price_eur": 30.0,
+          "values": {
+            "code": "PLG1FK612WW",
+            "color": "Sıcak Beyaz Warm White",
+            "width": "12 cm",
+            "power_w": "6W / 12V SMD LED",
+            "price": "30 €",
+            "price_eur": 30.0
+          }
+        },
+        {
+          "code": "1612",
+          "price": "36 €",
+          "price_eur": 36.0,
+          "values": {
+            "code": "PLG1FK612RGB",
+            "color": "RGB 4 Damarlı RGB 4 Cores",
+            "width": "12 cm",
+            "power_w": "6W / 12V SMD LED",
+            "price": "36 €",
+            "price_eur": 36.0
+          }
+        },
+        {
+          "code": "01012",
+          "price": "29 €",
+          "price_eur": 29.0,
+          "values": {
+            "code": "PLG0FK1012WCA",
+            "color": "Soğuk Beyaz Cold White",
+            "width": "15 cm",
+            "power_w": "10W / 12V SMD LED",
+            "price": "29 €",
+            "price_eur": 29.0
+          }
+        },
+        {
+          "code": "01012",
+          "price": "29 €",
+          "price_eur": 29.0,
+          "values": {
+            "code": "PLG0FK10/12WW",
+            "color": "Sıcak Beyaz Warm White",
+            "width": "15 cm",
+            "power_w": "10W / 12V SMD LED",
+            "price": "29 €",
+            "price_eur": 29.0
+          }
+        },
+        {
+          "code": "01012",
+          "price": "35€",
+          "price_eur": 35.0,
+          "values": {
+            "code": "PLG0FK1012RGB",
+            "color": "RGB 4 Damarlı RGB 4 Cores",
+            "width": "15 cm",
+            "power_w": "10W / 12V SMD LED",
+            "price": "35€",
+            "price_eur": 35.0
+          }
+        },
+        {
+          "code": "1712",
+          "price": "27 €",
+          "price_eur": 27.0,
+          "values": {
+            "code": "PLG1FK712WCA",
+            "color": "Soğuk Beyaz Cold White",
+            "width": "12 cm",
+            "power_w": "6W / 12V SMD LED",
+            "price": "27 €",
+            "price_eur": 27.0
+          }
+        },
+        {
+          "code": "1712",
+          "price": "27 €",
+          "price_eur": 27.0,
+          "values": {
+            "code": "PLG1FK712WW",
+            "color": "Sıcak Beyaz Warm White",
+            "width": "12 cm",
+            "power_w": "6W / 12V SMD LED",
+            "price": "27 €",
+            "price_eur": 27.0
+          }
+        },
+        {
+          "code": "1712",
+          "price": "33 €",
+          "price_eur": 33.0,
+          "values": {
+            "code": "PLG1FK712RGB",
+            "color": "RGB 4 Damarlı RGB 4 Cores",
+            "width": "12 cm",
+            "power_w": "6W / 12V SMD LED",
+            "price": "33 €",
+            "price_eur": 33.0
+          }
+        },
+        {
+          "code": "12519122144",
+          "price": "62 €",
+          "price_eur": 62.0,
+          "values": {
+            "code": "12519122144",
+            "color": "Buz Beyaz Cold White",
+            "power_w": "30W/12V SMD LED",
+            "price": "62 €",
+            "price_eur": 62.0
+          }
+        },
+        {
+          "code": "12519122145",
+          "price": "62 €",
+          "price_eur": 62.0,
+          "values": {
+            "code": "12519122145",
+            "color": "Gün Işığı Day Light",
+            "power_w": "30W/12V SMD LED",
+            "price": "62 €",
+            "price_eur": 62.0
+          }
+        },
+        {
+          "code": "12519122146",
+          "price": "62 €",
+          "price_eur": 62.0,
+          "values": {
+            "code": "12519122146",
+            "color": "Mavi Blue",
+            "power_w": "30W/12V SMD LED",
+            "price": "62 €",
+            "price_eur": 62.0
+          }
+        },
+        {
+          "code": "12519122147",
+          "price": "81 €",
+          "price_eur": 81.0,
+          "values": {
+            "code": "12519122147",
+            "color": "RGB",
+            "power_w": "30W/12V SMD LED",
+            "price": "81 €",
+            "price_eur": 81.0
+          }
+        },
+        {
+          "code": "12519122102",
+          "price": "62 €",
+          "price_eur": 62.0,
+          "values": {
+            "code": "12519122102",
+            "model": "Beton Concrete",
+            "color": "Mavi Blue",
+            "power_w": "30W/12V",
+            "price": "62 €",
+            "price_eur": 62.0
+          }
+        },
+        {
+          "code": "12519122094",
+          "price": "62 €",
+          "price_eur": 62.0,
+          "values": {
+            "code": "12519122094",
+            "model": "Beton Concrete",
+            "color": "Soğuk Beyaz Cold White",
+            "power_w": "30W/12V",
+            "price": "62 €",
+            "price_eur": 62.0
+          }
+        },
+        {
+          "code": "12519122142",
+          "price": "62€",
+          "price_eur": 62.0,
+          "values": {
+            "code": "12519122142",
+            "model": "Beton Concrete",
+            "color": "Sıcak Beyaz Warm White",
+            "power_w": "30W/12V",
+            "price": "62€",
+            "price_eur": 62.0
+          }
+        },
+        {
+          "code": "12519122104",
+          "price": "72 €",
+          "price_eur": 72.0,
+          "values": {
+            "code": "12519122104",
+            "model": "Beton Concrete",
+            "color": "RGB 4 Damarlı RGB 4 Cores",
+            "power_w": "30W/12V",
+            "price": "72 €",
+            "price_eur": 72.0
+          }
+        },
+        {
+          "code": "12519122164",
+          "price": "76 €",
+          "price_eur": 76.0,
+          "values": {
+            "code": "12519122164",
+            "model": "Beton Concrete",
+            "color": "RGB 2 Damarlı RGB 2 Cores",
+            "power_w": "30W/12V",
+            "price": "76 €",
+            "price_eur": 76.0
+          }
+        },
+        {
+          "code": "12519122157",
+          "price": "67 €",
+          "price_eur": 67.0,
+          "values": {
+            "code": "12519122157",
+            "model": "Liner",
+            "color": "Mavi Blue",
+            "power_w": "30W/12V",
+            "price": "67 €",
+            "price_eur": 67.0
+          }
+        },
+        {
+          "code": "12519122156",
+          "price": "67 €",
+          "price_eur": 67.0,
+          "values": {
+            "code": "12519122156",
+            "model": "Liner",
+            "color": "Soğuk Beyaz Cold White",
+            "power_w": "30W/12V",
+            "price": "67 €",
+            "price_eur": 67.0
+          }
+        },
+        {
+          "code": "12519122155",
+          "price": "67 €",
+          "price_eur": 67.0,
+          "values": {
+            "code": "12519122155",
+            "model": "Liner",
+            "color": "Sıcak Beyaz Warm White",
+            "power_w": "30W/12V",
+            "price": "67 €",
+            "price_eur": 67.0
+          }
+        },
+        {
+          "code": "12519122148",
+          "price": "84 €",
+          "price_eur": 84.0,
+          "values": {
+            "code": "12519122148",
+            "model": "Liner",
+            "color": "RGB 4 Damarlı RGB 4 Cores",
+            "power_w": "30W/12V",
+            "price": "84 €",
+            "price_eur": 84.0
+          }
+        },
+        {
+          "code": "12519122161",
+          "price": "88 €",
+          "price_eur": 88.0,
+          "values": {
+            "code": "12519122161",
+            "model": "Liner",
+            "color": "RGB 2 Damarlı RGB 2 Cores",
+            "power_w": "30W/12V",
+            "price": "88 €",
+            "price_eur": 88.0
+          }
+        },
+        {
+          "code": "12519122159",
+          "price": "52 €",
+          "price_eur": 52.0,
+          "values": {
+            "code": "12519122159",
+            "model": "Beton Concrete",
+            "color": "Gün Işığı Day Light",
+            "power_w": "20W / 12v POWERLED",
+            "price": "52 €",
+            "price_eur": 52.0
+          }
+        },
+        {
+          "code": "12519122154",
+          "price": "52 €",
+          "price_eur": 52.0,
+          "values": {
+            "code": "12519122154",
+            "model": "Beton Concrete",
+            "color": "Buz Beyaz Cold White",
+            "power_w": "20W / 12v POWERLED",
+            "price": "52 €",
+            "price_eur": 52.0
+          }
+        },
+        {
+          "code": "12519122158",
+          "price": "52€",
+          "price_eur": 52.0,
+          "values": {
+            "code": "12519122158",
+            "model": "Beton Concrete",
+            "color": "Mavi Blue",
+            "power_w": "20W / 12v POWERLED",
+            "price": "52€",
+            "price_eur": 52.0
+          }
+        },
+        {
+          "code": "12519122128",
+          "price": "70 €",
+          "price_eur": 70.0,
+          "values": {
+            "code": "12519122128",
+            "model": "Liner",
+            "color": "Gün Işığı Day Light",
+            "power_w": "20W / 12v POWERLED",
+            "price": "70 €",
+            "price_eur": 70.0
+          }
+        },
+        {
+          "code": "12519122160",
+          "price": "70 €",
+          "price_eur": 70.0,
+          "values": {
+            "code": "12519122160",
+            "model": "Liner",
+            "color": "Buz Beyaz Cold White",
+            "power_w": "20W / 12v POWERLED",
+            "price": "70 €",
+            "price_eur": 70.0
+          }
+        },
+        {
+          "code": "12519122131",
+          "price": "70 €",
+          "price_eur": 70.0,
+          "values": {
+            "code": "12519122131",
+            "model": "Liner",
+            "color": "Mavi Blue",
+            "power_w": "20W / 12v POWERLED",
+            "price": "70 €",
+            "price_eur": 70.0
+          }
+        },
+        {
+          "code": "118124",
+          "price": "54.00 €",
+          "price_eur": 54.0,
+          "values": {
+            "code": "PLG1S1812RGB4C",
+            "model": "Slim Led",
+            "color": "RGB",
+            "power_w": "18W/12V",
+            "depth": "-",
+            "price": "54.00 €",
+            "price_eur": 54.0
+          }
+        },
+        {
+          "code": "13012",
+          "price": "45.00 €",
+          "price_eur": 45.0,
+          "values": {
+            "code": "PLG1S3012WC",
+            "model": "Slim Led",
+            "color": "Soğuk Beyaz Cold White",
+            "power_w": "30W/12V",
+            "depth": "-",
+            "price": "45.00 €",
+            "price_eur": 45.0
+          }
+        },
+        {
+          "code": "13012",
+          "price": "45.00 €",
+          "price_eur": 45.0,
+          "values": {
+            "code": "PLG1S3012BL",
+            "model": "Slim Led",
+            "color": "Mavi Blue",
+            "power_w": "30W/12V",
+            "depth": "-",
+            "price": "45.00 €",
+            "price_eur": 45.0
+          }
+        },
+        {
+          "code": "19812122019",
+          "price": "9.00€",
+          "price_eur": 9.0,
+          "values": {
+            "code": "19812122019",
+            "model": "Yedek Dış Tası Niche Spare Part",
+            "color": "-",
+            "power_w": "-",
+            "depth": "7 cm",
+            "price": "9.00€",
+            "price_eur": 9.0
+          }
+        },
+        {
+          "code": "19812122004",
+          "price": "9.00 €",
+          "price_eur": 9.0,
+          "values": {
+            "code": "19812122004",
+            "model": "Yedek Dış Tası Niche Spare Part",
+            "color": "-",
+            "power_w": "-",
+            "depth": "13 cm",
+            "price": "9.00 €",
+            "price_eur": 9.0
+          }
+        },
+        {
+          "code": "17517122011",
+          "price": "47 €",
+          "price_eur": 47.0,
+          "values": {
+            "code": "17517122011",
+            "model": "Damla Model Drop Type",
+            "color": "Soğuk Beyaz Cold White",
+            "power_w": "5W / 12v",
+            "price": "47 €",
+            "price_eur": 47.0
+          }
+        },
+        {
+          "code": "17517122021",
+          "price": "47 €",
+          "price_eur": 47.0,
+          "values": {
+            "code": "17517122021",
+            "model": "Damla Model Drop Type",
+            "color": "Gün Işığı Day Light",
+            "power_w": "5W / 12v",
+            "price": "47 €",
+            "price_eur": 47.0
+          }
+        },
+        {
+          "code": "17517122022",
+          "price": "47 €",
+          "price_eur": 47.0,
+          "values": {
+            "code": "17517122022",
+            "model": "Damla Model Drop Type",
+            "color": "Mavi Blue",
+            "power_w": "5W / 12v",
+            "price": "47 €",
+            "price_eur": 47.0
+          }
+        },
+        {
+          "code": "17517122031",
+          "price": "84 €",
+          "price_eur": 84.0,
+          "values": {
+            "code": "17517122031",
+            "model": "Damla Model Drop Type",
+            "color": "RGB 2 Damarlı RGB 2 Cores",
+            "power_w": "9W / 12v",
+            "price": "84 €",
+            "price_eur": 84.0
+          }
+        },
+        {
+          "code": "17517122024",
+          "price": "55 €",
+          "price_eur": 55.0,
+          "values": {
+            "code": "17517122024",
+            "model": "Damla Model Drop Type",
+            "color": "RGB 4 Damarlı RGB 4 Cores",
+            "power_w": "9W / 12v",
+            "price": "55 €",
+            "price_eur": 55.0
+          }
+        },
+        {
+          "code": "17517122050",
+          "price": "63 €",
+          "price_eur": 63.0,
+          "values": {
+            "code": "17517122050",
+            "model": "Düz Görünümlü Smooth Type",
+            "color": "Soğuk Beyaz Cold White",
+            "power_w": "5W / 12v",
+            "price": "63 €",
+            "price_eur": 63.0
+          }
+        },
+        {
+          "code": "17517122051",
+          "price": "63 €",
+          "price_eur": 63.0,
+          "values": {
+            "code": "17517122051",
+            "model": "Düz Görünümlü Smooth Type",
+            "color": "Sıcak Beyaz Warm White",
+            "power_w": "5W / 12v",
+            "price": "63 €",
+            "price_eur": 63.0
+          }
+        },
+        {
+          "code": "17517122052",
+          "price": "63 €",
+          "price_eur": 63.0,
+          "values": {
+            "code": "17517122052",
+            "model": "Düz Görünümlü Smooth Type",
+            "color": "Mavi Blue",
+            "power_w": "5W / 12v",
+            "price": "63 €",
+            "price_eur": 63.0
+          }
+        },
+        {
+          "code": "17517122033",
+          "price": "75 €",
+          "price_eur": 75.0,
+          "values": {
+            "code": "17517122033",
+            "model": "Paslanmaz Stainless",
+            "color": "Mavi Blue AISI 316 Frame",
+            "power_w": "5W / 12v",
+            "price": "75 €",
+            "price_eur": 75.0
+          }
+        },
+        {
+          "code": "17517122037",
+          "price": "75 €",
+          "price_eur": 75.0,
+          "values": {
+            "code": "17517122037",
+            "model": "Paslanmaz Stainless",
+            "color": "Soğuk Beyaz Cold White AISI 316 Frame",
+            "power_w": "5W / 12v",
+            "price": "75 €",
+            "price_eur": 75.0
+          }
+        },
+        {
+          "code": "17517122038",
+          "price": "75 €",
+          "price_eur": 75.0,
+          "values": {
+            "code": "17517122038",
+            "model": "Paslanmaz Stainless",
+            "color": "Gün Işığı Day Light AISI 316 Frame",
+            "power_w": "5W / 12v",
+            "price": "75 €",
+            "price_eur": 75.0
+          }
+        },
+        {
+          "code": "17517122041",
+          "price": "84 €",
+          "price_eur": 84.0,
+          "values": {
+            "code": "17517122041",
+            "model": "Paslanmaz Stainless",
+            "color": "RGB AISI 316 Frame",
+            "power_w": "9W / 12v",
+            "price": "84 €",
+            "price_eur": 84.0
+          }
+        },
+        {
+          "code": "17517122026",
+          "price": "51 €",
+          "price_eur": 51.0,
+          "values": {
+            "code": "17517122026",
+            "model": "Spot Ayaklı Spot Footed",
+            "color": "Beyaz White",
+            "power_w": "5W / 12v",
+            "price": "51 €",
+            "price_eur": 51.0
+          }
+        },
+        {
+          "code": "17517122027",
+          "price": "51 €",
+          "price_eur": 51.0,
+          "values": {
+            "code": "17517122027",
+            "model": "Spot Ayaklı Spot Footed",
+            "color": "Gün Işığı Day Light",
+            "power_w": "5W / 12v",
+            "price": "51 €",
+            "price_eur": 51.0
+          }
+        },
+        {
+          "code": "17517122028",
+          "price": "51 €",
+          "price_eur": 51.0,
+          "values": {
+            "code": "17517122028",
+            "model": "Spot Ayaklı Spot Footed",
+            "color": "Mavi Blue",
+            "power_w": "5W / 12v",
+            "price": "51 €",
+            "price_eur": 51.0
+          }
+        },
+        {
+          "code": "17517122030",
+          "price": "86 €",
+          "price_eur": 86.0,
+          "values": {
+            "code": "17517122030",
+            "model": "Spot Ayaklı Spot Footed",
+            "color": "RGB 2 Damarlı RGB 2 Cores",
+            "power_w": "5W / 12v",
+            "price": "86 €",
+            "price_eur": 86.0
+          }
+        },
+        {
+          "code": "17517122029",
+          "price": "58 €",
+          "price_eur": 58.0,
+          "values": {
+            "code": "17517122029",
+            "model": "Spot Ayaklı Spot Footed",
+            "color": "RGB 4 Damarlı RGB 4 Cores",
+            "power_w": "5W / 12v",
+            "price": "58 €",
+            "price_eur": 58.0
+          }
+        },
+        {
+          "code": "19812123008",
+          "price": "12 €",
+          "price_eur": 12.0,
+          "values": {
+            "code": "19812123008",
+            "model": "WF.LB",
+            "price": "12 €",
+            "price_eur": 12.0
+          }
+        },
+        {
+          "code": "15017002035",
+          "price": "1.95 €",
+          "price_eur": 1.95,
+          "values": {
+            "code": "15017002035",
+            "l_diameter": "1 mt",
+            "price": "1.95 €",
+            "price_eur": 1.95
+          }
+        },
+        {
+          "code": "15017002036",
+          "price": "2.25 €",
+          "price_eur": 2.25,
+          "values": {
+            "code": "15017002036",
+            "l_diameter": "1,5 mt",
+            "price": "2.25 €",
+            "price_eur": 2.25
+          }
+        },
+        {
+          "code": "15015122013",
+          "price": "190 €",
+          "price_eur": 190.0,
+          "values": {
+            "code": "15015122013",
+            "model": "8 LAMBA LAMPS",
+            "price": "190 €",
+            "price_eur": 190.0
+          }
+        },
+        {
+          "code": "169002008",
+          "price": "250 €",
+          "price_eur": 250.0,
+          "values": {
+            "code": "169002008",
+            "model": "16 LAMBA LAMPS",
+            "price": "250 €",
+            "price_eur": 250.0
+          }
+        },
+        {
+          "code": "15015122014",
+          "price": "330 €",
+          "price_eur": 330.0,
+          "values": {
+            "code": "15015122014",
+            "model": "24 LAMBA LAMPS",
+            "price": "330 €",
+            "price_eur": 330.0
+          }
+        },
+        {
+          "code": "15015122015",
+          "price": "400 €",
+          "price_eur": 400.0,
+          "values": {
+            "code": "15015122015",
+            "model": "32 LAMBA LAMPS",
+            "price": "400 €",
+            "price_eur": 400.0
+          }
+        },
+        {
+          "code": "121",
+          "price": "40 €",
+          "price_eur": 40.0,
+          "values": {
+            "code": "MUH.121",
+            "price": "40 €",
+            "price_eur": 40.0
+          }
+        },
+        {
+          "code": "5022012",
+          "price": "33 €",
+          "price_eur": 33.0,
+          "values": {
+            "code": "TRAFO-50-220-12-PLS-WF",
+            "power_w": "50W - 12v",
+            "price": "33 €",
+            "price_eur": 33.0
+          }
+        },
+        {
+          "code": "15016121001",
+          "price": "34 €",
+          "price_eur": 34.0,
+          "values": {
+            "code": "15016121001",
+            "power_w": "100W - 12v",
+            "price": "34 €",
+            "price_eur": 34.0
+          }
+        },
+        {
+          "code": "15016121002",
+          "price": "38 €",
+          "price_eur": 38.0,
+          "values": {
+            "code": "15016121002",
+            "power_w": "100W - 24v",
+            "price": "38 €",
+            "price_eur": 38.0
+          }
+        },
+        {
+          "code": "15016121003",
+          "price": "35 €",
+          "price_eur": 35.0,
+          "values": {
+            "code": "15016121003",
+            "power_w": "150W - 12v",
+            "price": "35 €",
+            "price_eur": 35.0
+          }
+        },
+        {
+          "code": "15016121004",
+          "price": "40 €",
+          "price_eur": 40.0,
+          "values": {
+            "code": "15016121004",
+            "power_w": "150W - 24v",
+            "price": "40 €",
+            "price_eur": 40.0
+          }
+        },
+        {
+          "code": "15016121005",
+          "price": "39 €",
+          "price_eur": 39.0,
+          "values": {
+            "code": "15016121005",
+            "power_w": "300W - 12v",
+            "price": "39 €",
+            "price_eur": 39.0
+          }
+        },
+        {
+          "code": "15016121006",
+          "price": "45 €",
+          "price_eur": 45.0,
+          "values": {
+            "code": "15016121006",
+            "power_w": "300W - 24v",
+            "price": "45 €",
+            "price_eur": 45.0
+          }
+        },
+        {
+          "code": "15016121007",
+          "price": "47 €",
+          "price_eur": 47.0,
+          "values": {
+            "code": "15016121007",
+            "power_w": "400W - 12v",
+            "price": "47 €",
+            "price_eur": 47.0
+          }
+        },
+        {
+          "code": "15016121008",
+          "price": "50€",
+          "price_eur": 50.0,
+          "values": {
+            "code": "15016121008",
+            "power_w": "400W - 24v",
+            "price": "50€",
+            "price_eur": 50.0
+          }
+        },
+        {
+          "code": "15016121009",
+          "price": "89 €",
+          "price_eur": 89.0,
+          "values": {
+            "code": "15016121009",
+            "power_w": "600W - 12v",
+            "price": "89 €",
+            "price_eur": 89.0
+          }
+        },
+        {
+          "code": "15016121010",
+          "price": "90 €",
+          "price_eur": 90.0,
+          "values": {
+            "code": "15016121010",
+            "power_w": "600W - 24v",
+            "price": "90 €",
+            "price_eur": 90.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "stream-equipments",
+      "family_title_tr": "Stream Equipments",
+      "family_title_en": "Stream Equipments",
+      "family_description_tr": "A black and white photograph of a Jet Stream Set. It features a black pump unit with a red handle, connected to a white plastic pipe. A white plastic wall conduit is attached to the pipe. A control box with a red display and buttons is connected to the pump via a cable.",
+      "family_line_count": 252,
+      "qualitative": {
+        "bullets_tr": [
+          "Güçlü pompası ile karşısında yüzülebilecek kadar akıntı sağlar",
+          "12520113010 masaj hortumu ile kullanılması tavsiye edilir",
+          "BS plastik enjeksiyon gövde",
+          "Yüksek UV ve kimyasal dayanımlıdır, güneşten etkilenmez",
+          "Açı ayarlı jet nozulu",
+          "With its powerful pump, it provides enough flow to swim against",
+          "Recommended to use with massage hose in code 12520113010",
+          "ABS plastic injection body",
+          "High UV and chemical resistant, unaffected by the sun",
+          "Angle adjustable jet nozzle",
+          "Ekstra güçlü gövde",
+          "ABS plastik enjeksiyon gövde",
+          "Yüksek UV ve kimyasal dayanımlıdır, güneşten etkilenmez",
+          "Extra strong body",
+          "ABS plastic injection body",
+          "High UV and chemical resistant, unaffected by the sun",
+          "Masaj hortumu ile beraber",
+          "12520113007 Emiş nozulu ile beraber alınmalıdır",
+          "Ekstra güçlü gövde",
+          "Beton ara parçası gerektirmez",
+          "ABS plastik enjeksiyon gövde",
+          "Yüksek UV ve kimyasal dayanımlıdır, güneşten etkilenmez",
+          "Including in massage hose",
+          "It should be purchased together with the suction nozzle in code 12520113007",
+          "Extra strong body",
+          "No need for concrete wall conduit",
+          "ABS plastic injection body",
+          "High UV and chemical resistant, unaffected by the sun",
+          "Regülasyon Amp. 4÷6,3",
+          "Plastik enjeksiyon gövde",
+          "CE onaylı şalt malzemesi",
+          "Beyaz renk plastik ABS pnomatik buton, pnomatik swich ve 3 mt boyunda pnomatik hortum fiyata dahildir",
+          "Regulation 4÷6,3",
+          "Plastic injection body",
+          "CE approved circuits",
+          "White plastic ABS pneumatic pushbutton, pneumatic swich and 3 mt long pneumatic hose are included in the price",
+          "ABS plastik enjeksiyon gövde",
+          "Yüksek UV ve kimyasal dayanımlıdır, güneřten etkilenmez",
+          "Sadece kit up jet ile alınması gereklidir",
+          "ABS plastic injection body",
+          "High UV and chemical resistant, unaffected by the sun",
+          "Only required to be taken with jet kit up"
+        ],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_5289",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "ÖLÇÜ DIAMETER",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "12520123003",
+              "Jet Stream komple set beton Sena Model",
+              "--"
+            ],
+            [
+              "12520123004",
+              "Jet Stream komple set liner Sena Model",
+              "--"
+            ],
+            [
+              "12520123005",
+              "Jet Stream komple set beton Calipso Model",
+              "--"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_5339",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "MODEL ADI MODEL NAME",
+            "MODEL MODEL",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "12520113014",
+              "Sena",
+              "JS1.B",
+              "721 €"
+            ],
+            [
+              "12520113013",
+              "Calipso",
+              "JC1.B",
+              "975 €"
+            ],
+            [
+              "12520123006",
+              "LED RGB",
+              "--",
+              "876 €"
+            ],
+            [
+              "12520123007",
+              "LED Beyaz LED White",
+              "--",
+              "876 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_5352",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "GÜÇ HP POWER HP",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "11515113122",
+              "2.50 HP Trifaze Triphase",
+              "1.120 €"
+            ],
+            [
+              "11515113124",
+              "3.00 HP Trifaze Triphase",
+              "1.170 €"
+            ],
+            [
+              "11515113125",
+              "3.50 HP Trifaze Triphase",
+              "1.230 €"
+            ],
+            [
+              "11515113126",
+              "4.50 HP Trifaze Triphase",
+              "1.290 €"
+            ],
+            [
+              "11515113127",
+              "5.50 HP Trifaze Triphase",
+              "1.350 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_5366",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "HAVUZ TİPİ POOL TYPE",
+            "MODEL MODEL",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "12520113012",
+              "Beton Concrete",
+              "JSH2.B",
+              "253 €"
+            ],
+            [
+              "12520113004",
+              "Liner",
+              "JSL2.B",
+              "253 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_5386",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "HAVUZ TİPİ POOL TYPE",
+            "MODEL MODEL",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "12520113005",
+              "Beton Concrete",
+              "BCH.B",
+              "232 €"
+            ],
+            [
+              "12520113006",
+              "Liner",
+              "BCL.B",
+              "253 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_5432",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "MODEL MODEL",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "12520112001",
+              "ATN063",
+              "345 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_5445",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "HAVUZ TİPİ POOL TYPE",
+            "MODEL MODEL",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "12520113007",
+              "Beton Concrete",
+              "BAH.B",
+              "60 €"
+            ],
+            [
+              "12520113008",
+              "Liner",
+              "BAL.B",
+              "120 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_5479",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "HAVUZ TİPİ POOL TYPE",
+            "MODEL MODEL",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "12520113005",
+              "Beton Concrete",
+              "BCH.B",
+              "232 €"
+            ],
+            [
+              "12520113006",
+              "Liner",
+              "BCL.B",
+              "253 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_5496",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "MODEL MODEL",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "12520113010",
+              "JS2.B",
+              "133 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_5513",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "MODEL MODEL",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "13017123001",
+              "W 051.TC",
+              "150 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "6add7f8adc19ccc23711fd6c1fd40b90_img.jpg",
+          "alt": "A black and white photograph of a Jet Stream Set. It features a black pump unit with a red handle, connected to a white plastic pipe. A white plastic wall conduit is attached to the pipe. A control box with a red display and buttons is connected to the pump via a cable.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "bc506dbd5fa2d811959eb34dbf39177a_img.jpg",
+          "alt": "A close-up photograph of a white plastic wall conduit with a jet stream nozzle. A powerful, bright orange and yellow jet of water is being sprayed out from the nozzle, creating a large, bright plume of water against a blue, textured background.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "4c643270fb3718cfee3fcb8762186fe4_img.jpg",
+          "alt": "Sena Model front body component",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "f85a6421aeed45470c52d7a07712d215_img.jpg",
+          "alt": "Calipso Model front body component",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "8051d3976ebf50836df90b44cc1444f8_img.jpg",
+          "alt": "LED front body component",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "744c22dc79dac3ae9f4887cd843ea170_img.jpg",
+          "alt": "LED color options: RGB and White",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "52fcd499c55129acc76bc13969f298a0_img.jpg",
+          "alt": "Karpa KA Jet Stream Pump",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "8212253dda29ea0f382e879cda1715a1_img.jpg",
+          "alt": "A white, circular concrete wall conduit with a central opening and several smaller holes around the perimeter.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "68c3eab6b4b6f7c2f459dbbf76ac43c9_img.jpg",
+          "alt": "A white plastic jet stream kit up body with a hose attached, and several black O-rings and a white ring.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "27938e78a257e73845121652c6c75216_img.jpg",
+          "alt": "Water Fun logo featuring a stylized blue wave and the text 'water fun'.",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "82357c34f6c795dd691a4b03f291b527_img.jpg",
+          "alt": "A white plastic electropneumatic control panel with a red power button and a black switch.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "466b3daf70b8b52970d6b0a7cfaa2919_img.jpg",
+          "alt": "Emiř Nozulu Jet Stream Inlet Nozzle",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "7cc32cc48a04df1a974c5781e700423f_img.jpg",
+          "alt": "Kit Up Jet Set components",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "1ad1575fc46c4ad6bd379ff97ea32ba4_img.jpg",
+          "alt": "Masaj Hortumu Jet Stream Massage Hose",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "2bb7f60f1e06ffbf4911b49cb3f9e720_img.jpg",
+          "alt": "water fun logo",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "d8f293586f87a2c22ff42b9d821dbc85_img.jpg",
+          "alt": "Tutamak Kolu Jet Stream Handle",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "12520123003",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "12520123003",
+            "l_diameter": "Jet Stream komple set beton Sena Model",
+            "price": "--"
+          }
+        },
+        {
+          "code": "12520123004",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "12520123004",
+            "l_diameter": "Jet Stream komple set liner Sena Model",
+            "price": "--"
+          }
+        },
+        {
+          "code": "12520123005",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "12520123005",
+            "l_diameter": "Jet Stream komple set beton Calipso Model",
+            "price": "--"
+          }
+        },
+        {
+          "code": "12520113014",
+          "price": "721 €",
+          "price_eur": 721.0,
+          "values": {
+            "code": "12520113014",
+            "model_name": "Sena",
+            "model": "JS1.B",
+            "price": "721 €",
+            "price_eur": 721.0
+          }
+        },
+        {
+          "code": "12520113013",
+          "price": "975 €",
+          "price_eur": 975.0,
+          "values": {
+            "code": "12520113013",
+            "model_name": "Calipso",
+            "model": "JC1.B",
+            "price": "975 €",
+            "price_eur": 975.0
+          }
+        },
+        {
+          "code": "12520123006",
+          "price": "876 €",
+          "price_eur": 876.0,
+          "values": {
+            "code": "12520123006",
+            "model_name": "LED RGB",
+            "model": "--",
+            "price": "876 €",
+            "price_eur": 876.0
+          }
+        },
+        {
+          "code": "12520123007",
+          "price": "876 €",
+          "price_eur": 876.0,
+          "values": {
+            "code": "12520123007",
+            "model_name": "LED Beyaz LED White",
+            "model": "--",
+            "price": "876 €",
+            "price_eur": 876.0
+          }
+        },
+        {
+          "code": "11515113122",
+          "price": "1.120 €",
+          "price_eur": 1120.0,
+          "values": {
+            "code": "11515113122",
+            "power_hp": "2.50 HP Trifaze Triphase",
+            "price": "1.120 €",
+            "price_eur": 1120.0
+          }
+        },
+        {
+          "code": "11515113124",
+          "price": "1.170 €",
+          "price_eur": 1170.0,
+          "values": {
+            "code": "11515113124",
+            "power_hp": "3.00 HP Trifaze Triphase",
+            "price": "1.170 €",
+            "price_eur": 1170.0
+          }
+        },
+        {
+          "code": "11515113125",
+          "price": "1.230 €",
+          "price_eur": 1230.0,
+          "values": {
+            "code": "11515113125",
+            "power_hp": "3.50 HP Trifaze Triphase",
+            "price": "1.230 €",
+            "price_eur": 1230.0
+          }
+        },
+        {
+          "code": "11515113126",
+          "price": "1.290 €",
+          "price_eur": 1290.0,
+          "values": {
+            "code": "11515113126",
+            "power_hp": "4.50 HP Trifaze Triphase",
+            "price": "1.290 €",
+            "price_eur": 1290.0
+          }
+        },
+        {
+          "code": "11515113127",
+          "price": "1.350 €",
+          "price_eur": 1350.0,
+          "values": {
+            "code": "11515113127",
+            "power_hp": "5.50 HP Trifaze Triphase",
+            "price": "1.350 €",
+            "price_eur": 1350.0
+          }
+        },
+        {
+          "code": "12520113012",
+          "price": "253 €",
+          "price_eur": 253.0,
+          "values": {
+            "code": "12520113012",
+            "pool_type": "Beton Concrete",
+            "model": "JSH2.B",
+            "price": "253 €",
+            "price_eur": 253.0
+          }
+        },
+        {
+          "code": "12520113004",
+          "price": "253 €",
+          "price_eur": 253.0,
+          "values": {
+            "code": "12520113004",
+            "pool_type": "Liner",
+            "model": "JSL2.B",
+            "price": "253 €",
+            "price_eur": 253.0
+          }
+        },
+        {
+          "code": "12520113005",
+          "price": "232 €",
+          "price_eur": 232.0,
+          "values": {
+            "code": "12520113005",
+            "pool_type": "Beton Concrete",
+            "model": "BCH.B",
+            "price": "232 €",
+            "price_eur": 232.0
+          }
+        },
+        {
+          "code": "12520113006",
+          "price": "253 €",
+          "price_eur": 253.0,
+          "values": {
+            "code": "12520113006",
+            "pool_type": "Liner",
+            "model": "BCL.B",
+            "price": "253 €",
+            "price_eur": 253.0
+          }
+        },
+        {
+          "code": "12520112001",
+          "price": "345 €",
+          "price_eur": 345.0,
+          "values": {
+            "code": "12520112001",
+            "model": "ATN063",
+            "price": "345 €",
+            "price_eur": 345.0
+          }
+        },
+        {
+          "code": "12520113007",
+          "price": "60 €",
+          "price_eur": 60.0,
+          "values": {
+            "code": "12520113007",
+            "pool_type": "Beton Concrete",
+            "model": "BAH.B",
+            "price": "60 €",
+            "price_eur": 60.0
+          }
+        },
+        {
+          "code": "12520113008",
+          "price": "120 €",
+          "price_eur": 120.0,
+          "values": {
+            "code": "12520113008",
+            "pool_type": "Liner",
+            "model": "BAL.B",
+            "price": "120 €",
+            "price_eur": 120.0
+          }
+        },
+        {
+          "code": "12520113005",
+          "price": "232 €",
+          "price_eur": 232.0,
+          "values": {
+            "code": "12520113005",
+            "pool_type": "Beton Concrete",
+            "model": "BCH.B",
+            "price": "232 €",
+            "price_eur": 232.0
+          }
+        },
+        {
+          "code": "12520113006",
+          "price": "253 €",
+          "price_eur": 253.0,
+          "values": {
+            "code": "12520113006",
+            "pool_type": "Liner",
+            "model": "BCL.B",
+            "price": "253 €",
+            "price_eur": 253.0
+          }
+        },
+        {
+          "code": "12520113010",
+          "price": "133 €",
+          "price_eur": 133.0,
+          "values": {
+            "code": "12520113010",
+            "model": "JS2.B",
+            "price": "133 €",
+            "price_eur": 133.0
+          }
+        },
+        {
+          "code": "13017123001",
+          "price": "150 €",
+          "price_eur": 150.0,
+          "values": {
+            "code": "13017123001",
+            "model": "W 051.TC",
+            "price": "150 €",
+            "price_eur": 150.0
+          }
+        }
+      ]
+    }
+  ]
+}

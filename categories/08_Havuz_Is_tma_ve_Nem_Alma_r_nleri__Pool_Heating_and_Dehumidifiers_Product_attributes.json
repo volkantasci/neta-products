@@ -1,0 +1,5447 @@
+{
+  "category_no": "08",
+  "category_tr": "Havuz Isıtma ve Nem Alma Ürünleri",
+  "category_en": "Pool Heating and Dehumidifiers Product",
+  "family_count": 14,
+  "variant_count": 132,
+  "families": [
+    {
+      "family_product_id": "nano-spa-model",
+      "family_title_tr": "Nano Spa Model",
+      "family_title_en": "Nano Spa Model",
+      "family_description_tr": "Nano Spa, kompakt yapısıyla küçük havuz ve spa projelerine özel geliştirilmiştir. Profesyoneller için güvenli ve kolay kurulum avantajı sunar.",
+      "family_line_count": 77,
+      "qualitative": {
+        "bullets_tr": [
+          "Nano SPA Isıtıcı spalar için ideal bir çözümdür",
+          "1 kW ila 8 kW arası boyutlarda mevcuttur",
+          "Kurulumu kolaydır",
+          "Kontaktör ve termostatı üzerindedir ve kablodur",
+          "Sağlam, dayanıklı yapıya sahiptir",
+          "Ultra güvenilir akış şalteri sayesinde güvenle çalışır",
+          "Sıcaklık termostatı ve aşırı ısınma sensörü mevcuttur",
+          "Kompakt ve dayanıklı tasarıma sahiptir",
+          "1,2°C hassasiyet ile analog kontrol sağlar",
+          "Zemin veya dikey olarak duvara monte edilebilir",
+          "Nano SPA heater is an ideal solution for spas",
+          "Available in sizes from 1 kW up to 8 kW",
+          "Easy installation",
+          "Fully equipped (Including in the contactor and thermostat on it) and pre-wired",
+          "Robust, durable construction",
+          "Ultra-reliable flow switch allows safe operation",
+          "Supplied with temperature thermostat and overheating sens",
+          "Compact, durable design",
+          "Can be wall mounted on floor or vertically",
+          "No loss of efficiency throughout its working life"
+        ],
+        "bullets_en": [],
+        "icons": [
+          "SILENT",
+          "TITANIUM HEATING ELEMENT"
+        ],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_11442",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "GÜÇ POWER",
+            "FAZ PHASE",
+            "DEBİ İHTİYACI FLOW REQUIREMENTS",
+            "",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "",
+              "",
+              "",
+              "min.",
+              "max.",
+              ""
+            ],
+            [
+              "16015123106",
+              "1 kW",
+              "Monofaz Single phase",
+              "1 m 3 /h",
+              "17 m 3 /h",
+              "610 €"
+            ],
+            [
+              "16015123111",
+              "2 kW",
+              "Monofaz Single phase",
+              "1 m 3 /h",
+              "17 m 3 /h",
+              "618 €"
+            ],
+            [
+              "16015123112",
+              "3 kW",
+              "Monofaz Single phase",
+              "1 m 3 /h",
+              "17 m 3 /h",
+              "625 €"
+            ],
+            [
+              "16015123110",
+              "4 kW",
+              "Monofaz Single phase",
+              "1 m 3 /h",
+              "17 m 3 /h",
+              "635 €"
+            ],
+            [
+              "16015123109",
+              "5 kW",
+              "Monofaz Single phase",
+              "1 m 3 /h",
+              "17 m 3 /h",
+              "645 €"
+            ],
+            [
+              "16015123108",
+              "6 kW",
+              "Monofaz Single phase",
+              "1 m 3 /h",
+              "17 m 3 /h",
+              "655 €"
+            ],
+            [
+              "16015123083",
+              "8 kW",
+              "Trifaz Threephase 3 faz/phase 400V",
+              "1 m 3 /h",
+              "17 m 3 /h",
+              "670 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "eb9c9a42686f171e8cb436431da231fb_img.jpg",
+          "alt": "Salt water icon",
+          "caption": "USE IN SALT WATER",
+          "type": "icon"
+        },
+        {
+          "file": "1669239aebcd34309a3ffba8c80836e7_img.jpg",
+          "alt": "Silent icon",
+          "caption": "SILENT",
+          "type": "icon"
+        },
+        {
+          "file": "6dd948fc20966608371ccc95cbb801bf_img.jpg",
+          "alt": "Titanium icon",
+          "caption": "TITANIUM HEATING ELEMENT",
+          "type": "icon"
+        },
+        {
+          "file": "12888e0b1be0140b3a4e1a57c7f2d993_img.jpg",
+          "alt": "Image of the Nano Spa heater unit, a blue cylindrical device with a control panel and a black base.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "86885d4fab43d3fe3c33edf8e31e98f3_img.jpg",
+          "alt": "Icon showing a gear and a lightbulb, indicating a compact and efficient design.",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "26cbc3aa715a18a1ee946cce30a4e27e_img.jpg",
+          "alt": "Icon showing a pressure gauge, indicating a maximum pressure of 2 BAR.",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "6d361a0caaf641c5c41db105014ecbe7_img.jpg",
+          "alt": "Finder logo with the tagline 'SWITCH TO THE FUTURE'.",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "08282b490d242bfa2043a339d2b9cdcc_img.jpg",
+          "alt": "Installation diagram showing the Nano Spa heater connected to a spa, pump, filter, and electric heater. It also shows a chemical dosing unit and a UV system connected to the spa.",
+          "caption": "",
+          "type": "diagram"
+        },
+        {
+          "file": "27e857d4addca568e0396fc6a341bf76_img.jpg",
+          "alt": "Image of the Nano Spa heater unit, showing its compact design and control panel.",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "16015123106",
+          "price": "610 €",
+          "price_eur": 610.0,
+          "values": {
+            "code": "16015123106",
+            "power_w": "1 kW",
+            "phase": "Monofaz Single phase",
+            "flow_requirements": "1 m 3 /h",
+            "unnamed": "17 m 3 /h",
+            "price": "610 €",
+            "price_eur": 610.0
+          }
+        },
+        {
+          "code": "16015123111",
+          "price": "618 €",
+          "price_eur": 618.0,
+          "values": {
+            "code": "16015123111",
+            "power_w": "2 kW",
+            "phase": "Monofaz Single phase",
+            "flow_requirements": "1 m 3 /h",
+            "unnamed": "17 m 3 /h",
+            "price": "618 €",
+            "price_eur": 618.0
+          }
+        },
+        {
+          "code": "16015123112",
+          "price": "625 €",
+          "price_eur": 625.0,
+          "values": {
+            "code": "16015123112",
+            "power_w": "3 kW",
+            "phase": "Monofaz Single phase",
+            "flow_requirements": "1 m 3 /h",
+            "unnamed": "17 m 3 /h",
+            "price": "625 €",
+            "price_eur": 625.0
+          }
+        },
+        {
+          "code": "16015123110",
+          "price": "635 €",
+          "price_eur": 635.0,
+          "values": {
+            "code": "16015123110",
+            "power_w": "4 kW",
+            "phase": "Monofaz Single phase",
+            "flow_requirements": "1 m 3 /h",
+            "unnamed": "17 m 3 /h",
+            "price": "635 €",
+            "price_eur": 635.0
+          }
+        },
+        {
+          "code": "16015123109",
+          "price": "645 €",
+          "price_eur": 645.0,
+          "values": {
+            "code": "16015123109",
+            "power_w": "5 kW",
+            "phase": "Monofaz Single phase",
+            "flow_requirements": "1 m 3 /h",
+            "unnamed": "17 m 3 /h",
+            "price": "645 €",
+            "price_eur": 645.0
+          }
+        },
+        {
+          "code": "16015123108",
+          "price": "655 €",
+          "price_eur": 655.0,
+          "values": {
+            "code": "16015123108",
+            "power_w": "6 kW",
+            "phase": "Monofaz Single phase",
+            "flow_requirements": "1 m 3 /h",
+            "unnamed": "17 m 3 /h",
+            "price": "655 €",
+            "price_eur": 655.0
+          }
+        },
+        {
+          "code": "16015123083",
+          "price": "670 €",
+          "price_eur": 670.0,
+          "values": {
+            "code": "16015123083",
+            "power_w": "8 kW",
+            "phase": "Trifaz Threephase 3 faz/phase 400V",
+            "flow_requirements": "1 m 3 /h",
+            "unnamed": "17 m 3 /h",
+            "price": "670 €",
+            "price_eur": 670.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "flowline-2",
+      "family_title_tr": "Flowline 2",
+      "family_title_en": "Flowline 2",
+      "family_description_tr": "Harici kontaktör bağlantısı ile esnek kurulum imkânı verir. Dayanıklı yapısıyla uzun ömürlü çözümler sunar.",
+      "family_line_count": 67,
+      "qualitative": {
+        "bullets_tr": [
+          "2 kW ile 24 kW arasında değişen güç seçeneği",
+          "Kablolu değildir, harici kontaktöre bağlantı gerektirir",
+          "Sağlam, dayanıklı yapıya sahiptir",
+          "Kompakt ve dayanıklı tasarıma sahiptir",
+          "Ultra güvenilir akış şalteri sayesinde güvenle çalışır",
+          "Sıcaklık termostatı ve aşırı ısınma sensörü mevcuttur",
+          "1,2°C hassasiyet ile analog kontrol sağlar",
+          "Zemin veya dikey olarak duvara monte edilebilir",
+          "Çalışma ömrü boyunca verim kaybına uğramaz",
+          "Power option ranging from 2 kW to 24 kW",
+          "Non-wired, requires connection to external contactor",
+          "Robust, durable construction",
+          "Compact, durable design",
+          "Ultra-reliable flow switch allows safe operation",
+          "Supplied with temperature thermostat and overheating sensor",
+          "Analogue control with 1.2°C differential",
+          "Can be wall mounted on floor or vertically",
+          "No loss of efficiency throughout its working life"
+        ],
+        "bullets_en": [],
+        "icons": [
+          "SILENT",
+          "TITANIUM HEATING ELEMENT"
+        ],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_11510",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "GÜÇ POWER",
+            "FAZ PHASE",
+            "DEBİ İHTİYACI FLOW REQUIREMENTS",
+            "",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "",
+              "",
+              "",
+              "min.",
+              "max.",
+              ""
+            ],
+            [
+              "16015123090",
+              "6 kW",
+              "Monofaz Mono",
+              "1 m³/h",
+              "17 m³/h",
+              "605 €"
+            ],
+            [
+              "16015123088",
+              "6 kW",
+              "Trifaz Threephase",
+              "4 m³/h",
+              "17 m³/h",
+              "690 €"
+            ],
+            [
+              "16015123127",
+              "9 kW",
+              "Trifaz Threephase",
+              "4 m³/h",
+              "17 m³/h",
+              "705 €"
+            ],
+            [
+              "16015123126",
+              "12 kW",
+              "Trifaz Threephase",
+              "4 m³/h",
+              "17 m³/h",
+              "715 €"
+            ],
+            [
+              "16015123104",
+              "15 kW",
+              "Trifaz Threephase",
+              "4 m³/h",
+              "17 m³/h",
+              "730 €"
+            ],
+            [
+              "16015123125",
+              "18 kW",
+              "Trifaz Threephase",
+              "4 m³/h",
+              "17 m³/h",
+              "750 €"
+            ],
+            [
+              "16015123129",
+              "24 kW",
+              "Trifaz Threephase",
+              "4 m³/h",
+              "17 m³/h",
+              "775 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "c031d32d3cac67fe74eb28c271eb3633_img.jpg",
+          "alt": "Water drop icon",
+          "caption": "USE IN SALT WATER",
+          "type": "icon"
+        },
+        {
+          "file": "fd863c4ab0213b6a65d4dc287ffdccf7_img.jpg",
+          "alt": "Silence icon",
+          "caption": "SILENT",
+          "type": "icon"
+        },
+        {
+          "file": "71eb849dc77b7e6044e0209ddfb6e3b4_img.jpg",
+          "alt": "Titanium icon",
+          "caption": "TITANIUM HEATING ELEMENT",
+          "type": "icon"
+        },
+        {
+          "file": "6dc8d23714ebea65ce7a0e58031aa33b_img.jpg",
+          "alt": "Flowline 2 product image showing a blue cylindrical unit with a black base and a control panel.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "c27356af0bf2706ec12c553b752d40c6_img.jpg",
+          "alt": "Gears icon representing power options.",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "e7d7b9cc91d5b310496697bb4096a396_img.jpg",
+          "alt": "Max 4 BAR icon representing pressure rating.",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "c25a67c54d33e557acf130cac33f39dc_img.jpg",
+          "alt": "Installation diagram showing the Flowline 2 unit connected to a SPA, chemical dosing unit, UV system, non-return valve, electric heater, and pump. The diagram also shows the internal components of the unit like the filter and electric heater.",
+          "caption": "",
+          "type": "diagram"
+        }
+      ],
+      "variants": [
+        {
+          "code": "16015123090",
+          "price": "605 €",
+          "price_eur": 605.0,
+          "values": {
+            "code": "16015123090",
+            "power_w": "6 kW",
+            "phase": "Monofaz Mono",
+            "flow_requirements": "1 m³/h",
+            "unnamed": "17 m³/h",
+            "price": "605 €",
+            "price_eur": 605.0
+          }
+        },
+        {
+          "code": "16015123088",
+          "price": "690 €",
+          "price_eur": 690.0,
+          "values": {
+            "code": "16015123088",
+            "power_w": "6 kW",
+            "phase": "Trifaz Threephase",
+            "flow_requirements": "4 m³/h",
+            "unnamed": "17 m³/h",
+            "price": "690 €",
+            "price_eur": 690.0
+          }
+        },
+        {
+          "code": "16015123127",
+          "price": "705 €",
+          "price_eur": 705.0,
+          "values": {
+            "code": "16015123127",
+            "power_w": "9 kW",
+            "phase": "Trifaz Threephase",
+            "flow_requirements": "4 m³/h",
+            "unnamed": "17 m³/h",
+            "price": "705 €",
+            "price_eur": 705.0
+          }
+        },
+        {
+          "code": "16015123126",
+          "price": "715 €",
+          "price_eur": 715.0,
+          "values": {
+            "code": "16015123126",
+            "power_w": "12 kW",
+            "phase": "Trifaz Threephase",
+            "flow_requirements": "4 m³/h",
+            "unnamed": "17 m³/h",
+            "price": "715 €",
+            "price_eur": 715.0
+          }
+        },
+        {
+          "code": "16015123104",
+          "price": "730 €",
+          "price_eur": 730.0,
+          "values": {
+            "code": "16015123104",
+            "power_w": "15 kW",
+            "phase": "Trifaz Threephase",
+            "flow_requirements": "4 m³/h",
+            "unnamed": "17 m³/h",
+            "price": "730 €",
+            "price_eur": 730.0
+          }
+        },
+        {
+          "code": "16015123125",
+          "price": "750 €",
+          "price_eur": 750.0,
+          "values": {
+            "code": "16015123125",
+            "power_w": "18 kW",
+            "phase": "Trifaz Threephase",
+            "flow_requirements": "4 m³/h",
+            "unnamed": "17 m³/h",
+            "price": "750 €",
+            "price_eur": 750.0
+          }
+        },
+        {
+          "code": "16015123129",
+          "price": "775 €",
+          "price_eur": 775.0,
+          "values": {
+            "code": "16015123129",
+            "power_w": "24 kW",
+            "phase": "Trifaz Threephase",
+            "flow_requirements": "4 m³/h",
+            "unnamed": "17 m³/h",
+            "price": "775 €",
+            "price_eur": 775.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "evolution-2",
+      "family_title_tr": "Evolution 2",
+      "family_title_en": "Evolution 2",
+      "family_description_tr": "Kontaktör ve termostatı üzerinde barındıran Evolution 2, kurulum kolaylığı ile öne çıkar. Profesyonel havuz projelerinde güvenli ve uzun ömürlü bir ısıtma çözümü sunar.",
+      "family_line_count": 75,
+      "qualitative": {
+        "bullets_tr": [
+          "6 kW ile 24 kW arasında değişen güç seçeneği",
+          "Kurulumu kolaydır",
+          "Kontaktör ve termostatı üzerindedir ve kablodur",
+          "Sağlam, dayanıklı yapıya sahiptir",
+          "Kompakt ve dayanıklı tasarıma sahiptir",
+          "Ultra güvenilir akış şalteri sayesinde güvenle çalışır",
+          "Sıcaklık termostatı ve aşırı ısınma sensörü mevcuttur",
+          "1,2°C hassasiyet ile analog kontrol sağlar",
+          "Çalışma ömrü boyunca verim kaybına uğramaz",
+          "Power option ranging from 6 kW to 24 kW",
+          "Easy installation",
+          "Fully equipped (Including in the contactor and thermostat on it) and pre-wired",
+          "Robust, durable construction",
+          "Compact, durable design",
+          "Ultra-reliable flow switch allows safe operation",
+          "Supplied with temperature thermostat and overheating sensor",
+          "Analogue control with 1.2°C differential",
+          "No loss of efficiency throughout its working life"
+        ],
+        "bullets_en": [],
+        "icons": [
+          "SILENT",
+          "TITANIUM HEATING ELEMENT"
+        ],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_11587",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "GÜÇ POWER",
+            "FAZ PHASE",
+            "DEBİ İHTİYACI FLOW REQUIREMENTS",
+            "",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "",
+              "",
+              "",
+              "min.",
+              "max.",
+              ""
+            ],
+            [
+              "16015123117",
+              "6 kW",
+              "Mono / Tri",
+              "1 m³/h",
+              "17 m³/h",
+              "1.065 €"
+            ],
+            [
+              "16015123124",
+              "9 kW",
+              "Mono / Tri",
+              "4 m³/h",
+              "17 m³/h",
+              "1.080 €"
+            ],
+            [
+              "16015123123",
+              "12 kW",
+              "Mono / Tri",
+              "4 m³/h",
+              "17 m³/h",
+              "1.095 €"
+            ],
+            [
+              "16015123113",
+              "15 kW",
+              "Trifaz Threephase",
+              "4 m³/h",
+              "17 m³/h",
+              "1.105 €"
+            ],
+            [
+              "16015123122",
+              "18 kW",
+              "Trifaz Threephase",
+              "4 m³/h",
+              "17 m³/h",
+              "1.230 €"
+            ],
+            [
+              "16015123121",
+              "24 kW",
+              "Trifaz Threephase",
+              "4 m³/h",
+              "17 m³/h",
+              "1.280 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "f11d212b6dc7b102b6c8c5a37665618c_img.jpg",
+          "alt": "Water drop icon",
+          "caption": "USE IN SALT WATER",
+          "type": "icon"
+        },
+        {
+          "file": "fac02b1327770856be86544800166cea_img.jpg",
+          "alt": "Silence icon",
+          "caption": "SILENT",
+          "type": "icon"
+        },
+        {
+          "file": "aad52d84591ef7b0af014dd2732b8116_img.jpg",
+          "alt": "Titanium icon",
+          "caption": "TITANIUM HEATING ELEMENT",
+          "type": "icon"
+        },
+        {
+          "file": "218564446d2e2e400ccd23203917c6b5_img.jpg",
+          "alt": "Two blue Evolution 2 heating units, one larger than the other, shown from a side-on perspective.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "811068f9e0223012efae993b058754f1_img.jpg",
+          "alt": "Red gear icon with a white gear inside.",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "6bd918d8b38a65029e0b6975bc104403_img.jpg",
+          "alt": "Red circular icon with a white pressure gauge and the text 'MAX. 4 BAR'.",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "52ae8e93ecae2ddb020974e3714a29ee_img.jpg",
+          "alt": "Installation diagram showing the Evolution 2 unit connected to a SPA, chemical dosing unit, UV system, pump, filter, and electric heater. The diagram includes labels for 'SPA', 'CHEMICAL DOSING UNIT', 'UV SYSTEM', 'PUMP', 'FILTER', 'ELECTRIC HEATER', and 'NON RETURN VALVE'.",
+          "caption": "",
+          "type": "diagram"
+        },
+        {
+          "file": "64a4c8b700fe651dc718f3171da55849_img.jpg",
+          "alt": "Technical drawings of the Evolution 2 unit showing dimensions. The side view shows a length of 308 mm and a height of 140 mm. The front view shows a width of 345 mm.",
+          "caption": "",
+          "type": "dimensions"
+        }
+      ],
+      "variants": [
+        {
+          "code": "16015123117",
+          "price": "1.065 €",
+          "price_eur": 1065.0,
+          "values": {
+            "code": "16015123117",
+            "power_w": "6 kW",
+            "phase": "Mono / Tri",
+            "flow_requirements": "1 m³/h",
+            "unnamed": "17 m³/h",
+            "price": "1.065 €",
+            "price_eur": 1065.0
+          }
+        },
+        {
+          "code": "16015123124",
+          "price": "1.080 €",
+          "price_eur": 1080.0,
+          "values": {
+            "code": "16015123124",
+            "power_w": "9 kW",
+            "phase": "Mono / Tri",
+            "flow_requirements": "4 m³/h",
+            "unnamed": "17 m³/h",
+            "price": "1.080 €",
+            "price_eur": 1080.0
+          }
+        },
+        {
+          "code": "16015123123",
+          "price": "1.095 €",
+          "price_eur": 1095.0,
+          "values": {
+            "code": "16015123123",
+            "power_w": "12 kW",
+            "phase": "Mono / Tri",
+            "flow_requirements": "4 m³/h",
+            "unnamed": "17 m³/h",
+            "price": "1.095 €",
+            "price_eur": 1095.0
+          }
+        },
+        {
+          "code": "16015123113",
+          "price": "1.105 €",
+          "price_eur": 1105.0,
+          "values": {
+            "code": "16015123113",
+            "power_w": "15 kW",
+            "phase": "Trifaz Threephase",
+            "flow_requirements": "4 m³/h",
+            "unnamed": "17 m³/h",
+            "price": "1.105 €",
+            "price_eur": 1105.0
+          }
+        },
+        {
+          "code": "16015123122",
+          "price": "1.230 €",
+          "price_eur": 1230.0,
+          "values": {
+            "code": "16015123122",
+            "power_w": "18 kW",
+            "phase": "Trifaz Threephase",
+            "flow_requirements": "4 m³/h",
+            "unnamed": "17 m³/h",
+            "price": "1.230 €",
+            "price_eur": 1230.0
+          }
+        },
+        {
+          "code": "16015123121",
+          "price": "1.280 €",
+          "price_eur": 1280.0,
+          "values": {
+            "code": "16015123121",
+            "power_w": "24 kW",
+            "phase": "Trifaz Threephase",
+            "flow_requirements": "4 m³/h",
+            "unnamed": "17 m³/h",
+            "price": "1.280 €",
+            "price_eur": 1280.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "optima-compact",
+      "family_title_tr": "Optima Compact",
+      "family_title_en": "Optima Compact",
+      "family_description_tr": "İki Siemens kontaktör ile güvenilir koruma sağlar. Dokunmatik ekranlı dijital termostat ile hassas ısı kontrolü sunar.",
+      "family_line_count": 75,
+      "qualitative": {
+        "bullets_tr": [
+          "2 kW ile 24 kW arasında değişen güç seçeneği",
+          "Kontaktör ve termostatı üzerindedir ve kabloludur",
+          "Sağlam, dayanıklı yapıya sahiptir",
+          "Kompakt ve dayanıklı tasarıma sahiptir",
+          "Ultra güvenilir akış şalteri sayesinde güvenle çalışır",
+          "Dijital sıcaklık termostatı ve aşırı ısınma sensörü mevcuttur",
+          "Dokunmatik ekran denetleyicisi dijital termostat 0,5°C diferansiyel",
+          "Çalışma ömrü boyunca verim kaybına uğramaz",
+          "2 adet Siemens kontaktörü içerir (çifte güvenlik)",
+          "Power option ranging from 2 kW to 24 kW",
+          "Fully equipped (Including in the contactor and thermostat on it) and pre-wired",
+          "Robust, durable construction",
+          "Compact, durable design",
+          "Ultra-reliable flow switch allows safe operation",
+          "Supplied with digital temperature thermostat and overheating sensor",
+          "Touch screen controller digital thermostat 0.5°C differential",
+          "No loss of efficiency throughout its working life",
+          "Includes 2x Siemens contractors (double safety)"
+        ],
+        "bullets_en": [],
+        "icons": [
+          "*SILENT*",
+          "*TITANIUM HEATING ELEMENT*"
+        ],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_11663",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "GÜÇ POWER",
+            "FAZ PHASE",
+            "DEBİ İHTİYACI FLOW REQUIREMENTS",
+            "",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "",
+              "",
+              "",
+              "min.",
+              "max.",
+              ""
+            ],
+            [
+              "16015123079",
+              "6 kW",
+              "Mono / Tri",
+              "1 m³/h",
+              "17 m³/h",
+              "--"
+            ],
+            [
+              "16015123080",
+              "9 kW",
+              "Mono / Tri",
+              "4 m³/h",
+              "17 m³/h",
+              "--"
+            ],
+            [
+              "16015123078",
+              "12 kW",
+              "Mono / Tri",
+              "4 m³/h",
+              "17 m³/h",
+              "--"
+            ],
+            [
+              "16015123077",
+              "15 kW",
+              "Trifaz Threephase",
+              "4 m³/h",
+              "17 m³/h",
+              "--"
+            ],
+            [
+              "16015123076",
+              "18 kW",
+              "Trifaz Threephase",
+              "4 m³/h",
+              "17 m³/h",
+              "--"
+            ],
+            [
+              "16015123075",
+              "24 kW",
+              "Trifaz Threephase",
+              "4 m³/h",
+              "17 m³/h",
+              "--"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "3b0b37faf1b9c76cf9e58dd0eb62b6b1_img.jpg",
+          "alt": "Image of the Optima Compact unit, a vertical black and silver device with a digital display and control buttons.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "449f7ed3b15e65240884e2cf9b445a04_img.jpg",
+          "alt": "Installation diagram showing the Optima Compact unit connected to a SPA, chemical dosing unit, UV system, pump, filter, and electric heater. It also shows the return line with a non-return valve.",
+          "caption": "",
+          "type": "diagram"
+        },
+        {
+          "file": "a5bb8e1904638cf51fdf6b7d587a8cca_img.jpg",
+          "alt": "Technical drawing showing the dimensions of the Optima Compact unit from the front and side views.",
+          "caption": "",
+          "type": "dimensions"
+        }
+      ],
+      "variants": [
+        {
+          "code": "16015123079",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "16015123079",
+            "power_w": "6 kW",
+            "phase": "Mono / Tri",
+            "flow_requirements": "1 m³/h",
+            "unnamed": "17 m³/h",
+            "price": "--"
+          }
+        },
+        {
+          "code": "16015123080",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "16015123080",
+            "power_w": "9 kW",
+            "phase": "Mono / Tri",
+            "flow_requirements": "4 m³/h",
+            "unnamed": "17 m³/h",
+            "price": "--"
+          }
+        },
+        {
+          "code": "16015123078",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "16015123078",
+            "power_w": "12 kW",
+            "phase": "Mono / Tri",
+            "flow_requirements": "4 m³/h",
+            "unnamed": "17 m³/h",
+            "price": "--"
+          }
+        },
+        {
+          "code": "16015123077",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "16015123077",
+            "power_w": "15 kW",
+            "phase": "Trifaz Threephase",
+            "flow_requirements": "4 m³/h",
+            "unnamed": "17 m³/h",
+            "price": "--"
+          }
+        },
+        {
+          "code": "16015123076",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "16015123076",
+            "power_w": "18 kW",
+            "phase": "Trifaz Threephase",
+            "flow_requirements": "4 m³/h",
+            "unnamed": "17 m³/h",
+            "price": "--"
+          }
+        },
+        {
+          "code": "16015123075",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "16015123075",
+            "power_w": "24 kW",
+            "phase": "Trifaz Threephase",
+            "flow_requirements": "4 m³/h",
+            "unnamed": "17 m³/h",
+            "price": "--"
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "sfs-joey",
+      "family_title_tr": "Sfs Joey",
+      "family_title_en": "Sfs Joey",
+      "family_description_tr": "18–120 kW aralığıyla büyük ölçekli projeler için idealdir. Dayanıklı yapısı ve çift Siemens kontaktör ile uzun ömürlü güvenlik sunar.",
+      "family_line_count": 84,
+      "qualitative": {
+        "bullets_tr": [
+          "18 kW ile 120 kW arasında değişen güç seçeneği",
+          "Kurulumu kolaydır",
+          "Sağlam, dayanıklı yapıya sahiptir",
+          "Kompakt ve dayanıklı tasarıma sahiptir",
+          "Ultra güvenilir akış şalteri sayesinde güvenle çalışır",
+          "Çalışma ömrü boyunca verim kaybına uğramaz",
+          "Zemin veya dikey olarak duvara monte edilebilir",
+          "2 adet Siemens kontaktörü içerir (çifte güvenlik)",
+          "Power option ranging from 12 kW to 120 kW",
+          "Easy installation",
+          "Robust, durable construction",
+          "Compact, durable design",
+          "Ultra-reliable flow switch allows safe operation",
+          "No loss of efficiency throughout its working life",
+          "Can be wall mounted on floor or vertically",
+          "Includes 2x Siemens contractors (double safety)"
+        ],
+        "bullets_en": [],
+        "icons": [
+          "COMMERCIAL POOL",
+          "TITANIUM HEATING ELEMENT"
+        ],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_11744",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "GÜÇ POWER",
+            "FAZ PHASE",
+            "DEBİ İHTİYACI FLOW REQUIREMENTS",
+            "",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "",
+              "",
+              "",
+              "min.",
+              "max.",
+              ""
+            ],
+            [
+              "16015123065",
+              "18 kW",
+              "Trifaz Threephase",
+              "7 m 3 /h",
+              "15 m 3 /h",
+              "2.870 €"
+            ],
+            [
+              "16015123066",
+              "24 kW",
+              "Trifaz Threephase",
+              "7 m 3 /h",
+              "15 m 3 /h",
+              "2.930 €"
+            ],
+            [
+              "16015123067",
+              "30 kW",
+              "Trifaz Threephase",
+              "7 m 3 /h",
+              "15 m 3 /h",
+              "3.000 €"
+            ],
+            [
+              "16015123068",
+              "36 kW",
+              "Trifaz Threephase",
+              "7 m 3 /h",
+              "15 m 3 /h",
+              "3.650 €"
+            ],
+            [
+              "16015123069",
+              "45 kW",
+              "Trifaz Threephase",
+              "7 m 3 /h",
+              "15 m 3 /h",
+              "3.680 €"
+            ],
+            [
+              "16015123070",
+              "54 kW",
+              "Trifaz Threephase",
+              "7 m 3 /h",
+              "15 m 3 /h",
+              "3.840 €"
+            ],
+            [
+              "16015123071",
+              "60 kW",
+              "Trifaz Threephase",
+              "7 m 3 /h",
+              "15 m 3 /h",
+              "4.025 €"
+            ],
+            [
+              "16015123072",
+              "72 kW",
+              "Trifaz Threephase",
+              "7 m 3 /h",
+              "15 m 3 /h",
+              "4.990 €"
+            ],
+            [
+              "16015123073",
+              "96 kW",
+              "Trifaz Threephase",
+              "7 m 3 /h",
+              "15 m 3 /h",
+              "6.500 €"
+            ],
+            [
+              "16015123074",
+              "120 kW",
+              "Trifaz Threephase",
+              "7 m 3 /h",
+              "15 m 3 /h",
+              "7.800 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "18fef11f0b885ec5f5b24fa20ac102ae_img.jpg",
+          "alt": "A large, dark blue, rectangular electric heater unit with a handle on top and a circular port on the side.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "59828ce7325b5f7a3416a95aa059527a_img.jpg",
+          "alt": "Icon of two interlocking gears.",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "bb8d93486fbd46c92f15aad15ed0668b_img.jpg",
+          "alt": "Icon of a pressure gauge with the text 'MAX. 4 BAR'.",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "f429e412fd87dd6ad50e3569ed57287c_img.jpg",
+          "alt": "Installation diagram showing a SPA pool connected to a pump, filter, electric heater, and chemical dosing unit. It also shows a UV system and a non-return valve.",
+          "caption": "",
+          "type": "diagram"
+        },
+        {
+          "file": "9faefa9e57826911eb0d6e5aa77e53ab_img.jpg",
+          "alt": "Technical drawing showing the dimensions of the heater unit from the side and top views.",
+          "caption": "",
+          "type": "dimensions"
+        },
+        {
+          "file": "bc7fba09f00d3048bfc0ad4ca7e75ddc_img.jpg",
+          "alt": "QR code linking to the working video.",
+          "caption": "",
+          "type": "qr"
+        }
+      ],
+      "variants": [
+        {
+          "code": "16015123065",
+          "price": "2.870 €",
+          "price_eur": 2870.0,
+          "values": {
+            "code": "16015123065",
+            "power_w": "18 kW",
+            "phase": "Trifaz Threephase",
+            "flow_requirements": "7 m 3 /h",
+            "unnamed": "15 m 3 /h",
+            "price": "2.870 €",
+            "price_eur": 2870.0
+          }
+        },
+        {
+          "code": "16015123066",
+          "price": "2.930 €",
+          "price_eur": 2930.0,
+          "values": {
+            "code": "16015123066",
+            "power_w": "24 kW",
+            "phase": "Trifaz Threephase",
+            "flow_requirements": "7 m 3 /h",
+            "unnamed": "15 m 3 /h",
+            "price": "2.930 €",
+            "price_eur": 2930.0
+          }
+        },
+        {
+          "code": "16015123067",
+          "price": "3.000 €",
+          "price_eur": 3000.0,
+          "values": {
+            "code": "16015123067",
+            "power_w": "30 kW",
+            "phase": "Trifaz Threephase",
+            "flow_requirements": "7 m 3 /h",
+            "unnamed": "15 m 3 /h",
+            "price": "3.000 €",
+            "price_eur": 3000.0
+          }
+        },
+        {
+          "code": "16015123068",
+          "price": "3.650 €",
+          "price_eur": 3650.0,
+          "values": {
+            "code": "16015123068",
+            "power_w": "36 kW",
+            "phase": "Trifaz Threephase",
+            "flow_requirements": "7 m 3 /h",
+            "unnamed": "15 m 3 /h",
+            "price": "3.650 €",
+            "price_eur": 3650.0
+          }
+        },
+        {
+          "code": "16015123069",
+          "price": "3.680 €",
+          "price_eur": 3680.0,
+          "values": {
+            "code": "16015123069",
+            "power_w": "45 kW",
+            "phase": "Trifaz Threephase",
+            "flow_requirements": "7 m 3 /h",
+            "unnamed": "15 m 3 /h",
+            "price": "3.680 €",
+            "price_eur": 3680.0
+          }
+        },
+        {
+          "code": "16015123070",
+          "price": "3.840 €",
+          "price_eur": 3840.0,
+          "values": {
+            "code": "16015123070",
+            "power_w": "54 kW",
+            "phase": "Trifaz Threephase",
+            "flow_requirements": "7 m 3 /h",
+            "unnamed": "15 m 3 /h",
+            "price": "3.840 €",
+            "price_eur": 3840.0
+          }
+        },
+        {
+          "code": "16015123071",
+          "price": "4.025 €",
+          "price_eur": 4025.0,
+          "values": {
+            "code": "16015123071",
+            "power_w": "60 kW",
+            "phase": "Trifaz Threephase",
+            "flow_requirements": "7 m 3 /h",
+            "unnamed": "15 m 3 /h",
+            "price": "4.025 €",
+            "price_eur": 4025.0
+          }
+        },
+        {
+          "code": "16015123072",
+          "price": "4.990 €",
+          "price_eur": 4990.0,
+          "values": {
+            "code": "16015123072",
+            "power_w": "72 kW",
+            "phase": "Trifaz Threephase",
+            "flow_requirements": "7 m 3 /h",
+            "unnamed": "15 m 3 /h",
+            "price": "4.990 €",
+            "price_eur": 4990.0
+          }
+        },
+        {
+          "code": "16015123073",
+          "price": "6.500 €",
+          "price_eur": 6500.0,
+          "values": {
+            "code": "16015123073",
+            "power_w": "96 kW",
+            "phase": "Trifaz Threephase",
+            "flow_requirements": "7 m 3 /h",
+            "unnamed": "15 m 3 /h",
+            "price": "6.500 €",
+            "price_eur": 6500.0
+          }
+        },
+        {
+          "code": "16015123074",
+          "price": "7.800 €",
+          "price_eur": 7800.0,
+          "values": {
+            "code": "16015123074",
+            "power_w": "120 kW",
+            "phase": "Trifaz Threephase",
+            "flow_requirements": "7 m 3 /h",
+            "unnamed": "15 m 3 /h",
+            "price": "7.800 €",
+            "price_eur": 7800.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "titan-optima",
+      "family_title_tr": "Titan Optima",
+      "family_title_en": "Titan Optima",
+      "family_description_tr": "120 kW'a kadar geniş güç kapasitesiyle büyük ölçekli havuz projelerinde maksimum performans sağlar.",
+      "family_line_count": 142,
+      "qualitative": {
+        "bullets_tr": [
+          "18 kW ile 120 kW arasında değişen güç seçeneği",
+          "Kurulumu kolaydır",
+          "Kontaktör ve termostatı üzerindedir ve kabloludur",
+          "Sağlam, dayanıklı yapıya sahiptir",
+          "Kompakt ve dayanıklı tasarıma sahiptir",
+          "Ultra güvenilir akış şalteri sayesinde güvenle çalışır",
+          "Dijital sıcaklık termostatı ve aşırı ısınma sensörü mevcuttur",
+          "Çalışma ömrü boyunca verim kaybına uğramaz",
+          "Zemin veya dikey olarak duvara monte edilebilir",
+          "2 adet Siemens kontaktörü içerir (çifte güvenlik)",
+          "Power option ranging from 18 kW to 120 kW",
+          "Easy installation",
+          "Fully equipped (Including in the contactor and thermostat on it) and pre-wired",
+          "Robust, durable construction",
+          "Compact, durable design",
+          "Ultra-reliable flow switch allows safe operation",
+          "Supplied with digital temperature thermostat and overheating sensor",
+          "No loss of efficiency throughout its working life",
+          "Can be wall mounted on floor or vertically",
+          "Includes 2x Siemens contractors (double safety)"
+        ],
+        "bullets_en": [],
+        "icons": [
+          "TITANIUM HEATING ELEMENT",
+          "ABOVE-GROUND POOL / SPA",
+          "RESIDENTIAL POOL / SPA",
+          "**PUMP/FILTER**",
+          "**POMPA PUMP**",
+          "**FİLTRE FILTER**",
+          "**UV SİSTEM**"
+        ],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_11826",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "GÜÇ POWER",
+            "FAZ PHASE",
+            "DEBİ İHTİYACI FLOW REQUIREMENTS",
+            "",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "",
+              "",
+              "",
+              "min.",
+              "max.",
+              ""
+            ],
+            [
+              "16015123082",
+              "18 kW",
+              "Trifaz Threephase",
+              "12 m³/h",
+              "45 m³/h",
+              "3.500 €"
+            ],
+            [
+              "16015123081",
+              "24 kW",
+              "Trifaz Threephase",
+              "12 m³/h",
+              "45 m³/h",
+              "3.550 €"
+            ],
+            [
+              "16015123119",
+              "30 kW",
+              "Trifaz Threephase",
+              "12 m³/h",
+              "45 m³/h",
+              "3.610 €"
+            ],
+            [
+              "16015123107",
+              "36 kW",
+              "Trifaz Threephase",
+              "12 m³/h",
+              "45 m³/h",
+              "4.350 €"
+            ],
+            [
+              "16015123120",
+              "45 kW",
+              "Trifaz Threephase",
+              "12 m³/h",
+              "45 m³/h",
+              "4.500 €"
+            ],
+            [
+              "16015123091",
+              "54 kW",
+              "Trifaz Threephase",
+              "12 m³/h",
+              "45 m³/h",
+              "4.650 €"
+            ],
+            [
+              "16015123114",
+              "60 kW",
+              "Trifaz Threephase",
+              "12 m³/h",
+              "45 m³/h",
+              "4.850 €"
+            ],
+            [
+              "16015123118",
+              "72 kW",
+              "Trifaz Threephase",
+              "12 m³/h",
+              "45 m³/h",
+              "5.900 €"
+            ],
+            [
+              "16015123097",
+              "96 kW",
+              "Trifaz Threephase",
+              "12 m³/h",
+              "45 m³/h",
+              "7.550 €"
+            ],
+            [
+              "16015123115",
+              "120 kW",
+              "Trifaz Threephase",
+              "12 m³/h",
+              "45 m³/h",
+              "9.330 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_11844",
+          "type": "performance",
+          "headers": [
+            "Isıtıcı Heater",
+            "Havuz Tipi For Pool Type",
+            "",
+            "",
+            "",
+            "",
+            "Model No No. of Models",
+            "Güç Çıkışı Power Output (kW)",
+            "Fiş Dahil Plug Included",
+            "Titanyum Isıtma Elemanı Titanium Heating Element",
+            "Titanyum Akış Tüpü Titanium Flow Tube",
+            "Analog Kontrol Analogue Control",
+            "Dijital Kontrol Digital Control",
+            "Dokunmatik Ekran/ Programlanabilir Touch Screen/ Programmable",
+            "Deniz ve Tuz Klorlu Suya Uygun Sea & Salt Chlorinated Water Safe",
+            "Duvara ve Zeminde Monte Edilebilir Wall & Floor Mountable"
+          ],
+          "rows": [
+            [
+              "",
+              "Spa",
+              "Yer Üstü Above-Ground",
+              "Ev Tipi Residential",
+              "Ev Tipi Commercial",
+              "Su Sporları Aquatics*",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Nano Spa",
+              "●",
+              "",
+              "",
+              "",
+              "",
+              "11",
+              "1 - 8",
+              "",
+              "●",
+              "●",
+              "●",
+              "",
+              "",
+              "●",
+              "●"
+            ],
+            [
+              "Nano Splasher",
+              "",
+              "●",
+              "",
+              "",
+              "",
+              "7",
+              "1 - 3",
+              "●",
+              "●",
+              "●",
+              "●",
+              "",
+              "",
+              "●",
+              "●"
+            ],
+            [
+              "Flowline 2",
+              "●",
+              "●",
+              "●",
+              "",
+              "",
+              "20",
+              "1 - 24",
+              "",
+              "●",
+              "●",
+              "●",
+              "",
+              "",
+              "●",
+              "●"
+            ],
+            [
+              "Evolution 2",
+              "●",
+              "●",
+              "●",
+              "",
+              "",
+              "23",
+              "1 - 24",
+              "",
+              "●",
+              "●",
+              "●",
+              "●",
+              "",
+              "●",
+              "●"
+            ],
+            [
+              "Optima Compact",
+              "●",
+              "●",
+              "●",
+              "",
+              "",
+              "23",
+              "1 - 24",
+              "",
+              "●",
+              "●",
+              "",
+              "",
+              "●",
+              "●",
+              "●"
+            ],
+            [
+              "SFS Joey",
+              "",
+              "",
+              "",
+              "●",
+              "",
+              "19",
+              "18 - 120",
+              "",
+              "●",
+              "●",
+              "●",
+              "●",
+              "",
+              "●",
+              "●"
+            ],
+            [
+              "Titan Optima",
+              "",
+              "",
+              "",
+              "●",
+              "",
+              "19",
+              "18 - 120",
+              "",
+              "●",
+              "●",
+              "",
+              "",
+              "●",
+              "●",
+              "●"
+            ],
+            [
+              "Nano Cygnet",
+              "",
+              "",
+              "",
+              "",
+              "●",
+              "7",
+              "1 - 4",
+              "●▲",
+              "●",
+              "●",
+              "●",
+              "",
+              "",
+              "●",
+              "●"
+            ],
+            [
+              "Evolution 2 Cygnet",
+              "",
+              "",
+              "",
+              "",
+              "●",
+              "11",
+              "1 - 84",
+              "",
+              "●",
+              "●",
+              "●",
+              "●",
+              "",
+              "●",
+              "●"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_11859",
+          "type": "spec",
+          "headers": [
+            "Kontrolör Controller",
+            "Isıtıcı Heating",
+            "Soğutucu Cooling",
+            "Analog Analogue",
+            "Dokunmatik Ekran Programlanabilir Touch Screen Programmable",
+            "Elektrikli Isıtıcı/Isı Eşanjörü Uyumluluğu Electric Heater/Heat Exchanger Compatibility",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "Akış Sensörü Portları Flow Sensor Ports",
+            "Sıcaklık Sensörü Portları Temp Sensor Ports",
+            "Çok Dilli Arayüz Multi-lingual Interface",
+            "İsteğe bağlı Grunfos Takviye Pompası Optional Grunfos Booster Pump"
+          ],
+          "rows": [
+            [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "All Nano Models",
+              "Flowline 2",
+              "Evo 2",
+              "Optima Compact",
+              "SFS Joey",
+              "Titan Optima",
+              "G2",
+              "SST",
+              "Escalade",
+              "Plate",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Poolsmart Plus",
+              "●",
+              "",
+              "",
+              "●",
+              "●",
+              "●",
+              "●",
+              "●",
+              "●",
+              "●",
+              "",
+              "",
+              "",
+              "",
+              "●",
+              "●",
+              "●"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "829b84e3d0cb7b54920647bf7b65f6d0_img.jpg",
+          "alt": "Water drop icon",
+          "caption": "TUZLU SUDA KULLANILIR",
+          "type": "icon"
+        },
+        {
+          "file": "1347674bd14c71acd66462db8d741dbe_img.jpg",
+          "alt": "Titanium symbol",
+          "caption": "TİTANYUM ISITMA ELEMENTİ",
+          "type": "product_photo"
+        },
+        {
+          "file": "5b374cd2e2e1a9cdaca0b12fa7f83736_img.jpg",
+          "alt": "Titan Optima heating element unit",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "e4461c044af87fd96e2f170e7bec8b20_img.jpg",
+          "alt": "Gears icon",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "98be79aba727a6fd317337a1d99275a1_img.jpg",
+          "alt": "Max 4 BAR icon",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "d6ec6b4c9fd5ea81b9df81a306061320_img.jpg",
+          "alt": "Siemens Contactor logo",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "5988d243e5ff9cc198695654a8390f44_img.jpg",
+          "alt": "Installation diagram showing the unit connected to a pool, pump, filter, and electric heater.",
+          "caption": "",
+          "type": "diagram"
+        },
+        {
+          "file": "280f1f5f2c03d53ced0be7cb8c23830e_img.jpg",
+          "alt": "Technical drawings of the unit showing dimensions: 138, 367, 53 I/D, and 63 O/D.",
+          "caption": "",
+          "type": "dimensions"
+        },
+        {
+          "file": "b903851664e1a15ce931471fedfb8260_img.jpg",
+          "alt": "A large, modern swimming pool with a stone deck and a clear blue sky in the background.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "9af97997b7d3fbca90b8ddba0ea39c6c_img.jpg",
+          "alt": "Diagram showing the system setup for above-ground and residential pools. The above-ground pool setup includes a pump/filter and electric heater. The residential pool setup includes a pump, filter, electric heater, chemical dosing unit, UV system, and NRV. Both setups are controlled by a controller.",
+          "caption": "",
+          "type": "diagram"
+        }
+      ],
+      "variants": [
+        {
+          "code": "16015123082",
+          "price": "3.500 €",
+          "price_eur": 3500.0,
+          "values": {
+            "code": "16015123082",
+            "power_w": "18 kW",
+            "phase": "Trifaz Threephase",
+            "flow_requirements": "12 m³/h",
+            "unnamed": "45 m³/h",
+            "price": "3.500 €",
+            "price_eur": 3500.0
+          }
+        },
+        {
+          "code": "16015123081",
+          "price": "3.550 €",
+          "price_eur": 3550.0,
+          "values": {
+            "code": "16015123081",
+            "power_w": "24 kW",
+            "phase": "Trifaz Threephase",
+            "flow_requirements": "12 m³/h",
+            "unnamed": "45 m³/h",
+            "price": "3.550 €",
+            "price_eur": 3550.0
+          }
+        },
+        {
+          "code": "16015123119",
+          "price": "3.610 €",
+          "price_eur": 3610.0,
+          "values": {
+            "code": "16015123119",
+            "power_w": "30 kW",
+            "phase": "Trifaz Threephase",
+            "flow_requirements": "12 m³/h",
+            "unnamed": "45 m³/h",
+            "price": "3.610 €",
+            "price_eur": 3610.0
+          }
+        },
+        {
+          "code": "16015123107",
+          "price": "4.350 €",
+          "price_eur": 4350.0,
+          "values": {
+            "code": "16015123107",
+            "power_w": "36 kW",
+            "phase": "Trifaz Threephase",
+            "flow_requirements": "12 m³/h",
+            "unnamed": "45 m³/h",
+            "price": "4.350 €",
+            "price_eur": 4350.0
+          }
+        },
+        {
+          "code": "16015123120",
+          "price": "4.500 €",
+          "price_eur": 4500.0,
+          "values": {
+            "code": "16015123120",
+            "power_w": "45 kW",
+            "phase": "Trifaz Threephase",
+            "flow_requirements": "12 m³/h",
+            "unnamed": "45 m³/h",
+            "price": "4.500 €",
+            "price_eur": 4500.0
+          }
+        },
+        {
+          "code": "16015123091",
+          "price": "4.650 €",
+          "price_eur": 4650.0,
+          "values": {
+            "code": "16015123091",
+            "power_w": "54 kW",
+            "phase": "Trifaz Threephase",
+            "flow_requirements": "12 m³/h",
+            "unnamed": "45 m³/h",
+            "price": "4.650 €",
+            "price_eur": 4650.0
+          }
+        },
+        {
+          "code": "16015123114",
+          "price": "4.850 €",
+          "price_eur": 4850.0,
+          "values": {
+            "code": "16015123114",
+            "power_w": "60 kW",
+            "phase": "Trifaz Threephase",
+            "flow_requirements": "12 m³/h",
+            "unnamed": "45 m³/h",
+            "price": "4.850 €",
+            "price_eur": 4850.0
+          }
+        },
+        {
+          "code": "16015123118",
+          "price": "5.900 €",
+          "price_eur": 5900.0,
+          "values": {
+            "code": "16015123118",
+            "power_w": "72 kW",
+            "phase": "Trifaz Threephase",
+            "flow_requirements": "12 m³/h",
+            "unnamed": "45 m³/h",
+            "price": "5.900 €",
+            "price_eur": 5900.0
+          }
+        },
+        {
+          "code": "16015123097",
+          "price": "7.550 €",
+          "price_eur": 7550.0,
+          "values": {
+            "code": "16015123097",
+            "power_w": "96 kW",
+            "phase": "Trifaz Threephase",
+            "flow_requirements": "12 m³/h",
+            "unnamed": "45 m³/h",
+            "price": "7.550 €",
+            "price_eur": 7550.0
+          }
+        },
+        {
+          "code": "16015123115",
+          "price": "9.330 €",
+          "price_eur": 9330.0,
+          "values": {
+            "code": "16015123115",
+            "power_w": "120 kW",
+            "phase": "Trifaz Threephase",
+            "flow_requirements": "12 m³/h",
+            "unnamed": "45 m³/h",
+            "price": "9.330 €",
+            "price_eur": 9330.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "g2-multi-tubular",
+      "family_title_tr": "G2 Multi Tubular",
+      "family_title_en": "G2 Multi Tubular",
+      "family_description_tr": "37 titanyum tüp yapısıyla yüksek verimlilik ve uzun ömür sunar. Tuzlu suya dayanıklı tasarımıyla profesyonel projeler için güvenilir çözümdür.",
+      "family_line_count": 70,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [
+          "## TITANIUM TUBES"
+        ],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_11956",
+          "type": "spec",
+          "headers": [
+            "İSTENİLEN SICAKLIK DESIRED TEMPERATURE",
+            "[°C]",
+            "Isıtma Süresi Heating Time [HRS]",
+            "Havuz Hacmi Pool Volume [m³]",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "rows": [
+            [
+              "",
+              "",
+              "",
+              "5",
+              "10",
+              "15",
+              "20",
+              "25",
+              "30",
+              "35",
+              "40",
+              "45",
+              "50",
+              "55",
+              "60",
+              "65",
+              "70",
+              "75",
+              "80",
+              "85",
+              "90",
+              "95",
+              "100"
+            ],
+            [
+              "28",
+              "",
+              "48",
+              "30kW",
+              "",
+              "",
+              "",
+              "",
+              "49kW",
+              "",
+              "",
+              "",
+              "",
+              "85kW",
+              "",
+              "",
+              "",
+              "",
+              "122kW",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "30",
+              "",
+              "",
+              "30kW",
+              "",
+              "",
+              "",
+              "",
+              "49kW",
+              "",
+              "",
+              "",
+              "85kW",
+              "",
+              "",
+              "",
+              "",
+              "122kW",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "32",
+              "",
+              "",
+              "30kW",
+              "",
+              "",
+              "",
+              "49kW",
+              "",
+              "",
+              "",
+              "",
+              "85kW",
+              "",
+              "",
+              "",
+              "122kW",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "34",
+              "",
+              "",
+              "30kW",
+              "",
+              "",
+              "",
+              "49kW",
+              "",
+              "",
+              "",
+              "85kW",
+              "",
+              "",
+              "",
+              "",
+              "122kW",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "36",
+              "",
+              "",
+              "30kW",
+              "",
+              "",
+              "49kW",
+              "",
+              "",
+              "",
+              "85kW",
+              "",
+              "",
+              "",
+              "",
+              "122kW",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "38",
+              "",
+              "",
+              "30kW",
+              "",
+              "",
+              "49kW",
+              "",
+              "",
+              "85kW",
+              "",
+              "",
+              "",
+              "",
+              "122kW",
+              "",
+              "",
+              "",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-"
+            ],
+            [
+              "40",
+              "",
+              "",
+              "30kW",
+              "",
+              "49kW",
+              "",
+              "",
+              "85kW",
+              "",
+              "",
+              "",
+              "",
+              "122kW",
+              "",
+              "",
+              "",
+              "",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_11967",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "GÜÇ POWER",
+            "BAĞLANTI CONNECTION",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "16016123007",
+              "30 kW",
+              "50 mm",
+              "530 €"
+            ],
+            [
+              "16016123008",
+              "49 kW",
+              "50 mm",
+              "655 €"
+            ],
+            [
+              "16016123010",
+              "85 kW",
+              "50 mm",
+              "805 €"
+            ],
+            [
+              "16016123011",
+              "122 kW",
+              "50 mm",
+              "1.120 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "6bcb77a0aeed670e81471d6a7e72e78a_img.jpg",
+          "alt": "Two views of the Elecro G2 Multi Tubular heat exchanger, showing its red and black casing and titanium tube bundle.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "80844b462f144a5d652a3f17d9222a31_img.jpg",
+          "alt": "Dimensional drawing of heat exchanger with labels L1, L2, L3",
+          "caption": "",
+          "type": "dimensions"
+        },
+        {
+          "file": "2da7bad833b9d873f3aee70cac809b0d_img.jpg",
+          "alt": "Photo of Elecro G2 heat exchanger with control unit attached",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "16016123007",
+          "price": "530 €",
+          "price_eur": 530.0,
+          "values": {
+            "code": "16016123007",
+            "power_w": "30 kW",
+            "connection": "50 mm",
+            "price": "530 €",
+            "price_eur": 530.0
+          }
+        },
+        {
+          "code": "16016123008",
+          "price": "655 €",
+          "price_eur": 655.0,
+          "values": {
+            "code": "16016123008",
+            "power_w": "49 kW",
+            "connection": "50 mm",
+            "price": "655 €",
+            "price_eur": 655.0
+          }
+        },
+        {
+          "code": "16016123010",
+          "price": "805 €",
+          "price_eur": 805.0,
+          "values": {
+            "code": "16016123010",
+            "power_w": "85 kW",
+            "connection": "50 mm",
+            "price": "805 €",
+            "price_eur": 805.0
+          }
+        },
+        {
+          "code": "16016123011",
+          "price": "1.120 €",
+          "price_eur": 1120.0,
+          "values": {
+            "code": "16016123011",
+            "power_w": "122 kW",
+            "connection": "50 mm",
+            "price": "1.120 €",
+            "price_eur": 1120.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "heatsmart-koolsmart",
+      "family_title_tr": "Heatsmart & Koolsmart",
+      "family_title_en": "Heatsmart & Koolsmart",
+      "family_description_tr": "Dokunmatik ekran ve Bina Yönetim Sistemi entegrasyonu ile profesyonel projelerde tam denetim sağlar. Akış ve sıcaklık sensörleriyle hassas kontrol imkânı sunar.",
+      "family_line_count": 77,
+      "qualitative": {
+        "bullets_tr": [
+          "BMS (Bina Yönetim Sistemi) entegrasyonuna hazır",
+          "Çok dilli arayüz",
+          "Programlanabilir 24 saatlik zaman saati (4 zaman dilimi)",
+          "Akış ve sıcaklık sensörü portları",
+          "0,5°C'ye kadar hassas kontrol",
+          "Dijital termostatlı",
+          "Isı eşanjörü ortamınızı kontrol eder",
+          "Kullanıcı dostu bir arayüz sağlar",
+          "1 metre uzunluğunda akış anahtarı ve 1 metre sıcaklık sensörü içerir",
+          "Dokunmatik ekran denetleyicisi ve dijital ekran",
+          "Isıtma kaynağını kontrol etmek için voltsuz çıkış (kazan)",
+          "Sirkülasyon pompasını kontrol etmek için 220-240 Volt çıkış",
+          "BMS (Building Management System) integration ready",
+          "Multi-lingual interface",
+          "Programmable 24-hour time clock. (4 time zones)",
+          "Flow and temperature sensor ports",
+          "Accurate control to 0.5°C",
+          "With digital thermostat",
+          "Control your heat exchanger environment",
+          "Offer a user friendly interface",
+          "Includes 1 meter long flow switch & 1 meter long temperature sensor",
+          "Touch screen controller & digital display",
+          "Volt free output to control source of heating (boiler)",
+          "220-240 Volt output to control circulation pump"
+        ],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_12047",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "MODEL",
+            "FREKANS FREQUENCY",
+            "GÜÇ POWER",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "16016123013",
+              "Heatsmart",
+              "50/60 hz",
+              "100-240 kW",
+              "1.690 €"
+            ],
+            [
+              "16016123020",
+              "Koolsmart",
+              "50/60 hz",
+              "100-240 kW",
+              "935 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "2cd31c33b1fb260b291668e93dc4fab9_img.jpg",
+          "alt": "Touch screen icon",
+          "caption": "DOKUNMATİK EKРАН",
+          "type": "icon"
+        },
+        {
+          "file": "cf82cd7805022333f3175a000f3c3a3d_img.jpg",
+          "alt": "Diagnostic display icon",
+          "caption": "HATA GÖSTERGESİ",
+          "type": "icon"
+        },
+        {
+          "file": "9df7e1ad98d635058fd4da5d84e0119b_img.jpg",
+          "alt": "Two red Heatsmart and Koolsmart control units with touch screens displaying temperature and flow information.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "758866dedc85ed6b6e1038221e6474be_img.jpg",
+          "alt": "Technical drawing showing the dimensions of the control unit: 180mm width, 253mm height, and 55mm depth.",
+          "caption": "",
+          "type": "dimensions"
+        },
+        {
+          "file": "d64a738a7a389907cb4239385192c112_img.jpg",
+          "alt": "Image of the Heatsmart control unit installed on a red heat exchanger with a flow switch and temperature sensor attached.",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "16016123013",
+          "price": "1.690 €",
+          "price_eur": 1690.0,
+          "values": {
+            "code": "16016123013",
+            "model": "Heatsmart",
+            "frequency": "50/60 hz",
+            "power_w": "100-240 kW",
+            "price": "1.690 €",
+            "price_eur": 1690.0
+          }
+        },
+        {
+          "code": "16016123020",
+          "price": "935 €",
+          "price_eur": 935.0,
+          "values": {
+            "code": "16016123020",
+            "model": "Koolsmart",
+            "frequency": "50/60 hz",
+            "power_w": "100-240 kW",
+            "price": "935 €",
+            "price_eur": 935.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "g2c-heat-exchanger",
+      "family_title_tr": "G2C Heat Exchanger",
+      "family_title_en": "G2C Heat Exchanger",
+      "family_description_tr": "Twisted titanium tüp demeti sayesinde yüksek ısı transferi ve düşük basınç kaybı sunar. Geniş güç aralığıyla ticari havuz projelerinde maksimum verim sağlar..",
+      "family_line_count": 81,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [
+          "COMMERCIAL POOL"
+        ],
+        "badges": []
+      },
+      "family_specs_quantitative": {
+        "max_pressure_bar": 0.3
+      },
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_12129",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "MODEL",
+            "L (mm)",
+            "PRIMER DEBİ PRIMARY FLOW",
+            "PRIMER BA- SINÇ KAYBI LOSS (kPa)",
+            "SEKONDER DEBİ SECONDARY FLOW",
+            "SEKONDER BASINÇ KAYBI LOSS (KPA)",
+            "ΔT 15°C (kW)",
+            "ΔT 30°C (kW)",
+            "ΔT 65°C (kW)",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "16016123012",
+              "G2C-HE-170T",
+              "560",
+              "10 m³/h",
+              "12",
+              "28 m³/h",
+              "20",
+              "32",
+              "69",
+              "170",
+              "2.290 €"
+            ],
+            [
+              "16016123014",
+              "G2C-HE-220T",
+              "710",
+              "10 m³/h",
+              "16",
+              "28 m³/h",
+              "26",
+              "42",
+              "91",
+              "220",
+              "2.550 €"
+            ],
+            [
+              "16016123015",
+              "G2C-HE-270T",
+              "860",
+              "10 m³/h",
+              "20",
+              "28 m³/h",
+              "30",
+              "56",
+              "117",
+              "270",
+              "3.220 €"
+            ],
+            [
+              "16016123016",
+              "G2C-HE-320T",
+              "960",
+              "10 m³/h",
+              "23",
+              "28 m³/h",
+              "32",
+              "65",
+              "136",
+              "320",
+              "3.750 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "0fa2368d9b6404af01f15299b6a0b11d_img.jpg",
+          "alt": "A red and black G2C Heat Exchanger unit with a钛管 bundle, shown from a side profile.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "1e11ea0434a5a88c49f234a43a8750be_img.jpg",
+          "alt": "Technical drawings of the G2C Heat Exchanger showing dimensions for floor and wall mounting. The floor mounting shows a length L (mm) and a width of 295mm. The wall mounting shows a width of 211mm and a height of 316.5mm. A detail drawing shows a 271.5mm dimension.",
+          "caption": "",
+          "type": "dimensions"
+        },
+        {
+          "file": "4af5fe6a441a5f373d689e6a4674f136_img.jpg",
+          "alt": "Graph showing pressure drop (Bar) vs flow rate (m³/h) for the primary circuit. The y-axis ranges from 0 to 0.3 Bar, and the x-axis ranges from 0 to 6 m³/h. Four curves are shown for different power ratings: G2C 320-kW, G2C 270-kW, G2C 220-kW, and G2C 170-kW.",
+          "caption": "",
+          "type": "performance_curve"
+        },
+        {
+          "file": "9bce8ddba3d04918b75d2ae02a30b53f_img.jpg",
+          "alt": "Graph showing pressure drop (Bar) vs flow rate (m³/h) for the secondary circuit. The y-axis ranges from 0 to 0.4 Bar, and the x-axis ranges from 0 to 32 m³/h. Four curves are shown for different power ratings: G2C 320-kW, G2C 270-kW, G2C 220-kW, and G2C 170-kW.",
+          "caption": "",
+          "type": "performance_curve"
+        },
+        {
+          "file": "9c78c2a6363b3a71964b52938fbd33f4_img.jpg",
+          "alt": "Diagram of the G2C Heat Exchanger with labels pointing to key features: Akış anahtarı bağlantı noktası Flow switch port, Sıcaklık sensörü portu Temperature sensor port, Titanyum akış tüpü Titanium flow tube (İkincil devre Secondary circuit), Zemin / duvar montaj braketleri Floor / wall mounted brackets, and 85 Titanyum tüp paketi 85 Titanium tube bundle (Birincil devre Primary circuit).",
+          "caption": "",
+          "type": "diagram"
+        }
+      ],
+      "variants": [
+        {
+          "code": "16016123012",
+          "price": "2.290 €",
+          "price_eur": 2290.0,
+          "values": {
+            "code": "16016123012",
+            "model": "G2C-HE-170T",
+            "length_mm": "560",
+            "primary_flow": "10 m³/h",
+            "primary_pressure_loss_kpa": "12",
+            "secondary_flow": "28 m³/h",
+            "secondary_pressure_loss_kpa": "20",
+            "capacity_kw_15c": "32",
+            "capacity_kw_30c": "69",
+            "capacity_kw_65c": "170",
+            "price": "2.290 €",
+            "price_eur": 2290.0
+          }
+        },
+        {
+          "code": "16016123014",
+          "price": "2.550 €",
+          "price_eur": 2550.0,
+          "values": {
+            "code": "16016123014",
+            "model": "G2C-HE-220T",
+            "length_mm": "710",
+            "primary_flow": "10 m³/h",
+            "primary_pressure_loss_kpa": "16",
+            "secondary_flow": "28 m³/h",
+            "secondary_pressure_loss_kpa": "26",
+            "capacity_kw_15c": "42",
+            "capacity_kw_30c": "91",
+            "capacity_kw_65c": "220",
+            "price": "2.550 €",
+            "price_eur": 2550.0
+          }
+        },
+        {
+          "code": "16016123015",
+          "price": "3.220 €",
+          "price_eur": 3220.0,
+          "values": {
+            "code": "16016123015",
+            "model": "G2C-HE-270T",
+            "length_mm": "860",
+            "primary_flow": "10 m³/h",
+            "primary_pressure_loss_kpa": "20",
+            "secondary_flow": "28 m³/h",
+            "secondary_pressure_loss_kpa": "30",
+            "capacity_kw_15c": "56",
+            "capacity_kw_30c": "117",
+            "capacity_kw_65c": "270",
+            "price": "3.220 €",
+            "price_eur": 3220.0
+          }
+        },
+        {
+          "code": "16016123016",
+          "price": "3.750 €",
+          "price_eur": 3750.0,
+          "values": {
+            "code": "16016123016",
+            "model": "G2C-HE-320T",
+            "length_mm": "960",
+            "primary_flow": "10 m³/h",
+            "primary_pressure_loss_kpa": "23",
+            "secondary_flow": "28 m³/h",
+            "secondary_pressure_loss_kpa": "32",
+            "capacity_kw_15c": "65",
+            "capacity_kw_30c": "136",
+            "capacity_kw_65c": "320",
+            "price": "3.750 €",
+            "price_eur": 3750.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "pool-smart-plus",
+      "family_title_tr": "Pool Smart Plus",
+      "family_title_en": "Pool Smart Plus",
+      "family_description_tr": "Bina Yönetim Sistemi entegrasyonuna hazır yapısıyla profesyonel tesislerde tam denetim sağlar. 0,5°C hassasiyetle sıcaklık kontrolü sunar.",
+      "family_line_count": 57,
+      "qualitative": {
+        "bullets_tr": [
+          "BMS (Bina Yönetim Sistemi) entegrasyonuna hazır",
+          "Çok dilli arayüz",
+          "Programlanabilir 24 saatlik zaman saati. (4 zaman dilimi)",
+          "0,5°C'ye kadar hassas kontrol",
+          "Dijital termostatlı",
+          "WiFi üzerinden ısıtıcı kontrolü (uzaktan erişim)",
+          "1 Faz, 100-240V / 50-60Hz çalışma aralığı",
+          "3 metre akış anahtarı ve 3 metre sıcaklık sensörü ile birlikte gelir",
+          "T-parça bağlantı kiti ürünle birlikte sunulur",
+          "BMS (Building Management System) integration ready",
+          "Multi-lingual interface",
+          "Programmable 24-hour time clock. (4 time zones)",
+          "Accurate control to 0.5°C",
+          "With digital thermostat",
+          "WiFi heating control with remote access",
+          "Operates on 1-Phase, 100-240V / 50-60Hz",
+          "Supplied with 3m flow switch and 3m temperature sensor",
+          "Includes T-piece connection kit"
+        ],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_12190",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "GÜÇ ÇIKIŞI POWER OUTPUT",
+            "AKSESUARLAR (DAHİLDİR) ACCESSORIES (INCLUDED)",
+            "AĞIRLIK GROSS WEIGHT",
+            "HACİM VOLUME"
+          ],
+          "rows": [
+            [
+              "16015123055",
+              "Voltajsız ısıtma çıkışı ve voltajsız filtrasyon pompası çıkışı Volt free heating output and volt free filtration pump output",
+              "3 m uzunluğunda akış anahtarı, 3 m uzunluğun da sıcaklık sensörü, T parçası ve 50 mm ve 1,5\" Redüktörler 3m long flow switch, 3m long temperature sensor, T-piece and 50mm &amp; 1.5\" Reducers",
+              "1.450 kg",
+              "0.020 m 3"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "d79da5de753ea4a043d8652eae55cc52_img.jpg",
+          "alt": "Pool Smart Plus control unit with a touch screen display showing 25.2°C and 25.0°C, and a black antenna.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "d8e6d72f1f0b541c48a8da3c75e38c28_img.jpg",
+          "alt": "Technical drawing of the Pool Smart Plus control unit showing dimensions: 180mm width, 253mm height, and 55mm depth.",
+          "caption": "",
+          "type": "dimensions"
+        },
+        {
+          "file": "84cdb478f12d521816e853492afbe758_img.jpg",
+          "alt": "Images of accessories included: 3 metre Akış Anahtarı (3m etre Flow Switch), 3 mt Sıcaklık Sensörü (3 mt Temperature Sensor), 50mm & 1.5\" Reducers, and T-Parçası (T-Piece), connected to the device.",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "16015123055",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "16015123055",
+            "power_output": "Voltajsız ısıtma çıkışı ve voltajsız filtrasyon pompası çıkışı Volt free heating output and volt free filtration pump output",
+            "accessories_included": "3 m uzunluğunda akış anahtarı, 3 m uzunluğun da sıcaklık sensörü, T parçası ve 50 mm ve 1,5\" Redüktörler 3m long flow switch, 3m long temperature sensor, T-piece and 50mm &amp; 1.5\" Reducers",
+            "gross_weight": "1.450 kg",
+            "volume": "0.020 m 3"
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "6x-efficiency",
+      "family_title_tr": "6x EFFICIENCY",
+      "family_title_en": "6x EFFICIENCY",
+      "family_description_tr": "Geleneksel eşanjörlere kıyasla 6 kata kadar daha yüksek verim sunar. Kompakt yapısı ve titanyum malzemesiyle uzun ömürlüdür.",
+      "family_line_count": 53,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [
+          "TITANIUM HEATING ELEMENT"
+        ],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_12246",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "GÜÇ POWER",
+            "SICAK SU AKIŞI HOT WATER FLOW",
+            "HAVUZUN SUYUNUN AKIŞI FLOW OF POOL WATER",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "16017124001",
+              "24 kW",
+              "18 L/Min",
+              "150 L/Min",
+              "212 €"
+            ],
+            [
+              "16017124002",
+              "40 kW",
+              "25 L/Min",
+              "200 L/Min",
+              "234 €"
+            ],
+            [
+              "16017124003",
+              "65 kW",
+              "30 L/Min",
+              "250 L/Min",
+              "250 €"
+            ],
+            [
+              "16017124004",
+              "75 kW",
+              "35 L/Min",
+              "300 L/Min",
+              "272 €"
+            ],
+            [
+              "16017124005",
+              "120 kW",
+              "50 L/Min",
+              "360 L/Min",
+              "368 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "25978195af6547cdf6c9653ff38cee7c_img.jpg",
+          "alt": "Four vertical pipe heat exchangers of increasing size, with a red gear icon at the bottom right.",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "c4618f2873c9eb038cc4f524240a5db9_img.jpg",
+          "alt": "A stainless steel clamp used for heat exchanger connections.",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "16017124001",
+          "price": "212 €",
+          "price_eur": 212.0,
+          "values": {
+            "code": "16017124001",
+            "power_w": "24 kW",
+            "hot_water_flow": "18 L/Min",
+            "flow_of_pool_water": "150 L/Min",
+            "price": "212 €",
+            "price_eur": 212.0
+          }
+        },
+        {
+          "code": "16017124002",
+          "price": "234 €",
+          "price_eur": 234.0,
+          "values": {
+            "code": "16017124002",
+            "power_w": "40 kW",
+            "hot_water_flow": "25 L/Min",
+            "flow_of_pool_water": "200 L/Min",
+            "price": "234 €",
+            "price_eur": 234.0
+          }
+        },
+        {
+          "code": "16017124003",
+          "price": "250 €",
+          "price_eur": 250.0,
+          "values": {
+            "code": "16017124003",
+            "power_w": "65 kW",
+            "hot_water_flow": "30 L/Min",
+            "flow_of_pool_water": "250 L/Min",
+            "price": "250 €",
+            "price_eur": 250.0
+          }
+        },
+        {
+          "code": "16017124004",
+          "price": "272 €",
+          "price_eur": 272.0,
+          "values": {
+            "code": "16017124004",
+            "power_w": "75 kW",
+            "hot_water_flow": "35 L/Min",
+            "flow_of_pool_water": "300 L/Min",
+            "price": "272 €",
+            "price_eur": 272.0
+          }
+        },
+        {
+          "code": "16017124005",
+          "price": "368 €",
+          "price_eur": 368.0,
+          "values": {
+            "code": "16017124005",
+            "power_w": "120 kW",
+            "hot_water_flow": "50 L/Min",
+            "flow_of_pool_water": "360 L/Min",
+            "price": "368 €",
+            "price_eur": 368.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "plakal-e-anj-r-plate-heat-exchanger",
+      "family_title_tr": "Plakalı Eşanjör Plate Heat Exchanger",
+      "family_title_en": "Plakalı Eşanjör Plate Heat Exchanger",
+      "family_description_tr": "AISI 316 paslanmaz çelik plakalarıyla yüksek ısı transferi sağlar. Montaja hazır tasarımıyla profesyonel projelerde kolay kurulum imkânı sunar.",
+      "family_line_count": 123,
+      "qualitative": {
+        "bullets_tr": [
+          "AISI 316 L paslanmaz çelik plakalıdır",
+          "Çok dilli arayüz",
+          "Programlanabilir 24 saatlik zaman saati (4 zaman dilimi)",
+          "0,5°C'ye kadar hassas kontrol",
+          "Dijital termostatlı",
+          "Montaja hazır şekilde eşanjör saplamaları ve kızağı ile gönderilir",
+          "Paslanmaz AISI 304 çelik bağlantı ağızlı",
+          "AISI 316 L stainless steel plate",
+          "Multi-lingual interface",
+          "Programmable 24-hour time clock (4 time zones)",
+          "Accurate control to 0.5°C",
+          "With digital thermostat",
+          "Ready for installation, with heat exchanger studs and slide",
+          "Stainless steel AISI 304 connecting rod"
+        ],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_12318",
+          "type": "variants",
+          "headers": [
+            "KOD",
+            "HAVUZ m³",
+            "REJİM",
+            "EŞANJÖR KAPASİTESİ kcal/h",
+            "SICAKLIK",
+            "EŞANJÖR MODELİ",
+            "PLAKA SAYISI",
+            "ÇIKIŞ BAĞLANTI",
+            "FİYAT"
+          ],
+          "rows": [
+            [
+              "CODE",
+              "POOL m³",
+              "HEATING DURATION",
+              "EXCHANGER CAPACITY kcal/h",
+              "TEMPERATURE",
+              "EXCHANGER MODEL",
+              "PLATE NUMBER",
+              "OUTLET CONNECTION",
+              "PRICE"
+            ],
+            [
+              "16017122101",
+              "10",
+              "12",
+              "17.000",
+              "10-28",
+              "504",
+              "5",
+              "40 mm",
+              "408 \\$"
+            ],
+            [
+              "16017122102",
+              "15",
+              "12",
+              "25.000",
+              "10-28",
+              "504",
+              "5",
+              "40 mm",
+              "408 \\$"
+            ],
+            [
+              "16017122103",
+              "20",
+              "12",
+              "34.000",
+              "10-28",
+              "504",
+              "6",
+              "40 mm",
+              "423 \\$"
+            ],
+            [
+              "16017122104",
+              "25",
+              "12",
+              "42.000",
+              "10-28",
+              "504",
+              "7",
+              "40 mm",
+              "438 \\$"
+            ],
+            [
+              "16017122105",
+              "30",
+              "12",
+              "45.000",
+              "10-28",
+              "504",
+              "7",
+              "40 mm",
+              "438 \\$"
+            ],
+            [
+              "16017122106",
+              "35",
+              "12",
+              "52.500",
+              "10-28",
+              "504",
+              "8",
+              "40 mm",
+              "450 \\$"
+            ],
+            [
+              "16017122107",
+              "40",
+              "12",
+              "60.000",
+              "10-28",
+              "504",
+              "8",
+              "40 mm",
+              "450 \\$"
+            ],
+            [
+              "16017122108",
+              "45",
+              "12",
+              "67.500",
+              "10-28",
+              "504",
+              "9",
+              "40 mm",
+              "465 \\$"
+            ],
+            [
+              "16017122109",
+              "50",
+              "12",
+              "75.000",
+              "10-28",
+              "504",
+              "10",
+              "40 mm",
+              "480 \\$"
+            ],
+            [
+              "16017122110",
+              "60",
+              "12",
+              "90.000",
+              "10-28",
+              "504",
+              "11",
+              "40 mm",
+              "495 \\$"
+            ],
+            [
+              "16017122111",
+              "70",
+              "12",
+              "105.000",
+              "10-28",
+              "504",
+              "12",
+              "40 mm",
+              "510 \\$"
+            ],
+            [
+              "16017122112",
+              "80",
+              "12",
+              "120.000",
+              "10-28",
+              "504",
+              "14",
+              "40 mm",
+              "540 \\$"
+            ],
+            [
+              "16017122113",
+              "90",
+              "12",
+              "135.000",
+              "10-28",
+              "504",
+              "16",
+              "40 mm",
+              "567 \\$"
+            ],
+            [
+              "16017122114",
+              "100",
+              "12",
+              "150.000",
+              "10-28",
+              "504",
+              "16",
+              "40 mm",
+              "567 \\$"
+            ],
+            [
+              "16017122115",
+              "125",
+              "12",
+              "188.000",
+              "10-28",
+              "504",
+              "22",
+              "40 mm",
+              "654 \\$"
+            ],
+            [
+              "16017122116",
+              "150",
+              "12",
+              "225.000",
+              "10-28",
+              "504",
+              "26",
+              "40 mm",
+              "714 \\$"
+            ],
+            [
+              "16017122117",
+              "175",
+              "12",
+              "262.000",
+              "10-28",
+              "707",
+              "14",
+              "63 mm",
+              "1.080 \\$"
+            ],
+            [
+              "16017122118",
+              "200",
+              "12",
+              "300.000",
+              "10-28",
+              "707",
+              "17",
+              "63 mm",
+              "1.134 \\$"
+            ],
+            [
+              "16017122119",
+              "250",
+              "12",
+              "375.000",
+              "10-28",
+              "707",
+              "21",
+              "63 mm",
+              "1.212 \\$"
+            ],
+            [
+              "16017122120",
+              "300",
+              "12",
+              "450.000",
+              "10-28",
+              "707",
+              "26",
+              "63 mm",
+              "1.305 \\$"
+            ],
+            [
+              "16017122121",
+              "400",
+              "12",
+              "600.000",
+              "10-28",
+              "707",
+              "34",
+              "63 mm",
+              "1.455 \\$"
+            ],
+            [
+              "16017122122",
+              "500",
+              "12",
+              "750.000",
+              "10-28",
+              "707",
+              "46",
+              "63 mm",
+              "1.680 \\$"
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "16017122123",
+              "30",
+              "18",
+              "30.000",
+              "10-28",
+              "504",
+              "6",
+              "40 mm",
+              "423 \\$"
+            ],
+            [
+              "16017122124",
+              "35",
+              "18",
+              "35.000",
+              "10-28",
+              "504",
+              "6",
+              "40 mm",
+              "423 \\$"
+            ],
+            [
+              "16017122125",
+              "40",
+              "18",
+              "40.000",
+              "10-28",
+              "504",
+              "7",
+              "40 mm",
+              "438 \\$"
+            ],
+            [
+              "16017122126",
+              "45",
+              "18",
+              "45.000",
+              "10-28",
+              "504",
+              "7",
+              "40 mm",
+              "438 \\$"
+            ],
+            [
+              "16017122127",
+              "50",
+              "18",
+              "50.000",
+              "10-28",
+              "504",
+              "7",
+              "40 mm",
+              "438 \\$"
+            ],
+            [
+              "16017122128",
+              "60",
+              "18",
+              "60.000",
+              "10-28",
+              "504",
+              "8",
+              "40 mm",
+              "450 \\$"
+            ],
+            [
+              "16017122129",
+              "70",
+              "18",
+              "70.000",
+              "10-28",
+              "504",
+              "9",
+              "40 mm",
+              "465 \\$"
+            ],
+            [
+              "16017122130",
+              "80",
+              "18",
+              "80.000",
+              "10-28",
+              "504",
+              "10",
+              "40 mm",
+              "480 \\$"
+            ],
+            [
+              "16017122131",
+              "90",
+              "18",
+              "90.000",
+              "10-28",
+              "504",
+              "11",
+              "40 mm",
+              "495 \\$"
+            ],
+            [
+              "16017122132",
+              "100",
+              "18",
+              "100.000",
+              "10-28",
+              "504",
+              "12",
+              "40 mm",
+              "510 \\$"
+            ],
+            [
+              "16017122133",
+              "125",
+              "18",
+              "125.000",
+              "10-28",
+              "504",
+              "14",
+              "40 mm",
+              "540 \\$"
+            ],
+            [
+              "16017122134",
+              "150",
+              "18",
+              "150.000",
+              "10-28",
+              "504",
+              "16",
+              "40 mm",
+              "567 \\$"
+            ],
+            [
+              "16017122135",
+              "175",
+              "18",
+              "175.000",
+              "10-28",
+              "504",
+              "20",
+              "40 mm",
+              "582 \\$"
+            ],
+            [
+              "16017122136",
+              "200",
+              "18",
+              "200.000",
+              "10-28",
+              "504",
+              "24",
+              "40 mm",
+              "642 \\$"
+            ],
+            [
+              "16017122137",
+              "250",
+              "18",
+              "250.000",
+              "10-28",
+              "504",
+              "32",
+              "40 mm",
+              "756 \\$"
+            ],
+            [
+              "16017122138",
+              "300",
+              "18",
+              "300.000",
+              "10-28",
+              "707",
+              "17",
+              "63 mm",
+              "1.134 \\$"
+            ],
+            [
+              "16017122139",
+              "400",
+              "18",
+              "400.000",
+              "10-28",
+              "707",
+              "22",
+              "63 mm",
+              "1.230 \\$"
+            ],
+            [
+              "16017122140",
+              "500",
+              "18",
+              "500.000",
+              "10-28",
+              "707",
+              "28",
+              "63 mm",
+              "1.338 \\$"
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "16017122141",
+              "50",
+              "24",
+              "38.000",
+              "10-28",
+              "504",
+              "7",
+              "40 mm",
+              "438 \\$"
+            ],
+            [
+              "16017122142",
+              "60",
+              "24",
+              "45.000",
+              "10-28",
+              "504",
+              "7",
+              "40 mm",
+              "438 \\$"
+            ],
+            [
+              "16017122143",
+              "70",
+              "24",
+              "53.000",
+              "10-28",
+              "504",
+              "8",
+              "40 mm",
+              "450 \\$"
+            ],
+            [
+              "16017122144",
+              "80",
+              "24",
+              "60.000",
+              "10-28",
+              "504",
+              "8",
+              "40 mm",
+              "450 \\$"
+            ],
+            [
+              "16017122145",
+              "90",
+              "24",
+              "67.500",
+              "10-28",
+              "504",
+              "9",
+              "40 mm",
+              "465 \\$"
+            ],
+            [
+              "16017122146",
+              "100",
+              "24",
+              "75.000",
+              "10-28",
+              "504",
+              "10",
+              "40 mm",
+              "480 \\$"
+            ],
+            [
+              "16017122147",
+              "125",
+              "24",
+              "94.000",
+              "10-28",
+              "504",
+              "11",
+              "40 mm",
+              "495 \\$"
+            ],
+            [
+              "16017122148",
+              "150",
+              "24",
+              "112.500",
+              "10-28",
+              "504",
+              "13",
+              "40 mm",
+              "525 \\$"
+            ],
+            [
+              "16017122149",
+              "175",
+              "24",
+              "132.000",
+              "10-28",
+              "504",
+              "14",
+              "40 mm",
+              "540 \\$"
+            ],
+            [
+              "16017122150",
+              "200",
+              "24",
+              "150.000",
+              "10-28",
+              "504",
+              "16",
+              "40 mm",
+              "567 \\$"
+            ],
+            [
+              "16017122151",
+              "250",
+              "24",
+              "190.000",
+              "10-28",
+              "504",
+              "22",
+              "40 mm",
+              "612 \\$"
+            ],
+            [
+              "16017122152",
+              "300",
+              "24",
+              "225.000",
+              "10-28",
+              "504",
+              "26",
+              "40 mm",
+              "669 \\$"
+            ],
+            [
+              "16017122153",
+              "400",
+              "24",
+              "300.000",
+              "10-28",
+              "707",
+              "17",
+              "63 mm",
+              "1.134 \\$"
+            ],
+            [
+              "16017122154",
+              "500",
+              "24",
+              "375.000",
+              "10-28",
+              "707",
+              "21",
+              "63 mm",
+              "1.212 \\$"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "44edbd01bbbafd8060975d226cc36c19_img.jpg",
+          "alt": "A blue plate heat exchanger unit with multiple pipes and valves, shown in two views: a front view and a side view.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "100d964526557c43da8091543c628910_img.jpg",
+          "alt": "Icon of a wrench and screwdriver inside a red circle.",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "4352ebef79e3f3807ca6433c4ab440e4_img.jpg",
+          "alt": "Icon of the number 316 inside a red circle.",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "c6c52deeab140dfa4c62cef0f5ce14ee_img.jpg",
+          "alt": "Icon of a thermometer inside a red circle.",
+          "caption": "",
+          "type": "icon"
+        }
+      ],
+      "variants": [
+        {
+          "code": "16017122101",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "16017122101",
+            "pool_m3": "10",
+            "regime": "12",
+            "exchanger_capacity_kcal_h": "17.000",
+            "temperature": "10-28",
+            "exchanger_model": "504",
+            "plate_count": "5",
+            "connection": "40 mm",
+            "price": "408 \\$"
+          }
+        },
+        {
+          "code": "16017122102",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "16017122102",
+            "pool_m3": "15",
+            "regime": "12",
+            "exchanger_capacity_kcal_h": "25.000",
+            "temperature": "10-28",
+            "exchanger_model": "504",
+            "plate_count": "5",
+            "connection": "40 mm",
+            "price": "408 \\$"
+          }
+        },
+        {
+          "code": "16017122103",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "16017122103",
+            "pool_m3": "20",
+            "regime": "12",
+            "exchanger_capacity_kcal_h": "34.000",
+            "temperature": "10-28",
+            "exchanger_model": "504",
+            "plate_count": "6",
+            "connection": "40 mm",
+            "price": "423 \\$"
+          }
+        },
+        {
+          "code": "16017122104",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "16017122104",
+            "pool_m3": "25",
+            "regime": "12",
+            "exchanger_capacity_kcal_h": "42.000",
+            "temperature": "10-28",
+            "exchanger_model": "504",
+            "plate_count": "7",
+            "connection": "40 mm",
+            "price": "438 \\$"
+          }
+        },
+        {
+          "code": "16017122105",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "16017122105",
+            "pool_m3": "30",
+            "regime": "12",
+            "exchanger_capacity_kcal_h": "45.000",
+            "temperature": "10-28",
+            "exchanger_model": "504",
+            "plate_count": "7",
+            "connection": "40 mm",
+            "price": "438 \\$"
+          }
+        },
+        {
+          "code": "16017122106",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "16017122106",
+            "pool_m3": "35",
+            "regime": "12",
+            "exchanger_capacity_kcal_h": "52.500",
+            "temperature": "10-28",
+            "exchanger_model": "504",
+            "plate_count": "8",
+            "connection": "40 mm",
+            "price": "450 \\$"
+          }
+        },
+        {
+          "code": "16017122107",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "16017122107",
+            "pool_m3": "40",
+            "regime": "12",
+            "exchanger_capacity_kcal_h": "60.000",
+            "temperature": "10-28",
+            "exchanger_model": "504",
+            "plate_count": "8",
+            "connection": "40 mm",
+            "price": "450 \\$"
+          }
+        },
+        {
+          "code": "16017122108",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "16017122108",
+            "pool_m3": "45",
+            "regime": "12",
+            "exchanger_capacity_kcal_h": "67.500",
+            "temperature": "10-28",
+            "exchanger_model": "504",
+            "plate_count": "9",
+            "connection": "40 mm",
+            "price": "465 \\$"
+          }
+        },
+        {
+          "code": "16017122109",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "16017122109",
+            "pool_m3": "50",
+            "regime": "12",
+            "exchanger_capacity_kcal_h": "75.000",
+            "temperature": "10-28",
+            "exchanger_model": "504",
+            "plate_count": "10",
+            "connection": "40 mm",
+            "price": "480 \\$"
+          }
+        },
+        {
+          "code": "16017122110",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "16017122110",
+            "pool_m3": "60",
+            "regime": "12",
+            "exchanger_capacity_kcal_h": "90.000",
+            "temperature": "10-28",
+            "exchanger_model": "504",
+            "plate_count": "11",
+            "connection": "40 mm",
+            "price": "495 \\$"
+          }
+        },
+        {
+          "code": "16017122111",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "16017122111",
+            "pool_m3": "70",
+            "regime": "12",
+            "exchanger_capacity_kcal_h": "105.000",
+            "temperature": "10-28",
+            "exchanger_model": "504",
+            "plate_count": "12",
+            "connection": "40 mm",
+            "price": "510 \\$"
+          }
+        },
+        {
+          "code": "16017122112",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "16017122112",
+            "pool_m3": "80",
+            "regime": "12",
+            "exchanger_capacity_kcal_h": "120.000",
+            "temperature": "10-28",
+            "exchanger_model": "504",
+            "plate_count": "14",
+            "connection": "40 mm",
+            "price": "540 \\$"
+          }
+        },
+        {
+          "code": "16017122113",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "16017122113",
+            "pool_m3": "90",
+            "regime": "12",
+            "exchanger_capacity_kcal_h": "135.000",
+            "temperature": "10-28",
+            "exchanger_model": "504",
+            "plate_count": "16",
+            "connection": "40 mm",
+            "price": "567 \\$"
+          }
+        },
+        {
+          "code": "16017122114",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "16017122114",
+            "pool_m3": "100",
+            "regime": "12",
+            "exchanger_capacity_kcal_h": "150.000",
+            "temperature": "10-28",
+            "exchanger_model": "504",
+            "plate_count": "16",
+            "connection": "40 mm",
+            "price": "567 \\$"
+          }
+        },
+        {
+          "code": "16017122115",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "16017122115",
+            "pool_m3": "125",
+            "regime": "12",
+            "exchanger_capacity_kcal_h": "188.000",
+            "temperature": "10-28",
+            "exchanger_model": "504",
+            "plate_count": "22",
+            "connection": "40 mm",
+            "price": "654 \\$"
+          }
+        },
+        {
+          "code": "16017122116",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "16017122116",
+            "pool_m3": "150",
+            "regime": "12",
+            "exchanger_capacity_kcal_h": "225.000",
+            "temperature": "10-28",
+            "exchanger_model": "504",
+            "plate_count": "26",
+            "connection": "40 mm",
+            "price": "714 \\$"
+          }
+        },
+        {
+          "code": "16017122117",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "16017122117",
+            "pool_m3": "175",
+            "regime": "12",
+            "exchanger_capacity_kcal_h": "262.000",
+            "temperature": "10-28",
+            "exchanger_model": "707",
+            "plate_count": "14",
+            "connection": "63 mm",
+            "price": "1.080 \\$"
+          }
+        },
+        {
+          "code": "16017122118",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "16017122118",
+            "pool_m3": "200",
+            "regime": "12",
+            "exchanger_capacity_kcal_h": "300.000",
+            "temperature": "10-28",
+            "exchanger_model": "707",
+            "plate_count": "17",
+            "connection": "63 mm",
+            "price": "1.134 \\$"
+          }
+        },
+        {
+          "code": "16017122119",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "16017122119",
+            "pool_m3": "250",
+            "regime": "12",
+            "exchanger_capacity_kcal_h": "375.000",
+            "temperature": "10-28",
+            "exchanger_model": "707",
+            "plate_count": "21",
+            "connection": "63 mm",
+            "price": "1.212 \\$"
+          }
+        },
+        {
+          "code": "16017122120",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "16017122120",
+            "pool_m3": "300",
+            "regime": "12",
+            "exchanger_capacity_kcal_h": "450.000",
+            "temperature": "10-28",
+            "exchanger_model": "707",
+            "plate_count": "26",
+            "connection": "63 mm",
+            "price": "1.305 \\$"
+          }
+        },
+        {
+          "code": "16017122121",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "16017122121",
+            "pool_m3": "400",
+            "regime": "12",
+            "exchanger_capacity_kcal_h": "600.000",
+            "temperature": "10-28",
+            "exchanger_model": "707",
+            "plate_count": "34",
+            "connection": "63 mm",
+            "price": "1.455 \\$"
+          }
+        },
+        {
+          "code": "16017122122",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "16017122122",
+            "pool_m3": "500",
+            "regime": "12",
+            "exchanger_capacity_kcal_h": "750.000",
+            "temperature": "10-28",
+            "exchanger_model": "707",
+            "plate_count": "46",
+            "connection": "63 mm",
+            "price": "1.680 \\$"
+          }
+        },
+        {
+          "code": "16017122123",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "16017122123",
+            "pool_m3": "30",
+            "regime": "18",
+            "exchanger_capacity_kcal_h": "30.000",
+            "temperature": "10-28",
+            "exchanger_model": "504",
+            "plate_count": "6",
+            "connection": "40 mm",
+            "price": "423 \\$"
+          }
+        },
+        {
+          "code": "16017122124",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "16017122124",
+            "pool_m3": "35",
+            "regime": "18",
+            "exchanger_capacity_kcal_h": "35.000",
+            "temperature": "10-28",
+            "exchanger_model": "504",
+            "plate_count": "6",
+            "connection": "40 mm",
+            "price": "423 \\$"
+          }
+        },
+        {
+          "code": "16017122125",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "16017122125",
+            "pool_m3": "40",
+            "regime": "18",
+            "exchanger_capacity_kcal_h": "40.000",
+            "temperature": "10-28",
+            "exchanger_model": "504",
+            "plate_count": "7",
+            "connection": "40 mm",
+            "price": "438 \\$"
+          }
+        },
+        {
+          "code": "16017122126",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "16017122126",
+            "pool_m3": "45",
+            "regime": "18",
+            "exchanger_capacity_kcal_h": "45.000",
+            "temperature": "10-28",
+            "exchanger_model": "504",
+            "plate_count": "7",
+            "connection": "40 mm",
+            "price": "438 \\$"
+          }
+        },
+        {
+          "code": "16017122127",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "16017122127",
+            "pool_m3": "50",
+            "regime": "18",
+            "exchanger_capacity_kcal_h": "50.000",
+            "temperature": "10-28",
+            "exchanger_model": "504",
+            "plate_count": "7",
+            "connection": "40 mm",
+            "price": "438 \\$"
+          }
+        },
+        {
+          "code": "16017122128",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "16017122128",
+            "pool_m3": "60",
+            "regime": "18",
+            "exchanger_capacity_kcal_h": "60.000",
+            "temperature": "10-28",
+            "exchanger_model": "504",
+            "plate_count": "8",
+            "connection": "40 mm",
+            "price": "450 \\$"
+          }
+        },
+        {
+          "code": "16017122129",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "16017122129",
+            "pool_m3": "70",
+            "regime": "18",
+            "exchanger_capacity_kcal_h": "70.000",
+            "temperature": "10-28",
+            "exchanger_model": "504",
+            "plate_count": "9",
+            "connection": "40 mm",
+            "price": "465 \\$"
+          }
+        },
+        {
+          "code": "16017122130",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "16017122130",
+            "pool_m3": "80",
+            "regime": "18",
+            "exchanger_capacity_kcal_h": "80.000",
+            "temperature": "10-28",
+            "exchanger_model": "504",
+            "plate_count": "10",
+            "connection": "40 mm",
+            "price": "480 \\$"
+          }
+        },
+        {
+          "code": "16017122131",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "16017122131",
+            "pool_m3": "90",
+            "regime": "18",
+            "exchanger_capacity_kcal_h": "90.000",
+            "temperature": "10-28",
+            "exchanger_model": "504",
+            "plate_count": "11",
+            "connection": "40 mm",
+            "price": "495 \\$"
+          }
+        },
+        {
+          "code": "16017122132",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "16017122132",
+            "pool_m3": "100",
+            "regime": "18",
+            "exchanger_capacity_kcal_h": "100.000",
+            "temperature": "10-28",
+            "exchanger_model": "504",
+            "plate_count": "12",
+            "connection": "40 mm",
+            "price": "510 \\$"
+          }
+        },
+        {
+          "code": "16017122133",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "16017122133",
+            "pool_m3": "125",
+            "regime": "18",
+            "exchanger_capacity_kcal_h": "125.000",
+            "temperature": "10-28",
+            "exchanger_model": "504",
+            "plate_count": "14",
+            "connection": "40 mm",
+            "price": "540 \\$"
+          }
+        },
+        {
+          "code": "16017122134",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "16017122134",
+            "pool_m3": "150",
+            "regime": "18",
+            "exchanger_capacity_kcal_h": "150.000",
+            "temperature": "10-28",
+            "exchanger_model": "504",
+            "plate_count": "16",
+            "connection": "40 mm",
+            "price": "567 \\$"
+          }
+        },
+        {
+          "code": "16017122135",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "16017122135",
+            "pool_m3": "175",
+            "regime": "18",
+            "exchanger_capacity_kcal_h": "175.000",
+            "temperature": "10-28",
+            "exchanger_model": "504",
+            "plate_count": "20",
+            "connection": "40 mm",
+            "price": "582 \\$"
+          }
+        },
+        {
+          "code": "16017122136",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "16017122136",
+            "pool_m3": "200",
+            "regime": "18",
+            "exchanger_capacity_kcal_h": "200.000",
+            "temperature": "10-28",
+            "exchanger_model": "504",
+            "plate_count": "24",
+            "connection": "40 mm",
+            "price": "642 \\$"
+          }
+        },
+        {
+          "code": "16017122137",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "16017122137",
+            "pool_m3": "250",
+            "regime": "18",
+            "exchanger_capacity_kcal_h": "250.000",
+            "temperature": "10-28",
+            "exchanger_model": "504",
+            "plate_count": "32",
+            "connection": "40 mm",
+            "price": "756 \\$"
+          }
+        },
+        {
+          "code": "16017122138",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "16017122138",
+            "pool_m3": "300",
+            "regime": "18",
+            "exchanger_capacity_kcal_h": "300.000",
+            "temperature": "10-28",
+            "exchanger_model": "707",
+            "plate_count": "17",
+            "connection": "63 mm",
+            "price": "1.134 \\$"
+          }
+        },
+        {
+          "code": "16017122139",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "16017122139",
+            "pool_m3": "400",
+            "regime": "18",
+            "exchanger_capacity_kcal_h": "400.000",
+            "temperature": "10-28",
+            "exchanger_model": "707",
+            "plate_count": "22",
+            "connection": "63 mm",
+            "price": "1.230 \\$"
+          }
+        },
+        {
+          "code": "16017122140",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "16017122140",
+            "pool_m3": "500",
+            "regime": "18",
+            "exchanger_capacity_kcal_h": "500.000",
+            "temperature": "10-28",
+            "exchanger_model": "707",
+            "plate_count": "28",
+            "connection": "63 mm",
+            "price": "1.338 \\$"
+          }
+        },
+        {
+          "code": "16017122141",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "16017122141",
+            "pool_m3": "50",
+            "regime": "24",
+            "exchanger_capacity_kcal_h": "38.000",
+            "temperature": "10-28",
+            "exchanger_model": "504",
+            "plate_count": "7",
+            "connection": "40 mm",
+            "price": "438 \\$"
+          }
+        },
+        {
+          "code": "16017122142",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "16017122142",
+            "pool_m3": "60",
+            "regime": "24",
+            "exchanger_capacity_kcal_h": "45.000",
+            "temperature": "10-28",
+            "exchanger_model": "504",
+            "plate_count": "7",
+            "connection": "40 mm",
+            "price": "438 \\$"
+          }
+        },
+        {
+          "code": "16017122143",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "16017122143",
+            "pool_m3": "70",
+            "regime": "24",
+            "exchanger_capacity_kcal_h": "53.000",
+            "temperature": "10-28",
+            "exchanger_model": "504",
+            "plate_count": "8",
+            "connection": "40 mm",
+            "price": "450 \\$"
+          }
+        },
+        {
+          "code": "16017122144",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "16017122144",
+            "pool_m3": "80",
+            "regime": "24",
+            "exchanger_capacity_kcal_h": "60.000",
+            "temperature": "10-28",
+            "exchanger_model": "504",
+            "plate_count": "8",
+            "connection": "40 mm",
+            "price": "450 \\$"
+          }
+        },
+        {
+          "code": "16017122145",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "16017122145",
+            "pool_m3": "90",
+            "regime": "24",
+            "exchanger_capacity_kcal_h": "67.500",
+            "temperature": "10-28",
+            "exchanger_model": "504",
+            "plate_count": "9",
+            "connection": "40 mm",
+            "price": "465 \\$"
+          }
+        },
+        {
+          "code": "16017122146",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "16017122146",
+            "pool_m3": "100",
+            "regime": "24",
+            "exchanger_capacity_kcal_h": "75.000",
+            "temperature": "10-28",
+            "exchanger_model": "504",
+            "plate_count": "10",
+            "connection": "40 mm",
+            "price": "480 \\$"
+          }
+        },
+        {
+          "code": "16017122147",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "16017122147",
+            "pool_m3": "125",
+            "regime": "24",
+            "exchanger_capacity_kcal_h": "94.000",
+            "temperature": "10-28",
+            "exchanger_model": "504",
+            "plate_count": "11",
+            "connection": "40 mm",
+            "price": "495 \\$"
+          }
+        },
+        {
+          "code": "16017122148",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "16017122148",
+            "pool_m3": "150",
+            "regime": "24",
+            "exchanger_capacity_kcal_h": "112.500",
+            "temperature": "10-28",
+            "exchanger_model": "504",
+            "plate_count": "13",
+            "connection": "40 mm",
+            "price": "525 \\$"
+          }
+        },
+        {
+          "code": "16017122149",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "16017122149",
+            "pool_m3": "175",
+            "regime": "24",
+            "exchanger_capacity_kcal_h": "132.000",
+            "temperature": "10-28",
+            "exchanger_model": "504",
+            "plate_count": "14",
+            "connection": "40 mm",
+            "price": "540 \\$"
+          }
+        },
+        {
+          "code": "16017122150",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "16017122150",
+            "pool_m3": "200",
+            "regime": "24",
+            "exchanger_capacity_kcal_h": "150.000",
+            "temperature": "10-28",
+            "exchanger_model": "504",
+            "plate_count": "16",
+            "connection": "40 mm",
+            "price": "567 \\$"
+          }
+        },
+        {
+          "code": "16017122151",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "16017122151",
+            "pool_m3": "250",
+            "regime": "24",
+            "exchanger_capacity_kcal_h": "190.000",
+            "temperature": "10-28",
+            "exchanger_model": "504",
+            "plate_count": "22",
+            "connection": "40 mm",
+            "price": "612 \\$"
+          }
+        },
+        {
+          "code": "16017122152",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "16017122152",
+            "pool_m3": "300",
+            "regime": "24",
+            "exchanger_capacity_kcal_h": "225.000",
+            "temperature": "10-28",
+            "exchanger_model": "504",
+            "plate_count": "26",
+            "connection": "40 mm",
+            "price": "669 \\$"
+          }
+        },
+        {
+          "code": "16017122153",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "16017122153",
+            "pool_m3": "400",
+            "regime": "24",
+            "exchanger_capacity_kcal_h": "300.000",
+            "temperature": "10-28",
+            "exchanger_model": "707",
+            "plate_count": "17",
+            "connection": "63 mm",
+            "price": "1.134 \\$"
+          }
+        },
+        {
+          "code": "16017122154",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "16017122154",
+            "pool_m3": "500",
+            "regime": "24",
+            "exchanger_capacity_kcal_h": "375.000",
+            "temperature": "10-28",
+            "exchanger_model": "707",
+            "plate_count": "21",
+            "connection": "63 mm",
+            "price": "1.212 \\$"
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "smart-inverter",
+      "family_title_tr": "SMART INVERTER",
+      "family_title_en": "SMART INVERTER",
+      "family_description_tr": "Elektronik genleşme valfi ve inverter sistemiyle yüksek enerji tasarrufu sunar. Ticari projelerde uzun ömürlü çözümdür.",
+      "family_line_count": 106,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [
+          "SILENT"
+        ],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_12536",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "GÜÇ POWER",
+            "ÖLÇÜLER UxDxG DIMENSIONS LxDxW",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "16019123013",
+              "10,5 kW",
+              "1.130mm x 420mm x 760mm",
+              "2.745 €"
+            ],
+            [
+              "16019123019",
+              "16,5 kW",
+              "1.180mm x 470mm x 860mm",
+              "3.250 €"
+            ],
+            [
+              "16019123014",
+              "21 kW",
+              "1.230mm x 530mm x 1.100mm",
+              "4.300 €"
+            ],
+            [
+              "16019123015",
+              "24 kW",
+              "1.230mm x 530mm x 1.100mm",
+              "5.300 €"
+            ],
+            [
+              "16019123023",
+              "32,5 kW",
+              "1.250mm x 530mm x 1.480mm",
+              "8.075 €"
+            ],
+            [
+              "16019123022",
+              "65 kW",
+              "1.240 mm x 500mm x 1.770mm",
+              "14.050 €"
+            ],
+            [
+              "16019123071",
+              "130 kW",
+              "1.140mm x 1.280mm x 2.110mm",
+              "27.000 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_12546",
+          "type": "spec",
+          "headers": [
+            "",
+            "10,5kW",
+            "16,5kW",
+            "21,0kW",
+            "24,0kW",
+            "32,5kW",
+            "65kW",
+            "130kW"
+          ],
+          "rows": [
+            [
+              "ÇALIŞMA HAVASI SICAKLIĞI °C OPERATING AIR TEMPERATURE °C -15~43",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "PERFORMANS DURUMU: HAVA 26°C, SU 26°C, NEM %80-PERFORMANCE CONDITION: AIR 26°C, WATER 26°C, HUMIDITY 80%",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Booster modunda ısıtma kapasitesi (kw) Heating capacity (kw) in booster mode",
+              "10,5",
+              "16,5",
+              "21",
+              "24",
+              "32,5",
+              "65",
+              "150"
+            ],
+            [
+              "Isıtma kapasitesi (kw) Heating capacity (kw)",
+              "9",
+              "14,5",
+              "18",
+              "21",
+              "27,5",
+              "10,6~65",
+              "10,6~65"
+            ],
+            [
+              "Güçlendirici modunda cop Cop in booster mode",
+              "6,5",
+              "6,4",
+              "6,1",
+              "6,2",
+              "6,4",
+              "6,1",
+              "5,8"
+            ],
+            [
+              "Cop",
+              "14.5~7.2",
+              "15.3~7.0",
+              "15.9~6.7",
+              "16.1~6.9",
+              "15.4~7.1",
+              "6.15~16.11",
+              "6.15~16.11"
+            ],
+            [
+              "%50 Kapasitede cop Cop at 50% capacity",
+              "10,6",
+              "11,1",
+              "11,2",
+              "11,6",
+              "11,5",
+              "11,2",
+              "11,2"
+            ],
+            [
+              "PERFORMANS DURUMU: HAVA 15°C, SU 26°C, NEM %80-PERFORMANCE CONDITION: AIR 15°C, WATER 26°C, HUMIDITY 70%",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Booster modunda ısıtma kapasitesi (kw) Heating capacity (kw) in booster mode",
+              "7,25",
+              "11,5",
+              "14,5",
+              "16,5",
+              "21,5",
+              "50",
+              "50"
+            ],
+            [
+              "Isıtma kapasitesi (kw) Heating capacity (kw)",
+              "6,23",
+              "10,5",
+              "12,5",
+              "14,5",
+              "18,5",
+              "8,02~50",
+              "126"
+            ],
+            [
+              "Güçlendirici modunda cop Cop in booster mode",
+              "4,31",
+              "4,3",
+              "4,2",
+              "4,3",
+              "4,6",
+              "4,9",
+              "4,9"
+            ],
+            [
+              "Cop",
+              "7.8~5.0",
+              "7.8~4.5",
+              "7.8~4.5",
+              "8.0~4.6",
+              "7.8~5.2",
+              "4.95~8.45",
+              "5,5"
+            ],
+            [
+              "%50 Kapasitede cop Cop at 50% capacity",
+              "6,6",
+              "6,6",
+              "6,6",
+              "6,8",
+              "7,0",
+              "6,7",
+              "6,7"
+            ],
+            [
+              "PERFORMANS DURUMU: HAVA 35°C, SU 28°C, NEM %80-PERFORMANCE CONDITION: AIR 35°C, WATER 28°C, HUMIDITY 70%",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Soğutma kapasitesi (kw) Cooling capacity (kw)",
+              "4,9",
+              "6,9",
+              "7,8",
+              "10,5",
+              "12,7",
+              "35",
+              "90"
+            ],
+            [
+              "1m dB(A)'da ses basıncı Sound pressure at 1m dB(A)",
+              "37.8~44.2",
+              "41.2~48.3",
+              "42.9~50.8",
+              "40.8~51.2",
+              "43.3~53.9",
+              "58",
+              "40"
+            ],
+            [
+              "1m dB(A)'da %50 kapasiteli ses basıncı Sound pressure of 50% capacity at 1m dB(A)",
+              "22,5",
+              "32,2",
+              "44,5",
+              "44,4",
+              "46,4",
+              "29",
+              "20"
+            ],
+            [
+              "10m dB(A)'da ses basıncı Sound pressure at 10m dB(A)",
+              "17.8~25.6",
+              "20.3~28.7",
+              "22.9~30.8",
+              "20.8~31.2",
+              "23.3~31.9",
+              "--",
+              "--"
+            ],
+            [
+              "Isı Eşanjörü Heat exchanger",
+              "PVC'de spiral titanyum tüp Spiral titanium tube in PVC",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Kasa",
+              "Galvanizli metal kasa Galvanized metal casing",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Güç kaynağı Power supply",
+              "230 V/1 Ph/50Hz",
+              "",
+              "",
+              "",
+              "",
+              "380~400V/3 Ph/50Hz",
+              ""
+            ],
+            [
+              "Havada nominal giriş gücü 15°C (kW) Rated input power at air 15°C (kW)",
+              "0.22~1.49",
+              "0,39~2,35",
+              "0,43~2,61",
+              "0,49~3,5",
+              "0,64~5,12",
+              "0,65~10,56",
+              "22,91"
+            ],
+            [
+              "15°C havada (A) nominal giriş akımı Rated input current at air 15°C (A)",
+              "1.06~5.81",
+              "1,77~10,06",
+              "1,87~11,35",
+              "2,13~12,65",
+              "0,93~9,15",
+              "2,43~12,72",
+              "43,5"
+            ],
+            [
+              "Önerilen su akışı (m³/h) Advised water flux (m³/h)",
+              "3~4",
+              "5,6",
+              "6,5~8,5",
+              "8~10",
+              "10~12",
+              "21",
+              "36,11"
+            ],
+            [
+              "Su borusu giriş-çıkış boyutu (mm) Water pipe in-out size (mm)",
+              "50",
+              "",
+              "",
+              "",
+              "",
+              "63",
+              ""
+            ],
+            [
+              "Soğutucu Refrigerant",
+              "R410A",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "5d1aaa9370a3e4ca57c556ed1d1ec1d3_img.jpg",
+          "alt": "Silent icon",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "22eebb50c855fb5be38bb3d7b30802ca_img.jpg",
+          "alt": "Close-up view of the DC Inverter Heat Pump unit showing the fan and the 'water fun' logo.",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "75c4feb4b4c7e306aa43d5a47e6f06e0_img.jpg",
+          "alt": "Full view of the DC Inverter Heat Pump unit showing the fan and the 'water fun' logo.",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "cebd97af5812ece1c7f18944409d0b83_img.jpg",
+          "alt": "QR code for watching the working video.",
+          "caption": "",
+          "type": "qr"
+        },
+        {
+          "file": "4704d72224e46452b3d99ca9e5fdd5b3_img.jpg",
+          "alt": "QR code for the manual.",
+          "caption": "",
+          "type": "qr"
+        }
+      ],
+      "variants": [
+        {
+          "code": "16019123013",
+          "price": "2.745 €",
+          "price_eur": 2745.0,
+          "values": {
+            "code": "16019123013",
+            "power_w": "10,5 kW",
+            "dimensions_lxdxw": "1.130mm x 420mm x 760mm",
+            "price": "2.745 €",
+            "price_eur": 2745.0
+          }
+        },
+        {
+          "code": "16019123019",
+          "price": "3.250 €",
+          "price_eur": 3250.0,
+          "values": {
+            "code": "16019123019",
+            "power_w": "16,5 kW",
+            "dimensions_lxdxw": "1.180mm x 470mm x 860mm",
+            "price": "3.250 €",
+            "price_eur": 3250.0
+          }
+        },
+        {
+          "code": "16019123014",
+          "price": "4.300 €",
+          "price_eur": 4300.0,
+          "values": {
+            "code": "16019123014",
+            "power_w": "21 kW",
+            "dimensions_lxdxw": "1.230mm x 530mm x 1.100mm",
+            "price": "4.300 €",
+            "price_eur": 4300.0
+          }
+        },
+        {
+          "code": "16019123015",
+          "price": "5.300 €",
+          "price_eur": 5300.0,
+          "values": {
+            "code": "16019123015",
+            "power_w": "24 kW",
+            "dimensions_lxdxw": "1.230mm x 530mm x 1.100mm",
+            "price": "5.300 €",
+            "price_eur": 5300.0
+          }
+        },
+        {
+          "code": "16019123023",
+          "price": "8.075 €",
+          "price_eur": 8075.0,
+          "values": {
+            "code": "16019123023",
+            "power_w": "32,5 kW",
+            "dimensions_lxdxw": "1.250mm x 530mm x 1.480mm",
+            "price": "8.075 €",
+            "price_eur": 8075.0
+          }
+        },
+        {
+          "code": "16019123022",
+          "price": "14.050 €",
+          "price_eur": 14050.0,
+          "values": {
+            "code": "16019123022",
+            "power_w": "65 kW",
+            "dimensions_lxdxw": "1.240 mm x 500mm x 1.770mm",
+            "price": "14.050 €",
+            "price_eur": 14050.0
+          }
+        },
+        {
+          "code": "16019123071",
+          "price": "27.000 €",
+          "price_eur": 27000.0,
+          "values": {
+            "code": "16019123071",
+            "power_w": "130 kW",
+            "dimensions_lxdxw": "1.140mm x 1.280mm x 2.110mm",
+            "price": "27.000 €",
+            "price_eur": 27000.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "residential-inverter",
+      "family_title_tr": "RESIDENTIAL INVERTER",
+      "family_title_en": "RESIDENTIAL INVERTER",
+      "family_description_tr": "Ev tipi kullanım için tasarlanan DC inverter ısı pompası, konut projelerinde verimli ve güvenilir ısıtma ve soğutma sunar.",
+      "family_line_count": 122,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [
+          "SILENT"
+        ],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_12703",
+          "type": "spec",
+          "headers": [
+            "",
+            "FEIHC 10S",
+            "FEIHC 12S",
+            "FEIHC 15S",
+            "FEIHC 15S3",
+            "FEIHC 18S",
+            "FEIHC 18S3",
+            "FEIHC 24S3",
+            "FEIC 30S3",
+            "FEIC 36S3"
+          ],
+          "rows": [
+            [
+              "Güç kaynağı (V/PH/Hz) Power supply (V/PH/Hz)",
+              "220/1/50",
+              "220/1/50",
+              "220/1/50",
+              "380/3/50",
+              "220/1/50",
+              "380/3/50",
+              "380/3/50",
+              "380/3/50",
+              "380/3/50"
+            ],
+            [
+              "ISITMA KOŞULLARI: HAVA KURU/ISLAK 20/15°C, SU 15°C İLE 55°C ARASI - HEATING CONDITION: AIR DB/WB 20/15°C, WATER FROM 15°C to 55°C",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Isıtma kapasitesi (kw) Heating capacity (kw)",
+              "12.3",
+              "16.4",
+              "20.5",
+              "20.5",
+              "24.6",
+              "24.6",
+              "32.8",
+              "41",
+              "49.2"
+            ],
+            [
+              "Giriş gücü (kw) Input power (kw)",
+              "2,69",
+              "3,50",
+              "4,48",
+              "4,48",
+              "5,37",
+              "5,37",
+              "7,16",
+              "8,95",
+              "10,74"
+            ],
+            [
+              "Cop",
+              "4,57",
+              "4,69",
+              "4,58",
+              "4,58",
+              "4,58",
+              "4,58",
+              "6,11",
+              "7,64",
+              "9,16"
+            ],
+            [
+              "ISITMA KOŞULLARI: HAVA KURU/ISLAK 7/6°C, SU GİRİŞ/ÇIKIŞ 30/35°C - HEATING CONDITION: AIR DB/WB 7/6°C, WATER IN/OUT 30/35°C",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Isıtma kapasitesi (kw) Heating capacity (kw)",
+              "10",
+              "12",
+              "15",
+              "15",
+              "18",
+              "18",
+              "24",
+              "30",
+              "36"
+            ],
+            [
+              "Giriş gücü (kw) Input power (kw)",
+              "2,08",
+              "2,67",
+              "3,3",
+              "3,3",
+              "3,9",
+              "3,9",
+              "5,2",
+              "6,50",
+              "7,8"
+            ],
+            [
+              "Giriş akımı (A) Input current (A)",
+              "9,65",
+              "12,38",
+              "15,00",
+              "5,39",
+              "17,73",
+              "6,42",
+              "8,56",
+              "10,70",
+              "12,84"
+            ],
+            [
+              "Cop",
+              "4,42",
+              "4,5",
+              "4,4",
+              "4,4",
+              "4,62",
+              "4,62",
+              "4,62",
+              "4,62",
+              "4,62"
+            ],
+            [
+              "ISITMA KOŞULLARI: HAVA KURU/ISLAK 7/6°C, SU GİRİŞ/ÇIKIŞ 50/55°C - HEATING CONDITION: AIR DB/WB 7/6°C, WATER IN/OUT 50/55°C",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Isıtma kapasitesi (kw) Heating capacity (kw)",
+              "8.5",
+              "10.9",
+              "13.5",
+              "13.5",
+              "16,3",
+              "16,3",
+              "21,7",
+              "27,2",
+              "32,6"
+            ],
+            [
+              "Giriş gücü (kw) Input power (kw)",
+              "2,98",
+              "3,73",
+              "4,82",
+              "4,82",
+              "5,64",
+              "5,64",
+              "7,5",
+              "9,4",
+              "11,28"
+            ],
+            [
+              "Giriş akımı (A) Input current (A)",
+              "13,82",
+              "17,30",
+              "21,91",
+              "7,79",
+              "25,64",
+              "9,12",
+              "12,2",
+              "15,19",
+              "18,23"
+            ],
+            [
+              "Cop",
+              "2,85",
+              "2,92",
+              "2,8",
+              "2,8",
+              "2,89",
+              "2,89",
+              "2,89",
+              "2,89",
+              "2,89"
+            ],
+            [
+              "SOĞUTMA KOŞULLARI: HAVA KURU SICAKLIĞI 35°C, SU GİRİŞ/ÇIKIŞ SICAKLIĞI 12/7°C - COOLING CONDITION: AIR DB 35°C, WATER IN/OUT 12/7°C",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Soğutma kapasitesi (kw) Cooling capacity (kw)",
+              "7.6",
+              "10.1",
+              "12,6",
+              "12,6",
+              "15",
+              "15",
+              "20",
+              "25",
+              "30"
+            ],
+            [
+              "Giriş gücü (kw) Input power (kw)",
+              "2,59",
+              "3,36",
+              "4,26",
+              "4,26",
+              "4,93",
+              "4,93",
+              "6,57",
+              "8,21",
+              "9,852"
+            ],
+            [
+              "Giriş akımı (A) Input current (A)",
+              "12,01",
+              "15,58",
+              "19,36",
+              "6,89",
+              "22,41",
+              "7,97",
+              "10,62",
+              "13,28",
+              "15,94"
+            ],
+            [
+              "EER",
+              "2,93",
+              "3,01",
+              "2,96",
+              "2,96",
+              "3,04",
+              "3,04",
+              "3,04",
+              "3,04",
+              "3,04"
+            ],
+            [
+              "Maksimum çalışma akımı (A) Max running current (A)",
+              "26,50",
+              "33,50",
+              "21,9",
+              "21,9",
+              "23,1",
+              "23,1",
+              "30,8",
+              "38,5",
+              "46,2"
+            ],
+            [
+              "Gürültü seviyesi (Db) Noise (db (A))",
+              "48",
+              "50",
+              "52",
+              "52",
+              "53",
+              "53",
+              "54,0",
+              "67,5",
+              "81"
+            ],
+            [
+              "Soğutucu Refrigerant",
+              "R32",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          ]
+        },
+        {
+          "table_id": "table_12729",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "GÜÇ POWER",
+            "ÖLÇÜLER UxDxG DIMENSIONS LxDxW",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "16019123083",
+              "10 kW Mono",
+              "1.050mm x 455mm x 788mm",
+              "6.350 €"
+            ],
+            [
+              "16019123084",
+              "12 kW Mono",
+              "1.180mm x 455mm x 910mm",
+              "7.700 €"
+            ],
+            [
+              "16019123085",
+              "15 kW Mono",
+              "1.000mm x 435mm x 1.335mm",
+              "9.150 €"
+            ],
+            [
+              "16019123086",
+              "15 kW Tri",
+              "1.000mm x 435mm x 1.335mm",
+              "9.300 €"
+            ],
+            [
+              "16019123087",
+              "18 kW Mono",
+              "1.000mm x 435mm x 1.335mm",
+              "9.750 €"
+            ],
+            [
+              "16019123088",
+              "18 kW Tri",
+              "1.000mm x 435mm x 1.335mm",
+              "10.250 €"
+            ],
+            [
+              "16019123089",
+              "24 kW Tri",
+              "1.170 mm x 455mm x 1.560mm",
+              "11.650 €"
+            ],
+            [
+              "16019123090",
+              "30 kW Tri",
+              "1.170 mm x 455mm x 1.560mm",
+              "13.600 €"
+            ],
+            [
+              "16019123091",
+              "36 kW Tri",
+              "1.170 mm x 455mm x 1.560mm",
+              "14.150 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "473a548ad2e0f089a8054106b6d333b0_img.jpg",
+          "alt": "Silent icon",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "74dce85b6644ab49fc48828b57a5af46_img.jpg",
+          "alt": "Single fan residential heat pump unit",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "94a83e3305f0eb414087648ad5909689_img.jpg",
+          "alt": "Double fan residential heat pump unit",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "4f8f032c457a78eab6a40906fe7db96e_img.jpg",
+          "alt": "Home Design icon",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "714dda2149b44bcda7bed8539d31808d_img.jpg",
+          "alt": "Heating & Cooling icon",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "2301285137fc3465f102c076a2ee22a5_img.jpg",
+          "alt": "High Efficiency icon",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "cc1bf1c1edc61892e21066644c9e0698_img.jpg",
+          "alt": "Wide Capacity Range icon",
+          "caption": "",
+          "type": "icon"
+        }
+      ],
+      "variants": [
+        {
+          "code": "16019123083",
+          "price": "6.350 €",
+          "price_eur": 6350.0,
+          "values": {
+            "code": "16019123083",
+            "power_w": "10 kW Mono",
+            "dimensions_lxdxw": "1.050mm x 455mm x 788mm",
+            "price": "6.350 €",
+            "price_eur": 6350.0
+          }
+        },
+        {
+          "code": "16019123084",
+          "price": "7.700 €",
+          "price_eur": 7700.0,
+          "values": {
+            "code": "16019123084",
+            "power_w": "12 kW Mono",
+            "dimensions_lxdxw": "1.180mm x 455mm x 910mm",
+            "price": "7.700 €",
+            "price_eur": 7700.0
+          }
+        },
+        {
+          "code": "16019123085",
+          "price": "9.150 €",
+          "price_eur": 9150.0,
+          "values": {
+            "code": "16019123085",
+            "power_w": "15 kW Mono",
+            "dimensions_lxdxw": "1.000mm x 435mm x 1.335mm",
+            "price": "9.150 €",
+            "price_eur": 9150.0
+          }
+        },
+        {
+          "code": "16019123086",
+          "price": "9.300 €",
+          "price_eur": 9300.0,
+          "values": {
+            "code": "16019123086",
+            "power_w": "15 kW Tri",
+            "dimensions_lxdxw": "1.000mm x 435mm x 1.335mm",
+            "price": "9.300 €",
+            "price_eur": 9300.0
+          }
+        },
+        {
+          "code": "16019123087",
+          "price": "9.750 €",
+          "price_eur": 9750.0,
+          "values": {
+            "code": "16019123087",
+            "power_w": "18 kW Mono",
+            "dimensions_lxdxw": "1.000mm x 435mm x 1.335mm",
+            "price": "9.750 €",
+            "price_eur": 9750.0
+          }
+        },
+        {
+          "code": "16019123088",
+          "price": "10.250 €",
+          "price_eur": 10250.0,
+          "values": {
+            "code": "16019123088",
+            "power_w": "18 kW Tri",
+            "dimensions_lxdxw": "1.000mm x 435mm x 1.335mm",
+            "price": "10.250 €",
+            "price_eur": 10250.0
+          }
+        },
+        {
+          "code": "16019123089",
+          "price": "11.650 €",
+          "price_eur": 11650.0,
+          "values": {
+            "code": "16019123089",
+            "power_w": "24 kW Tri",
+            "dimensions_lxdxw": "1.170 mm x 455mm x 1.560mm",
+            "price": "11.650 €",
+            "price_eur": 11650.0
+          }
+        },
+        {
+          "code": "16019123090",
+          "price": "13.600 €",
+          "price_eur": 13600.0,
+          "values": {
+            "code": "16019123090",
+            "power_w": "30 kW Tri",
+            "dimensions_lxdxw": "1.170 mm x 455mm x 1.560mm",
+            "price": "13.600 €",
+            "price_eur": 13600.0
+          }
+        },
+        {
+          "code": "16019123091",
+          "price": "14.150 €",
+          "price_eur": 14150.0,
+          "values": {
+            "code": "16019123091",
+            "power_w": "36 kW Tri",
+            "dimensions_lxdxw": "1.170 mm x 455mm x 1.560mm",
+            "price": "14.150 €",
+            "price_eur": 14150.0
+          }
+        }
+      ]
+    }
+  ]
+}

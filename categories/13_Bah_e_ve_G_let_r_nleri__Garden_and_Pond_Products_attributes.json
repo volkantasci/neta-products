@@ -1,0 +1,1315 @@
+{
+  "category_no": "13",
+  "category_tr": "Bahçe ve Gölet Ürünleri",
+  "category_en": "Garden and Pond Products",
+  "family_count": 10,
+  "variant_count": 31,
+  "families": [
+    {
+      "family_product_id": "g-venli-fi-lrasyon-reliable-filtration",
+      "family_title_tr": "GÜVENLİ FİLRASYON RELIABLE FILTRATION",
+      "family_title_en": "GÜVENLİ FİLRASYON RELIABLE FILTRATION",
+      "family_description_tr": "Yüksek kapasiteli biyolojik filtreleme ile gölet projelerinizde temiz ve sürdürülebilir su kalitesi sağlar.",
+      "family_line_count": 47,
+      "qualitative": {
+        "bullets_tr": [
+          "90.000 litreye kadar bahçe havuzları için uygundur",
+          "180 litrelik kapasite, 3 bölmeli yapısıyla güvenilir su temizliği sağlar",
+          "8 kaba, 4 ince filtre ve 3 Japon filtre matı ile donatılmıştır",
+          "Havuz kıyısına yerleştirilir, uygun pompa ile bağlanır (pompa dahil değildir)",
+          "Suitable for garden ponds up to 90,000 litres",
+          "180-litre capacity with 3 chambers ensures reliable water purification",
+          "Equipped with 8 coarse filters, 4 fine filters, and 3 Japanese filter mats",
+          "Installed on the pond bank and connected with a suitable pump (pump not included)"
+        ],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_15937",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "DEBİ FLOW",
+            "BALIKLI GÖLET POND WITH FISH",
+            "DEKORATİF GÖLET NORMAL POND",
+            "UV-C BAĞLANTI CONNECTION UV-C",
+            "ÜRÜN BOYUTU ITEM SIZE",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "GAR202310001",
+              "12000LPH",
+              "45 m³",
+              "90 m³",
+              "PUV236",
+              "1280x540x400 mm",
+              "1.765 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "7e53b06bc6ceb54105a2a1ae3c864fa8_img.jpg",
+          "alt": "Three black rectangular pond filter units stacked together.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "61a4e1bcc4792468a30c10d4a2abedc5_img.jpg",
+          "alt": "A pond with a fountain and green plants, illustrating the use of the filter.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "3378206344ffa7a77efe3a87d1466369_img.jpg",
+          "alt": "A black rectangular pond filter unit with its lid open, showing internal components.",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "202310001",
+          "price": "1.765 €",
+          "price_eur": 1765.0,
+          "values": {
+            "code": "GAR202310001",
+            "flow": "12000LPH",
+            "pond_with_fish": "45 m³",
+            "normal_pond": "90 m³",
+            "uv_c_connection": "PUV236",
+            "item_size": "1280x540x400 mm",
+            "price": "1.765 €",
+            "price_eur": 1765.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "basin-li-fi-lrasyon-pressurized-filtration",
+      "family_title_tr": "BASINÇLI FİLRASYON PRESSURIZED FILTRATION",
+      "family_title_en": "BASINÇLI FİLRASYON PRESSURIZED FILTRATION",
+      "family_description_tr": "UV-C arıtma teknolojisi ve basınçlı pompa performansı ile gölet projelerinizde maksimum temizlik ve verimlilik sağlar.",
+      "family_line_count": 35,
+      "qualitative": {
+        "bullets_tr": [
+          "UV-C arıtma teknolojisi ve optimum akış hızıyla yüksek kaliteli filtrasyon",
+          "Özel sünger ve Japon filtre malzemeleriyle etkin biyolojik temizlik",
+          "Kanister kapak yapısı sayesinde kolay montaj ve bakım",
+          "Basınçlı pompa performansı ile şelale gibi üst seviye uygulamalara uygun",
+          "High-quality filtration with UV-C purification technology and optimum flow rate",
+          "Effective biological cleaning with special sponges and Japanese filter media",
+          "Easy installation and maintenance with canister lid design",
+          "Suitable for advanced applications like waterfalls thanks to pressure pump performance"
+        ],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_15964",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "DEBİ FLOW",
+            "BALIKLI GÖLET POND WITH FISH",
+            "DEKORATİF GÖLET NORMAL POND",
+            "UV GÜCÜ BULB POWER",
+            "KAPASİTE TANK CAPACITY",
+            "ÜRÜN BOYUTU ITEM SIZE",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "GAR202310011",
+              "6000 L/h",
+              "3 m 3",
+              "6 m 3",
+              "11 W",
+              "16 lt",
+              "310x310x405 mm",
+              "505 €"
+            ],
+            [
+              "GAR202310012",
+              "10000 L/h",
+              "6 m 3",
+              "12 m 3",
+              "11 W",
+              "25 lt",
+              "380x380x520 mm",
+              "800 €"
+            ],
+            [
+              "GAR202310013",
+              "10000 L/h",
+              "15 m 3",
+              "30 m 3",
+              "18 W",
+              "38 lt",
+              "380x380x730 mm",
+              "930 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_15974",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "DEBİ FLOW",
+            "BALIKLI GÖLET POND WITH FISH",
+            "DEKORATİF GÖLET NORMAL POND",
+            "UV GÜCÜ BULB POWER",
+            "KAPASİTE TANK CAPACITY",
+            "ÜRÜN BOYUTU ITEM SIZE",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "GAR202310015",
+              "14000 LPH",
+              "30 m 3",
+              "60 m 3",
+              "55 W",
+              "75 lt",
+              "450x450x725 mm",
+              "1.875 €"
+            ],
+            [
+              "GAR202310014",
+              "20000 LPH",
+              "50 m 3",
+              "100 m 3",
+              "55 W",
+              "300 lt",
+              "750x750x890 mm",
+              "4.750 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "f2c6643dd261cbbb80a6f37c9bd40491_img.jpg",
+          "alt": "Three black pond filters of different sizes, each with a blue valve and a black lid, arranged in a group.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "51c4ec1f8c9240388a78f47c8ddcd120_img.jpg",
+          "alt": "Two black pond filters, one cylindrical and one rounded, both with blue valves and black lids.",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "202310011",
+          "price": "505 €",
+          "price_eur": 505.0,
+          "values": {
+            "code": "GAR202310011",
+            "flow": "6000 L/h",
+            "pond_with_fish": "3 m 3",
+            "normal_pond": "6 m 3",
+            "uv_bulb_power": "11 W",
+            "tank_capacity": "16 lt",
+            "item_size": "310x310x405 mm",
+            "price": "505 €",
+            "price_eur": 505.0
+          }
+        },
+        {
+          "code": "202310012",
+          "price": "800 €",
+          "price_eur": 800.0,
+          "values": {
+            "code": "GAR202310012",
+            "flow": "10000 L/h",
+            "pond_with_fish": "6 m 3",
+            "normal_pond": "12 m 3",
+            "uv_bulb_power": "11 W",
+            "tank_capacity": "25 lt",
+            "item_size": "380x380x520 mm",
+            "price": "800 €",
+            "price_eur": 800.0
+          }
+        },
+        {
+          "code": "202310013",
+          "price": "930 €",
+          "price_eur": 930.0,
+          "values": {
+            "code": "GAR202310013",
+            "flow": "10000 L/h",
+            "pond_with_fish": "15 m 3",
+            "normal_pond": "30 m 3",
+            "uv_bulb_power": "18 W",
+            "tank_capacity": "38 lt",
+            "item_size": "380x380x730 mm",
+            "price": "930 €",
+            "price_eur": 930.0
+          }
+        },
+        {
+          "code": "202310015",
+          "price": "1.875 €",
+          "price_eur": 1875.0,
+          "values": {
+            "code": "GAR202310015",
+            "flow": "14000 LPH",
+            "pond_with_fish": "30 m 3",
+            "normal_pond": "60 m 3",
+            "uv_bulb_power": "55 W",
+            "tank_capacity": "75 lt",
+            "item_size": "450x450x725 mm",
+            "price": "1.875 €",
+            "price_eur": 1875.0
+          }
+        },
+        {
+          "code": "202310014",
+          "price": "4.750 €",
+          "price_eur": 4750.0,
+          "values": {
+            "code": "GAR202310014",
+            "flow": "20000 LPH",
+            "pond_with_fish": "50 m 3",
+            "normal_pond": "100 m 3",
+            "uv_bulb_power": "55 W",
+            "tank_capacity": "300 lt",
+            "item_size": "750x750x890 mm",
+            "price": "4.750 €",
+            "price_eur": 4750.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "uv-g-vencesi-uv-assurance",
+      "family_title_tr": "UV GÜVENCESİ UV ASSURANCE",
+      "family_title_en": "UV GÜVENCESİ UV ASSURANCE",
+      "family_description_tr": "UVC ışık teknolojisiyle gölet projelerinizde yosun ve bakterilere karşı güvenilir dezenfeksiyon sağlar.",
+      "family_line_count": 43,
+      "qualitative": {
+        "bullets_tr": [
+          "PL lamba UVC radyasyonu ile zararlı bakteri ve mikropları yok eder",
+          "14 gün içinde temiz ve berrak su sağlar",
+          "Yosun oluşumunu kontrol altına alır",
+          "Biyolojik filtre ile birlikte kullanıldığında en iyi sonuç alınır",
+          "Eliminates harmful bacteria and germs with PL lamp UVC radiation",
+          "Ensures clear and clean water within 14 days",
+          "Controls algae growth effectively",
+          "Achieves best results when combined with a biological filter"
+        ],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {
+        "max_pressure_bar": 0.3
+      },
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_16021",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "GÜÇ DEĞERİ RATED POWER",
+            "UV LAMBA GÜCÜ UV LAMP POWERFISH",
+            "KAPASİTE CAPACITY",
+            "BASINÇ MAX PRESSURE",
+            "DEBİ MAX FLOW",
+            "GİRİŞ ÇIKIŞ ADAPTÖRÜ INLET&OUTLET ADAPTER",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "GAR202310002",
+              "40 W",
+              "45 m³",
+              "90 m³",
+              "0.3 bar",
+              "6000 L/h",
+              "3/4\"-1-1/2\"",
+              "250 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "78f0922e80ada1a5a4d71eccae5da255_img.jpg",
+          "alt": "A black, cylindrical UV disinfection unit with two hose connections and a small control panel.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "31874c510f520fb9873578e9f757ba08_img.jpg",
+          "alt": "A close-up photograph of a pond with lily pads and tall grasses in the foreground, reflecting the sky and surrounding environment.",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "202310002",
+          "price": "250 €",
+          "price_eur": 250.0,
+          "values": {
+            "code": "GAR202310002",
+            "rated_power": "40 W",
+            "uv_lamp_power": "45 m³",
+            "capacity": "90 m³",
+            "max_pressure": "0.3 bar",
+            "max_flow": "6000 L/h",
+            "inlet_outlet_adapter": "3/4\"-1-1/2\"",
+            "price": "250 €",
+            "price_eur": 250.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "enerji-tasarrufu-energy-saving",
+      "family_title_tr": "ENERJİ TASARRUFU ENERGY SAVING",
+      "family_title_en": "ENERJİ TASARRUFU ENERGY SAVING",
+      "family_description_tr": "Gölet projelerinizde sürekli çalışmaya uygun, yüksek verimlilikte tasarımıyla bütçenize katkı sağlar.",
+      "family_line_count": 52,
+      "qualitative": {
+        "bullets_tr": [
+          "Gölet pazarındaki en yüksek verimlilikteki pompalar arasında yer alır",
+          "Diğer havuz pompalarına kıyasla dikkat çekici enerji tasarrufu sağlar",
+          "Enerji verimliliği ön planda tasarlanmış olup sürekli çalışması gereken sistemlerde her watt tasarrufuyla bütçeye katkıda bulunur",
+          "Among the most efficient pumps in the pond market",
+          "Provides remarkable energy savings compared to other pool pumps",
+          "Designed with energy efficiency in mind, saving every watt in systems requiring continuous operation"
+        ],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_16073",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "GÜÇ POWER",
+            "MAX ATIŞ MAX HEAD",
+            "DEBİ MAX FLOW",
+            "ÖLÇÜ DIMENSIONS",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "GAR202310016",
+              "40w",
+              "4.2 m",
+              "6000 L/h",
+              "240x200x135 mm",
+              "283 €"
+            ],
+            [
+              "GAR202310003",
+              "80w",
+              "6.0 m",
+              "10000 L/h",
+              "280x240x140 mm",
+              "322 €"
+            ],
+            [
+              "GAR202310017",
+              "100w",
+              "6.5 m",
+              "12000 L/h",
+              "280x240x140 mm",
+              "340 €"
+            ],
+            [
+              "GAR202310018",
+              "120w",
+              "7.0 m",
+              "14000 L/h",
+              "280x240x140 mm",
+              "565 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "0b83d7a6ea178cd29a4f6494faf5e733_img.jpg",
+          "alt": "Three views of the submersible pump unit, showing its compact design and connection ports.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "2297e837654b1ef13748c24ecd6641c9_img.jpg",
+          "alt": "QR code linking to user comments.",
+          "caption": "",
+          "type": "qr"
+        }
+      ],
+      "variants": [
+        {
+          "code": "202310016",
+          "price": "283 €",
+          "price_eur": 283.0,
+          "values": {
+            "code": "GAR202310016",
+            "power_w": "40w",
+            "max_head": "4.2 m",
+            "max_flow": "6000 L/h",
+            "dimensions": "240x200x135 mm",
+            "price": "283 €",
+            "price_eur": 283.0
+          }
+        },
+        {
+          "code": "202310003",
+          "price": "322 €",
+          "price_eur": 322.0,
+          "values": {
+            "code": "GAR202310003",
+            "power_w": "80w",
+            "max_head": "6.0 m",
+            "max_flow": "10000 L/h",
+            "dimensions": "280x240x140 mm",
+            "price": "322 €",
+            "price_eur": 322.0
+          }
+        },
+        {
+          "code": "202310017",
+          "price": "340 €",
+          "price_eur": 340.0,
+          "values": {
+            "code": "GAR202310017",
+            "power_w": "100w",
+            "max_head": "6.5 m",
+            "max_flow": "12000 L/h",
+            "dimensions": "280x240x140 mm",
+            "price": "340 €",
+            "price_eur": 340.0
+          }
+        },
+        {
+          "code": "202310018",
+          "price": "565 €",
+          "price_eur": 565.0,
+          "values": {
+            "code": "GAR202310018",
+            "power_w": "120w",
+            "max_head": "7.0 m",
+            "max_flow": "14000 L/h",
+            "dimensions": "280x240x140 mm",
+            "price": "565 €",
+            "price_eur": 565.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "tamamen-su-ge-i-rmez-motor-sealed-waterproof",
+      "family_title_tr": "TAMAMEN SU GEÇİRMEZ MOTOR SEALED & WATERPROOF",
+      "family_title_en": "TAMAMEN SU GEÇİRMEZ MOTOR SEALED & WATERPROOF",
+      "family_description_tr": "Tamamen sızdırmaz ve su geçirmez motoru ile uzun ömürlü ve güvenilir kullanım sağlar.",
+      "family_line_count": 46,
+      "qualitative": {
+        "bullets_tr": [
+          "Özel rotor malzemesiyle uzun ömürlü kullanım",
+          "Kolay çalıştırma ve düşük enerji tüketimi",
+          "Dayanıklı gövde, sessiz çalışma",
+          "Tamamen sızdırmaz ve su geçirmez motor",
+          "Yeni tasarımlı asenkron motor ile %50'ye varan enerji tasarrufu",
+          "Long-lasting use with special rotor material",
+          "Easy start-up and low energy consumption",
+          "Durable body with quiet operation",
+          "Fully sealed and waterproof motor",
+          "Up to 50% energy saving with redesigned asynchronous motor"
+        ],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_16125",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "GÜÇ DEĞERİ RATED POWER",
+            "MAX ATIŞ MAX HEAD",
+            "DEBİ MAX FLOW",
+            "HORTUM ADAPTÖR DIMENSIONS",
+            "SERTİFİKA CERTIFICATE",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "GAR202310019",
+              "175 w",
+              "8.5 m",
+              "18000 L/H",
+              "1\"-1-1/4\"-1-1/2\"-2\"",
+              "CE / GS",
+              "480 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "ca683a4f840b6d0c92d905bcf9245edc_img.jpg",
+          "alt": "A blue and black submersible pump unit with a black base and a blue upper section, featuring a handle on top and a black hose connection.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "feeb7573eae630d4498c9708ab9cbc4b_img.jpg",
+          "alt": "A lush garden scene with a small waterfall flowing over a stone edge into a pool. Large potted plants and green foliage surround the area, creating a serene and natural atmosphere.",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "202310019",
+          "price": "480 €",
+          "price_eur": 480.0,
+          "values": {
+            "code": "GAR202310019",
+            "rated_power": "175 w",
+            "max_head": "8.5 m",
+            "max_flow": "18000 L/H",
+            "hose_adapter_dimensions": "1\"-1-1/4\"-1-1/2\"-2\"",
+            "certificate": "CE / GS",
+            "price": "480 €",
+            "price_eur": 480.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "temi-z-si-rk-lasyon-clean-circulation",
+      "family_title_tr": "TEMİZ SİRKÜLASYON CLEAN CIRCULATION",
+      "family_title_en": "TEMİZ SİRKÜLASYON CLEAN CIRCULATION",
+      "family_description_tr": "Sürekli ve güvenilir su dolaşımı sağlayarak gölet projelerinizde optimum biyolojik temizlik sunar.",
+      "family_line_count": 45,
+      "qualitative": {
+        "bullets_tr": [
+          "Havuz temizliği için gerekli tüm işlevleri sunar",
+          "Entegre pompa ile sürekli ve güvenilir su sirkülasyonu sağlar",
+          "Teslimat içeriğindeki aksesuarlarla havuz veya fıskiye pompası olarak kullanılabilir",
+          "Ek filtre süngeri ve 3 filtre aşaması sayesinde optimum biyolojik temizlik sağlar",
+          "Provides all essential functions for pond cleaning",
+          "Integrated pump ensures continuous and reliable water circulation",
+          "Can be used as pond or fountain pump with included accessories",
+          "Additional filter sponge and 3 filter stages deliver optimal biological cleaning"
+        ],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_16172",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "GÜÇ POWER",
+            "UV-C LAMBA UV-C LAMP",
+            "KAPASİTE CAPACITY",
+            "MAX ATIŞ MAX HEAD",
+            "DEBİ MAX FLOW",
+            "ÖLÇÜ DIMENSIONS",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "GAR202310007",
+              "28 W",
+              "9 W",
+              "2500 L",
+              "1.6 m",
+              "1000 L/h",
+              "316x251x135 mm",
+              "200 €"
+            ],
+            [
+              "GAR202310006",
+              "45 W",
+              "11 W",
+              "4000 L",
+              "2 m",
+              "2000 L/h",
+              "387x275x136 mm",
+              "226 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "e403f96116672db22786e4b67495183a_img.jpg",
+          "alt": "A black submersible pond pump with a vertical shaft and a black base.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "7cde50c015c17e05a51d73602934fba4_img.jpg",
+          "alt": "A close-up view of a water fountain feature, showing water spraying upwards from a central point.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "3bd64235ce3574eb989a793638275010_img.jpg",
+          "alt": "A cross-sectional diagram of a pond showing a submersible pump at the bottom, with water being pumped up through a vertical pipe to a fountain feature at the surface.",
+          "caption": "",
+          "type": "diagram"
+        }
+      ],
+      "variants": [
+        {
+          "code": "202310007",
+          "price": "200 €",
+          "price_eur": 200.0,
+          "values": {
+            "code": "GAR202310007",
+            "power_w": "28 W",
+            "uv_c_lamp": "9 W",
+            "capacity": "2500 L",
+            "max_head": "1.6 m",
+            "max_flow": "1000 L/h",
+            "dimensions": "316x251x135 mm",
+            "price": "200 €",
+            "price_eur": 200.0
+          }
+        },
+        {
+          "code": "202310006",
+          "price": "226 €",
+          "price_eur": 226.0,
+          "values": {
+            "code": "GAR202310006",
+            "power_w": "45 W",
+            "uv_c_lamp": "11 W",
+            "capacity": "4000 L",
+            "max_head": "2 m",
+            "max_flow": "2000 L/h",
+            "dimensions": "387x275x136 mm",
+            "price": "226 €",
+            "price_eur": 226.0
+          }
+        },
+        {
+          "code": "19810123071",
+          "price": "42 €",
+          "price_eur": 42.0,
+          "values": {
+            "code": "19810123071",
+            "power_w": "6W",
+            "flow_max": "350L/H",
+            "head_max": "0,8 m",
+            "outlet": "13 m",
+            "weight": "11 kg",
+            "price": "42 €",
+            "price_eur": 42.0
+          }
+        },
+        {
+          "code": "19810123072",
+          "price": "53 €",
+          "price_eur": 53.0,
+          "values": {
+            "code": "19810123072",
+            "power_w": "12W",
+            "flow_max": "750L/H",
+            "head_max": "1,5 m",
+            "outlet": "13 m",
+            "weight": "12,5 kg",
+            "price": "53 €",
+            "price_eur": 53.0
+          }
+        },
+        {
+          "code": "19810123090",
+          "price": "82 €",
+          "price_eur": 82.0,
+          "values": {
+            "code": "19810123090",
+            "power_w": "35W",
+            "flow_max": "2000L/H",
+            "head_max": "3 m",
+            "outlet": "1 / 2\"",
+            "weight": "20 kg",
+            "price": "82 €",
+            "price_eur": 82.0
+          }
+        },
+        {
+          "code": "19810123091",
+          "price": "110 €",
+          "price_eur": 110.0,
+          "values": {
+            "code": "19810123091",
+            "power_w": "55W",
+            "flow_max": "3000L/H",
+            "head_max": "3,5 m",
+            "outlet": "1 / 2\"",
+            "weight": "22,6 kg",
+            "price": "110 €",
+            "price_eur": 110.0
+          }
+        },
+        {
+          "code": "19810123075",
+          "price": "250 €",
+          "price_eur": 250.0,
+          "values": {
+            "code": "19810123075",
+            "power_w": "85W",
+            "flow_max": "5000L/H",
+            "head_max": "4,5 m",
+            "outlet": "1\"",
+            "weight": "22,6 kg",
+            "price": "250 €",
+            "price_eur": 250.0
+          }
+        },
+        {
+          "code": "19810123076",
+          "price": "270 €",
+          "price_eur": 270.0,
+          "values": {
+            "code": "19810123076",
+            "power_w": "105W",
+            "flow_max": "6000L/H",
+            "head_max": "5,2 m",
+            "outlet": "1\"",
+            "weight": "23 kg",
+            "price": "270 €",
+            "price_eur": 270.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "senkron-smart",
+      "family_title_tr": "Senkron Smart",
+      "family_title_en": "Senkron Smart",
+      "family_description_tr": "Kullanım kılavuzuna ulaşmak için QR kodu okutun.",
+      "family_line_count": 35,
+      "qualitative": {
+        "bullets_tr": [
+          "Aşırı ısınma koruma rölesi ile güvenli ve güvenilir çalışma",
+          "Gizli flatör",
+          "10 m3/h debi",
+          "Bakır sargı elektrik motoru",
+          "Kirden sıkışmayan flatör sistemi",
+          "Tek kademeli",
+          "Safe and reliable operation with overheat protection relay",
+          "Hidden floater",
+          "Flow rate of 10 m3/h",
+          "Copper wounded electric motor",
+          "Floater system not jammed from dirt",
+          "Single stage"
+        ],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_16262",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "ÜRÜN ADI NAME",
+            "GÜÇ POWER",
+            "DEBİ L/H FLOW L/H",
+            "BASMA YÜKSEKLİĞİ HEAD",
+            "KABLO CABLE",
+            "VOLTAJ VOLTAGE",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "19810123080",
+              "Dalgıç Pompa Submersible Pump",
+              "550W",
+              "10.000",
+              "8,5 mt",
+              "10 mt",
+              "220V/50Hz",
+              "110 €"
+            ],
+            [
+              "11516262039",
+              "Havuz Örtüsü Dalgıç Pompası Submersible Pump for Pool Cover",
+              "0,55 kW",
+              "10.000",
+              "8,5 mt",
+              "10 mt",
+              "220V/50Hz",
+              "150 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "3f61b2791c521aac78e1995fb0f810a9_img.jpg",
+          "alt": "QR code linking to the user manual.",
+          "caption": "",
+          "type": "qr"
+        },
+        {
+          "file": "6797a85632f65dcd434b57770de7be51_img.jpg",
+          "alt": "Image of the Senkron Smart Submersible Pump.",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "19810123080",
+          "price": "110 €",
+          "price_eur": 110.0,
+          "values": {
+            "code": "19810123080",
+            "name": "Dalgıç Pompa Submersible Pump",
+            "power_w": "550W",
+            "flow_lh": "10.000",
+            "head": "8,5 mt",
+            "cable": "10 mt",
+            "voltage": "220V/50Hz",
+            "price": "110 €",
+            "price_eur": 110.0
+          }
+        },
+        {
+          "code": "11516262039",
+          "price": "150 €",
+          "price_eur": 150.0,
+          "values": {
+            "code": "11516262039",
+            "name": "Havuz Örtüsü Dalgıç Pompası Submersible Pump for Pool Cover",
+            "power_w": "0,55 kW",
+            "flow_lh": "10.000",
+            "head": "8,5 mt",
+            "cable": "10 mt",
+            "voltage": "220V/50Hz",
+            "price": "150 €",
+            "price_eur": 150.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "trione",
+      "family_title_tr": "Trione",
+      "family_title_en": "Trione",
+      "family_description_tr": "Kullanım kılavuzuna ulaşmak için QR kodu okutun.",
+      "family_line_count": 30,
+      "qualitative": {
+        "bullets_tr": [
+          "Aşırı ısınma koruma rölesi ile güvenli ve güvenilir çalışma",
+          "Gizli flatör",
+          "10 m3/h debi",
+          "Alüminyum sargı elektrik motoru ve dolayısıyla piyasanın en uygun fiyatlı dalgıç pompası",
+          "Tek kademeli",
+          "Safe and reliable operation with overheat protection relay",
+          "Hidden floater",
+          "Flow rate of 10 m3/h",
+          "Aluminum wounded Electric motor with the most affordable submersible pump on the market",
+          "Single stage"
+        ],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_16296",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "GÜÇ POWER",
+            "DEBİ L/H FLOW L/H",
+            "BASMA YÜKSEKLİĞİ HEAD",
+            "KABLO CABLE",
+            "VOLTAJ VOLTAGE",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "19810123081",
+              "550W",
+              "10.500",
+              "8 mt",
+              "10 mt",
+              "220V/50Hz",
+              "90 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "bb2d83b036c7bf6ae0200b9677a1c988_img.jpg",
+          "alt": "QR code linking to the user manual.",
+          "caption": "",
+          "type": "qr"
+        },
+        {
+          "file": "03b2970039b8524b3968a1d6e30fa451_img.jpg",
+          "alt": "Image of the Trione Submersible Pump.",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "19810123081",
+          "price": "90 €",
+          "price_eur": 90.0,
+          "values": {
+            "code": "19810123081",
+            "power_w": "550W",
+            "flow_lh": "10.500",
+            "head": "8 mt",
+            "cable": "10 mt",
+            "voltage": "220V/50Hz",
+            "price": "90 €",
+            "price_eur": 90.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "suni-ah-ap-taban-wooden-base",
+      "family_title_tr": "Suni Ahşap Taban Wooden Base",
+      "family_title_en": "Suni Ahşap Taban Wooden Base",
+      "family_description_tr": "Image of the wooden base.",
+      "family_line_count": 15,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {
+        "max_pressure_bar": 4.0
+      },
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_16360",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "ÖLÇÜ SIZE",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "GAR202310024",
+              "64x100 cm",
+              "225 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_16364",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "TANK KAPASİTESİ TANK CAPACITY",
+            "ÖLÇÜ SIZE",
+            "TANK CİNSİ TANK MATERIAL",
+            "BASINÇ MAX PRESSURE",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "GAR2023100082",
+              "20 LT",
+              "2160xdiax110mm",
+              "PVC",
+              "4.0 BAR",
+              "300 €"
+            ],
+            [
+              "GAR2023100081",
+              "35 LT",
+              "2170x220x180mm",
+              "PVC",
+              "4.0 BAR",
+              "350 €"
+            ],
+            [
+              "GAR2023100083 NEW",
+              "40 LT",
+              "2300x215x160mm",
+              "PVC",
+              "4.0 BAR",
+              "--"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "c80a38dd45f5954a6c985db886ceaca5_img.jpg",
+          "alt": "Image of the wooden base.",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "202310024",
+          "price": "225 €",
+          "price_eur": 225.0,
+          "values": {
+            "code": "GAR202310024",
+            "size": "64x100 cm",
+            "price": "225 €",
+            "price_eur": 225.0
+          }
+        },
+        {
+          "code": "2023100082",
+          "price": "300 €",
+          "price_eur": 300.0,
+          "values": {
+            "code": "GAR2023100082",
+            "tank_capacity": "20 LT",
+            "size": "2160xdiax110mm",
+            "tank_material": "PVC",
+            "max_pressure": "4.0 BAR",
+            "price": "300 €",
+            "price_eur": 300.0
+          }
+        },
+        {
+          "code": "2023100081",
+          "price": "350 €",
+          "price_eur": 350.0,
+          "values": {
+            "code": "GAR2023100081",
+            "tank_capacity": "35 LT",
+            "size": "2170x220x180mm",
+            "tank_material": "PVC",
+            "max_pressure": "4.0 BAR",
+            "price": "350 €",
+            "price_eur": 350.0
+          }
+        },
+        {
+          "code": "2023100083",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "GAR2023100083 NEW",
+            "tank_capacity": "40 LT",
+            "size": "2300x215x160mm",
+            "tank_material": "PVC",
+            "max_pressure": "4.0 BAR",
+            "price": "--"
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "esteti-k-aki-aesthetic-flow",
+      "family_title_tr": "ESTETİK AKIŞ AESTHETIC FLOW",
+      "family_title_en": "ESTETİK AKIŞ AESTHETIC FLOW",
+      "family_description_tr": "Gölet ve yüzme havuzlarında sakinleştirici bir atmosfer oluşturur; estetik görünüm ve profesyonel uygulama avantajı sunar.",
+      "family_line_count": 56,
+      "qualitative": {
+        "bullets_tr": [
+          "Yüzme havuzları veya göletler için özel olarak tasarlanmıştır",
+          "Sakinleştirici su akışıyla estetik bir atmosfer oluşturur",
+          "Gölet veya havuz projelerinde görsel etkiyi artırır",
+          "Su perdesi uygulamalarında profesyoneller için ideal çözümdür",
+          "Specially designed for swimming pools or ponds",
+          "Creates a tranquil and visually appealing water flow",
+          "Enhances the aesthetic impact of pool and pond projects",
+          "Ideal solution for professionals specializing in waterfall installations"
+        ],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_16478",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "UZUNLUK PRODUCTION LENGTH",
+            "LEDLİ WITH LED",
+            "DEBİ FLOW RATE",
+            "AĞIZ UZUNLUĞU LIP LENGTH",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "GAR202310020",
+              "300 mm",
+              "+",
+              "4000LPH",
+              "30 mm",
+              "245 €"
+            ],
+            [
+              "GAR202310021",
+              "600 mm",
+              "+",
+              "6000LPH",
+              "30 mm",
+              "320 €"
+            ],
+            [
+              "GAR202310022",
+              "900 mm",
+              "x",
+              "10000LPH",
+              "30 mm",
+              "495 €"
+            ],
+            [
+              "GAR202310023",
+              "1200 mm",
+              "x",
+              "12000LPH",
+              "30 mm",
+              "530 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "fd5816d57e8be21e7bb7bc3bf04d4ef5_img.jpg",
+          "alt": "Two rectangular waterfall units with blue LED lighting, one above the other, showing the internal structure and lighting.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "ea9dd93819efe73b0f126a53cdaf7828_img.jpg",
+          "alt": "A waterfall unit installed in a stone wall, showing water flowing over the edge into a pool.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "fa0c81518d282dd9e693da5ab10dd4ec_img.jpg",
+          "alt": "A waterfall unit installed in a stone wall, showing water flowing over the edge into a pool.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "d159c97ca572bbb8d140068909777659_img.jpg",
+          "alt": "A small waterfall feature with water cascading over a dark metal edge into a bed of colorful pebbles, with green foliage in the background.",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "202310020",
+          "price": "245 €",
+          "price_eur": 245.0,
+          "values": {
+            "code": "GAR202310020",
+            "production_length": "300 mm",
+            "with_led": "+",
+            "flow_rate": "4000LPH",
+            "lip_length": "30 mm",
+            "price": "245 €",
+            "price_eur": 245.0
+          }
+        },
+        {
+          "code": "202310021",
+          "price": "320 €",
+          "price_eur": 320.0,
+          "values": {
+            "code": "GAR202310021",
+            "production_length": "600 mm",
+            "with_led": "+",
+            "flow_rate": "6000LPH",
+            "lip_length": "30 mm",
+            "price": "320 €",
+            "price_eur": 320.0
+          }
+        },
+        {
+          "code": "202310022",
+          "price": "495 €",
+          "price_eur": 495.0,
+          "values": {
+            "code": "GAR202310022",
+            "production_length": "900 mm",
+            "with_led": "x",
+            "flow_rate": "10000LPH",
+            "lip_length": "30 mm",
+            "price": "495 €",
+            "price_eur": 495.0
+          }
+        },
+        {
+          "code": "202310023",
+          "price": "530 €",
+          "price_eur": 530.0,
+          "values": {
+            "code": "GAR202310023",
+            "production_length": "1200 mm",
+            "with_led": "x",
+            "flow_rate": "12000LPH",
+            "lip_length": "30 mm",
+            "price": "530 €",
+            "price_eur": 530.0
+          }
+        }
+      ]
+    }
+  ]
+}

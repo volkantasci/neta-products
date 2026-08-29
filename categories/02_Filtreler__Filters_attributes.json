@@ -1,0 +1,3492 @@
+{
+  "category_no": "02",
+  "category_tr": "Filtreler",
+  "category_en": "Filters",
+  "family_count": 10,
+  "variant_count": 76,
+  "families": [
+    {
+      "family_product_id": "lamex-filtreler-lamex-filters",
+      "family_title_tr": "Lamex® Filtreler Lamex® Filters",
+      "family_title_en": "Lamex® Filtreler Lamex® Filters",
+      "family_description_tr": "Türkiye'nin tercih edilen kum filtre markası Lamex, havuzlarda maksimum performans ve uzun ömür için tasarlanmıştır. Neta Havuz üretimi olan Lamex® filtreler, 2+2 yıl garantili, ömür boyu garantili çok yollu vanaları ve geniş model seçeneği ile her havuza güvenli ve etkili filtrasyon sunar.",
+      "family_line_count": 322,
+      "qualitative": {
+        "bullets_tr": [
+          "Lamex model filtreler özel amaçlı havuz kullanımı içindir",
+          "İsteğe bağlı olarak farklı renklerde üretilebilir",
+          "İsteğe bağlı olarak şeffaf kapak ile verilebilir",
+          "Praher (Avusturya) çok yollu yandan vana",
+          "Isıtmalı havuzlarda kullanıma uygundur",
+          "UV dayanımlıdır, açık ortamda montaj edilebilir",
+          "Her çesit havuza, tatlı veya tuzlu suya uygundur",
+          "Suitable for residential pool",
+          "Optionally as it can be produced in different colors",
+          "Optionally as it can be produced in transparent lid upon request",
+          "Side mounted multiport valves Praher (Austria)",
+          "Can be used for heated pools",
+          "Can be installed outdoors",
+          "Suitable for all pools types, fresh or salt water",
+          "Lamex model filtreler ticari havuzlar, su parkları, fıskiyeler için uygundur",
+          "İsteğe bağlı olarak farklı renklerde üretilebilir",
+          "Ø50 cm cam elyaf takviyeli plastik kapak",
+          "Isıtmalı havuzlarda kullanıma uygundur",
+          "Her çeşit havuza, tatlı veya tuzlu suya uygundur",
+          "UV dayanımlıdır",
+          "Açık ortamda montaj edilebilir",
+          "Aşındırıcı olmayan polyester, pürüzsüz çekici kaplamaya sahip fiberglass kompozit yapı",
+          "6 yollu vana dahil değildir",
+          "Suitable for commercial pools, waterparks, fountains etc.",
+          "Optionally as it can be produced in different colors",
+          "Ø50 cm diameter plastic lid from fibre glass reinforced",
+          "Can be used for heated pools",
+          "Suitable for all pools types, fresh or salt water",
+          "UV resistant",
+          "Can be installed outdoors",
+          "Non-Corrosive polyester, fiberglass composite construction with smooth attractive finish",
+          "Excluded in 6-way valve"
+        ],
+        "bullets_en": [],
+        "icons": [
+          "RESIDENTIAL POOL",
+          "2+2 YEAR WARRANTY",
+          "RESIDENTIAL POOL",
+          "2+2 YEAR WARRANTY"
+        ],
+        "badges": []
+      },
+      "family_specs_quantitative": {
+        "max_temp_c": 28,
+        "max_pressure_bar": 2.5
+      },
+      "notes": [
+        "In case of production with ozone-resistant raw material, additional 30% price increase is applied.",
+        "In case of production with ozone-resistant raw material, additional 30% price increase is applied."
+      ],
+      "family_notes": [
+        "In case of production with ozone-resistant raw material, additional 30% price increase is applied.",
+        "In case of production with ozone-resistant raw material, additional 30% price increase is applied."
+      ],
+      "tables": [
+        {
+          "table_id": "table_2668",
+          "type": "performance",
+          "headers": [
+            "Model:",
+            "Çap Dia",
+            "Kullanım Alanı Area Of Use",
+            "Bağlantı Connection",
+            "Max. Debi Max. Flow"
+          ],
+          "rows": [
+            [
+              "LS 500-900",
+              "500-900 mm",
+              "Konut Havuzu Residential Pool",
+              "1½\"-2\"",
+              "8-30 m³/h"
+            ],
+            [
+              "LS 1050-2000",
+              "1050-2200 mm",
+              "Ticari Havuz/ Su Parkı Commercial Pools/ Waterparks",
+              "2½\"-4\"",
+              "35-190 m³/h"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_2781",
+          "type": "dimensions",
+          "headers": [
+            "MODEL",
+            "A mm",
+            "B mm",
+            "C mm",
+            "D mm",
+            "E mm",
+            "-"
+          ],
+          "rows": [
+            [
+              "LS 500 »",
+              "335",
+              "270",
+              "500",
+              "135",
+              "770",
+              "-"
+            ],
+            [
+              "LS 650 »",
+              "380",
+              "320",
+              "650",
+              "140",
+              "800",
+              "-"
+            ],
+            [
+              "LS 720 »",
+              "390",
+              "320",
+              "750",
+              "150",
+              "850",
+              "-"
+            ],
+            [
+              "LS 800 »",
+              "400",
+              "325",
+              "800",
+              "1609",
+              "900",
+              "-"
+            ],
+            [
+              "LS 900 »",
+              "460",
+              "370",
+              "950",
+              "240",
+              "1050",
+              "-"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_2793",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "ÇAP DIAMETER",
+            "BAĞLANTI GİRİŞ ÇIKIŞ INLET OUTLET",
+            "DEBİ m³/h FLOW",
+            "ÇALIŞMA BASINCI WORKING PRESSURE",
+            "MAX. ÇALIŞMA BASINCI MAX. WORKING PRESSURE",
+            "TEST BASINCI TEST PRESSURE",
+            "KUM SAND",
+            "AĞIRLIK WEIGHT",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "12015122046",
+              "500 mm",
+              "1 ½",
+              "8",
+              "1,5 bar",
+              "2,5 bar",
+              "3,5 bar",
+              "75 kg",
+              "18 kg",
+              "365 €"
+            ],
+            [
+              "12015122021",
+              "650 mm",
+              "1 ½",
+              "15",
+              "1,5 bar",
+              "2,5 bar",
+              "3,5 bar",
+              "150 kg",
+              "19 kg",
+              "385 €"
+            ],
+            [
+              "12015122077",
+              "720 mm",
+              "1 ½",
+              "22",
+              "1,5 bar",
+              "2,5 bar",
+              "3,5 bar",
+              "300 kg",
+              "27 kg",
+              "485 €"
+            ],
+            [
+              "12015122078",
+              "720 mm",
+              "2\"",
+              "22",
+              "1,5 bar",
+              "2,5 bar",
+              "3,5 bar",
+              "300 kg",
+              "27 kg",
+              "500 €"
+            ],
+            [
+              "12015122022",
+              "800 mm",
+              "2\"",
+              "22",
+              "1,5 bar",
+              "2,5 bar",
+              "3,5 bar",
+              "350 kg",
+              "30 kg",
+              "525 €"
+            ],
+            [
+              "12015122037",
+              "900 mm",
+              "2\"",
+              "30",
+              "1,5 bar",
+              "2,5 bar",
+              "3,5 bar",
+              "400 kg",
+              "37 kg",
+              "565 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_2908",
+          "type": "dimensions",
+          "headers": [
+            "MODEL",
+            "A mm",
+            "B mm",
+            "C mm",
+            "D mm",
+            "E mm",
+            "-"
+          ],
+          "rows": [
+            [
+              "LS 1050 »",
+              "670",
+              "440",
+              "1050",
+              "460",
+              "1380",
+              "-"
+            ],
+            [
+              "LS 1250 »",
+              "570",
+              "360",
+              "1250",
+              "460",
+              "1350",
+              "-"
+            ],
+            [
+              "LS 1450 »",
+              "800",
+              "630",
+              "1400",
+              "440",
+              "1630",
+              "-"
+            ],
+            [
+              "LS 1600 »",
+              "850",
+              "690",
+              "1600",
+              "450",
+              "1750",
+              "-"
+            ],
+            [
+              "LS 2000 »",
+              "900",
+              "785",
+              "2000",
+              "490",
+              "850",
+              "-"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_2920",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "ÇAP DIAMETER",
+            "BAĞLANTI GİRİŞ ÇIKIŞ INLET OUTLET",
+            "DEBİ m³/h FLOW",
+            "ÇALIŞMA BASINCI WORKING PRESSURE",
+            "MAX. ÇALIŞMA BASINCI MAX. WORKING PRESSURE",
+            "TEST BASINCI TEST PRESSURE",
+            "KUM SAND",
+            "AĞIRLIK WEIGHT",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "12015122056",
+              "1.050 mm",
+              "75",
+              "43",
+              "1,5 bar",
+              "2,5 bar",
+              "3,5 bar",
+              "1.050 kg",
+              "95 kg",
+              "847 €"
+            ],
+            [
+              "12015122057",
+              "1.250 mm",
+              "90",
+              "56",
+              "1,5 bar",
+              "2,5 bar",
+              "3,5 bar",
+              "1.200 kg",
+              "110 kg",
+              "1.089 €"
+            ],
+            [
+              "12015122063",
+              "1.400 mm",
+              "110",
+              "77",
+              "1,5 bar",
+              "2,5 bar",
+              "3,5 bar",
+              "1.950 kg",
+              "160 kg",
+              "1.573 €"
+            ],
+            [
+              "12015122058",
+              "1.600 mm",
+              "110",
+              "100",
+              "1,5 bar",
+              "2,5 bar",
+              "3,5 bar",
+              "3.050 kg",
+              "175 kg",
+              "1.936 €"
+            ],
+            [
+              "12015122059",
+              "2.000 mm",
+              "160",
+              "157",
+              "1,5 bar",
+              "2,5 bar",
+              "3,5 bar",
+              "4.950 kg",
+              "224 kg",
+              "3.135 €"
+            ],
+            [
+              "12015122065",
+              "2.200 mm",
+              "200",
+              "190",
+              "1,5 bar",
+              "2,5 bar",
+              "3,5 bar",
+              "5.700 kg",
+              "425 kg",
+              "5.747 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "ddc875f881bafee11e4fb5973c8a7918_img.jpg",
+          "alt": "water fun and LAMEx logos",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "474827f04e18dc4a3b073e8785813a76_img.jpg",
+          "alt": "2+2 Yıl Garanti 2+2 Year Warranty icon",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "73cd748db3de5beee1e9c3768c9e5564_img.jpg",
+          "alt": "Yerli Üretim Made in Türkiye icon",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "53d30aa4ecaa092477cb3ef6ec874bec_img.jpg",
+          "alt": "UV Dayanımı UV Resistant icon",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "b52180f7a841ba1408d66e2bac469720_img.jpg",
+          "alt": "Tatlı/Tuzlu Su For Fresh Salt Water icon",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "401fe9e8dac2a2e82e8bd3be55e6d832_img.jpg",
+          "alt": "Isıtmalı Havuz Uyumlu Compatible with Heated Pools icon",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "873f58d89633aebf2ed40d4392954f06_img.jpg",
+          "alt": "Lamex LS 650 sand filter unit",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "36f58a7a683ba9fcb496442ebdde99f2_img.jpg",
+          "alt": "CE mark",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "711ec8db6b4a2d4e24b0c0b2ed8853b8_img.jpg",
+          "alt": "NETA HAVUZ PRODUCT logo",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "ef0e5cc71642e47e087e1a98d3f7b74c_img.jpg",
+          "alt": "Lamex LS 650 filter unit, blue tank with black multiport valve and pressure gauge.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "63ae75eedbc0eeea2efd2ee19c2fbc7d_img.jpg",
+          "alt": "Close-up view of the black multiport valve assembly.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "be9fe2e2b42b751fbc5361f1e8d62d89_img.jpg",
+          "alt": "Lamex LS 720 filter unit, blue tank with black multiport valve and pressure gauge.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "537ca37419783394e9b8ab64dd4da754_img.jpg",
+          "alt": "CE mark",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "7898f899fb291b02fbb353e0337c5514_img.jpg",
+          "alt": "Icon showing a thermometer with a red line indicating a maximum temperature of 28 degrees.",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "62fc85e6e55dd173d0a068ff70e8a0fe_img.jpg",
+          "alt": "Icon showing a pressure gauge with a red line indicating a test pressure of 3.5 bar.",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "a5ac14c169791c2e7e896d32f9e86c94_img.jpg",
+          "alt": "Diagram of a Lamex filter unit showing dimensions A, B, C, D, and E. A is the total height, B is the height of the main body, C is the width of the base, D is the width of the top opening, and E is the height of the top opening.",
+          "caption": "",
+          "type": "dimensions"
+        },
+        {
+          "file": "0baabed74e5fce9eaf1cac18837415d8_img.jpg",
+          "alt": "NETA HAVUZ PRODUCT logo",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "f88d85789030ae43f43d61fe4ac3e64e_img.jpg",
+          "alt": "A large blue Lamex filter tank (Model: LS 900) with a white lid and a pressure gauge. A smaller blue filter tank is partially visible on the left. A black pressure gauge is shown separately below the main tank.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "d9151713dc02d9d7933ac7e2c4a4441c_img.jpg",
+          "alt": "CE mark",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "a5401e6e135dd71a66b971729e9225c8_img.jpg",
+          "alt": "Icon showing a thermometer with 'MAX. 40°' text, indicating temperature resistance.",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "9b83c2c9b234cacace23fe513bbc2b35_img.jpg",
+          "alt": "Icon showing a pressure gauge with 'TEST 3,5 BAR' text, indicating test pressure.",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "39c092f3c45aba0ba8a5132d87757dd7_img.jpg",
+          "alt": "Diagram of the Lamex filter unit showing dimensions A, B, C, D, and E. A is the height of the main body, B is the total height including the base, C is the width at the top, D is the diameter of the opening, and E is the height of the base.",
+          "caption": "",
+          "type": "dimensions"
+        }
+      ],
+      "variants": [
+        {
+          "code": "12015122046",
+          "price": "365 €",
+          "price_eur": 365.0,
+          "values": {
+            "code": "12015122046",
+            "ap_diameter": "500 mm",
+            "inlet_outlet": "1 ½",
+            "flow_m3h": "8",
+            "working_pressure": "1,5 bar",
+            "max_working_pressure": "2,5 bar",
+            "test_pressure": "3,5 bar",
+            "sand": "75 kg",
+            "weight": "18 kg",
+            "price": "365 €",
+            "price_eur": 365.0
+          }
+        },
+        {
+          "code": "12015122021",
+          "price": "385 €",
+          "price_eur": 385.0,
+          "values": {
+            "code": "12015122021",
+            "ap_diameter": "650 mm",
+            "inlet_outlet": "1 ½",
+            "flow_m3h": "15",
+            "working_pressure": "1,5 bar",
+            "max_working_pressure": "2,5 bar",
+            "test_pressure": "3,5 bar",
+            "sand": "150 kg",
+            "weight": "19 kg",
+            "price": "385 €",
+            "price_eur": 385.0
+          }
+        },
+        {
+          "code": "12015122077",
+          "price": "485 €",
+          "price_eur": 485.0,
+          "values": {
+            "code": "12015122077",
+            "ap_diameter": "720 mm",
+            "inlet_outlet": "1 ½",
+            "flow_m3h": "22",
+            "working_pressure": "1,5 bar",
+            "max_working_pressure": "2,5 bar",
+            "test_pressure": "3,5 bar",
+            "sand": "300 kg",
+            "weight": "27 kg",
+            "price": "485 €",
+            "price_eur": 485.0
+          }
+        },
+        {
+          "code": "12015122078",
+          "price": "500 €",
+          "price_eur": 500.0,
+          "values": {
+            "code": "12015122078",
+            "ap_diameter": "720 mm",
+            "inlet_outlet": "2\"",
+            "flow_m3h": "22",
+            "working_pressure": "1,5 bar",
+            "max_working_pressure": "2,5 bar",
+            "test_pressure": "3,5 bar",
+            "sand": "300 kg",
+            "weight": "27 kg",
+            "price": "500 €",
+            "price_eur": 500.0
+          }
+        },
+        {
+          "code": "12015122022",
+          "price": "525 €",
+          "price_eur": 525.0,
+          "values": {
+            "code": "12015122022",
+            "ap_diameter": "800 mm",
+            "inlet_outlet": "2\"",
+            "flow_m3h": "22",
+            "working_pressure": "1,5 bar",
+            "max_working_pressure": "2,5 bar",
+            "test_pressure": "3,5 bar",
+            "sand": "350 kg",
+            "weight": "30 kg",
+            "price": "525 €",
+            "price_eur": 525.0
+          }
+        },
+        {
+          "code": "12015122037",
+          "price": "565 €",
+          "price_eur": 565.0,
+          "values": {
+            "code": "12015122037",
+            "ap_diameter": "900 mm",
+            "inlet_outlet": "2\"",
+            "flow_m3h": "30",
+            "working_pressure": "1,5 bar",
+            "max_working_pressure": "2,5 bar",
+            "test_pressure": "3,5 bar",
+            "sand": "400 kg",
+            "weight": "37 kg",
+            "price": "565 €",
+            "price_eur": 565.0
+          }
+        },
+        {
+          "code": "12015122056",
+          "price": "847 €",
+          "price_eur": 847.0,
+          "values": {
+            "code": "12015122056",
+            "ap_diameter": "1.050 mm",
+            "inlet_outlet": "75",
+            "flow_m3h": "43",
+            "working_pressure": "1,5 bar",
+            "max_working_pressure": "2,5 bar",
+            "test_pressure": "3,5 bar",
+            "sand": "1.050 kg",
+            "weight": "95 kg",
+            "price": "847 €",
+            "price_eur": 847.0
+          }
+        },
+        {
+          "code": "12015122057",
+          "price": "1.089 €",
+          "price_eur": 1089.0,
+          "values": {
+            "code": "12015122057",
+            "ap_diameter": "1.250 mm",
+            "inlet_outlet": "90",
+            "flow_m3h": "56",
+            "working_pressure": "1,5 bar",
+            "max_working_pressure": "2,5 bar",
+            "test_pressure": "3,5 bar",
+            "sand": "1.200 kg",
+            "weight": "110 kg",
+            "price": "1.089 €",
+            "price_eur": 1089.0
+          }
+        },
+        {
+          "code": "12015122063",
+          "price": "1.573 €",
+          "price_eur": 1573.0,
+          "values": {
+            "code": "12015122063",
+            "ap_diameter": "1.400 mm",
+            "inlet_outlet": "110",
+            "flow_m3h": "77",
+            "working_pressure": "1,5 bar",
+            "max_working_pressure": "2,5 bar",
+            "test_pressure": "3,5 bar",
+            "sand": "1.950 kg",
+            "weight": "160 kg",
+            "price": "1.573 €",
+            "price_eur": 1573.0
+          }
+        },
+        {
+          "code": "12015122058",
+          "price": "1.936 €",
+          "price_eur": 1936.0,
+          "values": {
+            "code": "12015122058",
+            "ap_diameter": "1.600 mm",
+            "inlet_outlet": "110",
+            "flow_m3h": "100",
+            "working_pressure": "1,5 bar",
+            "max_working_pressure": "2,5 bar",
+            "test_pressure": "3,5 bar",
+            "sand": "3.050 kg",
+            "weight": "175 kg",
+            "price": "1.936 €",
+            "price_eur": 1936.0
+          }
+        },
+        {
+          "code": "12015122059",
+          "price": "3.135 €",
+          "price_eur": 3135.0,
+          "values": {
+            "code": "12015122059",
+            "ap_diameter": "2.000 mm",
+            "inlet_outlet": "160",
+            "flow_m3h": "157",
+            "working_pressure": "1,5 bar",
+            "max_working_pressure": "2,5 bar",
+            "test_pressure": "3,5 bar",
+            "sand": "4.950 kg",
+            "weight": "224 kg",
+            "price": "3.135 €",
+            "price_eur": 3135.0
+          }
+        },
+        {
+          "code": "12015122065",
+          "price": "5.747 €",
+          "price_eur": 5747.0,
+          "values": {
+            "code": "12015122065",
+            "ap_diameter": "2.200 mm",
+            "inlet_outlet": "200",
+            "flow_m3h": "190",
+            "working_pressure": "1,5 bar",
+            "max_working_pressure": "2,5 bar",
+            "test_pressure": "3,5 bar",
+            "sand": "5.700 kg",
+            "weight": "425 kg",
+            "price": "5.747 €",
+            "price_eur": 5747.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "rotex-serisi-plastik-filtrelerrotex-series-polyethylen-filte",
+      "family_title_tr": "Rotex Serisi Plastik FiltrelerRotex Series Polyethylen Filter",
+      "family_title_en": "Rotex Serisi Plastik FiltrelerRotex Series Polyethylen Filter",
+      "family_description_tr": "Özel Havuzlar İçin For Residential Pools",
+      "family_line_count": 252,
+      "qualitative": {
+        "bullets_tr": [
+          "Avusturya menşeli altı yollu vana ile birlikte teslim edilir",
+          "Isıtmalı havuzlar için uygun değildir MAX. 28C°",
+          "Plastik gövdeli olduğu için dış ortamda kullanımı tavsiye edilmez",
+          "Supplied with side multiport valve made by Austria",
+          "It is not suitable to use for heated pools. Max. operating temperature is 28 °C",
+          "It is not suitable for outdoor installation",
+          "Woundex WS model sağlam, UV ışınlarına dayanıklı polyester bobin sargı gövde",
+          "Ergonomik dizayn edilmiş altı yollu vana",
+          "Yüksek performanslı filtrasyon işlemi",
+          "Her çesit havuza, tatlı veya tuzlu suya uygundur",
+          "İşletme basıncını kontrol etmek için manometre",
+          "Filtrelenmiş suyu gözlemlemek için gözetleme camı",
+          "Kilitli kelepçe, vananın 360° boyunca istenilen pozisyonda montaj yapılmasını sağlar",
+          "Suyun kum yatağının üzerine düzenli olarak dağılmasını sağlayan üst difüzör",
+          "Ani kış etkileri ve bakım için basınçla su ve kum tahliye çıkışı",
+          "7 yollu vana ile birlikte",
+          "Heavy duty UV protected polyester bobbin wounded tank",
+          "Ergonomically designed six position multiport valve",
+          "High performance filtering action",
+          "Suitable for all pools types, fresh or salt water",
+          "Special glycerine stainless construction pressure gauge for operating pressure",
+          "Sight glass for inspection of the filtered water",
+          "Clamp lock is designed to allow 360 degree rotation to simplify installation",
+          "Top diffuser ensures even distribution of water over the sand bed",
+          "A plug to drain out for sand and water drain with pressure",
+          "Included in 7-way valve"
+        ],
+        "bullets_en": [],
+        "icons": [
+          "RESIDENTIAL POOL",
+          "2 YEAR WARRANTY",
+          "2+2 YEAR WARRANTY"
+        ],
+        "badges": []
+      },
+      "family_specs_quantitative": {
+        "max_temp_c": 28,
+        "max_pressure_bar": 1.5
+      },
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_3031",
+          "type": "dimensions",
+          "headers": [
+            "MODEL",
+            "A mm",
+            "B mm",
+            "C mm",
+            "D mm"
+          ],
+          "rows": [
+            [
+              "ROTEX 500 »",
+              "500",
+              "125",
+              "610",
+              "210"
+            ],
+            [
+              "ROTEX 600 »",
+              "600",
+              "125",
+              "635",
+              "240"
+            ],
+            [
+              "ROTEX 800 »",
+              "800",
+              "175",
+              "790",
+              "275"
+            ],
+            [
+              "ROTEX 950 »",
+              "950",
+              "185",
+              "945",
+              "345"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_3042",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "ÇAP DIAMETER",
+            "BAĞLANTI GİRİŞ ÇIKIŞ INLET OUTLET",
+            "DEBİ m³/h FLOW",
+            "KUM kg SAND kg",
+            "ÇALIŞMA BASINCI WORKING PRESSURE",
+            "MAX. ÇALIŞMA BASINCI MAX. WORKING PRESSURE",
+            "TEST BASINCI TEST PRESSURE",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "12015122048",
+              "500 mm",
+              "50",
+              "10",
+              "75",
+              "1,5 bar",
+              "2,5 bar",
+              "3,5 bar",
+              "280 €"
+            ],
+            [
+              "12015122053",
+              "600 mm",
+              "50",
+              "15",
+              "150",
+              "1,5 bar",
+              "2,5 bar",
+              "3,5 bar",
+              "300 €"
+            ],
+            [
+              "12015122066",
+              "800 mm",
+              "63",
+              "22",
+              "275",
+              "1,5 bar",
+              "2,5 bar",
+              "3,5 bar",
+              "420 €"
+            ],
+            [
+              "12015122067",
+              "950 mm",
+              "63",
+              "30",
+              "450",
+              "1,5 bar",
+              "2,5 bar",
+              "3,5 bar",
+              "510 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_3167",
+          "type": "dimensions",
+          "headers": [
+            "MODEL",
+            "A mm",
+            "B mm",
+            "C mm",
+            "D mm",
+            "E mm",
+            "F mm",
+            "G mm",
+            "Hacim Volume"
+          ],
+          "rows": [
+            [
+              "525 »",
+              "780",
+              "525",
+              "220",
+              "650",
+              "370",
+              "400",
+              "320",
+              "0.22 m 3"
+            ],
+            [
+              "625 »",
+              "880",
+              "625",
+              "220",
+              "800",
+              "420",
+              "450",
+              "350",
+              "0.30 m 3"
+            ],
+            [
+              "750 »",
+              "960",
+              "750",
+              "220",
+              "900",
+              "550",
+              "600",
+              "400",
+              "0.45 m 3"
+            ],
+            [
+              "900 »",
+              "1100",
+              "900",
+              "220",
+              "1100",
+              "640",
+              "700",
+              "500",
+              "0.64 m 3"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_3178",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "ÇAP DIAMETER",
+            "BAĞLANTI GİRİŞ ÇIKIŞ INLET OUTLET",
+            "DEBİ m 3 /h FLOW",
+            "KUM kg SAND kg",
+            "AĞIRLIK Kg WEIGHT Kg",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "12015123100",
+              "525 mm",
+              "50 mm",
+              "12",
+              "85",
+              "14.4",
+              "285 €"
+            ],
+            [
+              "12015123101",
+              "625 mm",
+              "50 mm",
+              "16",
+              "150",
+              "18",
+              "350 €"
+            ],
+            [
+              "12015123102",
+              "750 mm",
+              "63 mm",
+              "23",
+              "300",
+              "34",
+              "510 €"
+            ],
+            [
+              "12015123103",
+              "900 mm",
+              "63 mm",
+              "31",
+              "470",
+              "59",
+              "630 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "c8f2f0357b99e801b1b0bb5faecf0787_img.jpg",
+          "alt": "NETA HAVUZ PRODUCT logo",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "240b551fe6eb50dfcbc2e84d142fb1cf_img.jpg",
+          "alt": "rotex 600 model filter unit with 6-way valve and pressure gauge.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "02986a9b88648c1acdccd2c2f0d7e44a_img.jpg",
+          "alt": "Icon showing a thermometer with a red line indicating a maximum temperature of 28°C.",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "0815c9bf3b2bb36413f47a50f1899cc0_img.jpg",
+          "alt": "Icon showing a pressure gauge with a needle pointing to 2.5 bar.",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "6112d6129346ef716ef42337cef5bded_img.jpg",
+          "alt": "Icon showing a filter unit with a label indicating a maximum flow rate of 50 m³/h/m².",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "64a1f496838692574d2477ca54215935_img.jpg",
+          "alt": "Technical drawing of a Rotex filter unit showing dimensions A, B, C, and D. Dimension A is the diameter of the top opening. Dimension B is the height of the top section. Dimension C is the total height of the unit. Dimension D is the height of the base section.",
+          "caption": "",
+          "type": "dimensions"
+        },
+        {
+          "file": "4103c191cea33c392bb669a73a9fab80_img.jpg",
+          "alt": "NETA HAVUZ PRODUCT logo",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "cb05e326a3eedebcfc579478a000f72f_img.jpg",
+          "alt": "Three images of the Woundex WS Filter Model: Ws 900. The top left image shows a close-up of the valve assembly. The bottom left image shows a close-up of the pressure gauge. The right image shows the full filter unit with its black base and white label.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "1c66d28bceb5f8993d19d1bc5eed071f_img.jpg",
+          "alt": "Icon of a hand pointing to a map of Turkey",
+          "caption": "TÜRKİYE'DE ÜRETİLMİŞTİR",
+          "type": "icon"
+        },
+        {
+          "file": "7f50a65ef176fba5c4484a605d815a8e_img.jpg",
+          "alt": "Icon of a clock",
+          "caption": "UZUN ÖMÜRLÜ",
+          "type": "icon"
+        },
+        {
+          "file": "469fe3264811c530cbfecc2f0e3bf98a_img.jpg",
+          "alt": "Icon of a warranty tag",
+          "caption": "2+2 YIL GARANTİLİ",
+          "type": "icon"
+        },
+        {
+          "file": "f97bbb84d3e14c71f5666b6875b81b2f_img.jpg",
+          "alt": "Icon of a thermometer",
+          "caption": "MAX. 40°",
+          "type": "icon"
+        },
+        {
+          "file": "a21b01b47c6e0feceab2bddfd6461ab4_img.jpg",
+          "alt": "Icon of a pressure gauge",
+          "caption": "TEST",
+          "type": "icon"
+        },
+        {
+          "file": "278d3fba7f1afbeedaef802f0c5d66fc_img.jpg",
+          "alt": "Icon of a pressure gauge",
+          "caption": "MAX.",
+          "type": "icon"
+        },
+        {
+          "file": "dc38b8cc7085cb587e06b8d8e5bbb240_img.jpg",
+          "alt": "Icon of a filter",
+          "caption": "MAX.",
+          "type": "icon"
+        },
+        {
+          "file": "8399308754bc9bc6c9d4cbad56349bbf_img.jpg",
+          "alt": "Technical diagram of a Woundex filter unit showing dimensions A, B, C, D, E, F, and G. Dimension A is the total width, B is the base width, C is the height of the top section, D is the total height, E is the height of the top section, F is the height of the top section, and G is the height of the top section.",
+          "caption": "",
+          "type": "dimensions"
+        }
+      ],
+      "variants": [
+        {
+          "code": "12015122048",
+          "price": "280 €",
+          "price_eur": 280.0,
+          "values": {
+            "code": "12015122048",
+            "ap_diameter": "500 mm",
+            "inlet_outlet": "50",
+            "flow_m3h": "10",
+            "sand_kg": "75",
+            "working_pressure": "1,5 bar",
+            "max_working_pressure": "2,5 bar",
+            "test_pressure": "3,5 bar",
+            "price": "280 €",
+            "price_eur": 280.0
+          }
+        },
+        {
+          "code": "12015122053",
+          "price": "300 €",
+          "price_eur": 300.0,
+          "values": {
+            "code": "12015122053",
+            "ap_diameter": "600 mm",
+            "inlet_outlet": "50",
+            "flow_m3h": "15",
+            "sand_kg": "150",
+            "working_pressure": "1,5 bar",
+            "max_working_pressure": "2,5 bar",
+            "test_pressure": "3,5 bar",
+            "price": "300 €",
+            "price_eur": 300.0
+          }
+        },
+        {
+          "code": "12015122066",
+          "price": "420 €",
+          "price_eur": 420.0,
+          "values": {
+            "code": "12015122066",
+            "ap_diameter": "800 mm",
+            "inlet_outlet": "63",
+            "flow_m3h": "22",
+            "sand_kg": "275",
+            "working_pressure": "1,5 bar",
+            "max_working_pressure": "2,5 bar",
+            "test_pressure": "3,5 bar",
+            "price": "420 €",
+            "price_eur": 420.0
+          }
+        },
+        {
+          "code": "12015122067",
+          "price": "510 €",
+          "price_eur": 510.0,
+          "values": {
+            "code": "12015122067",
+            "ap_diameter": "950 mm",
+            "inlet_outlet": "63",
+            "flow_m3h": "30",
+            "sand_kg": "450",
+            "working_pressure": "1,5 bar",
+            "max_working_pressure": "2,5 bar",
+            "test_pressure": "3,5 bar",
+            "price": "510 €",
+            "price_eur": 510.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "woundex-serisi-ws-filtrelerwoundex-series-ws-filters",
+      "family_title_tr": "Woundex Serisi WS FiltrelerWoundex Series WS Filters",
+      "family_title_en": "Woundex Serisi WS FiltrelerWoundex Series WS Filters",
+      "family_description_tr": "Özel ve Yarı Ticari Havuzlar İçin *For Residential and Semi-Commercial Pools*",
+      "family_line_count": 135,
+      "qualitative": {
+        "bullets_tr": [
+          "Woundex WS model sağlam, UV ışınlarına dayanıklı polyester bobin sargı gövde",
+          "Ergonomik dizayn edilmiş altı yollu vana",
+          "Yüksek performanslı filtrasyon işlemi",
+          "Her çesit havuza, tatlı veya tuzlu suya uygundur",
+          "İşletme basıncını kontrol etmek için manometre",
+          "Filtrelenmiş suyu gözlemlemek için gözetleme camı",
+          "Kilitli kelepçe, vananın 360° boyunca istenilen pozisyonda montaj yapılmasını sağlar",
+          "Suyun kum yatağının üzerine düzenli olarak dağılmasını sağlayan üst difüzör",
+          "Ani kış etkileri ve bakım için basınçla su ve kum tahliye çıkışı",
+          "7 yollu vana ile birlikte",
+          "Heavy duty UV protected polyester bobbin wounded tank",
+          "Ergonomically designed six position multiport valve",
+          "High performance filtering action",
+          "Suitable for all pools types, fresh or salt water",
+          "Special glycerine stainless construction pressure gauge for operating pressure",
+          "Sight glass for inspection of the filtered water",
+          "Clamp lock is designed to allow 360 degree rotation to simplify installation",
+          "Top diffuser ensures even distribution of water over the sand bed",
+          "A plug to drain out for sand and water drain with pressure",
+          "Included in 7-way valve"
+        ],
+        "bullets_en": [],
+        "icons": [
+          "2+2 YEAR WARRANTY"
+        ],
+        "badges": []
+      },
+      "family_specs_quantitative": {
+        "max_temp_c": 40,
+        "max_pressure_bar": 2.5
+      },
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_3167",
+          "type": "dimensions",
+          "headers": [
+            "MODEL",
+            "A mm",
+            "B mm",
+            "C mm",
+            "D mm",
+            "E mm",
+            "F mm",
+            "G mm",
+            "Hacim Volume"
+          ],
+          "rows": [
+            [
+              "525 »",
+              "780",
+              "525",
+              "220",
+              "650",
+              "370",
+              "400",
+              "320",
+              "0.22 m 3"
+            ],
+            [
+              "625 »",
+              "880",
+              "625",
+              "220",
+              "800",
+              "420",
+              "450",
+              "350",
+              "0.30 m 3"
+            ],
+            [
+              "750 »",
+              "960",
+              "750",
+              "220",
+              "900",
+              "550",
+              "600",
+              "400",
+              "0.45 m 3"
+            ],
+            [
+              "900 »",
+              "1100",
+              "900",
+              "220",
+              "1100",
+              "640",
+              "700",
+              "500",
+              "0.64 m 3"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_3178",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "ÇAP DIAMETER",
+            "BAĞLANTI GİRİŞ ÇIKIŞ INLET OUTLET",
+            "DEBİ m 3 /h FLOW",
+            "KUM kg SAND kg",
+            "AĞIRLIK Kg WEIGHT Kg",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "12015123100",
+              "525 mm",
+              "50 mm",
+              "12",
+              "85",
+              "14.4",
+              "285 €"
+            ],
+            [
+              "12015123101",
+              "625 mm",
+              "50 mm",
+              "16",
+              "150",
+              "18",
+              "350 €"
+            ],
+            [
+              "12015123102",
+              "750 mm",
+              "63 mm",
+              "23",
+              "300",
+              "34",
+              "510 €"
+            ],
+            [
+              "12015123103",
+              "900 mm",
+              "63 mm",
+              "31",
+              "470",
+              "59",
+              "630 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "4103c191cea33c392bb669a73a9fab80_img.jpg",
+          "alt": "NETA HAVUZ PRODUCT logo",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "cb05e326a3eedebcfc579478a000f72f_img.jpg",
+          "alt": "Three images of the Woundex WS Filter Model: Ws 900. The top left image shows a close-up of the valve assembly. The bottom left image shows a close-up of the pressure gauge. The right image shows the full filter unit with its black base and white label.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "1c66d28bceb5f8993d19d1bc5eed071f_img.jpg",
+          "alt": "Icon of a hand pointing to a map of Turkey",
+          "caption": "TÜRKİYE'DE ÜRETİLMİŞTİR",
+          "type": "icon"
+        },
+        {
+          "file": "7f50a65ef176fba5c4484a605d815a8e_img.jpg",
+          "alt": "Icon of a clock",
+          "caption": "UZUN ÖMÜRLÜ",
+          "type": "icon"
+        },
+        {
+          "file": "469fe3264811c530cbfecc2f0e3bf98a_img.jpg",
+          "alt": "Icon of a warranty tag",
+          "caption": "2+2 YIL GARANTİLİ",
+          "type": "icon"
+        },
+        {
+          "file": "f97bbb84d3e14c71f5666b6875b81b2f_img.jpg",
+          "alt": "Icon of a thermometer",
+          "caption": "MAX. 40°",
+          "type": "icon"
+        },
+        {
+          "file": "a21b01b47c6e0feceab2bddfd6461ab4_img.jpg",
+          "alt": "Icon of a pressure gauge",
+          "caption": "TEST",
+          "type": "icon"
+        },
+        {
+          "file": "278d3fba7f1afbeedaef802f0c5d66fc_img.jpg",
+          "alt": "Icon of a pressure gauge",
+          "caption": "MAX.",
+          "type": "icon"
+        },
+        {
+          "file": "dc38b8cc7085cb587e06b8d8e5bbb240_img.jpg",
+          "alt": "Icon of a filter",
+          "caption": "MAX.",
+          "type": "icon"
+        },
+        {
+          "file": "8399308754bc9bc6c9d4cbad56349bbf_img.jpg",
+          "alt": "Technical diagram of a Woundex filter unit showing dimensions A, B, C, D, E, F, and G. Dimension A is the total width, B is the base width, C is the height of the top section, D is the total height, E is the height of the top section, F is the height of the top section, and G is the height of the top section.",
+          "caption": "",
+          "type": "dimensions"
+        }
+      ],
+      "variants": [
+        {
+          "code": "12015123100",
+          "price": "285 €",
+          "price_eur": 285.0,
+          "values": {
+            "code": "12015123100",
+            "ap_diameter": "525 mm",
+            "inlet_outlet": "50 mm",
+            "flow_m3h": "12",
+            "sand_kg": "85",
+            "weight_kg": "14.4",
+            "price": "285 €",
+            "price_eur": 285.0
+          }
+        },
+        {
+          "code": "12015123101",
+          "price": "350 €",
+          "price_eur": 350.0,
+          "values": {
+            "code": "12015123101",
+            "ap_diameter": "625 mm",
+            "inlet_outlet": "50 mm",
+            "flow_m3h": "16",
+            "sand_kg": "150",
+            "weight_kg": "18",
+            "price": "350 €",
+            "price_eur": 350.0
+          }
+        },
+        {
+          "code": "12015123102",
+          "price": "510 €",
+          "price_eur": 510.0,
+          "values": {
+            "code": "12015123102",
+            "ap_diameter": "750 mm",
+            "inlet_outlet": "63 mm",
+            "flow_m3h": "23",
+            "sand_kg": "300",
+            "weight_kg": "34",
+            "price": "510 €",
+            "price_eur": 510.0
+          }
+        },
+        {
+          "code": "12015123103",
+          "price": "630 €",
+          "price_eur": 630.0,
+          "values": {
+            "code": "12015123103",
+            "ap_diameter": "900 mm",
+            "inlet_outlet": "63 mm",
+            "flow_m3h": "31",
+            "sand_kg": "470",
+            "weight_kg": "59",
+            "price": "630 €",
+            "price_eur": 630.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "6-yollu-vanalar-6-way-valves",
+      "family_title_tr": "6 Yollu Vanalar 6-Way Valves",
+      "family_title_en": "6 Yollu Vanalar 6-Way Valves",
+      "family_description_tr": "A 3D rendering of a 6-way valve, showing its complex structure with multiple ports and a handle.",
+      "family_line_count": 198,
+      "qualitative": {
+        "bullets_tr": [
+          "ABS gövdeden üretilmiştir",
+          "Dişli ve yapıtırmalı bağlantı seçenekleri",
+          "6 farklı fonksiyonu tek kolla yönetme imkanı",
+          "Yandan veya üstten montaj seçenekleri",
+          "Made of ABS body",
+          "Slip and threaded connection options",
+          "6-function operation with a single handle",
+          "Side or top mount options"
+        ],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_3220",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "BAĞLANTI CONNECTION",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "168223021",
+              "1,5' Ø mm",
+              "115 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_3234",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "BAĞLANTI CONNECTION",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "16518223006",
+              "1,5' Ø mm",
+              "120 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_3248",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "BAĞLANTI CONNECTION",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "168223022",
+              "2' Ø mm",
+              "135 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_3262",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "BAĞLANTI CONNECTION",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "16518213002",
+              "2,5' Ø mm",
+              "490 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_3282",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "BAĞLANTI CONNECTION",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "16518223008",
+              "3' ø mm",
+              "850 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_3304",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "BAĞLANTI CONNECTION",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "168223010",
+              "1,5' ø mm",
+              "95 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_3323",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "BAĞLANTI CONNECTION",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "168223006",
+              "2,5' ø mm",
+              "--"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_3348",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "BAĞLANTI CONNECTION",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "168123005",
+              "2' ø mm",
+              "102 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_3377",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "BAĞLANTI CONNECTION",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "16518293007",
+              "4' ø mm",
+              "1.450 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "340f40c5c3c7fdaf4c4717f0cb63ed68_img.jpg",
+          "alt": "A 3D rendering of a 6-way valve, showing its complex structure with multiple ports and a handle.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "d76d940998e0bcf3c74952344024ad0b_img.jpg",
+          "alt": "PRAHER PLASTICS logo",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "69350f1ebebf4e4b2d5644dfc6671d7c_img.jpg",
+          "alt": "Technical drawing of a Praher 6-way valve with dimensions: 165 mm, 247 mm, 135.5 mm, 87.5 mm, 17.5 mm, 90 mm, 180 mm.",
+          "caption": "",
+          "type": "dimensions"
+        },
+        {
+          "file": "181a45705a1f896de90f8f73c6430ba8_img.jpg",
+          "alt": "Technical drawing of a Praher 6-way valve with dimensions: 165 mm, 247 mm, 135.5 mm, 87.5 mm, 17.5 mm, 90 mm, 180 mm.",
+          "caption": "",
+          "type": "dimensions"
+        },
+        {
+          "file": "fcb2a8479f2f045c3c4cffe94da319a6_img.jpg",
+          "alt": "Technical drawing of a Praher 6-way valve with dimensions: 165 mm, 247 mm, 135.5 mm, 87.5 mm, 17.5 mm, 90 mm, 180 mm.",
+          "caption": "",
+          "type": "dimensions"
+        },
+        {
+          "file": "81f9a764cfa051cdc61ea936a8dfeb88_img.jpg",
+          "alt": "Technical drawing of a Praher 6-way valve with dimensions: 210 mm, 256 mm, 135.5 mm, 280 mm, 115 mm, 110 mm, 227 mm.",
+          "caption": "",
+          "type": "dimensions"
+        },
+        {
+          "file": "d9e17d9fe73ab1122fe304ff276008d4_img.jpg",
+          "alt": "Technical drawings of the Midas 6-Way Valve showing dimensions. The side view shows a 3' ø mm inlet, a 304 mm height, and a 329 mm width. The top view shows a 206 mm diameter and a 165 mm height.",
+          "caption": "",
+          "type": "dimensions"
+        },
+        {
+          "file": "acf9eb2c446cfb72d7cb44a9149e24aa_img.jpg",
+          "alt": "Image of the Midas 6-Way Valve.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "f254a67565344d514e13763a4e556a70_img.jpg",
+          "alt": "Midas logo.",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "072320147c6e0a97ea1854ac62ddfe17_img.jpg",
+          "alt": "Image of the Midas 6-Way Valve with a 1.5' ø mm inlet and outlet.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "95711bcdc2664c457840a3dc799edb9f_img.jpg",
+          "alt": "Image of the Midas 6-Way Valve with a 2.5' ø mm inlet and outlet.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "670aaecfe4feccc7bcb77ac7771ecbfc_img.jpg",
+          "alt": "Waterfun logo.",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "42b781872ac37fd5c36509c4add5a5ab_img.jpg",
+          "alt": "Image of the Waterfun 6-Way Valve.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "357494caeecc4840db9e30d516070d91_img.jpg",
+          "alt": "Waterco logo.",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "c0f0dfbbc8b9edd72ab2d88f92c4e75b_img.jpg",
+          "alt": "Technical drawings of the Waterco 6-Way Valve showing dimensions. The side view shows a 300 mm width and a 300 mm height. The top view shows a 300 mm diameter and a 300 mm height.",
+          "caption": "",
+          "type": "dimensions"
+        },
+        {
+          "file": "25bd93aef6843a52b556b2a7bf2844b2_img.jpg",
+          "alt": "Image of the Waterco 6-Way Valve.",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "168223021",
+          "price": "115 €",
+          "price_eur": 115.0,
+          "values": {
+            "code": "168223021",
+            "connection": "1,5' Ø mm",
+            "price": "115 €",
+            "price_eur": 115.0
+          }
+        },
+        {
+          "code": "16518223006",
+          "price": "120 €",
+          "price_eur": 120.0,
+          "values": {
+            "code": "16518223006",
+            "connection": "1,5' Ø mm",
+            "price": "120 €",
+            "price_eur": 120.0
+          }
+        },
+        {
+          "code": "168223022",
+          "price": "135 €",
+          "price_eur": 135.0,
+          "values": {
+            "code": "168223022",
+            "connection": "2' Ø mm",
+            "price": "135 €",
+            "price_eur": 135.0
+          }
+        },
+        {
+          "code": "16518213002",
+          "price": "490 €",
+          "price_eur": 490.0,
+          "values": {
+            "code": "16518213002",
+            "connection": "2,5' Ø mm",
+            "price": "490 €",
+            "price_eur": 490.0
+          }
+        },
+        {
+          "code": "16518223008",
+          "price": "850 €",
+          "price_eur": 850.0,
+          "values": {
+            "code": "16518223008",
+            "connection": "3' ø mm",
+            "price": "850 €",
+            "price_eur": 850.0
+          }
+        },
+        {
+          "code": "168223010",
+          "price": "95 €",
+          "price_eur": 95.0,
+          "values": {
+            "code": "168223010",
+            "connection": "1,5' ø mm",
+            "price": "95 €",
+            "price_eur": 95.0
+          }
+        },
+        {
+          "code": "168223006",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "168223006",
+            "connection": "2,5' ø mm",
+            "price": "--"
+          }
+        },
+        {
+          "code": "168123005",
+          "price": "102 €",
+          "price_eur": 102.0,
+          "values": {
+            "code": "168123005",
+            "connection": "2' ø mm",
+            "price": "102 €",
+            "price_eur": 102.0
+          }
+        },
+        {
+          "code": "16518293007",
+          "price": "1.450 €",
+          "price_eur": 1450.0,
+          "values": {
+            "code": "16518293007",
+            "connection": "4' ø mm",
+            "price": "1.450 €",
+            "price_eur": 1450.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "3-yollu-vanalar3-way-valves",
+      "family_title_tr": "3 Yollu Vanalar3-Way Valves",
+      "family_title_en": "3 Yollu Vanalar3-Way Valves",
+      "family_description_tr": "PVC gövdeli 3 yollu vanalar, sistem içerisindeki sıvı akış yönünü değiştirmek için kullanılır. Yüksek basınca dayanıklıdır ve yapıştırımlı bağlantı ile kolay montaj sağlar.",
+      "family_line_count": 104,
+      "qualitative": {
+        "bullets_tr": [
+          "Sistemdeki akış yönünü değiştirmek için kullanılır",
+          "PVC'den üretilmiştir",
+          "Yapıştırma bağlantı: İçten 50 mm, dıştan 63 mm",
+          "Test basıncı 15 bar, çalışma basıncı 10 bar",
+          "It is used to change the flow direction in the system",
+          "Made of PVC",
+          "Slip Connection: 50 mm inside, 63 mm outside",
+          "Testing pressure in 15 bar, working pressure in 10 bar"
+        ],
+        "bullets_en": [],
+        "icons": [
+          "- POOL PLUMBING LINES"
+        ],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_3413",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "BAĞLANTI CONNECTION",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "16518223003",
+              "50-63 ø mm",
+              "23 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "24aec01b551719c257f51ba3bad77525_img.jpg",
+          "alt": "Midas logo",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "32365f206cb2fbcd494bad4092c26032_img.jpg",
+          "alt": "Image of a black PVC 3-way valve with a red handle.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "fb1affbf75d3ac122bd9ecff02dd1f2f_img.jpg",
+          "alt": "Icon for Easy Installation (Kolay Montaj) showing a wrench and screwdriver.",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "966c4b9785d85823782a007f3ecec1a7_img.jpg",
+          "alt": "Icon for High Durability (Yüksek Dayanım) showing a water drop.",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "32e90b573aaa2cf95944dcd3eea79a0d_img.jpg",
+          "alt": "A white woven lounge chair on a dark stone deck next to an infinity pool overlooking the ocean.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "26ff7a3373e19cdf04ff8d02ad38ba6b_img.jpg",
+          "alt": "A large, cylindrical, stainless steel Regfilter regenerative media filter unit. It features a prominent 'REGFILTER' logo on its side and several large, circular access ports with bolted covers. The unit is mounted on a sturdy metal frame.",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "d3cacc02f47e3b53832968887bfa0913_img.jpg",
+          "alt": "A smaller, dark grey, cylindrical Regfilter regenerative media filter unit. It also features a 'REGFILTER' logo and technical labels indicating a flow rate of 125-225 m³/h and a capacity of 50,1 m³. The unit is mounted on a base.",
+          "caption": "",
+          "type": "icon"
+        }
+      ],
+      "variants": [
+        {
+          "code": "16518223003",
+          "price": "23 €",
+          "price_eur": 23.0,
+          "values": {
+            "code": "16518223003",
+            "connection": "50-63 ø mm",
+            "price": "23 €",
+            "price_eur": 23.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "flowclear-kum-filtresi-flowclear-sand-filter",
+      "family_title_tr": "Flowclear Kum Filtresi Flowclear Sand Filter",
+      "family_title_en": "Flowclear Kum Filtresi Flowclear Sand Filter",
+      "family_description_tr": "Özel Havuzlar İçin For Residential Pools",
+      "family_line_count": 138,
+      "qualitative": {
+        "bullets_tr": [
+          "60 tona kadar olan yüzme havuzları için uygun",
+          "Kompakt, dış mekan koşullarına uygun yapı (yağmur, kar etkilemez)",
+          "Dahili zaman ayarı (timer) ve ON/OFF anahtarı",
+          "Makine dairesi veya elektrik panosu gerektirmez",
+          "Kolay kurulum, minimum bakım",
+          "Pompa ön filtresi sayesinde kir tutucu koruma",
+          "Monofaze motor",
+          "Kum yatağına eşit su dağılımı sağlayan difüzör",
+          "Düşük enerji tüketimi",
+          "Uygun maliyetli çözüm",
+          "Suitable for swimming pools up to 60 tons",
+          "Compact and weatherproof design (resistant to rain and snow)",
+          "Built-in timer and ON/OFF switch",
+          "No need for a machine room or electrical panel",
+          "Easy installation, minimal maintenance",
+          "Pre-filter protects pump by trapping debris",
+          "Single-phase motor",
+          "Diffuser ensures even water distribution over the sand bed",
+          "Low energy consumption",
+          "Cost-effective solution"
+        ],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_3678",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "MODEL MODEL",
+            "DEBİ m³/h FLOW",
+            "KUM kg SAND kg",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "PSFAC58486",
+              "11355 L / 3000 GAL",
+              "11,50 m³/saat",
+              "36",
+              "534 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "33edb527bae42a1b04818001d817a1cd_img.jpg",
+          "alt": "A photograph of the Flowclear Sand Filter unit, showing the white tank, the pump assembly, and the filter head with a blue valve handle.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "ff487673f3a22a7dac3ae2dc59d2fc51_img.jpg",
+          "alt": "A diagram illustrating the internal flow of water through the Flowclear Sand Filter. It shows water entering the pump, passing through the filter media, and exiting the unit. A blue arrow indicates the flow direction. A small inset shows a close-up of the filter media.",
+          "caption": "",
+          "type": "diagram"
+        },
+        {
+          "file": "46d9e0876283f18b63c5b7ac7b63bd41_img.jpg",
+          "alt": "QR code for product assembly",
+          "caption": "",
+          "type": "qr"
+        },
+        {
+          "file": "1dbd4b4df94614a2c5ce75c107eb2918_img.jpg",
+          "alt": "QR code for product working",
+          "caption": "",
+          "type": "qr"
+        },
+        {
+          "file": "6be92e79c3e31350486b079eab89984f_img.jpg",
+          "alt": "Flowclear Sand Filter unit with white tank and orange pump.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "aba440c20fd6423e8fc87d4873038d2d_img.jpg",
+          "alt": "Close-up of the ON/OFF button on the Flowclear Sand Filter unit.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "17fbb61d96bf2b8aa145613d861caa83_img.jpg",
+          "alt": "Flowclear Sand Filter unit with white tank and orange pump, showing the timer dial.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "f5199e3a002dabc0dffa69b0a815f323_img.jpg",
+          "alt": "Close-up of the TIMER dial on the Flowclear Sand Filter unit.",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "58486",
+          "price": "534 €",
+          "price_eur": 534.0,
+          "values": {
+            "code": "PSFAC58486",
+            "model": "11355 L / 3000 GAL",
+            "flow_m3h": "11,50 m³/saat",
+            "sand_kg": "36",
+            "price": "534 €",
+            "price_eur": 534.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "yedek-kartu-fi-ltre-spare-part-cartridge-filter",
+      "family_title_tr": "YEDEK KARTUŞ FİLTRE SPARE PART CARTRIDGE FILTER",
+      "family_title_en": "YEDEK KARTUŞ FİLTRE SPARE PART CARTRIDGE FILTER",
+      "family_description_tr": "1 Takım (süpürge, sapı ve hortumu, kepçe, fırça, cl-pH test kiti)",
+      "family_line_count": 77,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [
+          "POOL CLEANING KIT",
+          "POOL HEATER"
+        ],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_3770",
+          "type": "variants",
+          "headers": [
+            "MODEL / KOD MODEL / CODE",
+            "FİLTRE TÜRÜ FILTER",
+            "SKIMFILTER SKIMFILTER",
+            "POMPA PUMP",
+            "MAX. HAVUZ m² MAX. POOL m²",
+            "MAKİNA DAİRESİ MECHANICAL ROOM",
+            "İÇİNDEKİLER CONTENTS",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "FB 1001-C CARMAX1ING75M",
+              "Kartuş Cartridge",
+              "1 Adet 1 Pcs",
+              "0,75 Hp Monofaze",
+              "45",
+              "✓ Var",
+              "2x1.80 m² kartuş filtre, 15.3 m³/h pompa (220V), 1 nozul, 1 lamba, 1 kumanda panosu 2x1.80 m² cartridge filter, 15.3 m³/h pump (220V), 1 nozzle, 1 lamp, 1 control panel",
+              "2.208 €"
+            ],
+            [
+              "FB 1002-C CAMAX2ING150M",
+              "Kartuş Cartridge",
+              "1 Adet 1 Pcs",
+              "1,50 Hp Monofaze",
+              "90",
+              "✓ Var",
+              "4x1.80 m² kartuş filtre, 20.4 m³/h pompa (220V), 1 nozul, 1 lamba, 1 kumanda panosu 4x1.80 m² cartridge filter, 20.4 m³/h pump (220V), 1 nozzle, 1 lamp, 1 control panel",
+              "2.323 €"
+            ],
+            [
+              "FB 1003-C CARMED2ING75M",
+              "Kartuş Cartridge",
+              "1 Adet 1 Pcs",
+              "0,75 Hp Monofaze",
+              "45",
+              "Opsiyonel Optional",
+              "2x1.80 m² kartuş filtre, 15.3 m³/h pompa (220V), 1 nozul, 1 lamba, 1 kumanda panosu 2x1.80 m² cartridge filter, 15.3 m³/h pump (220V), 1 nozzle, 1 lamp, 1 control panel",
+              "1.829 €"
+            ],
+            [
+              "FB 1004-C CARMED1TOP75M",
+              "Kartuş Cartridge",
+              "1 Adet 1 Pcs",
+              "0,75 Hp Monofaze",
+              "45",
+              "✓ Var",
+              "2x1.80 m² kartuş filtre, 15.3 m³/h pompa (220V), 1 nozul, 1 lamba, 1 kumanda panosu 2x1.80 m² cartridge filter, 15.3 m³/h pump (220V), 1 nozzle, 1 lamp, 1 control panel",
+              "1.945 €"
+            ],
+            [
+              "FB 1005-C CARMIN1ING50M",
+              "Kartuş Cartridge",
+              "1 Adet 1 Pcs",
+              "0,50 Hp Monofaze",
+              "20",
+              "Opsiyonel Optional",
+              "1x1.80 m² kartuş filtre, 11.7 m³/h pompa (220V), 1 nozul, 1 kumanda panosu 1x1.80 m² cartridge filter, 11.7 m³/h pump (220V), 1 nozzle, 1 control panel",
+              "1.846 €"
+            ],
+            [
+              "FB 1006-C CARMIN1TOP50M",
+              "Kartuş Cartridge",
+              "1 Adet 1 Pcs",
+              "0,50 Hp Monofaze",
+              "20",
+              "Opsiyonel Optional",
+              "1x1.80 m² kartuş filtre, 11.7 m³/h pompa (220V), 1 nozul, 1 pano 1x1.80 m² cartridge filter, 11.7 m³/h pump (220V), 1 nozzle, 1 panel",
+              "1.789 €"
+            ],
+            [
+              "FB 1001-S SANMAX1ING75M",
+              "Kum Sand",
+              "1 Adet 1 Pcs",
+              "0,75 Hp Monofaze",
+              "45",
+              "Opsiyonel Optional",
+              "15.3 m³/h pompa (220V), 1 nozul, 1 lamba, 1 kumanda panosu 15.3 m³/h pump (220V), 1 nozzle, 1 lamp, 1 control panel",
+              "2.175 €"
+            ],
+            [
+              "FB 1002-S SAMAX2IN6150M",
+              "Kum Sand",
+              "1 Adet 1 Pcs",
+              "1,50 Hp Monofaze",
+              "90",
+              "Opsiyonel Optional",
+              "15.3 m³/h pompa (220V), 1 nozul, 1 lamba, 1 kumanda panosu 15.3 m³/h pump (220V), 1 nozzle, 1 lamp, 1 control panel",
+              "2.670 €"
+            ],
+            [
+              "FB 1003-S SANMED1ING75M",
+              "Kum Sand",
+              "Kum Sand",
+              "0,75 Hp Monofaze",
+              "45",
+              "Opsiyonel Optional",
+              "15.3 m³/h pompa (220V), 1 nozul, 1 lamba, 1 kumanda panosu 15.3 m³/h pump (220V), 1 nozzle, 1 lamp, 1 control panel",
+              "1.795 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "608f7b1fd7e83f1c42dbfb3f37accfe0_img.jpg",
+          "alt": "Image of a white pool heater unit",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "3e785accf62f005fb821a0eeb2796bcb_img.jpg",
+          "alt": "QR code linking to product details",
+          "caption": "",
+          "type": "qr"
+        }
+      ],
+      "variants": [
+        {
+          "code": "1001175",
+          "price": "2.208 €",
+          "price_eur": 2208.0,
+          "values": {
+            "model_code": "FB 1001-C CARMAX1ING75M",
+            "filter": "Kartuş Cartridge",
+            "skimfilter": "1 Adet 1 Pcs",
+            "pump": "0,75 Hp Monofaze",
+            "max_pool_m": "45",
+            "mechanical_room": "✓ Var",
+            "contents": "2x1.80 m² kartuş filtre, 15.3 m³/h pompa (220V), 1 nozul, 1 lamba, 1 kumanda panosu 2x1.80 m² cartridge filter, 15.3 m³/h pump (220V), 1 nozzle, 1 lamp, 1 control panel",
+            "price": "2.208 €",
+            "price_eur": 2208.0
+          }
+        },
+        {
+          "code": "10022150",
+          "price": "2.323 €",
+          "price_eur": 2323.0,
+          "values": {
+            "model_code": "FB 1002-C CAMAX2ING150M",
+            "filter": "Kartuş Cartridge",
+            "skimfilter": "1 Adet 1 Pcs",
+            "pump": "1,50 Hp Monofaze",
+            "max_pool_m": "90",
+            "mechanical_room": "✓ Var",
+            "contents": "4x1.80 m² kartuş filtre, 20.4 m³/h pompa (220V), 1 nozul, 1 lamba, 1 kumanda panosu 4x1.80 m² cartridge filter, 20.4 m³/h pump (220V), 1 nozzle, 1 lamp, 1 control panel",
+            "price": "2.323 €",
+            "price_eur": 2323.0
+          }
+        },
+        {
+          "code": "1003275",
+          "price": "1.829 €",
+          "price_eur": 1829.0,
+          "values": {
+            "model_code": "FB 1003-C CARMED2ING75M",
+            "filter": "Kartuş Cartridge",
+            "skimfilter": "1 Adet 1 Pcs",
+            "pump": "0,75 Hp Monofaze",
+            "max_pool_m": "45",
+            "mechanical_room": "Opsiyonel Optional",
+            "contents": "2x1.80 m² kartuş filtre, 15.3 m³/h pompa (220V), 1 nozul, 1 lamba, 1 kumanda panosu 2x1.80 m² cartridge filter, 15.3 m³/h pump (220V), 1 nozzle, 1 lamp, 1 control panel",
+            "price": "1.829 €",
+            "price_eur": 1829.0
+          }
+        },
+        {
+          "code": "1004175",
+          "price": "1.945 €",
+          "price_eur": 1945.0,
+          "values": {
+            "model_code": "FB 1004-C CARMED1TOP75M",
+            "filter": "Kartuş Cartridge",
+            "skimfilter": "1 Adet 1 Pcs",
+            "pump": "0,75 Hp Monofaze",
+            "max_pool_m": "45",
+            "mechanical_room": "✓ Var",
+            "contents": "2x1.80 m² kartuş filtre, 15.3 m³/h pompa (220V), 1 nozul, 1 lamba, 1 kumanda panosu 2x1.80 m² cartridge filter, 15.3 m³/h pump (220V), 1 nozzle, 1 lamp, 1 control panel",
+            "price": "1.945 €",
+            "price_eur": 1945.0
+          }
+        },
+        {
+          "code": "1005150",
+          "price": "1.846 €",
+          "price_eur": 1846.0,
+          "values": {
+            "model_code": "FB 1005-C CARMIN1ING50M",
+            "filter": "Kartuş Cartridge",
+            "skimfilter": "1 Adet 1 Pcs",
+            "pump": "0,50 Hp Monofaze",
+            "max_pool_m": "20",
+            "mechanical_room": "Opsiyonel Optional",
+            "contents": "1x1.80 m² kartuş filtre, 11.7 m³/h pompa (220V), 1 nozul, 1 kumanda panosu 1x1.80 m² cartridge filter, 11.7 m³/h pump (220V), 1 nozzle, 1 control panel",
+            "price": "1.846 €",
+            "price_eur": 1846.0
+          }
+        },
+        {
+          "code": "1006150",
+          "price": "1.789 €",
+          "price_eur": 1789.0,
+          "values": {
+            "model_code": "FB 1006-C CARMIN1TOP50M",
+            "filter": "Kartuş Cartridge",
+            "skimfilter": "1 Adet 1 Pcs",
+            "pump": "0,50 Hp Monofaze",
+            "max_pool_m": "20",
+            "mechanical_room": "Opsiyonel Optional",
+            "contents": "1x1.80 m² kartuş filtre, 11.7 m³/h pompa (220V), 1 nozul, 1 pano 1x1.80 m² cartridge filter, 11.7 m³/h pump (220V), 1 nozzle, 1 panel",
+            "price": "1.789 €",
+            "price_eur": 1789.0
+          }
+        },
+        {
+          "code": "1001175",
+          "price": "2.175 €",
+          "price_eur": 2175.0,
+          "values": {
+            "model_code": "FB 1001-S SANMAX1ING75M",
+            "filter": "Kum Sand",
+            "skimfilter": "1 Adet 1 Pcs",
+            "pump": "0,75 Hp Monofaze",
+            "max_pool_m": "45",
+            "mechanical_room": "Opsiyonel Optional",
+            "contents": "15.3 m³/h pompa (220V), 1 nozul, 1 lamba, 1 kumanda panosu 15.3 m³/h pump (220V), 1 nozzle, 1 lamp, 1 control panel",
+            "price": "2.175 €",
+            "price_eur": 2175.0
+          }
+        },
+        {
+          "code": "100226150",
+          "price": "2.670 €",
+          "price_eur": 2670.0,
+          "values": {
+            "model_code": "FB 1002-S SAMAX2IN6150M",
+            "filter": "Kum Sand",
+            "skimfilter": "1 Adet 1 Pcs",
+            "pump": "1,50 Hp Monofaze",
+            "max_pool_m": "90",
+            "mechanical_room": "Opsiyonel Optional",
+            "contents": "15.3 m³/h pompa (220V), 1 nozul, 1 lamba, 1 kumanda panosu 15.3 m³/h pump (220V), 1 nozzle, 1 lamp, 1 control panel",
+            "price": "2.670 €",
+            "price_eur": 2670.0
+          }
+        },
+        {
+          "code": "1003175",
+          "price": "1.795 €",
+          "price_eur": 1795.0,
+          "values": {
+            "model_code": "FB 1003-S SANMED1ING75M",
+            "filter": "Kum Sand",
+            "skimfilter": "Kum Sand",
+            "pump": "0,75 Hp Monofaze",
+            "max_pool_m": "45",
+            "mechanical_room": "Opsiyonel Optional",
+            "contents": "15.3 m³/h pompa (220V), 1 nozul, 1 lamba, 1 kumanda panosu 15.3 m³/h pump (220V), 1 nozzle, 1 lamp, 1 control panel",
+            "price": "1.795 €",
+            "price_eur": 1795.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "25-mi-kron-fi-ltreleme-25-micron-filtration",
+      "family_title_tr": "25 MİKRON FİLTRELEME 25 MICRON FILTRATION",
+      "family_title_en": "25 MİKRON FİLTRELEME 25 MICRON FILTRATION",
+      "family_description_tr": "UV dayanımlı yapısı, ABS gövdesi ve 25 mikron hassasiyetiyle, ısıtmalı havuzlar da dahil olmak üzere yoğun kullanıma uygun ideal kartuş filtre.",
+      "family_line_count": 124,
+      "qualitative": {
+        "bullets_tr": [
+          "2 adet bağlantı rakorları üzerinde sevk edilir",
+          "Yoğun kullanıma uygun halka kilit kapak",
+          "Vidalı hava tahliye tapası",
+          "UV dayanımlı, açık ortamda montaj edilebilir",
+          "ABS plastik gövde",
+          "Kolay montaj",
+          "2 Pcs unions includes in the box",
+          "Suitable for intensive use,ring lock cover",
+          "Manual screw bleeder valve for purging air inside the filter",
+          "UV resistance body, can be installed outside",
+          "ABS plastic housing",
+          "Easy installation",
+          "Şeffaf pencere camından üretilmiştir, geri dönüşüm şişe içermez",
+          "Üç ayrı çapta üretilmektedir",
+          "Kuvars kuma göre daha uzun ömürlüdür",
+          "Kireçli sularda taşlaşma yapmaz",
+          "Ters yıkamada tam temizleme özelliği",
+          "Kuvars kuma göre %20 daha iyi filtrasyon kapasitesi",
+          "Ters yıkamadan ötürü oluşan su kaybını azaltır",
+          "Enerji ve kimyasal tasarrufu sağlar",
+          "1 big bag içinde 40x25 kg torba vardır"
+        ],
+        "bullets_en": [
+          "Made of transparent pure window glass, do not contain recycling bottles",
+          "Three different granulometry are available",
+          "A longer life span than quartz sand",
+          "In limy water it does not petrified",
+          "Full cleaning feature in backwash",
+          "%20 more filtration capacity than quartz sand",
+          "Saving on backwashing water",
+          "Energy saving and less use of pool chemical",
+          "There are 40x25 kg bags in 1 big bag"
+        ],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {
+        "max_temp_c": 40,
+        "max_pressure_bar": 2.5
+      },
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_3843",
+          "type": "dimensions",
+          "headers": [
+            "MODEL",
+            "A mm",
+            "B mm",
+            "C mm"
+          ],
+          "rows": [
+            [
+              "KF 25",
+              "445",
+              "387",
+              "225"
+            ],
+            [
+              "KF 50",
+              "625",
+              "567",
+              "225"
+            ],
+            [
+              "KF 75",
+              "805",
+              "747",
+              "225"
+            ],
+            [
+              "KF 100",
+              "985",
+              "927",
+              "225"
+            ],
+            [
+              "KF 150",
+              "1.165",
+              "1.107",
+              "225"
+            ],
+            [
+              "KF 200",
+              "1.345",
+              "1.287",
+              "225"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_3858",
+          "type": "variants",
+          "headers": [
+            "MODEL",
+            "KOD",
+            "D mm",
+            "E mm",
+            "MICRON",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "KF 25",
+              "19811123004",
+              "183",
+              "184,5",
+              "⩽15",
+              "45 €"
+            ],
+            [
+              "KF 50",
+              "19811123005",
+              "183",
+              "364,5",
+              "⩽15",
+              "75 €"
+            ],
+            [
+              "KF 75",
+              "19811123006",
+              "183",
+              "544,5",
+              "⩽15",
+              "89 €"
+            ],
+            [
+              "KF 100",
+              "19811123007",
+              "183",
+              "724,5",
+              "⩽15",
+              "93 €"
+            ],
+            [
+              "KF 150",
+              "19811123008",
+              "183",
+              "904,5",
+              "⩽15",
+              "104 €"
+            ],
+            [
+              "KF 200",
+              "19811123009",
+              "183",
+              "1.091",
+              "⩽15",
+              "146 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_3871",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "MODEL MODEL",
+            "BAĞLANTI GİRİŞ ÇIKIŞ INLET OUTLET",
+            "DEBİ m³/h FLOW",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "12016123001",
+              "KF 25",
+              "50 mm",
+              "5,50",
+              "291 €"
+            ],
+            [
+              "12016123002",
+              "KF 50",
+              "50 mm",
+              "11,40",
+              "345 €"
+            ],
+            [
+              "12016123003",
+              "KF 75",
+              "50 mm",
+              "17,00",
+              "440 €"
+            ],
+            [
+              "12016123004",
+              "KF 100",
+              "50 mm",
+              "22,90",
+              "470 €"
+            ],
+            [
+              "12016123005",
+              "KF 150",
+              "50 mm",
+              "33,40",
+              "550 €"
+            ],
+            [
+              "12016123006",
+              "KF 200",
+              "50 mm",
+              "40,90",
+              "640 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_3886",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "AMBALAJ PACKING",
+            "ÇAP DIAMETER",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "12018302001",
+              "25 kg",
+              "0,5-1,2 mm",
+              "20 €"
+            ],
+            [
+              "12018302003",
+              "25 kg",
+              "1,2-3,2 mm",
+              "20 €"
+            ],
+            [
+              "12018302002",
+              "25 kg",
+              "3,2-5,0 mm",
+              "20 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "1696483590fd2f2f006feccd043e25c1_img.jpg",
+          "alt": "A collection of five grey cylindrical cartridge filters of different sizes, each with a blue label and a pressure gauge on top.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "dca0164328b81549c0794293188f3ab3_img.jpg",
+          "alt": "A technical diagram of a cartridge filter showing its dimensions: A (total height), B (height to the center of the top fitting), and C (diameter).",
+          "caption": "",
+          "type": "dimensions"
+        },
+        {
+          "file": "ce61e9af32bc822f949b0f8e08a41f9d_img.jpg",
+          "alt": "A stack of three white cylindrical replacement cartridge filters with blue end caps.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "26d016b49d1a87fae32634417ce1628a_img.jpg",
+          "alt": "A technical diagram of a replacement cartridge filter showing its dimensions: D (diameter) and E (height).",
+          "caption": "",
+          "type": "dimensions"
+        },
+        {
+          "file": "36bb407df7b71163bd6f82d7bb2b47fa_img.jpg",
+          "alt": "A large white bag of Deep Blue Glass Media and a smaller blue bag of the same product.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "3a72302c41d1a35116b0c294df7aac60_img.jpg",
+          "alt": "Two circular inset images showing the granular texture of the glass media at different sizes.",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "19811123004",
+          "price": "45 €",
+          "price_eur": 45.0,
+          "values": {
+            "model": "KF 25",
+            "code": "19811123004",
+            "diameter_mm": "183",
+            "height_mm": "184,5",
+            "micron": "⩽15",
+            "price": "45 €",
+            "price_eur": 45.0
+          }
+        },
+        {
+          "code": "19811123005",
+          "price": "75 €",
+          "price_eur": 75.0,
+          "values": {
+            "model": "KF 50",
+            "code": "19811123005",
+            "diameter_mm": "183",
+            "height_mm": "364,5",
+            "micron": "⩽15",
+            "price": "75 €",
+            "price_eur": 75.0
+          }
+        },
+        {
+          "code": "19811123006",
+          "price": "89 €",
+          "price_eur": 89.0,
+          "values": {
+            "model": "KF 75",
+            "code": "19811123006",
+            "diameter_mm": "183",
+            "height_mm": "544,5",
+            "micron": "⩽15",
+            "price": "89 €",
+            "price_eur": 89.0
+          }
+        },
+        {
+          "code": "19811123007",
+          "price": "93 €",
+          "price_eur": 93.0,
+          "values": {
+            "model": "KF 100",
+            "code": "19811123007",
+            "diameter_mm": "183",
+            "height_mm": "724,5",
+            "micron": "⩽15",
+            "price": "93 €",
+            "price_eur": 93.0
+          }
+        },
+        {
+          "code": "19811123008",
+          "price": "104 €",
+          "price_eur": 104.0,
+          "values": {
+            "model": "KF 150",
+            "code": "19811123008",
+            "diameter_mm": "183",
+            "height_mm": "904,5",
+            "micron": "⩽15",
+            "price": "104 €",
+            "price_eur": 104.0
+          }
+        },
+        {
+          "code": "19811123009",
+          "price": "146 €",
+          "price_eur": 146.0,
+          "values": {
+            "model": "KF 200",
+            "code": "19811123009",
+            "diameter_mm": "183",
+            "height_mm": "1.091",
+            "micron": "⩽15",
+            "price": "146 €",
+            "price_eur": 146.0
+          }
+        },
+        {
+          "code": "12016123001",
+          "price": "291 €",
+          "price_eur": 291.0,
+          "values": {
+            "code": "12016123001",
+            "model": "KF 25",
+            "inlet_outlet": "50 mm",
+            "flow_m3h": "5,50",
+            "price": "291 €",
+            "price_eur": 291.0
+          }
+        },
+        {
+          "code": "12016123002",
+          "price": "345 €",
+          "price_eur": 345.0,
+          "values": {
+            "code": "12016123002",
+            "model": "KF 50",
+            "inlet_outlet": "50 mm",
+            "flow_m3h": "11,40",
+            "price": "345 €",
+            "price_eur": 345.0
+          }
+        },
+        {
+          "code": "12016123003",
+          "price": "440 €",
+          "price_eur": 440.0,
+          "values": {
+            "code": "12016123003",
+            "model": "KF 75",
+            "inlet_outlet": "50 mm",
+            "flow_m3h": "17,00",
+            "price": "440 €",
+            "price_eur": 440.0
+          }
+        },
+        {
+          "code": "12016123004",
+          "price": "470 €",
+          "price_eur": 470.0,
+          "values": {
+            "code": "12016123004",
+            "model": "KF 100",
+            "inlet_outlet": "50 mm",
+            "flow_m3h": "22,90",
+            "price": "470 €",
+            "price_eur": 470.0
+          }
+        },
+        {
+          "code": "12016123005",
+          "price": "550 €",
+          "price_eur": 550.0,
+          "values": {
+            "code": "12016123005",
+            "model": "KF 150",
+            "inlet_outlet": "50 mm",
+            "flow_m3h": "33,40",
+            "price": "550 €",
+            "price_eur": 550.0
+          }
+        },
+        {
+          "code": "12016123006",
+          "price": "640 €",
+          "price_eur": 640.0,
+          "values": {
+            "code": "12016123006",
+            "model": "KF 200",
+            "inlet_outlet": "50 mm",
+            "flow_m3h": "40,90",
+            "price": "640 €",
+            "price_eur": 640.0
+          }
+        },
+        {
+          "code": "12018302001",
+          "price": "20 €",
+          "price_eur": 20.0,
+          "values": {
+            "code": "12018302001",
+            "packing": "25 kg",
+            "ap_diameter": "0,5-1,2 mm",
+            "price": "20 €",
+            "price_eur": 20.0
+          }
+        },
+        {
+          "code": "12018302003",
+          "price": "20 €",
+          "price_eur": 20.0,
+          "values": {
+            "code": "12018302003",
+            "packing": "25 kg",
+            "ap_diameter": "1,2-3,2 mm",
+            "price": "20 €",
+            "price_eur": 20.0
+          }
+        },
+        {
+          "code": "12018302002",
+          "price": "20 €",
+          "price_eur": 20.0,
+          "values": {
+            "code": "12018302002",
+            "packing": "25 kg",
+            "ap_diameter": "3,2-5,0 mm",
+            "price": "20 €",
+            "price_eur": 20.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "kuvars-kum-quartz-sand",
+      "family_title_tr": "Kuvars Kum Quartz Sand",
+      "family_title_en": "Kuvars Kum Quartz Sand",
+      "family_description_tr": "A large white bag of Deep Blue Quartz Sand and two circular inset images showing the granular texture of the sand at different sizes.",
+      "family_line_count": 37,
+      "qualitative": {
+        "bullets_tr": [
+          "Doğal malzemeden üretilmiştir",
+          "Ürün yıkanmış ve fırınlanmıştır",
+          "Yüksek kaliteli ambalaj"
+        ],
+        "bullets_en": [
+          "Produced from natural material",
+          "Quartz sand washed and kiln-dried",
+          "High quality package"
+        ],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_3930",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "AMBALAJ PACKING",
+            "ÇAP DIAMETER",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "12018132001",
+              "25 kg",
+              "0,5-1,2 mm",
+              "10 €"
+            ],
+            [
+              "12018132002",
+              "25 kg",
+              "1-3 mm",
+              "10 €"
+            ],
+            [
+              "12018132003",
+              "25 kg",
+              "3-5 mm",
+              "10 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "e6a5d1ca48e911b2112c9af97419357f_img.jpg",
+          "alt": "A large white bag of Deep Blue Quartz Sand and two circular inset images showing the granular texture of the sand at different sizes.",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "12018132001",
+          "price": "10 €",
+          "price_eur": 10.0,
+          "values": {
+            "code": "12018132001",
+            "packing": "25 kg",
+            "ap_diameter": "0,5-1,2 mm",
+            "price": "10 €",
+            "price_eur": 10.0
+          }
+        },
+        {
+          "code": "12018132002",
+          "price": "10 €",
+          "price_eur": 10.0,
+          "values": {
+            "code": "12018132002",
+            "packing": "25 kg",
+            "ap_diameter": "1-3 mm",
+            "price": "10 €",
+            "price_eur": 10.0
+          }
+        },
+        {
+          "code": "12018132003",
+          "price": "10 €",
+          "price_eur": 10.0,
+          "values": {
+            "code": "12018132003",
+            "packing": "25 kg",
+            "ap_diameter": "3-5 mm",
+            "price": "10 €",
+            "price_eur": 10.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "zeolit-zeolite",
+      "family_title_tr": "Zeolit Zeolite",
+      "family_title_en": "Zeolit Zeolite",
+      "family_description_tr": "Mineral yapısı sayesinde berrak ve sağlıklı su sağlar.",
+      "family_line_count": 201,
+      "qualitative": {
+        "bullets_tr": [
+          "Zeolit, kuvars kum ile karşılaştırıldığında çok berrak bir su üretir",
+          "Yüksek yüzey alanına ve kil ve koloidal partikülleri etkin şekilde filtre edebilen geniş iç boşluk alanına sahip tamamen doğal bir üründür. Temiz ortamdaki basınç düşüşü, tipik silis kumundan daha azdır.",
+          "Havuzunuz hep parlak kalır",
+          "Su, enerji, işgücü ve kimyasallarda tasarruf sağlar",
+          "Tüm kum filtrelerinde (hızlı ve yavaş tipler) kuvars yerine kullanılabilir",
+          "İşletme maliyetlerini düşürür",
+          "Ters yıkamayı % 50 azaltır",
+          "Kloraminleri, kokuyu ve göz yanmasını azaltır",
+          "Islak Partikül Yoğunluğu: 1,800 gram/litre",
+          "Tamamen doğaldır",
+          "Produces very clear water compared to quartz sand",
+          "An all-natural zeolite with a high surface area and large internalcavity area that can effectively filter clay and colloidal particles. The pressure drop in clean media is less than typical silica sand",
+          "Your pool always stays bright",
+          "It saves water, energy, labor and chemicals",
+          "Can be used instead of quartz in all sand filters (fast and slow types)",
+          "It reduces operating costs",
+          "Reduces backwashing by 50%",
+          "Reduces chloramines, odor and eye burning",
+          "Wet Particle Density: 1,800 grams/liter",
+          "It is completely natural",
+          "Filtrasyon elemanları montajına uygun ergonomik tasarım",
+          "Cam elyaf takviyeli polyester gövde",
+          "Çok dayanıklı yapıya sahip",
+          "UV dayanımlıdır, dış ortamda kullanılabilir",
+          "100x100x90 mm; 350-600'lik filtreler için uygundur",
+          "140x140x105 mm; 600-900'lik filtreler için uygundur",
+          "Ergonomic design suitable for installation of filtration elements",
+          "Fibre glass reinforced polyester",
+          "High durable structure",
+          "UV resistance, can be installed outside",
+          "100x100x90 mm; It is suitable for 350-600 sand filters",
+          "140x140x105 mm; It is suitable for 600-900 sand filters",
+          "Cam takviyeli polyester gövde",
+          "Çok dayanıklı yapıya sahip",
+          "UV dayanımlıdır dış ortamda kullanılabilir",
+          "Gri ve bej renk seçenekleri ile",
+          "Glass reinforced polyester body",
+          "High durable structure",
+          "UV resistance, can be installed outside",
+          "Grey and beige colors optionally",
+          "Cam takviyeli polyester gövde",
+          "Çok dayanıklı yapıya sahip",
+          "UV dayanımlıdır dış ortamda kullanılabilir",
+          "Glass rreinforced polyester body",
+          "High durable structure",
+          "UV resistance, can be installed outside",
+          "PE plastik enjeksiyon ürün",
+          "Ekonomik alternatif",
+          "PE plastic injection product",
+          "Competitive price",
+          "Akrilik şeffaf boru",
+          "U-PVC bağlantı rakoru ile verilir",
+          "Transparent acrylic pipe",
+          "Includes U-PVC unions",
+          "Cam takviyeli polyester gövde",
+          "UV ışınlarına dayanıklı",
+          "Çok dayanıklı yapı",
+          "Glass reinforced polyester body",
+          "UV resistance",
+          "High durable structure"
+        ],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_4019",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "BOYUT mm SIZE mm",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "2099003296",
+              "0,6 - 1",
+              "-"
+            ],
+            [
+              "2099003297",
+              "1 - 2",
+              "-"
+            ],
+            [
+              "2099003298",
+              "2 - 4",
+              "-"
+            ],
+            [
+              "2099003299",
+              "4 - 7",
+              "-"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_4040",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "İÇ ÖLÇÜLER INTERIOR DIMENSIONS",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "12017122001",
+              "100x100x90 Uzunluk x genişlik x yükseklik",
+              "599 €"
+            ],
+            [
+              "12017122004",
+              "140x140x105 Length x width x height",
+              "799 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_4067",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "UZUNLUK LENGHT",
+            "GENİŞLİK WIDTH",
+            "İÇTEN İÇE INTERIOR SIZES",
+            "DIŞTAN DIŞA OUTHER SIZES",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "12017121001",
+              "100 cm",
+              "100 cm",
+              "94x94",
+              "112x112",
+              "420 €"
+            ],
+            [
+              "12017121005",
+              "80 cm",
+              "80 cm",
+              "81x81",
+              "104x104",
+              "320 €"
+            ],
+            [
+              "12017121003",
+              "60 cm",
+              "60 cm",
+              "65x65",
+              "90x90",
+              "260 €"
+            ],
+            [
+              "12017121015",
+              "50 cm",
+              "50 cm",
+              "45x45",
+              "58x58",
+              "240 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_4092",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "UZUNLUK LENGHT",
+            "GENİŞLİK WIDTH",
+            "BASAMAK STEP",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "12017121002",
+              "150 cm",
+              "45 cm",
+              "4",
+              "341 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_4111",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "UZUNLUK LENGHT",
+            "GENİŞLİK WIDTH",
+            "YÜKSEKLİK HEIGHT",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "199002024",
+              "41,5 cm",
+              "25 cm",
+              "19 cm",
+              "11 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_4128",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "BAĞLANTI CONNECTION",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "19811123010",
+              "50 mm",
+              "21 €"
+            ],
+            [
+              "19811123011",
+              "63 mm",
+              "23.80 €"
+            ],
+            [
+              "19811123012",
+              "75 mm",
+              "60.20 €"
+            ],
+            [
+              "19811123013",
+              "90 mm",
+              "81.20 €"
+            ],
+            [
+              "19811123014",
+              "110 mm",
+              "89.60 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_4150",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "UZUNLUK LENGTH",
+            "GENİŞLİK WIDTH",
+            "YÜKSEKLİK HEIGHT",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "199002023",
+              "46 cm",
+              "27 cm",
+              "18 cm",
+              "57 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "24b0ead808598268efb5a4e2f0670744_img.jpg",
+          "alt": "Made in Turkey logo",
+          "caption": "TÜRKİYE'DE ÜRETİLMİŞTİR",
+          "type": "icon"
+        },
+        {
+          "file": "15d638b214ad2eba56308ac492f2b227_img.jpg",
+          "alt": "Energy Saving logo",
+          "caption": "ENERJİ TASARRUFU",
+          "type": "icon"
+        },
+        {
+          "file": "66e70d52e43ca307fb508a76c3568ac5_img.jpg",
+          "alt": "Natural Mineral logo",
+          "caption": "DOĞAL MİNERAL",
+          "type": "icon"
+        },
+        {
+          "file": "c59c57aa32d1de24f1b0cfca10bd7dd9_img.jpg",
+          "alt": "A cross-section diagram of a water filter tank filled with zeolite granules, with a small pile of zeolite granules shown next to it.",
+          "caption": "",
+          "type": "diagram"
+        },
+        {
+          "file": "58a211d80f6b4fb71a438f3d6676deb1_img.jpg",
+          "alt": "Four circular images showing different sizes of zeolite granules, from fine to coarse.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "fec2a16f7345439402afcabbe2447569_img.jpg",
+          "alt": "A grey polyester filtration room with a green lid, shown from a side angle.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "065a5a5bfa37459e1d4a7bd53923f41c_img.jpg",
+          "alt": "Two square machine room covers, one beige and one grey, shown side-by-side.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "ace18f97cfe649d533f4ed18821a9599_img.jpg",
+          "alt": "A blue polyester filtration room ladder with four steps and a top rail.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "572717957b73535ab43e312274f1c7cf_img.jpg",
+          "alt": "A black plastic pump stand with a rectangular top and a curved cutout at the bottom.",
+          "caption": "",
+          "type": "performance_curve"
+        },
+        {
+          "file": "3bce6bece036404fcfe7605bd52c22fe_img.jpg",
+          "alt": "A transparent acrylic pipe with two black U-PVC unions at each end, used for inspection glass.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "c2f37565040adb5afa81495e23425292_img.jpg",
+          "alt": "A blue, rectangular polyester pump stand with a flat top and a base.",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "2099003296",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "2099003296",
+            "size_mm": "0,6 - 1",
+            "price": "-"
+          }
+        },
+        {
+          "code": "2099003297",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "2099003297",
+            "size_mm": "1 - 2",
+            "price": "-"
+          }
+        },
+        {
+          "code": "2099003298",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "2099003298",
+            "size_mm": "2 - 4",
+            "price": "-"
+          }
+        },
+        {
+          "code": "2099003299",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "2099003299",
+            "size_mm": "4 - 7",
+            "price": "-"
+          }
+        },
+        {
+          "code": "12017122001",
+          "price": "599 €",
+          "price_eur": 599.0,
+          "values": {
+            "code": "12017122001",
+            "interior_dimensions": "100x100x90 Uzunluk x genişlik x yükseklik",
+            "price": "599 €",
+            "price_eur": 599.0
+          }
+        },
+        {
+          "code": "12017122004",
+          "price": "799 €",
+          "price_eur": 799.0,
+          "values": {
+            "code": "12017122004",
+            "interior_dimensions": "140x140x105 Length x width x height",
+            "price": "799 €",
+            "price_eur": 799.0
+          }
+        },
+        {
+          "code": "12017121001",
+          "price": "420 €",
+          "price_eur": 420.0,
+          "values": {
+            "code": "12017121001",
+            "length": "100 cm",
+            "width": "100 cm",
+            "interior_sizes": "94x94",
+            "outer_sizes": "112x112",
+            "price": "420 €",
+            "price_eur": 420.0
+          }
+        },
+        {
+          "code": "12017121005",
+          "price": "320 €",
+          "price_eur": 320.0,
+          "values": {
+            "code": "12017121005",
+            "length": "80 cm",
+            "width": "80 cm",
+            "interior_sizes": "81x81",
+            "outer_sizes": "104x104",
+            "price": "320 €",
+            "price_eur": 320.0
+          }
+        },
+        {
+          "code": "12017121003",
+          "price": "260 €",
+          "price_eur": 260.0,
+          "values": {
+            "code": "12017121003",
+            "length": "60 cm",
+            "width": "60 cm",
+            "interior_sizes": "65x65",
+            "outer_sizes": "90x90",
+            "price": "260 €",
+            "price_eur": 260.0
+          }
+        },
+        {
+          "code": "12017121015",
+          "price": "240 €",
+          "price_eur": 240.0,
+          "values": {
+            "code": "12017121015",
+            "length": "50 cm",
+            "width": "50 cm",
+            "interior_sizes": "45x45",
+            "outer_sizes": "58x58",
+            "price": "240 €",
+            "price_eur": 240.0
+          }
+        },
+        {
+          "code": "12017121002",
+          "price": "341 €",
+          "price_eur": 341.0,
+          "values": {
+            "code": "12017121002",
+            "length": "150 cm",
+            "width": "45 cm",
+            "step": "4",
+            "price": "341 €",
+            "price_eur": 341.0
+          }
+        },
+        {
+          "code": "199002024",
+          "price": "11 €",
+          "price_eur": 11.0,
+          "values": {
+            "code": "199002024",
+            "length": "41,5 cm",
+            "width": "25 cm",
+            "height": "19 cm",
+            "price": "11 €",
+            "price_eur": 11.0
+          }
+        },
+        {
+          "code": "19811123010",
+          "price": "21 €",
+          "price_eur": 21.0,
+          "values": {
+            "code": "19811123010",
+            "connection": "50 mm",
+            "price": "21 €",
+            "price_eur": 21.0
+          }
+        },
+        {
+          "code": "19811123011",
+          "price": "23.80 €",
+          "price_eur": 23.8,
+          "values": {
+            "code": "19811123011",
+            "connection": "63 mm",
+            "price": "23.80 €",
+            "price_eur": 23.8
+          }
+        },
+        {
+          "code": "19811123012",
+          "price": "60.20 €",
+          "price_eur": 60.2,
+          "values": {
+            "code": "19811123012",
+            "connection": "75 mm",
+            "price": "60.20 €",
+            "price_eur": 60.2
+          }
+        },
+        {
+          "code": "19811123013",
+          "price": "81.20 €",
+          "price_eur": 81.2,
+          "values": {
+            "code": "19811123013",
+            "connection": "90 mm",
+            "price": "81.20 €",
+            "price_eur": 81.2
+          }
+        },
+        {
+          "code": "19811123014",
+          "price": "89.60 €",
+          "price_eur": 89.6,
+          "values": {
+            "code": "19811123014",
+            "connection": "110 mm",
+            "price": "89.60 €",
+            "price_eur": 89.6
+          }
+        },
+        {
+          "code": "199002023",
+          "price": "57 €",
+          "price_eur": 57.0,
+          "values": {
+            "code": "199002023",
+            "length": "46 cm",
+            "width": "27 cm",
+            "height": "18 cm",
+            "price": "57 €",
+            "price_eur": 57.0
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1365 @@
+{
+  "category_no": "14",
+  "category_tr": "Olimpik Havuz Ürünleri",
+  "category_en": "Olympic Pool Products",
+  "family_count": 18,
+  "variant_count": 35,
+  "families": [
+    {
+      "family_product_id": "4-5-6-number-products",
+      "family_title_tr": "4, 5, 6 Number Products",
+      "family_title_en": "4, 5, 6 Number Products",
+      "family_description_tr": "",
+      "family_line_count": 13,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_16600",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "MODEL",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "13515123002",
+              "1- dişi / erkek kırmızı Female / male red",
+              "0,50 €"
+            ],
+            [
+              "13515123016",
+              "2- dişi / erkek mavi Female / male blue",
+              "0,50 €"
+            ],
+            [
+              "13515123019",
+              "3- dişi / erkek beyaz Female / male white",
+              "0,50 €"
+            ],
+            [
+              "13515123006",
+              "4- kulvar topu beyaz Lane ball white",
+              "0,50 €"
+            ],
+            [
+              "13515123007",
+              "5- kulvar topu kırmızı Lane ball red",
+              "0,50 €"
+            ],
+            [
+              "13515123008",
+              "6- kulvar topu mavi Lane ball blue",
+              "0,50 €"
+            ]
+          ]
+        }
+      ],
+      "images": [],
+      "variants": [
+        {
+          "code": "13515123002",
+          "price": "0,50 €",
+          "price_eur": 0.5,
+          "values": {
+            "code": "13515123002",
+            "model": "1- dişi / erkek kırmızı Female / male red",
+            "price": "0,50 €",
+            "price_eur": 0.5
+          }
+        },
+        {
+          "code": "13515123016",
+          "price": "0,50 €",
+          "price_eur": 0.5,
+          "values": {
+            "code": "13515123016",
+            "model": "2- dişi / erkek mavi Female / male blue",
+            "price": "0,50 €",
+            "price_eur": 0.5
+          }
+        },
+        {
+          "code": "13515123019",
+          "price": "0,50 €",
+          "price_eur": 0.5,
+          "values": {
+            "code": "13515123019",
+            "model": "3- dişi / erkek beyaz Female / male white",
+            "price": "0,50 €",
+            "price_eur": 0.5
+          }
+        },
+        {
+          "code": "13515123006",
+          "price": "0,50 €",
+          "price_eur": 0.5,
+          "values": {
+            "code": "13515123006",
+            "model": "4- kulvar topu beyaz Lane ball white",
+            "price": "0,50 €",
+            "price_eur": 0.5
+          }
+        },
+        {
+          "code": "13515123007",
+          "price": "0,50 €",
+          "price_eur": 0.5,
+          "values": {
+            "code": "13515123007",
+            "model": "5- kulvar topu kırmızı Lane ball red",
+            "price": "0,50 €",
+            "price_eur": 0.5
+          }
+        },
+        {
+          "code": "13515123008",
+          "price": "0,50 €",
+          "price_eur": 0.5,
+          "values": {
+            "code": "13515123008",
+            "model": "6- kulvar topu mavi Lane ball blue",
+            "price": "0,50 €",
+            "price_eur": 0.5
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "kulvar-seperat-r-y-zd-r-c-ve-toplar-lane-separator-floater-a",
+      "family_title_tr": "Kulvar Seperatör Yüzdürücü ve Topları Lane Separator Floater and Balls",
+      "family_title_en": "Kulvar Seperatör Yüzdürücü ve Topları Lane Separator Floater and Balls",
+      "family_description_tr": "Close-up image of lane separator components for the 'Seul' model.",
+      "family_line_count": 26,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_16627",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "MODEL",
+            "UZUNLUK mt LENGTH mt",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "13515123010",
+              "Seul",
+              "25",
+              "476 €"
+            ],
+            [
+              "13515123011",
+              "Seul",
+              "50",
+              "961 €"
+            ],
+            [
+              "13515123012",
+              "Moskova",
+              "25",
+              "512 €"
+            ],
+            [
+              "13515123013",
+              "Moskova",
+              "50",
+              "1.100 €"
+            ],
+            [
+              "13515123014",
+              "Roma",
+              "25",
+              "270 €"
+            ],
+            [
+              "13515123015",
+              "Roma",
+              "50",
+              "560 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "154dad633201442cbc803a6e0e95e226_img.jpg",
+          "alt": "Close-up image of lane separator components for the 'Seul' model.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "8728b7907933c3f8f81a2eca348feba6_img.jpg",
+          "alt": "Close-up image of lane separator components for the 'Moskova' model.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "ae249cb245c745f3126f2fd3f32a1270_img.jpg",
+          "alt": "Close-up image of lane separator components for the 'Roma' model.",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "13515123010",
+          "price": "476 €",
+          "price_eur": 476.0,
+          "values": {
+            "code": "13515123010",
+            "model": "Seul",
+            "length_mt": "25",
+            "price": "476 €",
+            "price_eur": 476.0
+          }
+        },
+        {
+          "code": "13515123011",
+          "price": "961 €",
+          "price_eur": 961.0,
+          "values": {
+            "code": "13515123011",
+            "model": "Seul",
+            "length_mt": "50",
+            "price": "961 €",
+            "price_eur": 961.0
+          }
+        },
+        {
+          "code": "13515123012",
+          "price": "512 €",
+          "price_eur": 512.0,
+          "values": {
+            "code": "13515123012",
+            "model": "Moskova",
+            "length_mt": "25",
+            "price": "512 €",
+            "price_eur": 512.0
+          }
+        },
+        {
+          "code": "13515123013",
+          "price": "1.100 €",
+          "price_eur": 1100.0,
+          "values": {
+            "code": "13515123013",
+            "model": "Moskova",
+            "length_mt": "50",
+            "price": "1.100 €",
+            "price_eur": 1100.0
+          }
+        },
+        {
+          "code": "13515123014",
+          "price": "270 €",
+          "price_eur": 270.0,
+          "values": {
+            "code": "13515123014",
+            "model": "Roma",
+            "length_mt": "25",
+            "price": "270 €",
+            "price_eur": 270.0
+          }
+        },
+        {
+          "code": "13515123015",
+          "price": "560 €",
+          "price_eur": 560.0,
+          "values": {
+            "code": "13515123015",
+            "model": "Roma",
+            "length_mt": "50",
+            "price": "560 €",
+            "price_eur": 560.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "sabit-atlama-platformu-fixed-starting-blocks",
+      "family_title_tr": "Sabit Atlama Platformu Fixed Starting Blocks",
+      "family_title_en": "Sabit Atlama Platformu Fixed Starting Blocks",
+      "family_description_tr": "Fixed starting block with a blue rectangular platform and a single stainless steel support leg.",
+      "family_line_count": 10,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_16645",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "BASAMAK STEP",
+            "YÜKSEKLİK cm HEIGHT cm",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "13516123001",
+              "1",
+              "40",
+              "630 €"
+            ],
+            [
+              "13516132003",
+              "2",
+              "70",
+              "745 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "a3c73cdc04e9bd826f08a7a36ccb2263_img.jpg",
+          "alt": "Fixed starting block with a blue rectangular platform and a single stainless steel support leg.",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "13516123001",
+          "price": "630 €",
+          "price_eur": 630.0,
+          "values": {
+            "code": "13516123001",
+            "step": "1",
+            "height_cm": "40",
+            "price": "630 €",
+            "price_eur": 630.0
+          }
+        },
+        {
+          "code": "13516132003",
+          "price": "745 €",
+          "price_eur": 745.0,
+          "values": {
+            "code": "13516132003",
+            "step": "2",
+            "height_cm": "70",
+            "price": "745 €",
+            "price_eur": 745.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "sabit-2-basamakl-atlama-platformu-fixed-2-step-starting-plat",
+      "family_title_tr": "Sabit 2 Basamaklı Atlama Platformu Fixed 2-Step Starting Platform",
+      "family_title_en": "Ayarlanabilir Atlama Platformu Adjustable Starting Blocks",
+      "family_description_tr": "Fixed 2-step starting platform with a blue rectangular platform and two stainless steel support legs.",
+      "family_line_count": 24,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_16656",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "BASAMAK STEP",
+            "YÜKSEKLİK cm HEIGHT cm",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "13516123002",
+              "2",
+              "60",
+              "720 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_16666",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "BASAMAK STEP",
+            "YÜKSEKLİK cm HEIGHT cm",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "13516132001",
+              "1",
+              "40",
+              "850 €"
+            ],
+            [
+              "13516132002",
+              "2",
+              "70",
+              "1.068€"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "41f0784fe4d64dbeae4c124d2bf62cc7_img.jpg",
+          "alt": "Fixed 2-step starting platform with a blue rectangular platform and two stainless steel support legs.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "870ccef4eeb5010c3bf32848acc4453c_img.jpg",
+          "alt": "Adjustable starting block with a blue rectangular platform and a stainless steel support leg that can be adjusted in height.",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "13516123002",
+          "price": "720 €",
+          "price_eur": 720.0,
+          "values": {
+            "code": "13516123002",
+            "step": "2",
+            "height_cm": "60",
+            "price": "720 €",
+            "price_eur": 720.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "ayarlanabilir-atlama-platformu-adjustable-starting-blocks",
+      "family_title_tr": "Ayarlanabilir Atlama Platformu Adjustable Starting Blocks",
+      "family_title_en": "Ayarlanabilir Atlama Platformu Adjustable Starting Blocks",
+      "family_description_tr": "Adjustable starting block with a blue rectangular platform and a stainless steel support leg that can be adjusted in height.",
+      "family_line_count": 14,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_16666",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "BASAMAK STEP",
+            "YÜKSEKLİK cm HEIGHT cm",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "13516132001",
+              "1",
+              "40",
+              "850 €"
+            ],
+            [
+              "13516132002",
+              "2",
+              "70",
+              "1.068€"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "870ccef4eeb5010c3bf32848acc4453c_img.jpg",
+          "alt": "Adjustable starting block with a blue rectangular platform and a stainless steel support leg that can be adjusted in height.",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "13516132001",
+          "price": "850 €",
+          "price_eur": 850.0,
+          "values": {
+            "code": "13516132001",
+            "step": "1",
+            "height_cm": "40",
+            "price": "850 €",
+            "price_eur": 850.0
+          }
+        },
+        {
+          "code": "13516132002",
+          "price": "1.068€",
+          "price_eur": 1068.0,
+          "values": {
+            "code": "13516132002",
+            "step": "2",
+            "height_cm": "70",
+            "price": "1.068€",
+            "price_eur": 1068.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "beton-tip-ankraj-concrete-type-anchor",
+      "family_title_tr": "Beton Tip Ankraj Concrete Type Anchor",
+      "family_title_en": "Fil Savağı Tip Ankraj Finnish Inclined Type Anchor",
+      "family_description_tr": "Concrete Type Anchor",
+      "family_line_count": 19,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_16685",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "AĞIRLIK WEIGHT",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "13517122008",
+              "440 gr",
+              "55 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_16695",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "AĞIRLIK WEIGHT",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "13517122009",
+              "440 gr",
+              "48 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "e3d6c4dbfdcaf6e3a2d6b491bb397c33_img.jpg",
+          "alt": "Concrete Type Anchor",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "3db80f08b57498043bc63f876d9c39ff_img.jpg",
+          "alt": "Finnish Inclined Type Anchor",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "13517122008",
+          "price": "55 €",
+          "price_eur": 55.0,
+          "values": {
+            "code": "13517122008",
+            "weight": "440 gr",
+            "price": "55 €",
+            "price_eur": 55.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "fil-sava-tip-ankraj-finnish-inclined-type-anchor",
+      "family_title_tr": "Fil Savağı Tip Ankraj Finnish Inclined Type Anchor",
+      "family_title_en": "Fil Savağı Tip Ankraj Finnish Inclined Type Anchor",
+      "family_description_tr": "Finnish Inclined Type Anchor",
+      "family_line_count": 9,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_16695",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "AĞIRLIK WEIGHT",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "13517122009",
+              "440 gr",
+              "48 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "3db80f08b57498043bc63f876d9c39ff_img.jpg",
+          "alt": "Finnish Inclined Type Anchor",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "13517122009",
+          "price": "48 €",
+          "price_eur": 48.0,
+          "values": {
+            "code": "13517122009",
+            "weight": "440 gr",
+            "price": "48 €",
+            "price_eur": 48.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "seperat-r-ankra-bronz-d-k-m-kromajl-bronze-casting-and-chrom",
+      "family_title_tr": "Seperatör Ankraşı Bronz Döküm Kromajlı Bronze Casting And Chromated Anchor",
+      "family_title_en": "Seperatör Ankraşı Bronz Döküm Kromajlı Bronze Casting And Chromated Anchor",
+      "family_description_tr": "Bronze Casting And Chromated Anchor",
+      "family_line_count": 9,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_16705",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "AĞIRLIK WEIGHT",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "13517122010",
+              "500 gr",
+              "83 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "d5e536cc9dbd7cdd8398314879a17602_img.jpg",
+          "alt": "Bronze Casting And Chromated Anchor",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "13517122010",
+          "price": "83 €",
+          "price_eur": 83.0,
+          "values": {
+            "code": "13517122010",
+            "weight": "500 gr",
+            "price": "83 €",
+            "price_eur": 83.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "gerdirme-ubu-u-double-edged-hooked-brass",
+      "family_title_tr": "Gerdirme Çubuğu Double Edged Hooked Brass",
+      "family_title_en": "Gerdirme Çubuğu Double Edged Hooked Brass",
+      "family_description_tr": "Double Edged Hooked Brass",
+      "family_line_count": 9,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_16715",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "AĞIRLIK WEIGHT",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "13517122011",
+              "215 gr",
+              "72 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "ff1e6cd5b323a7e0d9a3fbcce93f6431_img.jpg",
+          "alt": "Double Edged Hooked Brass",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "13517122011",
+          "price": "72 €",
+          "price_eur": 72.0,
+          "values": {
+            "code": "13517122011",
+            "weight": "215 gr",
+            "price": "72 €",
+            "price_eur": 72.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "seperat-r-gerdirici-bronz-d-k-m-kromajl-spring-model-sunborn",
+      "family_title_tr": "Seperatör Gerdirici Bronz Döküm Kromajlı Spring Model Sunborn Bronze Casting And Chromated Ratchet",
+      "family_title_en": "Seperatör Aksesuarları",
+      "family_description_tr": "Spring Model Sunborn Bronze Casting And Chromated Ratchet",
+      "family_line_count": 11,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_16725",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "AĞIRLIK WEIGHT",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "13517122012",
+              "720 gr",
+              "165 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "082cd5c9ac0bf4171ac81704f4a4e577_img.jpg",
+          "alt": "Spring Model Sunborn Bronze Casting And Chromated Ratchet",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "13517122012",
+          "price": "165 €",
+          "price_eur": 165.0,
+          "values": {
+            "code": "13517122012",
+            "weight": "720 gr",
+            "price": "165 €",
+            "price_eur": 165.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "seperat-r-kancas-makaral-float-line-hook",
+      "family_title_tr": "Seperatör Kancası Makaralı Float Line Hook",
+      "family_title_en": "Seperatör Kancası Makaralı Float Line Hook",
+      "family_description_tr": "A small white float line hook with a metal ring and a hook at the end.",
+      "family_line_count": 9,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_16739",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "AĞIRLIK WEIGHT",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "13517122013",
+              "40 gr",
+              "16 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "3f4d08f1d8fd932b953c045b68571f53_img.jpg",
+          "alt": "A small white float line hook with a metal ring and a hook at the end.",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "13517122013",
+          "price": "16 €",
+          "price_eur": 16.0,
+          "values": {
+            "code": "13517122013",
+            "weight": "40 gr",
+            "price": "16 €",
+            "price_eur": 16.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "ask-kancas-emniyet-mandal-hook-with-safety-latch",
+      "family_title_tr": "Askı Kancası Emniyet Mandalı Hook with Safety Latch",
+      "family_title_en": "Askı Kancası Emniyet Mandalı Hook with Safety Latch",
+      "family_description_tr": "A metal carabiner hook with a safety latch.",
+      "family_line_count": 9,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_16749",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "AĞIRLIK WEIGHT",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "13517122014",
+              "120 gr",
+              "25 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "2ee9e7e891d32bf23d2aa88357a06eb3_img.jpg",
+          "alt": "A metal carabiner hook with a safety latch.",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "13517122014",
+          "price": "25 €",
+          "price_eur": 25.0,
+          "values": {
+            "code": "13517122014",
+            "weight": "120 gr",
+            "price": "25 €",
+            "price_eur": 25.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "su-st-ba-lama-halkas-overhead-bracket",
+      "family_title_tr": "Su Üstü Bağlama Halkası Overhead Bracket",
+      "family_title_en": "Su Üstü Bağlama Halkası Overhead Bracket",
+      "family_description_tr": "A vertical metal overhead bracket with a small hook at the top.",
+      "family_line_count": 9,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_16759",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "AĞIRLIK WEIGHT",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "13517122015",
+              "250 gr",
+              "40 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "d32a0519025182d619d41eb086502b38_img.jpg",
+          "alt": "A vertical metal overhead bracket with a small hook at the top.",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "13517122015",
+          "price": "40 €",
+          "price_eur": 40.0,
+          "values": {
+            "code": "13517122015",
+            "weight": "250 gr",
+            "price": "40 €",
+            "price_eur": 40.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "kulvar-sarma-tamburu-float-lines-roller",
+      "family_title_tr": "Kulvar Sarma Tamburu Float Lines Roller",
+      "family_title_en": "Kulvar Sarma Tamburu Float Lines Roller",
+      "family_description_tr": "A metal float line roller with two large wheels and a frame.",
+      "family_line_count": 10,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_16769",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "UZUNLUK LENGHT",
+            "AĞIRLIK WEIGHT",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "13517122016",
+              "120 cm",
+              "215 gr",
+              "900 €"
+            ],
+            [
+              "13517122017",
+              "180 cm",
+              "215 gr",
+              "1.100 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "abdb92513a92b7f30c9b64fee1ae4b2d_img.jpg",
+          "alt": "A metal float line roller with two large wheels and a frame.",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "13517122016",
+          "price": "900 €",
+          "price_eur": 900.0,
+          "values": {
+            "code": "13517122016",
+            "length": "120 cm",
+            "weight": "215 gr",
+            "price": "900 €",
+            "price_eur": 900.0
+          }
+        },
+        {
+          "code": "13517122017",
+          "price": "1.100 €",
+          "price_eur": 1100.0,
+          "values": {
+            "code": "13517122017",
+            "length": "180 cm",
+            "weight": "215 gr",
+            "price": "1.100 €",
+            "price_eur": 1100.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "yanl-k-i-kaz-dire-i-false-start-indicator",
+      "family_title_tr": "Yanlış Çıkış İkaz Direği False Start Indicator",
+      "family_title_en": "Yanlış Çıkış İkaz Direği False Start Indicator",
+      "family_description_tr": "A False Start Indicator consisting of a vertical metal pole with a red float attached to a horizontal line.",
+      "family_line_count": 14,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_16780",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "UZUNLUK LENGHT",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "13517122001",
+              "12,5 mt",
+              "230 €"
+            ],
+            [
+              "13517122002",
+              "25 mt",
+              "285 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "6c1a902cccf0b4f9f573b7dc233bd351_img.jpg",
+          "alt": "A False Start Indicator consisting of a vertical metal pole with a red float attached to a horizontal line.",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "13517122001",
+          "price": "230 €",
+          "price_eur": 230.0,
+          "values": {
+            "code": "13517122001",
+            "length": "12,5 mt",
+            "price": "230 €",
+            "price_eur": 230.0
+          }
+        },
+        {
+          "code": "13517122002",
+          "price": "285 €",
+          "price_eur": 285.0,
+          "values": {
+            "code": "13517122002",
+            "length": "25 mt",
+            "price": "285 €",
+            "price_eur": 285.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "geri-d-n-i-kaz-dire-i-backstroke-turn-indicators",
+      "family_title_tr": "Geri Dönüş İkaz Direği Backstroke Turn Indicators",
+      "family_title_en": "Geri Dönüş İkaz Direği Backstroke Turn Indicators",
+      "family_description_tr": "AISI 304 paslanmaz çelik gövde",
+      "family_line_count": 17,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_16795",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "UZUNLUK LENGHT",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "13517122003",
+              "12,5 mt",
+              "270 €"
+            ],
+            [
+              "13517122004",
+              "25 mt",
+              "325 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "18f4d2a4f54cadf85aa0448edffa5688_img.jpg",
+          "alt": "A backstroke turn indicator consisting of a vertical stainless steel pole with a red triangular flag attached to the top.",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "13517122003",
+          "price": "270 €",
+          "price_eur": 270.0,
+          "values": {
+            "code": "13517122003",
+            "length": "12,5 mt",
+            "price": "270 €",
+            "price_eur": 270.0
+          }
+        },
+        {
+          "code": "13517122004",
+          "price": "325 €",
+          "price_eur": 325.0,
+          "values": {
+            "code": "13517122004",
+            "length": "25 mt",
+            "price": "325 €",
+            "price_eur": 325.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "d-n-paneli-ve-deste-i-return-panel-and-bracket",
+      "family_title_tr": "Dönüş Paneli ve Desteği Return Panel and Bracket",
+      "family_title_en": "Dönüş Paneli ve Desteği Return Panel and Bracket",
+      "family_description_tr": "AISI 304 paslanmaz çelikten üretilmiştir,",
+      "family_line_count": 22,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_16813",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "UZUNLUK LENGHT",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "13517122005",
+              "2 mt",
+              "435 €"
+            ],
+            [
+              "13517122006",
+              "2,5 mt",
+              "490 €"
+            ],
+            [
+              "13517122007 (Panel Desteği Panel Support )",
+              "-",
+              "390 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "a488ed440bb32a268dd00291386dafd1_img.jpg",
+          "alt": "A close-up view of a swimming pool lane line with a red and white striped pattern, showing the metal support structure at the edge of the pool.",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "13517122005",
+          "price": "435 €",
+          "price_eur": 435.0,
+          "values": {
+            "code": "13517122005",
+            "length": "2 mt",
+            "price": "435 €",
+            "price_eur": 435.0
+          }
+        },
+        {
+          "code": "13517122006",
+          "price": "490 €",
+          "price_eur": 490.0,
+          "values": {
+            "code": "13517122006",
+            "length": "2,5 mt",
+            "price": "490 €",
+            "price_eur": 490.0
+          }
+        },
+        {
+          "code": "13517122007",
+          "price": "390 €",
+          "price_eur": 390.0,
+          "values": {
+            "code": "13517122007 (Panel Desteği Panel Support )",
+            "length": "-",
+            "price": "390 €",
+            "price_eur": 390.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "can-kurtaran-hakem-koltu-u-life-guard-chair",
+      "family_title_tr": "Can Kurtaran Hakem Koltuğu Life Guard Chair",
+      "family_title_en": "Can Kurtaran Hakem Koltuğu Life Guard Chair",
+      "family_description_tr": "AISI 304 paslanmaz çelik,",
+      "family_line_count": 20,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_16836",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "UZUNLUK LENGHT",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "13021122001",
+              "12,5 mt",
+              "1.250 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "f9ebf145c44e85f336bc0f7d1b31f5d0_img.jpg",
+          "alt": "A life guard chair with a stainless steel frame, a ladder, and a fiberglass-reinforced polyester seat.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "49798dd387d533c969e91224807bf7a3_img.jpg",
+          "alt": "A blue fiberglass pool with bubbling water, surrounded by a wooden deck and greenery.",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "13021122001",
+          "price": "1.250 €",
+          "price_eur": 1250.0,
+          "values": {
+            "code": "13021122001",
+            "length": "12,5 mt",
+            "price": "1.250 €",
+            "price_eur": 1250.0
+          }
+        }
+      ]
+    }
+  ]
+}

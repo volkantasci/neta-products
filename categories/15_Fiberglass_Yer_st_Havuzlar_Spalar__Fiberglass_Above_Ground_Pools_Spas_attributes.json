@@ -1,0 +1,87 @@
+{
+  "category_no": "15",
+  "category_tr": "Fiberglass, Yer Üstü Havuzlar, Spalar",
+  "category_en": "Fiberglass, Above Ground Pools, Spas",
+  "family_count": 1,
+  "variant_count": 1,
+  "families": [
+    {
+      "family_product_id": "sonsuz-y-z-endless-swimming",
+      "family_title_tr": "SONSUZ YÜZÜŞ ENDLESS SWIMMING",
+      "family_title_en": "SONSUZ YÜZÜŞ ENDLESS SWIMMING",
+      "family_description_tr": "Yer üstü ve gömme havuzlarda kullanılabilen Swimfinity™, ayarlanabilir su akışıyla profesyonel yüzme antrenmanlarına olanak sağlar.",
+      "family_line_count": 93,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_17365",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "ZORLUK SEVİYESİ INTENSITY LEVELS",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "PSFAC58517",
+              "8",
+              "1.710 \\$"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "3e42777be797810883d4df65b241ade5_img.jpg",
+          "alt": "Swimfinity Jet Stream device, a white and blue unit with a digital display, and a smaller white and blue unit, both shown on a white background.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "6df52f71145050d0bde965d8628b523c_img.jpg",
+          "alt": "QR code for watching the installation video.",
+          "caption": "",
+          "type": "qr"
+        },
+        {
+          "file": "fa918372e0f935eb7db02de0ed6d0f66_img.jpg",
+          "alt": "A person swimming in a pool with the Swimfinity Jet Stream device in the background.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "bf86e31d27764c325b3f551f0e376e15_img.jpg",
+          "alt": "QR code for watching the operation video.",
+          "caption": "",
+          "type": "qr"
+        },
+        {
+          "file": "5a868cb654269268eed4ca9597846b18_img.jpg",
+          "alt": "A person swimming in a pool with the Swimfinity Jet Stream device in the background.",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "58517",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "PSFAC58517",
+            "intensity_levels": "8",
+            "price": "1.710 \\$"
+          }
+        }
+      ]
+    }
+  ]
+}

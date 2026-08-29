@@ -1,0 +1,2986 @@
+{
+  "category_no": "12",
+  "category_tr": "Süs Havuzu Ürünleri",
+  "category_en": "Fountain Products",
+  "family_count": 22,
+  "variant_count": 111,
+  "families": [
+    {
+      "family_product_id": "k-p-k-nozul-foam-nozzle",
+      "family_title_tr": "Köpük Nozul Foam Nozzle",
+      "family_title_en": "Köpük Nozul Foam Nozzle",
+      "family_description_tr": "AISI 304 paslanmaz çelik gövde",
+      "family_line_count": 19,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_15224",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "BAĞLANTI CONNECTION",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "17516132002",
+              "3510E-DB 1\"",
+              "--"
+            ],
+            [
+              "17516132032",
+              "5510E-DB 1\"",
+              "--"
+            ],
+            [
+              "17516132003",
+              "5515E-DB 1 ½\"",
+              "--"
+            ],
+            [
+              "17516132004",
+              "7520T-DB 2\"",
+              "--"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "9531dc465afbcbe40a07ead13e3af7a1_img.jpg",
+          "alt": "Three different sizes of stainless steel foam nozzles.",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "17516132002",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "17516132002",
+            "connection": "3510E-DB 1\"",
+            "price": "--"
+          }
+        },
+        {
+          "code": "17516132032",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "17516132032",
+            "connection": "5510E-DB 1\"",
+            "price": "--"
+          }
+        },
+        {
+          "code": "17516132003",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "17516132003",
+            "connection": "5515E-DB 1 ½\"",
+            "price": "--"
+          }
+        },
+        {
+          "code": "17516132004",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "17516132004",
+            "connection": "7520T-DB 2\"",
+            "price": "--"
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "cascade-nozul-cascade-nozzle",
+      "family_title_tr": "Cascade Nozul Cascade Nozzle",
+      "family_title_en": "Cascade Nozul Cascade Nozzle",
+      "family_description_tr": "AISI 304 paslanmaz çelik gövde",
+      "family_line_count": 20,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_15244",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "BAĞLANTI CONNECTION",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "17516132005",
+              "1\"-50T",
+              "--"
+            ],
+            [
+              "17516132006",
+              "1 ½\"-70T",
+              "--"
+            ],
+            [
+              "17516132007",
+              "2\"-90T",
+              "--"
+            ],
+            [
+              "17516132008",
+              "2 ½\"-110T",
+              "--"
+            ],
+            [
+              "17516132009",
+              "3\"-130T",
+              "--"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "bd1f4a2232994e65a0403b0a70f496f6_img.jpg",
+          "alt": "A stainless steel cascade nozzle.",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "17516132005",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "17516132005",
+            "connection": "1\"-50T",
+            "price": "--"
+          }
+        },
+        {
+          "code": "17516132006",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "17516132006",
+            "connection": "1 ½\"-70T",
+            "price": "--"
+          }
+        },
+        {
+          "code": "17516132007",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "17516132007",
+            "connection": "2\"-90T",
+            "price": "--"
+          }
+        },
+        {
+          "code": "17516132008",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "17516132008",
+            "connection": "2 ½\"-110T",
+            "price": "--"
+          }
+        },
+        {
+          "code": "17516132009",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "17516132009",
+            "connection": "3\"-130T",
+            "price": "--"
+          }
+        },
+        {
+          "code": "17516123001",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "17516123001",
+            "connection": "1\"",
+            "price": "--"
+          }
+        },
+        {
+          "code": "17516123002",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "17516123002",
+            "connection": "1 ½\"",
+            "price": "--"
+          }
+        },
+        {
+          "code": "17516123003",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "17516123003",
+            "connection": "2\"",
+            "price": "--"
+          }
+        },
+        {
+          "code": "17516123004",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "17516123004",
+            "connection": "1\"",
+            "price": "--"
+          }
+        },
+        {
+          "code": "17516123005",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "17516123005",
+            "connection": "1 ½\"",
+            "price": "--"
+          }
+        },
+        {
+          "code": "17516123006",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "17516123006",
+            "connection": "2\"",
+            "price": "--"
+          }
+        },
+        {
+          "code": "17516123007",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "17516123007",
+            "connection": "2 ½\"",
+            "price": "--"
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "komet-jet-oynar-ba-l-nozul-comet-jet-adjustable-nozzle",
+      "family_title_tr": "Komet Jet Oynar Başlı Nozul Comet Jet Adjustable Nozzle",
+      "family_title_en": "Komet Jet Oynar Başlı Nozul Comet Jet Adjustable Nozzle",
+      "family_description_tr": "AISI 304 paslanmaz çelik gövde",
+      "family_line_count": 24,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_15309",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "BAĞLANTI CONNECTION",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "17516132015",
+              "3/8\"",
+              "--"
+            ],
+            [
+              "17516132016",
+              "1/2\"",
+              "--"
+            ],
+            [
+              "17516132017",
+              "1\"",
+              "--"
+            ],
+            [
+              "17516132018",
+              "1 1/2\"",
+              "--"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_15334",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "BAĞLANTI CONNECTION",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "17516123008",
+              "1/2\"",
+              "--"
+            ],
+            [
+              "17516123009",
+              "3/4\"",
+              "--"
+            ],
+            [
+              "17516123010",
+              "1\"",
+              "--"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_15383",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "BAĞLANTI CONNECTION",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "17516123011",
+              "1 1/2\"",
+              "--"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "5848bd0a20f725553f19925cee5674d4_img.jpg",
+          "alt": "AISI 304 paslanmaz çelik gövde Komet Jet Oynar Başlı Nozul",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "d1ddf4290886a7507fbd2e6cf3834a72_img.jpg",
+          "alt": "water fun logo",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "5a9634a04bd7598f86a8f5fd17e85f00_img.jpg",
+          "alt": "Pirinç gövde Komet Jet Oynar Başlı Nozul",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "7e3ae5c56dc47006f2cefa439e5a5f46_img.jpg",
+          "alt": "water fun logo",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "a0284725c184e7ae2c450537096b4c9d_img.jpg",
+          "alt": "Pirinç gövde Komet Jet Oynar Başlı Nozul",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "1323bdc25d7af4afbab5c61b2f3330ca_img.jpg",
+          "alt": "water fun logo",
+          "caption": "",
+          "type": "icon"
+        }
+      ],
+      "variants": [
+        {
+          "code": "17516132015",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "17516132015",
+            "connection": "3/8\"",
+            "price": "--"
+          }
+        },
+        {
+          "code": "17516132016",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "17516132016",
+            "connection": "1/2\"",
+            "price": "--"
+          }
+        },
+        {
+          "code": "17516132017",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "17516132017",
+            "connection": "1\"",
+            "price": "--"
+          }
+        },
+        {
+          "code": "17516132018",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "17516132018",
+            "connection": "1 1/2\"",
+            "price": "--"
+          }
+        },
+        {
+          "code": "17516123008",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "17516123008",
+            "connection": "1/2\"",
+            "price": "--"
+          }
+        },
+        {
+          "code": "17516123009",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "17516123009",
+            "connection": "3/4\"",
+            "price": "--"
+          }
+        },
+        {
+          "code": "17516123010",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "17516123010",
+            "connection": "1\"",
+            "price": "--"
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "emsiye-f-skiye-nozul-water-bell-nozzle",
+      "family_title_tr": "Şemsiye Fıskiye Nozul Water Bell Nozzle",
+      "family_title_en": "Şemsiye Fıskiye Nozul Water Bell Nozzle",
+      "family_description_tr": "AISI 304 paslanmaz çelik gövde",
+      "family_line_count": 24,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_15358",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "BAĞLANTI CONNECTION",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "17516132019",
+              "1/2\"-25-5 T",
+              "--"
+            ],
+            [
+              "17516132020",
+              "1\"-30-10T",
+              "--"
+            ],
+            [
+              "17516132021",
+              "1\"-45-10T",
+              "--"
+            ],
+            [
+              "17516132022",
+              "1\"-60-10T",
+              "--"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "fa0e1cf2081fc7af4c3b323e5943afde_img.jpg",
+          "alt": "AISI 304 paslanmaz çelik gövde Şemsiye Fıskiye Nozul",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "b5847936f00e51e4fa6b00c17ebcbbcd_img.jpg",
+          "alt": "water fun logo",
+          "caption": "",
+          "type": "icon"
+        }
+      ],
+      "variants": [
+        {
+          "code": "17516132019",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "17516132019",
+            "connection": "1/2\"-25-5 T",
+            "price": "--"
+          }
+        },
+        {
+          "code": "17516132020",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "17516132020",
+            "connection": "1\"-30-10T",
+            "price": "--"
+          }
+        },
+        {
+          "code": "17516132021",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "17516132021",
+            "connection": "1\"-45-10T",
+            "price": "--"
+          }
+        },
+        {
+          "code": "17516132022",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "17516132022",
+            "connection": "1\"-60-10T",
+            "price": "--"
+          }
+        },
+        {
+          "code": "17516123011",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "17516123011",
+            "connection": "1 1/2\"",
+            "price": "--"
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "emsiye-f-skiye-nozul-brass-water-bell-nozzle",
+      "family_title_tr": "Şemsiye Fıskiye Nozul Brass Water Bell Nozzle",
+      "family_title_en": "Şemsiye Fıskiye Nozul Brass Water Bell Nozzle",
+      "family_description_tr": "Şeffaf şemsiye formunda su görüntüsü",
+      "family_line_count": 23,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_15405",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "BAĞLANTI CONNECTION",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "17516123012",
+              "1\"",
+              "--"
+            ],
+            [
+              "17516123013",
+              "1 1/2\"",
+              "--"
+            ],
+            [
+              "17516123014",
+              "2\"",
+              "--"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "63bfab0f08ed8ada86a1d34a7fb0205d_img.jpg",
+          "alt": "Pirinç gövde Şemsiye Fıskiye Nozul",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "da7c2fc22c6d6a47b8e036eefd3391c0_img.jpg",
+          "alt": "water fun logo",
+          "caption": "",
+          "type": "icon"
+        }
+      ],
+      "variants": [
+        {
+          "code": "17516123012",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "17516123012",
+            "connection": "1\"",
+            "price": "--"
+          }
+        },
+        {
+          "code": "17516123013",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "17516123013",
+            "connection": "1 1/2\"",
+            "price": "--"
+          }
+        },
+        {
+          "code": "17516123014",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "17516123014",
+            "connection": "2\"",
+            "price": "--"
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "yar-m-emsiye-f-skiye-nozul-half-water-bell-nozzle",
+      "family_title_tr": "Yarım Şemsiye Fıskiye Nozul Half Water Bell Nozzle",
+      "family_title_en": "Yarım Şemsiye Fıskiye Nozul Half Water Bell Nozzle",
+      "family_description_tr": "Şeffaf şemsiye formunda su görüntüsü",
+      "family_line_count": 23,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_15429",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "BAĞLANTI CONNECTION",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "17516123015",
+              "3/4\"",
+              "--"
+            ],
+            [
+              "17516123016",
+              "1 1/2\"",
+              "--"
+            ],
+            [
+              "17516123017",
+              "2\"",
+              "--"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "7aeb1b19c7b240cd0f6d40e6a49427b2_img.jpg",
+          "alt": "Pirinç gövde Yarım Şemsiye Fıskiye Nozul",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "851b763d2a1b636d52b62a46978ea4b1_img.jpg",
+          "alt": "water fun logo",
+          "caption": "",
+          "type": "icon"
+        }
+      ],
+      "variants": [
+        {
+          "code": "17516123015",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "17516123015",
+            "connection": "3/4\"",
+            "price": "--"
+          }
+        },
+        {
+          "code": "17516123016",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "17516123016",
+            "connection": "1 1/2\"",
+            "price": "--"
+          }
+        },
+        {
+          "code": "17516123017",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "17516123017",
+            "connection": "2\"",
+            "price": "--"
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "yelpaze-nozul-finger-nozzle",
+      "family_title_tr": "Yelpaze Nozul Finger Nozzle",
+      "family_title_en": "Yelpaze Nozul Finger Nozzle",
+      "family_description_tr": "AISI 304 paslanmaz çelik gövde",
+      "family_line_count": 18,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_15449",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "BAĞLANTI CONNECTION",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "17516132023",
+              "1\"-13-4T",
+              "--"
+            ],
+            [
+              "17516132024",
+              "1\"-25-4T",
+              "--"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_15468",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "BAĞLANTI CONNECTION",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "17516123018",
+              "1/2\"-25-5 T",
+              "--"
+            ],
+            [
+              "17516123019",
+              "1\"-30-10T",
+              "--"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "32ff6ebd531301c392e50537d66a9735_img.jpg",
+          "alt": "Yelpaze Nozul (Finger Nozzle) product image showing a stainless steel body with multiple fingers for angled water spray.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "8c91b87a4e2cfdd0739907c8f06745a7_img.jpg",
+          "alt": "Yelpaze Nozul (Finger Nozzle) product image showing a brass body with multiple fingers for angled water spray.",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "17516132023",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "17516132023",
+            "connection": "1\"-13-4T",
+            "price": "--"
+          }
+        },
+        {
+          "code": "17516132024",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "17516132024",
+            "connection": "1\"-25-4T",
+            "price": "--"
+          }
+        },
+        {
+          "code": "17516123018",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "17516123018",
+            "connection": "1/2\"-25-5 T",
+            "price": "--"
+          }
+        },
+        {
+          "code": "17516123019",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "17516123019",
+            "connection": "1\"-30-10T",
+            "price": "--"
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "film-yelpaze-nozul-fan-jet-nozzle",
+      "family_title_tr": "Film Yelpaze Nozul Fan Jet Nozzle",
+      "family_title_en": "Film Yelpaze Nozul Fan Jet Nozzle",
+      "family_description_tr": "AISI 304 paslanmaz çelik gövde",
+      "family_line_count": 18,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_15487",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "BAĞLANTI CONNECTION",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "17516132025",
+              "1/2\"",
+              "--"
+            ],
+            [
+              "17516132026",
+              "2\"",
+              "--"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "5bf22b92f1e05a29918570ae5bc91267_img.jpg",
+          "alt": "Film Yelpaze Nozul (Fan Jet Nozzle) product image showing a stainless steel body with a fan jet nozzle.",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "17516132025",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "17516132025",
+            "connection": "1/2\"",
+            "price": "--"
+          }
+        },
+        {
+          "code": "17516132026",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "17516132026",
+            "connection": "2\"",
+            "price": "--"
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "volkan-nozul-volcano-nozzle",
+      "family_title_tr": "Volkan Nozul Volcano Nozzle",
+      "family_title_en": "Volkan Nozul Volcano Nozzle",
+      "family_description_tr": "AISI 304 paslanmaz çelik gövde",
+      "family_line_count": 20,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_15506",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "BAĞLANTI CONNECTION",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "17516132027",
+              "1\"-19-3T",
+              "--"
+            ],
+            [
+              "17516132028",
+              "1\"-43-3T",
+              "--"
+            ],
+            [
+              "17516132029",
+              "2\"-200-19-6T",
+              "--"
+            ],
+            [
+              "17516132030",
+              "2 1/2\"-300-19-8T",
+              "--"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_15548",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "BAĞLANTI CONNECTION",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "17516123024",
+              "1\"-13-4T",
+              "--"
+            ],
+            [
+              "17516123025",
+              "1\"-25-4T",
+              "--"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "f8c8c6f0f61186bd3f24726b1fe21c8c_img.jpg",
+          "alt": "Volkan Nozul (Volcano Nozzle) product image showing a stainless steel body with multiple tiered water display nozzles.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "22ffa888d04bf524ada1d641b59b4ef1_img.jpg",
+          "alt": "Volkan Nozul (Volcano Nozzle) product image showing a brass body with multiple tiered water display nozzles.",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "17516132027",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "17516132027",
+            "connection": "1\"-19-3T",
+            "price": "--"
+          }
+        },
+        {
+          "code": "17516132028",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "17516132028",
+            "connection": "1\"-43-3T",
+            "price": "--"
+          }
+        },
+        {
+          "code": "17516132029",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "17516132029",
+            "connection": "2\"-200-19-6T",
+            "price": "--"
+          }
+        },
+        {
+          "code": "17516132030",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "17516132030",
+            "connection": "2 1/2\"-300-19-8T",
+            "price": "--"
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "gonca-nozul-bud-nozzle",
+      "family_title_tr": "Gonca Nozul Bud Nozzle",
+      "family_title_en": "Gonca Nozul Bud Nozzle",
+      "family_description_tr": "Çiçek yaprağı formunda su görüntüsü",
+      "family_line_count": 18,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_15527",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "BAĞLANTI CONNECTION",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "17516123022",
+              "1\"",
+              "--"
+            ],
+            [
+              "17516123023",
+              "2\"",
+              "--"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "5273000955cfc8d145ef2981ba808ef2_img.jpg",
+          "alt": "Gonca Nozul (Bud Nozzle) product image showing a brass body with a flower-petal water pattern nozzle.",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "17516123022",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "17516123022",
+            "connection": "1\"",
+            "price": "--"
+          }
+        },
+        {
+          "code": "17516123023",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "17516123023",
+            "connection": "2\"",
+            "price": "--"
+          }
+        },
+        {
+          "code": "17516123024",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "17516123024",
+            "connection": "1\"-13-4T",
+            "price": "--"
+          }
+        },
+        {
+          "code": "17516123025",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "17516123025",
+            "connection": "1\"-25-4T",
+            "price": "--"
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "papatya-nozul-daisy-nozzle",
+      "family_title_tr": "Papatya Nozul Daisy Nozzle",
+      "family_title_en": "Papatya Nozul Daisy Nozzle",
+      "family_description_tr": "Komet nozullarla ayarlanabilir jet açıları",
+      "family_line_count": 24,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_15573",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "BAĞLANTI CONNECTION",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "17516123026",
+              "1 ½\"",
+              "--"
+            ],
+            [
+              "17516123027",
+              "2\"",
+              "--"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "cd0a314272e36d5ee0667b38cf24e0e3_img.jpg",
+          "alt": "Papatya Nozul (Daisy Nozzle) image showing a brass body with multiple tiered nozzles.",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "17516123026",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "17516123026",
+            "connection": "1 ½\"",
+            "price": "--"
+          }
+        },
+        {
+          "code": "17516123027",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "17516123027",
+            "connection": "2\"",
+            "price": "--"
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "i-ek-nozul-flower-nozzle",
+      "family_title_tr": "Çiçek Nozul Flower Nozzle",
+      "family_title_en": "Çiçek Nozul Flower Nozzle",
+      "family_description_tr": "Farklı yükseklik ve genişliklerde kademeli su görüntüsü",
+      "family_line_count": 25,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_15599",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "BAĞLANTI CONNECTION",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "17516123028",
+              "1 ½\"",
+              "--"
+            ],
+            [
+              "17516123029",
+              "2\"",
+              "--"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "e6e126bcc9409a9fcc5268f1a1fafb8c_img.jpg",
+          "alt": "Çiçek Nozul (Flower Nozzle) image showing a brass body with multiple tiered nozzles.",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "17516123028",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "17516123028",
+            "connection": "1 ½\"",
+            "price": "--"
+          }
+        },
+        {
+          "code": "17516123029",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "17516123029",
+            "connection": "2\"",
+            "price": "--"
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "su-topac-nozul-water-spinner-nozzle",
+      "family_title_tr": "Su Topacı Nozul Water Spinner Nozzle",
+      "family_title_en": "Su Topacı Nozul Water Spinner Nozzle",
+      "family_description_tr": "Pirinç gövde, paslanmaz çelik kollar",
+      "family_line_count": 22,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_15622",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "BAĞLANTI CONNECTION",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "17516123030",
+              "1\"-31 K",
+              "--"
+            ],
+            [
+              "17516123031",
+              "1 ½\"-41 K",
+              "--"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "1c1a6006b5dde715d8dcbdb4ae01ef7d_img.jpg",
+          "alt": "Su Topacı Nozul (Water Spinner Nozzle) image showing a brass body with stainless steel arms.",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "17516123030",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "17516123030",
+            "connection": "1\"-31 K",
+            "price": "--"
+          }
+        },
+        {
+          "code": "17516123031",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "17516123031",
+            "connection": "1 ½\"-41 K",
+            "price": "--"
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "su-k-resi-nozul-water-sphere-nozzle",
+      "family_title_tr": "Su Küresi Nozul Water Sphere Nozzle",
+      "family_title_en": "Su Küresi Nozul Water Sphere Nozzle",
+      "family_description_tr": "Pirinç gövde, paslanmaz çelik kollar",
+      "family_line_count": 24,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_15645",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "BAĞLANTI CONNECTION",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "17516123032",
+              "Ø 60 cm 1\"",
+              "--"
+            ],
+            [
+              "17516123033",
+              "Ø 70 cm 1 ½\"",
+              "--"
+            ],
+            [
+              "17516123034",
+              "Ø 100 cm 2\"",
+              "--"
+            ],
+            [
+              "17516123035",
+              "Ø 150 cm 3\"",
+              "--"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "a413c5586f364ec66841ac5614577ae6_img.jpg",
+          "alt": "Su Küresi Nozul (Water Sphere Nozzle) image showing a brass body with stainless steel arms.",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "17516123032",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "17516123032",
+            "connection": "Ø 60 cm 1\"",
+            "price": "--"
+          }
+        },
+        {
+          "code": "17516123033",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "17516123033",
+            "connection": "Ø 70 cm 1 ½\"",
+            "price": "--"
+          }
+        },
+        {
+          "code": "17516123034",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "17516123034",
+            "connection": "Ø 100 cm 2\"",
+            "price": "--"
+          }
+        },
+        {
+          "code": "17516123035",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "17516123035",
+            "connection": "Ø 150 cm 3\"",
+            "price": "--"
+          }
+        },
+        {
+          "code": "17516132031",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "17516132031",
+            "connection": "1 ½\" -12 K",
+            "price": "--"
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "y-ld-z-f-skiye-nozul-star-nozzle",
+      "family_title_tr": "Yıldız Fıskiye Nozul Star Nozzle",
+      "family_title_en": "Yıldız Fıskiye Nozul Star Nozzle",
+      "family_description_tr": "Pirinç gövde, paslanmaz çelik kollar",
+      "family_line_count": 22,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_15692",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "BAĞLANTI CONNECTION",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "17516123036",
+              "1 ½\" -8 K",
+              "--"
+            ],
+            [
+              "17516123037",
+              "2\" - 8 K",
+              "--"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "03fd6a866cd16b9711122aa152614600_img.jpg",
+          "alt": "Yıldız Fıskiye Nozul (Star Nozzle) image showing a brass body with stainless steel arms.",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "17516123036",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "17516123036",
+            "connection": "1 ½\" -8 K",
+            "price": "--"
+          }
+        },
+        {
+          "code": "17516123037",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "17516123037",
+            "connection": "2\" - 8 K",
+            "price": "--"
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "ledli-lambalar-led-lights",
+      "family_title_tr": "Ledli Lambalar Led Lights",
+      "family_title_en": "Ledli Lambalar Led Lights",
+      "family_description_tr": "Six circular LED light fixtures labeled 1 through 6, showing increasing numbers of LEDs from 3 to 18.",
+      "family_line_count": 21,
+      "qualitative": {
+        "bullets_tr": [
+          "AISI 304 monoblok paslanmaz gövde, polikarbonat armatür camı",
+          "IP68 koruma",
+          "Lamba ayakları fiyata dahil değildir",
+          "Opsiyonel lamba standı ve AISI 316 seçeneği"
+        ],
+        "bullets_en": [
+          "AISI 304 monoblock stainless steel body, polycarbonate fixture glass",
+          "IP68 protection",
+          "Lamp feet not included",
+          "Optional lamp stand and AISI 316 version available"
+        ],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_15714",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "MODEL",
+            "GÜÇ POWER",
+            "ÇAP DIA",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "12519002017",
+              "1) 3 POWERLED",
+              "3W/12-24V IP 68",
+              "105 mm",
+              "59 €"
+            ],
+            [
+              "12519002005",
+              "2) 6 POWERLED",
+              "6W/12-24V IP 68",
+              "105 mm",
+              "85 €"
+            ],
+            [
+              "12519002021",
+              "3) 9 POWERLED",
+              "9W/12-24V IP 68",
+              "137 mm",
+              "90 €"
+            ],
+            [
+              "12519002022",
+              "4) 12 POWERLED",
+              "12W/12-24V IP 68",
+              "137 mm",
+              "100 €"
+            ],
+            [
+              "12519002018",
+              "5) 15 POWERLED",
+              "15W/12-24V IP 68",
+              "197,5 mm",
+              "112 €"
+            ],
+            [
+              "12519002019",
+              "6) 18 POWERLED",
+              "18W/12-24V IP 68",
+              "197,5 mm",
+              "126 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "c7ae65eee8b45257f49eea5101a858ef_img.jpg",
+          "alt": "Six circular LED light fixtures labeled 1 through 6, showing increasing numbers of LEDs from 3 to 18.",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "12519002017",
+          "price": "59 €",
+          "price_eur": 59.0,
+          "values": {
+            "code": "12519002017",
+            "model": "1) 3 POWERLED",
+            "power_w": "3W/12-24V IP 68",
+            "ap_dia": "105 mm",
+            "price": "59 €",
+            "price_eur": 59.0
+          }
+        },
+        {
+          "code": "12519002005",
+          "price": "85 €",
+          "price_eur": 85.0,
+          "values": {
+            "code": "12519002005",
+            "model": "2) 6 POWERLED",
+            "power_w": "6W/12-24V IP 68",
+            "ap_dia": "105 mm",
+            "price": "85 €",
+            "price_eur": 85.0
+          }
+        },
+        {
+          "code": "12519002021",
+          "price": "90 €",
+          "price_eur": 90.0,
+          "values": {
+            "code": "12519002021",
+            "model": "3) 9 POWERLED",
+            "power_w": "9W/12-24V IP 68",
+            "ap_dia": "137 mm",
+            "price": "90 €",
+            "price_eur": 90.0
+          }
+        },
+        {
+          "code": "12519002022",
+          "price": "100 €",
+          "price_eur": 100.0,
+          "values": {
+            "code": "12519002022",
+            "model": "4) 12 POWERLED",
+            "power_w": "12W/12-24V IP 68",
+            "ap_dia": "137 mm",
+            "price": "100 €",
+            "price_eur": 100.0
+          }
+        },
+        {
+          "code": "12519002018",
+          "price": "112 €",
+          "price_eur": 112.0,
+          "values": {
+            "code": "12519002018",
+            "model": "5) 15 POWERLED",
+            "power_w": "15W/12-24V IP 68",
+            "ap_dia": "197,5 mm",
+            "price": "112 €",
+            "price_eur": 112.0
+          }
+        },
+        {
+          "code": "12519002019",
+          "price": "126 €",
+          "price_eur": 126.0,
+          "values": {
+            "code": "12519002019",
+            "model": "6) 18 POWERLED",
+            "power_w": "18W/12-24V IP 68",
+            "ap_dia": "197,5 mm",
+            "price": "126 €",
+            "price_eur": 126.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "halka-s-s-havuzu-lambalar-ring-fountain-led-lights",
+      "family_title_tr": "Halka Süs Havuzu Lambalar Ring Fountain Led Lights",
+      "family_title_en": "Halka Süs Havuzu Lambalar Ring Fountain Led Lights",
+      "family_description_tr": "Three images of ring fountain light fixtures. Image 1 shows a side view with a nozzle. Images 2 and 3 show top-down views of the ring fixtures with 6 and 9 LEDs respectively.",
+      "family_line_count": 24,
+      "qualitative": {
+        "bullets_tr": [
+          "Monoblok paslanmaz gövde, polikarbonat armatür camı",
+          "IP68 koruma",
+          "Opsiyonel fiske nozulu montajı",
+          "Nozullar görsel amaçlıdır, fiyata dahil değildir",
+          "Uyumlu nozullar yukarıda listelenmiştir"
+        ],
+        "bullets_en": [
+          "Monoblock stainless steel body, polycarbonate fixture glass",
+          "IP68 protection",
+          "Optional fountain nozzle installation",
+          "Nozzles shown for visual purposes, not included in price",
+          "Compatible nozzles are listed above"
+        ],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_15737",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "MODEL",
+            "RENK COLOR",
+            "GÜÇ POWER",
+            "ÇAP DIA",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "12519122080",
+              "1) 6 POWERLED 6 POWERLED",
+              "Beyaz White",
+              "6W/12-24V IP 68",
+              "105 mm",
+              "150 €"
+            ],
+            [
+              "12519122111",
+              "2) 9 POWERLED 9 POWERLED",
+              "Beyaz White",
+              "9W/12-24V IP 68",
+              "137 mm",
+              "195 €"
+            ],
+            [
+              "12519122075",
+              "2) 12 POWERLED 12 POWERLED",
+              "Beyaz White",
+              "12W/12-24V IP 68",
+              "198 mm",
+              "210 €"
+            ],
+            [
+              "12519002020",
+              "3) 18 POWERLED 18 POWERLED",
+              "Beyaz White",
+              "18W/12-24V IP 68",
+              "198 mm",
+              "230 €"
+            ],
+            [
+              "17517124001",
+              "1) 6 POWERLED 6 POWERLED",
+              "RGB",
+              "6 kW RGB",
+              "105 mm",
+              "--"
+            ],
+            [
+              "12519002019",
+              "2) 9 POWERLED 9 POWERLED",
+              "RGB",
+              "9 kW RGB",
+              "137 mm",
+              "--"
+            ],
+            [
+              "12519122098",
+              "2) 12 POWERLED 12 POWERLED",
+              "RGB",
+              "12 kW RGB",
+              "198 mm",
+              "--"
+            ],
+            [
+              "17517124002",
+              "3) 18 POWERLED 18 POWERLED",
+              "RGB",
+              "18 kW RGB",
+              "198 mm",
+              "--"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "debe929b3e6e1357453840af26352d11_img.jpg",
+          "alt": "Three images of ring fountain light fixtures. Image 1 shows a side view with a nozzle. Images 2 and 3 show top-down views of the ring fixtures with 6 and 9 LEDs respectively.",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "12519122080",
+          "price": "150 €",
+          "price_eur": 150.0,
+          "values": {
+            "code": "12519122080",
+            "model": "1) 6 POWERLED 6 POWERLED",
+            "color": "Beyaz White",
+            "power_w": "6W/12-24V IP 68",
+            "ap_dia": "105 mm",
+            "price": "150 €",
+            "price_eur": 150.0
+          }
+        },
+        {
+          "code": "12519122111",
+          "price": "195 €",
+          "price_eur": 195.0,
+          "values": {
+            "code": "12519122111",
+            "model": "2) 9 POWERLED 9 POWERLED",
+            "color": "Beyaz White",
+            "power_w": "9W/12-24V IP 68",
+            "ap_dia": "137 mm",
+            "price": "195 €",
+            "price_eur": 195.0
+          }
+        },
+        {
+          "code": "12519122075",
+          "price": "210 €",
+          "price_eur": 210.0,
+          "values": {
+            "code": "12519122075",
+            "model": "2) 12 POWERLED 12 POWERLED",
+            "color": "Beyaz White",
+            "power_w": "12W/12-24V IP 68",
+            "ap_dia": "198 mm",
+            "price": "210 €",
+            "price_eur": 210.0
+          }
+        },
+        {
+          "code": "12519002020",
+          "price": "230 €",
+          "price_eur": 230.0,
+          "values": {
+            "code": "12519002020",
+            "model": "3) 18 POWERLED 18 POWERLED",
+            "color": "Beyaz White",
+            "power_w": "18W/12-24V IP 68",
+            "ap_dia": "198 mm",
+            "price": "230 €",
+            "price_eur": 230.0
+          }
+        },
+        {
+          "code": "17517124001",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "17517124001",
+            "model": "1) 6 POWERLED 6 POWERLED",
+            "color": "RGB",
+            "power_w": "6 kW RGB",
+            "ap_dia": "105 mm",
+            "price": "--"
+          }
+        },
+        {
+          "code": "12519002019",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "12519002019",
+            "model": "2) 9 POWERLED 9 POWERLED",
+            "color": "RGB",
+            "power_w": "9 kW RGB",
+            "ap_dia": "137 mm",
+            "price": "--"
+          }
+        },
+        {
+          "code": "12519122098",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "12519122098",
+            "model": "2) 12 POWERLED 12 POWERLED",
+            "color": "RGB",
+            "power_w": "12 kW RGB",
+            "ap_dia": "198 mm",
+            "price": "--"
+          }
+        },
+        {
+          "code": "17517124002",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "17517124002",
+            "model": "3) 18 POWERLED 18 POWERLED",
+            "color": "RGB",
+            "power_w": "18 kW RGB",
+            "ap_dia": "198 mm",
+            "price": "--"
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "kobra-model-cobra-model",
+      "family_title_tr": "Kobra Model Cobra Model",
+      "family_title_en": "Kobra Model Cobra Model",
+      "family_description_tr": "Kobra Model Water Curtain",
+      "family_line_count": 16,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_15756",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "MODEL",
+            "ÖLÇÜ SIZE",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "AISI 304 PASLANMAZ ÇELİK",
+              "",
+              "",
+              ""
+            ],
+            [
+              "17518122008",
+              "Mini Bali",
+              "475 x 350 mm",
+              "550 €"
+            ],
+            [
+              "17518122009",
+              "Bali",
+              "500 x 700 mm",
+              "660 €"
+            ],
+            [
+              "17518122006",
+              "Bali",
+              "600 x 800 mm",
+              "880 €"
+            ],
+            [
+              "AISI 316 PASLANMAZ ÇELİK",
+              "",
+              "",
+              ""
+            ],
+            [
+              "17518122003",
+              "Mini Bali",
+              "475 x 350 mm",
+              "620 €"
+            ],
+            [
+              "17518122001",
+              "Bali",
+              "500 x 700 mm",
+              "880 €"
+            ],
+            [
+              "17518122005",
+              "Bali",
+              "600 x 800 mm",
+              "1.050 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "895884b3660ca4f5501bdd38b999cfc1_img.jpg",
+          "alt": "Kobra Model Water Curtain",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "304",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "AISI 304 PASLANMAZ ÇELİK",
+            "model": "",
+            "size": "",
+            "price": ""
+          }
+        },
+        {
+          "code": "17518122008",
+          "price": "550 €",
+          "price_eur": 550.0,
+          "values": {
+            "code": "17518122008",
+            "model": "Mini Bali",
+            "size": "475 x 350 mm",
+            "price": "550 €",
+            "price_eur": 550.0
+          }
+        },
+        {
+          "code": "17518122009",
+          "price": "660 €",
+          "price_eur": 660.0,
+          "values": {
+            "code": "17518122009",
+            "model": "Bali",
+            "size": "500 x 700 mm",
+            "price": "660 €",
+            "price_eur": 660.0
+          }
+        },
+        {
+          "code": "17518122006",
+          "price": "880 €",
+          "price_eur": 880.0,
+          "values": {
+            "code": "17518122006",
+            "model": "Bali",
+            "size": "600 x 800 mm",
+            "price": "880 €",
+            "price_eur": 880.0
+          }
+        },
+        {
+          "code": "316",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "AISI 316 PASLANMAZ ÇELİK",
+            "model": "",
+            "size": "",
+            "price": ""
+          }
+        },
+        {
+          "code": "17518122003",
+          "price": "620 €",
+          "price_eur": 620.0,
+          "values": {
+            "code": "17518122003",
+            "model": "Mini Bali",
+            "size": "475 x 350 mm",
+            "price": "620 €",
+            "price_eur": 620.0
+          }
+        },
+        {
+          "code": "17518122001",
+          "price": "880 €",
+          "price_eur": 880.0,
+          "values": {
+            "code": "17518122001",
+            "model": "Bali",
+            "size": "500 x 700 mm",
+            "price": "880 €",
+            "price_eur": 880.0
+          }
+        },
+        {
+          "code": "17518122005",
+          "price": "1.050 €",
+          "price_eur": 1050.0,
+          "values": {
+            "code": "17518122005",
+            "model": "Bali",
+            "size": "600 x 800 mm",
+            "price": "1.050 €",
+            "price_eur": 1050.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "maui-model-maui-model",
+      "family_title_tr": "Maui Model Maui Model",
+      "family_title_en": "Salyangoz Model Snail Model",
+      "family_description_tr": "Maui Model Water Curtain",
+      "family_line_count": 31,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_15773",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "MODEL",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "AISI 304 PASLANMAZ ÇELİK",
+              "",
+              ""
+            ],
+            [
+              "17518123003",
+              "MAUI 300",
+              "445 €"
+            ],
+            [
+              "17518123004",
+              "MAUI 500",
+              "555 €"
+            ],
+            [
+              "17518122004",
+              "MAUI 1.000",
+              "1.200 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_15786",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "MODEL",
+            "ÖLÇÜ SIZE",
+            "BAĞLANTI CONNECTION",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "AISI 304 PASLANMAZ ÇELİK",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "17518122019",
+              "Salyangoz Snail",
+              "350x600 mm",
+              "63 mm",
+              "630 €"
+            ],
+            [
+              "17518122015",
+              "Salyangoz Snail",
+              "400x600 mm",
+              "63 mm",
+              "675 €"
+            ],
+            [
+              "17518122016",
+              "Salyangoz Snail",
+              "400x800 mm",
+              "63 mm",
+              "765 €"
+            ],
+            [
+              "17518122020",
+              "Salyangoz Snail",
+              "400x1000 mm",
+              "63 mm",
+              "865 €"
+            ],
+            [
+              "AISI 316 PASLANMAZ ÇELİK",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "17518122021",
+              "Salyangoz Snail",
+              "350x600 mm",
+              "63 mm",
+              "665 €"
+            ],
+            [
+              "17518122017",
+              "Salyangoz Snail",
+              "400x600 mm",
+              "63 mm",
+              "710 €"
+            ],
+            [
+              "17518122018",
+              "Salyangoz Snail",
+              "400x800 mm",
+              "63 mm",
+              "795 €"
+            ],
+            [
+              "17518122022",
+              "Salyangoz Snail",
+              "400x1000 mm",
+              "63 mm",
+              "895 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "f6537780b3eb4ea5dc833b450ebe0272_img.jpg",
+          "alt": "Maui Model Water Curtain",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "8c9636928cbdebd5d2d70da27c35fa2c_img.jpg",
+          "alt": "A silver, spiral-shaped metal product, likely a snail model, with a small mounting plate at the bottom.",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "304",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "AISI 304 PASLANMAZ ÇELİK",
+            "model": "",
+            "price": ""
+          }
+        },
+        {
+          "code": "17518123003",
+          "price": "445 €",
+          "price_eur": 445.0,
+          "values": {
+            "code": "17518123003",
+            "model": "MAUI 300",
+            "price": "445 €",
+            "price_eur": 445.0
+          }
+        },
+        {
+          "code": "17518123004",
+          "price": "555 €",
+          "price_eur": 555.0,
+          "values": {
+            "code": "17518123004",
+            "model": "MAUI 500",
+            "price": "555 €",
+            "price_eur": 555.0
+          }
+        },
+        {
+          "code": "17518122004",
+          "price": "1.200 €",
+          "price_eur": 1200.0,
+          "values": {
+            "code": "17518122004",
+            "model": "MAUI 1.000",
+            "price": "1.200 €",
+            "price_eur": 1200.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "salyangoz-model-snail-model",
+      "family_title_tr": "Salyangoz Model Snail Model",
+      "family_title_en": "Salyangoz Model Snail Model",
+      "family_description_tr": "A silver, spiral-shaped metal product, likely a snail model, with a small mounting plate at the bottom.",
+      "family_line_count": 18,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_15786",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "MODEL",
+            "ÖLÇÜ SIZE",
+            "BAĞLANTI CONNECTION",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "AISI 304 PASLANMAZ ÇELİK",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "17518122019",
+              "Salyangoz Snail",
+              "350x600 mm",
+              "63 mm",
+              "630 €"
+            ],
+            [
+              "17518122015",
+              "Salyangoz Snail",
+              "400x600 mm",
+              "63 mm",
+              "675 €"
+            ],
+            [
+              "17518122016",
+              "Salyangoz Snail",
+              "400x800 mm",
+              "63 mm",
+              "765 €"
+            ],
+            [
+              "17518122020",
+              "Salyangoz Snail",
+              "400x1000 mm",
+              "63 mm",
+              "865 €"
+            ],
+            [
+              "AISI 316 PASLANMAZ ÇELİK",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "17518122021",
+              "Salyangoz Snail",
+              "350x600 mm",
+              "63 mm",
+              "665 €"
+            ],
+            [
+              "17518122017",
+              "Salyangoz Snail",
+              "400x600 mm",
+              "63 mm",
+              "710 €"
+            ],
+            [
+              "17518122018",
+              "Salyangoz Snail",
+              "400x800 mm",
+              "63 mm",
+              "795 €"
+            ],
+            [
+              "17518122022",
+              "Salyangoz Snail",
+              "400x1000 mm",
+              "63 mm",
+              "895 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "8c9636928cbdebd5d2d70da27c35fa2c_img.jpg",
+          "alt": "A silver, spiral-shaped metal product, likely a snail model, with a small mounting plate at the bottom.",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "304",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "AISI 304 PASLANMAZ ÇELİK",
+            "model": "",
+            "size": "",
+            "connection": "",
+            "price": ""
+          }
+        },
+        {
+          "code": "17518122019",
+          "price": "630 €",
+          "price_eur": 630.0,
+          "values": {
+            "code": "17518122019",
+            "model": "Salyangoz Snail",
+            "size": "350x600 mm",
+            "connection": "63 mm",
+            "price": "630 €",
+            "price_eur": 630.0
+          }
+        },
+        {
+          "code": "17518122015",
+          "price": "675 €",
+          "price_eur": 675.0,
+          "values": {
+            "code": "17518122015",
+            "model": "Salyangoz Snail",
+            "size": "400x600 mm",
+            "connection": "63 mm",
+            "price": "675 €",
+            "price_eur": 675.0
+          }
+        },
+        {
+          "code": "17518122016",
+          "price": "765 €",
+          "price_eur": 765.0,
+          "values": {
+            "code": "17518122016",
+            "model": "Salyangoz Snail",
+            "size": "400x800 mm",
+            "connection": "63 mm",
+            "price": "765 €",
+            "price_eur": 765.0
+          }
+        },
+        {
+          "code": "17518122020",
+          "price": "865 €",
+          "price_eur": 865.0,
+          "values": {
+            "code": "17518122020",
+            "model": "Salyangoz Snail",
+            "size": "400x1000 mm",
+            "connection": "63 mm",
+            "price": "865 €",
+            "price_eur": 865.0
+          }
+        },
+        {
+          "code": "316",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "AISI 316 PASLANMAZ ÇELİK",
+            "model": "",
+            "size": "",
+            "connection": "",
+            "price": ""
+          }
+        },
+        {
+          "code": "17518122021",
+          "price": "665 €",
+          "price_eur": 665.0,
+          "values": {
+            "code": "17518122021",
+            "model": "Salyangoz Snail",
+            "size": "350x600 mm",
+            "connection": "63 mm",
+            "price": "665 €",
+            "price_eur": 665.0
+          }
+        },
+        {
+          "code": "17518122017",
+          "price": "710 €",
+          "price_eur": 710.0,
+          "values": {
+            "code": "17518122017",
+            "model": "Salyangoz Snail",
+            "size": "400x600 mm",
+            "connection": "63 mm",
+            "price": "710 €",
+            "price_eur": 710.0
+          }
+        },
+        {
+          "code": "17518122018",
+          "price": "795 €",
+          "price_eur": 795.0,
+          "values": {
+            "code": "17518122018",
+            "model": "Salyangoz Snail",
+            "size": "400x800 mm",
+            "connection": "63 mm",
+            "price": "795 €",
+            "price_eur": 795.0
+          }
+        },
+        {
+          "code": "17518122022",
+          "price": "895 €",
+          "price_eur": 895.0,
+          "values": {
+            "code": "17518122022",
+            "model": "Salyangoz Snail",
+            "size": "400x1000 mm",
+            "connection": "63 mm",
+            "price": "895 €",
+            "price_eur": 895.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "yunus-model-dolphin-model",
+      "family_title_tr": "Yunus Model Dolphin Model",
+      "family_title_en": "Yunus Model Dolphin Model",
+      "family_description_tr": "A silver, curved metal product, likely a dolphin model, with a small mounting plate at the bottom.",
+      "family_line_count": 16,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_15805",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "MODEL",
+            "ÖLÇÜ SIZE",
+            "BAĞLANTI CONNECTION",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "AISI 304 PASLANMAZ ÇELİK",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "17518122023",
+              "Yunus Dolphin",
+              "350x500 mm",
+              "50 mm",
+              "475 €"
+            ],
+            [
+              "17518122024",
+              "Yunus Dolphin",
+              "400x600 mm",
+              "63 mm",
+              "555 €"
+            ],
+            [
+              "17518122025",
+              "Yunus Dolphin",
+              "400x800 mm",
+              "63 mm",
+              "630 €"
+            ],
+            [
+              "AISI 316 PASLANMAZ ÇELİK",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "17518122026",
+              "Yunus Dolphin",
+              "350x500 mm",
+              "50 mm",
+              "555 €"
+            ],
+            [
+              "17518122027",
+              "Yunus Dolphin",
+              "400x600 mm",
+              "63 mm",
+              "630 €"
+            ],
+            [
+              "17518122028",
+              "Yunus Dolphin",
+              "400x800 mm",
+              "63 mm",
+              "710 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "920ae783a3540bfa7e7f8ce1123ee2c4_img.jpg",
+          "alt": "A silver, curved metal product, likely a dolphin model, with a small mounting plate at the bottom.",
+          "caption": "",
+          "type": "performance_curve"
+        }
+      ],
+      "variants": [
+        {
+          "code": "304",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "AISI 304 PASLANMAZ ÇELİK",
+            "model": "",
+            "size": "",
+            "connection": "",
+            "price": ""
+          }
+        },
+        {
+          "code": "17518122023",
+          "price": "475 €",
+          "price_eur": 475.0,
+          "values": {
+            "code": "17518122023",
+            "model": "Yunus Dolphin",
+            "size": "350x500 mm",
+            "connection": "50 mm",
+            "price": "475 €",
+            "price_eur": 475.0
+          }
+        },
+        {
+          "code": "17518122024",
+          "price": "555 €",
+          "price_eur": 555.0,
+          "values": {
+            "code": "17518122024",
+            "model": "Yunus Dolphin",
+            "size": "400x600 mm",
+            "connection": "63 mm",
+            "price": "555 €",
+            "price_eur": 555.0
+          }
+        },
+        {
+          "code": "17518122025",
+          "price": "630 €",
+          "price_eur": 630.0,
+          "values": {
+            "code": "17518122025",
+            "model": "Yunus Dolphin",
+            "size": "400x800 mm",
+            "connection": "63 mm",
+            "price": "630 €",
+            "price_eur": 630.0
+          }
+        },
+        {
+          "code": "316",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "AISI 316 PASLANMAZ ÇELİK",
+            "model": "",
+            "size": "",
+            "connection": "",
+            "price": ""
+          }
+        },
+        {
+          "code": "17518122026",
+          "price": "555 €",
+          "price_eur": 555.0,
+          "values": {
+            "code": "17518122026",
+            "model": "Yunus Dolphin",
+            "size": "350x500 mm",
+            "connection": "50 mm",
+            "price": "555 €",
+            "price_eur": 555.0
+          }
+        },
+        {
+          "code": "17518122027",
+          "price": "630 €",
+          "price_eur": 630.0,
+          "values": {
+            "code": "17518122027",
+            "model": "Yunus Dolphin",
+            "size": "400x600 mm",
+            "connection": "63 mm",
+            "price": "630 €",
+            "price_eur": 630.0
+          }
+        },
+        {
+          "code": "17518122028",
+          "price": "710 €",
+          "price_eur": 710.0,
+          "values": {
+            "code": "17518122028",
+            "model": "Yunus Dolphin",
+            "size": "400x800 mm",
+            "connection": "63 mm",
+            "price": "710 €",
+            "price_eur": 710.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "decorative-flow",
+      "family_title_tr": "DECORATIVE FLOW",
+      "family_title_en": "DECORATIVE FLOW",
+      "family_description_tr": "Korozyona dayanıklı seramik mil ve yüksek verimli senkron motoru ile süs havuzlarında uzun ömürlü, güvenilir ve estetik su akışı sağlar..",
+      "family_line_count": 55,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_15859",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "GÜÇ POWER",
+            "DEBİ FLOW MAX",
+            "BASMA YÜKSEKLİĞİ HEAD MAX",
+            "ÇIKIŞ OUTLET",
+            "AĞIRLIK WEIGHT",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "19810123071",
+              "6W",
+              "350L/H",
+              "0,8 m",
+              "13 m",
+              "11 kg",
+              "42 €"
+            ],
+            [
+              "19810123072",
+              "12W",
+              "750L/H",
+              "1,5 m",
+              "13 m",
+              "12,5 kg",
+              "53 €"
+            ],
+            [
+              "19810123090",
+              "35W",
+              "2000L/H",
+              "3 m",
+              "1 / 2\"",
+              "20 kg",
+              "82 €"
+            ],
+            [
+              "19810123091",
+              "55W",
+              "3000L/H",
+              "3,5 m",
+              "1 / 2\"",
+              "22,6 kg",
+              "110 €"
+            ],
+            [
+              "19810123075",
+              "85W",
+              "5000L/H",
+              "4,5 m",
+              "1\"",
+              "22,6 kg",
+              "250 €"
+            ],
+            [
+              "19810123076",
+              "105W",
+              "6000L/H",
+              "5,2 m",
+              "1\"",
+              "23 kg",
+              "270 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "99df3b12da0797488aa2eed189b850bd_img.jpg",
+          "alt": "A black Senkron Smartline Fountain Pump with a handle and a power cord.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "d0f05c35d54f11a9531fd5f24860ad8e_img.jpg",
+          "alt": "Two Senkron Smartline Fountain Pumps and three different types of vertical fountain nozzles.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "63afbfb4f70ca0d800a72951c202a66b_img.jpg",
+          "alt": "A black and white photograph of a water splash, showing a large, textured droplet in the foreground and blurred water splashes in the background.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "6f55c9e35e315c82ae784f9c3d0a09ce_img.jpg",
+          "alt": "A serene garden scene featuring a wooden bench on a stone path overlooking a pond. The pond is surrounded by a stone border and contains several lily pads and orange fish. Lush green foliage surrounds the pond area.",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "19810123071",
+          "price": "42 €",
+          "price_eur": 42.0,
+          "values": {
+            "code": "19810123071",
+            "power_w": "6W",
+            "flow_max": "350L/H",
+            "head_max": "0,8 m",
+            "outlet": "13 m",
+            "weight": "11 kg",
+            "price": "42 €",
+            "price_eur": 42.0
+          }
+        },
+        {
+          "code": "19810123072",
+          "price": "53 €",
+          "price_eur": 53.0,
+          "values": {
+            "code": "19810123072",
+            "power_w": "12W",
+            "flow_max": "750L/H",
+            "head_max": "1,5 m",
+            "outlet": "13 m",
+            "weight": "12,5 kg",
+            "price": "53 €",
+            "price_eur": 53.0
+          }
+        },
+        {
+          "code": "19810123090",
+          "price": "82 €",
+          "price_eur": 82.0,
+          "values": {
+            "code": "19810123090",
+            "power_w": "35W",
+            "flow_max": "2000L/H",
+            "head_max": "3 m",
+            "outlet": "1 / 2\"",
+            "weight": "20 kg",
+            "price": "82 €",
+            "price_eur": 82.0
+          }
+        },
+        {
+          "code": "19810123091",
+          "price": "110 €",
+          "price_eur": 110.0,
+          "values": {
+            "code": "19810123091",
+            "power_w": "55W",
+            "flow_max": "3000L/H",
+            "head_max": "3,5 m",
+            "outlet": "1 / 2\"",
+            "weight": "22,6 kg",
+            "price": "110 €",
+            "price_eur": 110.0
+          }
+        },
+        {
+          "code": "19810123075",
+          "price": "250 €",
+          "price_eur": 250.0,
+          "values": {
+            "code": "19810123075",
+            "power_w": "85W",
+            "flow_max": "5000L/H",
+            "head_max": "4,5 m",
+            "outlet": "1\"",
+            "weight": "22,6 kg",
+            "price": "250 €",
+            "price_eur": 250.0
+          }
+        },
+        {
+          "code": "19810123076",
+          "price": "270 €",
+          "price_eur": 270.0,
+          "values": {
+            "code": "19810123076",
+            "power_w": "105W",
+            "flow_max": "6000L/H",
+            "head_max": "5,2 m",
+            "outlet": "1\"",
+            "weight": "23 kg",
+            "price": "270 €",
+            "price_eur": 270.0
+          }
+        }
+      ]
+    }
+  ]
+}

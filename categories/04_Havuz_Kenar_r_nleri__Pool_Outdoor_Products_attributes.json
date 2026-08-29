@@ -1,0 +1,3336 @@
+{
+  "category_no": "04",
+  "category_tr": "Havuz Kenar Ürünleri",
+  "category_en": "Pool Outdoor Products",
+  "family_count": 3,
+  "variant_count": 118,
+  "families": [
+    {
+      "family_product_id": "merdivenler-basamaklar",
+      "family_title_tr": "Merdivenler & Basamaklar",
+      "family_title_en": "Merdivenler & Basamaklar",
+      "family_description_tr": "Üretim Yeri / Manufacturing Location",
+      "family_line_count": 385,
+      "qualitative": {
+        "bullets_tr": [
+          "1,2 mm et kalınlığı Ø42 mm boru çapı",
+          "1.2 mm wall thickness Ø42 mm pipe diameter",
+          "Plastik enjeksiyon ankraj ve lastik takoz",
+          "Plastic injection anchor and rubber wedge",
+          "Paslanmaz çelik rozet",
+          "Stainless steel escutcheon plate",
+          "Mükemmel polisajlı parlak yüzey kalitesi",
+          "Bright surface quality with excellent polishing",
+          "AISI 304 ve 316 paslanmaz çelikten üretilmiştir",
+          "1,2 mm et kalınlığında boru",
+          "Mükemmel polisajlı parlak yüzey",
+          "Paslanmaz malzeme bilgisi ve markanın logosu üzerindedir",
+          "Keskin köşesi yoktur",
+          "V tasarım ile ekstra dayanıklı basamaklar",
+          "Yeni tasarım lastik takoz",
+          "Basamak plastik yan parçaları paslanmaz çelik basamağa ilaveten paslanmaz çelik vidalarla monte edilmiştir",
+          "Made of AISI 304 and 316 stainless steel",
+          "1,2 mm wall thickness",
+          "Excellent polished surface",
+          "Stainless steel quality marked and brandname is available",
+          "No sharp edge",
+          "Extra durable steps with V shape",
+          "New design elastic support",
+          "Side plastic piece installed to stair with stainless screw",
+          "Yer üstü havuzlarda kullanıma uygun",
+          "1,2 mm et kalınlığı Ø42 mm boru çapı",
+          "Mükemmel polisajlı parlak yüzey kalitesi",
+          "Suitable for use in above ground pools",
+          "1.2 mm wall thickness Ø42 mm pipe diameter",
+          "Excellent polished surface finish",
+          "Kaydırmaz yüzeyli platform",
+          "Yer üstü havuzlarda kullanıma uygun",
+          "1,2 mm et kalınlığı Ø42 mm boru çapı",
+          "AISI 304 paslanmaz çelik rozet",
+          "Mükemmel polisajlı parlak yüzey kalitesi",
+          "Platform with non-slip surface",
+          "Suitable for use in above ground pools",
+          "1.2 mm wall thickness Ø42 mm pipe diameter",
+          "AISI 304 stainless steel badge",
+          "Excellent polished surface finish",
+          "1,2 mm et kalınlığı Ø42 mm boru çapı",
+          "Montajı beton içine direkt olarak yapılır",
+          "1.2 mm wall thickness Ø42 mm pipe diameter",
+          "Installation is made directly into concrete",
+          "1,2 mm et kalınlığı Ø42 mm boru çapı",
+          "AISI 304 paslanmaz çelik",
+          "Montajı civatalı flanş ile yapılır",
+          "Tüm civata ve montaj ekipmanları paketin içerisinde mevcuttur",
+          "1.2 mm wall thickness Ø42 mm pipe diameter",
+          "AISI 304 stainless steel",
+          "Installation is done with bolted flange",
+          "All screws and assembly equipment are available within the package"
+        ],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_5579",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "BASAMAK SAYISI STEP NUMBER",
+            "MODEL",
+            "AISI",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "13015123001",
+              "2",
+              "DI 2",
+              "304",
+              "160 €"
+            ],
+            [
+              "13015123002",
+              "3",
+              "DI 3",
+              "304",
+              "170 €"
+            ],
+            [
+              "13015123003",
+              "4",
+              "DI 4",
+              "304",
+              "189 €"
+            ],
+            [
+              "13015123004",
+              "5",
+              "DI 5",
+              "304",
+              "225 €"
+            ],
+            [
+              "13015123034",
+              "2",
+              "ID 2",
+              "316",
+              "240 €"
+            ],
+            [
+              "13015123027",
+              "3",
+              "ID 3",
+              "316",
+              "267 €"
+            ],
+            [
+              "13015123028",
+              "4",
+              "ID 4",
+              "316",
+              "306 €"
+            ],
+            [
+              "13015313028",
+              "5",
+              "ID 5",
+              "316",
+              "345 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_5594",
+          "type": "dimensions",
+          "headers": [
+            "MODEL",
+            "Basamak Step",
+            "A mm",
+            "B mm",
+            "C mm",
+            "D mm",
+            "E mm",
+            "F mm",
+            "G mm"
+          ],
+          "rows": [
+            [
+              "Standart",
+              "2",
+              "-",
+              "710",
+              "250",
+              "1.400",
+              "180",
+              "600",
+              "710"
+            ],
+            [
+              "Standart",
+              "3",
+              "-",
+              "710",
+              "250",
+              "1.610",
+              "180",
+              "600",
+              "710"
+            ],
+            [
+              "Standart",
+              "4",
+              "-",
+              "710",
+              "250",
+              "1.890",
+              "180",
+              "600",
+              "710"
+            ],
+            [
+              "Standart",
+              "5",
+              "-",
+              "710",
+              "250",
+              "2.130",
+              "180",
+              "600",
+              "710"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_5612",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "BASAMAK SAYISI STEP NUMBER",
+            "MODEL",
+            "AISI",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "13015123005",
+              "2",
+              "RI 2",
+              "304",
+              "160 €"
+            ],
+            [
+              "13015123006",
+              "3",
+              "RI 3",
+              "304",
+              "170 €"
+            ],
+            [
+              "13015123007",
+              "4",
+              "RI 4",
+              "304",
+              "189 €"
+            ],
+            [
+              "13015123008",
+              "5",
+              "RI 5",
+              "304",
+              "225 €"
+            ],
+            [
+              "13015123037",
+              "2",
+              "RI 2",
+              "316",
+              "240 €"
+            ],
+            [
+              "13015123025",
+              "3",
+              "RI 3",
+              "316",
+              "267 €"
+            ],
+            [
+              "13015123026",
+              "4",
+              "RI 4",
+              "316",
+              "306 €"
+            ],
+            [
+              "13015123036",
+              "5",
+              "RI 5",
+              "316",
+              "345 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_5623",
+          "type": "dimensions",
+          "headers": [
+            "MODEL",
+            "Basamak Step",
+            "A mm",
+            "B mm",
+            "C mm",
+            "D mm",
+            "E mm",
+            "F mm",
+            "G mm"
+          ],
+          "rows": [
+            [
+              "Muro",
+              "2",
+              "400",
+              "720",
+              "250",
+              "1.360",
+              "180",
+              "600",
+              "-"
+            ],
+            [
+              "Muro",
+              "3",
+              "420",
+              "720",
+              "250",
+              "1.610",
+              "180",
+              "600",
+              "-"
+            ],
+            [
+              "Muro",
+              "4",
+              "420",
+              "720",
+              "250",
+              "1.860",
+              "180",
+              "600",
+              "-"
+            ],
+            [
+              "Muro",
+              "5",
+              "420",
+              "720",
+              "250",
+              "2.120",
+              "180",
+              "600",
+              "-"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_5640",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "BASAMAK SAYISI STEP NUMBER",
+            "MODEL",
+            "AISI",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "13015123009",
+              "2",
+              "XI 2",
+              "304",
+              "165 €"
+            ],
+            [
+              "13015123010",
+              "3",
+              "XI 3",
+              "304",
+              "179 €"
+            ],
+            [
+              "13015123011",
+              "4",
+              "XI 4",
+              "304",
+              "199 €"
+            ],
+            [
+              "13015123012",
+              "5",
+              "XI 5",
+              "304",
+              "249 €"
+            ],
+            [
+              "13015123029",
+              "2",
+              "XI 2",
+              "316",
+              "267 €"
+            ],
+            [
+              "13015123030",
+              "3",
+              "XI 3",
+              "316",
+              "306 €"
+            ],
+            [
+              "13015123031",
+              "4",
+              "XI 4",
+              "316",
+              "355 €"
+            ],
+            [
+              "13015123032",
+              "5",
+              "XI 5",
+              "316",
+              "385 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_5651",
+          "type": "dimensions",
+          "headers": [
+            "MODEL",
+            "Basamak Step",
+            "A mm",
+            "B mm",
+            "C mm",
+            "D mm",
+            "E mm",
+            "F mm",
+            "G mm"
+          ],
+          "rows": [
+            [
+              "Mixta",
+              "2",
+              "-",
+              "710",
+              "250",
+              "1.400",
+              "180",
+              "600",
+              "550"
+            ],
+            [
+              "Mixta",
+              "3",
+              "-",
+              "710",
+              "250",
+              "1.610",
+              "180",
+              "600",
+              "620"
+            ],
+            [
+              "Mixta",
+              "4",
+              "-",
+              "710",
+              "250",
+              "1.880",
+              "180",
+              "600",
+              "620"
+            ],
+            [
+              "Mixta",
+              "5",
+              "-",
+              "710",
+              "250",
+              "2.120",
+              "180",
+              "600",
+              "620"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_5673",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "BASAMAK SAYISI STEP NUMBER",
+            "MODEL",
+            "AISI",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "13015123013",
+              "2",
+              "HI 2",
+              "304",
+              "249 €"
+            ],
+            [
+              "13015123014",
+              "3",
+              "HI 3",
+              "304",
+              "269 €"
+            ],
+            [
+              "13015123015",
+              "4",
+              "HI 4",
+              "304",
+              "310 €"
+            ],
+            [
+              "13015123016",
+              "5",
+              "HI 5",
+              "304",
+              "330 €"
+            ],
+            [
+              "13015123038",
+              "2",
+              "IH 2",
+              "316",
+              "275 €"
+            ],
+            [
+              "13015123033",
+              "3",
+              "IH 3",
+              "316",
+              "315 €"
+            ],
+            [
+              "13015123035",
+              "4",
+              "IH 4",
+              "316",
+              "365 €"
+            ],
+            [
+              "13015123039",
+              "5",
+              "IH 5",
+              "316",
+              "385 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_5684",
+          "type": "dimensions",
+          "headers": [
+            "MODEL",
+            "Basamak Step",
+            "A mm",
+            "B mm",
+            "C mm",
+            "D mm",
+            "E mm",
+            "F mm",
+            "G mm"
+          ],
+          "rows": [
+            [
+              "Münih",
+              "2",
+              "1.390",
+              "680",
+              "250",
+              "710",
+              "842",
+              "180",
+              "500"
+            ],
+            [
+              "Münih",
+              "3",
+              "1.650",
+              "720",
+              "250",
+              "960",
+              "842",
+              "180",
+              "600"
+            ],
+            [
+              "Münih",
+              "4",
+              "1.890",
+              "680",
+              "250",
+              "1.210",
+              "842",
+              "180",
+              "500"
+            ],
+            [
+              "Münih",
+              "5",
+              "2.140",
+              "680",
+              "250",
+              "1.460",
+              "842",
+              "180",
+              "500"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_5701",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "BASAMAK SAYISI STEP NUMBER",
+            "MODEL",
+            "AISI",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "13015123017",
+              "3",
+              "TW 3",
+              "304",
+              "340 €"
+            ],
+            [
+              "13015123018",
+              "4",
+              "TW 4",
+              "304",
+              "360 €"
+            ],
+            [
+              "13015123019",
+              "5",
+              "TW 5",
+              "304",
+              "405 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_5713",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "19813123001",
+              "20 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_5726",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "ÇAP DIA",
+            "ÖLÇÜLER UxGxY SIZE LxWxH",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "199124001",
+              "63 mm",
+              "190x134x161",
+              "48 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_5765",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "AISI",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "150123022",
+              "304",
+              "29 €"
+            ],
+            [
+              "150123023",
+              "316",
+              "33 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_5777",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "BASAMAK SAYISI STEP NUMBER",
+            "MODEL",
+            "AISI",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "13015313037",
+              "2",
+              "MURO",
+              "304",
+              "124.00 €"
+            ],
+            [
+              "13015313038",
+              "3",
+              "MURO",
+              "304",
+              "141.00 €"
+            ],
+            [
+              "13015313039",
+              "4",
+              "MURO",
+              "304",
+              "160.00 €"
+            ],
+            [
+              "13015313040",
+              "5",
+              "MURO",
+              "304",
+              "180.40 €"
+            ],
+            [
+              "13015123041",
+              "2",
+              "MIXTA",
+              "304",
+              "132.00 €"
+            ],
+            [
+              "13015123042",
+              "3",
+              "MIXTA",
+              "304",
+              "150.00 €"
+            ],
+            [
+              "13015123043",
+              "4",
+              "MIXTA",
+              "304",
+              "166.00 €"
+            ],
+            [
+              "13015123044",
+              "5",
+              "MIXTA",
+              "304",
+              "185.00 €"
+            ],
+            [
+              "13015313045",
+              "2",
+              "STANDART",
+              "304",
+              "132.45 €"
+            ],
+            [
+              "13015313046",
+              "3",
+              "STANDART",
+              "304",
+              "149.00 €"
+            ],
+            [
+              "13015313047",
+              "4",
+              "STANDART",
+              "304",
+              "180.00 €"
+            ],
+            [
+              "13015313048",
+              "5",
+              "STANDART",
+              "304",
+              "195.75 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_5794",
+          "type": "dimensions",
+          "headers": [
+            "MODEL",
+            "A mm",
+            "B mm",
+            "C mm",
+            "D mm",
+            "E mm",
+            "F mm",
+            "G mm"
+          ],
+          "rows": [
+            [
+              "MU-215",
+              "502",
+              "1.330",
+              "365",
+              "640",
+              "180",
+              "200",
+              "250"
+            ],
+            [
+              "MU-315",
+              "502",
+              "1.580",
+              "365",
+              "640",
+              "180",
+              "200",
+              "250"
+            ],
+            [
+              "MU-415",
+              "502",
+              "1.830",
+              "365",
+              "640",
+              "180",
+              "200",
+              "250"
+            ],
+            [
+              "MU-515",
+              "502",
+              "2.080",
+              "365",
+              "640",
+              "180",
+              "200",
+              "250"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_5807",
+          "type": "dimensions",
+          "headers": [
+            "MODEL",
+            "A mm",
+            "B mm",
+            "C mm",
+            "D mm",
+            "E mm",
+            "F mm",
+            "G mm"
+          ],
+          "rows": [
+            [
+              "MX2",
+              "502",
+              "1.330",
+              "650",
+              "640",
+              "180",
+              "200",
+              "250"
+            ],
+            [
+              "MX3",
+              "502",
+              "1.580",
+              "650",
+              "640",
+              "180",
+              "200",
+              "250"
+            ],
+            [
+              "MX4",
+              "502",
+              "1.830",
+              "650",
+              "640",
+              "180",
+              "200",
+              "250"
+            ],
+            [
+              "MX5",
+              "502",
+              "2.080",
+              "650",
+              "640",
+              "180",
+              "200",
+              "250"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_5820",
+          "type": "dimensions",
+          "headers": [
+            "MODEL",
+            "A mm",
+            "B mm",
+            "C mm",
+            "D mm",
+            "E mm",
+            "F mm",
+            "G mm"
+          ],
+          "rows": [
+            [
+              "ST 2",
+              "502",
+              "1.330",
+              "650",
+              "640",
+              "180",
+              "200",
+              "250"
+            ],
+            [
+              "ST 3",
+              "502",
+              "1.580",
+              "650",
+              "640",
+              "180",
+              "200",
+              "250"
+            ],
+            [
+              "ST 4",
+              "502",
+              "1.830",
+              "650",
+              "640",
+              "180",
+              "200",
+              "250"
+            ],
+            [
+              "ST 5",
+              "502",
+              "2.080",
+              "650",
+              "640",
+              "180",
+              "200",
+              "250"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_5831",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "TANIM DESCRIPTION",
+            "AISI",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "19822123005",
+              "Merdiven Ankraj Bağlantısı Ladder Anchor Connection",
+              "304",
+              "20 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_5856",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "BASAMAK SAYISI STEP NUMBER",
+            "MODEL",
+            "AISI",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "13015123020",
+              "2+2",
+              "Elevada",
+              "304",
+              "208 €"
+            ],
+            [
+              "13015123021",
+              "3+3",
+              "Elevada",
+              "304",
+              "278 €"
+            ],
+            [
+              "13015123022",
+              "4+4",
+              "Elevada",
+              "304",
+              "296 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_5881",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "BASAMAK SAYISI STEP NUMBER",
+            "MODEL",
+            "AISI",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "13015123023",
+              "3+3 Platformlu With Platform",
+              "Elevada",
+              "304",
+              "317 €"
+            ],
+            [
+              "13015123024",
+              "4+4 Platformlu With Platform",
+              "Elevada",
+              "304",
+              "360 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_5901",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "ÇAP DIAMETER",
+            "BOY LENGTH",
+            "AISI",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "13017123002",
+              "42 mm",
+              "1.300 mm",
+              "304",
+              "148 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_5922",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "ÇAP DIAMETER",
+            "BOY LENGTH",
+            "MODEL",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "13017123001",
+              "42 mm",
+              "0,5 mt",
+              "051.TC.B",
+              "150 €"
+            ],
+            [
+              "13017123003",
+              "42 mm",
+              "1 mt",
+              "101.TC",
+              "160 €"
+            ],
+            [
+              "13017123004",
+              "42 mm",
+              "2 mt",
+              "201.TC",
+              "195 €"
+            ],
+            [
+              "13017123005",
+              "42 mm",
+              "2,5 mt",
+              "251.TC",
+              "210 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "798b09a4b9938315a5d50ae48def2b24_img.jpg",
+          "alt": "A circular stainless steel escutcheon plate with a central hole and a textured surface.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "fe520259312740386e99872874418a47_img.jpg",
+          "alt": "A stainless steel pool ladder with two curved handrails and three steps.",
+          "caption": "",
+          "type": "performance_curve"
+        },
+        {
+          "file": "0181a2e520844a05817bcdef7e2bcb3e_img.jpg",
+          "alt": "Technical diagram of a pool ladder showing dimensions B, C, D, E, F, and G.",
+          "caption": "",
+          "type": "dimensions"
+        },
+        {
+          "file": "e3e1edbccbaa127f68fa9fb6dc12ee40_img.jpg",
+          "alt": "A photograph of a Muro Series stainless steel pool ladder with four steps and a curved top rail.",
+          "caption": "",
+          "type": "performance_curve"
+        },
+        {
+          "file": "342f544d0c4400d536041d2654b53fe0_img.jpg",
+          "alt": "A technical diagram of the Muro Series ladder showing dimensions A through G. Dimension A is the width of the top rail, B is the height of the top rail, C is the depth of the steps, D is the total height of the ladder, E is the width of the base, and F is the width of the top rail.",
+          "caption": "",
+          "type": "dimensions"
+        },
+        {
+          "file": "63831623427bfb6edfb4e32a06f311a7_img.jpg",
+          "alt": "A photograph of a Mixta Series stainless steel pool ladder with four steps and a curved top rail.",
+          "caption": "",
+          "type": "performance_curve"
+        },
+        {
+          "file": "334d2354f74b5584a94e7c1a6471cf0f_img.jpg",
+          "alt": "A technical diagram of the Mixta Series ladder showing dimensions A through G. Dimension A is the width of the top rail, B is the height of the top rail, C is the depth of the steps, D is the total height of the ladder, E is the width of the base, and F is the width of the top rail.",
+          "caption": "",
+          "type": "dimensions"
+        },
+        {
+          "file": "48f5d2f47ad6a6102d17ae5e281aad78_img.jpg",
+          "alt": "A stainless steel pool ladder with four steps and a curved handrail, shown in a 3D perspective view.",
+          "caption": "",
+          "type": "performance_curve"
+        },
+        {
+          "file": "e31571de3c62d21769f6b56d908c87b4_img.jpg",
+          "alt": "A technical diagram of a pool ladder showing dimensions labeled A through G. Dimension A is the total height, B is the handrail height, C is the step height, D is the step depth, E is the base width, F is the base depth, and G is the handrail curve radius.",
+          "caption": "",
+          "type": "dimensions"
+        },
+        {
+          "file": "773b84864d06812dad3e30c27f37f065_img.jpg",
+          "alt": "A stainless steel pool ladder with three steps and a curved handrail, shown in a 3D perspective view.",
+          "caption": "",
+          "type": "performance_curve"
+        },
+        {
+          "file": "d0dd7d7cda7073273bf1e9f36071e302_img.jpg",
+          "alt": "A stainless steel pool anchor with a curved base and a mounting plate, shown in a 3D perspective view.",
+          "caption": "",
+          "type": "performance_curve"
+        },
+        {
+          "file": "61ced647898097ee89e6a813ce4b869c_img.jpg",
+          "alt": "A white plastic pool zing anode with a blue cap and a mounting bracket, shown in a 3D perspective view.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "0efcaae8a22dd0061b320636683a98a5_img.jpg",
+          "alt": "A composite image showing various views of a stainless steel ladder step. The main image at the top shows the step from a side perspective, highlighting its V-shaped profile and black plastic side piece. Below it, a close-up view shows the side of the step with labels for 'Paslanmaz bilgisi Stainless steel' and 'Marka logosu Brand logotype'. To the right, a detail view shows the 'V tasarım V design' profile. Another detail view shows the 'Keskin köşe yoktur No sharp edge' feature. A close-up of the black plastic side piece is labeled 'Lastik takoz Elastic support'. Finally, a view of the step with a screw is labeled 'Paslanmaz çelik vidalar Stainless steel screw'.",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "891bca533b5358b9ece1c7139cb55e52_img.jpg",
+          "alt": "Technical diagrams of the MURO ladder showing side view, front view, and dimension details A, B, C, D, E, F, G.",
+          "caption": "",
+          "type": "dimensions"
+        },
+        {
+          "file": "2bf8e1fb4050ea9617dea1417254ee68_img.jpg",
+          "alt": "Technical diagrams of the MIXTA ladder showing side view, front view, and dimension details A, B, C, D, E, F, G.",
+          "caption": "",
+          "type": "dimensions"
+        },
+        {
+          "file": "2844252e9a96cee1b1703dce2b9bb789_img.jpg",
+          "alt": "Technical diagrams of the STANDART ladder showing side view, front view, and dimension details A, B, C, D, E, F, G.",
+          "caption": "",
+          "type": "dimensions"
+        },
+        {
+          "file": "aed1c8b91e822dd4848df3a1b3b39ecc_img.jpg",
+          "alt": "Image of the ladder anchor connection hardware.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "e66c3956c8b3f0ea6c929247230659ce_img.jpg",
+          "alt": "A stainless steel ground ladder with two sets of steps, designed for above-ground pools.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "4c8bf22aadf2d8ffa8f7a1f05e2bf516_img.jpg",
+          "alt": "A stainless steel ground ladder with a platform at the top, designed for above-ground pools.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "b51fc4f58b617170bbb8a48f48f2a323_img.jpg",
+          "alt": "Stainless steel handrail for reinforced concrete steps, showing a curved design with two vertical posts.",
+          "caption": "",
+          "type": "performance_curve"
+        },
+        {
+          "file": "aaa2bacd93bf6df397f1d077b83a3784_img.jpg",
+          "alt": "Stainless steel handrail with a curved design and a bolted flange for installation.",
+          "caption": "",
+          "type": "performance_curve"
+        }
+      ],
+      "variants": [
+        {
+          "code": "13015123001",
+          "price": "160 €",
+          "price_eur": 160.0,
+          "values": {
+            "code": "13015123001",
+            "step_number": "2",
+            "model": "DI 2",
+            "aisi": "304",
+            "price": "160 €",
+            "price_eur": 160.0
+          }
+        },
+        {
+          "code": "13015123002",
+          "price": "170 €",
+          "price_eur": 170.0,
+          "values": {
+            "code": "13015123002",
+            "step_number": "3",
+            "model": "DI 3",
+            "aisi": "304",
+            "price": "170 €",
+            "price_eur": 170.0
+          }
+        },
+        {
+          "code": "13015123003",
+          "price": "189 €",
+          "price_eur": 189.0,
+          "values": {
+            "code": "13015123003",
+            "step_number": "4",
+            "model": "DI 4",
+            "aisi": "304",
+            "price": "189 €",
+            "price_eur": 189.0
+          }
+        },
+        {
+          "code": "13015123004",
+          "price": "225 €",
+          "price_eur": 225.0,
+          "values": {
+            "code": "13015123004",
+            "step_number": "5",
+            "model": "DI 5",
+            "aisi": "304",
+            "price": "225 €",
+            "price_eur": 225.0
+          }
+        },
+        {
+          "code": "13015123034",
+          "price": "240 €",
+          "price_eur": 240.0,
+          "values": {
+            "code": "13015123034",
+            "step_number": "2",
+            "model": "ID 2",
+            "aisi": "316",
+            "price": "240 €",
+            "price_eur": 240.0
+          }
+        },
+        {
+          "code": "13015123027",
+          "price": "267 €",
+          "price_eur": 267.0,
+          "values": {
+            "code": "13015123027",
+            "step_number": "3",
+            "model": "ID 3",
+            "aisi": "316",
+            "price": "267 €",
+            "price_eur": 267.0
+          }
+        },
+        {
+          "code": "13015123028",
+          "price": "306 €",
+          "price_eur": 306.0,
+          "values": {
+            "code": "13015123028",
+            "step_number": "4",
+            "model": "ID 4",
+            "aisi": "316",
+            "price": "306 €",
+            "price_eur": 306.0
+          }
+        },
+        {
+          "code": "13015313028",
+          "price": "345 €",
+          "price_eur": 345.0,
+          "values": {
+            "code": "13015313028",
+            "step_number": "5",
+            "model": "ID 5",
+            "aisi": "316",
+            "price": "345 €",
+            "price_eur": 345.0
+          }
+        },
+        {
+          "code": "13015123005",
+          "price": "160 €",
+          "price_eur": 160.0,
+          "values": {
+            "code": "13015123005",
+            "step_number": "2",
+            "model": "RI 2",
+            "aisi": "304",
+            "price": "160 €",
+            "price_eur": 160.0
+          }
+        },
+        {
+          "code": "13015123006",
+          "price": "170 €",
+          "price_eur": 170.0,
+          "values": {
+            "code": "13015123006",
+            "step_number": "3",
+            "model": "RI 3",
+            "aisi": "304",
+            "price": "170 €",
+            "price_eur": 170.0
+          }
+        },
+        {
+          "code": "13015123007",
+          "price": "189 €",
+          "price_eur": 189.0,
+          "values": {
+            "code": "13015123007",
+            "step_number": "4",
+            "model": "RI 4",
+            "aisi": "304",
+            "price": "189 €",
+            "price_eur": 189.0
+          }
+        },
+        {
+          "code": "13015123008",
+          "price": "225 €",
+          "price_eur": 225.0,
+          "values": {
+            "code": "13015123008",
+            "step_number": "5",
+            "model": "RI 5",
+            "aisi": "304",
+            "price": "225 €",
+            "price_eur": 225.0
+          }
+        },
+        {
+          "code": "13015123037",
+          "price": "240 €",
+          "price_eur": 240.0,
+          "values": {
+            "code": "13015123037",
+            "step_number": "2",
+            "model": "RI 2",
+            "aisi": "316",
+            "price": "240 €",
+            "price_eur": 240.0
+          }
+        },
+        {
+          "code": "13015123025",
+          "price": "267 €",
+          "price_eur": 267.0,
+          "values": {
+            "code": "13015123025",
+            "step_number": "3",
+            "model": "RI 3",
+            "aisi": "316",
+            "price": "267 €",
+            "price_eur": 267.0
+          }
+        },
+        {
+          "code": "13015123026",
+          "price": "306 €",
+          "price_eur": 306.0,
+          "values": {
+            "code": "13015123026",
+            "step_number": "4",
+            "model": "RI 4",
+            "aisi": "316",
+            "price": "306 €",
+            "price_eur": 306.0
+          }
+        },
+        {
+          "code": "13015123036",
+          "price": "345 €",
+          "price_eur": 345.0,
+          "values": {
+            "code": "13015123036",
+            "step_number": "5",
+            "model": "RI 5",
+            "aisi": "316",
+            "price": "345 €",
+            "price_eur": 345.0
+          }
+        },
+        {
+          "code": "13015123009",
+          "price": "165 €",
+          "price_eur": 165.0,
+          "values": {
+            "code": "13015123009",
+            "step_number": "2",
+            "model": "XI 2",
+            "aisi": "304",
+            "price": "165 €",
+            "price_eur": 165.0
+          }
+        },
+        {
+          "code": "13015123010",
+          "price": "179 €",
+          "price_eur": 179.0,
+          "values": {
+            "code": "13015123010",
+            "step_number": "3",
+            "model": "XI 3",
+            "aisi": "304",
+            "price": "179 €",
+            "price_eur": 179.0
+          }
+        },
+        {
+          "code": "13015123011",
+          "price": "199 €",
+          "price_eur": 199.0,
+          "values": {
+            "code": "13015123011",
+            "step_number": "4",
+            "model": "XI 4",
+            "aisi": "304",
+            "price": "199 €",
+            "price_eur": 199.0
+          }
+        },
+        {
+          "code": "13015123012",
+          "price": "249 €",
+          "price_eur": 249.0,
+          "values": {
+            "code": "13015123012",
+            "step_number": "5",
+            "model": "XI 5",
+            "aisi": "304",
+            "price": "249 €",
+            "price_eur": 249.0
+          }
+        },
+        {
+          "code": "13015123029",
+          "price": "267 €",
+          "price_eur": 267.0,
+          "values": {
+            "code": "13015123029",
+            "step_number": "2",
+            "model": "XI 2",
+            "aisi": "316",
+            "price": "267 €",
+            "price_eur": 267.0
+          }
+        },
+        {
+          "code": "13015123030",
+          "price": "306 €",
+          "price_eur": 306.0,
+          "values": {
+            "code": "13015123030",
+            "step_number": "3",
+            "model": "XI 3",
+            "aisi": "316",
+            "price": "306 €",
+            "price_eur": 306.0
+          }
+        },
+        {
+          "code": "13015123031",
+          "price": "355 €",
+          "price_eur": 355.0,
+          "values": {
+            "code": "13015123031",
+            "step_number": "4",
+            "model": "XI 4",
+            "aisi": "316",
+            "price": "355 €",
+            "price_eur": 355.0
+          }
+        },
+        {
+          "code": "13015123032",
+          "price": "385 €",
+          "price_eur": 385.0,
+          "values": {
+            "code": "13015123032",
+            "step_number": "5",
+            "model": "XI 5",
+            "aisi": "316",
+            "price": "385 €",
+            "price_eur": 385.0
+          }
+        },
+        {
+          "code": "13015123013",
+          "price": "249 €",
+          "price_eur": 249.0,
+          "values": {
+            "code": "13015123013",
+            "step_number": "2",
+            "model": "HI 2",
+            "aisi": "304",
+            "price": "249 €",
+            "price_eur": 249.0
+          }
+        },
+        {
+          "code": "13015123014",
+          "price": "269 €",
+          "price_eur": 269.0,
+          "values": {
+            "code": "13015123014",
+            "step_number": "3",
+            "model": "HI 3",
+            "aisi": "304",
+            "price": "269 €",
+            "price_eur": 269.0
+          }
+        },
+        {
+          "code": "13015123015",
+          "price": "310 €",
+          "price_eur": 310.0,
+          "values": {
+            "code": "13015123015",
+            "step_number": "4",
+            "model": "HI 4",
+            "aisi": "304",
+            "price": "310 €",
+            "price_eur": 310.0
+          }
+        },
+        {
+          "code": "13015123016",
+          "price": "330 €",
+          "price_eur": 330.0,
+          "values": {
+            "code": "13015123016",
+            "step_number": "5",
+            "model": "HI 5",
+            "aisi": "304",
+            "price": "330 €",
+            "price_eur": 330.0
+          }
+        },
+        {
+          "code": "13015123038",
+          "price": "275 €",
+          "price_eur": 275.0,
+          "values": {
+            "code": "13015123038",
+            "step_number": "2",
+            "model": "IH 2",
+            "aisi": "316",
+            "price": "275 €",
+            "price_eur": 275.0
+          }
+        },
+        {
+          "code": "13015123033",
+          "price": "315 €",
+          "price_eur": 315.0,
+          "values": {
+            "code": "13015123033",
+            "step_number": "3",
+            "model": "IH 3",
+            "aisi": "316",
+            "price": "315 €",
+            "price_eur": 315.0
+          }
+        },
+        {
+          "code": "13015123035",
+          "price": "365 €",
+          "price_eur": 365.0,
+          "values": {
+            "code": "13015123035",
+            "step_number": "4",
+            "model": "IH 4",
+            "aisi": "316",
+            "price": "365 €",
+            "price_eur": 365.0
+          }
+        },
+        {
+          "code": "13015123039",
+          "price": "385 €",
+          "price_eur": 385.0,
+          "values": {
+            "code": "13015123039",
+            "step_number": "5",
+            "model": "IH 5",
+            "aisi": "316",
+            "price": "385 €",
+            "price_eur": 385.0
+          }
+        },
+        {
+          "code": "13015123017",
+          "price": "340 €",
+          "price_eur": 340.0,
+          "values": {
+            "code": "13015123017",
+            "step_number": "3",
+            "model": "TW 3",
+            "aisi": "304",
+            "price": "340 €",
+            "price_eur": 340.0
+          }
+        },
+        {
+          "code": "13015123018",
+          "price": "360 €",
+          "price_eur": 360.0,
+          "values": {
+            "code": "13015123018",
+            "step_number": "4",
+            "model": "TW 4",
+            "aisi": "304",
+            "price": "360 €",
+            "price_eur": 360.0
+          }
+        },
+        {
+          "code": "13015123019",
+          "price": "405 €",
+          "price_eur": 405.0,
+          "values": {
+            "code": "13015123019",
+            "step_number": "5",
+            "model": "TW 5",
+            "aisi": "304",
+            "price": "405 €",
+            "price_eur": 405.0
+          }
+        },
+        {
+          "code": "19813123001",
+          "price": "20 €",
+          "price_eur": 20.0,
+          "values": {
+            "code": "19813123001",
+            "price": "20 €",
+            "price_eur": 20.0
+          }
+        },
+        {
+          "code": "199124001",
+          "price": "48 €",
+          "price_eur": 48.0,
+          "values": {
+            "code": "199124001",
+            "ap_dia": "63 mm",
+            "size_lxwxh": "190x134x161",
+            "price": "48 €",
+            "price_eur": 48.0
+          }
+        },
+        {
+          "code": "150123022",
+          "price": "29 €",
+          "price_eur": 29.0,
+          "values": {
+            "code": "150123022",
+            "aisi": "304",
+            "price": "29 €",
+            "price_eur": 29.0
+          }
+        },
+        {
+          "code": "150123023",
+          "price": "33 €",
+          "price_eur": 33.0,
+          "values": {
+            "code": "150123023",
+            "aisi": "316",
+            "price": "33 €",
+            "price_eur": 33.0
+          }
+        },
+        {
+          "code": "13015313037",
+          "price": "124.00 €",
+          "price_eur": 124.0,
+          "values": {
+            "code": "13015313037",
+            "step_number": "2",
+            "model": "MURO",
+            "aisi": "304",
+            "price": "124.00 €",
+            "price_eur": 124.0
+          }
+        },
+        {
+          "code": "13015313038",
+          "price": "141.00 €",
+          "price_eur": 141.0,
+          "values": {
+            "code": "13015313038",
+            "step_number": "3",
+            "model": "MURO",
+            "aisi": "304",
+            "price": "141.00 €",
+            "price_eur": 141.0
+          }
+        },
+        {
+          "code": "13015313039",
+          "price": "160.00 €",
+          "price_eur": 160.0,
+          "values": {
+            "code": "13015313039",
+            "step_number": "4",
+            "model": "MURO",
+            "aisi": "304",
+            "price": "160.00 €",
+            "price_eur": 160.0
+          }
+        },
+        {
+          "code": "13015313040",
+          "price": "180.40 €",
+          "price_eur": 180.4,
+          "values": {
+            "code": "13015313040",
+            "step_number": "5",
+            "model": "MURO",
+            "aisi": "304",
+            "price": "180.40 €",
+            "price_eur": 180.4
+          }
+        },
+        {
+          "code": "13015123041",
+          "price": "132.00 €",
+          "price_eur": 132.0,
+          "values": {
+            "code": "13015123041",
+            "step_number": "2",
+            "model": "MIXTA",
+            "aisi": "304",
+            "price": "132.00 €",
+            "price_eur": 132.0
+          }
+        },
+        {
+          "code": "13015123042",
+          "price": "150.00 €",
+          "price_eur": 150.0,
+          "values": {
+            "code": "13015123042",
+            "step_number": "3",
+            "model": "MIXTA",
+            "aisi": "304",
+            "price": "150.00 €",
+            "price_eur": 150.0
+          }
+        },
+        {
+          "code": "13015123043",
+          "price": "166.00 €",
+          "price_eur": 166.0,
+          "values": {
+            "code": "13015123043",
+            "step_number": "4",
+            "model": "MIXTA",
+            "aisi": "304",
+            "price": "166.00 €",
+            "price_eur": 166.0
+          }
+        },
+        {
+          "code": "13015123044",
+          "price": "185.00 €",
+          "price_eur": 185.0,
+          "values": {
+            "code": "13015123044",
+            "step_number": "5",
+            "model": "MIXTA",
+            "aisi": "304",
+            "price": "185.00 €",
+            "price_eur": 185.0
+          }
+        },
+        {
+          "code": "13015313045",
+          "price": "132.45 €",
+          "price_eur": 132.45,
+          "values": {
+            "code": "13015313045",
+            "step_number": "2",
+            "model": "STANDART",
+            "aisi": "304",
+            "price": "132.45 €",
+            "price_eur": 132.45
+          }
+        },
+        {
+          "code": "13015313046",
+          "price": "149.00 €",
+          "price_eur": 149.0,
+          "values": {
+            "code": "13015313046",
+            "step_number": "3",
+            "model": "STANDART",
+            "aisi": "304",
+            "price": "149.00 €",
+            "price_eur": 149.0
+          }
+        },
+        {
+          "code": "13015313047",
+          "price": "180.00 €",
+          "price_eur": 180.0,
+          "values": {
+            "code": "13015313047",
+            "step_number": "4",
+            "model": "STANDART",
+            "aisi": "304",
+            "price": "180.00 €",
+            "price_eur": 180.0
+          }
+        },
+        {
+          "code": "13015313048",
+          "price": "195.75 €",
+          "price_eur": 195.75,
+          "values": {
+            "code": "13015313048",
+            "step_number": "5",
+            "model": "STANDART",
+            "aisi": "304",
+            "price": "195.75 €",
+            "price_eur": 195.75
+          }
+        },
+        {
+          "code": "19822123005",
+          "price": "20 €",
+          "price_eur": 20.0,
+          "values": {
+            "code": "19822123005",
+            "description": "Merdiven Ankraj Bağlantısı Ladder Anchor Connection",
+            "aisi": "304",
+            "price": "20 €",
+            "price_eur": 20.0
+          }
+        },
+        {
+          "code": "13015123020",
+          "price": "208 €",
+          "price_eur": 208.0,
+          "values": {
+            "code": "13015123020",
+            "step_number": "2+2",
+            "model": "Elevada",
+            "aisi": "304",
+            "price": "208 €",
+            "price_eur": 208.0
+          }
+        },
+        {
+          "code": "13015123021",
+          "price": "278 €",
+          "price_eur": 278.0,
+          "values": {
+            "code": "13015123021",
+            "step_number": "3+3",
+            "model": "Elevada",
+            "aisi": "304",
+            "price": "278 €",
+            "price_eur": 278.0
+          }
+        },
+        {
+          "code": "13015123022",
+          "price": "296 €",
+          "price_eur": 296.0,
+          "values": {
+            "code": "13015123022",
+            "step_number": "4+4",
+            "model": "Elevada",
+            "aisi": "304",
+            "price": "296 €",
+            "price_eur": 296.0
+          }
+        },
+        {
+          "code": "13015123023",
+          "price": "317 €",
+          "price_eur": 317.0,
+          "values": {
+            "code": "13015123023",
+            "step_number": "3+3 Platformlu With Platform",
+            "model": "Elevada",
+            "aisi": "304",
+            "price": "317 €",
+            "price_eur": 317.0
+          }
+        },
+        {
+          "code": "13015123024",
+          "price": "360 €",
+          "price_eur": 360.0,
+          "values": {
+            "code": "13015123024",
+            "step_number": "4+4 Platformlu With Platform",
+            "model": "Elevada",
+            "aisi": "304",
+            "price": "360 €",
+            "price_eur": 360.0
+          }
+        },
+        {
+          "code": "13017123002",
+          "price": "148 €",
+          "price_eur": 148.0,
+          "values": {
+            "code": "13017123002",
+            "ap_diameter": "42 mm",
+            "length": "1.300 mm",
+            "aisi": "304",
+            "price": "148 €",
+            "price_eur": 148.0
+          }
+        },
+        {
+          "code": "13017123001",
+          "price": "150 €",
+          "price_eur": 150.0,
+          "values": {
+            "code": "13017123001",
+            "ap_diameter": "42 mm",
+            "length": "0,5 mt",
+            "model": "051.TC.B",
+            "price": "150 €",
+            "price_eur": 150.0
+          }
+        },
+        {
+          "code": "13017123003",
+          "price": "160 €",
+          "price_eur": 160.0,
+          "values": {
+            "code": "13017123003",
+            "ap_diameter": "42 mm",
+            "length": "1 mt",
+            "model": "101.TC",
+            "price": "160 €",
+            "price_eur": 160.0
+          }
+        },
+        {
+          "code": "13017123004",
+          "price": "195 €",
+          "price_eur": 195.0,
+          "values": {
+            "code": "13017123004",
+            "ap_diameter": "42 mm",
+            "length": "2 mt",
+            "model": "201.TC",
+            "price": "195 €",
+            "price_eur": 195.0
+          }
+        },
+        {
+          "code": "13017123005",
+          "price": "210 €",
+          "price_eur": 210.0,
+          "values": {
+            "code": "13017123005",
+            "ap_diameter": "42 mm",
+            "length": "2,5 mt",
+            "model": "251.TC",
+            "price": "210 €",
+            "price_eur": 210.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "du-lar-showers",
+      "family_title_tr": "Duşlar Showers",
+      "family_title_en": "Duşlar Showers",
+      "family_description_tr": "Four images showing different shower fixtures: a curved shower head, a vertical shower body, a close-up of a shower nozzle, and a close-up of a shower body with a mounting bracket.",
+      "family_line_count": 191,
+      "qualitative": {
+        "bullets_tr": [
+          "Evsel ve ticari havuzlar için uygundur",
+          "AISI 304 paslanmaz çelikten üretilmiştir",
+          "Duş nozulu, duş gövdesi ve montaj elemanları ile birlikte",
+          "Suitable for villa type and commercial pools",
+          "Made of AISI 304 stainless steel",
+          "With shower nozzle, shower body and mounting elements",
+          "Solar duş seti, 20 ve 35 litrelik su haznesi ve dış mekâna uygun siyah-gümüş tasarımıyla verimli bir çözüm sunar",
+          "Büyük yağmur başlığı ideal yükseklikte konumlandırılmıştır",
+          "Kademesiz sıcaklık ayarı rahat sıcaklık kontrolü sağlar",
+          "Tek kollu musluk ve ayak yıkama musluğu kolay kullanım sunar",
+          "2 yıl garantilidir",
+          "The solar shower set offers an efficient solution with a 20 and 35-liter water tank and outdoor-friendly black-silver design",
+          "Large rain head positioned at optimal height",
+          "Stepless temperature control for easy adjustment",
+          "Single-lever faucet and foot-wash faucet for convenient use",
+          "2 years warranty",
+          "Fiziksel kısıtlamaları olan bireylere özel",
+          "El kumanda sistemli",
+          "Acil stop butonu",
+          "Akü şarj göstergesi",
+          "Fren mekanizması",
+          "Ayak ve kol desteği",
+          "Emniyet kemeri",
+          "150 kg taşıma kapasitesi",
+          "For projects which require a pool lift for individuals with limitations",
+          "Manual control system",
+          "Emergency stop button",
+          "Battery charge indicator",
+          "Brake mechanism",
+          "Foot and arm support",
+          "Safety belt",
+          "Capacity 150 kg",
+          "Cam elyaf takviyeli polyestörden üretilmiştir",
+          "Polyester basamaklı",
+          "AISI 304 paslanmaz çelik tutunma kolları",
+          "Paslanmaz çelikten mamul destek kaidesi ekipmanları ile birlikte",
+          "Sağa kıvrımlı",
+          "Made of glass fiber reinforced polyester",
+          "Polyester steps",
+          "AISI 304 stainless steel grab handles",
+          "With support base equipment made of stainless steel",
+          "Right curved",
+          "Cam elyaf takviyeli polyesterden üretilmiştir",
+          "Kaydırmaz üst yüzey",
+          "Uv ısınlara dayanıklı",
+          "Made of glass fiber reinforced polyester",
+          "Non-slip surface",
+          "UV resistant"
+        ],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {
+        "max_pressure_bar": 4.0
+      },
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_5946",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "ÜRÜN İSMİ PRODUCT NAME",
+            "ÖLÇÜ SIZE",
+            "BORU ÇAPI PIPE DIAMETER",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "13016113008",
+              "Baston Seri Baston Serie",
+              "AISI 304",
+              "Ø42",
+              "525 €"
+            ],
+            [
+              "13016113009",
+              "Baston Seri Ayak Yıkamalı Baston Baston Series Foot Washer",
+              "AISI 304",
+              "Ø42",
+              "575 €"
+            ],
+            [
+              "13016113002",
+              "Tetra Seri Tekli Tetra Serie Single",
+              "AISI 304",
+              "Ø60",
+              "--"
+            ],
+            [
+              "13016113003",
+              "Tetra Seri Tekli Ayak Yıkamalı Tetra Tetra Series Single Foot Washer",
+              "AISI 304",
+              "Ø60",
+              "--"
+            ],
+            [
+              "13016113006",
+              "Tetra Seri Çift Başlık Kripsol tetra Shower Double Kripsol",
+              "AISI 304 120x60 mm",
+              "Ø60",
+              "350 €"
+            ],
+            [
+              "13016113007",
+              "Tetra Seri Çiftli Ayak Yıkamalı Kripsol Tetra Foot Wash Double Kripsol",
+              "AISI 304 120x60 mm",
+              "Ø60",
+              "--"
+            ],
+            [
+              "13016113010",
+              "Tetra Seri Yedek Ankraj Tetra Shower Anchor",
+              "AISI 304",
+              "Ø60",
+              "55 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_6014",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "ÖLÇÜ SIZE",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "GAR2023100024",
+              "64x100 cm",
+              "130 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_6018",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "TANK KAPASİTESİ TANK CAPACITY",
+            "ÖLÇÜ SIZE",
+            "TANK CİNSİ TANK MATERIAL",
+            "BASINÇ MAX PRESSURE",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "GAR2023100082",
+              "20 LT",
+              "2160xdiax110mm",
+              "PVC",
+              "4.0 BAR",
+              "300 €"
+            ],
+            [
+              "GAR2023100081",
+              "35 LT",
+              "2170x220x180mm",
+              "PVC",
+              "4.0 BAR",
+              "350 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_6059",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "MODEL",
+            "HIZ MAX. VELOCITY MAX.",
+            "YÜKLÜ SUYA İNDİRME SÜRESİ LAUNCH TIME WITH LOAD",
+            "YÜKLÜ KALDIRMA SÜRESİ LOAD TIME",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "POLLIFT001",
+              "Pool Lift Sabit Fixed",
+              "0,07 m/sn.",
+              "max. 25 sn.",
+              "max. 30 sn.",
+              "4.500 €"
+            ],
+            [
+              "POLLIFT002",
+              "Pool Lift Mobil Mobile",
+              "0,07 m/sn.",
+              "max. 25 sn.",
+              "max. 30 sn.",
+              "5.500 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_6094",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "MODEL",
+            "AĞIRLIK WEIGHT",
+            "HACİM VOLUME",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "13018122004",
+              "TB 2000.B",
+              "54 kg",
+              "0,400 m³",
+              "1.890 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_6113",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "MODEL",
+            "UZUNLUK LENGHT",
+            "GENIŞLİK WIDTH",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "13018122001",
+              "WFT 200.B",
+              "2 mt",
+              "42 cm",
+              "490 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "794550914add450bc987d78e90c8fa9d_img.jpg",
+          "alt": "Four images showing different shower fixtures: a curved shower head, a vertical shower body, a close-up of a shower nozzle, and a close-up of a shower body with a mounting bracket.",
+          "caption": "",
+          "type": "performance_curve"
+        },
+        {
+          "file": "4d2c7647cae49121cf53f05ec9ce6dc8_img.jpg",
+          "alt": "Model: SOS3511 Solar Shower Unit",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "825313c3af70fd52eb352d7cd85a9c5a_img.jpg",
+          "alt": "Model: SOS2011 Solar Shower Unit",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "a52adf5edaaf32d82c7c2c57230599f9_img.jpg",
+          "alt": "Close-up of the single-lever faucet",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "5eb2cd291e868a00db48eb8dd6b27b3d_img.jpg",
+          "alt": "Close-up of the foot-wash faucet",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "59262eff8bd5f75ac1fd42e7cf039436_img.jpg",
+          "alt": "Close-up of the foot-wash faucet",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "bb7aa9a2925c42142293c3a16cfacb01_img.jpg",
+          "alt": "Suni Ahşap Taban Wooden Base",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "c0a519b871d2f9703b8ddd211711d637_img.jpg",
+          "alt": "A white pool lift chair is shown next to a swimming pool, with a person sitting in it.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "e5829cf7ce3e6886c69296f1b24c38a1_img.jpg",
+          "alt": "A white pool lift chair is shown in a swimming pool, with a person sitting in it.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "17ff348a3c12ce180cef36e0f6afe629_img.jpg",
+          "alt": "A yellow pool lift chair is shown next to a swimming pool, with a person sitting in it.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "da05f45637e95c99618f4b781f89e4fc_img.jpg",
+          "alt": "Water Fun logo",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "d08cde6370b52612e60dd2715f2c8cea_img.jpg",
+          "alt": "A blue pool slide is shown with dimensions. The slide is 1550 mm high, 400 mm wide at the top, and 600 mm wide at the bottom. The slide is 3000 mm long and 1800 mm high at the bottom.",
+          "caption": "",
+          "type": "dimensions"
+        },
+        {
+          "file": "815f368c8189ad8d6b34180ede9974fb_img.jpg",
+          "alt": "A blue and white diving board product image.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "5f8e4a141061d67beb81f34c60c76f45_img.jpg",
+          "alt": "A blue and white diving board installed in a swimming pool, surrounded by a lush green garden with trees and shrubs.",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "13016113008",
+          "price": "525 €",
+          "price_eur": 525.0,
+          "values": {
+            "code": "13016113008",
+            "product_name": "Baston Seri Baston Serie",
+            "size": "AISI 304",
+            "pipe_diameter": "Ø42",
+            "price": "525 €",
+            "price_eur": 525.0
+          }
+        },
+        {
+          "code": "13016113009",
+          "price": "575 €",
+          "price_eur": 575.0,
+          "values": {
+            "code": "13016113009",
+            "product_name": "Baston Seri Ayak Yıkamalı Baston Baston Series Foot Washer",
+            "size": "AISI 304",
+            "pipe_diameter": "Ø42",
+            "price": "575 €",
+            "price_eur": 575.0
+          }
+        },
+        {
+          "code": "13016113002",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "13016113002",
+            "product_name": "Tetra Seri Tekli Tetra Serie Single",
+            "size": "AISI 304",
+            "pipe_diameter": "Ø60",
+            "price": "--"
+          }
+        },
+        {
+          "code": "13016113003",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "13016113003",
+            "product_name": "Tetra Seri Tekli Ayak Yıkamalı Tetra Tetra Series Single Foot Washer",
+            "size": "AISI 304",
+            "pipe_diameter": "Ø60",
+            "price": "--"
+          }
+        },
+        {
+          "code": "13016113006",
+          "price": "350 €",
+          "price_eur": 350.0,
+          "values": {
+            "code": "13016113006",
+            "product_name": "Tetra Seri Çift Başlık Kripsol tetra Shower Double Kripsol",
+            "size": "AISI 304 120x60 mm",
+            "pipe_diameter": "Ø60",
+            "price": "350 €",
+            "price_eur": 350.0
+          }
+        },
+        {
+          "code": "13016113007",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "13016113007",
+            "product_name": "Tetra Seri Çiftli Ayak Yıkamalı Kripsol Tetra Foot Wash Double Kripsol",
+            "size": "AISI 304 120x60 mm",
+            "pipe_diameter": "Ø60",
+            "price": "--"
+          }
+        },
+        {
+          "code": "13016113010",
+          "price": "55 €",
+          "price_eur": 55.0,
+          "values": {
+            "code": "13016113010",
+            "product_name": "Tetra Seri Yedek Ankraj Tetra Shower Anchor",
+            "size": "AISI 304",
+            "pipe_diameter": "Ø60",
+            "price": "55 €",
+            "price_eur": 55.0
+          }
+        },
+        {
+          "code": "2023100024",
+          "price": "130 €",
+          "price_eur": 130.0,
+          "values": {
+            "code": "GAR2023100024",
+            "size": "64x100 cm",
+            "price": "130 €",
+            "price_eur": 130.0
+          }
+        },
+        {
+          "code": "2023100082",
+          "price": "300 €",
+          "price_eur": 300.0,
+          "values": {
+            "code": "GAR2023100082",
+            "tank_capacity": "20 LT",
+            "size": "2160xdiax110mm",
+            "tank_material": "PVC",
+            "max_pressure": "4.0 BAR",
+            "price": "300 €",
+            "price_eur": 300.0
+          }
+        },
+        {
+          "code": "2023100081",
+          "price": "350 €",
+          "price_eur": 350.0,
+          "values": {
+            "code": "GAR2023100081",
+            "tank_capacity": "35 LT",
+            "size": "2170x220x180mm",
+            "tank_material": "PVC",
+            "max_pressure": "4.0 BAR",
+            "price": "350 €",
+            "price_eur": 350.0
+          }
+        },
+        {
+          "code": "001",
+          "price": "4.500 €",
+          "price_eur": 4500.0,
+          "values": {
+            "code": "POLLIFT001",
+            "model": "Pool Lift Sabit Fixed",
+            "max_velocity": "0,07 m/sn.",
+            "launch_time_with_load": "max. 25 sn.",
+            "load_time": "max. 30 sn.",
+            "price": "4.500 €",
+            "price_eur": 4500.0
+          }
+        },
+        {
+          "code": "002",
+          "price": "5.500 €",
+          "price_eur": 5500.0,
+          "values": {
+            "code": "POLLIFT002",
+            "model": "Pool Lift Mobil Mobile",
+            "max_velocity": "0,07 m/sn.",
+            "launch_time_with_load": "max. 25 sn.",
+            "load_time": "max. 30 sn.",
+            "price": "5.500 €",
+            "price_eur": 5500.0
+          }
+        },
+        {
+          "code": "13018122004",
+          "price": "1.890 €",
+          "price_eur": 1890.0,
+          "values": {
+            "code": "13018122004",
+            "model": "TB 2000.B",
+            "weight": "54 kg",
+            "volume": "0,400 m³",
+            "price": "1.890 €",
+            "price_eur": 1890.0
+          }
+        },
+        {
+          "code": "13018122001",
+          "price": "490 €",
+          "price_eur": 490.0,
+          "values": {
+            "code": "13018122001",
+            "model": "WFT 200.B",
+            "length": "2 mt",
+            "width": "42 cm",
+            "price": "490 €",
+            "price_eur": 490.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "ta-ma-izgaralar-overflow-gratings",
+      "family_title_tr": "Taşma Izgaraları Overflow Gratings",
+      "family_title_en": "Taşma Izgaraları Overflow Gratings",
+      "family_description_tr": "Four images showing different types of overflow gratings: single spine classic pattern, double spine classic pattern, and single spine classic pattern with different colors.",
+      "family_line_count": 146,
+      "qualitative": {
+        "bullets_tr": [
+          "Polipropilen'den üretilmiştir",
+          "Kaydırmaz üst yüzeye sahip",
+          "Uv ışınlarına dayanımlı",
+          "Modüler tek geçme ve çift geçme özelliği",
+          "Izgara yüksekliği: 2,5 mm",
+          "I profil",
+          "Made of polypropylene",
+          "Non-slip surface",
+          "UV resistant",
+          "Modular single plug and double plug feature",
+          "Height of gratings: 2,5 mm",
+          "I profile",
+          "Polipropilen'den üretilmiştir",
+          "Kaydırmaz üst yüzey",
+          "UV ışınlarına dayanımlı",
+          "90 ve 45 derecelik açılarda",
+          "PVC'den üretilmiştir",
+          "Taşma ızgaralarının kolayca kanala yerleşmesini sağlar",
+          "ABS plastik enjeksiyondan üretilmiştir",
+          "Taşma kanallarının toplama hattında kullanılır",
+          "Güçlü ve sağlam gövde yapısına sahiptir",
+          "UV dayanımlıdır, güneşten etkilenmez",
+          "Produced from ABS plastic injection",
+          "Used in the collection line of overflow channels",
+          "Strong and robust body structure",
+          "UV resistance",
+          "ABS plastik enjeksiyondan üretilmiştir",
+          "Taşma kanallarının toplama hattında kullanılır",
+          "Güçlü ve sağlam gövde yapısına sahiptir",
+          "UV dayanımlıdır, güneşten etkilenmez",
+          "50, 63, 90 mm çaplarında kullanılabilir",
+          "Produced from ABS plastic injection",
+          "Used in the collection line of overflow channels",
+          "Strong and robust body structure",
+          "UV resistance",
+          "Can be used in diameters of 50, 63, 90 mm",
+          "AISI 304 paslanmaz çelik",
+          "Taşma kanallarının toplama hattında kullanılır",
+          "AISI 304 stainless steel",
+          "Used in the collection line of overflow channels"
+        ],
+        "bullets_en": [
+          "Made of polypropylene",
+          "Non-slip surface",
+          "UV resistant",
+          "90 and 45 degree angles",
+          "Made of PVC",
+          "Allows overflow grids to be easily placed in the channel"
+        ],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_6142",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "MODEL",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "13019002001",
+              "15 cm tek geçme-klasik desen 15 cm Single spine classic pattern",
+              "8.00 €"
+            ],
+            [
+              "13019121002",
+              "20 cm tek geçme-tek desen lüks seri profil 20 cm single spine classic pattern",
+              "8.80 €"
+            ],
+            [
+              "13019121011",
+              "20 cm çift geçme-tek desen lux seri wf 20 cm double spine classic pattern lux wf",
+              "9.80 €"
+            ],
+            [
+              "13019121026",
+              "25 cm tek geçme-tek desen lux seri wf 25 cm single spine classic pattern lux wf",
+              "10.50 €"
+            ],
+            [
+              "13019121027",
+              "25 cm çift geçme-tek desen lux seri wf 25 cm double spine classic pattern lux wf",
+              "11.50 €"
+            ],
+            [
+              "13019002006",
+              "30 cm çift geçme-klasik desen 30 cm double spine classic pattern",
+              "16.00 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_6155",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "MODEL",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "13019121033",
+              "20 cm tek geçme grift desen I profil Overflow grating grift single link 20 cm",
+              "13.80 €"
+            ],
+            [
+              "13019121008",
+              "25 cm tek geçme grift desen I profil Overflow grating grift single link 25 cm",
+              "15.90 €"
+            ],
+            [
+              "13019121009",
+              "30 cm tek geçme grift desen I profil Overflow grating grift single link 30 cm",
+              "21.00 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_6174",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "MODEL",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "13019121028",
+              "15cm-45° köşe parçası 15cm-45° Corner Piece",
+              "7.00 €"
+            ],
+            [
+              "13019002014",
+              "15cm-90° köşe parçası 15cm-90° Corner Piece",
+              "7.00 €"
+            ],
+            [
+              "13019002011",
+              "20cm-45° köşe parçası 20cm-45° Corner Piece",
+              "8.00 €"
+            ],
+            [
+              "13019121001",
+              "20cm-90° köşe parçası 20cm-90° Corner Piece",
+              "8.00 €"
+            ],
+            [
+              "13019002012",
+              "25cm-45° köşe parçası 25cm-45° Corner Piece",
+              "9.00 €"
+            ],
+            [
+              "13019121010",
+              "25cm-90° köşe parçası 25cm-90° Corner Piece",
+              "9.00 €"
+            ],
+            [
+              "13019002013",
+              "30cm-45° köşe parçası 30cm-45° Corner Piece",
+              "19.50 €"
+            ],
+            [
+              "13019002017",
+              "30cm-90° köşe parçası 30cm-90° Corner Piece",
+              "10.00 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_6196",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "KENAR ÖLÇÜLERİ EDGE SIZE",
+            "BOY LENGTH",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "13019121018",
+              "16x10 mm",
+              "2000 mm",
+              "2.20 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_6206",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "ÇAP DIA",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "13020123001",
+              "16x10 mm",
+              "6 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_6227",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "ÖLÇÜ SIZE",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "12518121003",
+              "100x200 mm",
+              "9.52 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_6257",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "ÇAP DIA",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "13020122001",
+              "63 mm",
+              "24 €"
+            ],
+            [
+              "13020122002",
+              "75 mm",
+              "25 €"
+            ],
+            [
+              "13020122003",
+              "90 mm",
+              "27 €"
+            ],
+            [
+              "13020122004",
+              "110 mm",
+              "28 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "02c391f8c83701a5cd4e95ac08931125_img.jpg",
+          "alt": "Four images showing different types of overflow gratings: single spine classic pattern, double spine classic pattern, and single spine classic pattern with different colors.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "910419aba9d6de7a6ebb1ebd0e913ab7_img.jpg",
+          "alt": "Image of a single spine classic pattern overflow grating.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "5cb838edef4b7049f58a1a128a96a561_img.jpg",
+          "alt": "Two white plastic grating corner parts: a 45-degree corner piece and a 90-degree corner piece, both featuring a textured non-slip surface and three vertical slots for grating attachment.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "68e20359c3d7792e29d1a59162ffbee2_img.jpg",
+          "alt": "A white plastic grating edge profile, shown as a channel with a textured top surface, designed to hold grating in place.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "d0fb35ebe641d0754d6776b064de4d74_img.jpg",
+          "alt": "Savak Gideri (Gutter Drain) product image",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "92935eb2737aae56b621301f1a2550d8_img.jpg",
+          "alt": "Savak Gideri Kapağı (Gutter Drain Cover) product image",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "53afab6d802e94fdd304aa6444aa4f10_img.jpg",
+          "alt": "A close-up image of a stainless steel overflow drainer, which is a spherical mesh structure with a central vertical support.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "9defcc9f995d8563bc13909a0fc76d6c_img.jpg",
+          "alt": "A large image showing a stainless steel overflow drainer installed in a swimming pool. The drainer is a circular mesh structure with a central vertical support, positioned at the edge of the pool. The pool water is clear and blue, and the surrounding area is paved with light-colored tiles.",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "13019002001",
+          "price": "8.00 €",
+          "price_eur": 8.0,
+          "values": {
+            "code": "13019002001",
+            "model": "15 cm tek geçme-klasik desen 15 cm Single spine classic pattern",
+            "price": "8.00 €",
+            "price_eur": 8.0
+          }
+        },
+        {
+          "code": "13019121002",
+          "price": "8.80 €",
+          "price_eur": 8.8,
+          "values": {
+            "code": "13019121002",
+            "model": "20 cm tek geçme-tek desen lüks seri profil 20 cm single spine classic pattern",
+            "price": "8.80 €",
+            "price_eur": 8.8
+          }
+        },
+        {
+          "code": "13019121011",
+          "price": "9.80 €",
+          "price_eur": 9.8,
+          "values": {
+            "code": "13019121011",
+            "model": "20 cm çift geçme-tek desen lux seri wf 20 cm double spine classic pattern lux wf",
+            "price": "9.80 €",
+            "price_eur": 9.8
+          }
+        },
+        {
+          "code": "13019121026",
+          "price": "10.50 €",
+          "price_eur": 10.5,
+          "values": {
+            "code": "13019121026",
+            "model": "25 cm tek geçme-tek desen lux seri wf 25 cm single spine classic pattern lux wf",
+            "price": "10.50 €",
+            "price_eur": 10.5
+          }
+        },
+        {
+          "code": "13019121027",
+          "price": "11.50 €",
+          "price_eur": 11.5,
+          "values": {
+            "code": "13019121027",
+            "model": "25 cm çift geçme-tek desen lux seri wf 25 cm double spine classic pattern lux wf",
+            "price": "11.50 €",
+            "price_eur": 11.5
+          }
+        },
+        {
+          "code": "13019002006",
+          "price": "16.00 €",
+          "price_eur": 16.0,
+          "values": {
+            "code": "13019002006",
+            "model": "30 cm çift geçme-klasik desen 30 cm double spine classic pattern",
+            "price": "16.00 €",
+            "price_eur": 16.0
+          }
+        },
+        {
+          "code": "13019121033",
+          "price": "13.80 €",
+          "price_eur": 13.8,
+          "values": {
+            "code": "13019121033",
+            "model": "20 cm tek geçme grift desen I profil Overflow grating grift single link 20 cm",
+            "price": "13.80 €",
+            "price_eur": 13.8
+          }
+        },
+        {
+          "code": "13019121008",
+          "price": "15.90 €",
+          "price_eur": 15.9,
+          "values": {
+            "code": "13019121008",
+            "model": "25 cm tek geçme grift desen I profil Overflow grating grift single link 25 cm",
+            "price": "15.90 €",
+            "price_eur": 15.9
+          }
+        },
+        {
+          "code": "13019121009",
+          "price": "21.00 €",
+          "price_eur": 21.0,
+          "values": {
+            "code": "13019121009",
+            "model": "30 cm tek geçme grift desen I profil Overflow grating grift single link 30 cm",
+            "price": "21.00 €",
+            "price_eur": 21.0
+          }
+        },
+        {
+          "code": "13019121028",
+          "price": "7.00 €",
+          "price_eur": 7.0,
+          "values": {
+            "code": "13019121028",
+            "model": "15cm-45° köşe parçası 15cm-45° Corner Piece",
+            "price": "7.00 €",
+            "price_eur": 7.0
+          }
+        },
+        {
+          "code": "13019002014",
+          "price": "7.00 €",
+          "price_eur": 7.0,
+          "values": {
+            "code": "13019002014",
+            "model": "15cm-90° köşe parçası 15cm-90° Corner Piece",
+            "price": "7.00 €",
+            "price_eur": 7.0
+          }
+        },
+        {
+          "code": "13019002011",
+          "price": "8.00 €",
+          "price_eur": 8.0,
+          "values": {
+            "code": "13019002011",
+            "model": "20cm-45° köşe parçası 20cm-45° Corner Piece",
+            "price": "8.00 €",
+            "price_eur": 8.0
+          }
+        },
+        {
+          "code": "13019121001",
+          "price": "8.00 €",
+          "price_eur": 8.0,
+          "values": {
+            "code": "13019121001",
+            "model": "20cm-90° köşe parçası 20cm-90° Corner Piece",
+            "price": "8.00 €",
+            "price_eur": 8.0
+          }
+        },
+        {
+          "code": "13019002012",
+          "price": "9.00 €",
+          "price_eur": 9.0,
+          "values": {
+            "code": "13019002012",
+            "model": "25cm-45° köşe parçası 25cm-45° Corner Piece",
+            "price": "9.00 €",
+            "price_eur": 9.0
+          }
+        },
+        {
+          "code": "13019121010",
+          "price": "9.00 €",
+          "price_eur": 9.0,
+          "values": {
+            "code": "13019121010",
+            "model": "25cm-90° köşe parçası 25cm-90° Corner Piece",
+            "price": "9.00 €",
+            "price_eur": 9.0
+          }
+        },
+        {
+          "code": "13019002013",
+          "price": "19.50 €",
+          "price_eur": 19.5,
+          "values": {
+            "code": "13019002013",
+            "model": "30cm-45° köşe parçası 30cm-45° Corner Piece",
+            "price": "19.50 €",
+            "price_eur": 19.5
+          }
+        },
+        {
+          "code": "13019002017",
+          "price": "10.00 €",
+          "price_eur": 10.0,
+          "values": {
+            "code": "13019002017",
+            "model": "30cm-90° köşe parçası 30cm-90° Corner Piece",
+            "price": "10.00 €",
+            "price_eur": 10.0
+          }
+        },
+        {
+          "code": "13019121018",
+          "price": "2.20 €",
+          "price_eur": 2.2,
+          "values": {
+            "code": "13019121018",
+            "edge_size": "16x10 mm",
+            "length": "2000 mm",
+            "price": "2.20 €",
+            "price_eur": 2.2
+          }
+        },
+        {
+          "code": "13020123001",
+          "price": "6 €",
+          "price_eur": 6.0,
+          "values": {
+            "code": "13020123001",
+            "ap_dia": "16x10 mm",
+            "price": "6 €",
+            "price_eur": 6.0
+          }
+        },
+        {
+          "code": "12518121003",
+          "price": "9.52 €",
+          "price_eur": 9.52,
+          "values": {
+            "code": "12518121003",
+            "size": "100x200 mm",
+            "price": "9.52 €",
+            "price_eur": 9.52
+          }
+        },
+        {
+          "code": "13020122001",
+          "price": "24 €",
+          "price_eur": 24.0,
+          "values": {
+            "code": "13020122001",
+            "ap_dia": "63 mm",
+            "price": "24 €",
+            "price_eur": 24.0
+          }
+        },
+        {
+          "code": "13020122002",
+          "price": "25 €",
+          "price_eur": 25.0,
+          "values": {
+            "code": "13020122002",
+            "ap_dia": "75 mm",
+            "price": "25 €",
+            "price_eur": 25.0
+          }
+        },
+        {
+          "code": "13020122003",
+          "price": "27 €",
+          "price_eur": 27.0,
+          "values": {
+            "code": "13020122003",
+            "ap_dia": "90 mm",
+            "price": "27 €",
+            "price_eur": 27.0
+          }
+        },
+        {
+          "code": "13020122004",
+          "price": "28 €",
+          "price_eur": 28.0,
+          "values": {
+            "code": "13020122004",
+            "ap_dia": "110 mm",
+            "price": "28 €",
+            "price_eur": 28.0
+          }
+        },
+        {
+          "code": "14015123001",
+          "price": "29 €",
+          "price_eur": 29.0,
+          "values": {
+            "code": "14015123001",
+            "model": "Flat 38.C",
+            "width": "36",
+            "connection": "1 ½\"",
+            "price": "29 €",
+            "price_eur": 29.0
+          }
+        },
+        {
+          "code": "14015123002",
+          "price": "32 €",
+          "price_eur": 32.0,
+          "values": {
+            "code": "14015123002",
+            "model": "Flat 50.C",
+            "width": "46",
+            "connection": "1 ½\"",
+            "price": "32 €",
+            "price_eur": 32.0
+          }
+        },
+        {
+          "code": "14015123003",
+          "price": "39 €",
+          "price_eur": 39.0,
+          "values": {
+            "code": "14015123003",
+            "model": "Flat 50.C",
+            "width": "46",
+            "connection": "2\"",
+            "price": "39 €",
+            "price_eur": 39.0
+          }
+        },
+        {
+          "code": "14015123006",
+          "price": "18 €",
+          "price_eur": 18.0,
+          "values": {
+            "code": "14015123006",
+            "model": "WF 82S",
+            "connection": "1 ½\"",
+            "price": "18 €",
+            "price_eur": 18.0
+          }
+        },
+        {
+          "code": "14015123007",
+          "price": "18 €",
+          "price_eur": 18.0,
+          "values": {
+            "code": "14015123007",
+            "model": "WF 32S",
+            "connection": "1 ½\"",
+            "price": "18 €",
+            "price_eur": 18.0
+          }
+        },
+        {
+          "code": "14015123008",
+          "price": "18 €",
+          "price_eur": 18.0,
+          "values": {
+            "code": "14015123008",
+            "model": "WF 25S",
+            "connection": "1 ½\"",
+            "price": "18 €",
+            "price_eur": 18.0
+          }
+        },
+        {
+          "code": "14017123001",
+          "price": "34 €",
+          "price_eur": 34.0,
+          "values": {
+            "code": "14017123001",
+            "length": "2x2.4 4,80 mt",
+            "price": "34 €",
+            "price_eur": 34.0
+          }
+        },
+        {
+          "code": "14017123004",
+          "price": "36 €",
+          "price_eur": 36.0,
+          "values": {
+            "code": "14017123004",
+            "length": "2x3 6 mt",
+            "price": "36 €",
+            "price_eur": 36.0
+          }
+        },
+        {
+          "code": "14017123003",
+          "price": "59 €",
+          "price_eur": 59.0,
+          "values": {
+            "code": "14017123003",
+            "length": "3x3 9 mt",
+            "price": "59 €",
+            "price_eur": 59.0
+          }
+        },
+        {
+          "code": "14017123010",
+          "price": "32 €",
+          "price_eur": 32.0,
+          "values": {
+            "code": "14017123010",
+            "length": "2x1,8 3,6 mt",
+            "price": "32 €",
+            "price_eur": 32.0
+          }
+        },
+        {
+          "code": "14018113001",
+          "price": "3.89 €",
+          "price_eur": 3.89,
+          "values": {
+            "code": "14018113001",
+            "product_name": "Roma Model",
+            "hose_dia": "38 mm - 1/2\"",
+            "length": "30 mt",
+            "price": "3.89 €",
+            "price_eur": 3.89
+          }
+        },
+        {
+          "code": "14018113002",
+          "price": "4.70 €",
+          "price_eur": 4.7,
+          "values": {
+            "code": "14018113002",
+            "product_name": "Roma Model",
+            "hose_dia": "50 mm - 2\"",
+            "length": "30 mt",
+            "price": "4.70 €",
+            "price_eur": 4.7
+          }
+        },
+        {
+          "code": "14018123002",
+          "price": "30 €",
+          "price_eur": 30.0,
+          "values": {
+            "code": "14018123002",
+            "hose_dia": "38 mm - ½\"",
+            "length": "10,5 mt",
+            "price": "30 €",
+            "price_eur": 30.0
+          }
+        },
+        {
+          "code": "14018123001",
+          "price": "82.2 €",
+          "price_eur": 82.2,
+          "values": {
+            "code": "14018123001",
+            "hose_dia": "38 mm - ½\"",
+            "length": "30 mt",
+            "price": "82.2 €",
+            "price_eur": 82.2
+          }
+        },
+        {
+          "code": "19815122003",
+          "price": "4.50 €",
+          "price_eur": 4.5,
+          "values": {
+            "code": "19815122003",
+            "model": "50-63 Dişli 50-63 Threaded",
+            "price": "4.50 €",
+            "price_eur": 4.5
+          }
+        },
+        {
+          "code": "19815123011",
+          "price": "1,5 €",
+          "price_eur": 1.5,
+          "values": {
+            "code": "19815123011",
+            "model": "50-63 Dişli 50-63 Threaded",
+            "price": "1,5 €",
+            "price_eur": 1.5
+          }
+        },
+        {
+          "code": "14015122004",
+          "price": "1.199 €",
+          "price_eur": 1199.0,
+          "values": {
+            "code": "14015122004",
+            "filter": "Kartuş Filtre KF 100 Cartridge Filter KF 100",
+            "filtration_flow": "22,9 m 3 /h",
+            "pump": "Senkron 0,75 Hp",
+            "pump_flow": "17,8 m 3 /h",
+            "price": "1.199 €",
+            "price_eur": 1199.0
+          }
+        },
+        {
+          "code": "14015122006",
+          "price": "1.465 €",
+          "price_eur": 1465.0,
+          "values": {
+            "code": "14015122006",
+            "filter": "Rotex 600 mm",
+            "filtration_flow": "12 m 3 /h",
+            "pump": "Senkron 0,75 Hp",
+            "pump_flow": "17,8 m 3 /h",
+            "price": "1.465 €",
+            "price_eur": 1465.0
+          }
+        }
+      ]
+    }
+  ]
+}

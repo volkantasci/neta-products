@@ -1,0 +1,228 @@
+{
+  "category_no": "16",
+  "category_tr": "Su Yalıtım Membranı",
+  "category_en": "Waterproofing Membrane",
+  "family_count": 1,
+  "variant_count": 8,
+  "families": [
+    {
+      "family_product_id": "almera",
+      "family_title_tr": "Almera",
+      "family_title_en": "Almera",
+      "family_description_tr": "3D architectural rendering of a modern house with a green roof and a swimming pool, illustrating the application of Almera Tex 230 insulation.",
+      "family_line_count": 30,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_17569",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "ÜRÜN ADI PRODUCT NAME",
+            "BİRİM UNIT",
+            "ÖLÇÜLER DIMENSIONS",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "69015341001",
+              "Almera tex 230",
+              "m 2",
+              "150cmx50m",
+              "10,60 €"
+            ],
+            [
+              "69015341006",
+              "Almera tex dış köşe manşeti Outer corner conduit",
+              "ADET PCS",
+              "62,5mmx125m",
+              "4,00 €"
+            ],
+            [
+              "69015341005",
+              "Almera tex iç köşe manşeti Inner corner conduit",
+              "ADET PCS",
+              "62,5mmx125m",
+              "4,00 €"
+            ],
+            [
+              "69015341004",
+              "Almera tape 75 yapışkanlı ek yeri kapama bandı Sticker tape",
+              "MTUL",
+              "75mmx25m",
+              "5,30 €"
+            ],
+            [
+              "69015341002",
+              "Almera cord 125 tekstil pah bandı Join membrane",
+              "MTUL",
+              "125mmx50m",
+              "5,70 €"
+            ],
+            [
+              "69015341010",
+              "İzolasyon yapıştırıcı Almeralastic Insulation Adhesive Almeralastic",
+              "ADET PCS",
+              "15 Kg",
+              "7,70 €"
+            ],
+            [
+              "69015341007",
+              "Almera tex havuz boru geçiş Pool pipe conduit dn50",
+              "ADET PCS",
+              "DN50x127mm",
+              "5,90 €"
+            ],
+            [
+              "69015341008",
+              "Almera fix tekstil tesisat boru geçiş manşeti Pipe conduit 1 ½\"-1\"",
+              "ADET PCS",
+              "½\" -1\"",
+              "4,70 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "d787a54c27a7fb91e4379e392cf0b4de_img.jpg",
+          "alt": "3D architectural rendering of a modern house with a green roof and a swimming pool, illustrating the application of Almera Tex 230 insulation.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "c6e0c326e5be5bca3b6c046a735c78db_img.jpg",
+          "alt": "Photograph of a green roof covered with Almera Tex 230 insulation, showing the material's texture and color.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "cdc9404835ef817a2a3370778572b285_img.jpg",
+          "alt": "Photograph of an indoor swimming pool with a green roof, demonstrating the use of Almera Tex 230 insulation in a pool area.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "9bd56202b6a7831e950bb575fc8c410b_img.jpg",
+          "alt": "Product display showing various Almera Tex 230 insulation products: a large roll of green insulation (1.5m x 50m), a roll of ALMERA TEX 75, a roll of ALMERA CORD 125, a green circular pipe conduit (BORU MANŞETİ), a green outer corner conduit (DIŞ KÖŞE MANŞETİ), and a green inner corner conduit (İÇ KÖŞE MANŞETİ).",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "69015341001",
+          "price": "10,60 €",
+          "price_eur": 10.6,
+          "values": {
+            "code": "69015341001",
+            "product_name": "Almera tex 230",
+            "unit": "m 2",
+            "dimensions": "150cmx50m",
+            "price": "10,60 €",
+            "price_eur": 10.6
+          }
+        },
+        {
+          "code": "69015341006",
+          "price": "4,00 €",
+          "price_eur": 4.0,
+          "values": {
+            "code": "69015341006",
+            "product_name": "Almera tex dış köşe manşeti Outer corner conduit",
+            "unit": "ADET PCS",
+            "dimensions": "62,5mmx125m",
+            "price": "4,00 €",
+            "price_eur": 4.0
+          }
+        },
+        {
+          "code": "69015341005",
+          "price": "4,00 €",
+          "price_eur": 4.0,
+          "values": {
+            "code": "69015341005",
+            "product_name": "Almera tex iç köşe manşeti Inner corner conduit",
+            "unit": "ADET PCS",
+            "dimensions": "62,5mmx125m",
+            "price": "4,00 €",
+            "price_eur": 4.0
+          }
+        },
+        {
+          "code": "69015341004",
+          "price": "5,30 €",
+          "price_eur": 5.3,
+          "values": {
+            "code": "69015341004",
+            "product_name": "Almera tape 75 yapışkanlı ek yeri kapama bandı Sticker tape",
+            "unit": "MTUL",
+            "dimensions": "75mmx25m",
+            "price": "5,30 €",
+            "price_eur": 5.3
+          }
+        },
+        {
+          "code": "69015341002",
+          "price": "5,70 €",
+          "price_eur": 5.7,
+          "values": {
+            "code": "69015341002",
+            "product_name": "Almera cord 125 tekstil pah bandı Join membrane",
+            "unit": "MTUL",
+            "dimensions": "125mmx50m",
+            "price": "5,70 €",
+            "price_eur": 5.7
+          }
+        },
+        {
+          "code": "69015341010",
+          "price": "7,70 €",
+          "price_eur": 7.7,
+          "values": {
+            "code": "69015341010",
+            "product_name": "İzolasyon yapıştırıcı Almeralastic Insulation Adhesive Almeralastic",
+            "unit": "ADET PCS",
+            "dimensions": "15 Kg",
+            "price": "7,70 €",
+            "price_eur": 7.7
+          }
+        },
+        {
+          "code": "69015341007",
+          "price": "5,90 €",
+          "price_eur": 5.9,
+          "values": {
+            "code": "69015341007",
+            "product_name": "Almera tex havuz boru geçiş Pool pipe conduit dn50",
+            "unit": "ADET PCS",
+            "dimensions": "DN50x127mm",
+            "price": "5,90 €",
+            "price_eur": 5.9
+          }
+        },
+        {
+          "code": "69015341008",
+          "price": "4,70 €",
+          "price_eur": 4.7,
+          "values": {
+            "code": "69015341008",
+            "product_name": "Almera fix tekstil tesisat boru geçiş manşeti Pipe conduit 1 ½\"-1\"",
+            "unit": "ADET PCS",
+            "dimensions": "½\" -1\"",
+            "price": "4,70 €",
+            "price_eur": 4.7
+          }
+        }
+      ]
+    }
+  ]
+}

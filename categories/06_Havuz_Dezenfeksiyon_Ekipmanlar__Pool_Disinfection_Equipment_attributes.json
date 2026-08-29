@@ -1,0 +1,5405 @@
+{
+  "category_no": "06",
+  "category_tr": "Havuz Dezenfeksiyon Ekipmanları",
+  "category_en": "Pool Disinfection Equipment",
+  "family_count": 47,
+  "variant_count": 147,
+  "families": [
+    {
+      "family_product_id": "wifi-i-le-hi-jyen-wi-fi-hygiene",
+      "family_title_tr": "WIFI İLE HİJYEN WI-FI HYGIENE",
+      "family_title_en": "WIFI İLE HİJYEN WI-FI HYGIENE",
+      "family_description_tr": "85 m<sup>3</sup> havuz kapasitesine kadar yüksek verimle çalışan akıllı tuz klor jeneratörüdür. Wi-Fi kontrol ve BOOST modu sayesinde kullanıcıya hız, güvenlik ve tam hijyen sağlar.",
+      "family_line_count": 95,
+      "qualitative": {
+        "bullets_tr": [
+          "85 m<sup>3</sup> havuzlara kadar uygundur",
+          "IP 54 su geçirmezlik sınıfı",
+          "Online hat üstü kolay kurulum",
+          "Kompakt tasarımı sayesinde dar alanlara montaj imkanı",
+          "Wifi ile kumanda",
+          "Tuz az ikazı",
+          "Akış kontrol devresi",
+          "Dona karşı düşük sıcaklık ikazı",
+          "BOOST modu ile ilk devreye almada zaman kazanma",
+          "Available for up to 85 m<sup>3</sup> swimming pools",
+          "IP 54 waterproof",
+          "Easy to install on pipeline",
+          "Can be applied to narrow spaces thanks to its compact design",
+          "Possibility of remote control thanks to wi-fi application",
+          "Low salt indicator",
+          "Flow switch",
+          "Low temperature warning against frost",
+          "Save time on first startup with BOOST MODE"
+        ],
+        "bullets_en": [],
+        "icons": [
+          "*RESIDENTAL POOL*"
+        ],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_8287",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "MODEL",
+            "KLOR ÜRETİMİ CHLORINE",
+            "HAVUZ HACMİ POOL VOLUME",
+            "AKIM RATED CURRENT",
+            "GERİLİM RATED VOLTAGE",
+            "TUZ SEVİYESİ SALT LEVEL",
+            "SU SERTLİĞİ WATER HARDNESS",
+            "SU SICAKLIĞI WATER TEMP.",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "-",
+              "CLOMAX 4",
+              "4 gr/hr",
+              "18 m 3",
+              "1.5A",
+              "100-240V~50/60Hz",
+              "2700~4500PPM",
+              "≤200mg/L",
+              "10~45°C",
+              "-"
+            ],
+            [
+              "-",
+              "CLOMAX 8",
+              "8 gr/hr",
+              "35 m 3",
+              "2.5A",
+              "100-240V~50/60Hz",
+              "2700~4500PPM",
+              "≤200mg/L",
+              "10~45°C",
+              "-"
+            ],
+            [
+              "-",
+              "CLOMAX 12",
+              "12 gr/hr",
+              "50 m 3",
+              "2.5A",
+              "100-240V~50/60Hz",
+              "2700~4500PPM",
+              "≤200mg/L",
+              "10~45°C",
+              "-"
+            ],
+            [
+              "-",
+              "CLOMAX 16",
+              "16 gr/hr",
+              "68 m 3",
+              "2.5A",
+              "100-240V~50/60Hz",
+              "2700~4500PPM",
+              "≤200mg/L",
+              "10~45°C",
+              "-"
+            ],
+            [
+              "15521113072",
+              "CLOMAX 200",
+              "20 gr/hr",
+              "85 m 3",
+              "2.5A",
+              "100-240V~50/60Hz",
+              "2700~4500PPM",
+              "≤200mg/L",
+              "10~45°C",
+              "799 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "0366644f14ff6cddb418de5f9fe1b406_img.jpg",
+          "alt": "Clomax 200 Salt Chlorinator unit with power adapter and Type F plug.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "6ac2376cc6d09da005be3798a546293f_img.jpg",
+          "alt": "NETA HAVUZ PRODUCT logo.",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "0b50c2f1f4ca20ff852e30d593a51862_img.jpg",
+          "alt": "CE mark.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "cc068592a561fad92de5c0d255df7c14_img.jpg",
+          "alt": "Installation diagram showing the connection of the Salt Chlorinator to the Pool, Pump, and Filter. It also shows the connection to a 220VAC power source and a Pool Timer or Controls via an Adapter.",
+          "caption": "",
+          "type": "diagram"
+        },
+        {
+          "file": "a0c11af55330dea8940a91fd5ab0a2c2_img.jpg",
+          "alt": "QR code for user manual.",
+          "caption": "",
+          "type": "qr"
+        },
+        {
+          "file": "6cf004b14a41e1bc7ca8cfb590e7a3ae_img.jpg",
+          "alt": "QR code for WiFi installation.",
+          "caption": "",
+          "type": "qr"
+        },
+        {
+          "file": "00c11cea0a7fdf1313e7cf3a741ed879_img.jpg",
+          "alt": "TUYA APP logo.",
+          "caption": "",
+          "type": "icon"
+        }
+      ],
+      "variants": [
+        {
+          "code": "15521113072",
+          "price": "799 €",
+          "price_eur": 799.0,
+          "values": {
+            "code": "15521113072",
+            "model": "CLOMAX 200",
+            "chlorine": "20 gr/hr",
+            "pool_volume": "85 m 3",
+            "rated_current": "2.5A",
+            "rated_voltage": "100-240V~50/60Hz",
+            "salt_level": "2700~4500PPM",
+            "water_hardness": "≤200mg/L",
+            "water_temp": "10~45°C",
+            "price": "799 €",
+            "price_eur": 799.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "6-si-bi-r-arada-6-in-one",
+      "family_title_tr": "6'SI BİR ARADA 6 IN ONE",
+      "family_title_en": "6'SI BİR ARADA 6 IN ONE",
+      "family_description_tr": "Pompa Aç-Kapak İçin Kuru Kontak",
+      "family_line_count": 111,
+      "qualitative": {
+        "bullets_tr": [
+          "Tuz seviyelerine otomatik uyum sağlar ve akıllı hatırlatmalar yapar",
+          "Tuz seviyesini kolay izleme için görüntüler",
+          "Optimum performansı sağlamak için su akışını izler",
+          "Boost fonksiyonu, gerektiğinde klorun üretimini hızla artırır",
+          "Farklı havuz koşulları ve ihtiyaçları için çeşitli modlar sunar",
+          "Havuz pompasının entegrasyonunu ve kontrolünü sağlar",
+          "Küresel kullanım için çoklu dil desteği sunar",
+          "Ters kutup teknolojisi ile kalsiyum birikimini önler",
+          "Güç kesintilerinde ayarları ve verileri korur",
+          "Yazılım geliştirmeleri için kablosuz güncelleme desteği",
+          "Uzun vadeli doğruluk için kolay kalibrasyon sağlar",
+          "Dahili topraklama elektrodu ile güvenliği sağlar",
+          "The system continuously monitors water quality in real-time",
+          "Efficient chlorination with adjustable frequency for optimized performance",
+          "Control and monitor the system remotely via a dedicated mobile app",
+          "Automatically adjusts to salinity levels and provides intelligent reminders",
+          "Displays current salt levels for easy monitoring",
+          "Monitors water flow to ensure optimal performance",
+          "Boost function rapidly increases chlorine production when needed",
+          "Offers various modes for different pool conditions and needs",
+          "Allows integration and control of the pool pump",
+          "Supports multiple languages for global usability",
+          "Prevents calcium buildup with pole inversion technology",
+          "Retains settings and data during power interruptions",
+          "Supports over-the-air updates for firmware enhancements",
+          "Ensures safety with a built-in grounding electrode"
+        ],
+        "bullets_en": [],
+        "icons": [
+          "RESIDENTIAL POOL"
+        ],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_8407",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "MODEL",
+            "KLOR ÜRETİMİ CHLORINE",
+            "GÜÇ GİRİŞİ POWER INPUT",
+            "GÜÇ ÇIKIŞI POWER OUTPUT",
+            "TUZ ARALIĞI SALINITY RANGE",
+            "PH VALFİ PH VALVE",
+            "ORP SEVİYESİ ORP LEVEL",
+            "HAVUZ HACMİ POOL VOLUME",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "15521113080",
+              "CLOMAX 500",
+              "20 gr/hr",
+              "AC100-240V~50/60Hz",
+              "DC24V",
+              "2700-4500PPM",
+              "2700~4500PPM",
+              "400-800",
+              "≤90 m³",
+              "2.200 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "fd06a4297970b24b678429af1e4616de_img.jpg",
+          "alt": "Clomax 500 Salt Chlorinator unit",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "e3273c8e00fdb343b0485ed6b3cf1f5a_img.jpg",
+          "alt": "NETA HAVUZ PRODUCT logo",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "98ffe01b78a2b1ecf7e21ad471295ad8_img.jpg",
+          "alt": "TUYA APP logo",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "2c577ee1faf5ad080f4d4f21eca7b60a_img.jpg",
+          "alt": "App Store and Google Play logos",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "e0381aa1011aadfd6677f92334a32cc9_img.jpg",
+          "alt": "Three circular icons representing features: a shield with a water drop, a gear, and a person with a checkmark.",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "38c1aef67abedf55c713d8c6ed79a1a1_img.jpg",
+          "alt": "System diagram showing the integration of the Salt Chlorinator with a pool pump, filter, and acid dosing system.",
+          "caption": "",
+          "type": "diagram"
+        },
+        {
+          "file": "7bf80a686f896a53b3ce76fa2b0df07e_img.jpg",
+          "alt": "QR code linking to the user manual",
+          "caption": "",
+          "type": "qr"
+        }
+      ],
+      "variants": [
+        {
+          "code": "15521113080",
+          "price": "2.200 €",
+          "price_eur": 2200.0,
+          "values": {
+            "code": "15521113080",
+            "model": "CLOMAX 500",
+            "chlorine": "20 gr/hr",
+            "power_input": "AC100-240V~50/60Hz",
+            "power_output": "DC24V",
+            "salinity_range": "2700-4500PPM",
+            "ph_valve": "2700~4500PPM",
+            "orp_level": "400-800",
+            "pool_volume": "≤90 m³",
+            "price": "2.200 €",
+            "price_eur": 2200.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "mini-dev-mighty-mini",
+      "family_title_tr": "MINİ DEV MIGHTY MINI",
+      "family_title_en": "MINİ DEV MIGHTY MINI",
+      "family_description_tr": "90.000 litreye kadar havuzlarda verimli dezenfeksiyon sağlar. Titanyum hücreleri ve ters polarite teknolojisiyle dayanıklı ve kolay kullanımıdır.",
+      "family_line_count": 48,
+      "qualitative": {
+        "bullets_tr": [
+          "90.000 litreye kadar olan konut havuzları için tasarlanmıştır",
+          "Birkaç düğmeyle kolay işlemler",
+          "Mevcut tesisatlar için minimum boru modifikasyonları",
+          "Dayanıklı, uzun hücre ömrü ve ekonomik yedek parçalar mevcut",
+          "İyi performans, kimyasalların daha az kullanılması ve daha kaliteli su",
+          "Magnezyum tuzlu havuzlar için mükemmel uygunluk",
+          "Uygun fiyatlı yedek parçalar mevcut",
+          "Maksimum 20 gr / saat klor üretimi için titanyum plakalar",
+          "Kendi kendini temizleyen ters polarite, su akış sensörü ve sıcaklık sensörü",
+          "İki farklı bağlantıya sahip yarı saydam kasa: 1,5\" / 50 mm veya 2\" / 63 mm",
+          "Engineered for the residential pools up to 90,000 liters",
+          "Easy operations with few buttons",
+          "Minimum piping modifications for existing installations",
+          "Durable, long cell lifetime and economic spare parts available",
+          "Good performance, less handling of chemicals and better quality of water",
+          "Perfect suited for magnesium salted pools",
+          "Affordable spare parts available",
+          "Titanium plates for a maximum chlorine production of 20 gram/h",
+          "Self-cleaning reverse polarity, water flow sensor and temperature sensor",
+          "Translucent casing with two different connections: 1.5\" / 50 mm or 2\" / 63 mm"
+        ],
+        "bullets_en": [],
+        "icons": [
+          "RESIDENTIAL POOL",
+          "TITANIUM CELLS"
+        ],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [],
+      "images": [
+        {
+          "file": "5bde86a6611e71847cd94ca86cda8a1f_img.jpg",
+          "alt": "SSC Mini Salt Chlorinator unit and its components, including a control panel and a flow sensor.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "ce1c0df8ecf1a21d4cdb9233b32af543_img.jpg",
+          "alt": "Three circular icons: a lightbulb with 'MAX. 2 BAR', a gear, and a person's head.",
+          "caption": "",
+          "type": "icon"
+        }
+      ],
+      "variants": [
+        {
+          "code": "15521123007",
+          "price": "1.199 €",
+          "price_eur": 1199.0,
+          "values": {
+            "code": "15521123007",
+            "chlorine": "20 gr/hr",
+            "pool_volume": "90.000 Liters",
+            "voltage_frequency": "200-240v / 50-60 Hz",
+            "price": "1.199 €",
+            "price_eur": 1199.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "deni-z-dayanimi-sea-resistant",
+      "family_title_tr": "DENİZ DAYANIMI SEA RESISTANT",
+      "family_title_en": "DENİZ DAYANIMI SEA RESISTANT",
+      "family_description_tr": "Clomax 600, titanyum hücreleri ve ters polarite özelliğiyle uzun ömürlü dezenfeksiyon sağlar. Deniz suyunda kullanıma uygun yapısıyla dayanıklı ve güvenlidir.",
+      "family_line_count": 50,
+      "qualitative": {
+        "bullets_tr": [
+          "Kendi kendini temizleyen ters polarize özelliği",
+          "Kalite titanyum hücre",
+          "Işıklı uyarı sinyalizasyonu",
+          "Deniz suyunda kullanıma uygundur",
+          "Self-cleaning reverse polarizer feature",
+          "Quality titanium cells",
+          "Luminous warning signalization",
+          "Suitable for use in sea water"
+        ],
+        "bullets_en": [],
+        "icons": [
+          "RESIDENTIAL POOL",
+          "COMMERCIAL POOL",
+          "TITANIUM CELLS"
+        ],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [],
+      "images": [
+        {
+          "file": "7a6b0c20cb2259e9210ff2b927f4159d_img.jpg",
+          "alt": "Titanium Cell Logo",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "4bf1443fa6f8085bad64bcd1e9dd2478_img.jpg",
+          "alt": "Clomax 600 Salt Chlorinator Unit",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "85b4e4eafb7d71fbf621097515942e50_img.jpg",
+          "alt": "MAX. 2 BAR Logo",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "ed46085d308c03c768ff3f6dd1b8d794_img.jpg",
+          "alt": "Gears Logo",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "3e99891ab2bcf4caa17ee3a446fc6cd5_img.jpg",
+          "alt": "Smiley Face Logo",
+          "caption": "",
+          "type": "icon"
+        }
+      ],
+      "variants": [
+        {
+          "code": "19818123005",
+          "price": "950 €",
+          "price_eur": 950.0,
+          "values": {
+            "code": "19818123005",
+            "model": "45 Gr / H",
+            "price": "950 €",
+            "price_eur": 950.0
+          }
+        },
+        {
+          "code": "19818123022",
+          "price": "60 €",
+          "price_eur": 60.0,
+          "values": {
+            "code": "19818123022",
+            "model": "45 Gr / H",
+            "price": "60 €",
+            "price_eur": 60.0
+          }
+        },
+        {
+          "code": "15521113084",
+          "price": "1.490 €",
+          "price_eur": 1490.0,
+          "values": {
+            "code": "15521113084",
+            "chlorine": "45 Gr / H",
+            "pool_volume": "170 m³",
+            "voltage_frequency": "220V-240V / 50.60 Hz 300W",
+            "price": "1.490 €",
+            "price_eur": 1490.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "automation",
+      "family_title_tr": "Automation",
+      "family_title_en": "Automation",
+      "family_description_tr": "",
+      "family_line_count": 12,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_8645",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "MODEL",
+            "KLOR ÜRETİMİ CHLORINE",
+            "HAVUZ HACMİ POOL VOLUME",
+            "VOLTAJ VOLTAGE",
+            "TUZ SEVİYESİ SALT LEVEL",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "15521273024",
+              "G12",
+              "12 gr / hr",
+              "50 m 3",
+              "110-220 V",
+              "1.500-7.000PPM",
+              "--"
+            ],
+            [
+              "15521273025",
+              "G18",
+              "14 gr / hr",
+              "60 m 3",
+              "110-220 V",
+              "1.500-7.000PPM",
+              "3.220 €"
+            ],
+            [
+              "15521273026",
+              "G40",
+              "26 gr / hr",
+              "120 m 3",
+              "110-220 V",
+              "1.500-7.000PPM",
+              "3.490 €"
+            ],
+            [
+              "15521273027",
+              "G60",
+              "36 gr / hr",
+              "150 m 3",
+              "110-220 V",
+              "1.500-7.000PPM",
+              "3.670 €"
+            ]
+          ]
+        }
+      ],
+      "images": [],
+      "variants": [
+        {
+          "code": "15521273024",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "15521273024",
+            "model": "G12",
+            "chlorine": "12 gr / hr",
+            "pool_volume": "50 m 3",
+            "voltage": "110-220 V",
+            "salt_level": "1.500-7.000PPM",
+            "price": "--"
+          }
+        },
+        {
+          "code": "15521273025",
+          "price": "3.220 €",
+          "price_eur": 3220.0,
+          "values": {
+            "code": "15521273025",
+            "model": "G18",
+            "chlorine": "14 gr / hr",
+            "pool_volume": "60 m 3",
+            "voltage": "110-220 V",
+            "salt_level": "1.500-7.000PPM",
+            "price": "3.220 €",
+            "price_eur": 3220.0
+          }
+        },
+        {
+          "code": "15521273026",
+          "price": "3.490 €",
+          "price_eur": 3490.0,
+          "values": {
+            "code": "15521273026",
+            "model": "G40",
+            "chlorine": "26 gr / hr",
+            "pool_volume": "120 m 3",
+            "voltage": "110-220 V",
+            "salt_level": "1.500-7.000PPM",
+            "price": "3.490 €",
+            "price_eur": 3490.0
+          }
+        },
+        {
+          "code": "15521273027",
+          "price": "3.670 €",
+          "price_eur": 3670.0,
+          "values": {
+            "code": "15521273027",
+            "model": "G60",
+            "chlorine": "36 gr / hr",
+            "pool_volume": "150 m 3",
+            "voltage": "110-220 V",
+            "salt_level": "1.500-7.000PPM",
+            "price": "3.670 €",
+            "price_eur": 3670.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "s-serisi-s-series",
+      "family_title_tr": "S Serisi S Series",
+      "family_title_en": "S Serisi S Series",
+      "family_description_tr": "Tuzdan Klor Jeneratörü Salt Chlorinator",
+      "family_line_count": 64,
+      "qualitative": {
+        "bullets_tr": [
+          "Sektördeki en basit kurulum",
+          "Değişken hızlı pompalarla çalışmak üzere tasarlanmış",
+          "Çift yönlü akış sensörü, çift \"düşük akış\" koruması",
+          "Dahili tuzluluk ve su sıcaklık sensörleri",
+          "The simplest installation in the industry",
+          "Designed to work with variable speed pumps",
+          "Bi-directional flow sensor, double \"low flow\" protection",
+          "Built-in salinity and water temperature sensors"
+        ],
+        "bullets_en": [],
+        "icons": [
+          "RESIDENTIAL POOL"
+        ],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_8710",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "MODEL",
+            "KLOR ÜRETİMİ CHLORINE",
+            "HAVUZ HACMİ POOL VOLUME",
+            "VOLTAJ VOLTAGE",
+            "BORU PIPE",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "15521273020",
+              "S12",
+              "12 gr / hr",
+              "50 m 3",
+              "110-220 V",
+              "63/50 cm",
+              "--"
+            ],
+            [
+              "15521273021",
+              "S18",
+              "14 gr / hr",
+              "60 m 3",
+              "110-220 V",
+              "63/50 cm",
+              "1.780€"
+            ],
+            [
+              "15521273022",
+              "S40",
+              "26 gr / hr",
+              "120 m 3",
+              "110-220 V",
+              "63/50 cm",
+              "1.930 €"
+            ],
+            [
+              "15521273023",
+              "S60",
+              "36 gr / hr",
+              "150 m 3",
+              "110-220 V",
+              "63/50 cm",
+              "2.170 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "8452142db92390c912edec2849670865_img.jpg",
+          "alt": "Image of the S Series Salt Chlorinator unit, showing the control panel and the flow sensor assembly.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "81a6aec6bf83db5f2d76d2f237db32e5_img.jpg",
+          "alt": "Close-up image of the control panel screen of the S Series Salt Chlorinator.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "6b1db457a85ae9aab40dde4817c7e9e6_img.jpg",
+          "alt": "QR code linking to the user manual.",
+          "caption": "",
+          "type": "qr"
+        }
+      ],
+      "variants": [
+        {
+          "code": "15521273020",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "15521273020",
+            "model": "S12",
+            "chlorine": "12 gr / hr",
+            "pool_volume": "50 m 3",
+            "voltage": "110-220 V",
+            "pipe": "63/50 cm",
+            "price": "--"
+          }
+        },
+        {
+          "code": "15521273021",
+          "price": "1.780€",
+          "price_eur": 1780.0,
+          "values": {
+            "code": "15521273021",
+            "model": "S18",
+            "chlorine": "14 gr / hr",
+            "pool_volume": "60 m 3",
+            "voltage": "110-220 V",
+            "pipe": "63/50 cm",
+            "price": "1.780€",
+            "price_eur": 1780.0
+          }
+        },
+        {
+          "code": "15521273022",
+          "price": "1.930 €",
+          "price_eur": 1930.0,
+          "values": {
+            "code": "15521273022",
+            "model": "S40",
+            "chlorine": "26 gr / hr",
+            "pool_volume": "120 m 3",
+            "voltage": "110-220 V",
+            "pipe": "63/50 cm",
+            "price": "1.930 €",
+            "price_eur": 1930.0
+          }
+        },
+        {
+          "code": "15521273023",
+          "price": "2.170 €",
+          "price_eur": 2170.0,
+          "values": {
+            "code": "15521273023",
+            "model": "S60",
+            "chlorine": "36 gr / hr",
+            "pool_volume": "150 m 3",
+            "voltage": "110-220 V",
+            "pipe": "63/50 cm",
+            "price": "2.170 €",
+            "price_eur": 2170.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "havuz-y-neti-mi-pool-manager",
+      "family_title_tr": "HAVUZ YÖNETİMİ POOL MANAGER",
+      "family_title_en": "HAVUZ YÖNETİMİ POOL MANAGER",
+      "family_description_tr": "KLX, yalnızca bir tuz jeneratörü değil; pH, Rx ve pompa hızını da kontrol eden akıllı bir sistemdir. IP65 koruması ve Wi-Fi desteğiyle her şartta güvenli kullanım sunar.",
+      "family_line_count": 95,
+      "qualitative": {
+        "bullets_tr": [
+          "Sadece tuz jeneratörü değil aynı zamanda tüm havuz operasyonunuzu kontrol edebilen bir sistemdir",
+          "8-50 gr/saat klor üretebilen kapasitesi 20/200 m<sup>3</sup> havuzlara uygun",
+          "IP 65 koruması sayesinde polyester makine dairelerinde dahil her şartta kullanım",
+          "Satın aldığınız tek üniteye ilave edilebilen opsiyon kitleri",
+          "PH kontrol (dozaj pompası ile birlikte)",
+          "Rx control",
+          "WIFI ile mobil cihazlarda uzaktan kontrol sistemi",
+          "Kripsol KSX Pro VS, KS Evo VS model pompalarıyla birlikte kullanılması halinde pompa hız kontrolü programlama",
+          "3 yıl veya 8000 saat hücre garantisi",
+          "Tüm filtrasyon pompası markalarıyla uyumludur ve KLX üzerinden doğrudan kontrol edilebilir",
+          "Opsiyonel sıcaklık sensörü, Ethernet bağlantısı ve MODBUS protokol desteği sunar",
+          "Entegre güvenlik sistemleri: akış dedektörü ve gaz dedektörü (hücrenin dikey montajı için)",
+          "It is not only a salt generator but also a system that can control your entire pool operation",
+          "Capable of producing 8-50 gr / hour chlorine, suitable for pools of 20/200 m<sup>3</sup>",
+          "Thanks to its IP 65 protection, can be used in all conditions, including in polyester machine rooms",
+          "Option kits that can be added to a single unit purchased",
+          "PH control (with dosing pump)",
+          "Rx control",
+          "Remote control system on mobile devices with WIFI",
+          "Programming pump speed control when used with Kripsol KSX Pro VS, KS Evo VS model pumps",
+          "3 years or 8000 hours cell warranty",
+          "Compatible with any filtration pump brand and can be operated directly via the KLX system",
+          "Optional temperature sensor, Ethernet connection, and MODBUS protocol support",
+          "Integrated safety features: flow detector and gas detector (for vertical cell installation)"
+        ],
+        "bullets_en": [],
+        "icons": [
+          "RESIDENTIAL POOL",
+          "COMMERCIAL POOL",
+          "POOL PRODUCTS"
+        ],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_8806",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "MODEL",
+            "HAVUZ HACMİ POOL VOLUME",
+            "VOLTAJ / FREKANS VOLTAGE FREQUENCY",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "15521113054",
+              "KLX 8",
+              "20 m 3",
+              "200v",
+              "1.395 €"
+            ],
+            [
+              "15521113050",
+              "KLX 16",
+              "50 m 3",
+              "200v",
+              "1.455 €"
+            ],
+            [
+              "15521113066",
+              "KLX 22",
+              "90 m 3",
+              "200v",
+              "1.670 €"
+            ],
+            [
+              "15521113065",
+              "KLX 33",
+              "150 m 3",
+              "200v",
+              "2.030 €"
+            ],
+            [
+              "15521113049",
+              "KLX 50",
+              "200 m 3",
+              "200v",
+              "3.725 €"
+            ],
+            [
+              "15521113053",
+              "pH kiti",
+              "-",
+              "-",
+              "630 €"
+            ],
+            [
+              "15521113152",
+              "RX kiti",
+              "-",
+              "-",
+              "600 €"
+            ],
+            [
+              "15521113051",
+              "WIFI Modülü",
+              "-",
+              "-",
+              "816 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "014e25a5243a8211f59adfe998788715_img.jpg",
+          "alt": "KLX Salt Chlorinator unit, display screen, and sensor probe probe accessories",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "08444fced8f910187c61523eb958f9bb_img.jpg",
+          "alt": "Wi-Fi signal icon",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "4c04a13d7535a816b990291b63d8a051_img.jpg",
+          "alt": "KLX unit Sugar Valley Hayward Pool Products",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "18f6ff9865ccf26a4baf093e64b93cb1_img.jpg",
+          "alt": "QR code linking to the usage video.",
+          "caption": "",
+          "type": "qr"
+        }
+      ],
+      "variants": [
+        {
+          "code": "15521113054",
+          "price": "1.395 €",
+          "price_eur": 1395.0,
+          "values": {
+            "code": "15521113054",
+            "model": "KLX 8",
+            "pool_volume": "20 m 3",
+            "voltage_frequency": "200v",
+            "price": "1.395 €",
+            "price_eur": 1395.0
+          }
+        },
+        {
+          "code": "15521113050",
+          "price": "1.455 €",
+          "price_eur": 1455.0,
+          "values": {
+            "code": "15521113050",
+            "model": "KLX 16",
+            "pool_volume": "50 m 3",
+            "voltage_frequency": "200v",
+            "price": "1.455 €",
+            "price_eur": 1455.0
+          }
+        },
+        {
+          "code": "15521113066",
+          "price": "1.670 €",
+          "price_eur": 1670.0,
+          "values": {
+            "code": "15521113066",
+            "model": "KLX 22",
+            "pool_volume": "90 m 3",
+            "voltage_frequency": "200v",
+            "price": "1.670 €",
+            "price_eur": 1670.0
+          }
+        },
+        {
+          "code": "15521113065",
+          "price": "2.030 €",
+          "price_eur": 2030.0,
+          "values": {
+            "code": "15521113065",
+            "model": "KLX 33",
+            "pool_volume": "150 m 3",
+            "voltage_frequency": "200v",
+            "price": "2.030 €",
+            "price_eur": 2030.0
+          }
+        },
+        {
+          "code": "15521113049",
+          "price": "3.725 €",
+          "price_eur": 3725.0,
+          "values": {
+            "code": "15521113049",
+            "model": "KLX 50",
+            "pool_volume": "200 m 3",
+            "voltage_frequency": "200v",
+            "price": "3.725 €",
+            "price_eur": 3725.0
+          }
+        },
+        {
+          "code": "15521113053",
+          "price": "630 €",
+          "price_eur": 630.0,
+          "values": {
+            "code": "15521113053",
+            "model": "pH kiti",
+            "pool_volume": "-",
+            "voltage_frequency": "-",
+            "price": "630 €",
+            "price_eur": 630.0
+          }
+        },
+        {
+          "code": "15521113152",
+          "price": "600 €",
+          "price_eur": 600.0,
+          "values": {
+            "code": "15521113152",
+            "model": "RX kiti",
+            "pool_volume": "-",
+            "voltage_frequency": "-",
+            "price": "600 €",
+            "price_eur": 600.0
+          }
+        },
+        {
+          "code": "15521113051",
+          "price": "816 €",
+          "price_eur": 816.0,
+          "values": {
+            "code": "15521113051",
+            "model": "WIFI Modülü",
+            "pool_volume": "-",
+            "voltage_frequency": "-",
+            "price": "816 €",
+            "price_eur": 816.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "akilli-klor-pool-manager",
+      "family_title_tr": "AKILLI KLOR POOL MANAGER",
+      "family_title_en": "AKILLI KLOR POOL MANAGER",
+      "family_description_tr": "9 farklı seviyede klor üretimiyle ihtiyaçlarınıza uygun çözüm sunar. Tak-çalıştır özelliği sayesinde hızlıca devreye alınır.",
+      "family_line_count": 43,
+      "qualitative": {
+        "bullets_tr": [
+          "Led ekran sayesinde üretim konfigürasyonu",
+          "Üretim kontrolü için şeffaf hücre",
+          "Havuz koruması tespit edip klor üretimini ayarlama",
+          "Akış dedektörü kiti dahil",
+          "9 seviyede klor üretimi mümkün",
+          "Tak çalıştır özelliği",
+          "Production configuration thanks to the LED display",
+          "Transparent cell for visual checks on production",
+          "Detection of presence of a pool cover for adjustment of chlorine production",
+          "Flow detector kit included",
+          "9 levels possible of chlorine production",
+          "Plug and play"
+        ],
+        "bullets_en": [],
+        "icons": [
+          "RESIDENTIAL POOL",
+          "WARRANTY CELL"
+        ],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [],
+      "images": [
+        {
+          "file": "3f1c5fff4395e918ca3b6975f4083b65_img.jpg",
+          "alt": "KLB Salt Chlorinator device, a blue rectangular unit with a digital display showing 'KLB' and 'KRIPSOL' logo, and several buttons and ports at the bottom.",
+          "caption": "",
+          "type": "icon"
+        }
+      ],
+      "variants": [
+        {
+          "code": "15521113154",
+          "price": "1.200 €",
+          "price_eur": 1200.0,
+          "values": {
+            "code": "15521113154",
+            "model": "16 g/h",
+            "pool_volume": "75 m³",
+            "protection": "IP 65",
+            "price": "1.200 €",
+            "price_eur": 1200.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "sistem-ba-lant-emas-system-connection-diagram",
+      "family_title_tr": "Sistem Bağlantı Şeması System Connection Diagram",
+      "family_title_en": "Sistem Bağlantı Şeması System Connection Diagram",
+      "family_description_tr": "System Connection Diagram showing the Neosal Salt Chlorinator (1) connected to a filtration pump (C) and a recirculation pump (B). The recirculation pump is connected to a filter (B) and a timer (A). The timer is connected to the Neosal unit. The Neosal unit is also connected to a gas sensor (2).",
+      "family_line_count": 23,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_8936",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "KLOR ÜRETİMİ CHLORINE",
+            "HAVUZ HACMİ POOL VOLUME",
+            "VOLTAJ VOLTAGE",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "15521113063",
+              "50 gr/hr",
+              "80 m³",
+              "200v",
+              "5.727 €"
+            ],
+            [
+              "15521113073",
+              "95 gr/hr",
+              "120 m³",
+              "200v",
+              "7.500 €"
+            ],
+            [
+              "15521113071",
+              "155 gr/hr",
+              "325 m³",
+              "200v",
+              "9.500 €"
+            ],
+            [
+              "15521113074",
+              "200 gr/hr",
+              "350 m³",
+              "200v",
+              "14.000 €"
+            ],
+            [
+              "15521113057",
+              "250 gr/hr",
+              "500 m³",
+              "200v",
+              "18.500 €"
+            ],
+            [
+              "15521113056",
+              "350 gr/hr",
+              "700 m³",
+              "200v",
+              "19.795 €"
+            ],
+            [
+              "15521113068",
+              "500 gr/hr",
+              "1.000 m³",
+              "200v",
+              "31.195 €"
+            ],
+            [
+              "15521113055",
+              "750 gr/hr",
+              "1.500 m³",
+              "200v",
+              "46.792€"
+            ],
+            [
+              "15521113067",
+              "1.000 gr/hr",
+              "2.000 m³",
+              "200v",
+              "62.390 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "4930881b4cec8929388e16e4f7be512d_img.jpg",
+          "alt": "System Connection Diagram showing the Neosal Salt Chlorinator (1) connected to a filtration pump (C) and a recirculation pump (B). The recirculation pump is connected to a filter (B) and a timer (A). The timer is connected to the Neosal unit. The Neosal unit is also connected to a gas sensor (2).",
+          "caption": "",
+          "type": "diagram"
+        }
+      ],
+      "variants": [
+        {
+          "code": "15521113063",
+          "price": "5.727 €",
+          "price_eur": 5727.0,
+          "values": {
+            "code": "15521113063",
+            "chlorine": "50 gr/hr",
+            "pool_volume": "80 m³",
+            "voltage": "200v",
+            "price": "5.727 €",
+            "price_eur": 5727.0
+          }
+        },
+        {
+          "code": "15521113073",
+          "price": "7.500 €",
+          "price_eur": 7500.0,
+          "values": {
+            "code": "15521113073",
+            "chlorine": "95 gr/hr",
+            "pool_volume": "120 m³",
+            "voltage": "200v",
+            "price": "7.500 €",
+            "price_eur": 7500.0
+          }
+        },
+        {
+          "code": "15521113071",
+          "price": "9.500 €",
+          "price_eur": 9500.0,
+          "values": {
+            "code": "15521113071",
+            "chlorine": "155 gr/hr",
+            "pool_volume": "325 m³",
+            "voltage": "200v",
+            "price": "9.500 €",
+            "price_eur": 9500.0
+          }
+        },
+        {
+          "code": "15521113074",
+          "price": "14.000 €",
+          "price_eur": 14000.0,
+          "values": {
+            "code": "15521113074",
+            "chlorine": "200 gr/hr",
+            "pool_volume": "350 m³",
+            "voltage": "200v",
+            "price": "14.000 €",
+            "price_eur": 14000.0
+          }
+        },
+        {
+          "code": "15521113057",
+          "price": "18.500 €",
+          "price_eur": 18500.0,
+          "values": {
+            "code": "15521113057",
+            "chlorine": "250 gr/hr",
+            "pool_volume": "500 m³",
+            "voltage": "200v",
+            "price": "18.500 €",
+            "price_eur": 18500.0
+          }
+        },
+        {
+          "code": "15521113056",
+          "price": "19.795 €",
+          "price_eur": 19795.0,
+          "values": {
+            "code": "15521113056",
+            "chlorine": "350 gr/hr",
+            "pool_volume": "700 m³",
+            "voltage": "200v",
+            "price": "19.795 €",
+            "price_eur": 19795.0
+          }
+        },
+        {
+          "code": "15521113068",
+          "price": "31.195 €",
+          "price_eur": 31195.0,
+          "values": {
+            "code": "15521113068",
+            "chlorine": "500 gr/hr",
+            "pool_volume": "1.000 m³",
+            "voltage": "200v",
+            "price": "31.195 €",
+            "price_eur": 31195.0
+          }
+        },
+        {
+          "code": "15521113055",
+          "price": "46.792€",
+          "price_eur": 46792.0,
+          "values": {
+            "code": "15521113055",
+            "chlorine": "750 gr/hr",
+            "pool_volume": "1.500 m³",
+            "voltage": "200v",
+            "price": "46.792€",
+            "price_eur": 46792.0
+          }
+        },
+        {
+          "code": "15521113067",
+          "price": "62.390 €",
+          "price_eur": 62390.0,
+          "values": {
+            "code": "15521113067",
+            "chlorine": "1.000 gr/hr",
+            "pool_volume": "2.000 m³",
+            "voltage": "200v",
+            "price": "62.390 €",
+            "price_eur": 62390.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "uv-c-teknoloji-si-uv-c-technology",
+      "family_title_tr": "UV-C TEKNOLOJİSİ UV-C TECHNOLOGY",
+      "family_title_en": "UV-C TEKNOLOJİSİ UV-C TECHNOLOGY",
+      "family_description_tr": "Paslanmaz çelik reaktör ile %35'e kadar daha yüksek verim sunar. Klor kullanımını %80'e kadar azaltarak profesyonel projelerde güvenilir bir çözüm sağlar.",
+      "family_line_count": 103,
+      "qualitative": {
+        "bullets_tr": [
+          "Havuz suyunu çevre dostu şekilde temiz ve berrak tutar",
+          "UV-C radyasyonu bakteri ve virüsleri nötralize eder",
+          "Klor kullanımını %50–80 oranında azaltır",
+          "Paslanmaz çelik iç yüzey verimliliği %35'e kadar arttırır",
+          "Ø63–Ø50 mm adaptörler dahildir",
+          "16W, 40W, 75W modeller özel T5 UV lamba ile donatılmıştır",
+          "130W Amalgam versiyon akış anahtarı içerir",
+          "Amalgam lamba sıcaklık dalgalanmalarından etkilenmez",
+          "Amalgam UV-C ışığı pazardaki en güçlü ışık olarak bilinir",
+          "Çelik reaktör yansımasıyla %35'e kadar ek verim sağlar",
+          "Keeps pool water clean, fresh and eco-friendly",
+          "UV-C radiation neutralizes bacteria and viruses",
+          "Reduces chlorine use by 50–80%",
+          "Stainless steel interior increases efficiency up to 35%",
+          "Ø63–Ø50 mm adapters included",
+          "16W, 40W, 75W models with special T5 UV lamp",
+          "130W Amalgam version includes flow switch",
+          "Amalgam lamp is unaffected by temperature changes",
+          "Known as the most powerful UV-C light on the market",
+          "Stainless steel reactor reflection provides up to 35% more yield"
+        ],
+        "bullets_en": [],
+        "icons": [
+          "UV-C"
+        ],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_9019",
+          "type": "spec",
+          "headers": [
+            "Önerilen Debi Recommen- ded Flow Rate for 30 mJ/cm 2",
+            "Max. Debi Max. Flow Rate",
+            "Giriş-Çıkış Inlet-Outlet",
+            "Reaktör Yüksekliği Height of reactor in",
+            "Giriş-Çıkış Arası Mesafe Distance Between Inlet/Outlet"
+          ],
+          "rows": [
+            [
+              "5",
+              "23 m 3 /h",
+              "63-50 mm",
+              "56 cm ±",
+              "34 cm ±"
+            ],
+            [
+              "11",
+              "23 m 3 /h",
+              "63-50 mm",
+              "100 cm ±",
+              "77 cm ±"
+            ],
+            [
+              "16",
+              "23 m 3 /h",
+              "63-50 mm",
+              "100 cm ±",
+              "77 cm ±"
+            ],
+            [
+              "22",
+              "23 m 3 /h",
+              "63-50 mm",
+              "100 cm ±",
+              "77 cm ±"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_9046",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "WATT",
+            "HAVUZ HACMİ POOL VOLUME",
+            "BAĞLANTI CONNECTION",
+            "AĞIRLIK WEIGHT",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "15520123003",
+              "12",
+              "10 m 3",
+              "50 mm",
+              "2,8 kg",
+              "500 €"
+            ],
+            [
+              "15520123004",
+              "16",
+              "15 m 3",
+              "50-63 mm",
+              "2,8 kg",
+              "625 €"
+            ],
+            [
+              "15520123006",
+              "40",
+              "40 m 3",
+              "50-63 mm",
+              "3,6 kg",
+              "695 €"
+            ],
+            [
+              "15520123007",
+              "75",
+              "75 m 3",
+              "50-63 mm",
+              "3,9 kg",
+              "715 €"
+            ],
+            [
+              "15520123005",
+              "130",
+              "150 m 3",
+              "50-63 mm",
+              "5,0 kg",
+              "1.336 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "38b97a2b5234499151afd37006408749_img.jpg",
+          "alt": "Main product image showing the UV-C reactor unit with a blue base and a stainless steel body, connected to a power cord and a flow switch.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "9691f5e22911ef00793a4f3c78868e0b_img.jpg",
+          "alt": "Image of the UV-C reactor unit installed in a swimming pool, showing the blue base and stainless steel body.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "37cd83a5893887f3d3d986626a75f911_img.jpg",
+          "alt": "Diagram of the UV-C amalgam lamp showing the 130v power input and the lamp itself.",
+          "caption": "",
+          "type": "diagram"
+        },
+        {
+          "file": "b4b33285a059f84ca5fdeb7bc24d1f97_img.jpg",
+          "alt": "QR code linking to the usage video.",
+          "caption": "",
+          "type": "qr"
+        }
+      ],
+      "variants": [
+        {
+          "code": "15520123003",
+          "price": "500 €",
+          "price_eur": 500.0,
+          "values": {
+            "code": "15520123003",
+            "watt": "12",
+            "pool_volume": "10 m 3",
+            "connection": "50 mm",
+            "weight": "2,8 kg",
+            "price": "500 €",
+            "price_eur": 500.0
+          }
+        },
+        {
+          "code": "15520123004",
+          "price": "625 €",
+          "price_eur": 625.0,
+          "values": {
+            "code": "15520123004",
+            "watt": "16",
+            "pool_volume": "15 m 3",
+            "connection": "50-63 mm",
+            "weight": "2,8 kg",
+            "price": "625 €",
+            "price_eur": 625.0
+          }
+        },
+        {
+          "code": "15520123006",
+          "price": "695 €",
+          "price_eur": 695.0,
+          "values": {
+            "code": "15520123006",
+            "watt": "40",
+            "pool_volume": "40 m 3",
+            "connection": "50-63 mm",
+            "weight": "3,6 kg",
+            "price": "695 €",
+            "price_eur": 695.0
+          }
+        },
+        {
+          "code": "15520123007",
+          "price": "715 €",
+          "price_eur": 715.0,
+          "values": {
+            "code": "15520123007",
+            "watt": "75",
+            "pool_volume": "75 m 3",
+            "connection": "50-63 mm",
+            "weight": "3,9 kg",
+            "price": "715 €",
+            "price_eur": 715.0
+          }
+        },
+        {
+          "code": "15520123005",
+          "price": "1.336 €",
+          "price_eur": 1336.0,
+          "values": {
+            "code": "15520123005",
+            "watt": "130",
+            "pool_volume": "150 m 3",
+            "connection": "50-63 mm",
+            "weight": "5,0 kg",
+            "price": "1.336 €",
+            "price_eur": 1336.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "max-veri-m-max-efficiency",
+      "family_title_tr": "MAX. VERİM MAX. EFFICIENCY",
+      "family_title_en": "MAX. VERİM MAX. EFFICIENCY",
+      "family_description_tr": "Yüksek UV yansıma teknolojisi ile mikroorganizmaların UV'ye maruziyetini %95'e kadar artırır. Kimyasal kullanımını azaltarak profesyonel projelerde güvenilir sonuçlar sağlar.",
+      "family_line_count": 107,
+      "qualitative": {
+        "bullets_tr": [
+          "Piyasadaki en yüksek UV yansıma verimliliği",
+          "Mikroorganizmaların UV'ye maruziyetini %95'e kadar artırır",
+          "Zararlı gaz veya yan ürün üretmez",
+          "Kimyasalların yapamadığı bakteri, virüs, yosun ve mantarları nötrelize eder",
+          "Güçlü sterilizasyon sağlar, klor kokusunu ortadan kaldırır",
+          "Ortalama lamba ömrü: 2 yıl",
+          "Akıllı lamba ömrü göstergesi bulunur",
+          "Tuzlu ve deniz suyunda kullanıma uygundur",
+          "UV-C lamba ömrü: 9.000 saate kadar",
+          "Highest UV reflective efficiency on the market",
+          "Increases microorganism UV exposure up to 95%",
+          "Produces no harmful gases or by-products",
+          "Neutralizes bacteria, viruses, algae and fungi beyond chemicals",
+          "Provides strong sterilization and eliminates chlorine odor",
+          "Average lamp life: 2 years",
+          "Equipped with intelligent lamp life indicator",
+          "Suitable for salt and sea water use",
+          "UV-C lamp life up to 9,000 hours"
+        ],
+        "bullets_en": [],
+        "icons": [
+          "WARRANTY CELL"
+        ],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_9145",
+          "type": "variants",
+          "headers": [
+            "MODEL",
+            "KOD CODE",
+            "HAVUZ TIPI FOR POOL TYPE",
+            "",
+            "",
+            "ANALOG LAMBA ÖMÜR GÖSTERGELİ DIGITAL LAMP LIFE INDICATOR",
+            "PRİZ PLUG",
+            "AKIŞ ANAHTARI FLOW SWITCH",
+            "DİKEY-YATAY MONTAJ VERTICAL OR HORIZONTAL MOUNTABLE"
+          ],
+          "rows": [
+            [
+              "",
+              "",
+              "YERÜSTÜ HAVUZ ABOVE GROUND",
+              "EV TİPİ RESIDENTIAL",
+              "SU PARKLARI AQUATICS",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Mini Standart",
+              "15520123116",
+              "✓",
+              "✓",
+              "✓",
+              "",
+              "",
+              "",
+              "✓"
+            ],
+            [
+              "Mini Classic",
+              "15520123029",
+              "✓",
+              "✓",
+              "✓",
+              "✓",
+              "✓",
+              "✓",
+              "✓"
+            ],
+            [
+              "Single Standart",
+              "15520123117",
+              "",
+              "✓",
+              "✓",
+              "",
+              "",
+              "",
+              "✓"
+            ],
+            [
+              "Single Classic",
+              "15520123013",
+              "",
+              "✓",
+              "✓",
+              "✓",
+              "✓",
+              "✓",
+              "✓"
+            ],
+            [
+              "Double Standart",
+              "15520123027",
+              "",
+              "✓",
+              "✓",
+              "",
+              "",
+              "",
+              "✓"
+            ],
+            [
+              "Double Classic",
+              "15520123017",
+              "",
+              "✓",
+              "✓",
+              "✓",
+              "✓",
+              "✓",
+              "✓"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_9155",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "WATT",
+            "HAVUZ HACMİ POOL VOLUME",
+            "TÜP TUPE",
+            "LAMBA GÖSTERGESİ LAMP SIGN",
+            "MAX DEBİ m³/h MAX FLOW m³/h",
+            "BRÜT Kg GROSS Kg",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "15520123029",
+              "30",
+              "30 m³",
+              "30",
+              "✓",
+              "15",
+              "6,06",
+              "--"
+            ],
+            [
+              "15520123013",
+              "55",
+              "55 m³",
+              "55",
+              "✓",
+              "21",
+              "9,05",
+              "955 €"
+            ],
+            [
+              "15520123017",
+              "110",
+              "110 m³",
+              "110",
+              "✓",
+              "42",
+              "12,45",
+              "1.370 €"
+            ],
+            [
+              "15520123116",
+              "30",
+              "30 m³",
+              "30",
+              "✗",
+              "15",
+              "6,06",
+              "1.575 €"
+            ],
+            [
+              "15520123117",
+              "55",
+              "55 m³",
+              "55",
+              "✗",
+              "21",
+              "9,01",
+              "--"
+            ],
+            [
+              "15520123027",
+              "110",
+              "110 m³",
+              "110",
+              "✗",
+              "42",
+              "10,01",
+              "--"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "107757c7e2df47ca2516175ede7c9c2d_img.jpg",
+          "alt": "Three UV-C units: Mini Classic, Double-Classic, and Single Classic.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "7860d7f28e7c0654ae7f3aab5f23e682_img.jpg",
+          "alt": "Microscopic image of bacteria.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "b4d03207709a0869c4f7960fd2af37b5_img.jpg",
+          "alt": "Microscopic image of viruses.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "ad0a5ab400a2e13262cab4392b3c8ecf_img.jpg",
+          "alt": "Microscopic image of algae.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "74376892ace4b4342de256184f43d1a9_img.jpg",
+          "alt": "Microscopic image of protozoa.",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "15520123116",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "model": "Mini Standart",
+            "code": "15520123116",
+            "pool_type": "✓",
+            "unnamed": "✓",
+            "lamp_life_indicator": "",
+            "plug": "",
+            "flow_switch": "",
+            "vertical_or_horizontal_mountable": "✓"
+          }
+        },
+        {
+          "code": "15520123029",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "model": "Mini Classic",
+            "code": "15520123029",
+            "pool_type": "✓",
+            "unnamed": "✓",
+            "lamp_life_indicator": "✓",
+            "plug": "✓",
+            "flow_switch": "✓",
+            "vertical_or_horizontal_mountable": "✓"
+          }
+        },
+        {
+          "code": "15520123117",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "model": "Single Standart",
+            "code": "15520123117",
+            "pool_type": "",
+            "unnamed": "✓",
+            "lamp_life_indicator": "",
+            "plug": "",
+            "flow_switch": "",
+            "vertical_or_horizontal_mountable": "✓"
+          }
+        },
+        {
+          "code": "15520123013",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "model": "Single Classic",
+            "code": "15520123013",
+            "pool_type": "",
+            "unnamed": "✓",
+            "lamp_life_indicator": "✓",
+            "plug": "✓",
+            "flow_switch": "✓",
+            "vertical_or_horizontal_mountable": "✓"
+          }
+        },
+        {
+          "code": "15520123027",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "model": "Double Standart",
+            "code": "15520123027",
+            "pool_type": "",
+            "unnamed": "✓",
+            "lamp_life_indicator": "",
+            "plug": "",
+            "flow_switch": "",
+            "vertical_or_horizontal_mountable": "✓"
+          }
+        },
+        {
+          "code": "15520123017",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "model": "Double Classic",
+            "code": "15520123017",
+            "pool_type": "",
+            "unnamed": "✓",
+            "lamp_life_indicator": "✓",
+            "plug": "✓",
+            "flow_switch": "✓",
+            "vertical_or_horizontal_mountable": "✓"
+          }
+        },
+        {
+          "code": "15520123029",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "15520123029",
+            "watt": "30",
+            "pool_volume": "30 m³",
+            "tube": "30",
+            "lamp_sign": "✓",
+            "max_flow_m_h": "15",
+            "gross_kg": "6,06",
+            "price": "--"
+          }
+        },
+        {
+          "code": "15520123013",
+          "price": "955 €",
+          "price_eur": 955.0,
+          "values": {
+            "code": "15520123013",
+            "watt": "55",
+            "pool_volume": "55 m³",
+            "tube": "55",
+            "lamp_sign": "✓",
+            "max_flow_m_h": "21",
+            "gross_kg": "9,05",
+            "price": "955 €",
+            "price_eur": 955.0
+          }
+        },
+        {
+          "code": "15520123017",
+          "price": "1.370 €",
+          "price_eur": 1370.0,
+          "values": {
+            "code": "15520123017",
+            "watt": "110",
+            "pool_volume": "110 m³",
+            "tube": "110",
+            "lamp_sign": "✓",
+            "max_flow_m_h": "42",
+            "gross_kg": "12,45",
+            "price": "1.370 €",
+            "price_eur": 1370.0
+          }
+        },
+        {
+          "code": "15520123116",
+          "price": "1.575 €",
+          "price_eur": 1575.0,
+          "values": {
+            "code": "15520123116",
+            "watt": "30",
+            "pool_volume": "30 m³",
+            "tube": "30",
+            "lamp_sign": "✗",
+            "max_flow_m_h": "15",
+            "gross_kg": "6,06",
+            "price": "1.575 €",
+            "price_eur": 1575.0
+          }
+        },
+        {
+          "code": "15520123117",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "15520123117",
+            "watt": "55",
+            "pool_volume": "55 m³",
+            "tube": "55",
+            "lamp_sign": "✗",
+            "max_flow_m_h": "21",
+            "gross_kg": "9,01",
+            "price": "--"
+          }
+        },
+        {
+          "code": "15520123027",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "15520123027",
+            "watt": "110",
+            "pool_volume": "110 m³",
+            "tube": "110",
+            "lamp_sign": "✗",
+            "max_flow_m_h": "42",
+            "gross_kg": "10,01",
+            "price": "--"
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "fotokatalitik-oksidasyon-photocatalytic-oxidation",
+      "family_title_tr": "Fotokatalitik Oksidasyon Photocatalytic Oxidation",
+      "family_title_en": "Fotokatalitik Oksidasyon Photocatalytic Oxidation",
+      "family_description_tr": "Fotograf-katalizör Titanyum Dioksit",
+      "family_line_count": 33,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_9231",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "WATT",
+            "HAVUZ HACMİ POOL VOLUME",
+            "TÜP TUBE",
+            "MAX DEBİ m 3 /h MAX FLOW m 3 /h",
+            "ÜRÜN BOYUTU (UZUNLUK) PRODUCT SIZE (LENGTH)",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "15520123028",
+              "30",
+              "35 m 3",
+              "Mini Classic",
+              "10",
+              "623 mm",
+              "1.350 €"
+            ],
+            [
+              "15520123016",
+              "55",
+              "65 m 3",
+              "Tek Single",
+              "14",
+              "981 mm",
+              "1.720 €"
+            ],
+            [
+              "15520123015",
+              "110",
+              "130 m 3",
+              "Çift Double",
+              "28",
+              "981 mm",
+              "2.715 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "a00c2ce2bca7f7c0d7a597c7e199db9a_img.jpg",
+          "alt": "Diagram showing the photocatalytic oxidation process: UV light hits titanium dioxide, creating hydroxyl radicals that attack pollutants (viruses, bacteria) and break them down into harmless H2O and CO2.",
+          "caption": "",
+          "type": "diagram"
+        },
+        {
+          "file": "14a470ad289acb410cbbb925d2ab8af2_img.jpg",
+          "alt": "Four close-up images of the Quantum UV-C units showing the internal components and the digital display.",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "15520123028",
+          "price": "1.350 €",
+          "price_eur": 1350.0,
+          "values": {
+            "code": "15520123028",
+            "watt": "30",
+            "pool_volume": "35 m 3",
+            "tube": "Mini Classic",
+            "max_flow_m3h": "10",
+            "product_size_length": "623 mm",
+            "price": "1.350 €",
+            "price_eur": 1350.0
+          }
+        },
+        {
+          "code": "15520123016",
+          "price": "1.720 €",
+          "price_eur": 1720.0,
+          "values": {
+            "code": "15520123016",
+            "watt": "55",
+            "pool_volume": "65 m 3",
+            "tube": "Tek Single",
+            "max_flow_m3h": "14",
+            "product_size_length": "981 mm",
+            "price": "1.720 €",
+            "price_eur": 1720.0
+          }
+        },
+        {
+          "code": "15520123015",
+          "price": "2.715 €",
+          "price_eur": 2715.0,
+          "values": {
+            "code": "15520123015",
+            "watt": "110",
+            "pool_volume": "130 m 3",
+            "tube": "Çift Double",
+            "max_flow_m3h": "28",
+            "product_size_length": "981 mm",
+            "price": "2.715 €",
+            "price_eur": 2715.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "uv-benefits-for-public-pools-and-water-parks",
+      "family_title_tr": "UV BENEFITS FOR PUBLIC POOLS AND WATER PARKS:",
+      "family_title_en": "UV BENEFITS FOR PUBLIC POOLS AND WATER PARKS:",
+      "family_description_tr": "",
+      "family_line_count": 20,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_9541",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "MAX. DEBİ m³/h MAX FLOW RATE m³/h",
+            "UV LAMBA GÜCÜ UV LAMP POWER",
+            "BAĞLANTI CONNECTION",
+            "REAKTÖR UZUNLUĞU REACTOR LENGTH",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "FW3150 HO",
+              "15",
+              "3x87 W",
+              "2\" 1/2",
+              "1143 mm",
+              "--"
+            ],
+            [
+              "FW3205 HO",
+              "22",
+              "3x87 W",
+              "3\"",
+              "1150 mm",
+              "--"
+            ],
+            [
+              "FW4205 HO",
+              "30",
+              "4x87 W",
+              "3\"",
+              "1150 mm",
+              "--"
+            ],
+            [
+              "FW5205 HO",
+              "37",
+              "5x87 W",
+              "3\"",
+              "1150 mm",
+              "18.028 €"
+            ],
+            [
+              "FW6205 HO",
+              "43",
+              "6x87 W",
+              "4\"",
+              "1146 mm",
+              "--"
+            ],
+            [
+              "FW6273 HO",
+              "67",
+              "6x87 W",
+              "4\"",
+              "1162 mm",
+              "--"
+            ]
+          ]
+        }
+      ],
+      "images": [],
+      "variants": [
+        {
+          "code": "3150",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "FW3150 HO",
+            "max_flow_rate_m_h": "15",
+            "uv_lamp_power": "3x87 W",
+            "connection": "2\" 1/2",
+            "reactor_length": "1143 mm",
+            "price": "--"
+          }
+        },
+        {
+          "code": "3205",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "FW3205 HO",
+            "max_flow_rate_m_h": "22",
+            "uv_lamp_power": "3x87 W",
+            "connection": "3\"",
+            "reactor_length": "1150 mm",
+            "price": "--"
+          }
+        },
+        {
+          "code": "4205",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "FW4205 HO",
+            "max_flow_rate_m_h": "30",
+            "uv_lamp_power": "4x87 W",
+            "connection": "3\"",
+            "reactor_length": "1150 mm",
+            "price": "--"
+          }
+        },
+        {
+          "code": "5205",
+          "price": "18.028 €",
+          "price_eur": 18028.0,
+          "values": {
+            "code": "FW5205 HO",
+            "max_flow_rate_m_h": "37",
+            "uv_lamp_power": "5x87 W",
+            "connection": "3\"",
+            "reactor_length": "1150 mm",
+            "price": "18.028 €",
+            "price_eur": 18028.0
+          }
+        },
+        {
+          "code": "6205",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "FW6205 HO",
+            "max_flow_rate_m_h": "43",
+            "uv_lamp_power": "6x87 W",
+            "connection": "4\"",
+            "reactor_length": "1146 mm",
+            "price": "--"
+          }
+        },
+        {
+          "code": "6273",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "FW6273 HO",
+            "max_flow_rate_m_h": "67",
+            "uv_lamp_power": "6x87 W",
+            "connection": "4\"",
+            "reactor_length": "1162 mm",
+            "price": "--"
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "5-year-guarantee",
+      "family_title_tr": "5-year guarantee",
+      "family_title_en": "5-year guarantee",
+      "family_description_tr": "",
+      "family_line_count": 42,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_9611",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "MAX. DEBİ m 3 /h MAX FLOW RATE m 3 /h",
+            "UV LAMBA GÜCÜ UV LAMP POWER",
+            "BAĞLANTI CONNECTION",
+            "REAKTÖR UZUNLUĞU REACTOR LENGTH",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "MPL030 EL 270W",
+              "10",
+              "1 x 270 W",
+              "DN 80",
+              "326 mm",
+              "--"
+            ],
+            [
+              "MPL030 EL 400 W",
+              "20",
+              "1 x 400 W",
+              "DN 100",
+              "396 mm",
+              "--"
+            ],
+            [
+              "MPL030 EL 600 W",
+              "30",
+              "1 x 600 W",
+              "DN 100",
+              "396 mm",
+              "--"
+            ],
+            [
+              "MPL030 EL 1000W",
+              "50",
+              "1 x 1 kW",
+              "DN 100",
+              "396 mm",
+              "--"
+            ],
+            [
+              "MPL030 EL 1800W",
+              "80",
+              "1 x 1,8 kW",
+              "DN 125",
+              "398 mm",
+              "--"
+            ],
+            [
+              "MPL140",
+              "140",
+              "1 x 1,8 kW",
+              "DN 150",
+              "600 mm",
+              "--"
+            ],
+            [
+              "MPL230",
+              "230",
+              "1 x 3 kW",
+              "DN 200",
+              "600 mm",
+              "--"
+            ],
+            [
+              "MPL300",
+              "300",
+              "1 x 3 kW",
+              "DN 250",
+              "600 mm",
+              "--"
+            ],
+            [
+              "MPL500",
+              "450",
+              "1 x 4,5 kW",
+              "DN 350",
+              "800 mm",
+              "--"
+            ],
+            [
+              "MPL030 SD 270W",
+              "10",
+              "1 x 270 W",
+              "DN 80",
+              "326 mm",
+              "--"
+            ],
+            [
+              "MPL030 SD 400W",
+              "20",
+              "1 x 400 W",
+              "DN 100",
+              "396 mm",
+              "--"
+            ],
+            [
+              "MPL030 SD 600W",
+              "30",
+              "1 x 600 W",
+              "DN 100",
+              "396 mm",
+              "--"
+            ],
+            [
+              "MPL030 SD 1000W",
+              "50",
+              "1 x 1 kW",
+              "DN 100",
+              "396 mm",
+              "--"
+            ],
+            [
+              "MPL030 SD 1800W",
+              "80",
+              "1 x 1,8 kW",
+              "DN 125",
+              "405 mm",
+              "--"
+            ],
+            [
+              "MPL140 SD",
+              "140",
+              "1 x 1,8 kW",
+              "DN 150",
+              "600 mm",
+              "--"
+            ],
+            [
+              "MPL230 SD",
+              "230",
+              "1 x 3 kW",
+              "DN 200",
+              "600 mm",
+              "--"
+            ],
+            [
+              "MPL300 SD",
+              "300",
+              "1 x 3 kW",
+              "DN 250",
+              "600 mm",
+              "--"
+            ],
+            [
+              "MPL500+ SD",
+              "450",
+              "1 x 5 kW",
+              "DN 350",
+              "800 mm",
+              "--"
+            ],
+            [
+              "MPL700 Image: NEW",
+              "700",
+              "2 x 1.8 kW",
+              "DN200",
+              "920 mm",
+              "--"
+            ],
+            [
+              "MPL900 Image: NEW",
+              "900",
+              "2 x 1.8 kW",
+              "DN250",
+              "1150 mm",
+              "--"
+            ]
+          ]
+        }
+      ],
+      "images": [],
+      "variants": [
+        {
+          "code": "030270",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "MPL030 EL 270W",
+            "max_flow_rate_m3h": "10",
+            "uv_lamp_power": "1 x 270 W",
+            "connection": "DN 80",
+            "reactor_length": "326 mm",
+            "price": "--"
+          }
+        },
+        {
+          "code": "030400",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "MPL030 EL 400 W",
+            "max_flow_rate_m3h": "20",
+            "uv_lamp_power": "1 x 400 W",
+            "connection": "DN 100",
+            "reactor_length": "396 mm",
+            "price": "--"
+          }
+        },
+        {
+          "code": "030600",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "MPL030 EL 600 W",
+            "max_flow_rate_m3h": "30",
+            "uv_lamp_power": "1 x 600 W",
+            "connection": "DN 100",
+            "reactor_length": "396 mm",
+            "price": "--"
+          }
+        },
+        {
+          "code": "0301000",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "MPL030 EL 1000W",
+            "max_flow_rate_m3h": "50",
+            "uv_lamp_power": "1 x 1 kW",
+            "connection": "DN 100",
+            "reactor_length": "396 mm",
+            "price": "--"
+          }
+        },
+        {
+          "code": "0301800",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "MPL030 EL 1800W",
+            "max_flow_rate_m3h": "80",
+            "uv_lamp_power": "1 x 1,8 kW",
+            "connection": "DN 125",
+            "reactor_length": "398 mm",
+            "price": "--"
+          }
+        },
+        {
+          "code": "140",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "MPL140",
+            "max_flow_rate_m3h": "140",
+            "uv_lamp_power": "1 x 1,8 kW",
+            "connection": "DN 150",
+            "reactor_length": "600 mm",
+            "price": "--"
+          }
+        },
+        {
+          "code": "230",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "MPL230",
+            "max_flow_rate_m3h": "230",
+            "uv_lamp_power": "1 x 3 kW",
+            "connection": "DN 200",
+            "reactor_length": "600 mm",
+            "price": "--"
+          }
+        },
+        {
+          "code": "300",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "MPL300",
+            "max_flow_rate_m3h": "300",
+            "uv_lamp_power": "1 x 3 kW",
+            "connection": "DN 250",
+            "reactor_length": "600 mm",
+            "price": "--"
+          }
+        },
+        {
+          "code": "500",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "MPL500",
+            "max_flow_rate_m3h": "450",
+            "uv_lamp_power": "1 x 4,5 kW",
+            "connection": "DN 350",
+            "reactor_length": "800 mm",
+            "price": "--"
+          }
+        },
+        {
+          "code": "030270",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "MPL030 SD 270W",
+            "max_flow_rate_m3h": "10",
+            "uv_lamp_power": "1 x 270 W",
+            "connection": "DN 80",
+            "reactor_length": "326 mm",
+            "price": "--"
+          }
+        },
+        {
+          "code": "030400",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "MPL030 SD 400W",
+            "max_flow_rate_m3h": "20",
+            "uv_lamp_power": "1 x 400 W",
+            "connection": "DN 100",
+            "reactor_length": "396 mm",
+            "price": "--"
+          }
+        },
+        {
+          "code": "030600",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "MPL030 SD 600W",
+            "max_flow_rate_m3h": "30",
+            "uv_lamp_power": "1 x 600 W",
+            "connection": "DN 100",
+            "reactor_length": "396 mm",
+            "price": "--"
+          }
+        },
+        {
+          "code": "0301000",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "MPL030 SD 1000W",
+            "max_flow_rate_m3h": "50",
+            "uv_lamp_power": "1 x 1 kW",
+            "connection": "DN 100",
+            "reactor_length": "396 mm",
+            "price": "--"
+          }
+        },
+        {
+          "code": "0301800",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "MPL030 SD 1800W",
+            "max_flow_rate_m3h": "80",
+            "uv_lamp_power": "1 x 1,8 kW",
+            "connection": "DN 125",
+            "reactor_length": "405 mm",
+            "price": "--"
+          }
+        },
+        {
+          "code": "140",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "MPL140 SD",
+            "max_flow_rate_m3h": "140",
+            "uv_lamp_power": "1 x 1,8 kW",
+            "connection": "DN 150",
+            "reactor_length": "600 mm",
+            "price": "--"
+          }
+        },
+        {
+          "code": "230",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "MPL230 SD",
+            "max_flow_rate_m3h": "230",
+            "uv_lamp_power": "1 x 3 kW",
+            "connection": "DN 200",
+            "reactor_length": "600 mm",
+            "price": "--"
+          }
+        },
+        {
+          "code": "300",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "MPL300 SD",
+            "max_flow_rate_m3h": "300",
+            "uv_lamp_power": "1 x 3 kW",
+            "connection": "DN 250",
+            "reactor_length": "600 mm",
+            "price": "--"
+          }
+        },
+        {
+          "code": "500",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "MPL500+ SD",
+            "max_flow_rate_m3h": "450",
+            "uv_lamp_power": "1 x 5 kW",
+            "connection": "DN 350",
+            "reactor_length": "800 mm",
+            "price": "--"
+          }
+        },
+        {
+          "code": "700",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "MPL700 Image: NEW",
+            "max_flow_rate_m3h": "700",
+            "uv_lamp_power": "2 x 1.8 kW",
+            "connection": "DN200",
+            "reactor_length": "920 mm",
+            "price": "--"
+          }
+        },
+        {
+          "code": "900",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "MPL900 Image: NEW",
+            "max_flow_rate_m3h": "900",
+            "uv_lamp_power": "2 x 1.8 kW",
+            "connection": "DN250",
+            "reactor_length": "1150 mm",
+            "price": "--"
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "end-stri-yel-uv-industrial-uv",
+      "family_title_tr": "ENDÜSTRİYEL UV INDUSTRIAL UV",
+      "family_title_en": "ENDÜSTRİYEL UV INDUSTRIAL UV",
+      "family_description_tr": "MP TS UV, 900 m<sup>3</sup>/saate kadar kapasitesiyle kloraminleri yok eder. Dokunmatik ekran ve otomatik temizlik opsiyonlarıyla profesyonellere uygundur.",
+      "family_line_count": 71,
+      "qualitative": {
+        "bullets_tr": [
+          "Ticari ve yarı ticari havuzlarda 900 m<sup>3</sup>/saate kadar dezenkloraminasyon sağlar",
+          "Orta basınçlı lambalar, sudaki kloraminleri ve havadaki trikloraminleri yok eder",
+          "60 mJ/cm<sup>2</sup> ışın yoğunluğu ile dezenkloraminasyon garantisi sunar (lamba ömrü sonunda bile)",
+          "Opsiyonel dokunmatik ekran: parametre görüntüleme, gerçek zamanlı veri, 6 dil seçeneği",
+          "Standart manuel kuvars kılıf temizleme (opsiyonel otomatik versiyon)",
+          "Elektrik panosu ve reaktörde opsiyonel sıcaklık sensörü",
+          "Manuel veya otomatik lamba temizleme seçenekleri",
+          "Kompakt tasarımıyla alan verimliliği sağlar",
+          "Provides dechloramination for commercial and semi-commercial pools up to 900 m<sup>3</sup>/h.",
+          "Medium-pressure lamps eliminate chloramines in water and trichloramines in the air.",
+          "Guarantees 60 mJ/cm<sup>2</sup> irradiation for dechloramination (even at end of lamp life).",
+          "Optional touchscreen: parameter display, real-time data, 6 language options.",
+          "Standard manual quartz sleeve cleaning (automatic version optional).",
+          "Optional temperature sensor in cabinet and reactor.",
+          "Manual or automatic lamp cleaning options.",
+          "Compact design ensures space efficiency."
+        ],
+        "bullets_en": [],
+        "icons": [
+          "COMMERCIAL POOL",
+          "UV LAMBA",
+          "LONG LIFE UV LAMP",
+          "WARRANTY CELL"
+        ],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_9697",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "MAX. DEBİ m 3 /h MAX FLOW RATE m 3 /h",
+            "UV LAMBA GÜCÜ UV LAMP POWER",
+            "BAĞLANTI CONNECTION",
+            "REAKTÖR UZUNLUĞU REACTOR LENGTH",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "MP030 600W EL",
+              "30",
+              "1 x 600 W",
+              "DN 80",
+              "491 mm",
+              "--"
+            ],
+            [
+              "MP030 1kW EL",
+              "40",
+              "1 x 1 kw",
+              "DN 80",
+              "491 mm",
+              "--"
+            ],
+            [
+              "MP100 TS",
+              "80",
+              "1 x 1 kw",
+              "DN125",
+              "1175 mm",
+              "--"
+            ],
+            [
+              "MP125 TS",
+              "140",
+              "1 x 3 kw",
+              "D150",
+              "1152 mm",
+              "--"
+            ],
+            [
+              "MP140 TS",
+              "300",
+              "1 x 3 kw",
+              "DN200",
+              "1244 mm",
+              "--"
+            ],
+            [
+              "MP240 TS",
+              "450",
+              "2 x 3 kw",
+              "DN250",
+              "1020 mm",
+              "--"
+            ],
+            [
+              "MP340 TS",
+              "675",
+              "3 x 3 kw",
+              "DN300",
+              "725 mm",
+              "--"
+            ],
+            [
+              "MP440 TS",
+              "900",
+              "4 x 3 kw",
+              "DN300",
+              "824 mm",
+              "--"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "3d9c928026dbf3c60daffc5c92fd5ac5_img.jpg",
+          "alt": "A large industrial UV reactor unit with a control cabinet and a large pipe section. The unit is made of stainless steel and features a touchscreen control panel. A CE mark is visible on the side of the unit.",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "030600",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "MP030 600W EL",
+            "max_flow_rate_m3h": "30",
+            "uv_lamp_power": "1 x 600 W",
+            "connection": "DN 80",
+            "reactor_length": "491 mm",
+            "price": "--"
+          }
+        },
+        {
+          "code": "0301",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "MP030 1kW EL",
+            "max_flow_rate_m3h": "40",
+            "uv_lamp_power": "1 x 1 kw",
+            "connection": "DN 80",
+            "reactor_length": "491 mm",
+            "price": "--"
+          }
+        },
+        {
+          "code": "100",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "MP100 TS",
+            "max_flow_rate_m3h": "80",
+            "uv_lamp_power": "1 x 1 kw",
+            "connection": "DN125",
+            "reactor_length": "1175 mm",
+            "price": "--"
+          }
+        },
+        {
+          "code": "125",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "MP125 TS",
+            "max_flow_rate_m3h": "140",
+            "uv_lamp_power": "1 x 3 kw",
+            "connection": "D150",
+            "reactor_length": "1152 mm",
+            "price": "--"
+          }
+        },
+        {
+          "code": "140",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "MP140 TS",
+            "max_flow_rate_m3h": "300",
+            "uv_lamp_power": "1 x 3 kw",
+            "connection": "DN200",
+            "reactor_length": "1244 mm",
+            "price": "--"
+          }
+        },
+        {
+          "code": "240",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "MP240 TS",
+            "max_flow_rate_m3h": "450",
+            "uv_lamp_power": "2 x 3 kw",
+            "connection": "DN250",
+            "reactor_length": "1020 mm",
+            "price": "--"
+          }
+        },
+        {
+          "code": "340",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "MP340 TS",
+            "max_flow_rate_m3h": "675",
+            "uv_lamp_power": "3 x 3 kw",
+            "connection": "DN300",
+            "reactor_length": "725 mm",
+            "price": "--"
+          }
+        },
+        {
+          "code": "440",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "MP440 TS",
+            "max_flow_rate_m3h": "900",
+            "uv_lamp_power": "4 x 3 kw",
+            "connection": "DN300",
+            "reactor_length": "824 mm",
+            "price": "--"
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "ozon-jenerat-rleri-ozone-generators",
+      "family_title_tr": "Ozon Jeneratörleri Ozone Generators",
+      "family_title_en": "Ozon Jeneratörleri Ozone Generators",
+      "family_description_tr": "A black and silver box-type ozone generator unit with a cylindrical component on top and a power cord.",
+      "family_line_count": 68,
+      "qualitative": {
+        "bullets_tr": [
+          "Güç kaynağını ve ozon çıkış haznesini üzerinde bulunduran kutu tipi cihazlardır",
+          "Hava kaynaklıdır",
+          "Hava soğutmalıdır",
+          "Venturi, checkvalf, hava kurutma ünitesi ve çıkış hortumu dahildir",
+          "Portatiftir",
+          "Box type devices that contain the power source and ozone outlet reservoir",
+          "Ozone generator with clean air source",
+          "With air-cooling",
+          "Includes venturi, check valve, air dryer unit and outlet hose",
+          "Portable",
+          "Ayarlanabilir ozon üretimi",
+          "Paslanmaz çelik dış kabin",
+          "65 lt hava pompası",
+          "Hava soğutmalıdır",
+          "Hava kaynaklı ve oksijen kaynaklı kullanılabilir",
+          "Portatiftir",
+          "Adjustable ozone output",
+          "Stainless steel outer cabinet",
+          "Containing 65 lt air compressor inside",
+          "With air-cooling",
+          "Both air source and oxygen source are acceptable",
+          "Portable"
+        ],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_9728",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "MODEL",
+            "HAVUZ HACMI POOL VOLUME",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "15522123001",
+              "0,5 gr/h",
+              "50m³",
+              "853 €"
+            ],
+            [
+              "15522123002",
+              "1 gr/h",
+              "100m³",
+              "1.558 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_9761",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "MODEL",
+            "HAVUZ HACMI POOL VOLUME",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "15522123014",
+              "3 gr/h",
+              "300m³",
+              "2.084 €"
+            ],
+            [
+              "15522123004",
+              "5 gr/h",
+              "500m³",
+              "2.547 €"
+            ],
+            [
+              "15522123010",
+              "10 gr/h",
+              "1.000m³",
+              "3.263 €"
+            ],
+            [
+              "15522123005",
+              "20 gr/h",
+              "--",
+              "--"
+            ],
+            [
+              "15522123006",
+              "30 gr/h",
+              "--",
+              "--"
+            ],
+            [
+              "15522123007",
+              "50 gr/h",
+              "--",
+              "--"
+            ],
+            [
+              "15522123009",
+              "80 gr/h",
+              "--",
+              "--"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "efe823e672df5a93a45da0957ea9f084_img.jpg",
+          "alt": "A black and silver box-type ozone generator unit with a cylindrical component on top and a power cord.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "c30b2d6a4130c10d5cd845b37b8b5636_img.jpg",
+          "alt": "Istanbul Aquarium logo with text 'Dünyanın En Büyük Tematik Akvaryumu'",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "7baedf330915333fe31f2d1e79bb1e7d_img.jpg",
+          "alt": "Two ozone generator units: a smaller blue one and a larger silver one, both with control panels and handles.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "171083399e4f7881bd60dd3e8f037500_img.jpg",
+          "alt": "Compact Model pump unit",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "15522123001",
+          "price": "853 €",
+          "price_eur": 853.0,
+          "values": {
+            "code": "15522123001",
+            "model": "0,5 gr/h",
+            "pool_volume": "50m³",
+            "price": "853 €",
+            "price_eur": 853.0
+          }
+        },
+        {
+          "code": "15522123002",
+          "price": "1.558 €",
+          "price_eur": 1558.0,
+          "values": {
+            "code": "15522123002",
+            "model": "1 gr/h",
+            "pool_volume": "100m³",
+            "price": "1.558 €",
+            "price_eur": 1558.0
+          }
+        },
+        {
+          "code": "15522123014",
+          "price": "2.084 €",
+          "price_eur": 2084.0,
+          "values": {
+            "code": "15522123014",
+            "model": "3 gr/h",
+            "pool_volume": "300m³",
+            "price": "2.084 €",
+            "price_eur": 2084.0
+          }
+        },
+        {
+          "code": "15522123004",
+          "price": "2.547 €",
+          "price_eur": 2547.0,
+          "values": {
+            "code": "15522123004",
+            "model": "5 gr/h",
+            "pool_volume": "500m³",
+            "price": "2.547 €",
+            "price_eur": 2547.0
+          }
+        },
+        {
+          "code": "15522123010",
+          "price": "3.263 €",
+          "price_eur": 3263.0,
+          "values": {
+            "code": "15522123010",
+            "model": "10 gr/h",
+            "pool_volume": "1.000m³",
+            "price": "3.263 €",
+            "price_eur": 3263.0
+          }
+        },
+        {
+          "code": "15522123005",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "15522123005",
+            "model": "20 gr/h",
+            "pool_volume": "--",
+            "price": "--"
+          }
+        },
+        {
+          "code": "15522123006",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "15522123006",
+            "model": "30 gr/h",
+            "pool_volume": "--",
+            "price": "--"
+          }
+        },
+        {
+          "code": "15522123007",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "15522123007",
+            "model": "50 gr/h",
+            "pool_volume": "--",
+            "price": "--"
+          }
+        },
+        {
+          "code": "15522123009",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "15522123009",
+            "model": "80 gr/h",
+            "pool_volume": "--",
+            "price": "--"
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "kompact-model",
+      "family_title_tr": "Kompact Model",
+      "family_title_en": "Kompact Model",
+      "family_description_tr": "Compact DRP 200 Model pump unit",
+      "family_line_count": 21,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_9779",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "DEBİ Lt / h FLOW Lt / h",
+            "BASINÇ POWER",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "15515253088",
+              "5",
+              "8",
+              "290 €"
+            ],
+            [
+              "15515253089",
+              "3",
+              "10",
+              "280 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "292c3c4a2bb379716011f521b549201c_img.jpg",
+          "alt": "Compact DRP 200 Model pump unit",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "15515253088",
+          "price": "290 €",
+          "price_eur": 290.0,
+          "values": {
+            "code": "15515253088",
+            "flow_lt_h": "5",
+            "power": "8",
+            "price": "290 €",
+            "price_eur": 290.0
+          }
+        },
+        {
+          "code": "15515253089",
+          "price": "280 €",
+          "price_eur": 280.0,
+          "values": {
+            "code": "15515253089",
+            "flow_lt_h": "3",
+            "power": "10",
+            "price": "280 €",
+            "price_eur": 280.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "kompact-drp-200-model",
+      "family_title_tr": "Kompact DRP 200 Model",
+      "family_title_en": "Kompact DRP 200 Model",
+      "family_description_tr": "TRP 603 Model pump unit",
+      "family_line_count": 18,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_9801",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "DEBİ Lt / h FLOW Lt / h",
+            "BASINÇ POWER",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "15515253056",
+              "5",
+              "8",
+              "710 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "606d6ffeb70d4bb1b7636a80749bf134_img.jpg",
+          "alt": "TRP 603 Model pump unit",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "15515253056",
+          "price": "710 €",
+          "price_eur": 710.0,
+          "values": {
+            "code": "15515253056",
+            "flow_lt_h": "5",
+            "power": "8",
+            "price": "710 €",
+            "price_eur": 710.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "trp-603-model",
+      "family_title_tr": "TRP 603 Model",
+      "family_title_en": "TRP 603 Model",
+      "family_description_tr": "Tekna Evo AKS Model pump unit",
+      "family_line_count": 22,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_9820",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "DEBİ Lt / h FLOW Lt / h",
+            "BASINÇ POWER",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "15515253073",
+              "8",
+              "2",
+              "1.300 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "44b18f722573738f0678f33ac1428ef9_img.jpg",
+          "alt": "Tekna Evo AKS Model pump unit",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "15515253073",
+          "price": "1.300 €",
+          "price_eur": 1300.0,
+          "values": {
+            "code": "15515253073",
+            "flow_lt_h": "8",
+            "power": "2",
+            "price": "1.300 €",
+            "price_eur": 1300.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "tekna-evo-aks-model",
+      "family_title_tr": "Tekna Evo AKS Model",
+      "family_title_en": "Tekna Evo AKS Model",
+      "family_description_tr": "",
+      "family_line_count": 14,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_9843",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "MODEL",
+            "DEBİ Lt / h FLOW Lt / h",
+            "BASINÇ POWER",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "15515253053",
+              "AKS 603",
+              "5",
+              "10",
+              "425 €"
+            ],
+            [
+              "15515253070",
+              "AKS 800",
+              "10",
+              "10",
+              "570 €"
+            ],
+            [
+              "15515253069",
+              "AKS 803",
+              "15",
+              "5",
+              "735 €"
+            ]
+          ]
+        }
+      ],
+      "images": [],
+      "variants": [
+        {
+          "code": "15515253053",
+          "price": "425 €",
+          "price_eur": 425.0,
+          "values": {
+            "code": "15515253053",
+            "model": "AKS 603",
+            "flow_lt_h": "5",
+            "power": "10",
+            "price": "425 €",
+            "price_eur": 425.0
+          }
+        },
+        {
+          "code": "15515253070",
+          "price": "570 €",
+          "price_eur": 570.0,
+          "values": {
+            "code": "15515253070",
+            "model": "AKS 800",
+            "flow_lt_h": "10",
+            "power": "10",
+            "price": "570 €",
+            "price_eur": 570.0
+          }
+        },
+        {
+          "code": "15515253069",
+          "price": "735 €",
+          "price_eur": 735.0,
+          "values": {
+            "code": "15515253069",
+            "model": "AKS 803",
+            "flow_lt_h": "15",
+            "power": "5",
+            "price": "735 €",
+            "price_eur": 735.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "pool-dose-panel",
+      "family_title_tr": "Pool Dose Panel",
+      "family_title_en": "Pool Dose Panel",
+      "family_description_tr": "Kemidose Panel system including a blue control unit, two blue filter cartridges, and three calibration bottles.",
+      "family_line_count": 17,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {
+        "max_pressure_bar": 1.5
+      },
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_9866",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "MAX. HAVUZ HACMI MAX. POOL VOLUME",
+            "POMPA KAPASİTESİ PUMP CAPACITY",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "15515253075",
+              "100 m³",
+              "5 Lt / 1,5 bar",
+              "1.510 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "e3dc1a5935337db155b97d1a066fa33e_img.jpg",
+          "alt": "Kemidose Panel system including a blue control unit, two blue filter cartridges, and three calibration bottles.",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "15515253075",
+          "price": "1.510 €",
+          "price_eur": 1510.0,
+          "values": {
+            "code": "15515253075",
+            "max_pool_volume": "100 m³",
+            "pump_capacity": "5 Lt / 1,5 bar",
+            "price": "1.510 €",
+            "price_eur": 1510.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "kemidose-panel",
+      "family_title_tr": "Kemidose Panel",
+      "family_title_en": "Kemidose Panel",
+      "family_description_tr": "",
+      "family_line_count": 13,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {
+        "max_pressure_bar": 1.5
+      },
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_9884",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "MAX. HAVUZ HACMI MAX. POOL VOLUME",
+            "POMPA KAPASİTESİ PUMP CAPACITY",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "15515253080",
+              "450 m³",
+              "5 Lt / 1,5 bar",
+              "1.565 €"
+            ]
+          ]
+        }
+      ],
+      "images": [],
+      "variants": [
+        {
+          "code": "15515253080",
+          "price": "1.565 €",
+          "price_eur": 1565.0,
+          "values": {
+            "code": "15515253080",
+            "max_pool_volume": "450 m³",
+            "pump_capacity": "5 Lt / 1,5 bar",
+            "price": "1.565 €",
+            "price_eur": 1565.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "evo-basic-panel",
+      "family_title_tr": "Evo Basic Panel",
+      "family_title_en": "Evo Basic Panel",
+      "family_description_tr": "AKS 800 / 803 Panel system components including a main control unit and two smaller modules.",
+      "family_line_count": 17,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_9906",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "MAX. HAVUZ HACMİ MAX. POOL VOLUME",
+            "POMPA KAPASİTESİ PUMP CAPACITY",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "15515253077",
+              "500 m 3",
+              "5 lt / 8 bar",
+              "1.970 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "7eb16b2c996a76b208bab4daeb9c0975_img.jpg",
+          "alt": "AKS 800 / 803 Panel system components including a main control unit and two smaller modules.",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "15515253077",
+          "price": "1.970 €",
+          "price_eur": 1970.0,
+          "values": {
+            "code": "15515253077",
+            "max_pool_volume": "500 m 3",
+            "pump_capacity": "5 lt / 8 bar",
+            "price": "1.970 €",
+            "price_eur": 1970.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "aks-800-803-panel",
+      "family_title_tr": "AKS 800 / 803 Panel",
+      "family_title_en": "AKS 800 / 803 Panel",
+      "family_description_tr": "",
+      "family_line_count": 12,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_9924",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "MODEL",
+            "MAX. HAVUZ HACMİ MAX. POOL VOLUME",
+            "POMPA KAPASİTESİ PUMP CAPACITY",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "15515253063",
+              "AKS 800",
+              "1.500 m 3",
+              "10 Lt / 10 bar",
+              "2.890 €"
+            ],
+            [
+              "15515253061",
+              "AKS 803",
+              "2.500 m 3",
+              "10 Lt / 10 bar",
+              "3.250 €"
+            ]
+          ]
+        }
+      ],
+      "images": [],
+      "variants": [
+        {
+          "code": "15515253063",
+          "price": "2.890 €",
+          "price_eur": 2890.0,
+          "values": {
+            "code": "15515253063",
+            "model": "AKS 800",
+            "max_pool_volume": "1.500 m 3",
+            "pump_capacity": "10 Lt / 10 bar",
+            "price": "2.890 €",
+            "price_eur": 2890.0
+          }
+        },
+        {
+          "code": "15515253061",
+          "price": "3.250 €",
+          "price_eur": 3250.0,
+          "values": {
+            "code": "15515253061",
+            "model": "AKS 803",
+            "max_pool_volume": "2.500 m 3",
+            "pump_capacity": "10 Lt / 10 bar",
+            "price": "3.250 €",
+            "price_eur": 3250.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "k-800-cl-panel",
+      "family_title_tr": "K 800 CL Panel",
+      "family_title_en": "K 800 CL Panel",
+      "family_description_tr": "AKL 800 / 803 Panel system showing a control unit, two dosing pumps, and two blue filter cartridges.",
+      "family_line_count": 19,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_9945",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "MAX. HAVUZ HACMİ MAX. POOL VOLUME",
+            "POMPA KAPASİTESİ PUMP CAPACITY",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "15515253074",
+              "1.500 m 3",
+              "10 Lt / 10 bar",
+              "6.255 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "25c1016d5772d0e57c5f5e2595e4fa66_img.jpg",
+          "alt": "AKL 800 / 803 Panel system showing a control unit, two dosing pumps, and two blue filter cartridges.",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "15515253074",
+          "price": "6.255 €",
+          "price_eur": 6255.0,
+          "values": {
+            "code": "15515253074",
+            "max_pool_volume": "1.500 m 3",
+            "pump_capacity": "10 Lt / 10 bar",
+            "price": "6.255 €",
+            "price_eur": 6255.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "akl-800-803-panel",
+      "family_title_tr": "AKL 800 / 803 Panel",
+      "family_title_en": "AKL 800 / 803 Panel",
+      "family_description_tr": "",
+      "family_line_count": 14,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_9965",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "MODEL",
+            "MAX. HAVUZ HACMİ MAX. POOL VOLUME",
+            "POMPA KAPASİTESİ PUMP CAPACITY",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "15515253062",
+              "AKL 800",
+              "1.500 m 3",
+              "10 Lt / 10 bar",
+              "2.960 €"
+            ],
+            [
+              "15515253060",
+              "AKL 803",
+              "2.500 m 3",
+              "10 Lt / 10 bar",
+              "3.380 €"
+            ]
+          ]
+        }
+      ],
+      "images": [],
+      "variants": [
+        {
+          "code": "15515253062",
+          "price": "2.960 €",
+          "price_eur": 2960.0,
+          "values": {
+            "code": "15515253062",
+            "model": "AKL 800",
+            "max_pool_volume": "1.500 m 3",
+            "pump_capacity": "10 Lt / 10 bar",
+            "price": "2.960 €",
+            "price_eur": 2960.0
+          }
+        },
+        {
+          "code": "15515253060",
+          "price": "3.380 €",
+          "price_eur": 3380.0,
+          "values": {
+            "code": "15515253060",
+            "model": "AKL 803",
+            "max_pool_volume": "2.500 m 3",
+            "pump_capacity": "10 Lt / 10 bar",
+            "price": "3.380 €",
+            "price_eur": 3380.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "poolone-peristaltik-dozaj-pompas-poolone-peristaltic-dosing-",
+      "family_title_tr": "Poolone Peristaltik Dozaj Pompası Poolone Peristaltic Dosing Pump",
+      "family_title_en": "Poolone Peristaltik Dozaj Pompası Poolone Peristaltic Dosing Pump",
+      "family_description_tr": "Compact DRP 200 Model Set",
+      "family_line_count": 18,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {
+        "max_pressure_bar": 1.5
+      },
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_9988",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "MODEL",
+            "KAPASİTE CAPACITY",
+            "BASINÇ PRESSURE",
+            "ÖLÇÜM ARALIĞI MEASURING RANGE",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "164252005",
+              "Poolone",
+              "1,5 L/ h",
+              "1,5 bar",
+              "6,6 - 8 pH",
+              "520 €"
+            ],
+            [
+              "164252006",
+              "Poolone",
+              "1,5 L/ h",
+              "1,5 bar",
+              "0 - 1000 mV",
+              "520 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "f8202d7115bd36c30c89c5d27781b378_img.jpg",
+          "alt": "Compact DRP 200 Model Set",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "164252005",
+          "price": "520 €",
+          "price_eur": 520.0,
+          "values": {
+            "code": "164252005",
+            "model": "Poolone",
+            "capacity": "1,5 L/ h",
+            "pressure": "1,5 bar",
+            "measuring_range": "6,6 - 8 pH",
+            "price": "520 €",
+            "price_eur": 520.0
+          }
+        },
+        {
+          "code": "164252006",
+          "price": "520 €",
+          "price_eur": 520.0,
+          "values": {
+            "code": "164252006",
+            "model": "Poolone",
+            "capacity": "1,5 L/ h",
+            "pressure": "1,5 bar",
+            "measuring_range": "0 - 1000 mV",
+            "price": "520 €",
+            "price_eur": 520.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "kompact-drp-200-model-set",
+      "family_title_tr": "Kompact DRP 200 Model Set",
+      "family_title_en": "Kompact DRP 200 Model Set",
+      "family_description_tr": "",
+      "family_line_count": 15,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_10007",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "DEBİ Lt / h FLOW Lt / h",
+            "BASINÇ BAR PRESSURE",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "15515253090",
+              "5",
+              "8",
+              "1.010 €"
+            ]
+          ]
+        }
+      ],
+      "images": [],
+      "variants": [
+        {
+          "code": "15515253090",
+          "price": "1.010 €",
+          "price_eur": 1010.0,
+          "values": {
+            "code": "15515253090",
+            "flow_lt_h": "5",
+            "pressure_bar": "8",
+            "price": "1.010 €",
+            "price_eur": 1010.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "emi-filtresi-ve-ekvalfi-suction-filter-and-check-valve",
+      "family_title_tr": "Emiş Filtresi ve Çekvalfi Suction Filter and Check Valve",
+      "family_title_en": "Basma Çekvalfi Discharge Check Valve",
+      "family_description_tr": "PVDF-T'den üretilmiştir.",
+      "family_line_count": 25,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_10031",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "19818253019",
+              "45 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_10044",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "19818253020",
+              "35 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "48bd6a23b14ac3306ca2b1778471ac9f_img.jpg",
+          "alt": "Discharge Check Valve",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "5ba9c1f170a149297a9b44fc85c1458a_img.jpg",
+          "alt": "Calibration Fluid Kit",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "19818253019",
+          "price": "45 €",
+          "price_eur": 45.0,
+          "values": {
+            "code": "19818253019",
+            "price": "45 €",
+            "price_eur": 45.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "basma-ekvalfi-discharge-check-valve",
+      "family_title_tr": "Basma Çekvalfi Discharge Check Valve",
+      "family_title_en": "Basma Çekvalfi Discharge Check Valve",
+      "family_description_tr": "PVDF-T'den üretilmiştir.",
+      "family_line_count": 12,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_10044",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "19818253020",
+              "35 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "5ba9c1f170a149297a9b44fc85c1458a_img.jpg",
+          "alt": "Calibration Fluid Kit",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "19818253020",
+          "price": "35 €",
+          "price_eur": 35.0,
+          "values": {
+            "code": "19818253020",
+            "price": "35 €",
+            "price_eur": 35.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "kalibrasyon-s-v-lar-calibration-fluid-kit",
+      "family_title_tr": "Kalibrasyon Sıvıları Calibration Fluid Kit",
+      "family_title_en": "Kalibrasyon Sıvıları Calibration Fluid Kit",
+      "family_description_tr": "MpH4 ve pH7 kalibrasyon sıvısı ve 465 mV ORP kalibrasyon sıvısından oluşur.",
+      "family_line_count": 13,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_10057",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "TANIM DESCRIPTION",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "19818002003",
+              "Ph Kalibrasyon Sıvısı (4-7) Ph Calibration Liquid (4-7)",
+              "45 €"
+            ],
+            [
+              "19818002004",
+              "ORP Kalibrasyon Sıvısı (465 mV) ORP Calibration Liquid (465 mV)",
+              "30 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "7f993731ed25fe798ea227aad05749ad_img.jpg",
+          "alt": "PH Probe",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "19818002003",
+          "price": "45 €",
+          "price_eur": 45.0,
+          "values": {
+            "code": "19818002003",
+            "description": "Ph Kalibrasyon Sıvısı (4-7) Ph Calibration Liquid (4-7)",
+            "price": "45 €",
+            "price_eur": 45.0
+          }
+        },
+        {
+          "code": "19818002004",
+          "price": "30 €",
+          "price_eur": 30.0,
+          "values": {
+            "code": "19818002004",
+            "description": "ORP Kalibrasyon Sıvısı (465 mV) ORP Calibration Liquid (465 mV)",
+            "price": "30 €",
+            "price_eur": 30.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "ph-probu-ph-probe",
+      "family_title_tr": "PH Probu PH Probe",
+      "family_title_en": "PH Probu PH Probe",
+      "family_description_tr": "Epoksi gövde, 60°C'ye kadar çalışabilme özelliği.",
+      "family_line_count": 9,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_10071",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "TANIM DESCRIPTION",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "19818253021",
+              "6 mt Kablolu 6 mt Cable Lenght",
+              "250 €"
+            ],
+            [
+              "19818253022",
+              "1,5 mt Kablolu 1,5 mt Cable Lenght",
+              "220 €"
+            ]
+          ]
+        }
+      ],
+      "images": [],
+      "variants": [
+        {
+          "code": "19818253021",
+          "price": "250 €",
+          "price_eur": 250.0,
+          "values": {
+            "code": "19818253021",
+            "description": "6 mt Kablolu 6 mt Cable Lenght",
+            "price": "250 €",
+            "price_eur": 250.0
+          }
+        },
+        {
+          "code": "19818253022",
+          "price": "220 €",
+          "price_eur": 220.0,
+          "values": {
+            "code": "19818253022",
+            "description": "1,5 mt Kablolu 1,5 mt Cable Lenght",
+            "price": "220 €",
+            "price_eur": 220.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "orp-elektrotu-orp-electrode",
+      "family_title_tr": "ORP Elektrotu ORP Electrode",
+      "family_title_en": "ORP Elektrotu ORP Electrode",
+      "family_description_tr": "Epoksi gövde, 60°C'ye kadar çalışabilme özelliği.",
+      "family_line_count": 13,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_10089",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "TANIM DESCRIPTION",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "19818253023",
+              "6 mt Kablolu 6 mt Cable Lenght",
+              "265 €"
+            ],
+            [
+              "19818253024",
+              "1,5 mt Kablolu 1,5 mt Cable Lenght",
+              "235 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "524c59ee382b3399639edb806af97da8_img.jpg",
+          "alt": "Seviye Sensörü (Level Sensor) showing a black cable and a white sensor probe.",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "19818253023",
+          "price": "265 €",
+          "price_eur": 265.0,
+          "values": {
+            "code": "19818253023",
+            "description": "6 mt Kablolu 6 mt Cable Lenght",
+            "price": "265 €",
+            "price_eur": 265.0
+          }
+        },
+        {
+          "code": "19818253024",
+          "price": "235 €",
+          "price_eur": 235.0,
+          "values": {
+            "code": "19818253024",
+            "description": "1,5 mt Kablolu 1,5 mt Cable Lenght",
+            "price": "235 €",
+            "price_eur": 235.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "seviye-sens-r-level-sensor",
+      "family_title_tr": "Seviye Sensörü Level Sensor",
+      "family_title_en": "Seviye Sensörü Level Sensor",
+      "family_description_tr": "Karıştırma tankındaki kimyasalın seviyesini kontrol eden ve bittiğinde uyarı veren sensördür.",
+      "family_line_count": 12,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_10103",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "TANIM DESCRIPTION",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "19818253027",
+              "6 mt Kablolu 6 mt Cable Lenght",
+              "70 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "f6a679954b97a1593cf4a15cd2d6d7c5_img.jpg",
+          "alt": "Prob Tutucuları (Probe Holder) showing a blue and white plastic holder with a probe.",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "19818253027",
+          "price": "70 €",
+          "price_eur": 70.0,
+          "values": {
+            "code": "19818253027",
+            "description": "6 mt Kablolu 6 mt Cable Lenght",
+            "price": "70 €",
+            "price_eur": 70.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "prob-tutucular-probe-holder",
+      "family_title_tr": "Prob Tutucuları Probe Holder",
+      "family_title_en": "Prob Tutucuları Probe Holder",
+      "family_description_tr": "Klorinatör (Chlorinator) showing a black and green plastic device with a handle and a valve.",
+      "family_line_count": 10,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_10116",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "TANIM DESCRIPTION",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "19818253025",
+              "By-Pass Tip Hazneli Prob Tutucu (5\" hazneli pislik tutucu ön filtre) Probe Holder with By-Pass type housing",
+              "140 €"
+            ],
+            [
+              "19818253026",
+              "Hat Tip Prob Tutucu Probe Holder with Line Type",
+              "35 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "dc78068880d7a9411e4692fe26a0836a_img.jpg",
+          "alt": "Klorinatör (Chlorinator) showing a black and green plastic device with a handle and a valve.",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "19818253025",
+          "price": "140 €",
+          "price_eur": 140.0,
+          "values": {
+            "code": "19818253025",
+            "description": "By-Pass Tip Hazneli Prob Tutucu (5\" hazneli pislik tutucu ön filtre) Probe Holder with By-Pass type housing",
+            "price": "140 €",
+            "price_eur": 140.0
+          }
+        },
+        {
+          "code": "19818253026",
+          "price": "35 €",
+          "price_eur": 35.0,
+          "values": {
+            "code": "19818253026",
+            "description": "Hat Tip Prob Tutucu Probe Holder with Line Type",
+            "price": "35 €",
+            "price_eur": 35.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "klorinat-r-chlorinator",
+      "family_title_tr": "Klorinatör Chlorinator",
+      "family_title_en": "Klorinatör Chlorinator",
+      "family_description_tr": "ABS plastik enjeksiyon gövde, 4 kg tablet kapasitesi, vanalı çıkış ile dozaj ayarı.",
+      "family_line_count": 9,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_10127",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "MODEL",
+            "BAĞLANTI mm CONNECTION mm",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "02099002419",
+              "Online 4 Kg",
+              "1 ½\"",
+              "72 €"
+            ],
+            [
+              "02099002420",
+              "Online 4 Kg",
+              "1 ½\"",
+              "72 €"
+            ]
+          ]
+        }
+      ],
+      "images": [],
+      "variants": [
+        {
+          "code": "02099002419",
+          "price": "72 €",
+          "price_eur": 72.0,
+          "values": {
+            "code": "02099002419",
+            "model": "Online 4 Kg",
+            "connection_mm": "1 ½\"",
+            "price": "72 €",
+            "price_eur": 72.0
+          }
+        },
+        {
+          "code": "02099002420",
+          "price": "72 €",
+          "price_eur": 72.0,
+          "values": {
+            "code": "02099002420",
+            "model": "Online 4 Kg",
+            "connection_mm": "1 ½\"",
+            "price": "72 €",
+            "price_eur": 72.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "chemical-mixing-tank",
+      "family_title_tr": "Chemical Mixing Tank",
+      "family_title_en": "Chemical Mixing Tank",
+      "family_description_tr": "A white plastic chemical mixing tank with a red cap.",
+      "family_line_count": 19,
+      "qualitative": {
+        "bullets_tr": [
+          "Polietilenden üretilmiştir",
+          "Kimyasal maddelerin seyreltilip karıştırıldığı tanktır",
+          "Kimyasallara ve UV ışınlarına karşı dayanıklıdır",
+          "Made of polyethylene",
+          "It is a tank where the chemicals are diluted and mixed",
+          "Resistant to chemicals and UV rays"
+        ],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_10143",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "MODEL",
+            "KAPASİTE CAPACITY",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "15518002001",
+              "DD 100.A",
+              "100 lt",
+              "70 €"
+            ],
+            [
+              "15518002002",
+              "DD 200.A",
+              "200 lt",
+              "110 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "0fa729588727923c923952d3401a049d_img.jpg",
+          "alt": "A white plastic chemical mixing tank with a red cap.",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "15518002001",
+          "price": "70 €",
+          "price_eur": 70.0,
+          "values": {
+            "code": "15518002001",
+            "model": "DD 100.A",
+            "capacity": "100 lt",
+            "price": "70 €",
+            "price_eur": 70.0
+          }
+        },
+        {
+          "code": "15518002002",
+          "price": "110 €",
+          "price_eur": 110.0,
+          "values": {
+            "code": "15518002002",
+            "model": "DD 200.A",
+            "capacity": "200 lt",
+            "price": "110 €",
+            "price_eur": 110.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "motorized-mixing-tank",
+      "family_title_tr": "Motorized Mixing Tank",
+      "family_title_en": "Motorized Mixing Tank",
+      "family_description_tr": "A white plastic motorized mixing tank with a red cap and a motor unit attached to the side. The tank is labeled '100 LT' and 'water fun'.",
+      "family_line_count": 19,
+      "qualitative": {
+        "bullets_tr": [
+          "Polietilenden üretilmiştir",
+          "Otomatik karıştırmayı sağlayacak motor",
+          "AISI 316 paslanmaz çelik pervane ve mili ile beraber teslim edilir",
+          "Made of polyethylene",
+          "Automatic mixing motor",
+          "Delivered with AISI 316 stainless steel impeller and shaft"
+        ],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_10165",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "MODEL",
+            "KAPASİTE CAPACITY",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "15518002004",
+              "MK 100.A",
+              "100 lt",
+              "790 €"
+            ],
+            [
+              "15518002005",
+              "MK 200.A",
+              "200 lt",
+              "865 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "33d073c8f6c99f2faacb20969ca3f26d_img.jpg",
+          "alt": "A white plastic motorized mixing tank with a red cap and a motor unit attached to the side. The tank is labeled '100 LT' and 'water fun'.",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "15518002004",
+          "price": "790 €",
+          "price_eur": 790.0,
+          "values": {
+            "code": "15518002004",
+            "model": "MK 100.A",
+            "capacity": "100 lt",
+            "price": "790 €",
+            "price_eur": 790.0
+          }
+        },
+        {
+          "code": "15518002005",
+          "price": "865 €",
+          "price_eur": 865.0,
+          "values": {
+            "code": "15518002005",
+            "model": "MK 200.A",
+            "capacity": "200 lt",
+            "price": "865 €",
+            "price_eur": 865.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "chemical-mixer",
+      "family_title_tr": "Chemical Mixer",
+      "family_title_en": "Chemical Mixer",
+      "family_description_tr": "A chemical mixer unit consisting of a motor and a long shaft with a mixing rod.",
+      "family_line_count": 11,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_10187",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "ÜRÜN İSMİ PRODUCT NAME",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "164002024",
+              "Kimyasal karıştırıcı motoru 0,18 kw Mixer for tank chemical low rpm",
+              "--"
+            ],
+            [
+              "164002018",
+              "Kimyasal karıştırıcı çubuk paslanmaz Chemical stirring rod stainless",
+              "--"
+            ],
+            [
+              "KİM-KAR-ÇUBUK",
+              "Kimyasal karıştırıcı çubuk plastik Chemical stirring rod plastic",
+              "--"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "1765c12548950c1322e32c8eaa05840c_img.jpg",
+          "alt": "A chemical mixer unit consisting of a motor and a long shaft with a mixing rod.",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "164002024",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "164002024",
+            "product_name": "Kimyasal karıştırıcı motoru 0,18 kw Mixer for tank chemical low rpm",
+            "price": "--"
+          }
+        },
+        {
+          "code": "164002018",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "164002018",
+            "product_name": "Kimyasal karıştırıcı çubuk paslanmaz Chemical stirring rod stainless",
+            "price": "--"
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "dispenser",
+      "family_title_tr": "Dispenser",
+      "family_title_en": "Dispenser",
+      "family_description_tr": "Mini model dispenser",
+      "family_line_count": 26,
+      "qualitative": {
+        "bullets_tr": [
+          "ABS plastik enjeksiyondan üretilmiştir",
+          "Tablet klorun havuz suyuna kademeli verilmesini sağlar",
+          "Produced from ABS plastic injection",
+          "Provides gradual delivery of tablet chlorine to the pool water"
+        ],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_10207",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "MODEL",
+            "TABLET KAPASİTE TABLET CARRYING CAPACITY",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "15517123001",
+              "72.D",
+              "1 Kg",
+              "6.10 €"
+            ],
+            [
+              "15517123002",
+              "Mini",
+              "200 Gr",
+              "4.00 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "625d1a3f96b1d8f99a23fdaf0720608a_img.jpg",
+          "alt": "Mini model dispenser",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "45d18a07599c03504bb0495c2f7fdf71_img.jpg",
+          "alt": "72.D model dispenser",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "15517123001",
+          "price": "6.10 €",
+          "price_eur": 6.1,
+          "values": {
+            "code": "15517123001",
+            "model": "72.D",
+            "tablet_carrying_capacity": "1 Kg",
+            "price": "6.10 €",
+            "price_eur": 6.1
+          }
+        },
+        {
+          "code": "15517123002",
+          "price": "4.00 €",
+          "price_eur": 4.0,
+          "values": {
+            "code": "15517123002",
+            "model": "Mini",
+            "tablet_carrying_capacity": "200 Gr",
+            "price": "4.00 €",
+            "price_eur": 4.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "ayak-y-kama-teknesi-foot-washing-basin",
+      "family_title_tr": "Ayak Yıkama Teknesi Foot Washing Basin",
+      "family_title_en": "Ayak Yıkama Teknesi Foot Washing Basin",
+      "family_description_tr": "Two blue foot washing basins, one rectangular and one square.",
+      "family_line_count": 21,
+      "qualitative": {
+        "bullets_tr": [
+          "Polyesterden üretilmiştir",
+          "Kaydırmaz yüzeylidir",
+          "Plastikten üretilmiştir (Kod: 19818123007)",
+          "Made of polyester",
+          "Non-slip surface",
+          "Made of plastic (Code: 19818123007)"
+        ],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_10226",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "ÜRÜN ÖLÇÜLERİ Cm PRODUCT SIZES Cm",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "19818123007 (Plastik Plastic)",
+              "31x36",
+              "--"
+            ],
+            [
+              "19818122003",
+              "48x31",
+              "60 €"
+            ],
+            [
+              "19818122002",
+              "70x45",
+              "80 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "2900c7881a6f000b9e635d369731a903_img.jpg",
+          "alt": "Two blue foot washing basins, one rectangular and one square.",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "19818123007",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "19818123007 (Plastik Plastic)",
+            "product_sizes_cm": "31x36",
+            "price": "--"
+          }
+        },
+        {
+          "code": "19818122003",
+          "price": "60 €",
+          "price_eur": 60.0,
+          "values": {
+            "code": "19818122003",
+            "product_sizes_cm": "48x31",
+            "price": "60 €",
+            "price_eur": 60.0
+          }
+        },
+        {
+          "code": "19818122002",
+          "price": "80 €",
+          "price_eur": 80.0,
+          "values": {
+            "code": "19818122002",
+            "product_sizes_cm": "70x45",
+            "price": "80 €",
+            "price_eur": 80.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "ph-otomatik-su-kalite-dedekt-r-oh-automatic-water-quality-de",
+      "family_title_tr": "PH Otomatik Su Kalite Dedektörü OH Automatic Water Quality Detector",
+      "family_title_en": "PH Otomatik Su Kalite Dedektörü OH Automatic Water Quality Detector",
+      "family_description_tr": "PH Otomatik Su Kalite Dedektörü kit including a yellow pen, a white box, and a small packet.",
+      "family_line_count": 9,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_10248",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "ÜRÜN İSMİ PRODUCT NAME",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "15519223003",
+              "Kalem Tipi PH Ölçer Pen Type Ph Meter",
+              "20 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "64e16092be0f1a6be76c22ed8ac83e35_img.jpg",
+          "alt": "PH Otomatik Su Kalite Dedektörü kit including a yellow pen, a white box, and a small packet.",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "15519223003",
+          "price": "20 €",
+          "price_eur": 20.0,
+          "values": {
+            "code": "15519223003",
+            "product_name": "Kalem Tipi PH Ölçer Pen Type Ph Meter",
+            "price": "20 €",
+            "price_eur": 20.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "test-kitleri-test-kits",
+      "family_title_tr": "Test Kitleri Test Kits",
+      "family_title_en": "Test Kitleri Test Kits",
+      "family_description_tr": "Image of a 2-way liquid test kit in a blue case.",
+      "family_line_count": 35,
+      "qualitative": {
+        "bullets_tr": [
+          "Havuz suyunun pH ve klor değerlerini ölçmek için kullanılır",
+          "Klor ve pH için 2 adet solüsyon içerir",
+          "Ölçüm aralığı: pH: 6.8- 8.2 / Ölçüm aralığı: Cl: 0.2- 1.0"
+        ],
+        "bullets_en": [
+          "Used to measure pH and chlorine values of pool water",
+          "Content of 2 solutions for chlorine and pH",
+          "Measuring range: pH: 6.8- 8.2 / Measuring range: Cl: 0.2- 1.0"
+        ],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_10264",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "MODEL",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "15519123001",
+              "2'li Sıvılı 2 Way Liquid",
+              "9 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_10272",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "MODEL",
+            "MARKA BRAND",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "15519223001",
+              "Haplı With Tablet",
+              "Image: MIDAS logo",
+              "13 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_10280",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "MODEL",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "15519123002",
+              "5'li Sıvılı 5 Way Liquid",
+              "15 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "3553c8096fb77ddb8017566c49c28333_img.jpg",
+          "alt": "Image of a 2-way liquid test kit in a blue case.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "fabd3c06ebe07e175f469e89ffa90b6a_img.jpg",
+          "alt": "Image of a test kit with tablets and a small container.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "893f9c61e24b9cbd4058577356a5f145_img.jpg",
+          "alt": "Image of a 5-way liquid test kit in a blue case.",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "15519123001",
+          "price": "9 €",
+          "price_eur": 9.0,
+          "values": {
+            "code": "15519123001",
+            "model": "2'li Sıvılı 2 Way Liquid",
+            "price": "9 €",
+            "price_eur": 9.0
+          }
+        },
+        {
+          "code": "15519223001",
+          "price": "13 €",
+          "price_eur": 13.0,
+          "values": {
+            "code": "15519223001",
+            "model": "Haplı With Tablet",
+            "brand": "Image: MIDAS logo",
+            "price": "13 €",
+            "price_eur": 13.0
+          }
+        },
+        {
+          "code": "15519123002",
+          "price": "15 €",
+          "price_eur": 15.0,
+          "values": {
+            "code": "15519123002",
+            "model": "5'li Sıvılı 5 Way Liquid",
+            "price": "15 €",
+            "price_eur": 15.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "test-ka-d-test-strips",
+      "family_title_tr": "Test Kağıdı Test Strips",
+      "family_title_en": "Test Kağıdı Test Strips",
+      "family_description_tr": "Image of a test strip container.",
+      "family_line_count": 13,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_10294",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "15519123005",
+              "10 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "9c2fe327a520d1ff48df79fb572580b4_img.jpg",
+          "alt": "Image of a test strip container.",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "15519123005",
+          "price": "10 €",
+          "price_eur": 10.0,
+          "values": {
+            "code": "15519123005",
+            "price": "10 €",
+            "price_eur": 10.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "test-kit-dpd1-and-phenol-tablets",
+      "family_title_tr": "Test Kit DPD1 and Phenol Tablets",
+      "family_title_en": "Test Kit DPD1 and Phenol Tablets",
+      "family_description_tr": "Two blister packs of test tablets: one for DPD1 and one for Phenol.",
+      "family_line_count": 19,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_10310",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "MODEL",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "TK-H-YED-DPD1",
+              "DPD1",
+              "1.50 €"
+            ],
+            [
+              "TK-H-YED-PH",
+              "PHENOL",
+              "1.50 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "9bc81a51a65bbce938c20f07da5355b5_img.jpg",
+          "alt": "Two blister packs of test tablets: one for DPD1 and one for Phenol.",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "1",
+          "price": "1.50 €",
+          "price_eur": 1.5,
+          "values": {
+            "code": "TK-H-YED-DPD1",
+            "model": "DPD1",
+            "price": "1.50 €",
+            "price_eur": 1.5
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "test-kit-with-liquid-set",
+      "family_title_tr": "Test Kit With Liquid Set",
+      "family_title_en": "Test Kit With Liquid Set",
+      "family_description_tr": "Two sets of liquid test reagents: a 2-line set and a 5-line set.",
+      "family_line_count": 17,
+      "qualitative": {
+        "bullets_tr": [
+          "2'li Set: pH ve klor ölçüm solüsyonu",
+          "5'li Set: pH, klor, brom, asit ihtiyacı ve alkalinite ölçüm solüsyonu",
+          "2-Pack: Solution for pH and chlorine testing",
+          "5-Pack: Solution for pH, chlorine, bromine, acid demand, and alkalinity testing"
+        ],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_10332",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "MODEL",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "15519123009",
+              "2'li Oto ve Phenol Yedek Sıvısı Oto &amp; Phenol Liquid 2 Line Set",
+              "5 €"
+            ],
+            [
+              "15519123008",
+              "5'li Yedek Sıvı 5 Line Set",
+              "6 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "a13c29e7512f1313bb1d46f2d050c8c1_img.jpg",
+          "alt": "Two sets of liquid test reagents: a 2-line set and a 5-line set.",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "15519123009",
+          "price": "5 €",
+          "price_eur": 5.0,
+          "values": {
+            "code": "15519123009",
+            "model": "2'li Oto ve Phenol Yedek Sıvısı Oto &amp; Phenol Liquid 2 Line Set",
+            "price": "5 €",
+            "price_eur": 5.0
+          }
+        },
+        {
+          "code": "15519123008",
+          "price": "6 €",
+          "price_eur": 6.0,
+          "values": {
+            "code": "15519123008",
+            "model": "5'li Yedek Sıvı 5 Line Set",
+            "price": "6 €",
+            "price_eur": 6.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "granular-salt",
+      "family_title_tr": "Granular Salt",
+      "family_title_en": "Granular Salt",
+      "family_description_tr": "A white bag of granular salt with the 'TUZ' logo.",
+      "family_line_count": 23,
+      "qualitative": {
+        "bullets_tr": [
+          "Su yumuşatma ve tuz klor jeneratörlerinde kullanılır",
+          "Used in water softening and salt chlorine generators"
+        ],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_10352",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "TANIM DESCRIPTION",
+            "AĞIRLIK WEIGHT",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "59915133012",
+              "Tuz Salt",
+              "25 kg",
+              "0,35 € / kg"
+            ],
+            [
+              "59915133010",
+              "Tuz Tablet Tablet Salt",
+              "25 kg",
+              "0,40 € / kg"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "569fd38f9e1ca8960a853af75d412f8e_img.jpg",
+          "alt": "A white bag of granular salt with the 'TUZ' logo.",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "5893b2e1ef8746038a98237f6ec543f9_img.jpg",
+          "alt": "A woman and a young child playing in a swimming pool.",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "59915133012",
+          "price": "0,35 € / kg",
+          "price_eur": 0.35,
+          "values": {
+            "code": "59915133012",
+            "description": "Tuz Salt",
+            "weight": "25 kg",
+            "price": "0,35 € / kg",
+            "price_eur": 0.35
+          }
+        },
+        {
+          "code": "59915133010",
+          "price": "0,40 € / kg",
+          "price_eur": 0.4,
+          "values": {
+            "code": "59915133010",
+            "description": "Tuz Tablet Tablet Salt",
+            "weight": "25 kg",
+            "price": "0,40 € / kg",
+            "price_eur": 0.4
+          }
+        }
+      ]
+    }
+  ]
+}

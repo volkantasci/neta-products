@@ -1,0 +1,2598 @@
+{
+  "category_no": "11",
+  "category_tr": "Sauna ve Buhar Ürünleri",
+  "category_en": "Sauna and Steam Products",
+  "family_count": 15,
+  "variant_count": 84,
+  "families": [
+    {
+      "family_product_id": "mw-model",
+      "family_title_tr": "Mw Model",
+      "family_title_en": "Mw Model",
+      "family_description_tr": "Two views of the Mw Model sauna heater, showing its compact design and wooden paneling.",
+      "family_line_count": 21,
+      "qualitative": {
+        "bullets_tr": [
+          "Kompakt tasarımıyla küçük saunalar için idealdir",
+          "Ahşap panelleriyle mekânda bütünlük sağlar",
+          "Üst bölümdeki kontrol düğmeleriyle kolay erişim sunar",
+          "Pratik kullanım ve montaj imkânı verir",
+          "Compact design, ideal for small saunas",
+          "Wooden panels ensure visual integrity",
+          "Easy access with top-mounted control knobs",
+          "Provides practical use and installation"
+        ],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_14332",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "GÜÇ POWER",
+            "TAŞ KAPASİTESİ STONE CAPACITY",
+            "SAUNA HACMİ SAUNA VOLUME",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "21015143014",
+              "3 kW",
+              "10 Kg",
+              "Max. 1,5-3 m³",
+              "302 €"
+            ],
+            [
+              "21015143013",
+              "3,6 kW",
+              "10 Kg",
+              "Max. 2-4,5 m³",
+              "312 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "68cd8aee2e6ba11f6139b7ce813044bd_img.jpg",
+          "alt": "Two views of the Mw Model sauna heater, showing its compact design and wooden paneling.",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "21015143014",
+          "price": "302 €",
+          "price_eur": 302.0,
+          "values": {
+            "code": "21015143014",
+            "power_w": "3 kW",
+            "stone_capacity": "10 Kg",
+            "sauna_volume": "Max. 1,5-3 m³",
+            "price": "302 €",
+            "price_eur": 302.0
+          }
+        },
+        {
+          "code": "21015143013",
+          "price": "312 €",
+          "price_eur": 312.0,
+          "values": {
+            "code": "21015143013",
+            "power_w": "3,6 kW",
+            "stone_capacity": "10 Kg",
+            "sauna_volume": "Max. 2-4,5 m³",
+            "price": "312 €",
+            "price_eur": 312.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "ftn-model",
+      "family_title_tr": "Ftn Model",
+      "family_title_en": "Ftn Model",
+      "family_description_tr": "Two views of the Ftn Model sauna heater, showing its stainless steel top cover and stone tray.",
+      "family_line_count": 30,
+      "qualitative": {
+        "bullets_tr": [
+          "Kontrol düğmeleriyle kolay kumanda",
+          "3 saate kadar kesintisiz çalışma",
+          "Özel boyalı gövde ile pas direnci",
+          "Paslanmaz çelik koruyucu üst başlık",
+          "Yüksek verimli özel rezistanslar",
+          "Aşırı ısınmada güvenlik termostatı",
+          "Geniş taş haznesi ile hızlı buharlaşma",
+          "Easy control with built-in knobs",
+          "Continuous operation up to 3 hours",
+          "Anti-corrosion coated body",
+          "Stainless steel top cover",
+          "High-efficiency heating elements",
+          "Safety thermostat against overheating",
+          "Large stone tray for rapid vaporization"
+        ],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_14360",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "GÜÇ POWER",
+            "TAŞ KAPASİTESİ STONE CAPACITY",
+            "SAUNA HACMİ SAUNA VOLUME",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "21015143008",
+              "3 kW",
+              "20 Kg",
+              "Max. 2-4 m³",
+              "269 €"
+            ],
+            [
+              "21015143009",
+              "4,5 kW",
+              "20 Kg",
+              "Max. 3-6 m³",
+              "282 €"
+            ],
+            [
+              "21015143010",
+              "6 kW",
+              "20 Kg",
+              "Max. 5-9 m³",
+              "299 €"
+            ],
+            [
+              "21015143011",
+              "8 kW",
+              "20 Kg",
+              "Max. 8-12 m³",
+              "308 €"
+            ],
+            [
+              "21015143012",
+              "9 kW",
+              "20 Kg",
+              "Max. 9-13 m³",
+              "322 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "a97d220e374a21df1a8791d52425c87b_img.jpg",
+          "alt": "Two views of the Ftn Model sauna heater, showing its stainless steel top cover and stone tray.",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "21015143008",
+          "price": "269 €",
+          "price_eur": 269.0,
+          "values": {
+            "code": "21015143008",
+            "power_w": "3 kW",
+            "stone_capacity": "20 Kg",
+            "sauna_volume": "Max. 2-4 m³",
+            "price": "269 €",
+            "price_eur": 269.0
+          }
+        },
+        {
+          "code": "21015143009",
+          "price": "282 €",
+          "price_eur": 282.0,
+          "values": {
+            "code": "21015143009",
+            "power_w": "4,5 kW",
+            "stone_capacity": "20 Kg",
+            "sauna_volume": "Max. 3-6 m³",
+            "price": "282 €",
+            "price_eur": 282.0
+          }
+        },
+        {
+          "code": "21015143010",
+          "price": "299 €",
+          "price_eur": 299.0,
+          "values": {
+            "code": "21015143010",
+            "power_w": "6 kW",
+            "stone_capacity": "20 Kg",
+            "sauna_volume": "Max. 5-9 m³",
+            "price": "299 €",
+            "price_eur": 299.0
+          }
+        },
+        {
+          "code": "21015143011",
+          "price": "308 €",
+          "price_eur": 308.0,
+          "values": {
+            "code": "21015143011",
+            "power_w": "8 kW",
+            "stone_capacity": "20 Kg",
+            "sauna_volume": "Max. 8-12 m³",
+            "price": "308 €",
+            "price_eur": 308.0
+          }
+        },
+        {
+          "code": "21015143012",
+          "price": "322 €",
+          "price_eur": 322.0,
+          "values": {
+            "code": "21015143012",
+            "power_w": "9 kW",
+            "stone_capacity": "20 Kg",
+            "sauna_volume": "Max. 9-13 m³",
+            "price": "322 €",
+            "price_eur": 322.0
+          }
+        },
+        {
+          "code": "21016143044",
+          "price": "234 €",
+          "price_eur": 234.0,
+          "values": {
+            "code": "21016143044",
+            "power_w": "3 kW",
+            "stone_capacity": "20 Kg",
+            "sauna_volume": "Max. 2-4 m³",
+            "price": "234 €",
+            "price_eur": 234.0
+          }
+        },
+        {
+          "code": "21016143043",
+          "price": "239 €",
+          "price_eur": 239.0,
+          "values": {
+            "code": "21016143043",
+            "power_w": "4,5 kW",
+            "stone_capacity": "20 Kg",
+            "sauna_volume": "Max. 3-6 m³",
+            "price": "239 €",
+            "price_eur": 239.0
+          }
+        },
+        {
+          "code": "21016143042",
+          "price": "250 €",
+          "price_eur": 250.0,
+          "values": {
+            "code": "21016143042",
+            "power_w": "6 kW",
+            "stone_capacity": "20 Kg",
+            "sauna_volume": "Max. 5-9 m³",
+            "price": "250 €",
+            "price_eur": 250.0
+          }
+        },
+        {
+          "code": "21016143041",
+          "price": "270 €",
+          "price_eur": 270.0,
+          "values": {
+            "code": "21016143041",
+            "power_w": "8 kW",
+            "stone_capacity": "20 Kg",
+            "sauna_volume": "Max. 8-12 m³",
+            "price": "270 €",
+            "price_eur": 270.0
+          }
+        },
+        {
+          "code": "21016143040",
+          "price": "279 €",
+          "price_eur": 279.0,
+          "values": {
+            "code": "21016143040",
+            "power_w": "9 kW",
+            "stone_capacity": "20 Kg",
+            "sauna_volume": "Max. 9-13 m³",
+            "price": "279 €",
+            "price_eur": 279.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "club-model",
+      "family_title_tr": "Club Model",
+      "family_title_en": "Club Model",
+      "family_description_tr": "A black, rectangular sauna unit with a stainless steel body and four legs.",
+      "family_line_count": 65,
+      "qualitative": {
+        "bullets_tr": [
+          "Dijital veya manuel panel ile kontrol",
+          "Manuelde 3 saat, dijitalde 4 saate kadar çalışma",
+          "Şık tasarımlı AISI 316 paslanmaz çelik gövde",
+          "15 kW ve üzeri modellerde güç kontrol paneli gerekir",
+          "Yüksek verimli özel rezistanslar",
+          "Aşırı ısınmada güvenlik termostatı",
+          "Geniş taş haznesi ile hızlı buharlaşma",
+          "Control via digital or manual panel",
+          "Up to 3 hours (manual), 4 hours (digital) operation",
+          "Stylish AISI 316 stainless steel body",
+          "Power control panel required for 15 kW+ models",
+          "High-efficiency heating elements",
+          "Safety thermostat against overheating",
+          "Large stone tray for fast vaporization"
+        ],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_14444",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "GÜÇ POWER",
+            "TAŞ KAPASİTESİ STONE CAPACITY",
+            "SAUNA HACMİ SAUNA VOLUME",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "21016143039",
+              "10,5 kW",
+              "40 Kg",
+              "Max. 10-15 m³",
+              "1.100 €"
+            ],
+            [
+              "21016143038",
+              "12 kW",
+              "40 Kg",
+              "Max. 11-18 m³",
+              "1.150 €"
+            ],
+            [
+              "21016143037",
+              "15 kW",
+              "40 Kg",
+              "Max. 14-24 m³",
+              "1.170 €"
+            ],
+            [
+              "21016143036",
+              "18kW",
+              "40 Kg",
+              "Max. 18-30 m³",
+              "1.630 €"
+            ],
+            [
+              "21016143035",
+              "21 kW",
+              "40 Kg",
+              "Max. 23-36 m³",
+              "1.950€"
+            ],
+            [
+              "21016143034",
+              "27 kW",
+              "40 Kg",
+              "Max. 29-47 m³",
+              "2.020 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_14459",
+          "type": "spec",
+          "headers": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "rows": [
+            [
+              "21017143002",
+              "Manual",
+              "10,5-15 kW",
+              "140 €"
+            ],
+            [
+              "21017143003",
+              "Manual",
+              "18-30 kW",
+              "115 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_14468",
+          "type": "spec",
+          "headers": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "rows": [
+            [
+              "21017143005",
+              "Dijital",
+              "10,5-15 kW",
+              "175 €"
+            ],
+            [
+              "21017143006",
+              "Dijital",
+              "18-30 kW",
+              "175 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "748eb98c2d6720f0985fddd1764fa9a1_img.jpg",
+          "alt": "A black, rectangular sauna unit with a stainless steel body and four legs.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "a769127757122a62f7b7a54146160823_img.jpg",
+          "alt": "Manual control panel with two buttons and a small display.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "82b00645b30feb4d639900f5b1b5df2a_img.jpg",
+          "alt": "Digital control panel with a small display and several buttons.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "dfe68b2ee88f1cd1153614b282762643_img.jpg",
+          "alt": "A rectangular metal box, likely a control panel or power supply unit.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "8d765b9274a07448f8e962f2a6a8a50c_img.jpg",
+          "alt": "A large, stylized thumbs-up icon.",
+          "caption": "",
+          "type": "icon"
+        }
+      ],
+      "variants": [
+        {
+          "code": "21016143039",
+          "price": "1.100 €",
+          "price_eur": 1100.0,
+          "values": {
+            "code": "21016143039",
+            "power_w": "10,5 kW",
+            "stone_capacity": "40 Kg",
+            "sauna_volume": "Max. 10-15 m³",
+            "price": "1.100 €",
+            "price_eur": 1100.0
+          }
+        },
+        {
+          "code": "21016143038",
+          "price": "1.150 €",
+          "price_eur": 1150.0,
+          "values": {
+            "code": "21016143038",
+            "power_w": "12 kW",
+            "stone_capacity": "40 Kg",
+            "sauna_volume": "Max. 11-18 m³",
+            "price": "1.150 €",
+            "price_eur": 1150.0
+          }
+        },
+        {
+          "code": "21016143037",
+          "price": "1.170 €",
+          "price_eur": 1170.0,
+          "values": {
+            "code": "21016143037",
+            "power_w": "15 kW",
+            "stone_capacity": "40 Kg",
+            "sauna_volume": "Max. 14-24 m³",
+            "price": "1.170 €",
+            "price_eur": 1170.0
+          }
+        },
+        {
+          "code": "21016143036",
+          "price": "1.630 €",
+          "price_eur": 1630.0,
+          "values": {
+            "code": "21016143036",
+            "power_w": "18kW",
+            "stone_capacity": "40 Kg",
+            "sauna_volume": "Max. 18-30 m³",
+            "price": "1.630 €",
+            "price_eur": 1630.0
+          }
+        },
+        {
+          "code": "21016143035",
+          "price": "1.950€",
+          "price_eur": 1950.0,
+          "values": {
+            "code": "21016143035",
+            "power_w": "21 kW",
+            "stone_capacity": "40 Kg",
+            "sauna_volume": "Max. 23-36 m³",
+            "price": "1.950€",
+            "price_eur": 1950.0
+          }
+        },
+        {
+          "code": "21016143034",
+          "price": "2.020 €",
+          "price_eur": 2020.0,
+          "values": {
+            "code": "21016143034",
+            "power_w": "27 kW",
+            "stone_capacity": "40 Kg",
+            "sauna_volume": "Max. 29-47 m³",
+            "price": "2.020 €",
+            "price_eur": 2020.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "round-model",
+      "family_title_tr": "Round Model",
+      "family_title_en": "Round Model",
+      "family_description_tr": "A round stainless steel sauna heater with a digital control panel and a circular opening at the top.",
+      "family_line_count": 42,
+      "qualitative": {
+        "bullets_tr": [
+          "Dijital panel ile kontrol",
+          "4 saate kadar kesintisiz çalışma",
+          "Oval tasarımıyla şık görünüm",
+          "Yüksek verimli rezistanslar",
+          "Aşırı ısınmada güvenlik termostatı",
+          "Control via digital panel",
+          "Continuous operation up to 4 hours",
+          "Elegant oval design",
+          "High-efficiency heating elements",
+          "Safety thermostat against overheating"
+        ],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_14506",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "GÜÇ POWER",
+            "TAŞ KAPASİTESİ STONE CAPACITY",
+            "SAUNA HACMİ SAUNA VOLUME",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "21016143033",
+              "3 kW",
+              "12,5 Kg",
+              "Max. 2-4 m³",
+              "420 €"
+            ],
+            [
+              "21016143032",
+              "4,5 kW",
+              "12,5 Kg",
+              "Max. 3-6 m³",
+              "433 €"
+            ],
+            [
+              "21016143031",
+              "6 kW",
+              "12,5 Kg",
+              "Max. 5-9 m³",
+              "568 €"
+            ],
+            [
+              "21016143030",
+              "8 kW",
+              "12,5 Kg",
+              "Max. 8-12 m³",
+              "596 €"
+            ],
+            [
+              "21016143029",
+              "9 kW",
+              "12,5 Kg",
+              "Max. 9-13 m³",
+              "618 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "1859ab965fe64fbc4ae2b6e8c61fe98c_img.jpg",
+          "alt": "A round stainless steel sauna heater with a digital control panel and a circular opening at the top.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "e3a9f7a593f34fd5bde1917d5f063913_img.jpg",
+          "alt": "A hand icon with a thumbs up, indicating a suitable control box.",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "eaccc96e5cc191533f929f06550cb50d_img.jpg",
+          "alt": "A digital control panel for the sauna heater.",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "21016143033",
+          "price": "420 €",
+          "price_eur": 420.0,
+          "values": {
+            "code": "21016143033",
+            "power_w": "3 kW",
+            "stone_capacity": "12,5 Kg",
+            "sauna_volume": "Max. 2-4 m³",
+            "price": "420 €",
+            "price_eur": 420.0
+          }
+        },
+        {
+          "code": "21016143032",
+          "price": "433 €",
+          "price_eur": 433.0,
+          "values": {
+            "code": "21016143032",
+            "power_w": "4,5 kW",
+            "stone_capacity": "12,5 Kg",
+            "sauna_volume": "Max. 3-6 m³",
+            "price": "433 €",
+            "price_eur": 433.0
+          }
+        },
+        {
+          "code": "21016143031",
+          "price": "568 €",
+          "price_eur": 568.0,
+          "values": {
+            "code": "21016143031",
+            "power_w": "6 kW",
+            "stone_capacity": "12,5 Kg",
+            "sauna_volume": "Max. 5-9 m³",
+            "price": "568 €",
+            "price_eur": 568.0
+          }
+        },
+        {
+          "code": "21016143030",
+          "price": "596 €",
+          "price_eur": 596.0,
+          "values": {
+            "code": "21016143030",
+            "power_w": "8 kW",
+            "stone_capacity": "12,5 Kg",
+            "sauna_volume": "Max. 8-12 m³",
+            "price": "596 €",
+            "price_eur": 596.0
+          }
+        },
+        {
+          "code": "21016143029",
+          "price": "618 €",
+          "price_eur": 618.0,
+          "values": {
+            "code": "21016143029",
+            "power_w": "9 kW",
+            "stone_capacity": "12,5 Kg",
+            "sauna_volume": "Max. 9-13 m³",
+            "price": "618 €",
+            "price_eur": 618.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "combi-model",
+      "family_title_tr": "Combi Model",
+      "family_title_en": "Combi Model",
+      "family_description_tr": "A rectangular stainless steel sauna heater with a digital control panel and a stone tray at the bottom.",
+      "family_line_count": 70,
+      "qualitative": {
+        "bullets_tr": [
+          "Isıtıcıya ek olarak buhar özelliği",
+          "4 lt hazne ile kesintisiz buhar",
+          "Özel kumanda paneli ile kontrol",
+          "Güç kontrol paneli ile kullanım",
+          "Şık AISI 316 paslanmaz çelik gövde",
+          "Yüksek verimli rezistanslar",
+          "Aşırı ısınmada güvenlik termostatı",
+          "Geniş taş haznesi ile hızlı buharlaşma",
+          "Heating function with additional steam feature",
+          "Continuous steam with 4 litre chamber",
+          "Controlled via dedicated panel",
+          "Requires power control panel",
+          "Elegant AISI 316 stainless steel body",
+          "High-efficiency heating elements",
+          "Safety thermostat against overheating",
+          "Large stone tray for fast vaporization"
+        ],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_14555",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "GÜÇ POWER",
+            "TAŞ KAPASİTESİ STONE CAPACITY",
+            "SAUNA HACMİ SAUNA VOLUME",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "21016143028",
+              "3+2",
+              "12,8 kg",
+              "Max. 2-4 m³",
+              "485 €"
+            ],
+            [
+              "21016143027",
+              "4,5+2",
+              "13,1 kg",
+              "Max. 3-6 m³",
+              "516 €"
+            ],
+            [
+              "21016143026",
+              "6+2",
+              "13,4 kg",
+              "Max. 5-9 m³",
+              "669 €"
+            ],
+            [
+              "21016143025",
+              "8+2",
+              "14,2 kg",
+              "Max. 8-12 m³",
+              "729 €"
+            ],
+            [
+              "21016143024",
+              "9+2,5",
+              "14,0 kg",
+              "Max. 9-13 m³",
+              "797 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_14569",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "GÜÇ POWER",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "21017143008",
+              "3-9 kW",
+              "313 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_14587",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "GÜÇ POWER",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "21017143009",
+              "5-11,5 kW",
+              "250 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "86a3491fd5ac9ae08da2202f4d6e8c61_img.jpg",
+          "alt": "A rectangular stainless steel sauna heater with a digital control panel and a stone tray at the bottom.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "5c0c0ffe0aa2bcd2d7f0a436f3c4674e_img.jpg",
+          "alt": "Digital control panel for Combi Model showing a digital display and several buttons.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "5ba9816cae67579efca8d834392d0e15_img.jpg",
+          "alt": "Power control panel for Combi Model showing a digital display and several buttons.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "e147f166b423b9a006adf7270ba2aec4_img.jpg",
+          "alt": "Fintech logo with 'sauna steam' text.",
+          "caption": "",
+          "type": "icon"
+        }
+      ],
+      "variants": [
+        {
+          "code": "21016143028",
+          "price": "485 €",
+          "price_eur": 485.0,
+          "values": {
+            "code": "21016143028",
+            "power_w": "3+2",
+            "stone_capacity": "12,8 kg",
+            "sauna_volume": "Max. 2-4 m³",
+            "price": "485 €",
+            "price_eur": 485.0
+          }
+        },
+        {
+          "code": "21016143027",
+          "price": "516 €",
+          "price_eur": 516.0,
+          "values": {
+            "code": "21016143027",
+            "power_w": "4,5+2",
+            "stone_capacity": "13,1 kg",
+            "sauna_volume": "Max. 3-6 m³",
+            "price": "516 €",
+            "price_eur": 516.0
+          }
+        },
+        {
+          "code": "21016143026",
+          "price": "669 €",
+          "price_eur": 669.0,
+          "values": {
+            "code": "21016143026",
+            "power_w": "6+2",
+            "stone_capacity": "13,4 kg",
+            "sauna_volume": "Max. 5-9 m³",
+            "price": "669 €",
+            "price_eur": 669.0
+          }
+        },
+        {
+          "code": "21016143025",
+          "price": "729 €",
+          "price_eur": 729.0,
+          "values": {
+            "code": "21016143025",
+            "power_w": "8+2",
+            "stone_capacity": "14,2 kg",
+            "sauna_volume": "Max. 8-12 m³",
+            "price": "729 €",
+            "price_eur": 729.0
+          }
+        },
+        {
+          "code": "21016143024",
+          "price": "797 €",
+          "price_eur": 797.0,
+          "values": {
+            "code": "21016143024",
+            "power_w": "9+2,5",
+            "stone_capacity": "14,0 kg",
+            "sauna_volume": "Max. 9-13 m³",
+            "price": "797 €",
+            "price_eur": 797.0
+          }
+        },
+        {
+          "code": "21017143008",
+          "price": "313 €",
+          "price_eur": 313.0,
+          "values": {
+            "code": "21017143008",
+            "power_w": "3-9 kW",
+            "price": "313 €",
+            "price_eur": 313.0
+          }
+        },
+        {
+          "code": "21017143009",
+          "price": "250 €",
+          "price_eur": 250.0,
+          "values": {
+            "code": "21017143009",
+            "power_w": "5-11,5 kW",
+            "price": "250 €",
+            "price_eur": 250.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "kumanda-panolar-g-kontrol-panel",
+      "family_title_tr": "Kumanda Panoları & Güç Kontrol Panel",
+      "family_title_en": "Kumanda Panoları & Güç Kontrol Panel",
+      "family_description_tr": "Digital control panel for Combi Model showing a digital display and several buttons.",
+      "family_line_count": 54,
+      "qualitative": {
+        "bullets_tr": [
+          "110°C'ye kadar ayarlanabilir termostat",
+          "Adjustable thermostat up to 110°C",
+          "Sauna aydınlatma kontrol düğmesi",
+          "Sauna lighting control button",
+          "15 kW üzeri modeller güç kontrol paneli ile kullanılmalıdır",
+          "Models above 15 kW require power control panel"
+        ],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_14614",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "POWER GÜÇ",
+            "MODEL",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "21017143004",
+              "3-9 kW Arası 3-9 kW Between",
+              "Dijital",
+              "175 €"
+            ],
+            [
+              "21017143005",
+              "10,5-15 kW Arası 10,5-15 kW Between",
+              "Dijital",
+              "175 €"
+            ],
+            [
+              "21017143006",
+              "18-30 kW Arası 18-30 kW Between",
+              "Dijital",
+              "175 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_14627",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "POWER GÜÇ",
+            "MODEL",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "21017143001",
+              "3-9 kW Arası 3-9 kW Between",
+              "Manuel Manual",
+              "125 €"
+            ],
+            [
+              "21017143002",
+              "10,5-15 kW Arası 10,5-15 kW Between",
+              "Manuel Manual",
+              "140 €"
+            ],
+            [
+              "21017143003",
+              "18-30 kW Arası 18-30 kW Between",
+              "Manuel Manual",
+              "115 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_14642",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "POWER GÜÇ",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "21017143007",
+              "18-30 kW Arası 18-30 kW Between",
+              "300 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "33e990431195ae9f44f6aa2fbdc845a5_img.jpg",
+          "alt": "Digital control panel for Combi Model showing a digital display and several buttons.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "d4e0a713891e015264f743b85baf46d4_img.jpg",
+          "alt": "Manual control panel for Combi Model showing a digital display and several buttons.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "8c3f275b1d010569c153b272cd06fc17_img.jpg",
+          "alt": "Güç Kontrol Paneli / Power Control Panel",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "21017143004",
+          "price": "175 €",
+          "price_eur": 175.0,
+          "values": {
+            "code": "21017143004",
+            "power_range_kw": "3-9 kW Arası 3-9 kW Between",
+            "model": "Dijital",
+            "price": "175 €",
+            "price_eur": 175.0
+          }
+        },
+        {
+          "code": "21017143005",
+          "price": "175 €",
+          "price_eur": 175.0,
+          "values": {
+            "code": "21017143005",
+            "power_range_kw": "10,5-15 kW Arası 10,5-15 kW Between",
+            "model": "Dijital",
+            "price": "175 €",
+            "price_eur": 175.0
+          }
+        },
+        {
+          "code": "21017143006",
+          "price": "175 €",
+          "price_eur": 175.0,
+          "values": {
+            "code": "21017143006",
+            "power_range_kw": "18-30 kW Arası 18-30 kW Between",
+            "model": "Dijital",
+            "price": "175 €",
+            "price_eur": 175.0
+          }
+        },
+        {
+          "code": "21017143001",
+          "price": "125 €",
+          "price_eur": 125.0,
+          "values": {
+            "code": "21017143001",
+            "power_range_kw": "3-9 kW Arası 3-9 kW Between",
+            "model": "Manuel Manual",
+            "price": "125 €",
+            "price_eur": 125.0
+          }
+        },
+        {
+          "code": "21017143002",
+          "price": "140 €",
+          "price_eur": 140.0,
+          "values": {
+            "code": "21017143002",
+            "power_range_kw": "10,5-15 kW Arası 10,5-15 kW Between",
+            "model": "Manuel Manual",
+            "price": "140 €",
+            "price_eur": 140.0
+          }
+        },
+        {
+          "code": "21017143003",
+          "price": "115 €",
+          "price_eur": 115.0,
+          "values": {
+            "code": "21017143003",
+            "power_range_kw": "18-30 kW Arası 18-30 kW Between",
+            "model": "Manuel Manual",
+            "price": "115 €",
+            "price_eur": 115.0
+          }
+        },
+        {
+          "code": "21017143007",
+          "price": "300 €",
+          "price_eur": 300.0,
+          "values": {
+            "code": "21017143007",
+            "power_range_kw": "18-30 kW Arası 18-30 kW Between",
+            "price": "300 €",
+            "price_eur": 300.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "sauna-cam-kap-s-security-glass-door-for-saunas",
+      "family_title_tr": "Sauna Cam Kapısı Security Glass Door for Saunas",
+      "family_title_en": "Sauna Cam Kapısı Security Glass Door for Saunas",
+      "family_description_tr": "Sauna Cam Kapısı / Security Glass Door for Saunas",
+      "family_line_count": 25,
+      "qualitative": {
+        "bullets_tr": [
+          "Dış kasası saunaya uygun üretilmiştir",
+          "Temperli camı sayesinde ısıya ve darbelere karşı dayanıklıdır",
+          "Leke tutmazlar",
+          "Kapı kolu ile beraber teslim edilir",
+          "*The outer casing is made for sauna use.*",
+          "*Tempered glass makes it resistant to heat and impact.*",
+          "*Stain-resistant.*",
+          "*Comes with a door handle.*"
+        ],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_14658",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "ÖLÇÜ SIZE",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "21517143002",
+              "185x80x5 cm",
+              "355 €"
+            ],
+            [
+              "21517143003",
+              "207,5x89x5 cm",
+              "370 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "ac6a8877de5a853441d1ea7947b90a7a_img.jpg",
+          "alt": "Sauna Cam Kapısı / Security Glass Door for Saunas",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "21517143002",
+          "price": "355 €",
+          "price_eur": 355.0,
+          "values": {
+            "code": "21517143002",
+            "size": "185x80x5 cm",
+            "price": "355 €",
+            "price_eur": 355.0
+          }
+        },
+        {
+          "code": "21517143003",
+          "price": "370 €",
+          "price_eur": 370.0,
+          "values": {
+            "code": "21517143003",
+            "size": "207,5x89x5 cm",
+            "price": "370 €",
+            "price_eur": 370.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "sauna-kap-s-ah-ap-tutamak-seti-wooden-handle-set-for-saunas-",
+      "family_title_tr": "Sauna Kapısı Ahşap Tutamak Seti Wooden Handle Set for Saunas Door",
+      "family_title_en": "Sauna Kapısı Ahşap Tutamak Seti Wooden Handle Set for Saunas Door",
+      "family_description_tr": "Sauna Kapısı Ahşap Tutamak Seti / Wooden Handle Set for Saunas Door",
+      "family_line_count": 17,
+      "qualitative": {
+        "bullets_tr": [
+          "Saunaya uygun ahşaptan üretilmiştir",
+          "Ergonomik tasarımı sayesinde kapıyı kolaylıkla açabilmeyi sağlar",
+          "*Made of sauna-safe wood.*",
+          "*Its ergonomic design allows for easy opening of the door.*"
+        ],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_14684",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "21517143004",
+              "46 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "01040fa8f3b0b15af8f3cb145b88dfb6_img.jpg",
+          "alt": "Sauna Kapısı Ahşap Tutamak Seti / Wooden Handle Set for Saunas Door",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "21517143004",
+          "price": "46 €",
+          "price_eur": 46.0,
+          "values": {
+            "code": "21517143004",
+            "price": "46 €",
+            "price_eur": 46.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "abachi-lambri-paneli-abachi-wall-panel",
+      "family_title_tr": "Abachi Lambri Paneli Abachi Wall Panel",
+      "family_title_en": "Abachi Lambri Paneli Abachi Wall Panel",
+      "family_description_tr": "Abachi Ranzalık Paneli (Abachi Sitting Panel)",
+      "family_line_count": 15,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_14708",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "ÖLÇÜ SIZE",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "21515142007",
+              "2100x85x16 mm",
+              "20,50 €"
+            ],
+            [
+              "210002048",
+              "2200x85x16 mm",
+              "21,50 €"
+            ],
+            [
+              "210002049",
+              "2250x85x16 mm",
+              "22,00 €"
+            ],
+            [
+              "21515142009",
+              "2400x85x16 mm",
+              "23,00 €"
+            ],
+            [
+              "210002077",
+              "2500x85x16 mm",
+              "23,50 €"
+            ],
+            [
+              "210002022",
+              "3000x85x16 mm",
+              "25,50 €"
+            ],
+            [
+              "210002024",
+              "4500x85x16 mm",
+              "38,00 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "3f4c2edac0bab38b729a42a10be7e900_img.jpg",
+          "alt": "Abachi Ranzalık Paneli (Abachi Sitting Panel)",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "21515142007",
+          "price": "20,50 €",
+          "price_eur": 20.5,
+          "values": {
+            "code": "21515142007",
+            "size": "2100x85x16 mm",
+            "price": "20,50 €",
+            "price_eur": 20.5
+          }
+        },
+        {
+          "code": "210002048",
+          "price": "21,50 €",
+          "price_eur": 21.5,
+          "values": {
+            "code": "210002048",
+            "size": "2200x85x16 mm",
+            "price": "21,50 €",
+            "price_eur": 21.5
+          }
+        },
+        {
+          "code": "210002049",
+          "price": "22,00 €",
+          "price_eur": 22.0,
+          "values": {
+            "code": "210002049",
+            "size": "2250x85x16 mm",
+            "price": "22,00 €",
+            "price_eur": 22.0
+          }
+        },
+        {
+          "code": "21515142009",
+          "price": "23,00 €",
+          "price_eur": 23.0,
+          "values": {
+            "code": "21515142009",
+            "size": "2400x85x16 mm",
+            "price": "23,00 €",
+            "price_eur": 23.0
+          }
+        },
+        {
+          "code": "210002077",
+          "price": "23,50 €",
+          "price_eur": 23.5,
+          "values": {
+            "code": "210002077",
+            "size": "2500x85x16 mm",
+            "price": "23,50 €",
+            "price_eur": 23.5
+          }
+        },
+        {
+          "code": "210002022",
+          "price": "25,50 €",
+          "price_eur": 25.5,
+          "values": {
+            "code": "210002022",
+            "size": "3000x85x16 mm",
+            "price": "25,50 €",
+            "price_eur": 25.5
+          }
+        },
+        {
+          "code": "210002024",
+          "price": "38,00 €",
+          "price_eur": 38.0,
+          "values": {
+            "code": "210002024",
+            "size": "4500x85x16 mm",
+            "price": "38,00 €",
+            "price_eur": 38.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "abachi-ranzal-k-paneli-abachi-sitting-panel",
+      "family_title_tr": "Abachi Ranzalık Paneli Abachi Sitting Panel",
+      "family_title_en": "Abachi Ranzalık Paneli Abachi Sitting Panel",
+      "family_description_tr": "Fin Ladini Lambri Paneli (Spruce Wall Panel)",
+      "family_line_count": 14,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_14724",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "ÖLÇÜ SIZE",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "21516142013",
+              "2225x93x18 mm",
+              "22,00 €"
+            ],
+            [
+              "21516142014",
+              "2400x93x18 mm",
+              "23,00 €"
+            ],
+            [
+              "21516142012",
+              "2500x93x18 mm",
+              "24,50 €"
+            ],
+            [
+              "21516142002",
+              "3000x93x18 mm",
+              "25,50 €"
+            ],
+            [
+              "21516142006",
+              "4000x93x18 mm",
+              "35,00 €"
+            ],
+            [
+              "21516142009",
+              "4500x93x18 mm",
+              "39,00 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "18c82b70341ea9f67f91cb94307a62a3_img.jpg",
+          "alt": "Fin Ladini Lambri Paneli (Spruce Wall Panel)",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "21516142013",
+          "price": "22,00 €",
+          "price_eur": 22.0,
+          "values": {
+            "code": "21516142013",
+            "size": "2225x93x18 mm",
+            "price": "22,00 €",
+            "price_eur": 22.0
+          }
+        },
+        {
+          "code": "21516142014",
+          "price": "23,00 €",
+          "price_eur": 23.0,
+          "values": {
+            "code": "21516142014",
+            "size": "2400x93x18 mm",
+            "price": "23,00 €",
+            "price_eur": 23.0
+          }
+        },
+        {
+          "code": "21516142012",
+          "price": "24,50 €",
+          "price_eur": 24.5,
+          "values": {
+            "code": "21516142012",
+            "size": "2500x93x18 mm",
+            "price": "24,50 €",
+            "price_eur": 24.5
+          }
+        },
+        {
+          "code": "21516142002",
+          "price": "25,50 €",
+          "price_eur": 25.5,
+          "values": {
+            "code": "21516142002",
+            "size": "3000x93x18 mm",
+            "price": "25,50 €",
+            "price_eur": 25.5
+          }
+        },
+        {
+          "code": "21516142006",
+          "price": "35,00 €",
+          "price_eur": 35.0,
+          "values": {
+            "code": "21516142006",
+            "size": "4000x93x18 mm",
+            "price": "35,00 €",
+            "price_eur": 35.0
+          }
+        },
+        {
+          "code": "21516142009",
+          "price": "39,00 €",
+          "price_eur": 39.0,
+          "values": {
+            "code": "21516142009",
+            "size": "4500x93x18 mm",
+            "price": "39,00 €",
+            "price_eur": 39.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "fin-ladini-lambri-paneli-spruce-wall-panel",
+      "family_title_tr": "Fin Ladini Lambri Paneli Spruce Wall Panel",
+      "family_title_en": "Fin Çamı Lambri Budaksız Paneli Pipe Wall Panel",
+      "family_description_tr": "Fin Çamı Lambri Budaksız Paneli (Pipe Wall Panel)",
+      "family_line_count": 16,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_14739",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "ÖLÇÜ SIZE",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "210143050",
+              "2100x95x12 mm",
+              "20,50 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_14749",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "ÖLÇÜ SIZE",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "21515142001",
+              "2400 mm",
+              "--"
+            ],
+            [
+              "21515142010",
+              "3000 mm",
+              "--"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "e5c5a758b3c50dbe40aa554428506a8f_img.jpg",
+          "alt": "Fin Çamı Lambri Budaksız Paneli (Pipe Wall Panel)",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "210143050",
+          "price": "20,50 €",
+          "price_eur": 20.5,
+          "values": {
+            "code": "210143050",
+            "size": "2100x95x12 mm",
+            "price": "20,50 €",
+            "price_eur": 20.5
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "fin-am-lambri-budaks-z-paneli-pipe-wall-panel",
+      "family_title_tr": "Fin Çamı Lambri Budaksız Paneli Pipe Wall Panel",
+      "family_title_en": "Fin Çamı Lambri Budaksız Paneli Pipe Wall Panel",
+      "family_description_tr": "",
+      "family_line_count": 6,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_14749",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "ÖLÇÜ SIZE",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "21515142001",
+              "2400 mm",
+              "--"
+            ],
+            [
+              "21515142010",
+              "3000 mm",
+              "--"
+            ]
+          ]
+        }
+      ],
+      "images": [],
+      "variants": [
+        {
+          "code": "21515142001",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "21515142001",
+            "size": "2400 mm",
+            "price": "--"
+          }
+        },
+        {
+          "code": "21515142010",
+          "price": null,
+          "price_eur": null,
+          "values": {
+            "code": "21515142010",
+            "size": "3000 mm",
+            "price": "--"
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "sauna-aksesuarlar-sauna-accessories",
+      "family_title_tr": "Sauna Aksesuarları Sauna Accessories",
+      "family_title_en": "Sauna Aksesuarları Sauna Accessories",
+      "family_description_tr": "Plastic Thermometer*",
+      "family_line_count": 241,
+      "qualitative": {
+        "bullets_tr": [],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_14919",
+          "type": "spec",
+          "headers": [
+            "",
+            "",
+            ""
+          ],
+          "rows": [
+            [
+              "22015143013",
+              "7-10 kg",
+              "15 €"
+            ],
+            [
+              "22015143012",
+              "17-20 kg",
+              "27 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_14934",
+          "type": "spec",
+          "headers": [
+            "",
+            ""
+          ],
+          "rows": [
+            [
+              "22015142003",
+              "56 €"
+            ],
+            [
+              "-------------",
+              "------"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_14949",
+          "type": "spec",
+          "headers": [
+            "",
+            ""
+          ],
+          "rows": [
+            [
+              "22015143015",
+              "32 €"
+            ],
+            [
+              "-------------",
+              "------"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_14961",
+          "type": "spec",
+          "headers": [
+            "",
+            "",
+            ""
+          ],
+          "rows": [
+            [
+              "22015143017",
+              "Izgaralı Grill",
+              "23 €"
+            ],
+            [
+              "22015143016",
+              "Sürgülü Sliding",
+              "23 €"
+            ]
+          ]
+        },
+        {
+          "table_id": "table_14973",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "AMBALAJ PACKING",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "22015141004 ÇAM PINE",
+              "0,25 lt",
+              "12 €"
+            ],
+            [
+              "22015141003 ÇAM PINE",
+              "1 lt",
+              "25 €"
+            ],
+            [
+              "22015141001 ÇAM PINE",
+              "5 lt",
+              "87 €"
+            ],
+            [
+              "22015141008 MEYVE FRUIT",
+              "0,25 lt",
+              "12 €"
+            ],
+            [
+              "22015141007 MEYVE FRUIT",
+              "1 lt",
+              "25 €"
+            ],
+            [
+              "22015141014 MEYVE FRUIT",
+              "5 lt",
+              "87 €"
+            ],
+            [
+              "22015141010 LİMÖN LEMON",
+              "0,25 lt",
+              "12 €"
+            ],
+            [
+              "22015141009 LİMÖN LEMON",
+              "1 lt",
+              "25 €"
+            ],
+            [
+              "22015141017 LİMÖN LEMON",
+              "5 lt",
+              "87 €"
+            ],
+            [
+              "22015141012 MENTOL MENTHOL",
+              "0,25 lt",
+              "12 €"
+            ],
+            [
+              "22015141011 MENTOL MENTHOL",
+              "1 lt",
+              "25 €"
+            ],
+            [
+              "22015141013 MENTOL MENTHOL",
+              "5 lt",
+              "87 €"
+            ],
+            [
+              "22015141006 OKALİPTUS EUCALYPTUS",
+              "0,25 lt",
+              "12 €"
+            ],
+            [
+              "22015141005 OKALİPTUS EUCALYPTUS",
+              "1 lt",
+              "25 €"
+            ],
+            [
+              "22015141002 OKALİPTUS EUCALYPTUS",
+              "5 lt",
+              "87 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "3272c5477b6feb2c0492a5e91d33a9b5_img.jpg",
+          "alt": "Plastic Thermometer",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "7ed266e5d8caf0fb745cd3c67876fb82_img.jpg",
+          "alt": "Plastic Hygrometer",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "592fcf91029c8e3765ffb33e6922d98e_img.jpg",
+          "alt": "Wooden Thermometer",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "c6c86fd7b47017e4b7eddd4887506612_img.jpg",
+          "alt": "Wooden Hygrometer",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "0718c1a99e3a07f5a864c0c1903b7aa1_img.jpg",
+          "alt": "Plastic Thermo-Hygrometer (Combined)",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "7de89e2f142bba1fa0cb54b9f45751cf_img.jpg",
+          "alt": "Wooden Thermo-Hygrometer (Combined)",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "be504ffdd95f372e52d08e0270b4b9fc_img.jpg",
+          "alt": "Wooden Combined Thermo-Hygro",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "497c115148ffc1b8ccbc58ee8fc33a0f_img.jpg",
+          "alt": "Wooden Bucket",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "e58a1342568033bd248f727fa87f9420_img.jpg",
+          "alt": "Wooden Scoop",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "3b7c10d421c1cd6cd0027f4ce7c2d30f_img.jpg",
+          "alt": "Wooden Lamp Shade For Sauna",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "8fdfc9e257f012c6c968b5ef850cfe1a_img.jpg",
+          "alt": "Sand Timer 15 Mins.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "fc42b689f98c8780042c8a06272d9068_img.jpg",
+          "alt": "Sauna Watch",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "c003b9c54f933975ea43be42b3588382_img.jpg",
+          "alt": "Two images of sauna heater rocks: one in a box and one loose.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "c44b3f4b35bd57b60e273ecb4eb9804b_img.jpg",
+          "alt": "Image of a decorative caged sauna light fixture.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "0440304c4f491bf4cf18520b49af669e_img.jpg",
+          "alt": "Image of a wooden pillow.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "d808378b1f1d660dbfed123c4e6ae8e4_img.jpg",
+          "alt": "Image of a wooden ventilation grate.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "6dda4ab39d97b9e851bf5b05a9055fb6_img.jpg",
+          "alt": "Image of various sauna perfume bottles and jugs.",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "22015141004",
+          "price": "12 €",
+          "price_eur": 12.0,
+          "values": {
+            "code": "22015141004 ÇAM PINE",
+            "packing": "0,25 lt",
+            "price": "12 €",
+            "price_eur": 12.0
+          }
+        },
+        {
+          "code": "22015141003",
+          "price": "25 €",
+          "price_eur": 25.0,
+          "values": {
+            "code": "22015141003 ÇAM PINE",
+            "packing": "1 lt",
+            "price": "25 €",
+            "price_eur": 25.0
+          }
+        },
+        {
+          "code": "22015141001",
+          "price": "87 €",
+          "price_eur": 87.0,
+          "values": {
+            "code": "22015141001 ÇAM PINE",
+            "packing": "5 lt",
+            "price": "87 €",
+            "price_eur": 87.0
+          }
+        },
+        {
+          "code": "22015141008",
+          "price": "12 €",
+          "price_eur": 12.0,
+          "values": {
+            "code": "22015141008 MEYVE FRUIT",
+            "packing": "0,25 lt",
+            "price": "12 €",
+            "price_eur": 12.0
+          }
+        },
+        {
+          "code": "22015141007",
+          "price": "25 €",
+          "price_eur": 25.0,
+          "values": {
+            "code": "22015141007 MEYVE FRUIT",
+            "packing": "1 lt",
+            "price": "25 €",
+            "price_eur": 25.0
+          }
+        },
+        {
+          "code": "22015141014",
+          "price": "87 €",
+          "price_eur": 87.0,
+          "values": {
+            "code": "22015141014 MEYVE FRUIT",
+            "packing": "5 lt",
+            "price": "87 €",
+            "price_eur": 87.0
+          }
+        },
+        {
+          "code": "22015141010",
+          "price": "12 €",
+          "price_eur": 12.0,
+          "values": {
+            "code": "22015141010 LİMÖN LEMON",
+            "packing": "0,25 lt",
+            "price": "12 €",
+            "price_eur": 12.0
+          }
+        },
+        {
+          "code": "22015141009",
+          "price": "25 €",
+          "price_eur": 25.0,
+          "values": {
+            "code": "22015141009 LİMÖN LEMON",
+            "packing": "1 lt",
+            "price": "25 €",
+            "price_eur": 25.0
+          }
+        },
+        {
+          "code": "22015141017",
+          "price": "87 €",
+          "price_eur": 87.0,
+          "values": {
+            "code": "22015141017 LİMÖN LEMON",
+            "packing": "5 lt",
+            "price": "87 €",
+            "price_eur": 87.0
+          }
+        },
+        {
+          "code": "22015141012",
+          "price": "12 €",
+          "price_eur": 12.0,
+          "values": {
+            "code": "22015141012 MENTOL MENTHOL",
+            "packing": "0,25 lt",
+            "price": "12 €",
+            "price_eur": 12.0
+          }
+        },
+        {
+          "code": "22015141011",
+          "price": "25 €",
+          "price_eur": 25.0,
+          "values": {
+            "code": "22015141011 MENTOL MENTHOL",
+            "packing": "1 lt",
+            "price": "25 €",
+            "price_eur": 25.0
+          }
+        },
+        {
+          "code": "22015141013",
+          "price": "87 €",
+          "price_eur": 87.0,
+          "values": {
+            "code": "22015141013 MENTOL MENTHOL",
+            "packing": "5 lt",
+            "price": "87 €",
+            "price_eur": 87.0
+          }
+        },
+        {
+          "code": "22015141006",
+          "price": "12 €",
+          "price_eur": 12.0,
+          "values": {
+            "code": "22015141006 OKALİPTUS EUCALYPTUS",
+            "packing": "0,25 lt",
+            "price": "12 €",
+            "price_eur": 12.0
+          }
+        },
+        {
+          "code": "22015141005",
+          "price": "25 €",
+          "price_eur": 25.0,
+          "values": {
+            "code": "22015141005 OKALİPTUS EUCALYPTUS",
+            "packing": "1 lt",
+            "price": "25 €",
+            "price_eur": 25.0
+          }
+        },
+        {
+          "code": "22015141002",
+          "price": "87 €",
+          "price_eur": 87.0,
+          "values": {
+            "code": "22015141002 OKALİPTUS EUCALYPTUS",
+            "packing": "5 lt",
+            "price": "87 €",
+            "price_eur": 87.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "ftsg-model-buhar-jenerat-r-steam-generations-ftsg-model",
+      "family_title_tr": "FTSG Model Buhar Jeneratörü Steam Generations FTSG Model",
+      "family_title_en": "FTSG Model Buhar Jeneratörü Steam Generations FTSG Model",
+      "family_description_tr": "A blue FTSG Model Steam Generator unit with a 'STEAMBATH' logo and a safety warning label.",
+      "family_line_count": 51,
+      "qualitative": {
+        "bullets_tr": [
+          "Özel boyalı paslanmaz gövde",
+          "Mikro bilgisayarlı dijital sıcaklık göstergesi",
+          "Enerji tasarruflu güç ayarı",
+          "Enerji kesintisi ve su yetersizliğinde otomatik koruma",
+          "Otomatik buhar basınç vanası",
+          "Aşırı ısınmada güvenlik termostatı",
+          "Special coated, corrosion-resistant body",
+          "Microcomputer digital temperature display",
+          "Energy-saving power adjustment",
+          "Automatic protection against power failure and low water",
+          "Automatic steam pressure release valve",
+          "Safety thermostat against overheating"
+        ],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_15035",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "MODEL",
+            "GÜÇ POWER",
+            "KABİN HACMI MAX. CABIN VOLUME MAX.",
+            "ÖLÇÜLER UxTxG DIMENSIONS LxTxW",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "32015143032",
+              "FTSG-30",
+              "3 kW",
+              "2,5 m³",
+              "405 x 410 x 150 mm",
+              "1.000 €"
+            ],
+            [
+              "32015143031",
+              "FTSG-40",
+              "4 kW",
+              "5 m³",
+              "405 x 410 x 150 mm",
+              "1.020 €"
+            ],
+            [
+              "32015143030",
+              "FTSG-60",
+              "6 kW",
+              "7 m³",
+              "405 x 410 x 150 mm",
+              "1.110 €"
+            ],
+            [
+              "32015143029",
+              "FTSG-80",
+              "8 kW",
+              "9 m³",
+              "405 x 410 x 150 mm",
+              "1.192 €"
+            ],
+            [
+              "32015143028",
+              "FTSG-90",
+              "9 kW",
+              "11 m³",
+              "405 x 410 x 150 mm",
+              "1.445 €"
+            ],
+            [
+              "32015143027",
+              "FTSG-100",
+              "10 kW",
+              "12 m³",
+              "405 x 410 x 150 mm",
+              "1.468 €"
+            ],
+            [
+              "32015143026",
+              "FTSG-120",
+              "12 kW",
+              "14 m³",
+              "450 x 425 x 185 mm",
+              "1.493 €"
+            ],
+            [
+              "32015143025",
+              "FTSG-140",
+              "14 kW",
+              "16 m³",
+              "450 x 425 x 185 mm",
+              "1.532 €"
+            ],
+            [
+              "32015143024",
+              "FTSG-180",
+              "18 kW",
+              "20 m³",
+              "554 x 428 x 185 mm",
+              "1.837 €"
+            ],
+            [
+              "32015143023",
+              "FTSG-210",
+              "21 kW",
+              "23 m³",
+              "554 x 428 x 185 mm",
+              "2.024 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "4057832632411972038491943ef6da9a_img.jpg",
+          "alt": "A blue FTSG Model Steam Generator unit with a 'STEAMBATH' logo and a safety warning label.",
+          "caption": "",
+          "type": "icon"
+        },
+        {
+          "file": "75bb295727970e4f3b2ffa6a1b70ce88_img.jpg",
+          "alt": "A circular control panel with several buttons and indicator lights.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "16ae8c80560594850e4c65227e27b0bf_img.jpg",
+          "alt": "A yellow plastic steam inlet fitting.",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "32015143032",
+          "price": "1.000 €",
+          "price_eur": 1000.0,
+          "values": {
+            "code": "32015143032",
+            "model": "FTSG-30",
+            "power_w": "3 kW",
+            "max_cabin_volume": "2,5 m³",
+            "dimensions_lxtxw": "405 x 410 x 150 mm",
+            "price": "1.000 €",
+            "price_eur": 1000.0
+          }
+        },
+        {
+          "code": "32015143031",
+          "price": "1.020 €",
+          "price_eur": 1020.0,
+          "values": {
+            "code": "32015143031",
+            "model": "FTSG-40",
+            "power_w": "4 kW",
+            "max_cabin_volume": "5 m³",
+            "dimensions_lxtxw": "405 x 410 x 150 mm",
+            "price": "1.020 €",
+            "price_eur": 1020.0
+          }
+        },
+        {
+          "code": "32015143030",
+          "price": "1.110 €",
+          "price_eur": 1110.0,
+          "values": {
+            "code": "32015143030",
+            "model": "FTSG-60",
+            "power_w": "6 kW",
+            "max_cabin_volume": "7 m³",
+            "dimensions_lxtxw": "405 x 410 x 150 mm",
+            "price": "1.110 €",
+            "price_eur": 1110.0
+          }
+        },
+        {
+          "code": "32015143029",
+          "price": "1.192 €",
+          "price_eur": 1192.0,
+          "values": {
+            "code": "32015143029",
+            "model": "FTSG-80",
+            "power_w": "8 kW",
+            "max_cabin_volume": "9 m³",
+            "dimensions_lxtxw": "405 x 410 x 150 mm",
+            "price": "1.192 €",
+            "price_eur": 1192.0
+          }
+        },
+        {
+          "code": "32015143028",
+          "price": "1.445 €",
+          "price_eur": 1445.0,
+          "values": {
+            "code": "32015143028",
+            "model": "FTSG-90",
+            "power_w": "9 kW",
+            "max_cabin_volume": "11 m³",
+            "dimensions_lxtxw": "405 x 410 x 150 mm",
+            "price": "1.445 €",
+            "price_eur": 1445.0
+          }
+        },
+        {
+          "code": "32015143027",
+          "price": "1.468 €",
+          "price_eur": 1468.0,
+          "values": {
+            "code": "32015143027",
+            "model": "FTSG-100",
+            "power_w": "10 kW",
+            "max_cabin_volume": "12 m³",
+            "dimensions_lxtxw": "405 x 410 x 150 mm",
+            "price": "1.468 €",
+            "price_eur": 1468.0
+          }
+        },
+        {
+          "code": "32015143026",
+          "price": "1.493 €",
+          "price_eur": 1493.0,
+          "values": {
+            "code": "32015143026",
+            "model": "FTSG-120",
+            "power_w": "12 kW",
+            "max_cabin_volume": "14 m³",
+            "dimensions_lxtxw": "450 x 425 x 185 mm",
+            "price": "1.493 €",
+            "price_eur": 1493.0
+          }
+        },
+        {
+          "code": "32015143025",
+          "price": "1.532 €",
+          "price_eur": 1532.0,
+          "values": {
+            "code": "32015143025",
+            "model": "FTSG-140",
+            "power_w": "14 kW",
+            "max_cabin_volume": "16 m³",
+            "dimensions_lxtxw": "450 x 425 x 185 mm",
+            "price": "1.532 €",
+            "price_eur": 1532.0
+          }
+        },
+        {
+          "code": "32015143024",
+          "price": "1.837 €",
+          "price_eur": 1837.0,
+          "values": {
+            "code": "32015143024",
+            "model": "FTSG-180",
+            "power_w": "18 kW",
+            "max_cabin_volume": "20 m³",
+            "dimensions_lxtxw": "554 x 428 x 185 mm",
+            "price": "1.837 €",
+            "price_eur": 1837.0
+          }
+        },
+        {
+          "code": "32015143023",
+          "price": "2.024 €",
+          "price_eur": 2024.0,
+          "values": {
+            "code": "32015143023",
+            "model": "FTSG-210",
+            "power_w": "21 kW",
+            "max_cabin_volume": "23 m³",
+            "dimensions_lxtxw": "554 x 428 x 185 mm",
+            "price": "2.024 €",
+            "price_eur": 2024.0
+          }
+        }
+      ]
+    },
+    {
+      "family_product_id": "deluxe-model-buhar-jenerat-r-steam-generations-deluxe-model",
+      "family_title_tr": "Deluxe Model Buhar Jeneratörü Steam Generations Deluxe Model",
+      "family_title_en": "Deluxe Model Buhar Jeneratörü Steam Generations Deluxe Model",
+      "family_description_tr": "A large, rectangular, stainless steel steam generator unit with a dark base and a small digital display on the front right corner.",
+      "family_line_count": 36,
+      "qualitative": {
+        "bullets_tr": [
+          "Şık AISI 316 paslanmaz çelik gövde",
+          "Mikro bilgisayarlı dijital sıcaklık göstergesi",
+          "Enerji tasarruflu güç ayarı",
+          "Enerji kesintisi ve su yetersizliğinde otomatik koruma",
+          "Otomatik buhar basınç vanası",
+          "Aşırı ısınmada güvenlik termostatı",
+          "Otomatik su boşaltma özelliği",
+          "Elegant AISI 316 stainless steel body",
+          "Microcomputer digital temperature display",
+          "Energy-saving power adjustment",
+          "Automatic protection for power failure and low water",
+          "Automatic steam pressure release valve",
+          "Internal PCB control against overheating",
+          "Automatic water drainage feature"
+        ],
+        "bullets_en": [],
+        "icons": [],
+        "badges": []
+      },
+      "family_specs_quantitative": {},
+      "notes": [],
+      "family_notes": [],
+      "tables": [
+        {
+          "table_id": "table_15079",
+          "type": "variants",
+          "headers": [
+            "KOD CODE",
+            "MODEL",
+            "GÜÇ POWER",
+            "KABİN HACMI MAX. CABIN VOLUME MAX.",
+            "ÖLÇÜLER UxDxG DIMENSIONS LxDxW",
+            "FİYAT PRICE"
+          ],
+          "rows": [
+            [
+              "32015143021",
+              "DELUXE 6",
+              "6 kW",
+              "7 m³",
+              "560 × 500 × 225 mm",
+              "1.553 €"
+            ],
+            [
+              "32015143020",
+              "DELUXE 9",
+              "9 kW",
+              "11 m³",
+              "560 × 500 × 225 mm",
+              "2.020 €"
+            ],
+            [
+              "32015143022",
+              "DELUXE 12",
+              "12 kW",
+              "14 m³",
+              "560 × 500 × 225 mm",
+              "2.088 €"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "8b2b2fbe81be3a0511c4abb967d8e065_img.jpg",
+          "alt": "A large, rectangular, stainless steel steam generator unit with a dark base and a small digital display on the front right corner.",
+          "caption": "",
+          "type": "product_photo"
+        },
+        {
+          "file": "6c692414e6c5ba303b2c3a3571c28550_img.jpg",
+          "alt": "A close-up image of the control panel, showing several buttons and a small digital display screen.",
+          "caption": "",
+          "type": "product_photo"
+        }
+      ],
+      "variants": [
+        {
+          "code": "32015143021",
+          "price": "1.553 €",
+          "price_eur": 1553.0,
+          "values": {
+            "code": "32015143021",
+            "model": "DELUXE 6",
+            "power_w": "6 kW",
+            "max_cabin_volume": "7 m³",
+            "dimensions_lxdxw": "560 × 500 × 225 mm",
+            "price": "1.553 €",
+            "price_eur": 1553.0
+          }
+        },
+        {
+          "code": "32015143020",
+          "price": "2.020 €",
+          "price_eur": 2020.0,
+          "values": {
+            "code": "32015143020",
+            "model": "DELUXE 9",
+            "power_w": "9 kW",
+            "max_cabin_volume": "11 m³",
+            "dimensions_lxdxw": "560 × 500 × 225 mm",
+            "price": "2.020 €",
+            "price_eur": 2020.0
+          }
+        },
+        {
+          "code": "32015143022",
+          "price": "2.088 €",
+          "price_eur": 2088.0,
+          "values": {
+            "code": "32015143022",
+            "model": "DELUXE 12",
+            "power_w": "12 kW",
+            "max_cabin_volume": "14 m³",
+            "dimensions_lxdxw": "560 × 500 × 225 mm",
+            "price": "2.088 €",
+            "price_eur": 2088.0
+          }
+        }
+      ]
+    }
+  ]
+}
