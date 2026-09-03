@@ -17,97 +17,97 @@
       "tr": "Havuz İçi & Elektrik",
       "en": "White Equipment & Lighting",
       "count": 191,
-      "file": "output/categories/03_Havuz_i_Elektrik__White_Equipment_Lighting.json"
+      "file": "output/categories/03_Havuz_Ici_Elektrik__White_Equipment_Lighting.json"
     },
     "04": {
       "tr": "Havuz Kenar Ürünleri",
       "en": "Pool Outdoor Products",
       "count": 118,
-      "file": "output/categories/04_Havuz_Kenar_r_nleri__Pool_Outdoor_Products.json"
+      "file": "output/categories/04_Havuz_Kenar_Urunleri__Pool_Outdoor_Products.json"
     },
     "05": {
       "tr": "Havuz Temizlik Ürünleri",
       "en": "Pool Cleaning Products",
       "count": 34,
-      "file": "output/categories/05_Havuz_Temizlik_r_nleri__Pool_Cleaning_Products.json"
+      "file": "output/categories/05_Havuz_Temizlik_Urunleri__Pool_Cleaning_Products.json"
     },
     "06": {
       "tr": "Havuz Dezenfeksiyon Ekipmanları",
       "en": "Pool Disinfection Equipment",
       "count": 147,
-      "file": "output/categories/06_Havuz_Dezenfeksiyon_Ekipmanlar__Pool_Disinfection_Equipment.json"
+      "file": "output/categories/06_Havuz_Dezenfeksiyon_Ekipmanlari__Pool_Disinfection_Equipment.json"
     },
     "07": {
       "tr": "Havuz Kimyasal Ürünleri",
       "en": "Pool Chemical Product",
       "count": 37,
-      "file": "output/categories/07_Havuz_Kimyasal_r_nleri__Pool_Chemical_Product.json"
+      "file": "output/categories/07_Havuz_Kimyasal_Urunleri__Pool_Chemical_Product.json"
     },
     "08": {
       "tr": "Havuz Isıtma ve Nem Alma Ürünleri",
       "en": "Pool Heating and Dehumidifiers Product",
       "count": 132,
-      "file": "output/categories/08_Havuz_Is_tma_ve_Nem_Alma_r_nleri__Pool_Heating_and_Dehumidifiers_Product.json"
+      "file": "output/categories/08_Havuz_Isitma_ve_Nem_Alma_Urunleri__Pool_Heating_and_Dehumidifiers_Product.json"
     },
     "09": {
       "tr": "Havuz İçi ve Kenar Kaplama Ürünleri",
       "en": "Pool Indoor and Outdoor Products",
       "count": 56,
-      "file": "output/categories/09_Havuz_i_ve_Kenar_Kaplama_r_nleri__Pool_Indoor_and_Outdoor_Products.json"
+      "file": "output/categories/09_Havuz_Ici_ve_Kenar_Kaplama_Urunleri__Pool_Indoor_and_Outdoor_Products.json"
     },
     "10": {
       "tr": "Jakuzi ve Spa Ürünleri",
       "en": "Jacuzzi and Spa Products",
       "count": 40,
-      "file": "output/categories/10_Jakuzi_ve_Spa_r_nleri__Jacuzzi_and_Spa_Products.json"
+      "file": "output/categories/10_Jakuzi_ve_Spa_Urunleri__Jacuzzi_and_Spa_Products.json"
     },
     "11": {
       "tr": "Sauna ve Buhar Ürünleri",
       "en": "Sauna and Steam Products",
       "count": 84,
-      "file": "output/categories/11_Sauna_ve_Buhar_r_nleri__Sauna_and_Steam_Products.json"
+      "file": "output/categories/11_Sauna_ve_Buhar_Urunleri__Sauna_and_Steam_Products.json"
     },
     "12": {
       "tr": "Süs Havuzu Ürünleri",
       "en": "Fountain Products",
       "count": 111,
-      "file": "output/categories/12_S_s_Havuzu_r_nleri__Fountain_Products.json"
+      "file": "output/categories/12_Sus_Havuzu_Urunleri__Fountain_Products.json"
     },
     "13": {
       "tr": "Bahçe ve Gölet Ürünleri",
       "en": "Garden and Pond Products",
       "count": 31,
-      "file": "output/categories/13_Bah_e_ve_G_let_r_nleri__Garden_and_Pond_Products.json"
+      "file": "output/categories/13_Bahce_ve_Golet_Urunleri__Garden_and_Pond_Products.json"
     },
     "14": {
       "tr": "Olimpik Havuz Ürünleri",
       "en": "Olympic Pool Products",
       "count": 35,
-      "file": "output/categories/14_Olimpik_Havuz_r_nleri__Olympic_Pool_Products.json"
+      "file": "output/categories/14_Olimpik_Havuz_Urunleri__Olympic_Pool_Products.json"
     },
     "15": {
       "tr": "Fiberglass, Yer Üstü Havuzlar, Spalar",
       "en": "Fiberglass, Above Ground Pools, Spas",
       "count": 1,
-      "file": "output/categories/15_Fiberglass_Yer_st_Havuzlar_Spalar__Fiberglass_Above_Ground_Pools_Spas.json"
+      "file": "output/categories/15_Fiberglass_Yer_Ustu_Havuzlar_Spalar__Fiberglass_Above_Ground_Pools_Spas.json"
     },
     "16": {
       "tr": "Su Yalıtım Membranı",
       "en": "Waterproofing Membrane",
       "count": 8,
-      "file": "output/categories/16_Su_Yal_t_m_Membran__Waterproofing_Membrane.json"
+      "file": "output/categories/16_Su_Yalitim_Membrani__Waterproofing_Membrane.json"
     },
     "17": {
       "tr": "PVC Vana Çözümleri",
       "en": "PVC Valve Solutions",
       "count": 324,
-      "file": "output/categories/17_PVC_Vana_z_mleri__PVC_Valve_Solutions.json"
+      "file": "output/categories/17_PVC_Vana_Cozumleri__PVC_Valve_Solutions.json"
     },
     "18": {
       "tr": "Havuz Ekipmanları Yedek Parçaları",
       "en": "Pool Equipment Spare Parts",
       "count": 380,
-      "file": "output/categories/18_Havuz_Ekipmanlar_Yedek_Par_alar__Pool_Equipment_Spare_Parts.json"
+      "file": "output/categories/18_Havuz_Ekipmanlari_Yedek_Parcalari__Pool_Equipment_Spare_Parts.json"
     }
   }
 }
