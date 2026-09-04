@@ -1,0 +1,322 @@
+{
+  "meta": {
+    "generator": "pim/generate_pim_json.py",
+    "generated_at": "2026-09-04",
+    "source_files": [
+      "16_Su_Yalitim_Membrani__Waterproofing_Membrane.json",
+      "16_Su_Yalitim_Membrani__Waterproofing_Membrane_attributes.json"
+    ],
+    "category_no": "16",
+    "category_tr": "Su Yalıtım Membranı",
+    "category_en": "Waterproofing Membrane",
+    "odoo_model": "product.template",
+    "pim_modules": [
+      "attribute_set",
+      "product_attribute_set",
+      "pim"
+    ],
+    "technical_name_prefix": "membrane",
+    "family_count": 1,
+    "variant_count": 8,
+    "import_order": [
+      "attribute_groups",
+      "attribute_sets (ustten alta, parent once)",
+      "attributes (custom -> ir.model.fields; native -> field_id)",
+      "attribute.option kayitlari (select/multiselect icin)",
+      "product_category (varsayilan set baglanti)",
+      "product_values (product.template + x_ alan degerleri)"
+    ],
+    "design_notes": [
+      "Set hiyerarşisi attribute.set.parent_id ile kurulur; alt setler üst setin niteliklerini kalıtır (complete_attribute_ids).",
+      "Kategori genelinde ortak nitelikler kök sette; yalnızca alt gruplarda görülen nitelikler ilgili ara/aile setine bağlanır (ör. kum kapasitesi yalnızca Kum Filtreleri setinde).",
+      "Bir nitelik birden fazla sete bağlanabilir (attribute_set_ids m2m): grain_size hem 25 Mikron hem Filtre Medyaları setinde.",
+      "serialized=False seçildi; gerçek kolon arama/filtreleme/gruplama avantajı sağlar. Yüzlerce niteliğe çıkılırsa serialized=True önerilir (x_custom_json_attrs JSON blob).",
+      "Ağırlık doğal (native) nitelik olarak product.template.weight alanına bağlandı; ambalaj ağırlığı (25 kg çuvallar) da bu alana yazılır.",
+      "select/multiselect nitelikler attribute.option kayıtlarıyla normalize edildi; serbest metin yerine seçim listesi kullanılarak veri tutarlılığı sağlanır.",
+      "Urun adi (name) aile başlığı + model; model yoksa aile başlığı + koddan üretilir. default_code her zaman koddur."
+    ],
+    "data_quality_notes": [
+      "Ikon değerleri normalize edildi (yildiz/tire temizligi, 'RESIDENTAL' -> 'RESIDENTIAL', '- POOL PLUMBING LINES' -> 'POOL PLUMBING LINES').",
+      "6 yollu vanalarda büyük 'Ø' disli, küçük 'ø' yapistirma baglantiyi belirtir; secenek etiketleri buna gore aciklastirildi.",
+      "ap_diameter alani iki anlamda kullaniliyor: sayisal degerler filtre capi (diameter_mm), aralik degerler ('0,5-1,2 mm') tane boyutu (grain_size) olarak ayristirildi.",
+      "'ambalaj_packing' ('25 kg') degeri urunun gercek agirligi oldugu icin native weight alanina yazildi.",
+      "Rotex ailesinde family spec 'max_pressure_bar=1.5' ile variant tablosundaki 'MAX. CALISMA BASINCI 2,5 bar' celisiyor; her ikisi ayri nitelikte (kok 'Maks. Basinc' ve kum filtre 'Maks. Calisma Basinci') tasindi, gozden gecirilmeli.",
+      "Lamex tablolarindaki 1.050+ mm capli satirlar kum filtreler icin dogrudur; PDF'te pompa bolumune tasmasi kaynak cikarimidir (02 kategorisinde zaten yer alirlar).",
+      "Rotex aile tablosunda Woundex ile ayni kodlu satirlar var (12015123100-03); urun atamalari Woundex tarafindadir ve cift uretim engellendi.",
+      "bullets_tr listesi bazi ailelerde TR+EN satirlari icerir; highlights alani kaynagini birebir tasir.",
+      "Zeolit ailesi kaynak PDF'te skimmer, havuz ortusu, merdiven gibi diger urunleri de kapsar; set adi 'Zeolit ve Diger Urunler' olarak duzenlendi."
+    ]
+  },
+  "attribute_groups": [
+    {
+      "key": "general",
+      "name": "Genel",
+      "name_en": "General",
+      "sequence": 10
+    },
+    {
+      "key": "physical",
+      "name": "Fiziksel Özellikler",
+      "name_en": "Physical Specs",
+      "sequence": 20
+    }
+  ],
+  "attribute_sets": [
+    {
+      "key": "su-yalitim-membrani",
+      "name": "Su Yalıtım Membrani",
+      "name_en": "Waterproofing Membrane",
+      "parent_key": null,
+      "sequence": 10,
+      "is_root": true
+    },
+    {
+      "key": "almera",
+      "name": "Almera",
+      "name_en": "Almera",
+      "parent_key": "su-yalitim-membrani",
+      "sequence": 10,
+      "family_product_id": "almera",
+      "family_variant_count": 8
+    }
+  ],
+  "attributes": [
+    {
+      "key": "model",
+      "name": "x_membrane_model",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Ürün Adı",
+      "field_description_en": "Product Name",
+      "attribute_type": "char",
+      "serialized": false,
+      "widget": null,
+      "group_key": "general",
+      "set_keys": [
+        "su-yalitim-membrani"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.r_n_adi_product_name",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "unit",
+      "name": "x_membrane_unit",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Satış Birimi",
+      "field_description_en": "Sales Unit",
+      "attribute_type": "select",
+      "serialized": false,
+      "widget": null,
+      "group_key": "general",
+      "set_keys": [
+        "su-yalitim-membrani"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.bi_ri_m_unit",
+      "options": [
+        "m²",
+        "Adet",
+        "MTUL"
+      ],
+      "option_map": {
+        "m 2": "m²",
+        "ADET PCS": "Adet",
+        "MTUL": "MTUL"
+      }
+    },
+    {
+      "key": "dims",
+      "name": "x_membrane_dims",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Boyutlar",
+      "field_description_en": "Dimensions",
+      "attribute_type": "char",
+      "serialized": false,
+      "widget": null,
+      "group_key": "physical",
+      "set_keys": [
+        "su-yalitim-membrani"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.l_ler_dimensions",
+      "options": [],
+      "option_map": {}
+    }
+  ],
+  "product_category": {
+    "code": "16",
+    "name": "Su Yalıtım Membranı",
+    "name_en": "Waterproofing Membrane",
+    "parent": null,
+    "default_attribute_set_key": "su-yalitim-membrani"
+  },
+  "family_values": {
+    "almera": {}
+  },
+  "product_values": {
+    "69015341001": {
+      "family_key": "almera",
+      "attribute_set_key": "almera",
+      "values": {
+        "model": "Almera tex 230",
+        "unit": "m²",
+        "dims": "150cmx50m"
+      },
+      "native": {
+        "default_code": "69015341001",
+        "name": "Almera tex 230",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 10.6
+          }
+        ],
+        "category_code": "16"
+      }
+    },
+    "69015341006": {
+      "family_key": "almera",
+      "attribute_set_key": "almera",
+      "values": {
+        "model": "Almera tex dış köşe manşeti Outer corner conduit",
+        "unit": "Adet",
+        "dims": "62,5mmx125m"
+      },
+      "native": {
+        "default_code": "69015341006",
+        "name": "Almera tex dış köşe manşeti Outer corner conduit",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 4.0
+          }
+        ],
+        "category_code": "16"
+      }
+    },
+    "69015341005": {
+      "family_key": "almera",
+      "attribute_set_key": "almera",
+      "values": {
+        "model": "Almera tex iç köşe manşeti Inner corner conduit",
+        "unit": "Adet",
+        "dims": "62,5mmx125m"
+      },
+      "native": {
+        "default_code": "69015341005",
+        "name": "Almera tex iç köşe manşeti Inner corner conduit",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 4.0
+          }
+        ],
+        "category_code": "16"
+      }
+    },
+    "69015341004": {
+      "family_key": "almera",
+      "attribute_set_key": "almera",
+      "values": {
+        "model": "Almera tape 75 yapışkanlı ek yeri kapama bandı Sticker tape",
+        "unit": "MTUL",
+        "dims": "75mmx25m"
+      },
+      "native": {
+        "default_code": "69015341004",
+        "name": "Almera tape 75 yapışkanlı ek yeri kapama bandı Sticker tape",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 5.3
+          }
+        ],
+        "category_code": "16"
+      }
+    },
+    "69015341002": {
+      "family_key": "almera",
+      "attribute_set_key": "almera",
+      "values": {
+        "model": "Almera cord 125 tekstil pah bandı Join membrane",
+        "unit": "MTUL",
+        "dims": "125mmx50m"
+      },
+      "native": {
+        "default_code": "69015341002",
+        "name": "Almera cord 125 tekstil pah bandı Join membrane",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 5.7
+          }
+        ],
+        "category_code": "16"
+      }
+    },
+    "69015341010": {
+      "family_key": "almera",
+      "attribute_set_key": "almera",
+      "values": {
+        "model": "İzolasyon yapıştırıcı Almeralastic Insulation Adhesive Almeralastic",
+        "unit": "Adet",
+        "dims": "15 Kg"
+      },
+      "native": {
+        "default_code": "69015341010",
+        "name": "İzolasyon yapıştırıcı Almeralastic Insulation Adhesive Almeralastic",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 7.7
+          }
+        ],
+        "category_code": "16"
+      }
+    },
+    "69015341007": {
+      "family_key": "almera",
+      "attribute_set_key": "almera",
+      "values": {
+        "model": "Almera tex havuz boru geçiş Pool pipe conduit dn50",
+        "unit": "Adet",
+        "dims": "DN50x127mm"
+      },
+      "native": {
+        "default_code": "69015341007",
+        "name": "Almera tex havuz boru geçiş Pool pipe conduit dn50",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 5.9
+          }
+        ],
+        "category_code": "16"
+      }
+    },
+    "69015341008": {
+      "family_key": "almera",
+      "attribute_set_key": "almera",
+      "values": {
+        "model": "Almera fix tekstil tesisat boru geçiş manşeti Pipe conduit 1 ½\"-1\"",
+        "unit": "Adet",
+        "dims": "½\" -1\""
+      },
+      "native": {
+        "default_code": "69015341008",
+        "name": "Almera fix tekstil tesisat boru geçiş manşeti Pipe conduit 1 ½\"-1\"",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 4.7
+          }
+        ],
+        "category_code": "16"
+      }
+    }
+  }
+}

@@ -1,0 +1,5292 @@
+{
+  "meta": {
+    "generator": "pim/generate_pim_json.py",
+    "generated_at": "2026-09-04",
+    "source_files": [
+      "18_Havuz_Ekipmanlari_Yedek_Parcalari__Pool_Equipment_Spare_Parts.json",
+      "18_Havuz_Ekipmanlari_Yedek_Parcalari__Pool_Equipment_Spare_Parts_attributes.json"
+    ],
+    "category_no": "18",
+    "category_tr": "Havuz Ekipmanları Yedek Parçaları",
+    "category_en": "Pool Equipment Spare Parts",
+    "odoo_model": "product.template",
+    "pim_modules": [
+      "attribute_set",
+      "product_attribute_set",
+      "pim"
+    ],
+    "technical_name_prefix": "spare",
+    "family_count": 21,
+    "variant_count": 380,
+    "import_order": [
+      "attribute_groups",
+      "attribute_sets (ustten alta, parent once)",
+      "attributes (custom -> ir.model.fields; native -> field_id)",
+      "attribute.option kayitlari (select/multiselect icin)",
+      "product_category (varsayilan set baglanti)",
+      "product_values (product.template + x_ alan degerleri)"
+    ],
+    "design_notes": [
+      "Set hiyerarşisi attribute.set.parent_id ile kurulur; alt setler üst setin niteliklerini kalıtır (complete_attribute_ids).",
+      "Kategori genelinde ortak nitelikler kök sette; yalnızca alt gruplarda görülen nitelikler ilgili ara/aile setine bağlanır (ör. kum kapasitesi yalnızca Kum Filtreleri setinde).",
+      "Bir nitelik birden fazla sete bağlanabilir (attribute_set_ids m2m): grain_size hem 25 Mikron hem Filtre Medyaları setinde.",
+      "serialized=False seçildi; gerçek kolon arama/filtreleme/gruplama avantajı sağlar. Yüzlerce niteliğe çıkılırsa serialized=True önerilir (x_custom_json_attrs JSON blob).",
+      "Ağırlık doğal (native) nitelik olarak product.template.weight alanına bağlandı; ambalaj ağırlığı (25 kg çuvallar) da bu alana yazılır.",
+      "select/multiselect nitelikler attribute.option kayıtlarıyla normalize edildi; serbest metin yerine seçim listesi kullanılarak veri tutarlılığı sağlanır.",
+      "Urun adi (name) aile başlığı + model; model yoksa aile başlığı + koddan üretilir. default_code her zaman koddur."
+    ],
+    "data_quality_notes": [
+      "Ikon değerleri normalize edildi (yildiz/tire temizligi, 'RESIDENTAL' -> 'RESIDENTIAL', '- POOL PLUMBING LINES' -> 'POOL PLUMBING LINES').",
+      "6 yollu vanalarda büyük 'Ø' disli, küçük 'ø' yapistirma baglantiyi belirtir; secenek etiketleri buna gore aciklastirildi.",
+      "ap_diameter alani iki anlamda kullaniliyor: sayisal degerler filtre capi (diameter_mm), aralik degerler ('0,5-1,2 mm') tane boyutu (grain_size) olarak ayristirildi.",
+      "'ambalaj_packing' ('25 kg') degeri urunun gercek agirligi oldugu icin native weight alanina yazildi.",
+      "Rotex ailesinde family spec 'max_pressure_bar=1.5' ile variant tablosundaki 'MAX. CALISMA BASINCI 2,5 bar' celisiyor; her ikisi ayri nitelikte (kok 'Maks. Basinc' ve kum filtre 'Maks. Calisma Basinci') tasindi, gozden gecirilmeli.",
+      "Lamex tablolarindaki 1.050+ mm capli satirlar kum filtreler icin dogrudur; PDF'te pompa bolumune tasmasi kaynak cikarimidir (02 kategorisinde zaten yer alirlar).",
+      "Rotex aile tablosunda Woundex ile ayni kodlu satirlar var (12015123100-03); urun atamalari Woundex tarafindadir ve cift uretim engellendi.",
+      "bullets_tr listesi bazi ailelerde TR+EN satirlari icerir; highlights alani kaynagini birebir tasir.",
+      "Zeolit ailesi kaynak PDF'te skimmer, havuz ortusu, merdiven gibi diger urunleri de kapsar; set adi 'Zeolit ve Diger Urunler' olarak duzenlendi."
+    ]
+  },
+  "attribute_groups": [
+    {
+      "key": "general",
+      "name": "Genel",
+      "name_en": "General",
+      "sequence": 10
+    }
+  ],
+  "attribute_sets": [
+    {
+      "key": "yedek-parcalar",
+      "name": "Havuz Ekipmanları Yedek Parçaları",
+      "name_en": "Pool Equipment Spare Parts",
+      "parent_key": null,
+      "sequence": 10,
+      "is_root": true
+    },
+    {
+      "key": "senkron-pompalar",
+      "name": "Senkron Pompa Yedekleri",
+      "name_en": "Senkron Pump Spares",
+      "parent_key": "yedek-parcalar",
+      "sequence": 20
+    },
+    {
+      "key": "diger-pompalar",
+      "name": "Diğer Pompa Yedekleri",
+      "name_en": "Other Pump Spares",
+      "parent_key": "yedek-parcalar",
+      "sequence": 30
+    },
+    {
+      "key": "filtreler",
+      "name": "Filtre Yedekleri",
+      "name_en": "Filter Spares",
+      "parent_key": "yedek-parcalar",
+      "sequence": 40
+    },
+    {
+      "key": "havuz-robotlari",
+      "name": "Havuz Robotu Yedekleri",
+      "name_en": "Pool Robot Spares",
+      "parent_key": "yedek-parcalar",
+      "sequence": 50
+    },
+    {
+      "key": "klorinatorler",
+      "name": "Klorinatör Yedekleri",
+      "name_en": "Chlorinator Spares",
+      "parent_key": "yedek-parcalar",
+      "sequence": 60
+    },
+    {
+      "key": "senkron-1-pompa-yedek-par-alari-spare-parts-of-senkron-1-pum",
+      "name": "Senkron 1 Pompa Yedek Parçaları",
+      "name_en": "Spare Parts of Senkron 1 Pump",
+      "parent_key": "senkron-pompalar",
+      "sequence": 10,
+      "family_product_id": "senkron-1-pompa-yedek-par-alari-spare-parts-of-senkron-1-pum",
+      "family_variant_count": 26
+    },
+    {
+      "key": "senkron-2-pompa-yedek-par-alari-spare-parts-of-senkron-2-pum",
+      "name": "Senkron 2 Pompa Yedek Parçaları",
+      "name_en": "Spare Parts of Senkron 2 Pump",
+      "parent_key": "senkron-pompalar",
+      "sequence": 20,
+      "family_product_id": "senkron-2-pompa-yedek-par-alari-spare-parts-of-senkron-2-pum",
+      "family_variant_count": 24
+    },
+    {
+      "key": "senkron-3-pompa-yedek-par-alari-spare-parts-of-senkron-3-pum",
+      "name": "Senkron 3 Pompa Yedek Parçaları",
+      "name_en": "Spare Parts of Senkron 3 Pump",
+      "parent_key": "senkron-pompalar",
+      "sequence": 30,
+      "family_product_id": "senkron-3-pompa-yedek-par-alari-spare-parts-of-senkron-3-pum",
+      "family_variant_count": 16
+    },
+    {
+      "key": "senkron-3-jet-pompa-yedek-par-alari-spare-parts-of-senkron-3",
+      "name": "Senkron 3 Jet Pompa Yedek Parçaları",
+      "name_en": "Spare Parts of Senkron 3 Jet Pump",
+      "parent_key": "senkron-pompalar",
+      "sequence": 40,
+      "family_product_id": "senkron-3-jet-pompa-yedek-par-alari-spare-parts-of-senkron-3",
+      "family_variant_count": 11
+    },
+    {
+      "key": "ninfa-yedek-par-alari-spare-parts-of-ninfa-pump",
+      "name": "Ninfa Pompa Yedek Parçaları",
+      "name_en": "Spare Parts of Ninfa Pump",
+      "parent_key": "diger-pompalar",
+      "sequence": 50,
+      "family_product_id": "ninfa-yedek-par-alari-spare-parts-of-ninfa-pump",
+      "family_variant_count": 14
+    },
+    {
+      "key": "ondina-yedek-par-alari-spare-parts-of-ondina-pump",
+      "name": "Ondina Pompa Yedek Parçaları",
+      "name_en": "Spare Parts of Ondina Pump",
+      "parent_key": "diger-pompalar",
+      "sequence": 60,
+      "family_product_id": "ondina-yedek-par-alari-spare-parts-of-ondina-pump",
+      "family_variant_count": 15
+    },
+    {
+      "key": "koral-seri-si-yedek-par-alari-spare-parts-of-koral-series-pu",
+      "name": "Koral Serisi Pompa Yedek Parçaları",
+      "name_en": "Spare Parts of Koral Series Pump",
+      "parent_key": "diger-pompalar",
+      "sequence": 70,
+      "family_product_id": "koral-seri-si-yedek-par-alari-spare-parts-of-koral-series-pu",
+      "family_variant_count": 19
+    },
+    {
+      "key": "karpa-seri-si-yedek-par-alari-spare-parts-of-karpa-series-pu",
+      "name": "Karpa Serisi Pompa Yedek Parçaları",
+      "name_en": "Spare Parts of Karpa Series Pump",
+      "parent_key": "diger-pompalar",
+      "sequence": 80,
+      "family_product_id": "karpa-seri-si-yedek-par-alari-spare-parts-of-karpa-series-pu",
+      "family_variant_count": 14
+    },
+    {
+      "key": "kan-seri-si-yedek-par-alari-spare-parts-of-kan-series-pump",
+      "name": "Kan Serisi Pompa Yedek Parçaları",
+      "name_en": "Spare Parts of Kan Series Pump",
+      "parent_key": "diger-pompalar",
+      "sequence": 90,
+      "family_product_id": "kan-seri-si-yedek-par-alari-spare-parts-of-kan-series-pump",
+      "family_variant_count": 22
+    },
+    {
+      "key": "kapri-seri-si-yedek-par-alari-spare-parts-of-kapri-series-pu",
+      "name": "Kapri Serisi Pompa Yedek Parçaları",
+      "name_en": "Spare Parts of Kapri Series Pump",
+      "parent_key": "diger-pompalar",
+      "sequence": 100,
+      "family_product_id": "kapri-seri-si-yedek-par-alari-spare-parts-of-kapri-series-pu",
+      "family_variant_count": 21
+    },
+    {
+      "key": "lamex-fi-ltre-yedek-par-alari-spare-parts-of-lamex-filter",
+      "name": "Lamex Filtre Yedek Parçaları",
+      "name_en": "Spare Parts of Lamex Filter",
+      "parent_key": "filtreler",
+      "sequence": 110,
+      "family_product_id": "lamex-fi-ltre-yedek-par-alari-spare-parts-of-lamex-filter",
+      "family_variant_count": 18
+    },
+    {
+      "key": "rotex-fi-ltre-yedek-par-alari-spare-parts-of-rotex-filter",
+      "name": "Rotex Filtre Yedek Parçaları",
+      "name_en": "Spare Parts of Rotex Filter",
+      "parent_key": "filtreler",
+      "sequence": 120,
+      "family_product_id": "rotex-fi-ltre-yedek-par-alari-spare-parts-of-rotex-filter",
+      "family_variant_count": 13
+    },
+    {
+      "key": "woundex-fi-ltre-yedek-par-alari-spare-parts-of-woundex-filte",
+      "name": "Woundex Filtre Yedek Parçaları",
+      "name_en": "Spare Parts of Woundex Filter",
+      "parent_key": "filtreler",
+      "sequence": 130,
+      "family_product_id": "woundex-fi-ltre-yedek-par-alari-spare-parts-of-woundex-filte",
+      "family_variant_count": 15
+    },
+    {
+      "key": "goodrob-easy-kablosuz-havuz-s-p-rgesi-goodrob-easy-cordless-",
+      "name": "Goodrob Easy Yedek Parçaları",
+      "name_en": "Spare Parts of Goodrob Easy",
+      "parent_key": "havuz-robotlari",
+      "sequence": 140,
+      "family_product_id": "goodrob-easy-kablosuz-havuz-s-p-rgesi-goodrob-easy-cordless-",
+      "family_variant_count": 41
+    },
+    {
+      "key": "goodrob-maxi-kablosuz-havuz-robotu-goodrob-maxi-cordless-poo",
+      "name": "Goodrob Maxi Yedek Parçaları",
+      "name_en": "Spare Parts of Goodrob Maxi",
+      "parent_key": "havuz-robotlari",
+      "sequence": 150,
+      "family_product_id": "goodrob-maxi-kablosuz-havuz-robotu-goodrob-maxi-cordless-poo",
+      "family_variant_count": 15
+    },
+    {
+      "key": "goodrob-pro-kablosuz-havuz-robotu-goodrob-pro-cordless-pool-",
+      "name": "Goodrob Pro Yedek Parçaları",
+      "name_en": "Spare Parts of Goodrob Pro",
+      "parent_key": "havuz-robotlari",
+      "sequence": 160,
+      "family_product_id": "goodrob-pro-kablosuz-havuz-robotu-goodrob-pro-cordless-pool-",
+      "family_variant_count": 17
+    },
+    {
+      "key": "goodrob-king-cordless-pool-robotic-cleaner",
+      "name": "Goodrob King Yedek Parçaları",
+      "name_en": "Spare Parts of Goodrob King",
+      "parent_key": "havuz-robotlari",
+      "sequence": 170,
+      "family_product_id": "goodrob-king-cordless-pool-robotic-cleaner",
+      "family_variant_count": 14
+    },
+    {
+      "key": "tiger-shark-havuz-robotu-tiger-shark-pool-robotic-cleaner",
+      "name": "Tiger Shark Yedek Parçaları",
+      "name_en": "Spare Parts of Tiger Shark",
+      "parent_key": "havuz-robotlari",
+      "sequence": 180,
+      "family_product_id": "tiger-shark-havuz-robotu-tiger-shark-pool-robotic-cleaner",
+      "family_variant_count": 24
+    },
+    {
+      "key": "clomax-200-salt-chlorinator",
+      "name": "Clomax 200 Yedek Parçaları",
+      "name_en": "Spare Parts of Clomax 200",
+      "parent_key": "klorinatorler",
+      "sequence": 190,
+      "family_product_id": "clomax-200-salt-chlorinator",
+      "family_variant_count": 12
+    },
+    {
+      "key": "clomax-500-salt-chlorinator",
+      "name": "Clomax 500 Yedek Parçaları",
+      "name_en": "Spare Parts of Clomax 500",
+      "parent_key": "klorinatorler",
+      "sequence": 200,
+      "family_product_id": "clomax-500-salt-chlorinator",
+      "family_variant_count": 21
+    },
+    {
+      "key": "klx-tuzdan-klor-jenerat-r-klx-salt-chlorinator",
+      "name": "KLX Klorinatör Yedek Parçaları",
+      "name_en": "Spare Parts of KLX Salt Chlorinator",
+      "parent_key": "klorinatorler",
+      "sequence": 210,
+      "family_product_id": "klx-tuzdan-klor-jenerat-r-klx-salt-chlorinator",
+      "family_variant_count": 8
+    }
+  ],
+  "attributes": [
+    {
+      "key": "model",
+      "name": "x_spare_model",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Parça Adı",
+      "field_description_en": "Part Name",
+      "attribute_type": "char",
+      "serialized": false,
+      "widget": null,
+      "group_key": "general",
+      "set_keys": [
+        "yedek-parcalar"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.a_klama_description | a_klama",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "part_no",
+      "name": "x_spare_part_no",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Parça No",
+      "field_description_en": "Part No",
+      "attribute_type": "integer",
+      "serialized": false,
+      "widget": null,
+      "group_key": "general",
+      "set_keys": [
+        "yedek-parcalar"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.par_a | par_a_part | no",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "ref",
+      "name": "x_spare_ref",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Referans Kodu",
+      "field_description_en": "Reference Code",
+      "attribute_type": "char",
+      "serialized": false,
+      "widget": null,
+      "group_key": "general",
+      "set_keys": [
+        "yedek-parcalar"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.referans_referance | referans_reference | referans",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "position",
+      "name": "x_spare_position",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Pozisyon Bilgisi",
+      "field_description_en": "Position Info",
+      "attribute_type": "char",
+      "serialized": false,
+      "widget": null,
+      "group_key": "general",
+      "set_keys": [
+        "yedek-parcalar"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.adet_qty | adet",
+      "options": [],
+      "option_map": {}
+    }
+  ],
+  "product_category": {
+    "code": "18",
+    "name": "Havuz Ekipmanları Yedek Parçaları",
+    "name_en": "Pool Equipment Spare Parts",
+    "parent": null,
+    "default_attribute_set_key": "yedek-parcalar"
+  },
+  "family_values": {
+    "senkron-1-pompa-yedek-par-alari-spare-parts-of-senkron-1-pum": {},
+    "senkron-2-pompa-yedek-par-alari-spare-parts-of-senkron-2-pum": {},
+    "senkron-3-pompa-yedek-par-alari-spare-parts-of-senkron-3-pum": {},
+    "senkron-3-jet-pompa-yedek-par-alari-spare-parts-of-senkron-3": {},
+    "ninfa-yedek-par-alari-spare-parts-of-ninfa-pump": {},
+    "ondina-yedek-par-alari-spare-parts-of-ondina-pump": {},
+    "koral-seri-si-yedek-par-alari-spare-parts-of-koral-series-pu": {},
+    "karpa-seri-si-yedek-par-alari-spare-parts-of-karpa-series-pu": {},
+    "kan-seri-si-yedek-par-alari-spare-parts-of-kan-series-pump": {},
+    "kapri-seri-si-yedek-par-alari-spare-parts-of-kapri-series-pu": {},
+    "lamex-fi-ltre-yedek-par-alari-spare-parts-of-lamex-filter": {},
+    "rotex-fi-ltre-yedek-par-alari-spare-parts-of-rotex-filter": {},
+    "woundex-fi-ltre-yedek-par-alari-spare-parts-of-woundex-filte": {},
+    "goodrob-easy-kablosuz-havuz-s-p-rgesi-goodrob-easy-cordless-": {},
+    "goodrob-maxi-kablosuz-havuz-robotu-goodrob-maxi-cordless-poo": {},
+    "goodrob-pro-kablosuz-havuz-robotu-goodrob-pro-cordless-pool-": {},
+    "goodrob-king-cordless-pool-robotic-cleaner": {},
+    "tiger-shark-havuz-robotu-tiger-shark-pool-robotic-cleaner": {},
+    "clomax-200-salt-chlorinator": {},
+    "clomax-500-salt-chlorinator": {},
+    "klx-tuzdan-klor-jenerat-r-klx-salt-chlorinator": {}
+  },
+  "product_values": {
+    "19810123027": {
+      "family_key": "senkron-1-pompa-yedek-par-alari-spare-parts-of-senkron-1-pum",
+      "attribute_set_key": "senkron-1-pompa-yedek-par-alari-spare-parts-of-senkron-1-pum",
+      "values": {
+        "model": "Rakor somunu Union (Tie In) nut",
+        "part_no": 1
+      },
+      "native": {
+        "default_code": "19810123027",
+        "name": "Senkron 1 Pompa Yedek Parçaları Rakor somunu Union (Tie In) nut",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19810123007": {
+      "family_key": "senkron-1-pompa-yedek-par-alari-spare-parts-of-senkron-1-pum",
+      "attribute_set_key": "senkron-1-pompa-yedek-par-alari-spare-parts-of-senkron-1-pum",
+      "values": {
+        "model": "Rakor Union (Tie In)",
+        "part_no": 2
+      },
+      "native": {
+        "default_code": "19810123007",
+        "name": "Senkron 1 Pompa Yedek Parçaları Rakor Union (Tie In)",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19810123028": {
+      "family_key": "senkron-1-pompa-yedek-par-alari-spare-parts-of-senkron-1-pum",
+      "attribute_set_key": "senkron-1-pompa-yedek-par-alari-spare-parts-of-senkron-1-pum",
+      "values": {
+        "model": "Rakor oringi Union oring",
+        "part_no": 3
+      },
+      "native": {
+        "default_code": "19810123028",
+        "name": "Senkron 1 Pompa Yedek Parçaları Rakor oringi Union oring",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19810123029": {
+      "family_key": "senkron-1-pompa-yedek-par-alari-spare-parts-of-senkron-1-pum",
+      "attribute_set_key": "senkron-1-pompa-yedek-par-alari-spare-parts-of-senkron-1-pum",
+      "values": {
+        "model": "Gider tıpası Drainage plug",
+        "part_no": 4
+      },
+      "native": {
+        "default_code": "19810123029",
+        "name": "Senkron 1 Pompa Yedek Parçaları Gider tıpası Drainage plug",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19810123030": {
+      "family_key": "senkron-1-pompa-yedek-par-alari-spare-parts-of-senkron-1-pum",
+      "attribute_set_key": "senkron-1-pompa-yedek-par-alari-spare-parts-of-senkron-1-pum",
+      "values": {
+        "model": "Gider tapası oringi Plug oring",
+        "part_no": 5
+      },
+      "native": {
+        "default_code": "19810123030",
+        "name": "Senkron 1 Pompa Yedek Parçaları Gider tapası oringi Plug oring",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19810123041": {
+      "family_key": "senkron-1-pompa-yedek-par-alari-spare-parts-of-senkron-1-pum",
+      "attribute_set_key": "senkron-1-pompa-yedek-par-alari-spare-parts-of-senkron-1-pum",
+      "values": {
+        "model": "Ön filtre kasası Pre-filter pump casing",
+        "part_no": 6
+      },
+      "native": {
+        "default_code": "19810123041",
+        "name": "Senkron 1 Pompa Yedek Parçaları Ön filtre kasası Pre-filter pump casing",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19810123025": {
+      "family_key": "senkron-1-pompa-yedek-par-alari-spare-parts-of-senkron-1-pum",
+      "attribute_set_key": "senkron-1-pompa-yedek-par-alari-spare-parts-of-senkron-1-pum",
+      "values": {
+        "model": "Ön filtre sepeti Pre-filter basket",
+        "part_no": 7
+      },
+      "native": {
+        "default_code": "19810123025",
+        "name": "Senkron 1 Pompa Yedek Parçaları Ön filtre sepeti Pre-filter basket",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19810123024": {
+      "family_key": "senkron-1-pompa-yedek-par-alari-spare-parts-of-senkron-1-pum",
+      "attribute_set_key": "senkron-1-pompa-yedek-par-alari-spare-parts-of-senkron-1-pum",
+      "values": {
+        "model": "Ön filtre kapak oringi Pre-filter cover oring",
+        "part_no": 8
+      },
+      "native": {
+        "default_code": "19810123024",
+        "name": "Senkron 1 Pompa Yedek Parçaları Ön filtre kapak oringi Pre-filter cover oring",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19810123022": {
+      "family_key": "senkron-1-pompa-yedek-par-alari-spare-parts-of-senkron-1-pum",
+      "attribute_set_key": "senkron-1-pompa-yedek-par-alari-spare-parts-of-senkron-1-pum",
+      "values": {
+        "model": "Ön filtre kapak bileziği Pre-filter cover ring",
+        "part_no": 9
+      },
+      "native": {
+        "default_code": "19810123022",
+        "name": "Senkron 1 Pompa Yedek Parçaları Ön filtre kapak bileziği Pre-filter cover ring",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19810123023": {
+      "family_key": "senkron-1-pompa-yedek-par-alari-spare-parts-of-senkron-1-pum",
+      "attribute_set_key": "senkron-1-pompa-yedek-par-alari-spare-parts-of-senkron-1-pum",
+      "values": {
+        "model": "Ön filtre şeffaf kapağı Pre-filter lid transparent",
+        "part_no": 10
+      },
+      "native": {
+        "default_code": "19810123023",
+        "name": "Senkron 1 Pompa Yedek Parçaları Ön filtre şeffaf kapağı Pre-filter lid transparent",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19810123044": {
+      "family_key": "senkron-1-pompa-yedek-par-alari-spare-parts-of-senkron-1-pum",
+      "attribute_set_key": "senkron-1-pompa-yedek-par-alari-spare-parts-of-senkron-1-pum",
+      "values": {
+        "model": "Kapak anahtarı Cover key",
+        "part_no": 11
+      },
+      "native": {
+        "default_code": "19810123044",
+        "name": "Senkron 1 Pompa Yedek Parçaları Kapak anahtarı Cover key",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19810123031": {
+      "family_key": "senkron-1-pompa-yedek-par-alari-spare-parts-of-senkron-1-pum",
+      "attribute_set_key": "senkron-1-pompa-yedek-par-alari-spare-parts-of-senkron-1-pum",
+      "values": {
+        "model": "Gövde oringi Body oring",
+        "part_no": 12
+      },
+      "native": {
+        "default_code": "19810123031",
+        "name": "Senkron 1 Pompa Yedek Parçaları Gövde oringi Body oring",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19810123033": {
+      "family_key": "senkron-1-pompa-yedek-par-alari-spare-parts-of-senkron-1-pum",
+      "attribute_set_key": "senkron-1-pompa-yedek-par-alari-spare-parts-of-senkron-1-pum",
+      "values": {
+        "model": "Difüzör Diffuser",
+        "part_no": 13
+      },
+      "native": {
+        "default_code": "19810123033",
+        "name": "Senkron 1 Pompa Yedek Parçaları Difüzör Diffuser",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19810123034": {
+      "family_key": "senkron-1-pompa-yedek-par-alari-spare-parts-of-senkron-1-pum",
+      "attribute_set_key": "senkron-1-pompa-yedek-par-alari-spare-parts-of-senkron-1-pum",
+      "values": {
+        "model": "Aktif ring Active ring",
+        "part_no": 14
+      },
+      "native": {
+        "default_code": "19810123034",
+        "name": "Senkron 1 Pompa Yedek Parçaları Aktif ring Active ring",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19810123032": {
+      "family_key": "senkron-1-pompa-yedek-par-alari-spare-parts-of-senkron-1-pum",
+      "attribute_set_key": "senkron-1-pompa-yedek-par-alari-spare-parts-of-senkron-1-pum",
+      "values": {
+        "model": "Difüzör Oringi Diffuser Oring",
+        "part_no": 15
+      },
+      "native": {
+        "default_code": "19810123032",
+        "name": "Senkron 1 Pompa Yedek Parçaları Difüzör Oringi Diffuser Oring",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19810123035": {
+      "family_key": "senkron-1-pompa-yedek-par-alari-spare-parts-of-senkron-1-pum",
+      "attribute_set_key": "senkron-1-pompa-yedek-par-alari-spare-parts-of-senkron-1-pum",
+      "values": {
+        "model": "Fan 0,50 Hp Impeller 0,50 Hp",
+        "part_no": 16
+      },
+      "native": {
+        "default_code": "19810123035",
+        "name": "Senkron 1 Pompa Yedek Parçaları Fan 0,50 Hp Impeller 0,50 Hp",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19810123045": {
+      "family_key": "senkron-1-pompa-yedek-par-alari-spare-parts-of-senkron-1-pum",
+      "attribute_set_key": "senkron-1-pompa-yedek-par-alari-spare-parts-of-senkron-1-pum",
+      "values": {
+        "model": "Fan 0,75 Hp Impeller 0,75 Hp"
+      },
+      "native": {
+        "default_code": "19810123045",
+        "name": "Senkron 1 Pompa Yedek Parçaları Fan 0,75 Hp Impeller 0,75 Hp",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19810123036": {
+      "family_key": "senkron-1-pompa-yedek-par-alari-spare-parts-of-senkron-1-pum",
+      "attribute_set_key": "senkron-1-pompa-yedek-par-alari-spare-parts-of-senkron-1-pum",
+      "values": {
+        "model": "Fan 1,00 Hp Impeller 1,00 Hp"
+      },
+      "native": {
+        "default_code": "19810123036",
+        "name": "Senkron 1 Pompa Yedek Parçaları Fan 1,00 Hp Impeller 1,00 Hp",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19810123070": {
+      "family_key": "senkron-1-pompa-yedek-par-alari-spare-parts-of-senkron-1-pum",
+      "attribute_set_key": "senkron-1-pompa-yedek-par-alari-spare-parts-of-senkron-1-pum",
+      "values": {
+        "model": "Fan 1,00 Hp Tri Impeller 1,00 Hp Tri"
+      },
+      "native": {
+        "default_code": "19810123070",
+        "name": "Senkron 1 Pompa Yedek Parçaları Fan 1,00 Hp Tri Impeller 1,00 Hp Tri",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "PMS-SYMS7": {
+      "family_key": "senkron-1-pompa-yedek-par-alari-spare-parts-of-senkron-1-pum",
+      "attribute_set_key": "senkron-1-pompa-yedek-par-alari-spare-parts-of-senkron-1-pum",
+      "values": {
+        "model": "Mekanik salmastra Mechanical seal",
+        "part_no": 17
+      },
+      "native": {
+        "default_code": "PMS-SYMS7",
+        "name": "Senkron 1 Pompa Yedek Parçaları Mekanik salmastra Mechanical seal",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19810123026": {
+      "family_key": "senkron-1-pompa-yedek-par-alari-spare-parts-of-senkron-1-pum",
+      "attribute_set_key": "senkron-1-pompa-yedek-par-alari-spare-parts-of-senkron-1-pum",
+      "values": {
+        "model": "Gövde Body",
+        "part_no": 18
+      },
+      "native": {
+        "default_code": "19810123026",
+        "name": "Senkron 1 Pompa Yedek Parçaları Gövde Body",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19810123048": {
+      "family_key": "senkron-1-pompa-yedek-par-alari-spare-parts-of-senkron-1-pum",
+      "attribute_set_key": "senkron-1-pompa-yedek-par-alari-spare-parts-of-senkron-1-pum",
+      "values": {
+        "model": "Flanş Flange",
+        "part_no": 23
+      },
+      "native": {
+        "default_code": "19810123048",
+        "name": "Senkron 1 Pompa Yedek Parçaları Flanş Flange",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "PMS-SYMS3": {
+      "family_key": "senkron-1-pompa-yedek-par-alari-spare-parts-of-senkron-1-pum",
+      "attribute_set_key": "senkron-1-pompa-yedek-par-alari-spare-parts-of-senkron-1-pum",
+      "values": {
+        "model": "Arka soğutma fanı Cooling fan",
+        "part_no": 53
+      },
+      "native": {
+        "default_code": "PMS-SYMS3",
+        "name": "Senkron 1 Pompa Yedek Parçaları Arka soğutma fanı Cooling fan",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "PMS-SYMS5": {
+      "family_key": "senkron-1-pompa-yedek-par-alari-spare-parts-of-senkron-1-pum",
+      "attribute_set_key": "senkron-1-pompa-yedek-par-alari-spare-parts-of-senkron-1-pum",
+      "values": {
+        "model": "Arka soğutma fan kapağı Cooling fan cover",
+        "part_no": 55
+      },
+      "native": {
+        "default_code": "PMS-SYMS5",
+        "name": "Senkron 1 Pompa Yedek Parçaları Arka soğutma fan kapağı Cooling fan cover",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19810123039": {
+      "family_key": "senkron-1-pompa-yedek-par-alari-spare-parts-of-senkron-1-pum",
+      "attribute_set_key": "senkron-1-pompa-yedek-par-alari-spare-parts-of-senkron-1-pum",
+      "values": {
+        "model": "Yer desteği Base support",
+        "part_no": 58
+      },
+      "native": {
+        "default_code": "19810123039",
+        "name": "Senkron 1 Pompa Yedek Parçaları Yer desteği Base support",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19810123008": {
+      "family_key": "senkron-2-pompa-yedek-par-alari-spare-parts-of-senkron-2-pum",
+      "attribute_set_key": "senkron-2-pompa-yedek-par-alari-spare-parts-of-senkron-2-pum",
+      "values": {
+        "model": "Rakor somunu Union (Tie In) nut",
+        "part_no": 1
+      },
+      "native": {
+        "default_code": "19810123008",
+        "name": "Senkron 2 Pompa Yedek Parçaları Rakor somunu Union (Tie In) nut",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19810123009": {
+      "family_key": "senkron-2-pompa-yedek-par-alari-spare-parts-of-senkron-2-pum",
+      "attribute_set_key": "senkron-2-pompa-yedek-par-alari-spare-parts-of-senkron-2-pum",
+      "values": {
+        "model": "Rakor Union (Tie In)",
+        "part_no": 2
+      },
+      "native": {
+        "default_code": "19810123009",
+        "name": "Senkron 2 Pompa Yedek Parçaları Rakor Union (Tie In)",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19810123010": {
+      "family_key": "senkron-2-pompa-yedek-par-alari-spare-parts-of-senkron-2-pum",
+      "attribute_set_key": "senkron-2-pompa-yedek-par-alari-spare-parts-of-senkron-2-pum",
+      "values": {
+        "model": "Rakor oringi Union oring",
+        "part_no": 3
+      },
+      "native": {
+        "default_code": "19810123010",
+        "name": "Senkron 2 Pompa Yedek Parçaları Rakor oringi Union oring",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19810123011": {
+      "family_key": "senkron-2-pompa-yedek-par-alari-spare-parts-of-senkron-2-pum",
+      "attribute_set_key": "senkron-2-pompa-yedek-par-alari-spare-parts-of-senkron-2-pum",
+      "values": {
+        "model": "Gider tıpası Drainage plug",
+        "part_no": 4
+      },
+      "native": {
+        "default_code": "19810123011",
+        "name": "Senkron 2 Pompa Yedek Parçaları Gider tıpası Drainage plug",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19810123042": {
+      "family_key": "senkron-2-pompa-yedek-par-alari-spare-parts-of-senkron-2-pum",
+      "attribute_set_key": "senkron-2-pompa-yedek-par-alari-spare-parts-of-senkron-2-pum",
+      "values": {
+        "model": "Ön filtre kasası Pre-filter pump casing",
+        "part_no": 6
+      },
+      "native": {
+        "default_code": "19810123042",
+        "name": "Senkron 2 Pompa Yedek Parçaları Ön filtre kasası Pre-filter pump casing",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19810123005": {
+      "family_key": "senkron-2-pompa-yedek-par-alari-spare-parts-of-senkron-2-pum",
+      "attribute_set_key": "senkron-2-pompa-yedek-par-alari-spare-parts-of-senkron-2-pum",
+      "values": {
+        "model": "Ön filtre sepeti Pre-filter basket",
+        "part_no": 7
+      },
+      "native": {
+        "default_code": "19810123005",
+        "name": "Senkron 2 Pompa Yedek Parçaları Ön filtre sepeti Pre-filter basket",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19810123004": {
+      "family_key": "senkron-2-pompa-yedek-par-alari-spare-parts-of-senkron-2-pum",
+      "attribute_set_key": "senkron-2-pompa-yedek-par-alari-spare-parts-of-senkron-2-pum",
+      "values": {
+        "model": "Ön filtre kapak oringi Pre-filter cover oring",
+        "part_no": 8
+      },
+      "native": {
+        "default_code": "19810123004",
+        "name": "Senkron 2 Pompa Yedek Parçaları Ön filtre kapak oringi Pre-filter cover oring",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19810123003": {
+      "family_key": "senkron-2-pompa-yedek-par-alari-spare-parts-of-senkron-2-pum",
+      "attribute_set_key": "senkron-2-pompa-yedek-par-alari-spare-parts-of-senkron-2-pum",
+      "values": {
+        "model": "Ön filtre şeffaf kapağı Pre-filter lid transparent",
+        "part_no": 9
+      },
+      "native": {
+        "default_code": "19810123003",
+        "name": "Senkron 2 Pompa Yedek Parçaları Ön filtre şeffaf kapağı Pre-filter lid transparent",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19810123002": {
+      "family_key": "senkron-2-pompa-yedek-par-alari-spare-parts-of-senkron-2-pum",
+      "attribute_set_key": "senkron-2-pompa-yedek-par-alari-spare-parts-of-senkron-2-pum",
+      "values": {
+        "model": "Ön filtre kapak bileziği Pre-filter cover ring",
+        "part_no": 10
+      },
+      "native": {
+        "default_code": "19810123002",
+        "name": "Senkron 2 Pompa Yedek Parçaları Ön filtre kapak bileziği Pre-filter cover ring",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19810123012": {
+      "family_key": "senkron-2-pompa-yedek-par-alari-spare-parts-of-senkron-2-pum",
+      "attribute_set_key": "senkron-2-pompa-yedek-par-alari-spare-parts-of-senkron-2-pum",
+      "values": {
+        "model": "Gövde oringi Body oring",
+        "part_no": 11
+      },
+      "native": {
+        "default_code": "19810123012",
+        "name": "Senkron 2 Pompa Yedek Parçaları Gövde oringi Body oring",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19810123013": {
+      "family_key": "senkron-2-pompa-yedek-par-alari-spare-parts-of-senkron-2-pum",
+      "attribute_set_key": "senkron-2-pompa-yedek-par-alari-spare-parts-of-senkron-2-pum",
+      "values": {
+        "model": "Difüzör Oringi Diffuser Oring",
+        "part_no": 12
+      },
+      "native": {
+        "default_code": "19810123013",
+        "name": "Senkron 2 Pompa Yedek Parçaları Difüzör Oringi Diffuser Oring",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19810123014": {
+      "family_key": "senkron-2-pompa-yedek-par-alari-spare-parts-of-senkron-2-pum",
+      "attribute_set_key": "senkron-2-pompa-yedek-par-alari-spare-parts-of-senkron-2-pum",
+      "values": {
+        "model": "Difüzör Diffuser",
+        "part_no": 13
+      },
+      "native": {
+        "default_code": "19810123014",
+        "name": "Senkron 2 Pompa Yedek Parçaları Difüzör Diffuser",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19810123015": {
+      "family_key": "senkron-2-pompa-yedek-par-alari-spare-parts-of-senkron-2-pum",
+      "attribute_set_key": "senkron-2-pompa-yedek-par-alari-spare-parts-of-senkron-2-pum",
+      "values": {
+        "model": "Aktif ring Active ring",
+        "part_no": 14
+      },
+      "native": {
+        "default_code": "19810123015",
+        "name": "Senkron 2 Pompa Yedek Parçaları Aktif ring Active ring",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19810123016": {
+      "family_key": "senkron-2-pompa-yedek-par-alari-spare-parts-of-senkron-2-pum",
+      "attribute_set_key": "senkron-2-pompa-yedek-par-alari-spare-parts-of-senkron-2-pum",
+      "values": {
+        "model": "Fan somunu (Tie In) nut",
+        "part_no": 15
+      },
+      "native": {
+        "default_code": "19810123016",
+        "name": "Senkron 2 Pompa Yedek Parçaları Fan somunu (Tie In) nut",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19810123068": {
+      "family_key": "senkron-2-pompa-yedek-par-alari-spare-parts-of-senkron-2-pum",
+      "attribute_set_key": "senkron-2-pompa-yedek-par-alari-spare-parts-of-senkron-2-pum",
+      "values": {
+        "model": "Fan 1,50 Hp Impeller 1,50 Hp",
+        "part_no": 19
+      },
+      "native": {
+        "default_code": "19810123068",
+        "name": "Senkron 2 Pompa Yedek Parçaları Fan 1,50 Hp Impeller 1,50 Hp",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19810123017": {
+      "family_key": "senkron-2-pompa-yedek-par-alari-spare-parts-of-senkron-2-pum",
+      "attribute_set_key": "senkron-2-pompa-yedek-par-alari-spare-parts-of-senkron-2-pum",
+      "values": {
+        "model": "Fan 2,00 Hp Impeller 2,00 Hp"
+      },
+      "native": {
+        "default_code": "19810123017",
+        "name": "Senkron 2 Pompa Yedek Parçaları Fan 2,00 Hp Impeller 2,00 Hp",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19810123019": {
+      "family_key": "senkron-2-pompa-yedek-par-alari-spare-parts-of-senkron-2-pum",
+      "attribute_set_key": "senkron-2-pompa-yedek-par-alari-spare-parts-of-senkron-2-pum",
+      "values": {
+        "model": "Fan 3,00 Hp Impeller 3,00 Hp"
+      },
+      "native": {
+        "default_code": "19810123019",
+        "name": "Senkron 2 Pompa Yedek Parçaları Fan 3,00 Hp Impeller 3,00 Hp",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19810123067": {
+      "family_key": "senkron-2-pompa-yedek-par-alari-spare-parts-of-senkron-2-pum",
+      "attribute_set_key": "senkron-2-pompa-yedek-par-alari-spare-parts-of-senkron-2-pum",
+      "values": {
+        "model": "Fan 4,00 Hp Tri Impeller 4,00 Hp Tri"
+      },
+      "native": {
+        "default_code": "19810123067",
+        "name": "Senkron 2 Pompa Yedek Parçaları Fan 4,00 Hp Tri Impeller 4,00 Hp Tri",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19810123006": {
+      "family_key": "senkron-2-pompa-yedek-par-alari-spare-parts-of-senkron-2-pum",
+      "attribute_set_key": "senkron-2-pompa-yedek-par-alari-spare-parts-of-senkron-2-pum",
+      "values": {
+        "model": "Gövde Body",
+        "part_no": 21
+      },
+      "native": {
+        "default_code": "19810123006",
+        "name": "Senkron 2 Pompa Yedek Parçaları Gövde Body",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19810123066": {
+      "family_key": "senkron-2-pompa-yedek-par-alari-spare-parts-of-senkron-2-pum",
+      "attribute_set_key": "senkron-2-pompa-yedek-par-alari-spare-parts-of-senkron-2-pum",
+      "values": {
+        "model": "Flanş Flange",
+        "part_no": 24
+      },
+      "native": {
+        "default_code": "19810123066",
+        "name": "Senkron 2 Pompa Yedek Parçaları Flanş Flange",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "PMS-SYMS4": {
+      "family_key": "senkron-2-pompa-yedek-par-alari-spare-parts-of-senkron-2-pum",
+      "attribute_set_key": "senkron-2-pompa-yedek-par-alari-spare-parts-of-senkron-2-pum",
+      "values": {
+        "model": "Arka soğutma fanı Cooling fan",
+        "part_no": 52
+      },
+      "native": {
+        "default_code": "PMS-SYMS4",
+        "name": "Senkron 2 Pompa Yedek Parçaları Arka soğutma fanı Cooling fan",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "PMS-SYMS6": {
+      "family_key": "senkron-2-pompa-yedek-par-alari-spare-parts-of-senkron-2-pum",
+      "attribute_set_key": "senkron-2-pompa-yedek-par-alari-spare-parts-of-senkron-2-pum",
+      "values": {
+        "model": "Arka soğutma fan kapağı Cooling fan cover",
+        "part_no": 54
+      },
+      "native": {
+        "default_code": "PMS-SYMS6",
+        "name": "Senkron 2 Pompa Yedek Parçaları Arka soğutma fan kapağı Cooling fan cover",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19810123021": {
+      "family_key": "senkron-2-pompa-yedek-par-alari-spare-parts-of-senkron-2-pum",
+      "attribute_set_key": "senkron-2-pompa-yedek-par-alari-spare-parts-of-senkron-2-pum",
+      "values": {
+        "model": "Yer desteği Base support",
+        "part_no": 57
+      },
+      "native": {
+        "default_code": "19810123021",
+        "name": "Senkron 2 Pompa Yedek Parçaları Yer desteği Base support",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19810123113": {
+      "family_key": "senkron-3-pompa-yedek-par-alari-spare-parts-of-senkron-3-pum",
+      "attribute_set_key": "senkron-3-pompa-yedek-par-alari-spare-parts-of-senkron-3-pum",
+      "values": {
+        "model": "Rakor somunu Union (Tie In) nut",
+        "part_no": 1
+      },
+      "native": {
+        "default_code": "19810123113",
+        "name": "Senkron 3 Pompa Yedek Parçaları Rakor somunu Union (Tie In) nut",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19810123114": {
+      "family_key": "senkron-3-pompa-yedek-par-alari-spare-parts-of-senkron-3-pum",
+      "attribute_set_key": "senkron-3-pompa-yedek-par-alari-spare-parts-of-senkron-3-pum",
+      "values": {
+        "model": "Rakor 90 mm Union (Tie In) 90 mm",
+        "part_no": 2
+      },
+      "native": {
+        "default_code": "19810123114",
+        "name": "Senkron 3 Pompa Yedek Parçaları Rakor 90 mm Union (Tie In) 90 mm",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19810123115": {
+      "family_key": "senkron-3-pompa-yedek-par-alari-spare-parts-of-senkron-3-pum",
+      "attribute_set_key": "senkron-3-pompa-yedek-par-alari-spare-parts-of-senkron-3-pum",
+      "values": {
+        "model": "Rakor 110 mm Union (Tie In) 110 mm"
+      },
+      "native": {
+        "default_code": "19810123115",
+        "name": "Senkron 3 Pompa Yedek Parçaları Rakor 110 mm Union (Tie In) 110 mm",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19810123116": {
+      "family_key": "senkron-3-pompa-yedek-par-alari-spare-parts-of-senkron-3-pum",
+      "attribute_set_key": "senkron-3-pompa-yedek-par-alari-spare-parts-of-senkron-3-pum",
+      "values": {
+        "model": "Rakor oringi Union oring",
+        "part_no": 3
+      },
+      "native": {
+        "default_code": "19810123116",
+        "name": "Senkron 3 Pompa Yedek Parçaları Rakor oringi Union oring",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19810123117": {
+      "family_key": "senkron-3-pompa-yedek-par-alari-spare-parts-of-senkron-3-pum",
+      "attribute_set_key": "senkron-3-pompa-yedek-par-alari-spare-parts-of-senkron-3-pum",
+      "values": {
+        "model": "Ön filtre kasası Pre-filter pump casing",
+        "part_no": 6
+      },
+      "native": {
+        "default_code": "19810123117",
+        "name": "Senkron 3 Pompa Yedek Parçaları Ön filtre kasası Pre-filter pump casing",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19810123095": {
+      "family_key": "senkron-3-pompa-yedek-par-alari-spare-parts-of-senkron-3-pum",
+      "attribute_set_key": "senkron-3-pompa-yedek-par-alari-spare-parts-of-senkron-3-pum",
+      "values": {
+        "model": "Ön filtre sepeti Pre-filter basket",
+        "part_no": 7
+      },
+      "native": {
+        "default_code": "19810123095",
+        "name": "Senkron 3 Pompa Yedek Parçaları Ön filtre sepeti Pre-filter basket",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19810123096": {
+      "family_key": "senkron-3-pompa-yedek-par-alari-spare-parts-of-senkron-3-pum",
+      "attribute_set_key": "senkron-3-pompa-yedek-par-alari-spare-parts-of-senkron-3-pum",
+      "values": {
+        "model": "Ön filtre kapak oringi Pre-filter cover oring",
+        "part_no": 8
+      },
+      "native": {
+        "default_code": "19810123096",
+        "name": "Senkron 3 Pompa Yedek Parçaları Ön filtre kapak oringi Pre-filter cover oring",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19810123097": {
+      "family_key": "senkron-3-pompa-yedek-par-alari-spare-parts-of-senkron-3-pum",
+      "attribute_set_key": "senkron-3-pompa-yedek-par-alari-spare-parts-of-senkron-3-pum",
+      "values": {
+        "model": "Ön filtre şeffaf kapağı Pre-filter lid transparent",
+        "part_no": 9
+      },
+      "native": {
+        "default_code": "19810123097",
+        "name": "Senkron 3 Pompa Yedek Parçaları Ön filtre şeffaf kapağı Pre-filter lid transparent",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19810123098": {
+      "family_key": "senkron-3-pompa-yedek-par-alari-spare-parts-of-senkron-3-pum",
+      "attribute_set_key": "senkron-3-pompa-yedek-par-alari-spare-parts-of-senkron-3-pum",
+      "values": {
+        "model": "Ön filtre kapak somunu Pre-filter cover nut",
+        "part_no": 10
+      },
+      "native": {
+        "default_code": "19810123098",
+        "name": "Senkron 3 Pompa Yedek Parçaları Ön filtre kapak somunu Pre-filter cover nut",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19810123099": {
+      "family_key": "senkron-3-pompa-yedek-par-alari-spare-parts-of-senkron-3-pum",
+      "attribute_set_key": "senkron-3-pompa-yedek-par-alari-spare-parts-of-senkron-3-pum",
+      "values": {
+        "model": "Fan somunu Impeller nut",
+        "part_no": 14
+      },
+      "native": {
+        "default_code": "19810123099",
+        "name": "Senkron 3 Pompa Yedek Parçaları Fan somunu Impeller nut",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19810123100": {
+      "family_key": "senkron-3-pompa-yedek-par-alari-spare-parts-of-senkron-3-pum",
+      "attribute_set_key": "senkron-3-pompa-yedek-par-alari-spare-parts-of-senkron-3-pum",
+      "values": {
+        "model": "Aktif ring Active ring",
+        "part_no": 17
+      },
+      "native": {
+        "default_code": "19810123100",
+        "name": "Senkron 3 Pompa Yedek Parçaları Aktif ring Active ring",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19810123112": {
+      "family_key": "senkron-3-pompa-yedek-par-alari-spare-parts-of-senkron-3-pum",
+      "attribute_set_key": "senkron-3-pompa-yedek-par-alari-spare-parts-of-senkron-3-pum",
+      "values": {
+        "model": "Fan 4,50 Hp Impeller 4,50 Hp",
+        "part_no": 18
+      },
+      "native": {
+        "default_code": "19810123112",
+        "name": "Senkron 3 Pompa Yedek Parçaları Fan 4,50 Hp Impeller 4,50 Hp",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19810123101": {
+      "family_key": "senkron-3-pompa-yedek-par-alari-spare-parts-of-senkron-3-pum",
+      "attribute_set_key": "senkron-3-pompa-yedek-par-alari-spare-parts-of-senkron-3-pum",
+      "values": {
+        "model": "Fan 5,50 Hp Impeller 5,50 Hp"
+      },
+      "native": {
+        "default_code": "19810123101",
+        "name": "Senkron 3 Pompa Yedek Parçaları Fan 5,50 Hp Impeller 5,50 Hp",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19810123103": {
+      "family_key": "senkron-3-pompa-yedek-par-alari-spare-parts-of-senkron-3-pum",
+      "attribute_set_key": "senkron-3-pompa-yedek-par-alari-spare-parts-of-senkron-3-pum",
+      "values": {
+        "model": "Mekanik salmastra set Mechanical seal set",
+        "part_no": 19
+      },
+      "native": {
+        "default_code": "19810123103",
+        "name": "Senkron 3 Pompa Yedek Parçaları Mekanik salmastra set Mechanical seal set",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19810123122": {
+      "family_key": "senkron-3-pompa-yedek-par-alari-spare-parts-of-senkron-3-pum",
+      "attribute_set_key": "senkron-3-pompa-yedek-par-alari-spare-parts-of-senkron-3-pum",
+      "values": {
+        "model": "Flanş Flange",
+        "part_no": 21
+      },
+      "native": {
+        "default_code": "19810123122",
+        "name": "Senkron 3 Pompa Yedek Parçaları Flanş Flange",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19810123104": {
+      "family_key": "senkron-3-pompa-yedek-par-alari-spare-parts-of-senkron-3-pum",
+      "attribute_set_key": "senkron-3-pompa-yedek-par-alari-spare-parts-of-senkron-3-pum",
+      "values": {
+        "model": "Yer desteği Base support",
+        "part_no": 30
+      },
+      "native": {
+        "default_code": "19810123104",
+        "name": "Senkron 3 Pompa Yedek Parçaları Yer desteği Base support",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19810123105": {
+      "family_key": "senkron-3-jet-pompa-yedek-par-alari-spare-parts-of-senkron-3",
+      "attribute_set_key": "senkron-3-jet-pompa-yedek-par-alari-spare-parts-of-senkron-3",
+      "values": {
+        "model": "Rakor somunu Union (Tie In) nut",
+        "part_no": 1
+      },
+      "native": {
+        "default_code": "19810123105",
+        "name": "Senkron 3 Jet Pompa Yedek Parçaları Rakor somunu Union (Tie In) nut",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19810123106": {
+      "family_key": "senkron-3-jet-pompa-yedek-par-alari-spare-parts-of-senkron-3",
+      "attribute_set_key": "senkron-3-jet-pompa-yedek-par-alari-spare-parts-of-senkron-3",
+      "values": {
+        "model": "Rakor Union (Tie In)",
+        "part_no": 2
+      },
+      "native": {
+        "default_code": "19810123106",
+        "name": "Senkron 3 Jet Pompa Yedek Parçaları Rakor Union (Tie In)",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19810123107": {
+      "family_key": "senkron-3-jet-pompa-yedek-par-alari-spare-parts-of-senkron-3",
+      "attribute_set_key": "senkron-3-jet-pompa-yedek-par-alari-spare-parts-of-senkron-3",
+      "values": {
+        "model": "Rakor oringi Union oring",
+        "part_no": 3
+      },
+      "native": {
+        "default_code": "19810123107",
+        "name": "Senkron 3 Jet Pompa Yedek Parçaları Rakor oringi Union oring",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19810123108": {
+      "family_key": "senkron-3-jet-pompa-yedek-par-alari-spare-parts-of-senkron-3",
+      "attribute_set_key": "senkron-3-jet-pompa-yedek-par-alari-spare-parts-of-senkron-3",
+      "values": {
+        "model": "Ön filtre kasası Pre-filter pump casing",
+        "part_no": 8
+      },
+      "native": {
+        "default_code": "19810123108",
+        "name": "Senkron 3 Jet Pompa Yedek Parçaları Ön filtre kasası Pre-filter pump casing",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19810123109": {
+      "family_key": "senkron-3-jet-pompa-yedek-par-alari-spare-parts-of-senkron-3",
+      "attribute_set_key": "senkron-3-jet-pompa-yedek-par-alari-spare-parts-of-senkron-3",
+      "values": {
+        "model": "Ön kasa oringi Pump casing oring",
+        "part_no": 9
+      },
+      "native": {
+        "default_code": "19810123109",
+        "name": "Senkron 3 Jet Pompa Yedek Parçaları Ön kasa oringi Pump casing oring",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19810123110": {
+      "family_key": "senkron-3-jet-pompa-yedek-par-alari-spare-parts-of-senkron-3",
+      "attribute_set_key": "senkron-3-jet-pompa-yedek-par-alari-spare-parts-of-senkron-3",
+      "values": {
+        "model": "Fan somunu Impeller nut",
+        "part_no": 10
+      },
+      "native": {
+        "default_code": "19810123110",
+        "name": "Senkron 3 Jet Pompa Yedek Parçaları Fan somunu Impeller nut",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19810123111": {
+      "family_key": "senkron-3-jet-pompa-yedek-par-alari-spare-parts-of-senkron-3",
+      "attribute_set_key": "senkron-3-jet-pompa-yedek-par-alari-spare-parts-of-senkron-3",
+      "values": {
+        "model": "Fan 3 Hp Impeller 3 Hp",
+        "part_no": 14
+      },
+      "native": {
+        "default_code": "19810123111",
+        "name": "Senkron 3 Jet Pompa Yedek Parçaları Fan 3 Hp Impeller 3 Hp",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19810123089": {
+      "family_key": "senkron-3-jet-pompa-yedek-par-alari-spare-parts-of-senkron-3",
+      "attribute_set_key": "senkron-3-jet-pompa-yedek-par-alari-spare-parts-of-senkron-3",
+      "values": {
+        "model": "Mekanik salmastra set Mechanical seal set",
+        "part_no": 15
+      },
+      "native": {
+        "default_code": "19810123089",
+        "name": "Senkron 3 Jet Pompa Yedek Parçaları Mekanik salmastra set Mechanical seal set",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19810123092": {
+      "family_key": "senkron-3-jet-pompa-yedek-par-alari-spare-parts-of-senkron-3",
+      "attribute_set_key": "senkron-3-jet-pompa-yedek-par-alari-spare-parts-of-senkron-3",
+      "values": {
+        "model": "Arka soğutma fanı Cooling fan",
+        "part_no": 39
+      },
+      "native": {
+        "default_code": "19810123092",
+        "name": "Senkron 3 Jet Pompa Yedek Parçaları Arka soğutma fanı Cooling fan",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19810123093": {
+      "family_key": "senkron-3-jet-pompa-yedek-par-alari-spare-parts-of-senkron-3",
+      "attribute_set_key": "senkron-3-jet-pompa-yedek-par-alari-spare-parts-of-senkron-3",
+      "values": {
+        "model": "Arka soğutma fan kapağı Cooling fan cover",
+        "part_no": 41
+      },
+      "native": {
+        "default_code": "19810123093",
+        "name": "Senkron 3 Jet Pompa Yedek Parçaları Arka soğutma fan kapağı Cooling fan cover",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19810123094": {
+      "family_key": "senkron-3-jet-pompa-yedek-par-alari-spare-parts-of-senkron-3",
+      "attribute_set_key": "senkron-3-jet-pompa-yedek-par-alari-spare-parts-of-senkron-3",
+      "values": {
+        "model": "Yer desteği Base support",
+        "part_no": 46
+      },
+      "native": {
+        "default_code": "19810123094",
+        "name": "Senkron 3 Jet Pompa Yedek Parçaları Yer desteği Base support",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "198113038": {
+      "family_key": "ninfa-yedek-par-alari-spare-parts-of-ninfa-pump",
+      "attribute_set_key": "ninfa-yedek-par-alari-spare-parts-of-ninfa-pump",
+      "values": {
+        "model": "Gider takımı Drain set",
+        "part_no": 7,
+        "ref": "RBH0000.00R",
+        "position": "No:0-1 Ad Unit"
+      },
+      "native": {
+        "default_code": "198113038",
+        "name": "Ninfa Pompa Yedek Parçaları Gider takımı Drain set",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "198113037": {
+      "family_key": "ninfa-yedek-par-alari-spare-parts-of-ninfa-pump",
+      "attribute_set_key": "ninfa-yedek-par-alari-spare-parts-of-ninfa-pump",
+      "values": {
+        "model": "Somun Pin",
+        "part_no": 6,
+        "ref": "RBH0016.00R",
+        "position": "No:16-1 Ad Unit"
+      },
+      "native": {
+        "default_code": "198113037",
+        "name": "Ninfa Pompa Yedek Parçaları Somun Pin",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "198113002": {
+      "family_key": "ninfa-yedek-par-alari-spare-parts-of-ninfa-pump",
+      "attribute_set_key": "ninfa-yedek-par-alari-spare-parts-of-ninfa-pump",
+      "values": {
+        "model": "Ön filtre kapak ve oringi Lid and O-ring",
+        "part_no": 2,
+        "ref": "RBH0002.00R",
+        "position": "No:2-1 Ad Unit + No:11-1 Ad Unit"
+      },
+      "native": {
+        "default_code": "198113002",
+        "name": "Ninfa Pompa Yedek Parçaları Ön filtre kapak ve oringi Lid and O-ring",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "198113004": {
+      "family_key": "ninfa-yedek-par-alari-spare-parts-of-ninfa-pump",
+      "attribute_set_key": "ninfa-yedek-par-alari-spare-parts-of-ninfa-pump",
+      "values": {
+        "model": "Ön filtre sepeti Basket",
+        "part_no": 5,
+        "ref": "RBH0003.00R",
+        "position": "No:3-1 Ad Unit"
+      },
+      "native": {
+        "default_code": "198113004",
+        "name": "Ninfa Pompa Yedek Parçaları Ön filtre sepeti Basket",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "198113012": {
+      "family_key": "ninfa-yedek-par-alari-spare-parts-of-ninfa-pump",
+      "attribute_set_key": "ninfa-yedek-par-alari-spare-parts-of-ninfa-pump",
+      "values": {
+        "model": "Mekanik salmastra seti Seal set",
+        "part_no": 14,
+        "ref": "RBH0005.00R",
+        "position": "No:5-1 Ad Unit + No:12-1 Ad Unit + No:13- 1 Ad Unit"
+      },
+      "native": {
+        "default_code": "198113012",
+        "name": "Ninfa Pompa Yedek Parçaları Mekanik salmastra seti Seal set",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "198113009": {
+      "family_key": "ninfa-yedek-par-alari-spare-parts-of-ninfa-pump",
+      "attribute_set_key": "ninfa-yedek-par-alari-spare-parts-of-ninfa-pump",
+      "values": {
+        "model": "Difüzör 0,25-0,33 Hp Diffuser 0,25-0,33 Hp",
+        "part_no": 12,
+        "ref": "RBH0006.00R",
+        "position": "No:6-1 Ad Unit"
+      },
+      "native": {
+        "default_code": "198113009",
+        "name": "Ninfa Pompa Yedek Parçaları Difüzör 0,25-0,33 Hp Diffuser 0,25-0,33 Hp",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "198113010": {
+      "family_key": "ninfa-yedek-par-alari-spare-parts-of-ninfa-pump",
+      "attribute_set_key": "ninfa-yedek-par-alari-spare-parts-of-ninfa-pump",
+      "values": {
+        "model": "Fan 0,25 Hp Impeller 0,25 Hp",
+        "part_no": 13,
+        "ref": "RBH0007.00R",
+        "position": "No:7-1 Ad Unit"
+      },
+      "native": {
+        "default_code": "198113010",
+        "name": "Ninfa Pompa Yedek Parçaları Fan 0,25 Hp Impeller 0,25 Hp",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "198113011": {
+      "family_key": "ninfa-yedek-par-alari-spare-parts-of-ninfa-pump",
+      "attribute_set_key": "ninfa-yedek-par-alari-spare-parts-of-ninfa-pump",
+      "values": {
+        "model": "Fan 0,33 Hp Impeller 0,33 Hp",
+        "part_no": 13,
+        "ref": "RBH0007.01R",
+        "position": "No:7-1 Ad Unit"
+      },
+      "native": {
+        "default_code": "198113011",
+        "name": "Ninfa Pompa Yedek Parçaları Fan 0,33 Hp Impeller 0,33 Hp",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "198113014": {
+      "family_key": "ninfa-yedek-par-alari-spare-parts-of-ninfa-pump",
+      "attribute_set_key": "ninfa-yedek-par-alari-spare-parts-of-ninfa-pump",
+      "values": {
+        "model": "Flaş Flange",
+        "part_no": 17,
+        "ref": "RBH0008.00R",
+        "position": "No:8-1 Ad Unit"
+      },
+      "native": {
+        "default_code": "198113014",
+        "name": "Ninfa Pompa Yedek Parçaları Flaş Flange",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "198113015": {
+      "family_key": "ninfa-yedek-par-alari-spare-parts-of-ninfa-pump",
+      "attribute_set_key": "ninfa-yedek-par-alari-spare-parts-of-ninfa-pump",
+      "values": {
+        "model": "Yer desteği Support",
+        "part_no": 18,
+        "ref": "RBH0009.00R",
+        "position": "No:9-1 Ad Unit"
+      },
+      "native": {
+        "default_code": "198113015",
+        "name": "Ninfa Pompa Yedek Parçaları Yer desteği Support",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "198113007": {
+      "family_key": "ninfa-yedek-par-alari-spare-parts-of-ninfa-pump",
+      "attribute_set_key": "ninfa-yedek-par-alari-spare-parts-of-ninfa-pump",
+      "values": {
+        "model": "Pompa kasası Pump casing",
+        "part_no": 10,
+        "ref": "RBH0010.00R",
+        "position": "No:10-1 Ad Unit"
+      },
+      "native": {
+        "default_code": "198113007",
+        "name": "Ninfa Pompa Yedek Parçaları Pompa kasası Pump casing",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "198113003": {
+      "family_key": "ninfa-yedek-par-alari-spare-parts-of-ninfa-pump",
+      "attribute_set_key": "ninfa-yedek-par-alari-spare-parts-of-ninfa-pump",
+      "values": {
+        "model": "Ön filtre kapak oringi Lid O-ring",
+        "part_no": 3,
+        "ref": "RBH0011.00R",
+        "position": "No:11-1 Ad Unit"
+      },
+      "native": {
+        "default_code": "198113003",
+        "name": "Ninfa Pompa Yedek Parçaları Ön filtre kapak oringi Lid O-ring",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "198113008": {
+      "family_key": "ninfa-yedek-par-alari-spare-parts-of-ninfa-pump",
+      "attribute_set_key": "ninfa-yedek-par-alari-spare-parts-of-ninfa-pump",
+      "values": {
+        "model": "Difüzör oringi Diffuser O-ring",
+        "part_no": 16,
+        "ref": "RBH0012.00R",
+        "position": "No:12-1 Ad Unit"
+      },
+      "native": {
+        "default_code": "198113008",
+        "name": "Ninfa Pompa Yedek Parçaları Difüzör oringi Diffuser O-ring",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "198113013": {
+      "family_key": "ninfa-yedek-par-alari-spare-parts-of-ninfa-pump",
+      "attribute_set_key": "ninfa-yedek-par-alari-spare-parts-of-ninfa-pump",
+      "values": {
+        "model": "Flaş oringi Flange O-ring",
+        "part_no": 11,
+        "ref": "RBH0013.00R",
+        "position": "No:13-1 Ad Unit"
+      },
+      "native": {
+        "default_code": "198113013",
+        "name": "Ninfa Pompa Yedek Parçaları Flaş oringi Flange O-ring",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "198113017": {
+      "family_key": "ondina-yedek-par-alari-spare-parts-of-ondina-pump",
+      "attribute_set_key": "ondina-yedek-par-alari-spare-parts-of-ondina-pump",
+      "values": {
+        "model": "Ön filtre kapak ve oringi Lid and O-ring",
+        "part_no": 2,
+        "ref": "RBH0002.01R",
+        "position": "No:2-1 Ad Unit + No:11-1 Ad Unit"
+      },
+      "native": {
+        "default_code": "198113017",
+        "name": "Ondina Pompa Yedek Parçaları Ön filtre kapak ve oringi Lid and O-ring",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "198113019": {
+      "family_key": "ondina-yedek-par-alari-spare-parts-of-ondina-pump",
+      "attribute_set_key": "ondina-yedek-par-alari-spare-parts-of-ondina-pump",
+      "values": {
+        "model": "Ön filtre sepeti Basket",
+        "part_no": 3,
+        "ref": "RBH0003.01R",
+        "position": "No:3-1 Ad Unit"
+      },
+      "native": {
+        "default_code": "198113019",
+        "name": "Ondina Pompa Yedek Parçaları Ön filtre sepeti Basket",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "198113024": {
+      "family_key": "ondina-yedek-par-alari-spare-parts-of-ondina-pump",
+      "attribute_set_key": "ondina-yedek-par-alari-spare-parts-of-ondina-pump",
+      "values": {
+        "model": "Difüzör Diffuser",
+        "part_no": 6,
+        "ref": "RBH0006.02R",
+        "position": "No:6-1 Ad Unit"
+      },
+      "native": {
+        "default_code": "198113024",
+        "name": "Ondina Pompa Yedek Parçaları Difüzör Diffuser",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "198113029": {
+      "family_key": "ondina-yedek-par-alari-spare-parts-of-ondina-pump",
+      "attribute_set_key": "ondina-yedek-par-alari-spare-parts-of-ondina-pump",
+      "values": {
+        "model": "Fan 0,33 Hp Impeller 0,33 Hp",
+        "part_no": 7,
+        "ref": "RBH0007.03R",
+        "position": "No:7-1 Ad Unit"
+      },
+      "native": {
+        "default_code": "198113029",
+        "name": "Ondina Pompa Yedek Parçaları Fan 0,33 Hp Impeller 0,33 Hp",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "198113104": {
+      "family_key": "ondina-yedek-par-alari-spare-parts-of-ondina-pump",
+      "attribute_set_key": "ondina-yedek-par-alari-spare-parts-of-ondina-pump",
+      "values": {
+        "model": "Fan 0,50 Hp Impeller 0,50 Hp",
+        "part_no": 7,
+        "ref": "RBH0007.04R",
+        "position": "No:7-1 Ad Unit"
+      },
+      "native": {
+        "default_code": "198113104",
+        "name": "Ondina Pompa Yedek Parçaları Fan 0,50 Hp Impeller 0,50 Hp",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "198113048": {
+      "family_key": "ondina-yedek-par-alari-spare-parts-of-ondina-pump",
+      "attribute_set_key": "ondina-yedek-par-alari-spare-parts-of-ondina-pump",
+      "values": {
+        "model": "Fan 0,75 Hp Impeller 0,75 Hp",
+        "part_no": 7,
+        "ref": "RBH0007.05R",
+        "position": "No:7-1 Ad Unit"
+      },
+      "native": {
+        "default_code": "198113048",
+        "name": "Ondina Pompa Yedek Parçaları Fan 0,75 Hp Impeller 0,75 Hp",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "198113032": {
+      "family_key": "ondina-yedek-par-alari-spare-parts-of-ondina-pump",
+      "attribute_set_key": "ondina-yedek-par-alari-spare-parts-of-ondina-pump",
+      "values": {
+        "model": "Fan 1,00 Hp Impeller 1,00 Hp",
+        "part_no": 7,
+        "ref": "RBH0007.06R",
+        "position": "No:7-1 Ad Unit"
+      },
+      "native": {
+        "default_code": "198113032",
+        "name": "Ondina Pompa Yedek Parçaları Fan 1,00 Hp Impeller 1,00 Hp",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "198113027": {
+      "family_key": "ondina-yedek-par-alari-spare-parts-of-ondina-pump",
+      "attribute_set_key": "ondina-yedek-par-alari-spare-parts-of-ondina-pump",
+      "values": {
+        "model": "Flaş Flange",
+        "part_no": 8,
+        "ref": "RBH0008.01R",
+        "position": "No:8-1 Ad Unit"
+      },
+      "native": {
+        "default_code": "198113027",
+        "name": "Ondina Pompa Yedek Parçaları Flaş Flange",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "198113045": {
+      "family_key": "ondina-yedek-par-alari-spare-parts-of-ondina-pump",
+      "attribute_set_key": "ondina-yedek-par-alari-spare-parts-of-ondina-pump",
+      "values": {
+        "model": "Yer desteği Support",
+        "part_no": 9,
+        "ref": "RBH0009.01R",
+        "position": "No:9-1 Ad Unit"
+      },
+      "native": {
+        "default_code": "198113045",
+        "name": "Ondina Pompa Yedek Parçaları Yer desteği Support",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "198113022": {
+      "family_key": "ondina-yedek-par-alari-spare-parts-of-ondina-pump",
+      "attribute_set_key": "ondina-yedek-par-alari-spare-parts-of-ondina-pump",
+      "values": {
+        "model": "Pompa kasası Pump casing",
+        "part_no": 10,
+        "ref": "RBH0010.01R",
+        "position": "No:10-1 Ad Unit"
+      },
+      "native": {
+        "default_code": "198113022",
+        "name": "Ondina Pompa Yedek Parçaları Pompa kasası Pump casing",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "198113018": {
+      "family_key": "ondina-yedek-par-alari-spare-parts-of-ondina-pump",
+      "attribute_set_key": "ondina-yedek-par-alari-spare-parts-of-ondina-pump",
+      "values": {
+        "model": "Ön filtre kapak oringi Lid O-ring",
+        "part_no": 11,
+        "ref": "RBH0011.01R",
+        "position": "No:11-1 Ad Unit"
+      },
+      "native": {
+        "default_code": "198113018",
+        "name": "Ondina Pompa Yedek Parçaları Ön filtre kapak oringi Lid O-ring",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "198113023": {
+      "family_key": "ondina-yedek-par-alari-spare-parts-of-ondina-pump",
+      "attribute_set_key": "ondina-yedek-par-alari-spare-parts-of-ondina-pump",
+      "values": {
+        "model": "Difüzör oringi Diffuser O-ring",
+        "part_no": 12,
+        "ref": "RBH0012.01R",
+        "position": "No:12-1 Ad Unit"
+      },
+      "native": {
+        "default_code": "198113023",
+        "name": "Ondina Pompa Yedek Parçaları Difüzör oringi Diffuser O-ring",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "198113026": {
+      "family_key": "ondina-yedek-par-alari-spare-parts-of-ondina-pump",
+      "attribute_set_key": "ondina-yedek-par-alari-spare-parts-of-ondina-pump",
+      "values": {
+        "model": "Flaş oringi Flange O-ring",
+        "part_no": 13,
+        "ref": "RBH0013.01R",
+        "position": "No:13-1 Ad Unit"
+      },
+      "native": {
+        "default_code": "198113026",
+        "name": "Ondina Pompa Yedek Parçaları Flaş oringi Flange O-ring",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "198113033": {
+      "family_key": "koral-seri-si-yedek-par-alari-spare-parts-of-koral-series-pu",
+      "attribute_set_key": "koral-seri-si-yedek-par-alari-spare-parts-of-koral-series-pu",
+      "values": {
+        "model": "Kapak vidası seti Cover screw set",
+        "part_no": 1,
+        "ref": "RBH0001.02R",
+        "position": "No:1-2 Ad Unit + No:16-2 Ad Unit"
+      },
+      "native": {
+        "default_code": "198113033",
+        "name": "Koral Serisi Pompa Yedek Parçaları Kapak vidası seti Cover screw set",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "198113034": {
+      "family_key": "koral-seri-si-yedek-par-alari-spare-parts-of-koral-series-pu",
+      "attribute_set_key": "koral-seri-si-yedek-par-alari-spare-parts-of-koral-series-pu",
+      "values": {
+        "model": "Ön filtre kapak ve oringi Lid and",
+        "part_no": 2,
+        "ref": "RBH0002.03R",
+        "position": "No:2-1 Ad Unit + No:11-1 Ad Unit"
+      },
+      "native": {
+        "default_code": "198113034",
+        "name": "Koral Serisi Pompa Yedek Parçaları Ön filtre kapak ve oringi Lid and",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "198113036": {
+      "family_key": "koral-seri-si-yedek-par-alari-spare-parts-of-koral-series-pu",
+      "attribute_set_key": "koral-seri-si-yedek-par-alari-spare-parts-of-koral-series-pu",
+      "values": {
+        "model": "Ön filtre sepeti Basket",
+        "part_no": 3,
+        "ref": "RBH0003.03R",
+        "position": "No:3-1 Ad Unit"
+      },
+      "native": {
+        "default_code": "198113036",
+        "name": "Koral Serisi Pompa Yedek Parçaları Ön filtre sepeti Basket",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "198113041": {
+      "family_key": "koral-seri-si-yedek-par-alari-spare-parts-of-koral-series-pu",
+      "attribute_set_key": "koral-seri-si-yedek-par-alari-spare-parts-of-koral-series-pu",
+      "values": {
+        "model": "Difüzör Diffuser",
+        "part_no": 6,
+        "ref": "RBH0006.03R",
+        "position": "No:6-1 Ad Unit"
+      },
+      "native": {
+        "default_code": "198113041",
+        "name": "Koral Serisi Pompa Yedek Parçaları Difüzör Diffuser",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "PFAN-KS-3350-KRP": {
+      "family_key": "koral-seri-si-yedek-par-alari-spare-parts-of-koral-series-pu",
+      "attribute_set_key": "koral-seri-si-yedek-par-alari-spare-parts-of-koral-series-pu",
+      "values": {
+        "model": "Fan 0,50 Hp Impeller 0,50 Hp",
+        "part_no": 7,
+        "ref": "RBH0007.07R",
+        "position": "No:7-1 Ad Unit"
+      },
+      "native": {
+        "default_code": "PFAN-KS-3350-KRP",
+        "name": "Koral Serisi Pompa Yedek Parçaları Fan 0,50 Hp Impeller 0,50 Hp",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "PFAN-KS-5075-KRP": {
+      "family_key": "koral-seri-si-yedek-par-alari-spare-parts-of-koral-series-pu",
+      "attribute_set_key": "koral-seri-si-yedek-par-alari-spare-parts-of-koral-series-pu",
+      "values": {
+        "model": "Fan 1,00 Hp Impeller 1,00 Hp",
+        "part_no": 7,
+        "ref": "RBH0007.08R",
+        "position": "No:7-1 Ad Unit"
+      },
+      "native": {
+        "default_code": "PFAN-KS-5075-KRP",
+        "name": "Koral Serisi Pompa Yedek Parçaları Fan 1,00 Hp Impeller 1,00 Hp",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "198113050": {
+      "family_key": "koral-seri-si-yedek-par-alari-spare-parts-of-koral-series-pu",
+      "attribute_set_key": "koral-seri-si-yedek-par-alari-spare-parts-of-koral-series-pu",
+      "values": {
+        "model": "Fan 1,50 Hp Impeller 1,50 Hp",
+        "part_no": 7,
+        "ref": "RBH0007.09R",
+        "position": "No:7-1 Ad Unit"
+      },
+      "native": {
+        "default_code": "198113050",
+        "name": "Koral Serisi Pompa Yedek Parçaları Fan 1,50 Hp Impeller 1,50 Hp",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "198113051": {
+      "family_key": "koral-seri-si-yedek-par-alari-spare-parts-of-koral-series-pu",
+      "attribute_set_key": "koral-seri-si-yedek-par-alari-spare-parts-of-koral-series-pu",
+      "values": {
+        "model": "Fan 2,00 Hp Impeller 2,00 Hp",
+        "part_no": 7,
+        "ref": "RBH0007.10R",
+        "position": "No:7-1 Ad Unit"
+      },
+      "native": {
+        "default_code": "198113051",
+        "name": "Koral Serisi Pompa Yedek Parçaları Fan 2,00 Hp Impeller 2,00 Hp",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "198113052": {
+      "family_key": "koral-seri-si-yedek-par-alari-spare-parts-of-koral-series-pu",
+      "attribute_set_key": "koral-seri-si-yedek-par-alari-spare-parts-of-koral-series-pu",
+      "values": {
+        "model": "Fan 3,00 Hp Impeller 3,00 Hp",
+        "part_no": 7,
+        "ref": "RBH0007.11R",
+        "position": "No:7-1 Ad Unit"
+      },
+      "native": {
+        "default_code": "198113052",
+        "name": "Koral Serisi Pompa Yedek Parçaları Fan 3,00 Hp Impeller 3,00 Hp",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "198113044": {
+      "family_key": "koral-seri-si-yedek-par-alari-spare-parts-of-koral-series-pu",
+      "attribute_set_key": "koral-seri-si-yedek-par-alari-spare-parts-of-koral-series-pu",
+      "values": {
+        "model": "Flanş Flange",
+        "part_no": 8,
+        "ref": "RBH0008.02R",
+        "position": "No:8-1 Ad Unit"
+      },
+      "native": {
+        "default_code": "198113044",
+        "name": "Koral Serisi Pompa Yedek Parçaları Flanş Flange",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "198113039": {
+      "family_key": "koral-seri-si-yedek-par-alari-spare-parts-of-koral-series-pu",
+      "attribute_set_key": "koral-seri-si-yedek-par-alari-spare-parts-of-koral-series-pu",
+      "values": {
+        "model": "Pompa kasası Pump casing",
+        "part_no": 10,
+        "ref": "RBH0010.03R",
+        "position": "No:10-1 Ad Unit"
+      },
+      "native": {
+        "default_code": "198113039",
+        "name": "Koral Serisi Pompa Yedek Parçaları Pompa kasası Pump casing",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "198113035": {
+      "family_key": "koral-seri-si-yedek-par-alari-spare-parts-of-koral-series-pu",
+      "attribute_set_key": "koral-seri-si-yedek-par-alari-spare-parts-of-koral-series-pu",
+      "values": {
+        "model": "Ön filtre kapak oringi Lid O-ring",
+        "part_no": 11,
+        "ref": "RBH0011.03R",
+        "position": "No:11-1 Ad Unit"
+      },
+      "native": {
+        "default_code": "198113035",
+        "name": "Koral Serisi Pompa Yedek Parçaları Ön filtre kapak oringi Lid O-ring",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "198113040": {
+      "family_key": "koral-seri-si-yedek-par-alari-spare-parts-of-koral-series-pu",
+      "attribute_set_key": "koral-seri-si-yedek-par-alari-spare-parts-of-koral-series-pu",
+      "values": {
+        "model": "Difüzör oringi Diffuser O-ring",
+        "part_no": 12,
+        "ref": "RBH0012.02R",
+        "position": "No:12-1 Ad Unit"
+      },
+      "native": {
+        "default_code": "198113040",
+        "name": "Koral Serisi Pompa Yedek Parçaları Difüzör oringi Diffuser O-ring",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "198113043": {
+      "family_key": "koral-seri-si-yedek-par-alari-spare-parts-of-koral-series-pu",
+      "attribute_set_key": "koral-seri-si-yedek-par-alari-spare-parts-of-koral-series-pu",
+      "values": {
+        "model": "Flanş oringi Flange O-ring",
+        "part_no": 13,
+        "ref": "RBH0013.02R",
+        "position": "No:13-1 Ad Unit"
+      },
+      "native": {
+        "default_code": "198113043",
+        "name": "Koral Serisi Pompa Yedek Parçaları Flanş oringi Flange O-ring",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "198113103": {
+      "family_key": "karpa-seri-si-yedek-par-alari-spare-parts-of-karpa-series-pu",
+      "attribute_set_key": "karpa-seri-si-yedek-par-alari-spare-parts-of-karpa-series-pu",
+      "values": {
+        "model": "Mekanik salmastra seti Seal set",
+        "part_no": 5,
+        "ref": "RBH0005.02R",
+        "position": "No:5-1 Ad Unit + No:12-1 Ad Unit + No:13-1 Ad Unit"
+      },
+      "native": {
+        "default_code": "198113103",
+        "name": "Karpa Serisi Pompa Yedek Parçaları Mekanik salmastra seti Seal set",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "198113062": {
+      "family_key": "karpa-seri-si-yedek-par-alari-spare-parts-of-karpa-series-pu",
+      "attribute_set_key": "karpa-seri-si-yedek-par-alari-spare-parts-of-karpa-series-pu",
+      "values": {
+        "model": "Difüzör Diffuser",
+        "part_no": 6,
+        "ref": "RBH0006.04R",
+        "position": "No:6-1 Ad Unit"
+      },
+      "native": {
+        "default_code": "198113062",
+        "name": "Karpa Serisi Pompa Yedek Parçaları Difüzör Diffuser",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "198113070": {
+      "family_key": "karpa-seri-si-yedek-par-alari-spare-parts-of-karpa-series-pu",
+      "attribute_set_key": "karpa-seri-si-yedek-par-alari-spare-parts-of-karpa-series-pu",
+      "values": {
+        "model": "Fan 2,50 Hp Impeller 2,50 Hp",
+        "part_no": 7,
+        "ref": "RBH0007.12R",
+        "position": "No:7-1 Ad Unit"
+      },
+      "native": {
+        "default_code": "198113070",
+        "name": "Karpa Serisi Pompa Yedek Parçaları Fan 2,50 Hp Impeller 2,50 Hp",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "198113071": {
+      "family_key": "karpa-seri-si-yedek-par-alari-spare-parts-of-karpa-series-pu",
+      "attribute_set_key": "karpa-seri-si-yedek-par-alari-spare-parts-of-karpa-series-pu",
+      "values": {
+        "model": "Fan 3,00 Hp Impeller 3,00 Hp",
+        "part_no": 7,
+        "ref": "RBH0007.17R",
+        "position": "No:7-1 Ad Unit"
+      },
+      "native": {
+        "default_code": "198113071",
+        "name": "Karpa Serisi Pompa Yedek Parçaları Fan 3,00 Hp Impeller 3,00 Hp",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "198113072": {
+      "family_key": "karpa-seri-si-yedek-par-alari-spare-parts-of-karpa-series-pu",
+      "attribute_set_key": "karpa-seri-si-yedek-par-alari-spare-parts-of-karpa-series-pu",
+      "values": {
+        "model": "Fan 3,50 Hp Impeller 3,50 Hp",
+        "part_no": 7,
+        "ref": "RBH0007.14R",
+        "position": "No:7-1 Ad Unit"
+      },
+      "native": {
+        "default_code": "198113072",
+        "name": "Karpa Serisi Pompa Yedek Parçaları Fan 3,50 Hp Impeller 3,50 Hp",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "198113073": {
+      "family_key": "karpa-seri-si-yedek-par-alari-spare-parts-of-karpa-series-pu",
+      "attribute_set_key": "karpa-seri-si-yedek-par-alari-spare-parts-of-karpa-series-pu",
+      "values": {
+        "model": "Fan 4,50 Hp Impeller 4,50 Hp",
+        "part_no": 7,
+        "ref": "RBH0007.18R",
+        "position": "No:7-1 Ad Unit"
+      },
+      "native": {
+        "default_code": "198113073",
+        "name": "Karpa Serisi Pompa Yedek Parçaları Fan 4,50 Hp Impeller 4,50 Hp",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "198113150": {
+      "family_key": "karpa-seri-si-yedek-par-alari-spare-parts-of-karpa-series-pu",
+      "attribute_set_key": "karpa-seri-si-yedek-par-alari-spare-parts-of-karpa-series-pu",
+      "values": {
+        "model": "Fan 5,50 Hp Impeller 5,50 Hp",
+        "part_no": 7,
+        "ref": "RBH0007.19R",
+        "position": "No:7-1 Ad Unit"
+      },
+      "native": {
+        "default_code": "198113150",
+        "name": "Karpa Serisi Pompa Yedek Parçaları Fan 5,50 Hp Impeller 5,50 Hp",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "198113065": {
+      "family_key": "karpa-seri-si-yedek-par-alari-spare-parts-of-karpa-series-pu",
+      "attribute_set_key": "karpa-seri-si-yedek-par-alari-spare-parts-of-karpa-series-pu",
+      "values": {
+        "model": "Flaş Flange",
+        "part_no": 8,
+        "ref": "RBH0008.03R",
+        "position": "No:8-1 Ad Unit"
+      },
+      "native": {
+        "default_code": "198113065",
+        "name": "Karpa Serisi Pompa Yedek Parçaları Flaş Flange",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "198113066": {
+      "family_key": "karpa-seri-si-yedek-par-alari-spare-parts-of-karpa-series-pu",
+      "attribute_set_key": "karpa-seri-si-yedek-par-alari-spare-parts-of-karpa-series-pu",
+      "values": {
+        "model": "Yer desteği Support",
+        "part_no": 9,
+        "ref": "RBH0009.02R",
+        "position": "No:9-1 Ad Unit"
+      },
+      "native": {
+        "default_code": "198113066",
+        "name": "Karpa Serisi Pompa Yedek Parçaları Yer desteği Support",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "198113060": {
+      "family_key": "karpa-seri-si-yedek-par-alari-spare-parts-of-karpa-series-pu",
+      "attribute_set_key": "karpa-seri-si-yedek-par-alari-spare-parts-of-karpa-series-pu",
+      "values": {
+        "model": "Pompa kasası Pump casing",
+        "part_no": 10,
+        "ref": "RBH0010.06R",
+        "position": "No:10-1 Ad Unit"
+      },
+      "native": {
+        "default_code": "198113060",
+        "name": "Karpa Serisi Pompa Yedek Parçaları Pompa kasası Pump casing",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "198113061": {
+      "family_key": "karpa-seri-si-yedek-par-alari-spare-parts-of-karpa-series-pu",
+      "attribute_set_key": "karpa-seri-si-yedek-par-alari-spare-parts-of-karpa-series-pu",
+      "values": {
+        "model": "Difüzör oringi Diffuser O-ring",
+        "part_no": 12,
+        "ref": "RBH0012.03R",
+        "position": "No:12-1 Ad Unit"
+      },
+      "native": {
+        "default_code": "198113061",
+        "name": "Karpa Serisi Pompa Yedek Parçaları Difüzör oringi Diffuser O-ring",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "198113064": {
+      "family_key": "karpa-seri-si-yedek-par-alari-spare-parts-of-karpa-series-pu",
+      "attribute_set_key": "karpa-seri-si-yedek-par-alari-spare-parts-of-karpa-series-pu",
+      "values": {
+        "model": "Flaş oringi Flange O-ring",
+        "part_no": 13,
+        "ref": "RBH0013.03R",
+        "position": "No:13-1 Ad Unit"
+      },
+      "native": {
+        "default_code": "198113064",
+        "name": "Karpa Serisi Pompa Yedek Parçaları Flaş oringi Flange O-ring",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "198113068": {
+      "family_key": "karpa-seri-si-yedek-par-alari-spare-parts-of-karpa-series-pu",
+      "attribute_set_key": "karpa-seri-si-yedek-par-alari-spare-parts-of-karpa-series-pu",
+      "values": {
+        "model": "Bağlantı rakor oringi Union O-ring",
+        "part_no": 17,
+        "ref": "RBH0017.00R",
+        "position": "No:17-1 Ad Unit"
+      },
+      "native": {
+        "default_code": "198113068",
+        "name": "Karpa Serisi Pompa Yedek Parçaları Bağlantı rakor oringi Union O-ring",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "198113001": {
+      "family_key": "kan-seri-si-yedek-par-alari-spare-parts-of-kan-series-pump",
+      "attribute_set_key": "kan-seri-si-yedek-par-alari-spare-parts-of-kan-series-pump",
+      "values": {
+        "model": "Kapak vidası seti Cover screw set",
+        "part_no": 1,
+        "ref": "RBH0001.04R",
+        "position": "No:1-2 Ad Unit + No:6-2 Ad Unit"
+      },
+      "native": {
+        "default_code": "198113001",
+        "name": "Kan Serisi Pompa Yedek Parçaları Kapak vidası seti Cover screw set",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "198113123": {
+      "family_key": "kan-seri-si-yedek-par-alari-spare-parts-of-kan-series-pump",
+      "attribute_set_key": "kan-seri-si-yedek-par-alari-spare-parts-of-kan-series-pump",
+      "values": {
+        "model": "Somun Pin",
+        "part_no": 6,
+        "ref": "RBH0016.01R",
+        "position": "No:6-1 Ad Unit"
+      },
+      "native": {
+        "default_code": "198113123",
+        "name": "Kan Serisi Pompa Yedek Parçaları Somun Pin",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "198113092": {
+      "family_key": "kan-seri-si-yedek-par-alari-spare-parts-of-kan-series-pump",
+      "attribute_set_key": "kan-seri-si-yedek-par-alari-spare-parts-of-kan-series-pump",
+      "values": {
+        "model": "Ön filtre kapak ve oringi Lid and O-ring",
+        "part_no": 2,
+        "ref": "RBH0002.06R",
+        "position": "No:2-1 Ad Unit + No:3-1 Ad Unit"
+      },
+      "native": {
+        "default_code": "198113092",
+        "name": "Kan Serisi Pompa Yedek Parçaları Ön filtre kapak ve oringi Lid and O-ring",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "198113098": {
+      "family_key": "kan-seri-si-yedek-par-alari-spare-parts-of-kan-series-pump",
+      "attribute_set_key": "kan-seri-si-yedek-par-alari-spare-parts-of-kan-series-pump",
+      "values": {
+        "model": "Ön filtre sepeti Basket",
+        "part_no": 4,
+        "ref": "RBH0003.06R",
+        "position": "No:4-1 Ad Unit No:5-1 Ad Unit"
+      },
+      "native": {
+        "default_code": "198113098",
+        "name": "Kan Serisi Pompa Yedek Parçaları Ön filtre sepeti Basket",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "198113087": {
+      "family_key": "kan-seri-si-yedek-par-alari-spare-parts-of-kan-series-pump",
+      "attribute_set_key": "kan-seri-si-yedek-par-alari-spare-parts-of-kan-series-pump",
+      "values": {
+        "model": "Difüzör 500-600-750 Diffuser 500-600-750",
+        "part_no": 12,
+        "ref": "RBH0006.05R",
+        "position": "No:12-1 Ad Unit"
+      },
+      "native": {
+        "default_code": "198113087",
+        "name": "Kan Serisi Pompa Yedek Parçaları Difüzör 500-600-750 Diffuser 500-600-750",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "198113088": {
+      "family_key": "kan-seri-si-yedek-par-alari-spare-parts-of-kan-series-pump",
+      "attribute_set_key": "kan-seri-si-yedek-par-alari-spare-parts-of-kan-series-pump",
+      "values": {
+        "model": "Difüzör 1000-1250 Diffuser 100-1250",
+        "part_no": 13,
+        "ref": "RBH0006.06R",
+        "position": "No:12.1-8 Ad Unit"
+      },
+      "native": {
+        "default_code": "198113088",
+        "name": "Kan Serisi Pompa Yedek Parçaları Difüzör 1000-1250 Diffuser 100-1250",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "198113146": {
+      "family_key": "kan-seri-si-yedek-par-alari-spare-parts-of-kan-series-pump",
+      "attribute_set_key": "kan-seri-si-yedek-par-alari-spare-parts-of-kan-series-pump",
+      "values": {
+        "model": "Fan 5,00 Hp Impeller 5,00 Hp",
+        "ref": "RBH0007.20R",
+        "position": "No:13-1 Ad Unit"
+      },
+      "native": {
+        "default_code": "198113146",
+        "name": "Kan Serisi Pompa Yedek Parçaları Fan 5,00 Hp Impeller 5,00 Hp",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "198113145": {
+      "family_key": "kan-seri-si-yedek-par-alari-spare-parts-of-kan-series-pump",
+      "attribute_set_key": "kan-seri-si-yedek-par-alari-spare-parts-of-kan-series-pump",
+      "values": {
+        "model": "Fan 6,00 Hp Impeller 6,00 Hp",
+        "ref": "RBH0007.21R",
+        "position": "No:36-1 Ad Unit"
+      },
+      "native": {
+        "default_code": "198113145",
+        "name": "Kan Serisi Pompa Yedek Parçaları Fan 6,00 Hp Impeller 6,00 Hp",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "198113091": {
+      "family_key": "kan-seri-si-yedek-par-alari-spare-parts-of-kan-series-pump",
+      "attribute_set_key": "kan-seri-si-yedek-par-alari-spare-parts-of-kan-series-pump",
+      "values": {
+        "model": "Fan 7,50 Hp Impeller 7,50 Hp",
+        "ref": "RBH0007.22R",
+        "position": "No:37-1 Ad Unit"
+      },
+      "native": {
+        "default_code": "198113091",
+        "name": "Kan Serisi Pompa Yedek Parçaları Fan 7,50 Hp Impeller 7,50 Hp",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "198113057": {
+      "family_key": "kan-seri-si-yedek-par-alari-spare-parts-of-kan-series-pump",
+      "attribute_set_key": "kan-seri-si-yedek-par-alari-spare-parts-of-kan-series-pump",
+      "values": {
+        "model": "Fan 10,00 Hp Impeller 10,00 Hp",
+        "ref": "RBH0007.23R",
+        "position": "No:17-1 Ad Unit"
+      },
+      "native": {
+        "default_code": "198113057",
+        "name": "Kan Serisi Pompa Yedek Parçaları Fan 10,00 Hp Impeller 10,00 Hp",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "198113140": {
+      "family_key": "kan-seri-si-yedek-par-alari-spare-parts-of-kan-series-pump",
+      "attribute_set_key": "kan-seri-si-yedek-par-alari-spare-parts-of-kan-series-pump",
+      "values": {
+        "model": "Fan 12,50 Hp Impeller 12,50 Hp",
+        "ref": "RBH0007.24R"
+      },
+      "native": {
+        "default_code": "198113140",
+        "name": "Kan Serisi Pompa Yedek Parçaları Fan 12,50 Hp Impeller 12,50 Hp",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "198113085": {
+      "family_key": "kan-seri-si-yedek-par-alari-spare-parts-of-kan-series-pump",
+      "attribute_set_key": "kan-seri-si-yedek-par-alari-spare-parts-of-kan-series-pump",
+      "values": {
+        "model": "Flaş Flange",
+        "part_no": 17,
+        "ref": "RBH0008.04R",
+        "position": "No:18-1 Ad Unit"
+      },
+      "native": {
+        "default_code": "198113085",
+        "name": "Kan Serisi Pompa Yedek Parçaları Flaş Flange",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "198113108": {
+      "family_key": "kan-seri-si-yedek-par-alari-spare-parts-of-kan-series-pump",
+      "attribute_set_key": "kan-seri-si-yedek-par-alari-spare-parts-of-kan-series-pump",
+      "values": {
+        "model": "Pompa kasası Pump casing",
+        "part_no": 10,
+        "ref": "RBH0010.07R"
+      },
+      "native": {
+        "default_code": "198113108",
+        "name": "Kan Serisi Pompa Yedek Parçaları Pompa kasası Pump casing",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "198113005": {
+      "family_key": "kan-seri-si-yedek-par-alari-spare-parts-of-kan-series-pump",
+      "attribute_set_key": "kan-seri-si-yedek-par-alari-spare-parts-of-kan-series-pump",
+      "values": {
+        "model": "Ön filtre kapak oringi Lid O-ring",
+        "part_no": 3,
+        "ref": "RBH0011.06R",
+        "position": "No:3-1 Ad Unit"
+      },
+      "native": {
+        "default_code": "198113005",
+        "name": "Kan Serisi Pompa Yedek Parçaları Ön filtre kapak oringi Lid O-ring",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "198113110": {
+      "family_key": "kan-seri-si-yedek-par-alari-spare-parts-of-kan-series-pump",
+      "attribute_set_key": "kan-seri-si-yedek-par-alari-spare-parts-of-kan-series-pump",
+      "values": {
+        "model": "Flaş oringi Flange O-ring",
+        "part_no": 13,
+        "ref": "RBH0012.04R",
+        "position": "No:11-1 Ad Unit"
+      },
+      "native": {
+        "default_code": "198113110",
+        "name": "Kan Serisi Pompa Yedek Parçaları Flaş oringi Flange O-ring",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "198113086": {
+      "family_key": "kan-seri-si-yedek-par-alari-spare-parts-of-kan-series-pump",
+      "attribute_set_key": "kan-seri-si-yedek-par-alari-spare-parts-of-kan-series-pump",
+      "values": {
+        "model": "Difüzör oringi Diffuser O-ring",
+        "part_no": 11,
+        "ref": "RBH0013.04R",
+        "position": "No:16-1 Ad Unit"
+      },
+      "native": {
+        "default_code": "198113086",
+        "name": "Kan Serisi Pompa Yedek Parçaları Difüzör oringi Diffuser O-ring",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "198113107": {
+      "family_key": "kan-seri-si-yedek-par-alari-spare-parts-of-kan-series-pump",
+      "attribute_set_key": "kan-seri-si-yedek-par-alari-spare-parts-of-kan-series-pump",
+      "values": {
+        "model": "Ön filtre kasası Prefilter",
+        "part_no": 9,
+        "ref": "RBH0015.02R",
+        "position": "No:24-2 Ad Unit"
+      },
+      "native": {
+        "default_code": "198113107",
+        "name": "Kan Serisi Pompa Yedek Parçaları Ön filtre kasası Prefilter",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "198113076": {
+      "family_key": "kan-seri-si-yedek-par-alari-spare-parts-of-kan-series-pump",
+      "attribute_set_key": "kan-seri-si-yedek-par-alari-spare-parts-of-kan-series-pump",
+      "values": {
+        "model": "Bağlantı rakor seti Set of unions",
+        "part_no": 24,
+        "position": "No:25-2 Ad Unit"
+      },
+      "native": {
+        "default_code": "198113076",
+        "name": "Kan Serisi Pompa Yedek Parçaları Bağlantı rakor seti Set of unions",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "198113058": {
+      "family_key": "kapri-seri-si-yedek-par-alari-spare-parts-of-kapri-series-pu",
+      "attribute_set_key": "kapri-seri-si-yedek-par-alari-spare-parts-of-kapri-series-pu",
+      "values": {
+        "model": "Kapak vidası seti Cover screw set",
+        "part_no": 1,
+        "ref": "RBH0001.02R",
+        "position": "No:1-2 Ad Unit + No:16-2 Ad Unit"
+      },
+      "native": {
+        "default_code": "198113058",
+        "name": "Kapri Serisi Pompa Yedek Parçaları Kapak vidası seti Cover screw set",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "198113054": {
+      "family_key": "kapri-seri-si-yedek-par-alari-spare-parts-of-kapri-series-pu",
+      "attribute_set_key": "kapri-seri-si-yedek-par-alari-spare-parts-of-kapri-series-pu",
+      "values": {
+        "model": "Ön filtre kapak ve oringi Lid and O-ring",
+        "part_no": 2,
+        "ref": "RBH0002.03R",
+        "position": "No:2-1 Ad Unit + No:11-1 Ad Unit"
+      },
+      "native": {
+        "default_code": "198113054",
+        "name": "Kapri Serisi Pompa Yedek Parçaları Ön filtre kapak ve oringi Lid and O-ring",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "198113056": {
+      "family_key": "kapri-seri-si-yedek-par-alari-spare-parts-of-kapri-series-pu",
+      "attribute_set_key": "kapri-seri-si-yedek-par-alari-spare-parts-of-kapri-series-pu",
+      "values": {
+        "model": "Ön filtre sepeti Basket",
+        "part_no": 3,
+        "ref": "RBH0003.03R",
+        "position": "No:3-1 Ad Unit"
+      },
+      "native": {
+        "default_code": "198113056",
+        "name": "Kapri Serisi Pompa Yedek Parçaları Ön filtre sepeti Basket",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "198113074": {
+      "family_key": "kapri-seri-si-yedek-par-alari-spare-parts-of-kapri-series-pu",
+      "attribute_set_key": "kapri-seri-si-yedek-par-alari-spare-parts-of-kapri-series-pu",
+      "values": {
+        "model": "Fan 5,50 Hp Impeller 5,50 Hp",
+        "part_no": 7,
+        "ref": "RBH0007.09R",
+        "position": "No:7-1 Ad Unit"
+      },
+      "native": {
+        "default_code": "198113074",
+        "name": "Kapri Serisi Pompa Yedek Parçaları Fan 5,50 Hp Impeller 5,50 Hp",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "198113055": {
+      "family_key": "kapri-seri-si-yedek-par-alari-spare-parts-of-kapri-series-pu",
+      "attribute_set_key": "kapri-seri-si-yedek-par-alari-spare-parts-of-kapri-series-pu",
+      "values": {
+        "model": "Ön filtre kapak oringi Lid O-ring",
+        "part_no": 11,
+        "ref": "RBH0011.03R",
+        "position": "No:11-1 Ad Unit"
+      },
+      "native": {
+        "default_code": "198113055",
+        "name": "Kapri Serisi Pompa Yedek Parçaları Ön filtre kapak oringi Lid O-ring",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "198113059": {
+      "family_key": "kapri-seri-si-yedek-par-alari-spare-parts-of-kapri-series-pu",
+      "attribute_set_key": "kapri-seri-si-yedek-par-alari-spare-parts-of-kapri-series-pu",
+      "values": {
+        "model": "Ön filtre kasası Prefilter",
+        "part_no": 14,
+        "ref": "RBH0014.00R",
+        "position": "No:14-1 Ad Unit"
+      },
+      "native": {
+        "default_code": "198113059",
+        "name": "Kapri Serisi Pompa Yedek Parçaları Ön filtre kasası Prefilter",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "198113069": {
+      "family_key": "kapri-seri-si-yedek-par-alari-spare-parts-of-kapri-series-pu",
+      "attribute_set_key": "kapri-seri-si-yedek-par-alari-spare-parts-of-kapri-series-pu",
+      "values": {
+        "model": "Bağlantı rakoru set Set of onions",
+        "part_no": 15,
+        "ref": "500100150000",
+        "position": "No:15-1 Ad Unit"
+      },
+      "native": {
+        "default_code": "198113069",
+        "name": "Kapri Serisi Pompa Yedek Parçaları Bağlantı rakoru set Set of onions",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19811121001": {
+      "family_key": "lamex-fi-ltre-yedek-par-alari-spare-parts-of-lamex-filter",
+      "attribute_set_key": "lamex-fi-ltre-yedek-par-alari-spare-parts-of-lamex-filter",
+      "values": {
+        "model": "Lateral 57 mm Lateral 57 mm",
+        "part_no": 1
+      },
+      "native": {
+        "default_code": "19811121001",
+        "name": "Lamex Filtre Yedek Parçaları Lateral 57 mm Lateral 57 mm",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19811121318": {
+      "family_key": "lamex-fi-ltre-yedek-par-alari-spare-parts-of-lamex-filter",
+      "attribute_set_key": "lamex-fi-ltre-yedek-par-alari-spare-parts-of-lamex-filter",
+      "values": {
+        "model": "Kollektör 500-650-800-900 mm Replacement cover",
+        "part_no": 2
+      },
+      "native": {
+        "default_code": "19811121318",
+        "name": "Lamex Filtre Yedek Parçaları Kollektör 500-650-800-900 mm Replacement cover",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19811122003": {
+      "family_key": "lamex-fi-ltre-yedek-par-alari-spare-parts-of-lamex-filter",
+      "attribute_set_key": "lamex-fi-ltre-yedek-par-alari-spare-parts-of-lamex-filter",
+      "values": {
+        "model": "Kapak oringi 500-900 mm Cover oring 500-900 mm",
+        "part_no": 3
+      },
+      "native": {
+        "default_code": "19811122003",
+        "name": "Lamex Filtre Yedek Parçaları Kapak oringi 500-900 mm Cover oring 500-900 mm",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19811122013": {
+      "family_key": "lamex-fi-ltre-yedek-par-alari-spare-parts-of-lamex-filter",
+      "attribute_set_key": "lamex-fi-ltre-yedek-par-alari-spare-parts-of-lamex-filter",
+      "values": {
+        "model": "Yedek kapak 500-900 mm Replacement cover 500-900 mm",
+        "part_no": 5
+      },
+      "native": {
+        "default_code": "19811122013",
+        "name": "Lamex Filtre Yedek Parçaları Yedek kapak 500-900 mm Replacement cover 500-900 mm",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19811123290": {
+      "family_key": "lamex-fi-ltre-yedek-par-alari-spare-parts-of-lamex-filter",
+      "attribute_set_key": "lamex-fi-ltre-yedek-par-alari-spare-parts-of-lamex-filter",
+      "values": {
+        "model": "Boşaltma tapası Filter drain plug",
+        "part_no": 6
+      },
+      "native": {
+        "default_code": "19811123290",
+        "name": "Lamex Filtre Yedek Parçaları Boşaltma tapası Filter drain plug",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19811002001": {
+      "family_key": "lamex-fi-ltre-yedek-par-alari-spare-parts-of-lamex-filter",
+      "attribute_set_key": "lamex-fi-ltre-yedek-par-alari-spare-parts-of-lamex-filter",
+      "values": {
+        "model": "Filtre purjörü 500-900 mm Filter air relase valve 500-900 mm",
+        "part_no": 8
+      },
+      "native": {
+        "default_code": "19811002001",
+        "name": "Lamex Filtre Yedek Parçaları Filtre purjörü 500-900 mm Filter air relase valve 500-900 mm",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19811122031": {
+      "family_key": "lamex-fi-ltre-yedek-par-alari-spare-parts-of-lamex-filter",
+      "attribute_set_key": "lamex-fi-ltre-yedek-par-alari-spare-parts-of-lamex-filter",
+      "values": {
+        "model": "Manometre 500-900 mm Manometer 500-900 mm",
+        "part_no": 10
+      },
+      "native": {
+        "default_code": "19811122031",
+        "name": "Lamex Filtre Yedek Parçaları Manometre 500-900 mm Manometer 500-900 mm",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19811122037": {
+      "family_key": "lamex-fi-ltre-yedek-par-alari-spare-parts-of-lamex-filter",
+      "attribute_set_key": "lamex-fi-ltre-yedek-par-alari-spare-parts-of-lamex-filter",
+      "values": {
+        "model": "Rakor 50 mm Union 50 mm",
+        "part_no": 11
+      },
+      "native": {
+        "default_code": "19811122037",
+        "name": "Lamex Filtre Yedek Parçaları Rakor 50 mm Union 50 mm",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19811122038": {
+      "family_key": "lamex-fi-ltre-yedek-par-alari-spare-parts-of-lamex-filter",
+      "attribute_set_key": "lamex-fi-ltre-yedek-par-alari-spare-parts-of-lamex-filter",
+      "values": {
+        "model": "Rakor 63 mm Union 63 mm",
+        "part_no": 12
+      },
+      "native": {
+        "default_code": "19811122038",
+        "name": "Lamex Filtre Yedek Parçaları Rakor 63 mm Union 63 mm",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19820223008": {
+      "family_key": "lamex-fi-ltre-yedek-par-alari-spare-parts-of-lamex-filter",
+      "attribute_set_key": "lamex-fi-ltre-yedek-par-alari-spare-parts-of-lamex-filter",
+      "values": {
+        "model": "Vana 6 yollu L boru 50 mm 6-way valve, L pipe 50 mm",
+        "part_no": 13
+      },
+      "native": {
+        "default_code": "19820223008",
+        "name": "Lamex Filtre Yedek Parçaları Vana 6 yollu L boru 50 mm 6-way valve, L pipe 50 mm",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19820223009": {
+      "family_key": "lamex-fi-ltre-yedek-par-alari-spare-parts-of-lamex-filter",
+      "attribute_set_key": "lamex-fi-ltre-yedek-par-alari-spare-parts-of-lamex-filter",
+      "values": {
+        "model": "Vana 6 yollu L boru 63 mm 6-way valve, L pipe 63 mm",
+        "part_no": 14
+      },
+      "native": {
+        "default_code": "19820223009",
+        "name": "Lamex Filtre Yedek Parçaları Vana 6 yollu L boru 63 mm 6-way valve, L pipe 63 mm",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19820223010": {
+      "family_key": "lamex-fi-ltre-yedek-par-alari-spare-parts-of-lamex-filter",
+      "attribute_set_key": "lamex-fi-ltre-yedek-par-alari-spare-parts-of-lamex-filter",
+      "values": {
+        "model": "Vana 6 yollu bağlantı karşılığı 50 mm Valve with 6-way connection, 50 mm counterpart",
+        "part_no": 15
+      },
+      "native": {
+        "default_code": "19820223010",
+        "name": "Lamex Filtre Yedek Parçaları Vana 6 yollu bağlantı karşılığı 50 mm Valve with 6-way connection, 50 mm counterpart",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19820223011": {
+      "family_key": "lamex-fi-ltre-yedek-par-alari-spare-parts-of-lamex-filter",
+      "attribute_set_key": "lamex-fi-ltre-yedek-par-alari-spare-parts-of-lamex-filter",
+      "values": {
+        "model": "Vana 6 yollu bağlantı karşılığı 63 mm Valve with 6-way connection, 63 mm counterpart",
+        "part_no": 16
+      },
+      "native": {
+        "default_code": "19820223011",
+        "name": "Lamex Filtre Yedek Parçaları Vana 6 yollu bağlantı karşılığı 63 mm Valve with 6-way connection, 63 mm counterpart",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19811123072": {
+      "family_key": "lamex-fi-ltre-yedek-par-alari-spare-parts-of-lamex-filter",
+      "attribute_set_key": "lamex-fi-ltre-yedek-par-alari-spare-parts-of-lamex-filter",
+      "values": {
+        "model": "Filtre kapağı somunu plastik Filter cover nut is plastic",
+        "part_no": 17
+      },
+      "native": {
+        "default_code": "19811123072",
+        "name": "Lamex Filtre Yedek Parçaları Filtre kapağı somunu plastik Filter cover nut is plastic",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19811122017": {
+      "family_key": "lamex-fi-ltre-yedek-par-alari-spare-parts-of-lamex-filter",
+      "attribute_set_key": "lamex-fi-ltre-yedek-par-alari-spare-parts-of-lamex-filter",
+      "values": {
+        "model": "Yedek kapak 1.050-2.200 mm Replacement cover 1.050-2.200 mm",
+        "part_no": 5
+      },
+      "native": {
+        "default_code": "19811122017",
+        "name": "Lamex Filtre Yedek Parçaları Yedek kapak 1.050-2.200 mm Replacement cover 1.050-2.200 mm",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19811002002": {
+      "family_key": "lamex-fi-ltre-yedek-par-alari-spare-parts-of-lamex-filter",
+      "attribute_set_key": "lamex-fi-ltre-yedek-par-alari-spare-parts-of-lamex-filter",
+      "values": {
+        "model": "Filtre purjörü 1.050-2.200 mm Filter air release valve 1.050-2.200 mm",
+        "part_no": 8
+      },
+      "native": {
+        "default_code": "19811002002",
+        "name": "Lamex Filtre Yedek Parçaları Filtre purjörü 1.050-2.200 mm Filter air release valve 1.050-2.200 mm",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19811122001": {
+      "family_key": "lamex-fi-ltre-yedek-par-alari-spare-parts-of-lamex-filter",
+      "attribute_set_key": "lamex-fi-ltre-yedek-par-alari-spare-parts-of-lamex-filter",
+      "values": {
+        "model": "Manometre 1.050-2.200 mm Manometer 1.050-2.200 mm",
+        "part_no": 10
+      },
+      "native": {
+        "default_code": "19811122001",
+        "name": "Lamex Filtre Yedek Parçaları Manometre 1.050-2.200 mm Manometer 1.050-2.200 mm",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19811122039": {
+      "family_key": "rotex-fi-ltre-yedek-par-alari-spare-parts-of-rotex-filter",
+      "attribute_set_key": "rotex-fi-ltre-yedek-par-alari-spare-parts-of-rotex-filter",
+      "values": {
+        "model": "Rakor oringi 63 mm Union oring 63 mm",
+        "part_no": 3
+      },
+      "native": {
+        "default_code": "19811122039",
+        "name": "Rotex Filtre Yedek Parçaları Rakor oringi 63 mm Union oring 63 mm",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19811122035": {
+      "family_key": "rotex-fi-ltre-yedek-par-alari-spare-parts-of-rotex-filter",
+      "attribute_set_key": "rotex-fi-ltre-yedek-par-alari-spare-parts-of-rotex-filter",
+      "values": {
+        "model": "Rakor oringi 45x6 Union oring 45x6",
+        "part_no": 5
+      },
+      "native": {
+        "default_code": "19811122035",
+        "name": "Rotex Filtre Yedek Parçaları Rakor oringi 45x6 Union oring 45x6",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19811122036": {
+      "family_key": "rotex-fi-ltre-yedek-par-alari-spare-parts-of-rotex-filter",
+      "attribute_set_key": "rotex-fi-ltre-yedek-par-alari-spare-parts-of-rotex-filter",
+      "values": {
+        "model": "Rakor oringi 55x6 Union oring 55x6",
+        "part_no": 6
+      },
+      "native": {
+        "default_code": "19811122036",
+        "name": "Rotex Filtre Yedek Parçaları Rakor oringi 55x6 Union oring 55x6",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19811123067": {
+      "family_key": "woundex-fi-ltre-yedek-par-alari-spare-parts-of-woundex-filte",
+      "attribute_set_key": "woundex-fi-ltre-yedek-par-alari-spare-parts-of-woundex-filte",
+      "values": {
+        "model": "Filtre manometresi Filter pressure gauge",
+        "part_no": 1
+      },
+      "native": {
+        "default_code": "19811123067",
+        "name": "Woundex Filtre Yedek Parçaları Filtre manometresi Filter pressure gauge",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19811122048": {
+      "family_key": "woundex-fi-ltre-yedek-par-alari-spare-parts-of-woundex-filte",
+      "attribute_set_key": "woundex-fi-ltre-yedek-par-alari-spare-parts-of-woundex-filte",
+      "values": {
+        "model": "Filtre yedek kapağı Filter replacement cover",
+        "part_no": 2
+      },
+      "native": {
+        "default_code": "19811122048",
+        "name": "Woundex Filtre Yedek Parçaları Filtre yedek kapağı Filter replacement cover (2)",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19811122050": {
+      "family_key": "woundex-fi-ltre-yedek-par-alari-spare-parts-of-woundex-filte",
+      "attribute_set_key": "woundex-fi-ltre-yedek-par-alari-spare-parts-of-woundex-filte",
+      "values": {
+        "model": "Filtre yedek kelepçe ve oring Filter clamp and o-ring set",
+        "part_no": 3
+      },
+      "native": {
+        "default_code": "19811122050",
+        "name": "Woundex Filtre Yedek Parçaları Filtre yedek kelepçe ve oring Filter clamp and o-ring set",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19811123300": {
+      "family_key": "woundex-fi-ltre-yedek-par-alari-spare-parts-of-woundex-filte",
+      "attribute_set_key": "woundex-fi-ltre-yedek-par-alari-spare-parts-of-woundex-filte",
+      "values": {
+        "model": "Filtre yedek boşaltma tapası Filter drain plug",
+        "part_no": 8
+      },
+      "native": {
+        "default_code": "19811123300",
+        "name": "Woundex Filtre Yedek Parçaları Filtre yedek boşaltma tapası Filter drain plug (19811123300)",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19811122030": {
+      "family_key": "woundex-fi-ltre-yedek-par-alari-spare-parts-of-woundex-filte",
+      "attribute_set_key": "woundex-fi-ltre-yedek-par-alari-spare-parts-of-woundex-filte",
+      "values": {
+        "model": "Filtre yedek ayağı 525 Filter base 525 Filtre yedek ayağı 625 Filter base 625",
+        "part_no": 9
+      },
+      "native": {
+        "default_code": "19811122030",
+        "name": "Woundex Filtre Yedek Parçaları Filtre yedek ayağı 525 Filter base 525 Filtre yedek ayağı 625 Filter base 625",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19811121040": {
+      "family_key": "woundex-fi-ltre-yedek-par-alari-spare-parts-of-woundex-filte",
+      "attribute_set_key": "woundex-fi-ltre-yedek-par-alari-spare-parts-of-woundex-filte",
+      "values": {
+        "model": "Filtre yedek kollektör Filter collector",
+        "part_no": 11
+      },
+      "native": {
+        "default_code": "19811121040",
+        "name": "Woundex Filtre Yedek Parçaları Filtre yedek kollektör Filter collector (19811121040)",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "198123330": {
+      "family_key": "woundex-fi-ltre-yedek-par-alari-spare-parts-of-woundex-filte",
+      "attribute_set_key": "woundex-fi-ltre-yedek-par-alari-spare-parts-of-woundex-filte",
+      "values": {
+        "model": "Filtre yedek lateral Filter lateral",
+        "part_no": 12
+      },
+      "native": {
+        "default_code": "198123330",
+        "name": "Woundex Filtre Yedek Parçaları Filtre yedek lateral Filter lateral",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19811122049": {
+      "family_key": "woundex-fi-ltre-yedek-par-alari-spare-parts-of-woundex-filte",
+      "attribute_set_key": "woundex-fi-ltre-yedek-par-alari-spare-parts-of-woundex-filte",
+      "values": {
+        "model": "Filtre yedek kapağı Filter replacement cover",
+        "part_no": 4
+      },
+      "native": {
+        "default_code": "19811122049",
+        "name": "Woundex Filtre Yedek Parçaları Filtre yedek kapağı Filter replacement cover (4)",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19811122060": {
+      "family_key": "woundex-fi-ltre-yedek-par-alari-spare-parts-of-woundex-filte",
+      "attribute_set_key": "woundex-fi-ltre-yedek-par-alari-spare-parts-of-woundex-filte",
+      "values": {
+        "model": "Filtre yedek kelepçe ve oring Filter clamp and o-ring set Filtre yedek kapak oringi Filter cover o-ring",
+        "part_no": 5
+      },
+      "native": {
+        "default_code": "19811122060",
+        "name": "Woundex Filtre Yedek Parçaları Filtre yedek kelepçe ve oring Filter clamp and o-ring set Filtre yedek kapak oringi Filter cover o-ring",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19811123301": {
+      "family_key": "woundex-fi-ltre-yedek-par-alari-spare-parts-of-woundex-filte",
+      "attribute_set_key": "woundex-fi-ltre-yedek-par-alari-spare-parts-of-woundex-filte",
+      "values": {
+        "model": "Filtre yedek boşaltma tapası Filter drain plug",
+        "part_no": 8
+      },
+      "native": {
+        "default_code": "19811123301",
+        "name": "Woundex Filtre Yedek Parçaları Filtre yedek boşaltma tapası Filter drain plug (19811123301)",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19811122041": {
+      "family_key": "woundex-fi-ltre-yedek-par-alari-spare-parts-of-woundex-filte",
+      "attribute_set_key": "woundex-fi-ltre-yedek-par-alari-spare-parts-of-woundex-filte",
+      "values": {
+        "model": "Filtre yedek ayağı 759 Filter base 759 Filtre yedek ayağı 900 Filter base 900",
+        "part_no": 6
+      },
+      "native": {
+        "default_code": "19811122041",
+        "name": "Woundex Filtre Yedek Parçaları Filtre yedek ayağı 759 Filter base 759 Filtre yedek ayağı 900 Filter base 900",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "198123331": {
+      "family_key": "woundex-fi-ltre-yedek-par-alari-spare-parts-of-woundex-filte",
+      "attribute_set_key": "woundex-fi-ltre-yedek-par-alari-spare-parts-of-woundex-filte",
+      "values": {
+        "model": "Filtre yedek kollektör Filter collector",
+        "part_no": 11
+      },
+      "native": {
+        "default_code": "198123331",
+        "name": "Woundex Filtre Yedek Parçaları Filtre yedek kollektör Filter collector (198123331)",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19811121041": {
+      "family_key": "woundex-fi-ltre-yedek-par-alari-spare-parts-of-woundex-filte",
+      "attribute_set_key": "woundex-fi-ltre-yedek-par-alari-spare-parts-of-woundex-filte",
+      "values": {
+        "model": "Filtre yedek lateral Filter replacement lateral",
+        "part_no": 14
+      },
+      "native": {
+        "default_code": "19811121041",
+        "name": "Woundex Filtre Yedek Parçaları Filtre yedek lateral Filter replacement lateral",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "2099004401": {
+      "family_key": "goodrob-easy-kablosuz-havuz-s-p-rgesi-goodrob-easy-cordless-",
+      "attribute_set_key": "goodrob-easy-kablosuz-havuz-s-p-rgesi-goodrob-easy-cordless-",
+      "values": {
+        "model": "Tekerlek Wheel",
+        "part_no": 2,
+        "ref": "201005429"
+      },
+      "native": {
+        "default_code": "2099004401",
+        "name": "Goodrob Easy Yedek Parçaları Tekerlek Wheel",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "2099004402": {
+      "family_key": "goodrob-easy-kablosuz-havuz-s-p-rgesi-goodrob-easy-cordless-",
+      "attribute_set_key": "goodrob-easy-kablosuz-havuz-s-p-rgesi-goodrob-easy-cordless-",
+      "values": {
+        "model": "Emiş tablası Suction tray",
+        "part_no": 3,
+        "ref": "201005446"
+      },
+      "native": {
+        "default_code": "2099004402",
+        "name": "Goodrob Easy Yedek Parçaları Emiş tablası Suction tray",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "2099004403": {
+      "family_key": "goodrob-easy-kablosuz-havuz-s-p-rgesi-goodrob-easy-cordless-",
+      "attribute_set_key": "goodrob-easy-kablosuz-havuz-s-p-rgesi-goodrob-easy-cordless-",
+      "values": {
+        "model": "Temizlik fırçası Scrub- brush",
+        "part_no": 4,
+        "ref": "201005444"
+      },
+      "native": {
+        "default_code": "2099004403",
+        "name": "Goodrob Easy Yedek Parçaları Temizlik fırçası Scrub- brush",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "2099004404": {
+      "family_key": "goodrob-easy-kablosuz-havuz-s-p-rgesi-goodrob-easy-cordless-",
+      "attribute_set_key": "goodrob-easy-kablosuz-havuz-s-p-rgesi-goodrob-easy-cordless-",
+      "values": {
+        "model": "Emiş başlığı takımı Suction head assembly",
+        "part_no": 5,
+        "ref": "201005447"
+      },
+      "native": {
+        "default_code": "2099004404",
+        "name": "Goodrob Easy Yedek Parçaları Emiş başlığı takımı Suction head assembly",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "2099004409": {
+      "family_key": "goodrob-easy-kablosuz-havuz-s-p-rgesi-goodrob-easy-cordless-",
+      "attribute_set_key": "goodrob-easy-kablosuz-havuz-s-p-rgesi-goodrob-easy-cordless-",
+      "values": {
+        "model": "Düz rondela Plain washer",
+        "ref": "7 207000307",
+        "part_no": 16
+      },
+      "native": {
+        "default_code": "2099004409",
+        "name": "Goodrob Easy Yedek Parçaları Düz rondela Plain washer",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "2099004407": {
+      "family_key": "goodrob-easy-kablosuz-havuz-s-p-rgesi-goodrob-easy-cordless-",
+      "attribute_set_key": "goodrob-easy-kablosuz-havuz-s-p-rgesi-goodrob-easy-cordless-",
+      "values": {
+        "model": "Yıldız başlı sac vidası Cross head tapping screw",
+        "ref": "8 207000056",
+        "part_no": 14
+      },
+      "native": {
+        "default_code": "2099004407",
+        "name": "Goodrob Easy Yedek Parçaları Yıldız başlı sac vidası Cross head tapping screw (14)",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "2099004406": {
+      "family_key": "goodrob-easy-kablosuz-havuz-s-p-rgesi-goodrob-easy-cordless-",
+      "attribute_set_key": "goodrob-easy-kablosuz-havuz-s-p-rgesi-goodrob-easy-cordless-",
+      "values": {
+        "model": "300 mikron filtre torbası Filter bag-300 mesh",
+        "part_no": 12,
+        "ref": "201005450"
+      },
+      "native": {
+        "default_code": "2099004406",
+        "name": "Goodrob Easy Yedek Parçaları 300 mikron filtre torbası Filter bag-300 mesh",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "2099004408": {
+      "family_key": "goodrob-easy-kablosuz-havuz-s-p-rgesi-goodrob-easy-cordless-",
+      "attribute_set_key": "goodrob-easy-kablosuz-havuz-s-p-rgesi-goodrob-easy-cordless-",
+      "values": {
+        "model": "Çek valf Check valve",
+        "part_no": 15,
+        "ref": "208001389"
+      },
+      "native": {
+        "default_code": "2099004408",
+        "name": "Goodrob Easy Yedek Parçaları Çek valf Check valve",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "2099004410": {
+      "family_key": "goodrob-easy-kablosuz-havuz-s-p-rgesi-goodrob-easy-cordless-",
+      "attribute_set_key": "goodrob-easy-kablosuz-havuz-s-p-rgesi-goodrob-easy-cordless-",
+      "values": {
+        "model": "Yıldız başlı sac vidası Cross head tapping screw",
+        "part_no": 17,
+        "ref": "207000229"
+      },
+      "native": {
+        "default_code": "2099004410",
+        "name": "Goodrob Easy Yedek Parçaları Yıldız başlı sac vidası Cross head tapping screw (17)",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "2099004411": {
+      "family_key": "goodrob-easy-kablosuz-havuz-s-p-rgesi-goodrob-easy-cordless-",
+      "attribute_set_key": "goodrob-easy-kablosuz-havuz-s-p-rgesi-goodrob-easy-cordless-",
+      "values": {
+        "model": "Ana gövde Main housing",
+        "part_no": 18,
+        "ref": "201005427"
+      },
+      "native": {
+        "default_code": "2099004411",
+        "name": "Goodrob Easy Yedek Parçaları Ana gövde Main housing",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "2099004412": {
+      "family_key": "goodrob-easy-kablosuz-havuz-s-p-rgesi-goodrob-easy-cordless-",
+      "attribute_set_key": "goodrob-easy-kablosuz-havuz-s-p-rgesi-goodrob-easy-cordless-",
+      "values": {
+        "model": "Pervane Impeller",
+        "part_no": 19,
+        "ref": "201005439"
+      },
+      "native": {
+        "default_code": "2099004412",
+        "name": "Goodrob Easy Yedek Parçaları Pervane Impeller",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "2099004413": {
+      "family_key": "goodrob-easy-kablosuz-havuz-s-p-rgesi-goodrob-easy-cordless-",
+      "attribute_set_key": "goodrob-easy-kablosuz-havuz-s-p-rgesi-goodrob-easy-cordless-",
+      "values": {
+        "model": "O-ring contası O-ring",
+        "part_no": 20,
+        "ref": "208001217"
+      },
+      "native": {
+        "default_code": "2099004413",
+        "name": "Goodrob Easy Yedek Parçaları O-ring contası O-ring (20)",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "2099004414": {
+      "family_key": "goodrob-easy-kablosuz-havuz-s-p-rgesi-goodrob-easy-cordless-",
+      "attribute_set_key": "goodrob-easy-kablosuz-havuz-s-p-rgesi-goodrob-easy-cordless-",
+      "values": {
+        "model": "Dudak tipi conta Lip seal",
+        "part_no": 21,
+        "ref": "208000939"
+      },
+      "native": {
+        "default_code": "2099004414",
+        "name": "Goodrob Easy Yedek Parçaları Dudak tipi conta Lip seal",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "2099004415": {
+      "family_key": "goodrob-easy-kablosuz-havuz-s-p-rgesi-goodrob-easy-cordless-",
+      "attribute_set_key": "goodrob-easy-kablosuz-havuz-s-p-rgesi-goodrob-easy-cordless-",
+      "values": {
+        "model": "Motor ön kapağı Motor front cover",
+        "part_no": 22,
+        "ref": "202000620"
+      },
+      "native": {
+        "default_code": "2099004415",
+        "name": "Goodrob Easy Yedek Parçaları Motor ön kapağı Motor front cover",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "2099004416": {
+      "family_key": "goodrob-easy-kablosuz-havuz-s-p-rgesi-goodrob-easy-cordless-",
+      "attribute_set_key": "goodrob-easy-kablosuz-havuz-s-p-rgesi-goodrob-easy-cordless-",
+      "values": {
+        "model": "Motor plakası Motor plate",
+        "part_no": 23,
+        "ref": "204000877"
+      },
+      "native": {
+        "default_code": "2099004416",
+        "name": "Goodrob Easy Yedek Parçaları Motor plakası Motor plate",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "2099004417": {
+      "family_key": "goodrob-easy-kablosuz-havuz-s-p-rgesi-goodrob-easy-cordless-",
+      "attribute_set_key": "goodrob-easy-kablosuz-havuz-s-p-rgesi-goodrob-easy-cordless-",
+      "values": {
+        "model": "Vida Screw",
+        "part_no": 24,
+        "ref": "207000800"
+      },
+      "native": {
+        "default_code": "2099004417",
+        "name": "Goodrob Easy Yedek Parçaları Vida Screw",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "2099004418": {
+      "family_key": "goodrob-easy-kablosuz-havuz-s-p-rgesi-goodrob-easy-cordless-",
+      "attribute_set_key": "goodrob-easy-kablosuz-havuz-s-p-rgesi-goodrob-easy-cordless-",
+      "values": {
+        "model": "Motor",
+        "part_no": 25,
+        "ref": "254002584"
+      },
+      "native": {
+        "default_code": "2099004418",
+        "name": "Goodrob Easy Yedek Parçaları Motor",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "2099004419": {
+      "family_key": "goodrob-easy-kablosuz-havuz-s-p-rgesi-goodrob-easy-cordless-",
+      "attribute_set_key": "goodrob-easy-kablosuz-havuz-s-p-rgesi-goodrob-easy-cordless-",
+      "values": {
+        "model": "Motor tabanı Motor base",
+        "part_no": 26,
+        "ref": "201005896"
+      },
+      "native": {
+        "default_code": "2099004419",
+        "name": "Goodrob Easy Yedek Parçaları Motor tabanı Motor base",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "2099004420": {
+      "family_key": "goodrob-easy-kablosuz-havuz-s-p-rgesi-goodrob-easy-cordless-",
+      "attribute_set_key": "goodrob-easy-kablosuz-havuz-s-p-rgesi-goodrob-easy-cordless-",
+      "values": {
+        "model": "O-ring contası O-ring",
+        "part_no": 27,
+        "ref": "208000937"
+      },
+      "native": {
+        "default_code": "2099004420",
+        "name": "Goodrob Easy Yedek Parçaları O-ring contası O-ring (27)",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "2099004421": {
+      "family_key": "goodrob-easy-kablosuz-havuz-s-p-rgesi-goodrob-easy-cordless-",
+      "attribute_set_key": "goodrob-easy-kablosuz-havuz-s-p-rgesi-goodrob-easy-cordless-",
+      "values": {
+        "model": "C tipi vidalar Screws type C",
+        "part_no": 28,
+        "ref": "206000173"
+      },
+      "native": {
+        "default_code": "2099004421",
+        "name": "Goodrob Easy Yedek Parçaları C tipi vidalar Screws type C",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "2099004422": {
+      "family_key": "goodrob-easy-kablosuz-havuz-s-p-rgesi-goodrob-easy-cordless-",
+      "attribute_set_key": "goodrob-easy-kablosuz-havuz-s-p-rgesi-goodrob-easy-cordless-",
+      "values": {
+        "model": "O-ring contası O-ring",
+        "part_no": 29,
+        "ref": "208001393"
+      },
+      "native": {
+        "default_code": "2099004422",
+        "name": "Goodrob Easy Yedek Parçaları O-ring contası O-ring (29)",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "2099004423": {
+      "family_key": "goodrob-easy-kablosuz-havuz-s-p-rgesi-goodrob-easy-cordless-",
+      "attribute_set_key": "goodrob-easy-kablosuz-havuz-s-p-rgesi-goodrob-easy-cordless-",
+      "values": {
+        "model": "Anahtar kapağı Switch cover",
+        "part_no": 30,
+        "ref": "201005580"
+      },
+      "native": {
+        "default_code": "2099004423",
+        "name": "Goodrob Easy Yedek Parçaları Anahtar kapağı Switch cover",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "2099004424": {
+      "family_key": "goodrob-easy-kablosuz-havuz-s-p-rgesi-goodrob-easy-cordless-",
+      "attribute_set_key": "goodrob-easy-kablosuz-havuz-s-p-rgesi-goodrob-easy-cordless-",
+      "values": {
+        "model": "Vida Tapping screw",
+        "part_no": 31,
+        "ref": "207000142"
+      },
+      "native": {
+        "default_code": "2099004424",
+        "name": "Goodrob Easy Yedek Parçaları Vida Tapping screw",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "2099004425": {
+      "family_key": "goodrob-easy-kablosuz-havuz-s-p-rgesi-goodrob-easy-cordless-",
+      "attribute_set_key": "goodrob-easy-kablosuz-havuz-s-p-rgesi-goodrob-easy-cordless-",
+      "values": {
+        "model": "Anahtar Tutucu Switch holder",
+        "part_no": 32,
+        "ref": "201005434"
+      },
+      "native": {
+        "default_code": "2099004425",
+        "name": "Goodrob Easy Yedek Parçaları Anahtar Tutucu Switch holder",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "2099004426": {
+      "family_key": "goodrob-easy-kablosuz-havuz-s-p-rgesi-goodrob-easy-cordless-",
+      "attribute_set_key": "goodrob-easy-kablosuz-havuz-s-p-rgesi-goodrob-easy-cordless-",
+      "values": {
+        "model": "Mıknatıs Magnet",
+        "part_no": 33,
+        "ref": "214000009"
+      },
+      "native": {
+        "default_code": "2099004426",
+        "name": "Goodrob Easy Yedek Parçaları Mıknatıs Magnet",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "2099004428": {
+      "family_key": "goodrob-easy-kablosuz-havuz-s-p-rgesi-goodrob-easy-cordless-",
+      "attribute_set_key": "goodrob-easy-kablosuz-havuz-s-p-rgesi-goodrob-easy-cordless-",
+      "values": {
+        "model": "O-ring contası O-ring",
+        "part_no": 35,
+        "ref": "208001218"
+      },
+      "native": {
+        "default_code": "2099004428",
+        "name": "Goodrob Easy Yedek Parçaları O-ring contası O-ring (35)",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "2099004429": {
+      "family_key": "goodrob-easy-kablosuz-havuz-s-p-rgesi-goodrob-easy-cordless-",
+      "attribute_set_key": "goodrob-easy-kablosuz-havuz-s-p-rgesi-goodrob-easy-cordless-",
+      "values": {
+        "model": "O-ring contası O-ring",
+        "part_no": 36,
+        "ref": "208000935"
+      },
+      "native": {
+        "default_code": "2099004429",
+        "name": "Goodrob Easy Yedek Parçaları O-ring contası O-ring (36)",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "2099004430": {
+      "family_key": "goodrob-easy-kablosuz-havuz-s-p-rgesi-goodrob-easy-cordless-",
+      "attribute_set_key": "goodrob-easy-kablosuz-havuz-s-p-rgesi-goodrob-easy-cordless-",
+      "values": {
+        "model": "Pil Takım Rakoru Top cover",
+        "part_no": 37,
+        "ref": "201005895"
+      },
+      "native": {
+        "default_code": "2099004430",
+        "name": "Goodrob Easy Yedek Parçaları Pil Takım Rakoru Top cover",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "2099004431": {
+      "family_key": "goodrob-easy-kablosuz-havuz-s-p-rgesi-goodrob-easy-cordless-",
+      "attribute_set_key": "goodrob-easy-kablosuz-havuz-s-p-rgesi-goodrob-easy-cordless-",
+      "values": {
+        "model": "Sac vidası Tapping screw",
+        "part_no": 38,
+        "ref": "207000060"
+      },
+      "native": {
+        "default_code": "2099004431",
+        "name": "Goodrob Easy Yedek Parçaları Sac vidası Tapping screw",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "2099004432": {
+      "family_key": "goodrob-easy-kablosuz-havuz-s-p-rgesi-goodrob-easy-cordless-",
+      "attribute_set_key": "goodrob-easy-kablosuz-havuz-s-p-rgesi-goodrob-easy-cordless-",
+      "values": {
+        "model": "V tipi kelepçe V-clamp",
+        "part_no": 39,
+        "ref": "201005436"
+      },
+      "native": {
+        "default_code": "2099004432",
+        "name": "Goodrob Easy Yedek Parçaları V tipi kelepçe V-clamp",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "2099004433": {
+      "family_key": "goodrob-easy-kablosuz-havuz-s-p-rgesi-goodrob-easy-cordless-",
+      "attribute_set_key": "goodrob-easy-kablosuz-havuz-s-p-rgesi-goodrob-easy-cordless-",
+      "values": {
+        "model": "Sap takımı Handle cpl.",
+        "part_no": 40,
+        "ref": "201005440"
+      },
+      "native": {
+        "default_code": "2099004433",
+        "name": "Goodrob Easy Yedek Parçaları Sap takımı Handle cpl.",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "2099004434": {
+      "family_key": "goodrob-easy-kablosuz-havuz-s-p-rgesi-goodrob-easy-cordless-",
+      "attribute_set_key": "goodrob-easy-kablosuz-havuz-s-p-rgesi-goodrob-easy-cordless-",
+      "values": {
+        "model": "Yıldız başlı sac vidası Cross head tapping screw",
+        "ref": "42 207000048"
+      },
+      "native": {
+        "default_code": "2099004434",
+        "name": "Goodrob Easy Yedek Parçaları Yıldız başlı sac vidası Cross head tapping screw (42 207000048)",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "2099004435": {
+      "family_key": "goodrob-easy-kablosuz-havuz-s-p-rgesi-goodrob-easy-cordless-",
+      "attribute_set_key": "goodrob-easy-kablosuz-havuz-s-p-rgesi-goodrob-easy-cordless-",
+      "values": {
+        "model": "Şarj cihazı Charger",
+        "part_no": 43,
+        "ref": "209001340"
+      },
+      "native": {
+        "default_code": "2099004435",
+        "name": "Goodrob Easy Yedek Parçaları Şarj cihazı Charger",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "2099004436": {
+      "family_key": "goodrob-easy-kablosuz-havuz-s-p-rgesi-goodrob-easy-cordless-",
+      "attribute_set_key": "goodrob-easy-kablosuz-havuz-s-p-rgesi-goodrob-easy-cordless-",
+      "values": {
+        "model": "Çift taraflı bant Double-sided tape",
+        "part_no": 44,
+        "ref": "212000110"
+      },
+      "native": {
+        "default_code": "2099004436",
+        "name": "Goodrob Easy Yedek Parçaları Çift taraflı bant Double-sided tape",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "2099004437": {
+      "family_key": "goodrob-easy-kablosuz-havuz-s-p-rgesi-goodrob-easy-cordless-",
+      "attribute_set_key": "goodrob-easy-kablosuz-havuz-s-p-rgesi-goodrob-easy-cordless-",
+      "values": {
+        "model": "Isıyla daralan tüp Heat shrink tube",
+        "part_no": 45,
+        "ref": "311000175"
+      },
+      "native": {
+        "default_code": "2099004437",
+        "name": "Goodrob Easy Yedek Parçaları Isıyla daralan tüp Heat shrink tube",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "2099004438": {
+      "family_key": "goodrob-easy-kablosuz-havuz-s-p-rgesi-goodrob-easy-cordless-",
+      "attribute_set_key": "goodrob-easy-kablosuz-havuz-s-p-rgesi-goodrob-easy-cordless-",
+      "values": {
+        "model": "Siyah bağlantı kablosu Black lead wire",
+        "part_no": 46,
+        "ref": "310000139"
+      },
+      "native": {
+        "default_code": "2099004438",
+        "name": "Goodrob Easy Yedek Parçaları Siyah bağlantı kablosu Black lead wire",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "2099004439": {
+      "family_key": "goodrob-easy-kablosuz-havuz-s-p-rgesi-goodrob-easy-cordless-",
+      "attribute_set_key": "goodrob-easy-kablosuz-havuz-s-p-rgesi-goodrob-easy-cordless-",
+      "values": {
+        "model": "Kırmızı bağlantı kablosu Red lead wire",
+        "part_no": 47,
+        "ref": "310000140"
+      },
+      "native": {
+        "default_code": "2099004439",
+        "name": "Goodrob Easy Yedek Parçaları Kırmızı bağlantı kablosu Red lead wire",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "2099004440": {
+      "family_key": "goodrob-easy-kablosuz-havuz-s-p-rgesi-goodrob-easy-cordless-",
+      "attribute_set_key": "goodrob-easy-kablosuz-havuz-s-p-rgesi-goodrob-easy-cordless-",
+      "values": {
+        "model": "Yedek Pin-QSn6.5-0.1",
+        "part_no": 48,
+        "ref": "204000876"
+      },
+      "native": {
+        "default_code": "2099004440",
+        "name": "Goodrob Easy Yedek Parçaları Yedek Pin-QSn6.5-0.1",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "2099004441": {
+      "family_key": "goodrob-easy-kablosuz-havuz-s-p-rgesi-goodrob-easy-cordless-",
+      "attribute_set_key": "goodrob-easy-kablosuz-havuz-s-p-rgesi-goodrob-easy-cordless-",
+      "values": {
+        "model": "Teleskopik boru Telescopic tube",
+        "part_no": 49,
+        "ref": "210000600"
+      },
+      "native": {
+        "default_code": "2099004441",
+        "name": "Goodrob Easy Yedek Parçaları Teleskopik boru Telescopic tube",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "2099004466": {
+      "family_key": "goodrob-maxi-kablosuz-havuz-robotu-goodrob-maxi-cordless-poo",
+      "attribute_set_key": "goodrob-maxi-kablosuz-havuz-robotu-goodrob-maxi-cordless-poo",
+      "values": {
+        "model": "Kanca Hook",
+        "part_no": 1
+      },
+      "native": {
+        "default_code": "2099004466",
+        "name": "Goodrob Maxi Yedek Parçaları Kanca Hook",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "2099004477": {
+      "family_key": "goodrob-maxi-kablosuz-havuz-robotu-goodrob-maxi-cordless-poo",
+      "attribute_set_key": "goodrob-maxi-kablosuz-havuz-robotu-goodrob-maxi-cordless-poo",
+      "values": {
+        "model": "Salıncak plakası Swing plate",
+        "part_no": 2
+      },
+      "native": {
+        "default_code": "2099004477",
+        "name": "Goodrob Maxi Yedek Parçaları Salıncak plakası Swing plate",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "2099004479": {
+      "family_key": "goodrob-maxi-kablosuz-havuz-robotu-goodrob-maxi-cordless-poo",
+      "attribute_set_key": "goodrob-maxi-kablosuz-havuz-robotu-goodrob-maxi-cordless-poo",
+      "values": {
+        "model": "Sıkışma önleyici el kabuğu Anti-pinch hand shell",
+        "part_no": 3
+      },
+      "native": {
+        "default_code": "2099004479",
+        "name": "Goodrob Maxi Yedek Parçaları Sıkışma önleyici el kabuğu Anti-pinch hand shell",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "2099004476": {
+      "family_key": "goodrob-maxi-kablosuz-havuz-robotu-goodrob-maxi-cordless-poo",
+      "attribute_set_key": "goodrob-maxi-kablosuz-havuz-robotu-goodrob-maxi-cordless-poo",
+      "values": {
+        "model": "Tutma halkası kapağı Retaining ring cover",
+        "part_no": 4
+      },
+      "native": {
+        "default_code": "2099004476",
+        "name": "Goodrob Maxi Yedek Parçaları Tutma halkası kapağı Retaining ring cover",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "2099004475": {
+      "family_key": "goodrob-maxi-kablosuz-havuz-robotu-goodrob-maxi-cordless-poo",
+      "attribute_set_key": "goodrob-maxi-kablosuz-havuz-robotu-goodrob-maxi-cordless-poo",
+      "values": {
+        "model": "Tutucu halka Retaining ring",
+        "part_no": 5
+      },
+      "native": {
+        "default_code": "2099004475",
+        "name": "Goodrob Maxi Yedek Parçaları Tutucu halka Retaining ring",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "2099004467": {
+      "family_key": "goodrob-maxi-kablosuz-havuz-robotu-goodrob-maxi-cordless-poo",
+      "attribute_set_key": "goodrob-maxi-kablosuz-havuz-robotu-goodrob-maxi-cordless-poo",
+      "values": {
+        "model": "Çıt çıt Snap",
+        "part_no": 7
+      },
+      "native": {
+        "default_code": "2099004467",
+        "name": "Goodrob Maxi Yedek Parçaları Çıt çıt Snap",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "2099004471": {
+      "family_key": "goodrob-maxi-kablosuz-havuz-robotu-goodrob-maxi-cordless-poo",
+      "attribute_set_key": "goodrob-maxi-kablosuz-havuz-robotu-goodrob-maxi-cordless-poo",
+      "values": {
+        "model": "Filtre Filter",
+        "part_no": 9
+      },
+      "native": {
+        "default_code": "2099004471",
+        "name": "Goodrob Maxi Yedek Parçaları Filtre Filter",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "2099004469": {
+      "family_key": "goodrob-maxi-kablosuz-havuz-robotu-goodrob-maxi-cordless-poo",
+      "attribute_set_key": "goodrob-maxi-kablosuz-havuz-robotu-goodrob-maxi-cordless-poo",
+      "values": {
+        "model": "Karşı ağırlık Counter weight",
+        "part_no": 10
+      },
+      "native": {
+        "default_code": "2099004469",
+        "name": "Goodrob Maxi Yedek Parçaları Karşı ağırlık Counter weight",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "2099004474": {
+      "family_key": "goodrob-maxi-kablosuz-havuz-robotu-goodrob-maxi-cordless-poo",
+      "attribute_set_key": "goodrob-maxi-kablosuz-havuz-robotu-goodrob-maxi-cordless-poo",
+      "values": {
+        "model": "Tekerlek Wheel",
+        "part_no": 11
+      },
+      "native": {
+        "default_code": "2099004474",
+        "name": "Goodrob Maxi Yedek Parçaları Tekerlek Wheel",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "2099004473": {
+      "family_key": "goodrob-maxi-kablosuz-havuz-robotu-goodrob-maxi-cordless-poo",
+      "attribute_set_key": "goodrob-maxi-kablosuz-havuz-robotu-goodrob-maxi-cordless-poo",
+      "values": {
+        "model": "Sürüş seti Driving kit",
+        "part_no": 12
+      },
+      "native": {
+        "default_code": "2099004473",
+        "name": "Goodrob Maxi Yedek Parçaları Sürüş seti Driving kit",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "2099004468": {
+      "family_key": "goodrob-maxi-kablosuz-havuz-robotu-goodrob-maxi-cordless-poo",
+      "attribute_set_key": "goodrob-maxi-kablosuz-havuz-robotu-goodrob-maxi-cordless-poo",
+      "values": {
+        "model": "Ön engel geçiş aksı Front obstacle crossing axle",
+        "part_no": 14
+      },
+      "native": {
+        "default_code": "2099004468",
+        "name": "Goodrob Maxi Yedek Parçaları Ön engel geçiş aksı Front obstacle crossing axle",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "2099004460": {
+      "family_key": "goodrob-maxi-kablosuz-havuz-robotu-goodrob-maxi-cordless-poo",
+      "attribute_set_key": "goodrob-maxi-kablosuz-havuz-robotu-goodrob-maxi-cordless-poo",
+      "values": {
+        "model": "Ön engel geçiş tekerleği Front obstacle crossing wheel",
+        "part_no": 15
+      },
+      "native": {
+        "default_code": "2099004460",
+        "name": "Goodrob Maxi Yedek Parçaları Ön engel geçiş tekerleği Front obstacle crossing wheel",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "2099004464": {
+      "family_key": "goodrob-maxi-kablosuz-havuz-robotu-goodrob-maxi-cordless-poo",
+      "attribute_set_key": "goodrob-maxi-kablosuz-havuz-robotu-goodrob-maxi-cordless-poo",
+      "values": {
+        "model": "Tekerlek şasesi Wheel assembly",
+        "part_no": 17
+      },
+      "native": {
+        "default_code": "2099004464",
+        "name": "Goodrob Maxi Yedek Parçaları Tekerlek şasesi Wheel assembly",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "2099004486": {
+      "family_key": "goodrob-maxi-kablosuz-havuz-robotu-goodrob-maxi-cordless-poo",
+      "attribute_set_key": "goodrob-maxi-kablosuz-havuz-robotu-goodrob-maxi-cordless-poo",
+      "values": {
+        "model": "Gövde kabuğu Body shell",
+        "part_no": 19
+      },
+      "native": {
+        "default_code": "2099004486",
+        "name": "Goodrob Maxi Yedek Parçaları Gövde kabuğu Body shell",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "2099004450": {
+      "family_key": "goodrob-maxi-kablosuz-havuz-robotu-goodrob-maxi-cordless-poo",
+      "attribute_set_key": "goodrob-maxi-kablosuz-havuz-robotu-goodrob-maxi-cordless-poo",
+      "values": {
+        "model": "Torsiyon yayları Torsion springs",
+        "part_no": 20
+      },
+      "native": {
+        "default_code": "2099004450",
+        "name": "Goodrob Maxi Yedek Parçaları Torsiyon yayları Torsion springs",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "2099004447": {
+      "family_key": "goodrob-pro-kablosuz-havuz-robotu-goodrob-pro-cordless-pool-",
+      "attribute_set_key": "goodrob-pro-kablosuz-havuz-robotu-goodrob-pro-cordless-pool-",
+      "values": {
+        "model": "Dişli 32 Gear 32",
+        "part_no": 1
+      },
+      "native": {
+        "default_code": "2099004447",
+        "name": "Goodrob Pro Yedek Parçaları Dişli 32 Gear 32",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "2099004446": {
+      "family_key": "goodrob-pro-kablosuz-havuz-robotu-goodrob-pro-cordless-pool-",
+      "attribute_set_key": "goodrob-pro-kablosuz-havuz-robotu-goodrob-pro-cordless-pool-",
+      "values": {
+        "model": "Rakor 32 Union 32",
+        "part_no": 3
+      },
+      "native": {
+        "default_code": "2099004446",
+        "name": "Goodrob Pro Yedek Parçaları Rakor 32 Union 32",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "2099004448": {
+      "family_key": "goodrob-pro-kablosuz-havuz-robotu-goodrob-pro-cordless-pool-",
+      "attribute_set_key": "goodrob-pro-kablosuz-havuz-robotu-goodrob-pro-cordless-pool-",
+      "values": {
+        "model": "Şarj kiti Charging kit",
+        "part_no": 4
+      },
+      "native": {
+        "default_code": "2099004448",
+        "name": "Goodrob Pro Yedek Parçaları Şarj kiti Charging kit",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "2099004470": {
+      "family_key": "goodrob-pro-kablosuz-havuz-robotu-goodrob-pro-cordless-pool-",
+      "attribute_set_key": "goodrob-pro-kablosuz-havuz-robotu-goodrob-pro-cordless-pool-",
+      "values": {
+        "model": "Su girişi Water inlet",
+        "part_no": 5
+      },
+      "native": {
+        "default_code": "2099004470",
+        "name": "Goodrob Pro Yedek Parçaları Su girişi Water inlet",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "2099004482": {
+      "family_key": "goodrob-pro-kablosuz-havuz-robotu-goodrob-pro-cordless-pool-",
+      "attribute_set_key": "goodrob-pro-kablosuz-havuz-robotu-goodrob-pro-cordless-pool-",
+      "values": {
+        "model": "Dekoratif kapak Decorative cover",
+        "part_no": 6
+      },
+      "native": {
+        "default_code": "2099004482",
+        "name": "Goodrob Pro Yedek Parçaları Dekoratif kapak Decorative cover",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "2099004465": {
+      "family_key": "goodrob-pro-kablosuz-havuz-robotu-goodrob-pro-cordless-pool-",
+      "attribute_set_key": "goodrob-pro-kablosuz-havuz-robotu-goodrob-pro-cordless-pool-",
+      "values": {
+        "model": "Filtre Filter",
+        "part_no": 7
+      },
+      "native": {
+        "default_code": "2099004465",
+        "name": "Goodrob Pro Yedek Parçaları Filtre Filter",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "2099004445": {
+      "family_key": "goodrob-pro-kablosuz-havuz-robotu-goodrob-pro-cordless-pool-",
+      "attribute_set_key": "goodrob-pro-kablosuz-havuz-robotu-goodrob-pro-cordless-pool-",
+      "values": {
+        "model": "Tekerlek dişlisi Roller gear",
+        "part_no": 9
+      },
+      "native": {
+        "default_code": "2099004445",
+        "name": "Goodrob Pro Yedek Parçaları Tekerlek dişlisi Roller gear",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "2099004457": {
+      "family_key": "goodrob-pro-kablosuz-havuz-robotu-goodrob-pro-cordless-pool-",
+      "attribute_set_key": "goodrob-pro-kablosuz-havuz-robotu-goodrob-pro-cordless-pool-",
+      "values": {
+        "model": "PVC fırça PVC brush",
+        "part_no": 10
+      },
+      "native": {
+        "default_code": "2099004457",
+        "name": "Goodrob Pro Yedek Parçaları PVC fırça PVC brush",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "2099004463": {
+      "family_key": "goodrob-pro-kablosuz-havuz-robotu-goodrob-pro-cordless-pool-",
+      "attribute_set_key": "goodrob-pro-kablosuz-havuz-robotu-goodrob-pro-cordless-pool-",
+      "values": {
+        "model": "Bilyalı rulmanlar Ball bearings",
+        "part_no": 11
+      },
+      "native": {
+        "default_code": "2099004463",
+        "name": "Goodrob Pro Yedek Parçaları Bilyalı rulmanlar Ball bearings",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "2099004443": {
+      "family_key": "goodrob-pro-kablosuz-havuz-robotu-goodrob-pro-cordless-pool-",
+      "attribute_set_key": "goodrob-pro-kablosuz-havuz-robotu-goodrob-pro-cordless-pool-",
+      "values": {
+        "model": "Sürüş dişlisi Driving gear",
+        "part_no": 12
+      },
+      "native": {
+        "default_code": "2099004443",
+        "name": "Goodrob Pro Yedek Parçaları Sürüş dişlisi Driving gear",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "2099004444": {
+      "family_key": "goodrob-pro-kablosuz-havuz-robotu-goodrob-pro-cordless-pool-",
+      "attribute_set_key": "goodrob-pro-kablosuz-havuz-robotu-goodrob-pro-cordless-pool-",
+      "values": {
+        "model": "Gövde Housing",
+        "part_no": 13
+      },
+      "native": {
+        "default_code": "2099004444",
+        "name": "Goodrob Pro Yedek Parçaları Gövde Housing",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "2099004490": {
+      "family_key": "goodrob-pro-kablosuz-havuz-robotu-goodrob-pro-cordless-pool-",
+      "attribute_set_key": "goodrob-pro-kablosuz-havuz-robotu-goodrob-pro-cordless-pool-",
+      "values": {
+        "model": "Sürüş kiti Driving kit",
+        "part_no": 14
+      },
+      "native": {
+        "default_code": "2099004490",
+        "name": "Goodrob Pro Yedek Parçaları Sürüş kiti Driving kit",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "2099004442": {
+      "family_key": "goodrob-pro-kablosuz-havuz-robotu-goodrob-pro-cordless-pool-",
+      "attribute_set_key": "goodrob-pro-kablosuz-havuz-robotu-goodrob-pro-cordless-pool-",
+      "values": {
+        "model": "Dişli kayışlar Gear toothed belts",
+        "part_no": 15
+      },
+      "native": {
+        "default_code": "2099004442",
+        "name": "Goodrob Pro Yedek Parçaları Dişli kayışlar Gear toothed belts",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "2099004462": {
+      "family_key": "goodrob-pro-kablosuz-havuz-robotu-goodrob-pro-cordless-pool-",
+      "attribute_set_key": "goodrob-pro-kablosuz-havuz-robotu-goodrob-pro-cordless-pool-",
+      "values": {
+        "model": "Alt engel tekerleği Bottom obstacle wheel",
+        "part_no": 16
+      },
+      "native": {
+        "default_code": "2099004462",
+        "name": "Goodrob Pro Yedek Parçaları Alt engel tekerleği Bottom obstacle wheel",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "2099004481": {
+      "family_key": "goodrob-pro-kablosuz-havuz-robotu-goodrob-pro-cordless-pool-",
+      "attribute_set_key": "goodrob-pro-kablosuz-havuz-robotu-goodrob-pro-cordless-pool-",
+      "values": {
+        "model": "Yan kapaklar Side covers",
+        "part_no": 17
+      },
+      "native": {
+        "default_code": "2099004481",
+        "name": "Goodrob Pro Yedek Parçaları Yan kapaklar Side covers",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "2099004456": {
+      "family_key": "goodrob-pro-kablosuz-havuz-robotu-goodrob-pro-cordless-pool-",
+      "attribute_set_key": "goodrob-pro-kablosuz-havuz-robotu-goodrob-pro-cordless-pool-",
+      "values": {
+        "model": "Su geçirmez şarj kapağı Waterproof cap",
+        "part_no": 18
+      },
+      "native": {
+        "default_code": "2099004456",
+        "name": "Goodrob Pro Yedek Parçaları Su geçirmez şarj kapağı Waterproof cap",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "2099004451": {
+      "family_key": "goodrob-pro-kablosuz-havuz-robotu-goodrob-pro-cordless-pool-",
+      "attribute_set_key": "goodrob-pro-kablosuz-havuz-robotu-goodrob-pro-cordless-pool-",
+      "values": {
+        "model": "Şarj cihazı Charger",
+        "part_no": 19
+      },
+      "native": {
+        "default_code": "2099004451",
+        "name": "Goodrob Pro Yedek Parçaları Şarj cihazı Charger",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "2099004507": {
+      "family_key": "goodrob-king-cordless-pool-robotic-cleaner",
+      "attribute_set_key": "goodrob-king-cordless-pool-robotic-cleaner",
+      "values": {
+        "model": "Örgü filtre Mesh filter 150 µm",
+        "part_no": 1
+      },
+      "native": {
+        "default_code": "2099004507",
+        "name": "Goodrob King Yedek Parçaları Örgü filtre Mesh filter 150 µm",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "2099004508": {
+      "family_key": "goodrob-king-cordless-pool-robotic-cleaner",
+      "attribute_set_key": "goodrob-king-cordless-pool-robotic-cleaner",
+      "values": {
+        "model": "Silikon ön tekerlek Silicone front wheel",
+        "part_no": 3
+      },
+      "native": {
+        "default_code": "2099004508",
+        "name": "Goodrob King Yedek Parçaları Silikon ön tekerlek Silicone front wheel",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "2099004509": {
+      "family_key": "goodrob-king-cordless-pool-robotic-cleaner",
+      "attribute_set_key": "goodrob-king-cordless-pool-robotic-cleaner",
+      "values": {
+        "model": "PVA arka tekerlek PVA rear wheel",
+        "part_no": 4
+      },
+      "native": {
+        "default_code": "2099004509",
+        "name": "Goodrob King Yedek Parçaları PVA arka tekerlek PVA rear wheel",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "2099004510": {
+      "family_key": "goodrob-king-cordless-pool-robotic-cleaner",
+      "attribute_set_key": "goodrob-king-cordless-pool-robotic-cleaner",
+      "values": {
+        "model": "Silikon fırça Silicone brush",
+        "part_no": 5
+      },
+      "native": {
+        "default_code": "2099004510",
+        "name": "Goodrob King Yedek Parçaları Silikon fırça Silicone brush",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "2099004511": {
+      "family_key": "goodrob-king-cordless-pool-robotic-cleaner",
+      "attribute_set_key": "goodrob-king-cordless-pool-robotic-cleaner",
+      "values": {
+        "model": "Yedek kayış Track",
+        "part_no": 6
+      },
+      "native": {
+        "default_code": "2099004511",
+        "name": "Goodrob King Yedek Parçaları Yedek kayış Track",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "2099004512": {
+      "family_key": "goodrob-king-cordless-pool-robotic-cleaner",
+      "attribute_set_key": "goodrob-king-cordless-pool-robotic-cleaner",
+      "values": {
+        "model": "Pil paketi Battery pack",
+        "part_no": 7
+      },
+      "native": {
+        "default_code": "2099004512",
+        "name": "Goodrob King Yedek Parçaları Pil paketi Battery pack",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "2099004513": {
+      "family_key": "goodrob-king-cordless-pool-robotic-cleaner",
+      "attribute_set_key": "goodrob-king-cordless-pool-robotic-cleaner",
+      "values": {
+        "model": "Fırça motoru Brush motor",
+        "part_no": 8
+      },
+      "native": {
+        "default_code": "2099004513",
+        "name": "Goodrob King Yedek Parçaları Fırça motoru Brush motor",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "2099004514": {
+      "family_key": "goodrob-king-cordless-pool-robotic-cleaner",
+      "attribute_set_key": "goodrob-king-cordless-pool-robotic-cleaner",
+      "values": {
+        "model": "Fırça başlığı Brush head",
+        "part_no": 9
+      },
+      "native": {
+        "default_code": "2099004514",
+        "name": "Goodrob King Yedek Parçaları Fırça başlığı Brush head",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "2099004515": {
+      "family_key": "goodrob-king-cordless-pool-robotic-cleaner",
+      "attribute_set_key": "goodrob-king-cordless-pool-robotic-cleaner",
+      "values": {
+        "model": "Çekirdek birim Core unit",
+        "part_no": 10
+      },
+      "native": {
+        "default_code": "2099004515",
+        "name": "Goodrob King Yedek Parçaları Çekirdek birim Core unit",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "2099004516": {
+      "family_key": "goodrob-king-cordless-pool-robotic-cleaner",
+      "attribute_set_key": "goodrob-king-cordless-pool-robotic-cleaner",
+      "values": {
+        "model": "Emiş motoru Suction motor",
+        "part_no": 11
+      },
+      "native": {
+        "default_code": "2099004516",
+        "name": "Goodrob King Yedek Parçaları Emiş motoru Suction motor",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "2099004517": {
+      "family_key": "goodrob-king-cordless-pool-robotic-cleaner",
+      "attribute_set_key": "goodrob-king-cordless-pool-robotic-cleaner",
+      "values": {
+        "model": "Su algılama modülü Water detection module",
+        "part_no": 12
+      },
+      "native": {
+        "default_code": "2099004517",
+        "name": "Goodrob King Yedek Parçaları Su algılama modülü Water detection module",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "2099004518": {
+      "family_key": "goodrob-king-cordless-pool-robotic-cleaner",
+      "attribute_set_key": "goodrob-king-cordless-pool-robotic-cleaner",
+      "values": {
+        "model": "Yüzen Kablo Floating Cable",
+        "part_no": 14
+      },
+      "native": {
+        "default_code": "2099004518",
+        "name": "Goodrob King Yedek Parçaları Yüzen Kablo Floating Cable",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "2099004519": {
+      "family_key": "goodrob-king-cordless-pool-robotic-cleaner",
+      "attribute_set_key": "goodrob-king-cordless-pool-robotic-cleaner",
+      "values": {
+        "model": "Pervane Propeller",
+        "part_no": 15
+      },
+      "native": {
+        "default_code": "2099004519",
+        "name": "Goodrob King Yedek Parçaları Pervane Propeller",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "2099004520": {
+      "family_key": "goodrob-king-cordless-pool-robotic-cleaner",
+      "attribute_set_key": "goodrob-king-cordless-pool-robotic-cleaner",
+      "values": {
+        "model": "Uzaktan kumanda Remote controller",
+        "part_no": 17
+      },
+      "native": {
+        "default_code": "2099004520",
+        "name": "Goodrob King Yedek Parçaları Uzaktan kumanda Remote controller",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19815273015": {
+      "family_key": "tiger-shark-havuz-robotu-tiger-shark-pool-robotic-cleaner",
+      "attribute_set_key": "tiger-shark-havuz-robotu-tiger-shark-pool-robotic-cleaner",
+      "values": {
+        "model": "Süpürge venturisi Assy-venturi",
+        "part_no": 4
+      },
+      "native": {
+        "default_code": "19815273015",
+        "name": "Tiger Shark Yedek Parçaları Süpürge venturisi Assy-venturi",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "199263025": {
+      "family_key": "tiger-shark-havuz-robotu-tiger-shark-pool-robotic-cleaner",
+      "attribute_set_key": "tiger-shark-havuz-robotu-tiger-shark-pool-robotic-cleaner",
+      "values": {
+        "model": "Hareket ettiren rulman Bearing drive",
+        "part_no": 6
+      },
+      "native": {
+        "default_code": "199263025",
+        "name": "Tiger Shark Yedek Parçaları Hareket ettiren rulman Bearing drive",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "199263017": {
+      "family_key": "tiger-shark-havuz-robotu-tiger-shark-pool-robotic-cleaner",
+      "attribute_set_key": "tiger-shark-havuz-robotu-tiger-shark-pool-robotic-cleaner",
+      "values": {
+        "model": "Kol kaydırma aparatı Handle arm slide",
+        "part_no": 7
+      },
+      "native": {
+        "default_code": "199263017",
+        "name": "Tiger Shark Yedek Parçaları Kol kaydırma aparatı Handle arm slide",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19815273011": {
+      "family_key": "tiger-shark-havuz-robotu-tiger-shark-pool-robotic-cleaner",
+      "attribute_set_key": "tiger-shark-havuz-robotu-tiger-shark-pool-robotic-cleaner",
+      "values": {
+        "model": "Emiş fanı Impeller",
+        "part_no": 9
+      },
+      "native": {
+        "default_code": "19815273011",
+        "name": "Tiger Shark Yedek Parçaları Emiş fanı Impeller",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19815273021": {
+      "family_key": "tiger-shark-havuz-robotu-tiger-shark-pool-robotic-cleaner",
+      "attribute_set_key": "tiger-shark-havuz-robotu-tiger-shark-pool-robotic-cleaner",
+      "values": {
+        "model": "Kartuş filtre kapak Cartridge filter cover",
+        "part_no": 10
+      },
+      "native": {
+        "default_code": "19815273021",
+        "name": "Tiger Shark Yedek Parçaları Kartuş filtre kapak Cartridge filter cover",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "199263014": {
+      "family_key": "tiger-shark-havuz-robotu-tiger-shark-pool-robotic-cleaner",
+      "attribute_set_key": "tiger-shark-havuz-robotu-tiger-shark-pool-robotic-cleaner",
+      "values": {
+        "model": "Kartuş filtre 2'li Cartridge filter x 2",
+        "part_no": 11
+      },
+      "native": {
+        "default_code": "199263014",
+        "name": "Tiger Shark Yedek Parçaları Kartuş filtre 2'li Cartridge filter x 2",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19815273037": {
+      "family_key": "tiger-shark-havuz-robotu-tiger-shark-pool-robotic-cleaner",
+      "attribute_set_key": "tiger-shark-havuz-robotu-tiger-shark-pool-robotic-cleaner",
+      "values": {
+        "model": "Kablo konnektör soketi Cable connector socket",
+        "part_no": 15
+      },
+      "native": {
+        "default_code": "19815273037",
+        "name": "Tiger Shark Yedek Parçaları Kablo konnektör soketi Cable connector socket",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19815273036": {
+      "family_key": "tiger-shark-havuz-robotu-tiger-shark-pool-robotic-cleaner",
+      "attribute_set_key": "tiger-shark-havuz-robotu-tiger-shark-pool-robotic-cleaner",
+      "values": {
+        "model": "Kablo sıkıştırma contası Seal compression",
+        "part_no": 16
+      },
+      "native": {
+        "default_code": "19815273036",
+        "name": "Tiger Shark Yedek Parçaları Kablo sıkıştırma contası Seal compression",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19815273035": {
+      "family_key": "tiger-shark-havuz-robotu-tiger-shark-pool-robotic-cleaner",
+      "attribute_set_key": "tiger-shark-havuz-robotu-tiger-shark-pool-robotic-cleaner",
+      "values": {
+        "model": "Konnektör kılıfı Housing connector",
+        "part_no": 17
+      },
+      "native": {
+        "default_code": "19815273035",
+        "name": "Tiger Shark Yedek Parçaları Konnektör kılıfı Housing connector",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "199263009": {
+      "family_key": "tiger-shark-havuz-robotu-tiger-shark-pool-robotic-cleaner",
+      "attribute_set_key": "tiger-shark-havuz-robotu-tiger-shark-pool-robotic-cleaner",
+      "values": {
+        "model": "Sürüş paleti Drive track",
+        "part_no": 21
+      },
+      "native": {
+        "default_code": "199263009",
+        "name": "Tiger Shark Yedek Parçaları Sürüş paleti Drive track",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19815273006": {
+      "family_key": "tiger-shark-havuz-robotu-tiger-shark-pool-robotic-cleaner",
+      "attribute_set_key": "tiger-shark-havuz-robotu-tiger-shark-pool-robotic-cleaner",
+      "values": {
+        "model": "Kasnak Pulley bearing idler 2 pack",
+        "part_no": 23
+      },
+      "native": {
+        "default_code": "19815273006",
+        "name": "Tiger Shark Yedek Parçaları Kasnak Pulley bearing idler 2 pack",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19815273003": {
+      "family_key": "tiger-shark-havuz-robotu-tiger-shark-pool-robotic-cleaner",
+      "attribute_set_key": "tiger-shark-havuz-robotu-tiger-shark-pool-robotic-cleaner",
+      "values": {
+        "model": "Kulp yayı Spring-handle latch",
+        "part_no": 24
+      },
+      "native": {
+        "default_code": "19815273003",
+        "name": "Tiger Shark Yedek Parçaları Kulp yayı Spring-handle latch",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "199263032": {
+      "family_key": "tiger-shark-havuz-robotu-tiger-shark-pool-robotic-cleaner",
+      "attribute_set_key": "tiger-shark-havuz-robotu-tiger-shark-pool-robotic-cleaner",
+      "values": {
+        "model": "Mandal kolu Latch handle",
+        "part_no": 25
+      },
+      "native": {
+        "default_code": "199263032",
+        "name": "Tiger Shark Yedek Parçaları Mandal kolu Latch handle",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19815273008": {
+      "family_key": "tiger-shark-havuz-robotu-tiger-shark-pool-robotic-cleaner",
+      "attribute_set_key": "tiger-shark-havuz-robotu-tiger-shark-pool-robotic-cleaner",
+      "values": {
+        "model": "Yan kapak Side cover",
+        "part_no": 26
+      },
+      "native": {
+        "default_code": "19815273008",
+        "name": "Tiger Shark Yedek Parçaları Yan kapak Side cover",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "199263008": {
+      "family_key": "tiger-shark-havuz-robotu-tiger-shark-pool-robotic-cleaner",
+      "attribute_set_key": "tiger-shark-havuz-robotu-tiger-shark-pool-robotic-cleaner",
+      "values": {
+        "model": "Tekerlek ve süngerler Brushes",
+        "part_no": 27
+      },
+      "native": {
+        "default_code": "199263008",
+        "name": "Tiger Shark Yedek Parçaları Tekerlek ve süngerler Brushes",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19815273030": {
+      "family_key": "tiger-shark-havuz-robotu-tiger-shark-pool-robotic-cleaner",
+      "attribute_set_key": "tiger-shark-havuz-robotu-tiger-shark-pool-robotic-cleaner",
+      "values": {
+        "model": "Dış kasa Outer casing",
+        "part_no": 28
+      },
+      "native": {
+        "default_code": "19815273030",
+        "name": "Tiger Shark Yedek Parçaları Dış kasa Outer casing",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19815273010": {
+      "family_key": "tiger-shark-havuz-robotu-tiger-shark-pool-robotic-cleaner",
+      "attribute_set_key": "tiger-shark-havuz-robotu-tiger-shark-pool-robotic-cleaner",
+      "values": {
+        "model": "TigerShark 4HR motoru For TigerShark 4HR",
+        "part_no": 13
+      },
+      "native": {
+        "default_code": "19815273010",
+        "name": "Tiger Shark Yedek Parçaları TigerShark 4HR motoru For TigerShark 4HR",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19815273023": {
+      "family_key": "tiger-shark-havuz-robotu-tiger-shark-pool-robotic-cleaner",
+      "attribute_set_key": "tiger-shark-havuz-robotu-tiger-shark-pool-robotic-cleaner",
+      "values": {
+        "model": "TigerShark 2 7H motoru For TigerShark 2 7H",
+        "part_no": 13
+      },
+      "native": {
+        "default_code": "19815273023",
+        "name": "Tiger Shark Yedek Parçaları TigerShark 2 7H motoru For TigerShark 2 7H",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "19815273020": {
+      "family_key": "tiger-shark-havuz-robotu-tiger-shark-pool-robotic-cleaner",
+      "attribute_set_key": "tiger-shark-havuz-robotu-tiger-shark-pool-robotic-cleaner",
+      "values": {
+        "model": "TigerShark QC 4H motoru For TigerShark QC 4H",
+        "part_no": 13
+      },
+      "native": {
+        "default_code": "19815273020",
+        "name": "Tiger Shark Yedek Parçaları TigerShark QC 4H motoru For TigerShark QC 4H",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "199263005": {
+      "family_key": "tiger-shark-havuz-robotu-tiger-shark-pool-robotic-cleaner",
+      "attribute_set_key": "tiger-shark-havuz-robotu-tiger-shark-pool-robotic-cleaner",
+      "values": {
+        "model": "TigerShark 2 tutamak For TigerShark 2 handle",
+        "part_no": 3
+      },
+      "native": {
+        "default_code": "199263005",
+        "name": "Tiger Shark Yedek Parçaları TigerShark 2 tutamak For TigerShark 2 handle",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "199263034": {
+      "family_key": "tiger-shark-havuz-robotu-tiger-shark-pool-robotic-cleaner",
+      "attribute_set_key": "tiger-shark-havuz-robotu-tiger-shark-pool-robotic-cleaner",
+      "values": {
+        "model": "TigerShark QC tutamak For TigerShark QC handle",
+        "part_no": 3
+      },
+      "native": {
+        "default_code": "199263034",
+        "name": "Tiger Shark Yedek Parçaları TigerShark QC tutamak For TigerShark QC handle",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "199263035": {
+      "family_key": "tiger-shark-havuz-robotu-tiger-shark-pool-robotic-cleaner",
+      "attribute_set_key": "tiger-shark-havuz-robotu-tiger-shark-pool-robotic-cleaner",
+      "values": {
+        "model": "TigerShark XL QC tutamak For TigerShark XL QC handle",
+        "part_no": 3
+      },
+      "native": {
+        "default_code": "199263035",
+        "name": "Tiger Shark Yedek Parçaları TigerShark XL QC tutamak For TigerShark XL QC handle",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "199263003": {
+      "family_key": "tiger-shark-havuz-robotu-tiger-shark-pool-robotic-cleaner",
+      "attribute_set_key": "tiger-shark-havuz-robotu-tiger-shark-pool-robotic-cleaner",
+      "values": {
+        "model": "TigerShark - TigerShark 2",
+        "part_no": 1
+      },
+      "native": {
+        "default_code": "199263003",
+        "name": "Tiger Shark Yedek Parçaları TigerShark - TigerShark 2",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "155263005": {
+      "family_key": "tiger-shark-havuz-robotu-tiger-shark-pool-robotic-cleaner",
+      "attribute_set_key": "tiger-shark-havuz-robotu-tiger-shark-pool-robotic-cleaner",
+      "values": {
+        "model": "TigerShark QC",
+        "part_no": 1
+      },
+      "native": {
+        "default_code": "155263005",
+        "name": "Tiger Shark Yedek Parçaları TigerShark QC",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "198124104": {
+      "family_key": "clomax-200-salt-chlorinator",
+      "attribute_set_key": "clomax-200-salt-chlorinator",
+      "values": {
+        "model": "Panel koruma siyah Pcb board",
+        "part_no": 1
+      },
+      "native": {
+        "default_code": "198124104",
+        "name": "Clomax 200 Yedek Parçaları Panel koruma siyah Pcb board",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "198124112": {
+      "family_key": "clomax-200-salt-chlorinator",
+      "attribute_set_key": "clomax-200-salt-chlorinator",
+      "values": {
+        "model": "Adaptör Asaptor",
+        "part_no": 2
+      },
+      "native": {
+        "default_code": "198124112",
+        "name": "Clomax 200 Yedek Parçaları Adaptör Asaptor",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "198124105": {
+      "family_key": "clomax-200-salt-chlorinator",
+      "attribute_set_key": "clomax-200-salt-chlorinator",
+      "values": {
+        "model": "Dekoratif kapak Decorative cover",
+        "part_no": 5
+      },
+      "native": {
+        "default_code": "198124105",
+        "name": "Clomax 200 Yedek Parçaları Dekoratif kapak Decorative cover",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "198124101": {
+      "family_key": "clomax-200-salt-chlorinator",
+      "attribute_set_key": "clomax-200-salt-chlorinator",
+      "values": {
+        "model": "Ekran kartı Display panel",
+        "part_no": 6
+      },
+      "native": {
+        "default_code": "198124101",
+        "name": "Clomax 200 Yedek Parçaları Ekran kartı Display panel",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "198124111": {
+      "family_key": "clomax-200-salt-chlorinator",
+      "attribute_set_key": "clomax-200-salt-chlorinator",
+      "values": {
+        "model": "Titanyum plaka Titanium plate",
+        "part_no": 7
+      },
+      "native": {
+        "default_code": "198124111",
+        "name": "Clomax 200 Yedek Parçaları Titanyum plaka Titanium plate",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "198124106": {
+      "family_key": "clomax-200-salt-chlorinator",
+      "attribute_set_key": "clomax-200-salt-chlorinator",
+      "values": {
+        "model": "Oring",
+        "part_no": 8
+      },
+      "native": {
+        "default_code": "198124106",
+        "name": "Clomax 200 Yedek Parçaları Oring",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "198124103": {
+      "family_key": "clomax-200-salt-chlorinator",
+      "attribute_set_key": "clomax-200-salt-chlorinator",
+      "values": {
+        "model": "Hücre somunu Cell nut",
+        "part_no": 9
+      },
+      "native": {
+        "default_code": "198124103",
+        "name": "Clomax 200 Yedek Parçaları Hücre somunu Cell nut",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "198124110": {
+      "family_key": "clomax-200-salt-chlorinator",
+      "attribute_set_key": "clomax-200-salt-chlorinator",
+      "values": {
+        "model": "Rakor oringi Oring",
+        "part_no": 10
+      },
+      "native": {
+        "default_code": "198124110",
+        "name": "Clomax 200 Yedek Parçaları Rakor oringi Oring",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "198124109": {
+      "family_key": "clomax-200-salt-chlorinator",
+      "attribute_set_key": "clomax-200-salt-chlorinator",
+      "values": {
+        "model": "Rakor Union",
+        "part_no": 11
+      },
+      "native": {
+        "default_code": "198124109",
+        "name": "Clomax 200 Yedek Parçaları Rakor Union",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "198124108": {
+      "family_key": "clomax-200-salt-chlorinator",
+      "attribute_set_key": "clomax-200-salt-chlorinator",
+      "values": {
+        "model": "Rakor somunu Union nut",
+        "part_no": 12
+      },
+      "native": {
+        "default_code": "198124108",
+        "name": "Clomax 200 Yedek Parçaları Rakor somunu Union nut",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "198124107": {
+      "family_key": "clomax-200-salt-chlorinator",
+      "attribute_set_key": "clomax-200-salt-chlorinator",
+      "values": {
+        "model": "Elektro set Electrode set",
+        "part_no": 13
+      },
+      "native": {
+        "default_code": "198124107",
+        "name": "Clomax 200 Yedek Parçaları Elektro set Electrode set",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "198124102": {
+      "family_key": "clomax-200-salt-chlorinator",
+      "attribute_set_key": "clomax-200-salt-chlorinator",
+      "values": {
+        "model": "Hücre haznesi probu Cell chamber probe",
+        "part_no": 14
+      },
+      "native": {
+        "default_code": "198124102",
+        "name": "Clomax 200 Yedek Parçaları Hücre haznesi probu Cell chamber probe",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "3041200195": {
+      "family_key": "clomax-500-salt-chlorinator",
+      "attribute_set_key": "clomax-500-salt-chlorinator",
+      "values": {
+        "model": "Ekran kaplama Screen cover display",
+        "part_no": 1
+      },
+      "native": {
+        "default_code": "3041200195",
+        "name": "Clomax 500 Yedek Parçaları Ekran kaplama Screen cover display",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "3010601089": {
+      "family_key": "clomax-500-salt-chlorinator",
+      "attribute_set_key": "clomax-500-salt-chlorinator",
+      "values": {
+        "model": "Üst kapak Top cover",
+        "part_no": 2
+      },
+      "native": {
+        "default_code": "3010601089",
+        "name": "Clomax 500 Yedek Parçaları Üst kapak Top cover",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "3010600738": {
+      "family_key": "clomax-500-salt-chlorinator",
+      "attribute_set_key": "clomax-500-salt-chlorinator",
+      "values": {
+        "model": "Gösterge ekranı Display screen",
+        "part_no": 3
+      },
+      "native": {
+        "default_code": "3010600738",
+        "name": "Clomax 500 Yedek Parçaları Gösterge ekranı Display screen",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "3010600847": {
+      "family_key": "clomax-500-salt-chlorinator",
+      "attribute_set_key": "clomax-500-salt-chlorinator",
+      "values": {
+        "model": "Klavye Control box",
+        "part_no": 5
+      },
+      "native": {
+        "default_code": "3010600847",
+        "name": "Clomax 500 Yedek Parçaları Klavye Control box",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "3010600459": {
+      "family_key": "clomax-500-salt-chlorinator",
+      "attribute_set_key": "clomax-500-salt-chlorinator",
+      "values": {
+        "model": "Somun Nut",
+        "part_no": 6
+      },
+      "native": {
+        "default_code": "3010600459",
+        "name": "Clomax 500 Yedek Parçaları Somun Nut",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "PRO20PART": {
+      "family_key": "clomax-500-salt-chlorinator",
+      "attribute_set_key": "clomax-500-salt-chlorinator",
+      "values": {
+        "model": "Elektrikli bileşen + şeffaf hücre Electrical component + transparent cell",
+        "part_no": 9
+      },
+      "native": {
+        "default_code": "PRO20PART",
+        "name": "Clomax 500 Yedek Parçaları Elektrikli bileşen + şeffaf hücre Electrical component + transparent cell",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "3010600481": {
+      "family_key": "clomax-500-salt-chlorinator",
+      "attribute_set_key": "clomax-500-salt-chlorinator",
+      "values": {
+        "model": "Akış anahtarı + ısı sensörü Flow switch + temp. probe",
+        "part_no": 10
+      },
+      "native": {
+        "default_code": "3010600481",
+        "name": "Clomax 500 Yedek Parçaları Akış anahtarı + ısı sensörü Flow switch + temp. probe",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "3010600546": {
+      "family_key": "clomax-500-salt-chlorinator",
+      "attribute_set_key": "clomax-500-salt-chlorinator",
+      "values": {
+        "model": "Püskürtme valfi + borusu Spray valve + pipe",
+        "part_no": 11
+      },
+      "native": {
+        "default_code": "3010600546",
+        "name": "Clomax 500 Yedek Parçaları Püskürtme valfi + borusu Spray valve + pipe",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "1221700014": {
+      "family_key": "clomax-500-salt-chlorinator",
+      "attribute_set_key": "clomax-500-salt-chlorinator",
+      "values": {
+        "model": "Topraklama kiti Grounding kit",
+        "part_no": 12
+      },
+      "native": {
+        "default_code": "1221700014",
+        "name": "Clomax 500 Yedek Parçaları Topraklama kiti Grounding kit",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "1221420017": {
+      "family_key": "clomax-500-salt-chlorinator",
+      "attribute_set_key": "clomax-500-salt-chlorinator",
+      "values": {
+        "model": "Algılama problu şeffaf hücre Transparent cell with detection probe",
+        "part_no": 13
+      },
+      "native": {
+        "default_code": "1221420017",
+        "name": "Clomax 500 Yedek Parçaları Algılama problu şeffaf hücre Transparent cell with detection probe",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "3010601083": {
+      "family_key": "clomax-500-salt-chlorinator",
+      "attribute_set_key": "clomax-500-salt-chlorinator",
+      "values": {
+        "model": "Küresel vana Ball valve",
+        "part_no": 14
+      },
+      "native": {
+        "default_code": "3010601083",
+        "name": "Clomax 500 Yedek Parçaları Küresel vana Ball valve",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "3010600549": {
+      "family_key": "clomax-500-salt-chlorinator",
+      "attribute_set_key": "clomax-500-salt-chlorinator",
+      "values": {
+        "model": "Birleştirme manşonu Fixing bracket",
+        "part_no": 18
+      },
+      "native": {
+        "default_code": "3010600549",
+        "name": "Clomax 500 Yedek Parçaları Birleştirme manşonu Fixing bracket",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "3010600843": {
+      "family_key": "clomax-500-salt-chlorinator",
+      "attribute_set_key": "clomax-500-salt-chlorinator",
+      "values": {
+        "model": "Döner braket Rotating bracket",
+        "part_no": 19
+      },
+      "native": {
+        "default_code": "3010600843",
+        "name": "Clomax 500 Yedek Parçaları Döner braket Rotating bracket",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "3010600808": {
+      "family_key": "clomax-500-salt-chlorinator",
+      "attribute_set_key": "clomax-500-salt-chlorinator",
+      "values": {
+        "model": "Adaptör Adaptor",
+        "part_no": 20
+      },
+      "native": {
+        "default_code": "3010600808",
+        "name": "Clomax 500 Yedek Parçaları Adaptör Adaptor",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "3010600842": {
+      "family_key": "clomax-500-salt-chlorinator",
+      "attribute_set_key": "clomax-500-salt-chlorinator",
+      "values": {
+        "model": "Kasa Casing",
+        "part_no": 21
+      },
+      "native": {
+        "default_code": "3010600842",
+        "name": "Clomax 500 Yedek Parçaları Kasa Casing",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "1221700015": {
+      "family_key": "clomax-500-salt-chlorinator",
+      "attribute_set_key": "clomax-500-salt-chlorinator",
+      "values": {
+        "model": "Güç destek modülü Power supply module",
+        "part_no": 22
+      },
+      "native": {
+        "default_code": "1221700015",
+        "name": "Clomax 500 Yedek Parçaları Güç destek modülü Power supply module",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "3010600912": {
+      "family_key": "clomax-500-salt-chlorinator",
+      "attribute_set_key": "clomax-500-salt-chlorinator",
+      "values": {
+        "model": "Ph probu Ph probe",
+        "part_no": 23
+      },
+      "native": {
+        "default_code": "3010600912",
+        "name": "Clomax 500 Yedek Parçaları Ph probu Ph probe",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "3010600913": {
+      "family_key": "clomax-500-salt-chlorinator",
+      "attribute_set_key": "clomax-500-salt-chlorinator",
+      "values": {
+        "model": "Orp probu Orp probe",
+        "part_no": 24
+      },
+      "native": {
+        "default_code": "3010600913",
+        "name": "Clomax 500 Yedek Parçaları Orp probu Orp probe",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "3010600763": {
+      "family_key": "clomax-500-salt-chlorinator",
+      "attribute_set_key": "clomax-500-salt-chlorinator",
+      "values": {
+        "model": "Şeffaf panel Transparent panel",
+        "part_no": 25
+      },
+      "native": {
+        "default_code": "3010600763",
+        "name": "Clomax 500 Yedek Parçaları Şeffaf panel Transparent panel",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "3010600639": {
+      "family_key": "clomax-500-salt-chlorinator",
+      "attribute_set_key": "clomax-500-salt-chlorinator",
+      "values": {
+        "model": "Dozaj pompası Dosage pump",
+        "part_no": 26
+      },
+      "native": {
+        "default_code": "3010600639",
+        "name": "Clomax 500 Yedek Parçaları Dozaj pompası Dosage pump",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "3010600426": {
+      "family_key": "clomax-500-salt-chlorinator",
+      "attribute_set_key": "clomax-500-salt-chlorinator",
+      "values": {
+        "model": "Cihaz prop boşluğu Probe hook base",
+        "part_no": 30
+      },
+      "native": {
+        "default_code": "3010600426",
+        "name": "Clomax 500 Yedek Parçaları Cihaz prop boşluğu Probe hook base",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "91019000004": {
+      "family_key": "klx-tuzdan-klor-jenerat-r-klx-salt-chlorinator",
+      "attribute_set_key": "klx-tuzdan-klor-jenerat-r-klx-salt-chlorinator",
+      "values": {
+        "model": "Isı sensörü Temperature kit"
+      },
+      "native": {
+        "default_code": "91019000004",
+        "name": "KLX Klorinatör Yedek Parçaları Isı sensörü Temperature kit",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "91019000005": {
+      "family_key": "klx-tuzdan-klor-jenerat-r-klx-salt-chlorinator",
+      "attribute_set_key": "klx-tuzdan-klor-jenerat-r-klx-salt-chlorinator",
+      "values": {
+        "model": "Akış anahtarı Flow switch"
+      },
+      "native": {
+        "default_code": "91019000005",
+        "name": "KLX Klorinatör Yedek Parçaları Akış anahtarı Flow switch",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "15521113035": {
+      "family_key": "klx-tuzdan-klor-jenerat-r-klx-salt-chlorinator",
+      "attribute_set_key": "klx-tuzdan-klor-jenerat-r-klx-salt-chlorinator",
+      "values": {
+        "model": "Hücre 16 gr Cell for 16 gr"
+      },
+      "native": {
+        "default_code": "15521113035",
+        "name": "KLX Klorinatör Yedek Parçaları Hücre 16 gr Cell for 16 gr",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "15521113036": {
+      "family_key": "klx-tuzdan-klor-jenerat-r-klx-salt-chlorinator",
+      "attribute_set_key": "klx-tuzdan-klor-jenerat-r-klx-salt-chlorinator",
+      "values": {
+        "model": "Hücre 22 gr Cell for 22 gr"
+      },
+      "native": {
+        "default_code": "15521113036",
+        "name": "KLX Klorinatör Yedek Parçaları Hücre 22 gr Cell for 22 gr",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "15521113037": {
+      "family_key": "klx-tuzdan-klor-jenerat-r-klx-salt-chlorinator",
+      "attribute_set_key": "klx-tuzdan-klor-jenerat-r-klx-salt-chlorinator",
+      "values": {
+        "model": "Hücre 33 gr Cell for 33 gr"
+      },
+      "native": {
+        "default_code": "15521113037",
+        "name": "KLX Klorinatör Yedek Parçaları Hücre 33 gr Cell for 33 gr",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "15521113038": {
+      "family_key": "klx-tuzdan-klor-jenerat-r-klx-salt-chlorinator",
+      "attribute_set_key": "klx-tuzdan-klor-jenerat-r-klx-salt-chlorinator",
+      "values": {
+        "model": "Hücre 50 gr Cell for 50 gr"
+      },
+      "native": {
+        "default_code": "15521113038",
+        "name": "KLX Klorinatör Yedek Parçaları Hücre 50 gr Cell for 50 gr",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "15521113040": {
+      "family_key": "klx-tuzdan-klor-jenerat-r-klx-salt-chlorinator",
+      "attribute_set_key": "klx-tuzdan-klor-jenerat-r-klx-salt-chlorinator",
+      "values": {
+        "model": "Hücre kılıfı 16-22-33 gr Cell holder for 16-22-33 gr"
+      },
+      "native": {
+        "default_code": "15521113040",
+        "name": "KLX Klorinatör Yedek Parçaları Hücre kılıfı 16-22-33 gr Cell holder for 16-22-33 gr",
+        "prices": [],
+        "category_code": "18"
+      }
+    },
+    "15521113041": {
+      "family_key": "klx-tuzdan-klor-jenerat-r-klx-salt-chlorinator",
+      "attribute_set_key": "klx-tuzdan-klor-jenerat-r-klx-salt-chlorinator",
+      "values": {
+        "model": "Hücre kılıfı 50 gr Cell holder for 50 gr"
+      },
+      "native": {
+        "default_code": "15521113041",
+        "name": "KLX Klorinatör Yedek Parçaları Hücre kılıfı 50 gr Cell holder for 50 gr",
+        "prices": [],
+        "category_code": "18"
+      }
+    }
+  }
+}

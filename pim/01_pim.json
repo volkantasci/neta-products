@@ -1,0 +1,3342 @@
+{
+  "meta": {
+    "generator": "pim/generate_pim_json.py",
+    "generated_at": "2026-09-04",
+    "source_files": [
+      "01_Pompalar__Pumps.json",
+      "01_Pompalar__Pumps_attributes.json"
+    ],
+    "category_no": "01",
+    "category_tr": "Pompalar",
+    "category_en": "Pumps",
+    "odoo_model": "product.template",
+    "pim_modules": [
+      "attribute_set",
+      "product_attribute_set",
+      "pim"
+    ],
+    "technical_name_prefix": "pump",
+    "family_count": 22,
+    "variant_count": 112,
+    "import_order": [
+      "attribute_groups",
+      "attribute_sets (ustten alta, parent once)",
+      "attributes (custom -> ir.model.fields; native -> field_id)",
+      "attribute.option kayitlari (select/multiselect icin)",
+      "product_category (varsayilan set baglanti)",
+      "product_values (product.template + x_ alan degerleri)"
+    ],
+    "design_notes": [
+      "Set hiyerarşisi attribute.set.parent_id ile kurulur; alt setler üst setin niteliklerini kalıtır (complete_attribute_ids).",
+      "Kategori genelinde ortak nitelikler kök sette; yalnızca alt gruplarda görülen nitelikler ilgili ara/aile setine bağlanır (ör. kum kapasitesi yalnızca Kum Filtreleri setinde).",
+      "Bir nitelik birden fazla sete bağlanabilir (attribute_set_ids m2m): grain_size hem 25 Mikron hem Filtre Medyaları setinde.",
+      "serialized=False seçildi; gerçek kolon arama/filtreleme/gruplama avantajı sağlar. Yüzlerce niteliğe çıkılırsa serialized=True önerilir (x_custom_json_attrs JSON blob).",
+      "Ağırlık doğal (native) nitelik olarak product.template.weight alanına bağlandı; ambalaj ağırlığı (25 kg çuvallar) da bu alana yazılır.",
+      "select/multiselect nitelikler attribute.option kayıtlarıyla normalize edildi; serbest metin yerine seçim listesi kullanılarak veri tutarlılığı sağlanır.",
+      "Urun adi (name) aile başlığı + model; model yoksa aile başlığı + koddan üretilir. default_code her zaman koddur."
+    ],
+    "data_quality_notes": [
+      "Ikon değerleri normalize edildi (yildiz/tire temizligi, 'RESIDENTAL' -> 'RESIDENTIAL', '- POOL PLUMBING LINES' -> 'POOL PLUMBING LINES').",
+      "6 yollu vanalarda büyük 'Ø' disli, küçük 'ø' yapistirma baglantiyi belirtir; secenek etiketleri buna gore aciklastirildi.",
+      "ap_diameter alani iki anlamda kullaniliyor: sayisal degerler filtre capi (diameter_mm), aralik degerler ('0,5-1,2 mm') tane boyutu (grain_size) olarak ayristirildi.",
+      "'ambalaj_packing' ('25 kg') degeri urunun gercek agirligi oldugu icin native weight alanina yazildi.",
+      "Rotex ailesinde family spec 'max_pressure_bar=1.5' ile variant tablosundaki 'MAX. CALISMA BASINCI 2,5 bar' celisiyor; her ikisi ayri nitelikte (kok 'Maks. Basinc' ve kum filtre 'Maks. Calisma Basinci') tasindi, gozden gecirilmeli.",
+      "Lamex tablolarindaki 1.050+ mm capli satirlar kum filtreler icin dogrudur; PDF'te pompa bolumune tasmasi kaynak cikarimidir (02 kategorisinde zaten yer alirlar).",
+      "Rotex aile tablosunda Woundex ile ayni kodlu satirlar var (12015123100-03); urun atamalari Woundex tarafindadir ve cift uretim engellendi.",
+      "bullets_tr listesi bazi ailelerde TR+EN satirlari icerir; highlights alani kaynagini birebir tasir.",
+      "Zeolit ailesi kaynak PDF'te skimmer, havuz ortusu, merdiven gibi diger urunleri de kapsar; set adi 'Zeolit ve Diger Urunler' olarak duzenlendi."
+    ]
+  },
+  "attribute_groups": [
+    {
+      "key": "operating",
+      "name": "Çalışma Koşulları",
+      "name_en": "Operating Conditions",
+      "sequence": 10
+    },
+    {
+      "key": "technical",
+      "name": "Teknik Özellikler",
+      "name_en": "Technical Specs",
+      "sequence": 20
+    },
+    {
+      "key": "electrical",
+      "name": "Elektrik",
+      "name_en": "Electrical",
+      "sequence": 30
+    },
+    {
+      "key": "connection",
+      "name": "Bağlantı ve Montaj",
+      "name_en": "Connection & Fitting",
+      "sequence": 40
+    },
+    {
+      "key": "physical",
+      "name": "Fiziksel Özellikler",
+      "name_en": "Physical Specs",
+      "sequence": 50
+    },
+    {
+      "key": "marketing",
+      "name": "Pazarlama",
+      "name_en": "Marketing",
+      "sequence": 60
+    }
+  ],
+  "attribute_sets": [
+    {
+      "key": "pumps",
+      "name": "Pompalar",
+      "name_en": "Pumps",
+      "parent_key": null,
+      "sequence": 10,
+      "is_root": true
+    },
+    {
+      "key": "senkron-serisi",
+      "name": "Senkron Serisi",
+      "name_en": "Senkron Series",
+      "parent_key": "pumps",
+      "sequence": 20
+    },
+    {
+      "key": "havuz-pompalari",
+      "name": "Havuz Pompaları",
+      "name_en": "Pool Pumps",
+      "parent_key": "pumps",
+      "sequence": 30
+    },
+    {
+      "key": "hcp-serisi",
+      "name": "HCP Yerleşik Pompalar",
+      "name_en": "HCP Built-in Pumps",
+      "parent_key": "pumps",
+      "sequence": 40
+    },
+    {
+      "key": "dalgic-pompalar",
+      "name": "Dalgıç Pompalar",
+      "name_en": "Submersible Pumps",
+      "parent_key": "pumps",
+      "sequence": 50
+    },
+    {
+      "key": "pompa-setleri",
+      "name": "Pompa Setleri",
+      "name_en": "Pump Sets",
+      "parent_key": "pumps",
+      "sequence": 60
+    },
+    {
+      "key": "senkron-1",
+      "name": "Senkron 1",
+      "name_en": "Senkron 1",
+      "parent_key": "senkron-serisi",
+      "sequence": 10,
+      "family_product_id": "senkron-1",
+      "family_variant_count": 5
+    },
+    {
+      "key": "senkron-2",
+      "name": "Senkron 2",
+      "name_en": "Senkron 2",
+      "parent_key": "senkron-serisi",
+      "sequence": 20,
+      "family_product_id": "senkron-2",
+      "family_variant_count": 7
+    },
+    {
+      "key": "senkron-3",
+      "name": "Senkron 3",
+      "name_en": "Senkron 3",
+      "parent_key": "senkron-serisi",
+      "sequence": 30,
+      "family_product_id": "senkron-3",
+      "family_variant_count": 5
+    },
+    {
+      "key": "senkron-jet",
+      "name": "Senkron Jet",
+      "name_en": "Senkron Jet",
+      "parent_key": "senkron-serisi",
+      "sequence": 40,
+      "family_product_id": "senkron-jet",
+      "family_variant_count": 2
+    },
+    {
+      "key": "trione-storm",
+      "name": "Trione Storm",
+      "name_en": "Trione Storm",
+      "parent_key": "havuz-pompalari",
+      "sequence": 50,
+      "family_product_id": "trione-storm",
+      "family_variant_count": 2
+    },
+    {
+      "key": "ninfa-nk",
+      "name": "Ninfa NK",
+      "name_en": "Ninfa NK",
+      "parent_key": "havuz-pompalari",
+      "sequence": 60,
+      "family_product_id": "ninfa-nk",
+      "family_variant_count": 3
+    },
+    {
+      "key": "ondina-ok",
+      "name": "Ondina OK",
+      "name_en": "Ondina OK",
+      "parent_key": "havuz-pompalari",
+      "sequence": 70,
+      "family_product_id": "ondina-ok",
+      "family_variant_count": 8
+    },
+    {
+      "key": "s2-model",
+      "name": "S2 Model",
+      "name_en": "S2 Model",
+      "parent_key": "havuz-pompalari",
+      "sequence": 80,
+      "family_product_id": "s2-model",
+      "family_variant_count": 5
+    },
+    {
+      "key": "koral-kse",
+      "name": "Koral KSE",
+      "name_en": "Koral KSE",
+      "parent_key": "havuz-pompalari",
+      "sequence": 90,
+      "family_product_id": "koral-kse",
+      "family_variant_count": 15
+    },
+    {
+      "key": "niger-kng",
+      "name": "Niger KNG",
+      "name_en": "Niger KNG",
+      "parent_key": "havuz-pompalari",
+      "sequence": 100,
+      "family_product_id": "niger-kng",
+      "family_variant_count": 9
+    },
+    {
+      "key": "kapri-kap",
+      "name": "Kapri KAP",
+      "name_en": "Kapri KAP",
+      "parent_key": "havuz-pompalari",
+      "sequence": 110,
+      "family_product_id": "kapri-kap",
+      "family_variant_count": 7
+    },
+    {
+      "key": "karpa-ka",
+      "name": "Karpa KA",
+      "name_en": "Karpa KA",
+      "parent_key": "havuz-pompalari",
+      "sequence": 120,
+      "family_product_id": "karpa-ka",
+      "family_variant_count": 8
+    },
+    {
+      "key": "prime-kpr",
+      "name": "Prime KPR",
+      "name_en": "Prime KPR",
+      "parent_key": "havuz-pompalari",
+      "sequence": 130,
+      "family_product_id": "prime-kpr",
+      "family_variant_count": 5
+    },
+    {
+      "key": "kan-plus",
+      "name": "Kan Plus",
+      "name_en": "Kan Plus",
+      "parent_key": "havuz-pompalari",
+      "sequence": 140,
+      "family_product_id": "kan-plus",
+      "family_variant_count": 7
+    },
+    {
+      "key": "kse-vs-150",
+      "name": "KSE-VS 150",
+      "name_en": "KSE-VS 150",
+      "parent_key": "havuz-pompalari",
+      "sequence": 150,
+      "family_product_id": "kse-vs-150",
+      "family_variant_count": 1
+    },
+    {
+      "key": "hcp-3600",
+      "name": "HCP 3600",
+      "name_en": "HCP 3600",
+      "parent_key": "hcp-serisi",
+      "sequence": 160,
+      "family_product_id": "hcp-3600",
+      "family_variant_count": 3
+    },
+    {
+      "key": "hcp-3800",
+      "name": "HCP 3800",
+      "name_en": "HCP 3800",
+      "parent_key": "hcp-serisi",
+      "sequence": 170,
+      "family_product_id": "hcp-3800",
+      "family_variant_count": 1
+    },
+    {
+      "key": "hcp-4000",
+      "name": "HCP 4000",
+      "name_en": "HCP 4000",
+      "parent_key": "hcp-serisi",
+      "sequence": 180,
+      "family_product_id": "hcp-4000",
+      "family_variant_count": 1
+    },
+    {
+      "key": "hcp-4200",
+      "name": "HCP 4200",
+      "name_en": "HCP 4200",
+      "parent_key": "hcp-serisi",
+      "sequence": 190,
+      "family_product_id": "hcp-4200",
+      "family_variant_count": 3
+    },
+    {
+      "key": "senkron-smart-dalg-pompa-senkron-smart-submersible-pump",
+      "name": "Senkron Smart Dalgıç Pompa",
+      "name_en": "Senkron Smart Submersible Pump",
+      "parent_key": "dalgic-pompalar",
+      "sequence": 200,
+      "family_product_id": "senkron-smart-dalg-pompa-senkron-smart-submersible-pump",
+      "family_variant_count": 3
+    },
+    {
+      "key": "l-ks-seri-lux-series",
+      "name": "Lüks Seri",
+      "name_en": "Lux Series",
+      "parent_key": "pompa-setleri",
+      "sequence": 210,
+      "family_product_id": "l-ks-seri-lux-series",
+      "family_variant_count": 6
+    },
+    {
+      "key": "zaman-r-leli-with-timer",
+      "name": "Zaman Röleli",
+      "name_en": "With Timer",
+      "parent_key": "pompa-setleri",
+      "sequence": 220,
+      "family_product_id": "zaman-r-leli-with-timer",
+      "family_variant_count": 6
+    }
+  ],
+  "attributes": [
+    {
+      "key": "max_water_temp_c",
+      "name": "x_pump_max_water_temp_c",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Maks. Su Sıcaklığı",
+      "field_description_en": "Max. Water Temperature",
+      "attribute_type": "float",
+      "serialized": false,
+      "widget": null,
+      "group_key": "operating",
+      "set_keys": [
+        "pumps"
+      ],
+      "value_level": "family",
+      "source": "family_specs_quantitative.max_temp_c",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "max_pressure_bar",
+      "name": "x_pump_max_pressure_bar",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Maks. Çalışma Basıncı (bar)",
+      "field_description_en": "Max. Operating Pressure (bar)",
+      "attribute_type": "float",
+      "serialized": false,
+      "widget": null,
+      "group_key": "operating",
+      "set_keys": [
+        "pumps"
+      ],
+      "value_level": "family",
+      "source": "family_specs_quantitative.max_pressure_bar",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "power_hp",
+      "name": "x_pump_power_hp",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Güç (HP)",
+      "field_description_en": "Power (HP)",
+      "attribute_type": "float",
+      "serialized": false,
+      "widget": null,
+      "group_key": "technical",
+      "set_keys": [
+        "pumps"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.g_hp_power_hp",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "power_kw",
+      "name": "x_pump_power_kw",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Güç (kW)",
+      "field_description_en": "Power (kW)",
+      "attribute_type": "float",
+      "serialized": false,
+      "widget": null,
+      "group_key": "technical",
+      "set_keys": [
+        "pumps"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.g_kw_power | g_power",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "flow_m3h",
+      "name": "x_pump_flow_m3h",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Debi (m³/saat)",
+      "field_description_en": "Flow (m³/h)",
+      "attribute_type": "float",
+      "serialized": false,
+      "widget": null,
+      "group_key": "technical",
+      "set_keys": [
+        "pumps"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.debi_m_h_flow | debi_m_3_h_flow | debi_m_h_flow_max | debi_l_h_flow_l_h",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "head_m",
+      "name": "x_pump_head_m",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Basma Yüksekliği (m)",
+      "field_description_en": "Head (m)",
+      "attribute_type": "float",
+      "serialized": false,
+      "widget": null,
+      "group_key": "technical",
+      "set_keys": [
+        "dalgic-pompalar"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.basma_y_ksekli_i_head",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "rpm",
+      "name": "x_pump_rpm",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Devir (devir/dk)",
+      "field_description_en": "Speed (RPM)",
+      "attribute_type": "integer",
+      "serialized": false,
+      "widget": null,
+      "group_key": "technical",
+      "set_keys": [
+        "pumps"
+      ],
+      "value_level": "family",
+      "source": "family_specs_quantitative.rpm",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "sound_dba",
+      "name": "x_pump_sound_dba",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Ses Şiddeti (dB(A))",
+      "field_description_en": "Sound Pressure (dB(A))",
+      "attribute_type": "float",
+      "serialized": false,
+      "widget": null,
+      "group_key": "technical",
+      "set_keys": [
+        "pumps"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.ses_i_ddeti_dp_sound_dp | ses_i_ddeti_sound",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "efficiency_class",
+      "name": "x_pump_efficiency_class",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Motor Verim Sınıfı",
+      "field_description_en": "Motor Efficiency Class",
+      "attribute_type": "select",
+      "serialized": false,
+      "widget": null,
+      "group_key": "technical",
+      "set_keys": [
+        "hcp-serisi"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.yeterli_li_k_efficiency",
+      "options": [
+        "IE1",
+        "IE3"
+      ],
+      "option_map": {
+        "IEI": "IE1"
+      }
+    },
+    {
+      "key": "voltage",
+      "name": "x_pump_voltage",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Voltaj",
+      "field_description_en": "Voltage",
+      "attribute_type": "select",
+      "serialized": false,
+      "widget": null,
+      "group_key": "electrical",
+      "set_keys": [
+        "pumps"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.voltaj_voltage | amper_amps",
+      "options": [
+        "220V / 50 Hz",
+        "230V / 400V / 50 Hz",
+        "400V / 690V / 50 Hz"
+      ],
+      "option_map": {
+        "220V/50Hz": "220V / 50 Hz",
+        "230/400/50 Hz": "230V / 400V / 50 Hz",
+        "400/690/50 Hz": "400V / 690V / 50 Hz"
+      }
+    },
+    {
+      "key": "cable_length_m",
+      "name": "x_pump_cable_length_m",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Kablo Uzunluğu (m)",
+      "field_description_en": "Cable Length (m)",
+      "attribute_type": "float",
+      "serialized": false,
+      "widget": null,
+      "group_key": "electrical",
+      "set_keys": [
+        "dalgic-pompalar"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.kablo_cable",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "connection",
+      "name": "x_pump_connection",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Bağlantı Giriş/Çıkış",
+      "field_description_en": "Inlet/Outlet Connection",
+      "attribute_type": "select",
+      "serialized": false,
+      "widget": null,
+      "group_key": "connection",
+      "set_keys": [
+        "pumps"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.ba_lanti_gi_ri_iki_inlet_outlet | ba_lanti_gi_ri_iki_inlet_outlet_d_outside_i_inside",
+      "options": [
+        "50 mm",
+        "63 mm",
+        "75 mm",
+        "90 mm",
+        "110 mm",
+        "50 mm (Dişli)",
+        "Ø50 - Ø60",
+        "50 / 63 mm (Dış/İç)"
+      ],
+      "option_map": {
+        "50 mm Dişli Threaded": "50 mm (Dişli)",
+        "50 mm 63 mm": "50 / 63 mm (Dış/İç)"
+      }
+    },
+    {
+      "key": "weight",
+      "name": "weight",
+      "nature": "native",
+      "native_field": "weight",
+      "field_description": "Ağırlık (kg)",
+      "field_description_en": "Weight (kg)",
+      "attribute_type": "float",
+      "serialized": false,
+      "widget": null,
+      "group_key": "physical",
+      "set_keys": [
+        "pumps"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.a_irlik_kg_weight_kg",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "package_dims",
+      "name": "x_pump_package_dims",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Paket Ölçüleri (GxYxD)",
+      "field_description_en": "Package Dimensions (WxHxD)",
+      "attribute_type": "char",
+      "serialized": false,
+      "widget": null,
+      "group_key": "physical",
+      "set_keys": [
+        "pumps"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.paket_package | paket_uxgxy_package_lxwxh",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "highlights",
+      "name": "x_pump_highlights",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Öne Çıkan Özellikler",
+      "field_description_en": "Highlights",
+      "attribute_type": "text",
+      "serialized": false,
+      "widget": null,
+      "group_key": "marketing",
+      "set_keys": [
+        "pumps"
+      ],
+      "value_level": "family",
+      "source": "qualitative.bullets_tr",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "icons",
+      "name": "x_pump_icons",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Ürün İkonları",
+      "field_description_en": "Product Icons",
+      "attribute_type": "multiselect",
+      "serialized": false,
+      "widget": "many2many_tags",
+      "group_key": "marketing",
+      "set_keys": [
+        "pumps"
+      ],
+      "value_level": "family",
+      "source": "qualitative.icons",
+      "options": [
+        "RESIDENTIAL POOL",
+        "SMALL COMMERCIAL POOL",
+        "COMMERCIAL POOL",
+        "SUPER SILENT",
+        "NO PRE FILTER",
+        "PRE FILTER CAPACITY",
+        "2+2 YEAR WARRANTY",
+        "POOL"
+      ],
+      "option_map": {}
+    },
+    {
+      "key": "variant_description",
+      "name": "x_pump_variant_description",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Ürün Açıklaması",
+      "field_description_en": "Variant Description",
+      "attribute_type": "text",
+      "serialized": false,
+      "widget": null,
+      "group_key": "marketing",
+      "set_keys": [
+        "dalgic-pompalar",
+        "pompa-setleri"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.a_iklama_description",
+      "options": [],
+      "option_map": {}
+    }
+  ],
+  "product_category": {
+    "code": "01",
+    "name": "Pompalar",
+    "name_en": "Pumps",
+    "parent": null,
+    "default_attribute_set_key": "pumps"
+  },
+  "family_values": {
+    "senkron-1": {
+      "max_water_temp_c": 50.0,
+      "max_pressure_bar": 2.5,
+      "highlights": "Aşırı ısınmaya karşı koruma rölesi\n1 ½ bağlantı rakorları\nDüşmeyen gözetleme camı\nErgonomik ön filtre kapak anahtarı\nFişli elektrik bağlantı kablosu\nAISI 316 paslanmaz çelik mil\nÇift boşaltma tapası\nTuzlu suda kullanılabilir",
+      "icons": [
+        "RESIDENTIAL POOL",
+        "SUPER SILENT"
+      ]
+    },
+    "senkron-2": {
+      "max_water_temp_c": 50.0,
+      "max_pressure_bar": 2.5,
+      "highlights": "Aşırı ısınmaya karşı koruma rölesi\n2\" bağlantı rakorları\nDüşmeyen gözetleme camı\nErgonomik ön filtre kapak anahtarı\nErgonomik tutma kolu sayesinde kolay taşınabilme\nAISI 316 paslanmaz çelik mil\nÇift boşaltma tapası\nTuzlu suda kullanılabilir",
+      "icons": [
+        "RESIDENTIAL POOL",
+        "SUPER SILENT"
+      ]
+    },
+    "senkron-3": {
+      "max_water_temp_c": 75.0,
+      "highlights": "4\" / 100 mm bağlantı rakorları\nDüşmeyen çerçevesi ile akuple gözetleme camı\nErgonomik ön filtre kapak anahtarı\nErgonomik tutma kolu sayesinde kolay taşınabilme\nAISI 316 paslanmaz çelik mil\nÇift boşaltma tapası\nTuzlu suda kullanılabilir\n4\" / 100 mm connection fittings\nNon-falling sight glass\nErgonomic prefilter lid key\nEasy to carry thanks to ergonomic handle\nAISI 316 stainless steel shaft\nDouble drain plug\nCan be used in salt water",
+      "icons": [
+        "RESIDENTIAL POOL",
+        "SUPER SILENT"
+      ]
+    },
+    "senkron-jet": {
+      "max_water_temp_c": 50.0,
+      "highlights": "Aşırı ısınmaya karşı koruma rölesi\n3\" bağlantı rakorları\nDüşmeyen gözetleme camı\nErgonomik ön filtre kapak anahtarı\nAISI 316 paslanmaz çelik mil\nÇift boşaltma tapası\nTuzlu suda kullanılabilir\nOver heat protection relay\n3\" connection fittings\nNon-falling sight glass\nErgonomic prefilter lid key\nAISI 316 stainless steel shaft\nDouble drain plug\nCan be used in salt water",
+      "icons": [
+        "RESIDENTIAL POOL",
+        "SUPER SILENT"
+      ]
+    },
+    "trione-storm": {
+      "max_water_temp_c": 40.0,
+      "max_pressure_bar": 2.5,
+      "highlights": "Küçük havuzlar ve / veya yer üstü havuzları için dizayn edilmiştir\nTuzlu suda kullanılabilir\nKompakt tasarımı sayesinde dar alanlarda uygulama avantajı sağlar\nEtkileyici fiyat performans ilişkisi\nSu geçirmezlik seviyesi IPX5\nDijital zamanlayıcı ve açma-kapama paneli\nType F fiş bağlantısı\nPump designed for small pools and /or above ground pool\nCan be used in salt water\nThanks to its compact design, it offers an advantage in applications within narrow spaces\nImpressive price-performance ratio\nWaterproof level IPX5\nDijital timer and on-off panel\nType F power plug",
+      "icons": [
+        "RESIDENTIAL POOL"
+      ]
+    },
+    "ninfa-nk": {
+      "max_water_temp_c": 50.0,
+      "max_pressure_bar": 2.5,
+      "highlights": "Yer üstü veya küçük ebatlı ev havuzları için çözüm sunar\nKolay açılır şeffaf kapak. (Alet gerektirmez)\nBağlantı 2\" dıştan dişli, 1 ¼\" içten dişli\nMekanik salmastra AISI 316 kalite\nMotor sürüş özellikleri Class F, IP55, 50 Hz\n35 m³'e kadar olan ev havuzlarında kullanılır\nTuzlu suda kullanılabilir\nThe solution for above-ground pools or small size residential pools\nEasy-open transparent lid. (No tools required)\nConnection thread 2\" external and 1 ¼\" internal\nMechanical seal in AISI 316 quality\nMotor-drive specifications Class F, IP55, 50 Hz\nUsed for residential pools up to 35 m³\nCan be used in salt water",
+      "icons": [
+        "RESIDENTIAL POOL",
+        "SUPER SILENT"
+      ]
+    },
+    "ondina-ok": {
+      "max_water_temp_c": 50.0,
+      "max_pressure_bar": 2.5,
+      "icons": [
+        "RESIDENTIAL POOL"
+      ]
+    },
+    "s2-model": {
+      "max_water_temp_c": 50.0,
+      "max_pressure_bar": 2.5,
+      "icons": [
+        "RESIDENTIAL POOL",
+        "PRE FILTER CAPACITY"
+      ]
+    },
+    "koral-kse": {
+      "max_water_temp_c": 50.0,
+      "max_pressure_bar": 2.5,
+      "highlights": "Optimize edilmiş süper sessiz hidrolik sistem\nKelebek somun ile kolay kapanan şeffaf ön filtre\nKorozyona dayanıklı fan, kolay açılabilen çift drenaj\nBağlantılar: ø 50 veya ø 63 mm yapıştırma rakorları içerir\nMotor sürüş özellikleri Class F, IP55, 50 Hz\n177 m³'e kadar olan havuzlarda kullanılır, Tuzlu suda kullanılabilir\n*Optimized super silent hydraulic system*\n*Easy accessible and visible pre-filter*\n*Corrosion resistant impeller, easy opening double drainage*\n*Connections: includes slip unions for ø 50 or ø 63 mm*\n*Motor-drive specifications Class F, IP55, 50 Hz*\n*Used for residential pools up to 177 m³, Can be used in salt water*",
+      "icons": [
+        "RESIDENTIAL POOL"
+      ]
+    },
+    "niger-kng": {
+      "max_water_temp_c": 50.0,
+      "max_pressure_bar": 2.5,
+      "highlights": "Hidro masaj, SPA ve su oyunları havuzları için sirkülasyonda kullanılır\nNoryl fan ve AISI 316 paslanmaz mekanik salmastra\nKapalı tip motor koruma sınıfı IP55, class F, 50 Hz\nØ50 mm iç veya Ø63 mm dış yapıştırma bağlantı\nSessiz çalışma\nTuzlu suda kullanılabilir\nUsed in hydro massage, spas and general re-circulation\nImpeller in noryl and mechanical seal in AISI 316\nEnclosed motor, protection class IP55, class F, 50 Hz\nSlip included: Ø50 or Ø63 mm\nSilent operation\nCan be used in salt water"
+    },
+    "kapri-kap": {
+      "max_water_temp_c": 50.0,
+      "max_pressure_bar": 2.5,
+      "highlights": "Termoplastik enjeksiyonlu pompa gövdesi\nYüksek kapasiteli ön filtre\nŞeffaf polikarbonat ön filtre kapağı. KAPRI serisinin kapağı 4 adet menteşeli kelebek somun ile kolayca kapanır\nNoryl fan ve flanş fiberglass takviyeli\nMotor koruma sınıfı IP55, class F, 50 Hz\nMekanik salmastra AISI 316 kalite\nTuzlu suda kullanılabilir\nThermoplastic injected pump casing\nHigh capacity prefilter\nPrefilter lid in transparent polycarbonate. The closing of the lid for KAPRI series is made by four hinged cover-screws with stainless steel studs\nImpeller and flange in Noryl charged with fiber glass\nMotor, protection class IP55, class F, 50 Hz\nMechanical seal in AISI 316 quality\nCan be used in salt water",
+      "icons": [
+        "RESIDENTIAL POOL",
+        "PRE FILTER CAPACITY"
+      ]
+    },
+    "karpa-ka": {
+      "max_water_temp_c": 50.0,
+      "max_pressure_bar": 2.5,
+      "highlights": "Kullanım Alanları: Hidromasaj havuzları, spalar, jet stream ve genel havuzlar için sirkülasyon\nSessiz çalışma\nMotor sürüş özellikleri Class F, IP55, 50 Hz\nMekanik salmastra AISI 316 kalite\nPompa gövdesi sertleştirilmiş yapıda\nTuzlu suda kullanılabilir\nUsage Areas: Hydromassage pools, spas, jet stream and circulation for public pools\nSilent operation\nMotor-drive specifications Class F, IP55, 50 Hz\nMechanical seal in AISI 316 quality\nPump housing in hardened thermoplastic\nCan be used in salt water",
+      "icons": [
+        "RESIDENTIAL POOL",
+        "SUPER SILENT",
+        "NO PRE FILTER"
+      ]
+    },
+    "prime-kpr": {
+      "max_water_temp_c": 50.0,
+      "max_pressure_bar": 2.5,
+      "highlights": "Büyük konut havuzları veya küçük ticari havuzlarda, su terapisi jetlerinde kullanılır\nBüküm kilit sistemi sayesinde kolay kapanır ve geniş açılı şeffaf ön filtre kapağı\nNoryl fan ve AISI 316 paslanmaz mekanik salmastra\nSağlam, korozyona dayanıklı tasarım\n270 m³'e kadar olan konut havuzlarında kullanılır\nTuzlu suda kullanılabilir\nUsed in large residential pools or small public pools and in aqua therapy jets\nThe transparent cover with a rapid twist-lock cover provides a view into the interior of the prefi lter and provides easy access\nImpeller in Noryl and mechanical seal in AISI 316\nRobust, corrosion-resistant design\nFor residential pools up to 270 m³\nCan be used in salt water",
+      "icons": [
+        "SMALL COMMERCIAL POOL",
+        "PRE FILTER CAPACITY"
+      ]
+    },
+    "kan-plus": {
+      "max_water_temp_c": 50.0,
+      "highlights": "Termoplastik plastik enjeksiyonlu pompa gövdesi\nYüksek kapasiteli ön filtre\nŞeffaf polikarbonat ön filtre kapağı\nKAN serisinin kapağının kapatılması, paslanmaz çelik saplamalı dört menteşeli kapak vidası ile sağlanmıştır.\n3 Kg/cm<sup>2</sup> basınca dayanabilen desteklenmiş pompa gövdesi, kapak ve pim\nNoryl fan ve AISI 316 paslanmaz mekanik salmastra\nMotor koruma sınıfı IP55, class F, 50 Hz\nTuzlu suda kullanılabilir\nThermoplastic plastic injected pump casing\nHigh capacity prefilter\nPrefilter lid in transparent polycarbonate\nThe closing of the lid for KAN series is made by four hinged cover-screws with stainless steel studs\nPump casing, lid and pin reinforced to reach 3 Kg/cm<sup>2</sup> working pressure\nImpeller in Noryl and mechanical seal in AISI 316\nMotor, protection class IP55, class F, 50 Hz\nCan be used in sea water",
+      "icons": [
+        "COMMERCIAL POOL",
+        "PRE FILTER CAPACITY"
+      ]
+    },
+    "kse-vs-150": {
+      "max_water_temp_c": 50.0,
+      "max_pressure_bar": 2.5,
+      "rpm": 3000,
+      "highlights": "Değişken hız: Her uygulama için yüksek verim, optimize edilmiş tüketim\n5 program, 3 önceden seçilmiş hız\nSüper sessiz çalışma\nDahili ön filtrenin görünürlüğü, kolay erişim\nNoryl® marka çok sağlam ve korozyona dayanıklı fan ve difüzör\nÇift tahliye, kolay açılabilir kapak (alet gerektirmez)\nBağlantılar: ANSI 1½-2\", Ø50 ve Ø63 mm yapıştırma rakorlar\n126 m³'e kadar olan havuzlarda kullanılır\nTuzlu suda kullanılabilir\nVariable speed: high efficiency for each application, optimised consumption\n5 programs, 3 preselected speeds\nSuper-silent operation\nVisibility of the internal prefilter, easy access\nImpeller and diffuser made of Noryl very hard-wearing and corrosion-resistant\nDouble drain, easy opening (no tools required)\nConnections: ANSI 1½-2\", includes slip unions for Ø50 and Ø63 mm\nUsage: for residential pools up to 126 m³\nSuitable for use in salt water",
+      "icons": [
+        "SUPER SILENT",
+        "POOL"
+      ]
+    },
+    "hcp-3600": {
+      "max_water_temp_c": 50.0,
+      "max_pressure_bar": 2.5,
+      "rpm": 2850,
+      "highlights": "Cam elyaf takviyeli termoplastikten üretilmiş gövde\nHafif ve kolay monte edilebilir yapı\nIE3 standartlarına uygun üç fazlı motor\nTakviyeli Noryl malzemeden türbin\nTuzlu ve deniz suyunda kullanım imkânı\nKolay bakım için şeffaf kapaklı ön filtre\nTwist-lock kapak, 75 mm çaplı rakor bağlantılarıyla birlikte\n50 Hz / 2.850 rpm, IP55, sınıf F izolasyon\nTalep üzerine ANSI bağlantı seçeneği\nHousing made of glass-fibre reinforced thermoplastic\nLightweight and easy to install\nThree-phase motor compliant with IE3 standard\nImpeller made of reinforced Noryl\nSuitable for salt water and sea water\nStrainer with transparent cover for easy maintenance\nTwist-lock cover includes 75 mm diameter socket unions\n50 Hz / 2,850 rpm, IP55, class F insulation\nANSI connection option available on request",
+      "icons": [
+        "COMMERCIAL POOL"
+      ]
+    },
+    "hcp-3800": {
+      "max_water_temp_c": 50.0,
+      "max_pressure_bar": 2.5,
+      "rpm": 2850,
+      "highlights": "Hafif yapısı sayesinde kolay taşınır ve monte edilir.\nCam elyaf takviyeli termoplastikten üretilmiş gövde.\nIE3 standartlarına uygun üç fazlı motor.\nTakviyeli Noryl malzemeden üretilmiş türbin.\nTuzlu ve deniz suyunda kullanıma uygun.\nKolay bakım için şeffaf kapaklı ön filtre.\nMotorun doğru havalandırması için yükseltilmiş taban.\n50 Hz / 2.850 rpm, IP55, sınıf F izolasyon.\nTalep üzerine ANSI bağlantı seçeneği.\nLightweight for easy transport and installation\nHousing made of glass-fibre reinforced thermoplastic\nThree-phase motor compliant with IE3 standard\nImpeller made of reinforced Noryl\nSuitable for salt water and sea water\nStrainer with transparent lid for easy maintenance\nElevated base for proper motor ventilation\n50 Hz / 2,850 rpm, IP55, class F insulation\nANSI connection option available on request",
+      "icons": [
+        "COMMERCIAL POOL"
+      ]
+    },
+    "hcp-4000": {
+      "rpm": 850,
+      "highlights": "Kendinden emişli santrifüj pompa, cam elyaf takviyeli termoplastik gövde\nHafif yapısı sayesinde kolay taşınır ve monte edilir\nIE3 standartlarına uygun üç fazlı motor\nYüksek performanslı hidrolik sistem\nTakviyeli Noryl malzemeden üretilmiş türbin\nTuzlu ve deniz suyunda kullanıma uygun\nYüksek performanslı TEFC motor\nKolay bakım için 14 litrelik şeffaf kapaklı ön filtre\nMotorun doğru havalandırması için yükseltilmiş taban\n50 Hz / 2.850 rpm, IP55, sınıf F izolasyon\nTalep üzerine ANSI bağlantı seçeneği\nSelf-priming centrifugal pump with glass-fibre reinforced thermoplastic housing\nLightweight for easy transport and installation\nThree-phase motor compliant with IE3 standard\nHigh-performance hydraulics\nImpeller made of reinforced Noryl\nSuitable for salt water and sea water\nHigh-performance TEFC motor\n14 L transparent cover strainer for easy maintenance\nElevated base for proper motor ventilation\n50 Hz / 2,850 rpm, IP55, class F insulation\nANSI connection option available on request",
+      "icons": [
+        "PRE FILTER CAPACITY",
+        "COMMERCIAL POOL"
+      ]
+    },
+    "hcp-4200": {
+      "max_water_temp_c": 50.0,
+      "rpm": 1450,
+      "highlights": "Cam elyaf takviyeli termoplastikten üretilmiş gövde\nIE3 standartlarına uygun üç fazlı motor\nTakviyeli Noryl malzemeden türbin\n4 kutuplu motor (1.450 rpm / 50 Hz)\nTuzlu ve deniz suyunda kullanılabilir\n14 litrelik yüksek kapasiteli, şeffaf kapaklı ön filtre\nYükseltilmiş taban, motor havalandırmasını optimize eder\nTalep üzerine ANSI bağlantı seçeneği\nHousing made of glass-fibre reinforced thermoplastic\nThree-phase motor compliant with IE3 standard\nImpeller made of reinforced Noryl\n4-pole motor operating at 1,450 rpm / 50 Hz\nSuitable for salt and sea water\n14 L transparent strainer cover for easy maintenance\nElevated base ensures optimal motor ventilation\nANSI connection option available on request",
+      "icons": [
+        "PRE FILTER CAPACITY",
+        "COMMERCIAL POOL"
+      ]
+    },
+    "l-ks-seri-lux-series": {},
+    "zaman-r-leli-with-timer": {
+      "highlights": "Korozyona karşı dayanıklı gövde\nCE belgeli şalt malzemesi\n1 pompa, 1 grup lamba; 1 adet 3 HP'ye kadar pompa ve 1 grup 300 Watt'a kadar lambayı kontrol eder\n2 pompa, 2 grup lamba; 2 adet 3 HP'ye kadar pompa ve 2 grup 300 Watt'a kadar lambayı kontrol eder\nCorrosion resistant housing\nCE certified circuit\n1 pcs pump, 1 group lamp controls up to 1 pcs 3 HP pump and 1 group 300 Watt lamp\n2 pcs pump, 2group lamp controls up to 2 pcs 3 HP pump and 2 group 300 Watt lamp"
+    },
+    "senkron-smart-dalg-pompa-senkron-smart-submersible-pump": {
+      "max_water_temp_c": 28.0,
+      "max_pressure_bar": 2.5,
+      "highlights": "Aşırı ısınma koruma rölesi ile güvenli ve güvenilir çalışma\nGizli flatör\n10 m<sup>3</sup>/h debi\nBakır sargı elektrik motoru\nKirden sıkışmayan flatör sistemi\nTek kademeli\nSafe and reliable operation with overheat protection relay\nHidden floater\nFlow rate of 10 m<sup>3</sup>/h\nCopper wounded electric motor\nFloater system not jammed from dirt\nSingle stage\nAşırı ısınma koruma rölesi ile güvenli ve güvenilir çalışma\nGizli flatör\n10 m<sup>3</sup>/h debi\nAlüminyum sargı elektrik motoru ve dolayısıyla piyasanın en uygun fiyatlı dalgıç pompası\nTek kademeli\nSafe and reliable operation with overheat protection relay\nHidden floater\nFlow rate of 10 m<sup>3</sup>/h\nAluminum wounded Electric motor with the most affordable submersible pump on the market\nSingle stage\nLamex model filtreler özel amaçlı havuz kullanımı içindir\nİsteğe bağlı olarak farklı renklerde üretilebilir\nİsteğe bağlı olarak şeffaf kapak ile verilebilir\nPraher (Avusturya) çok yollu yandan vana\nIsıtmalı havuzlarda kullanıma uygundur\nUV dayanımlıdır, açık ortamda montaj edilebilir\nHer çesit havuza, tatlı veya tuzlu suya uygundur\nSuitable for residential pool\nOptionally as it can be produced in different colors\nOptionally as it can be produced in transparent lid upon request\nSide mounted multiport valves Praher (Austria)\nCan be used for heated pools\nCan be installed outdoors\nSuitable for all pools types, fresh or salt water\nLamex model filtreler ticari havuzlar, su parkları, fıskiyeler için uygundur\nİsteğe bağlı olarak farklı renklerde üretilebilir\nØ50 cm cam elyaf takviyeli plastik kapak\nIsıtmalı havuzlarda kullanıma uygundur\nHer çeşit havuza, tatlı veya tuzlu suya uygundur\nUV dayanımlıdır\nAçık ortamda montaj edilebilir\nAşındırıcı olmayan polyester, pürüzsüz çekici kaplamaya sahip fiberglass kompozit yapı\n6 yollu vana dahil değildir\nSuitable for commercial pools, waterparks, fountains etc.\nOptionally as it can be produced in different colors\nØ50 cm diameter plastic lid from fibre glass reinforced\nCan be used for heated pools\nSuitable for all pools types, fresh or salt water\nUV resistant\nCan be installed outdoors\nNon-Corrosive polyester, fiberglass composite construction with smooth attractive finish\nExcluded in 6-way valve",
+      "icons": [
+        "RESIDENTIAL POOL",
+        "2+2 YEAR WARRANTY",
+        "RESIDENTIAL POOL",
+        "2+2 YEAR WARRANTY"
+      ]
+    }
+  },
+  "product_values": {
+    "11515123068": {
+      "family_key": "senkron-1",
+      "attribute_set_key": "senkron-1",
+      "values": {
+        "power_hp": 0.5,
+        "power_kw": 0.38,
+        "flow_m3h": 15.0,
+        "connection": "50 mm",
+        "weight": 10.6,
+        "package_dims": "25x55x38"
+      },
+      "native": {
+        "default_code": "11515123068",
+        "name": " (11515123068)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 253.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "11515123069": {
+      "family_key": "senkron-1",
+      "attribute_set_key": "senkron-1",
+      "values": {
+        "power_hp": 0.75,
+        "power_kw": 0.56,
+        "flow_m3h": 17.8,
+        "connection": "50 mm",
+        "weight": 11.5,
+        "package_dims": "25x55x38"
+      },
+      "native": {
+        "default_code": "11515123069",
+        "name": " (11515123069)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 280.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "11515123070": {
+      "family_key": "senkron-1",
+      "attribute_set_key": "senkron-1",
+      "values": {
+        "power_hp": 1.0,
+        "power_kw": 0.75,
+        "flow_m3h": 20.8,
+        "connection": "50 mm",
+        "weight": 12.0,
+        "package_dims": "25x55x38"
+      },
+      "native": {
+        "default_code": "11515123070",
+        "name": " (11515123070)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 284.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "11515123071": {
+      "family_key": "senkron-1",
+      "attribute_set_key": "senkron-1",
+      "values": {
+        "power_hp": 1.0,
+        "power_kw": 0.75,
+        "flow_m3h": 20.8,
+        "connection": "50 mm",
+        "weight": 11.6,
+        "package_dims": "25x55x38"
+      },
+      "native": {
+        "default_code": "11515123071",
+        "name": " (11515123071)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 286.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "11515123072": {
+      "family_key": "senkron-1",
+      "attribute_set_key": "senkron-1",
+      "values": {
+        "power_hp": 1.5,
+        "power_kw": 1.1,
+        "flow_m3h": 25.5,
+        "connection": "50 mm",
+        "weight": 12.7,
+        "package_dims": "25x55x38"
+      },
+      "native": {
+        "default_code": "11515123072",
+        "name": " (11515123072)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 292.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "11515123073": {
+      "family_key": "senkron-2",
+      "attribute_set_key": "senkron-2",
+      "values": {
+        "power_hp": 1.5,
+        "power_kw": 1.1,
+        "flow_m3h": 19.6,
+        "connection": "63 mm",
+        "weight": 15.5,
+        "package_dims": "30x66x38"
+      },
+      "native": {
+        "default_code": "11515123073",
+        "name": " (11515123073)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 353.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "11515123074": {
+      "family_key": "senkron-2",
+      "attribute_set_key": "senkron-2",
+      "values": {
+        "power_hp": 1.5,
+        "power_kw": 1.1,
+        "flow_m3h": 19.6,
+        "connection": "63 mm",
+        "weight": 15.2,
+        "package_dims": "30x66x38"
+      },
+      "native": {
+        "default_code": "11515123074",
+        "name": " (11515123074)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 345.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "11515123075": {
+      "family_key": "senkron-2",
+      "attribute_set_key": "senkron-2",
+      "values": {
+        "power_hp": 2.0,
+        "power_kw": 1.5,
+        "flow_m3h": 25.5,
+        "connection": "63 mm",
+        "weight": 18.0,
+        "package_dims": "30x66x38"
+      },
+      "native": {
+        "default_code": "11515123075",
+        "name": " (11515123075)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 395.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "11515123076": {
+      "family_key": "senkron-2",
+      "attribute_set_key": "senkron-2",
+      "values": {
+        "power_hp": 2.0,
+        "power_kw": 1.5,
+        "flow_m3h": 25.5,
+        "connection": "63 mm",
+        "weight": 17.2,
+        "package_dims": "30x66x38"
+      },
+      "native": {
+        "default_code": "11515123076",
+        "name": " (11515123076)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 385.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "11515123077": {
+      "family_key": "senkron-2",
+      "attribute_set_key": "senkron-2",
+      "values": {
+        "power_hp": 3.0,
+        "power_kw": 2.2,
+        "flow_m3h": 33.0,
+        "connection": "63 mm",
+        "weight": 20.5,
+        "package_dims": "30x66x38"
+      },
+      "native": {
+        "default_code": "11515123077",
+        "name": " (11515123077)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 490.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "11515123078": {
+      "family_key": "senkron-2",
+      "attribute_set_key": "senkron-2",
+      "values": {
+        "power_hp": 3.0,
+        "power_kw": 2.2,
+        "flow_m3h": 33.0,
+        "connection": "63 mm",
+        "weight": 19.0,
+        "package_dims": "30x66x38"
+      },
+      "native": {
+        "default_code": "11515123078",
+        "name": " (11515123078)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 450.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "11515123079": {
+      "family_key": "senkron-2",
+      "attribute_set_key": "senkron-2",
+      "values": {
+        "power_hp": 4.0,
+        "power_kw": 3.0,
+        "flow_m3h": 39.0,
+        "connection": "63 mm",
+        "weight": 22.0,
+        "package_dims": "30x66x38"
+      },
+      "native": {
+        "default_code": "11515123079",
+        "name": " (11515123079)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 510.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "11515123082": {
+      "family_key": "senkron-3",
+      "attribute_set_key": "senkron-3",
+      "values": {
+        "power_hp": 4.5,
+        "power_kw": 3.4,
+        "flow_m3h": 52.0,
+        "voltage": "230V / 400V / 50 Hz",
+        "connection": "110 mm",
+        "weight": 47.0,
+        "package_dims": "840x395x600"
+      },
+      "native": {
+        "default_code": "11515123082",
+        "name": " (11515123082)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 975.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "11515123083": {
+      "family_key": "senkron-3",
+      "attribute_set_key": "senkron-3",
+      "values": {
+        "power_hp": 5.5,
+        "power_kw": 4.1,
+        "flow_m3h": 76.0,
+        "voltage": "400V / 690V / 50 Hz",
+        "connection": "110 mm",
+        "weight": 54.5,
+        "package_dims": "930x395x600"
+      },
+      "native": {
+        "default_code": "11515123083",
+        "name": " (11515123083)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 1275.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "11515123085": {
+      "family_key": "senkron-3",
+      "attribute_set_key": "senkron-3",
+      "values": {
+        "power_hp": 7.5,
+        "power_kw": 5.5,
+        "flow_m3h": 100.0,
+        "voltage": "400V / 690V / 50 Hz",
+        "connection": "110 mm",
+        "weight": 60.3,
+        "package_dims": "930x395x600"
+      },
+      "native": {
+        "default_code": "11515123085",
+        "name": " (11515123085)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 1450.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "11515123086": {
+      "family_key": "senkron-3",
+      "attribute_set_key": "senkron-3",
+      "values": {
+        "power_hp": 10.0,
+        "power_kw": 7.5,
+        "flow_m3h": 124.0,
+        "voltage": "400V / 690V / 50 Hz",
+        "connection": "110 mm",
+        "weight": 64.5,
+        "package_dims": "930x395x600"
+      },
+      "native": {
+        "default_code": "11515123086",
+        "name": " (11515123086)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 1750.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "11515123087": {
+      "family_key": "senkron-3",
+      "attribute_set_key": "senkron-3",
+      "values": {
+        "power_hp": 12.5,
+        "power_kw": 10.0,
+        "flow_m3h": 147.0,
+        "voltage": "400V / 690V / 50 Hz",
+        "connection": "110 mm",
+        "weight": 65.0,
+        "package_dims": "930x395x600"
+      },
+      "native": {
+        "default_code": "11515123087",
+        "name": " (11515123087)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 1850.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "11515123080": {
+      "family_key": "senkron-jet",
+      "attribute_set_key": "senkron-jet",
+      "values": {
+        "power_hp": 3.0,
+        "power_kw": 2.2,
+        "flow_m3h": 46.0,
+        "connection": "90 mm",
+        "weight": 22.0,
+        "package_dims": "635x300x44"
+      },
+      "native": {
+        "default_code": "11515123080",
+        "name": " (11515123080)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 570.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "11515123081": {
+      "family_key": "senkron-jet",
+      "attribute_set_key": "senkron-jet",
+      "values": {
+        "power_hp": 4.0,
+        "power_kw": 3.0,
+        "flow_m3h": 66.0,
+        "connection": "90 mm",
+        "weight": 25.3,
+        "package_dims": "675x300x44"
+      },
+      "native": {
+        "default_code": "11515123081",
+        "name": " (11515123081)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 585.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "11515124001": {
+      "family_key": "trione-storm",
+      "attribute_set_key": "trione-storm",
+      "values": {
+        "power_hp": 0.75,
+        "flow_m3h": 11.0,
+        "connection": "50 mm (Dişli)",
+        "weight": 5.4,
+        "package_dims": "40,4x17,7x21,8 cm"
+      },
+      "native": {
+        "default_code": "11515124001",
+        "name": " (11515124001)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 184.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "11515124002": {
+      "family_key": "trione-storm",
+      "attribute_set_key": "trione-storm",
+      "values": {
+        "power_hp": 1.0,
+        "flow_m3h": 13.0,
+        "connection": "50 mm (Dişli)",
+        "weight": 5.9,
+        "package_dims": "40,4x17,7x21,8 cm"
+      },
+      "native": {
+        "default_code": "11515124002",
+        "name": " (11515124002)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 194.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "11515113054": {
+      "family_key": "ninfa-nk",
+      "attribute_set_key": "ninfa-nk",
+      "values": {
+        "power_hp": 0.25,
+        "power_kw": 0.27,
+        "flow_m3h": 4.0,
+        "connection": "63 mm",
+        "sound_dba": 51.6,
+        "weight": 5.6
+      },
+      "native": {
+        "default_code": "11515113054",
+        "name": " (11515113054)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 275.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "11515113067": {
+      "family_key": "ninfa-nk",
+      "attribute_set_key": "ninfa-nk",
+      "values": {
+        "power_hp": 0.33,
+        "power_kw": 0.36,
+        "flow_m3h": 6.4,
+        "connection": "63 mm",
+        "sound_dba": 56.0,
+        "weight": 6.0
+      },
+      "native": {
+        "default_code": "11515113067",
+        "name": " (11515113067)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 355.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "11515113076": {
+      "family_key": "ninfa-nk",
+      "attribute_set_key": "ninfa-nk",
+      "values": {
+        "power_hp": 0.5,
+        "power_kw": 0.53,
+        "flow_m3h": 7.5,
+        "connection": "63 mm",
+        "sound_dba": 59.0,
+        "weight": 6.3
+      },
+      "native": {
+        "default_code": "11515113076",
+        "name": " (11515113076)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 380.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "11515113083": {
+      "family_key": "ondina-ok",
+      "attribute_set_key": "ondina-ok",
+      "values": {
+        "power_hp": 0.33,
+        "power_kw": 0.27,
+        "flow_m3h": 7.0,
+        "connection": "50 mm",
+        "sound_dba": 53.3,
+        "weight": 8.0
+      },
+      "native": {
+        "default_code": "11515113083",
+        "name": " (11515113083)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 335.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "11515113084": {
+      "family_key": "ondina-ok",
+      "attribute_set_key": "ondina-ok",
+      "values": {
+        "power_hp": 0.5,
+        "power_kw": 0.58,
+        "flow_m3h": 8.5,
+        "connection": "50 mm",
+        "sound_dba": 54.2,
+        "weight": 8.5
+      },
+      "native": {
+        "default_code": "11515113084",
+        "name": " (11515113084)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 418.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "11515113085": {
+      "family_key": "ondina-ok",
+      "attribute_set_key": "ondina-ok",
+      "values": {
+        "power_hp": 0.5,
+        "power_kw": 0.58,
+        "flow_m3h": 8.5,
+        "connection": "50 mm",
+        "sound_dba": 54.2,
+        "weight": 8.5
+      },
+      "native": {
+        "default_code": "11515113085",
+        "name": " (11515113085)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 355.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "11515113086": {
+      "family_key": "ondina-ok",
+      "attribute_set_key": "ondina-ok",
+      "values": {
+        "power_hp": 0.75,
+        "power_kw": 0.75,
+        "flow_m3h": 11.9,
+        "connection": "50 mm",
+        "sound_dba": 57.2,
+        "weight": 9.0
+      },
+      "native": {
+        "default_code": "11515113086",
+        "name": " (11515113086)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 475.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "11515113087": {
+      "family_key": "ondina-ok",
+      "attribute_set_key": "ondina-ok",
+      "values": {
+        "power_hp": 0.75,
+        "power_kw": 0.75,
+        "flow_m3h": 11.9,
+        "connection": "50 mm",
+        "sound_dba": 57.2,
+        "weight": 9.0
+      },
+      "native": {
+        "default_code": "11515113087",
+        "name": " (11515113087)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 440.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "11515113088": {
+      "family_key": "ondina-ok",
+      "attribute_set_key": "ondina-ok",
+      "values": {
+        "power_hp": 1.0,
+        "power_kw": 1.0,
+        "flow_m3h": 17.2,
+        "connection": "50 mm",
+        "sound_dba": 59.2,
+        "weight": 11.5
+      },
+      "native": {
+        "default_code": "11515113088",
+        "name": " (11515113088)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 540.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "11515113089": {
+      "family_key": "ondina-ok",
+      "attribute_set_key": "ondina-ok",
+      "values": {
+        "power_hp": 1.0,
+        "power_kw": 1.0,
+        "flow_m3h": 17.2,
+        "connection": "50 mm",
+        "sound_dba": 59.2,
+        "weight": 11.5
+      },
+      "native": {
+        "default_code": "11515113089",
+        "name": " (11515113089)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 485.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "198114018": {
+      "family_key": "ondina-ok",
+      "attribute_set_key": "ondina-ok",
+      "values": {
+        "power_hp": 0.5,
+        "power_kw": 0.58,
+        "flow_m3h": 8.5,
+        "connection": "50 mm",
+        "sound_dba": 54.2,
+        "weight": 8.5
+      },
+      "native": {
+        "default_code": "198114018",
+        "name": " (198114018)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 418.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "11515113148": {
+      "family_key": "s2-model",
+      "attribute_set_key": "s2-model",
+      "values": {
+        "power_hp": 0.33,
+        "power_kw": 0.45,
+        "flow_m3h": 7.03,
+        "connection": "50 mm",
+        "weight": 7.76
+      },
+      "native": {
+        "default_code": "11515113148",
+        "name": " (11515113148)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 330.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "11515113146": {
+      "family_key": "s2-model",
+      "attribute_set_key": "s2-model",
+      "values": {
+        "power_hp": 0.5,
+        "power_kw": 0.58,
+        "flow_m3h": 10.8,
+        "connection": "50 mm",
+        "weight": 8.85
+      },
+      "native": {
+        "default_code": "11515113146",
+        "name": " (11515113146)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 350.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "11515113147": {
+      "family_key": "s2-model",
+      "attribute_set_key": "s2-model",
+      "values": {
+        "power_hp": 0.75,
+        "power_kw": 0.75,
+        "flow_m3h": 13.0,
+        "connection": "50 mm",
+        "weight": 9.16
+      },
+      "native": {
+        "default_code": "11515113147",
+        "name": " (11515113147)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 370.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "11515113150": {
+      "family_key": "s2-model",
+      "attribute_set_key": "s2-model",
+      "values": {
+        "power_hp": 1.0,
+        "power_kw": 0.9,
+        "flow_m3h": 15.0,
+        "connection": "50 mm",
+        "weight": 9.16
+      },
+      "native": {
+        "default_code": "11515113150",
+        "name": " (11515113150)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 420.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "11515113145": {
+      "family_key": "s2-model",
+      "attribute_set_key": "s2-model",
+      "values": {
+        "power_hp": 1.5,
+        "power_kw": 1.1,
+        "flow_m3h": 17.2,
+        "connection": "50 mm",
+        "weight": 11.3
+      },
+      "native": {
+        "default_code": "11515113145",
+        "name": " (11515113145)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 440.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "11515113090": {
+      "family_key": "koral-kse",
+      "attribute_set_key": "koral-kse",
+      "values": {
+        "power_hp": 0.33,
+        "power_kw": 0.45,
+        "flow_m3h": 4.08,
+        "connection": "63 mm",
+        "sound_dba": 54.6,
+        "weight": 11.2
+      },
+      "native": {
+        "default_code": "11515113090",
+        "name": " (11515113090)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 438.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "11515113091": {
+      "family_key": "koral-kse",
+      "attribute_set_key": "koral-kse",
+      "values": {
+        "power_hp": 0.5,
+        "power_kw": 0.58,
+        "flow_m3h": 7.5,
+        "connection": "63 mm",
+        "sound_dba": 59.6,
+        "weight": 12.5
+      },
+      "native": {
+        "default_code": "11515113091",
+        "name": " (11515113091)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 480.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "11515113092": {
+      "family_key": "koral-kse",
+      "attribute_set_key": "koral-kse",
+      "values": {
+        "power_hp": 0.5,
+        "power_kw": 0.58,
+        "flow_m3h": 7.5,
+        "connection": "63 mm",
+        "sound_dba": 59.6,
+        "weight": 12.0
+      },
+      "native": {
+        "default_code": "11515113092",
+        "name": " (11515113092)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 480.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "11515113173": {
+      "family_key": "koral-kse",
+      "attribute_set_key": "koral-kse",
+      "values": {
+        "power_hp": 0.75,
+        "power_kw": 0.75,
+        "flow_m3h": 11.5,
+        "connection": "63 mm",
+        "sound_dba": 60.8,
+        "weight": 13.5
+      },
+      "native": {
+        "default_code": "11515113173",
+        "name": " (11515113173)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 645.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "11515113094": {
+      "family_key": "koral-kse",
+      "attribute_set_key": "koral-kse",
+      "values": {
+        "power_hp": 0.75,
+        "power_kw": 0.75,
+        "flow_m3h": 11.5,
+        "connection": "63 mm",
+        "sound_dba": 60.8,
+        "weight": 13.0
+      },
+      "native": {
+        "default_code": "11515113094",
+        "name": " (11515113094)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 625.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "11515113095": {
+      "family_key": "koral-kse",
+      "attribute_set_key": "koral-kse",
+      "values": {
+        "power_hp": 1.0,
+        "power_kw": 1.0,
+        "flow_m3h": 15.4,
+        "connection": "63 mm",
+        "sound_dba": 65.6,
+        "weight": 14.0
+      },
+      "native": {
+        "default_code": "11515113095",
+        "name": " (11515113095)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 645.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "11515113096": {
+      "family_key": "koral-kse",
+      "attribute_set_key": "koral-kse",
+      "values": {
+        "power_hp": 1.0,
+        "power_kw": 1.0,
+        "flow_m3h": 15.4,
+        "connection": "63 mm",
+        "sound_dba": 65.6,
+        "weight": 13.5
+      },
+      "native": {
+        "default_code": "11515113096",
+        "name": " (11515113096)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 685.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "11515113156": {
+      "family_key": "koral-kse",
+      "attribute_set_key": "koral-kse",
+      "values": {
+        "power_hp": 1.5,
+        "power_kw": 1.5,
+        "flow_m3h": 21.9,
+        "connection": "63 mm",
+        "sound_dba": 65.6,
+        "weight": 16.5
+      },
+      "native": {
+        "default_code": "11515113156",
+        "name": " (11515113156)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 750.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "11515113098": {
+      "family_key": "koral-kse",
+      "attribute_set_key": "koral-kse",
+      "values": {
+        "power_hp": 1.5,
+        "power_kw": 1.5,
+        "flow_m3h": 21.9,
+        "connection": "63 mm",
+        "sound_dba": 65.6,
+        "weight": 16.0
+      },
+      "native": {
+        "default_code": "11515113098",
+        "name": " (11515113098)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 755.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "11515113099": {
+      "family_key": "koral-kse",
+      "attribute_set_key": "koral-kse",
+      "values": {
+        "power_hp": 2.0,
+        "power_kw": 2.0,
+        "flow_m3h": 25.7,
+        "connection": "63 mm",
+        "sound_dba": 66.0,
+        "weight": 17.5
+      },
+      "native": {
+        "default_code": "11515113099",
+        "name": " (11515113099)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 800.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "11515113100": {
+      "family_key": "koral-kse",
+      "attribute_set_key": "koral-kse",
+      "values": {
+        "power_hp": 2.0,
+        "power_kw": 2.0,
+        "flow_m3h": 25.7,
+        "connection": "63 mm",
+        "sound_dba": 66.0,
+        "weight": 17.0
+      },
+      "native": {
+        "default_code": "11515113100",
+        "name": " (11515113100)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 845.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "11515113165": {
+      "family_key": "koral-kse",
+      "attribute_set_key": "koral-kse",
+      "values": {
+        "power_hp": 2.0,
+        "power_kw": 2.0,
+        "flow_m3h": 25.7,
+        "connection": "63 mm",
+        "sound_dba": 66.0,
+        "weight": 17.5
+      },
+      "native": {
+        "default_code": "11515113165",
+        "name": " (11515113165)",
+        "prices": [],
+        "category_code": "01"
+      }
+    },
+    "11515113132": {
+      "family_key": "koral-kse",
+      "attribute_set_key": "koral-kse",
+      "values": {
+        "power_hp": 3.0,
+        "power_kw": 3.0,
+        "flow_m3h": 29.51,
+        "connection": "63 mm",
+        "sound_dba": 66.7,
+        "weight": 22.0
+      },
+      "native": {
+        "default_code": "11515113132",
+        "name": " (11515113132)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 1105.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "11515113159": {
+      "family_key": "koral-kse",
+      "attribute_set_key": "koral-kse",
+      "values": {
+        "power_hp": 3.0,
+        "power_kw": 3.0,
+        "flow_m3h": 29.5,
+        "connection": "63 mm",
+        "sound_dba": 67.7,
+        "weight": 22.0
+      },
+      "native": {
+        "default_code": "11515113159",
+        "name": " (11515113159)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 1115.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "11515113149": {
+      "family_key": "koral-kse",
+      "attribute_set_key": "koral-kse",
+      "values": {
+        "power_hp": 3.0,
+        "power_kw": 3.0,
+        "flow_m3h": 29.5,
+        "connection": "63 mm",
+        "sound_dba": 67.7,
+        "weight": 22.0
+      },
+      "native": {
+        "default_code": "11515113149",
+        "name": " (11515113149)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 1035.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "11515113154": {
+      "family_key": "niger-kng",
+      "attribute_set_key": "niger-kng",
+      "values": {
+        "power_hp": 0.75,
+        "power_kw": 0.75,
+        "flow_m3h": 12.0,
+        "connection": "50 / 63 mm (Dış/İç)",
+        "sound_dba": 59.4,
+        "weight": 11.5
+      },
+      "native": {
+        "default_code": "11515113154",
+        "name": " (11515113154)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 412.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "11515113114": {
+      "family_key": "niger-kng",
+      "attribute_set_key": "niger-kng",
+      "values": {
+        "power_hp": 0.75,
+        "power_kw": 0.75,
+        "flow_m3h": 12.0,
+        "connection": "50 / 63 mm (Dış/İç)",
+        "sound_dba": 59.4,
+        "weight": 11.5
+      },
+      "native": {
+        "default_code": "11515113114",
+        "name": " (11515113114)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 412.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "11515113115": {
+      "family_key": "niger-kng",
+      "attribute_set_key": "niger-kng",
+      "values": {
+        "power_hp": 1.0,
+        "power_kw": 1.0,
+        "flow_m3h": 15.98,
+        "connection": "50 / 63 mm (Dış/İç)",
+        "sound_dba": 59.2,
+        "weight": 12.0
+      },
+      "native": {
+        "default_code": "11515113115",
+        "name": " (11515113115)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 465.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "11515113117": {
+      "family_key": "niger-kng",
+      "attribute_set_key": "niger-kng",
+      "values": {
+        "power_hp": 1.5,
+        "power_kw": 1.6,
+        "flow_m3h": 22.4,
+        "connection": "50 / 63 mm (Dış/İç)",
+        "sound_dba": 65.0,
+        "weight": 14.5
+      },
+      "native": {
+        "default_code": "11515113117",
+        "name": " (11515113117)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 513.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "11515113119": {
+      "family_key": "niger-kng",
+      "attribute_set_key": "niger-kng",
+      "values": {
+        "power_hp": 2.0,
+        "power_kw": 1.92,
+        "flow_m3h": 26.2,
+        "connection": "50 / 63 mm (Dış/İç)",
+        "sound_dba": 66.0,
+        "weight": 15.5
+      },
+      "native": {
+        "default_code": "11515113119",
+        "name": " (11515113119)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 556.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "11515113116": {
+      "family_key": "niger-kng",
+      "attribute_set_key": "niger-kng",
+      "values": {
+        "power_hp": 1.0,
+        "power_kw": 1.0,
+        "flow_m3h": 15.9,
+        "connection": "50 / 63 mm (Dış/İç)",
+        "sound_dba": 59.2,
+        "weight": 12.0
+      },
+      "native": {
+        "default_code": "11515113116",
+        "name": " (11515113116)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 465.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "11515113118": {
+      "family_key": "niger-kng",
+      "attribute_set_key": "niger-kng",
+      "values": {
+        "power_hp": 1.5,
+        "power_kw": 1.6,
+        "flow_m3h": 22.4,
+        "connection": "50 / 63 mm (Dış/İç)",
+        "sound_dba": 65.0,
+        "weight": 14.5
+      },
+      "native": {
+        "default_code": "11515113118",
+        "name": " (11515113118)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 513.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "10771150120": {
+      "family_key": "niger-kng",
+      "attribute_set_key": "niger-kng",
+      "values": {
+        "power_hp": 1.5,
+        "power_kw": 1.6,
+        "flow_m3h": 22.4,
+        "connection": "50 / 63 mm (Dış/İç)",
+        "sound_dba": 65.0,
+        "weight": 14.5
+      },
+      "native": {
+        "default_code": "10771150120",
+        "name": " (10771150120)",
+        "prices": [],
+        "category_code": "01"
+      }
+    },
+    "11515113120": {
+      "family_key": "niger-kng",
+      "attribute_set_key": "niger-kng",
+      "values": {
+        "power_hp": 2.0,
+        "power_kw": 1.92,
+        "flow_m3h": 26.2,
+        "connection": "50 / 63 mm (Dış/İç)",
+        "sound_dba": 66.0,
+        "weight": 15.0
+      },
+      "native": {
+        "default_code": "11515113120",
+        "name": " (11515113120)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 535.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "11515113102": {
+      "family_key": "kapri-kap",
+      "attribute_set_key": "kapri-kap",
+      "values": {
+        "power_hp": 2.5,
+        "power_kw": 2.3,
+        "flow_m3h": 41.0,
+        "connection": "90 mm",
+        "sound_dba": 65.2
+      },
+      "native": {
+        "default_code": "11515113102",
+        "name": " (11515113102)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 1298.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "11515113103": {
+      "family_key": "kapri-kap",
+      "attribute_set_key": "kapri-kap",
+      "values": {
+        "power_hp": 2.5,
+        "power_kw": 2.3,
+        "flow_m3h": 41.0,
+        "connection": "90 mm",
+        "sound_dba": 65.2
+      },
+      "native": {
+        "default_code": "11515113103",
+        "name": " (11515113103)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 1515.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "11515113104": {
+      "family_key": "kapri-kap",
+      "attribute_set_key": "kapri-kap",
+      "values": {
+        "power_hp": 3.0,
+        "power_kw": 2.76,
+        "flow_m3h": 48.0,
+        "connection": "90 mm",
+        "sound_dba": 65.8
+      },
+      "native": {
+        "default_code": "11515113104",
+        "name": " (11515113104)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 1370.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "11515113105": {
+      "family_key": "kapri-kap",
+      "attribute_set_key": "kapri-kap",
+      "values": {
+        "power_hp": 3.0,
+        "power_kw": 2.76,
+        "flow_m3h": 48.0,
+        "connection": "90 mm",
+        "sound_dba": 68.4
+      },
+      "native": {
+        "default_code": "11515113105",
+        "name": " (11515113105)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 1530.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "11515113106": {
+      "family_key": "kapri-kap",
+      "attribute_set_key": "kapri-kap",
+      "values": {
+        "power_hp": 3.5,
+        "power_kw": 3.7,
+        "flow_m3h": 58.0,
+        "connection": "90 mm"
+      },
+      "native": {
+        "default_code": "11515113106",
+        "name": " (11515113106)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 1648.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "11515113053": {
+      "family_key": "kapri-kap",
+      "attribute_set_key": "kapri-kap",
+      "values": {
+        "power_hp": 4.5,
+        "power_kw": 4.3,
+        "flow_m3h": 66.0,
+        "connection": "90 mm"
+      },
+      "native": {
+        "default_code": "11515113053",
+        "name": " (11515113053)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 1678.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "11515113107": {
+      "family_key": "kapri-kap",
+      "attribute_set_key": "kapri-kap",
+      "values": {
+        "power_hp": 5.5,
+        "power_kw": 4.71,
+        "flow_m3h": 76.0,
+        "connection": "90 mm"
+      },
+      "native": {
+        "default_code": "11515113107",
+        "name": " (11515113107)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 1750.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "11515113121": {
+      "family_key": "karpa-ka",
+      "attribute_set_key": "karpa-ka",
+      "values": {
+        "power_hp": 2.5,
+        "power_kw": 2.3,
+        "flow_m3h": 44.0,
+        "connection": "90 mm",
+        "sound_dba": 65.2,
+        "weight": 20.8
+      },
+      "native": {
+        "default_code": "11515113121",
+        "name": " (11515113121)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 1140.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "11515113122": {
+      "family_key": "karpa-ka",
+      "attribute_set_key": "karpa-ka",
+      "values": {
+        "power_hp": 2.5,
+        "power_kw": 2.3,
+        "flow_m3h": 44.0,
+        "connection": "90 mm",
+        "sound_dba": 65.2,
+        "weight": 20.8
+      },
+      "native": {
+        "default_code": "11515113122",
+        "name": " (11515113122)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 1120.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "11515113123": {
+      "family_key": "karpa-ka",
+      "attribute_set_key": "karpa-ka",
+      "values": {
+        "power_hp": 3.0,
+        "power_kw": 2.76,
+        "flow_m3h": 48.0,
+        "connection": "90 mm",
+        "sound_dba": 65.8,
+        "weight": 21.5
+      },
+      "native": {
+        "default_code": "11515113123",
+        "name": " (11515113123)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 1210.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "11515113124": {
+      "family_key": "karpa-ka",
+      "attribute_set_key": "karpa-ka",
+      "values": {
+        "power_hp": 3.0,
+        "power_kw": 2.76,
+        "flow_m3h": 48.0,
+        "connection": "90 mm",
+        "sound_dba": 65.8,
+        "weight": 21.5
+      },
+      "native": {
+        "default_code": "11515113124",
+        "name": " (11515113124)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 1170.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "11515113125": {
+      "family_key": "karpa-ka",
+      "attribute_set_key": "karpa-ka",
+      "values": {
+        "power_hp": 3.5,
+        "power_kw": 3.7,
+        "flow_m3h": 63.0,
+        "connection": "90 mm",
+        "sound_dba": 65.4
+      },
+      "native": {
+        "default_code": "11515113125",
+        "name": " (11515113125)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 1230.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "11515113126": {
+      "family_key": "karpa-ka",
+      "attribute_set_key": "karpa-ka",
+      "values": {
+        "power_hp": 4.5,
+        "power_kw": 4.3,
+        "flow_m3h": 67.0,
+        "connection": "90 mm"
+      },
+      "native": {
+        "default_code": "11515113126",
+        "name": " (11515113126)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 1290.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "11515113127": {
+      "family_key": "karpa-ka",
+      "attribute_set_key": "karpa-ka",
+      "values": {
+        "power_hp": 5.5,
+        "power_kw": 4.71,
+        "flow_m3h": 78.0,
+        "connection": "90 mm"
+      },
+      "native": {
+        "default_code": "11515113127",
+        "name": " (11515113127)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 1350.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "11515113128": {
+      "family_key": "karpa-ka",
+      "attribute_set_key": "karpa-ka",
+      "values": {
+        "power_hp": 5.5,
+        "power_kw": 4.71,
+        "flow_m3h": 78.0,
+        "connection": "90 mm"
+      },
+      "native": {
+        "default_code": "11515113128",
+        "name": " (11515113128)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 1350.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "11515113143": {
+      "family_key": "prime-kpr",
+      "attribute_set_key": "prime-kpr",
+      "values": {
+        "power_hp": 2.5,
+        "power_kw": 2.4,
+        "flow_m3h": 30.0,
+        "connection": "75 mm",
+        "weight": 24.0
+      },
+      "native": {
+        "default_code": "11515113143",
+        "name": " (11515113143)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 865.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "11515113142": {
+      "family_key": "prime-kpr",
+      "attribute_set_key": "prime-kpr",
+      "values": {
+        "power_hp": 2.5,
+        "power_kw": 2.4,
+        "flow_m3h": 30.0,
+        "connection": "75 mm",
+        "weight": 28.5
+      },
+      "native": {
+        "default_code": "11515113142",
+        "name": " (11515113142)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 784.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "11515113139": {
+      "family_key": "prime-kpr",
+      "attribute_set_key": "prime-kpr",
+      "values": {
+        "power_hp": 3.0,
+        "power_kw": 2.8,
+        "flow_m3h": 36.0,
+        "connection": "75 mm",
+        "weight": 26.0
+      },
+      "native": {
+        "default_code": "11515113139",
+        "name": " (11515113139)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 879.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "11515113138": {
+      "family_key": "prime-kpr",
+      "attribute_set_key": "prime-kpr",
+      "values": {
+        "power_hp": 3.0,
+        "power_kw": 2.8,
+        "flow_m3h": 36.0,
+        "connection": "75 mm",
+        "weight": 28.5
+      },
+      "native": {
+        "default_code": "11515113138",
+        "name": " (11515113138)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 827.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "11515113140": {
+      "family_key": "prime-kpr",
+      "attribute_set_key": "prime-kpr",
+      "values": {
+        "power_hp": 3.5,
+        "power_kw": 3.8,
+        "flow_m3h": 45.0,
+        "connection": "75 mm",
+        "weight": 31.5
+      },
+      "native": {
+        "default_code": "11515113140",
+        "name": " (11515113140)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 898.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "11515113108": {
+      "family_key": "kan-plus",
+      "attribute_set_key": "kan-plus",
+      "values": {
+        "power_hp": 5.5,
+        "power_kw": 5.5,
+        "flow_m3h": 80.0,
+        "connection": "110 mm",
+        "sound_dba": 80.0,
+        "weight": 45.0
+      },
+      "native": {
+        "default_code": "11515113108",
+        "name": " (11515113108)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 1778.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "11515113109": {
+      "family_key": "kan-plus",
+      "attribute_set_key": "kan-plus",
+      "values": {
+        "power_hp": 6.5,
+        "power_kw": 6.5,
+        "flow_m3h": 90.0,
+        "connection": "110 mm",
+        "sound_dba": 82.0,
+        "weight": 46.0
+      },
+      "native": {
+        "default_code": "11515113109",
+        "name": " (11515113109)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 2018.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "11515113110": {
+      "family_key": "kan-plus",
+      "attribute_set_key": "kan-plus",
+      "values": {
+        "power_hp": 7.5,
+        "power_kw": 7.5,
+        "flow_m3h": 113.0,
+        "connection": "110 mm",
+        "sound_dba": 85.0,
+        "weight": 52.0
+      },
+      "native": {
+        "default_code": "11515113110",
+        "name": " (11515113110)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 2990.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "11515113111": {
+      "family_key": "kan-plus",
+      "attribute_set_key": "kan-plus",
+      "values": {
+        "power_hp": 10.0,
+        "power_kw": 10.0,
+        "flow_m3h": 125.0,
+        "connection": "110 mm",
+        "sound_dba": 87.0,
+        "weight": 66.0
+      },
+      "native": {
+        "default_code": "11515113111",
+        "name": " (11515113111)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 3100.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "11515113112": {
+      "family_key": "kan-plus",
+      "attribute_set_key": "kan-plus",
+      "values": {
+        "power_hp": 12.5,
+        "power_kw": 12.5,
+        "flow_m3h": 143.0,
+        "connection": "110 mm",
+        "sound_dba": 87.0,
+        "weight": 76.0
+      },
+      "native": {
+        "default_code": "11515113112",
+        "name": " (11515113112)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 3039.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "11515113155": {
+      "family_key": "kan-plus",
+      "attribute_set_key": "kan-plus",
+      "values": {
+        "power_hp": 10.0,
+        "power_kw": 10.0,
+        "flow_m3h": 125.0,
+        "connection": "110 mm",
+        "sound_dba": 87.0,
+        "weight": 66.0
+      },
+      "native": {
+        "default_code": "11515113155",
+        "name": " (11515113155)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 3475.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "11515113160": {
+      "family_key": "kan-plus",
+      "attribute_set_key": "kan-plus",
+      "values": {
+        "power_hp": 12.5,
+        "power_kw": 12.5,
+        "flow_m3h": 143.0,
+        "connection": "110 mm",
+        "sound_dba": 87.0,
+        "weight": 76.0
+      },
+      "native": {
+        "default_code": "11515113160",
+        "name": " (11515113160)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 3850.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "11515113151": {
+      "family_key": "kse-vs-150",
+      "attribute_set_key": "kse-vs-150",
+      "values": {
+        "power_hp": 1.5,
+        "power_kw": 1.24,
+        "flow_m3h": 21.0,
+        "connection": "Ø50 - Ø60",
+        "weight": 15.0
+      },
+      "native": {
+        "default_code": "11515113151",
+        "name": " (11515113151)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 1800.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "11515113161": {
+      "family_key": "hcp-3600",
+      "attribute_set_key": "hcp-3600",
+      "values": {
+        "power_hp": 2.5,
+        "power_kw": 2.4,
+        "flow_m3h": 30.0,
+        "efficiency_class": "IE1",
+        "connection": "75 mm",
+        "weight": 24.0
+      },
+      "native": {
+        "default_code": "11515113161",
+        "name": " (11515113161)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 1150.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "11515113158": {
+      "family_key": "hcp-3600",
+      "attribute_set_key": "hcp-3600",
+      "values": {
+        "power_hp": 3.0,
+        "power_kw": 2.8,
+        "flow_m3h": 36.0,
+        "efficiency_class": "IE1",
+        "connection": "75 mm",
+        "weight": 26.0
+      },
+      "native": {
+        "default_code": "11515113158",
+        "name": " (11515113158)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 1175.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "11515113157": {
+      "family_key": "hcp-3600",
+      "attribute_set_key": "hcp-3600",
+      "values": {
+        "power_hp": 3.5,
+        "power_kw": 3.4,
+        "flow_m3h": 36.0,
+        "efficiency_class": "IE3",
+        "connection": "75 mm",
+        "weight": 27.0
+      },
+      "native": {
+        "default_code": "11515113157",
+        "name": " (11515113157)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 1475.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "11515113131": {
+      "family_key": "hcp-3800",
+      "attribute_set_key": "hcp-3800",
+      "values": {
+        "power_hp": 5.5,
+        "power_kw": 4.7,
+        "flow_m3h": 67.0,
+        "efficiency_class": "IE1",
+        "connection": "90 mm",
+        "weight": 35.5
+      },
+      "native": {
+        "default_code": "11515113131",
+        "name": " (11515113131)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 1750.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "11515113113": {
+      "family_key": "hcp-4000",
+      "attribute_set_key": "hcp-4000",
+      "values": {
+        "power_hp": 12.5,
+        "power_kw": 10.2,
+        "flow_m3h": 137.0,
+        "efficiency_class": "IE3",
+        "connection": "110 mm",
+        "weight": 76.0
+      },
+      "native": {
+        "default_code": "11515113113",
+        "name": " (11515113113)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 3850.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "11515113175": {
+      "family_key": "hcp-4200",
+      "attribute_set_key": "hcp-4200",
+      "values": {
+        "power_hp": 5.5,
+        "power_kw": 4.71,
+        "flow_m3h": 68.0,
+        "efficiency_class": "IE3",
+        "connection": "110 mm",
+        "weight": 46.0
+      },
+      "native": {
+        "default_code": "11515113175",
+        "name": " (11515113175)",
+        "prices": [],
+        "category_code": "01"
+      }
+    },
+    "11515113176": {
+      "family_key": "hcp-4200",
+      "attribute_set_key": "hcp-4200",
+      "values": {
+        "power_hp": 7.5,
+        "power_kw": 7.0,
+        "flow_m3h": 90.0,
+        "efficiency_class": "IE3",
+        "connection": "110 mm",
+        "weight": 50.0
+      },
+      "native": {
+        "default_code": "11515113176",
+        "name": " (11515113176)",
+        "prices": [],
+        "category_code": "01"
+      }
+    },
+    "11515113177": {
+      "family_key": "hcp-4200",
+      "attribute_set_key": "hcp-4200",
+      "values": {
+        "power_hp": 10.0,
+        "power_kw": 8.7,
+        "flow_m3h": 104.0,
+        "efficiency_class": "IE3",
+        "connection": "110 mm",
+        "weight": 70.0
+      },
+      "native": {
+        "default_code": "11515113177",
+        "name": " (11515113177)",
+        "prices": [],
+        "category_code": "01"
+      }
+    },
+    "15015122029": {
+      "family_key": "l-ks-seri-lux-series",
+      "attribute_set_key": "l-ks-seri-lux-series",
+      "values": {
+        "variant_description": "1 Pompa+1 Grup Lamba Monofaze 1 Pump+1 Group Lamp Single Phase"
+      },
+      "native": {
+        "default_code": "15015122029",
+        "name": "Lüks Seri (15015122029)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 270.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "15015122030": {
+      "family_key": "l-ks-seri-lux-series",
+      "attribute_set_key": "l-ks-seri-lux-series",
+      "values": {
+        "variant_description": "1 Pompa+1 Grup Lamba Trifaze 1 Pump+1 Group Lamp Three Phase"
+      },
+      "native": {
+        "default_code": "15015122030",
+        "name": "Lüks Seri (15015122030)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 360.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "15015122031": {
+      "family_key": "l-ks-seri-lux-series",
+      "attribute_set_key": "l-ks-seri-lux-series",
+      "values": {
+        "variant_description": "2 Pompa+2 Grup Lamba Monofaze 2 Pump+2 Group Lamp Single Phase"
+      },
+      "native": {
+        "default_code": "15015122031",
+        "name": "Lüks Seri (15015122031)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 408.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "15015122032": {
+      "family_key": "l-ks-seri-lux-series",
+      "attribute_set_key": "l-ks-seri-lux-series",
+      "values": {
+        "variant_description": "2 Pompa+2 Grup Lamba Trifaze 2 Pump+2 Group Lamp Three Phase"
+      },
+      "native": {
+        "default_code": "15015122032",
+        "name": "Lüks Seri (15015122032)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 534.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "15015122027": {
+      "family_key": "l-ks-seri-lux-series",
+      "attribute_set_key": "l-ks-seri-lux-series",
+      "values": {
+        "variant_description": "3 Pompa+1 Grup Lamba Monofaze 3 Pump+1 Group Lamp Single Phase"
+      },
+      "native": {
+        "default_code": "15015122027",
+        "name": "Lüks Seri (15015122027)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 576.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "15015122028": {
+      "family_key": "l-ks-seri-lux-series",
+      "attribute_set_key": "l-ks-seri-lux-series",
+      "values": {
+        "variant_description": "3 Pompa+1 Grup Lamba Trifaze 3 Pump+1 Group Lamp Three Phase"
+      },
+      "native": {
+        "default_code": "15015122028",
+        "name": "Lüks Seri (15015122028)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 702.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "15015122033": {
+      "family_key": "zaman-r-leli-with-timer",
+      "attribute_set_key": "zaman-r-leli-with-timer",
+      "values": {
+        "variant_description": "1 Pompa+1 Grup Lamba Monofaze 1 Pump+1 Group Lamp Single Phase"
+      },
+      "native": {
+        "default_code": "15015122033",
+        "name": "Zaman Röleli (15015122033)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 330.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "15015122034": {
+      "family_key": "zaman-r-leli-with-timer",
+      "attribute_set_key": "zaman-r-leli-with-timer",
+      "values": {
+        "variant_description": "1 Pompa+1 Grup Lamba Trifaze 1 Pump+1 Group Lamp Three Phase"
+      },
+      "native": {
+        "default_code": "15015122034",
+        "name": "Zaman Röleli (15015122034)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 420.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "15015122035": {
+      "family_key": "zaman-r-leli-with-timer",
+      "attribute_set_key": "zaman-r-leli-with-timer",
+      "values": {
+        "variant_description": "2 Pompa+2 Grup Lamba Monofaze 2 Pump+2 Group Lamp Single Phase"
+      },
+      "native": {
+        "default_code": "15015122035",
+        "name": "Zaman Röleli (15015122035)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 488.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "15015122036": {
+      "family_key": "zaman-r-leli-with-timer",
+      "attribute_set_key": "zaman-r-leli-with-timer",
+      "values": {
+        "variant_description": "2 Pompa+2 Grup Lamba Trifaze 2 Pump+2 Group Lamp Three Phase"
+      },
+      "native": {
+        "default_code": "15015122036",
+        "name": "Zaman Röleli (15015122036)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 594.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "15015122046": {
+      "family_key": "zaman-r-leli-with-timer",
+      "attribute_set_key": "zaman-r-leli-with-timer",
+      "values": {
+        "variant_description": "3 Pompa+3 Grup Lamba Monofaze 3 Pump+3 Group Lamp Single Phase"
+      },
+      "native": {
+        "default_code": "15015122046",
+        "name": "Zaman Röleli (15015122046)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 636.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "15015122047": {
+      "family_key": "zaman-r-leli-with-timer",
+      "attribute_set_key": "zaman-r-leli-with-timer",
+      "values": {
+        "variant_description": "3 Pompa+3 Grup Lamba Trifaze 3 Pump+3 Group Lamp Three Phase"
+      },
+      "native": {
+        "default_code": "15015122047",
+        "name": "Zaman Röleli (15015122047)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 762.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "19810123080": {
+      "family_key": "senkron-smart-dalg-pompa-senkron-smart-submersible-pump",
+      "attribute_set_key": "senkron-smart-dalg-pompa-senkron-smart-submersible-pump",
+      "values": {
+        "power_kw": 0.55,
+        "flow_m3h": 10.0,
+        "head_m": 8.5,
+        "voltage": "220V / 50 Hz",
+        "cable_length_m": 10.0,
+        "variant_description": "Dalgıç Pompa Submersible Pump"
+      },
+      "native": {
+        "default_code": "19810123080",
+        "name": "Senkron Smart Dalgıç Pompa (19810123080)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 110.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "11516262039": {
+      "family_key": "senkron-smart-dalg-pompa-senkron-smart-submersible-pump",
+      "attribute_set_key": "senkron-smart-dalg-pompa-senkron-smart-submersible-pump",
+      "values": {
+        "flow_m3h": 10.0,
+        "head_m": 8.5,
+        "voltage": "220V / 50 Hz",
+        "cable_length_m": 10.0,
+        "variant_description": "Havuz Örtüsü Dalgıç Pompası Submersible Pump for Pool Cover"
+      },
+      "native": {
+        "default_code": "11516262039",
+        "name": "Senkron Smart Dalgıç Pompa (11516262039)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 150.0
+          }
+        ],
+        "category_code": "01"
+      }
+    },
+    "19810123081": {
+      "family_key": "senkron-smart-dalg-pompa-senkron-smart-submersible-pump",
+      "attribute_set_key": "senkron-smart-dalg-pompa-senkron-smart-submersible-pump",
+      "values": {
+        "power_kw": 0.55,
+        "flow_m3h": 10.0,
+        "head_m": 8.0,
+        "voltage": "220V / 50 Hz",
+        "cable_length_m": 10.0,
+        "variant_description": "Dalgıç Pompa Submersible Pump"
+      },
+      "native": {
+        "default_code": "19810123081",
+        "name": "Senkron Smart Dalgıç Pompa (19810123081)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 90.0
+          }
+        ],
+        "category_code": "01"
+      }
+    }
+  }
+}

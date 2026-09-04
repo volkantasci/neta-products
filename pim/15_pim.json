@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "generator": "pim/generate_pim_json.py",
+    "generated_at": "2026-09-04",
+    "source_files": [
+      "15_Fiberglass_Yer_Ustu_Havuzlar_Spalar__Fiberglass_Above_Ground_Pools_Spas.json",
+      "15_Fiberglass_Yer_Ustu_Havuzlar_Spalar__Fiberglass_Above_Ground_Pools_Spas_attributes.json"
+    ],
+    "category_no": "15",
+    "category_tr": "Fiberglass, Yer Üstü Havuzlar, Spalar",
+    "category_en": "Fiberglass, Above Ground Pools, Spas",
+    "odoo_model": "product.template",
+    "pim_modules": [
+      "attribute_set",
+      "product_attribute_set",
+      "pim"
+    ],
+    "technical_name_prefix": "swim",
+    "family_count": 1,
+    "variant_count": 1,
+    "import_order": [
+      "attribute_groups",
+      "attribute_sets (ustten alta, parent once)",
+      "attributes (custom -> ir.model.fields; native -> field_id)",
+      "attribute.option kayitlari (select/multiselect icin)",
+      "product_category (varsayilan set baglanti)",
+      "product_values (product.template + x_ alan degerleri)"
+    ],
+    "design_notes": [
+      "Set hiyerarşisi attribute.set.parent_id ile kurulur; alt setler üst setin niteliklerini kalıtır (complete_attribute_ids).",
+      "Kategori genelinde ortak nitelikler kök sette; yalnızca alt gruplarda görülen nitelikler ilgili ara/aile setine bağlanır (ör. kum kapasitesi yalnızca Kum Filtreleri setinde).",
+      "Bir nitelik birden fazla sete bağlanabilir (attribute_set_ids m2m): grain_size hem 25 Mikron hem Filtre Medyaları setinde.",
+      "serialized=False seçildi; gerçek kolon arama/filtreleme/gruplama avantajı sağlar. Yüzlerce niteliğe çıkılırsa serialized=True önerilir (x_custom_json_attrs JSON blob).",
+      "Ağırlık doğal (native) nitelik olarak product.template.weight alanına bağlandı; ambalaj ağırlığı (25 kg çuvallar) da bu alana yazılır.",
+      "select/multiselect nitelikler attribute.option kayıtlarıyla normalize edildi; serbest metin yerine seçim listesi kullanılarak veri tutarlılığı sağlanır.",
+      "Urun adi (name) aile başlığı + model; model yoksa aile başlığı + koddan üretilir. default_code her zaman koddur."
+    ],
+    "data_quality_notes": [
+      "Ikon değerleri normalize edildi (yildiz/tire temizligi, 'RESIDENTAL' -> 'RESIDENTIAL', '- POOL PLUMBING LINES' -> 'POOL PLUMBING LINES').",
+      "6 yollu vanalarda büyük 'Ø' disli, küçük 'ø' yapistirma baglantiyi belirtir; secenek etiketleri buna gore aciklastirildi.",
+      "ap_diameter alani iki anlamda kullaniliyor: sayisal degerler filtre capi (diameter_mm), aralik degerler ('0,5-1,2 mm') tane boyutu (grain_size) olarak ayristirildi.",
+      "'ambalaj_packing' ('25 kg') degeri urunun gercek agirligi oldugu icin native weight alanina yazildi.",
+      "Rotex ailesinde family spec 'max_pressure_bar=1.5' ile variant tablosundaki 'MAX. CALISMA BASINCI 2,5 bar' celisiyor; her ikisi ayri nitelikte (kok 'Maks. Basinc' ve kum filtre 'Maks. Calisma Basinci') tasindi, gozden gecirilmeli.",
+      "Lamex tablolarindaki 1.050+ mm capli satirlar kum filtreler icin dogrudur; PDF'te pompa bolumune tasmasi kaynak cikarimidir (02 kategorisinde zaten yer alirlar).",
+      "Rotex aile tablosunda Woundex ile ayni kodlu satirlar var (12015123100-03); urun atamalari Woundex tarafindadir ve cift uretim engellendi.",
+      "bullets_tr listesi bazi ailelerde TR+EN satirlari icerir; highlights alani kaynagini birebir tasir.",
+      "Zeolit ailesi kaynak PDF'te skimmer, havuz ortusu, merdiven gibi diger urunleri de kapsar; set adi 'Zeolit ve Diger Urunler' olarak duzenlendi."
+    ]
+  },
+  "attribute_groups": [
+    {
+      "key": "general",
+      "name": "Genel",
+      "name_en": "General",
+      "sequence": 10
+    }
+  ],
+  "attribute_sets": [
+    {
+      "key": "fiberglass-spas",
+      "name": "Fiberglass, Yer Üstü Havuzlar, Spalar",
+      "name_en": "Fiberglass, Above Ground Pools, Spas",
+      "parent_key": null,
+      "sequence": 10,
+      "is_root": true
+    },
+    {
+      "key": "sonsuz-y-z-endless-swimming",
+      "name": "Sonsuz Yüzüş (Endless Swimming)",
+      "name_en": "Endless Swimming",
+      "parent_key": "fiberglass-spas",
+      "sequence": 10,
+      "family_product_id": "sonsuz-y-z-endless-swimming",
+      "family_variant_count": 1
+    }
+  ],
+  "attributes": [
+    {
+      "key": "intensity_levels",
+      "name": "x_swim_intensity_levels",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Zorluk Seviyesi",
+      "field_description_en": "Intensity Levels",
+      "attribute_type": "integer",
+      "serialized": false,
+      "widget": null,
+      "group_key": "general",
+      "set_keys": [
+        "fiberglass-spas"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.zorluk_sevi_yesi_intensity_levels",
+      "options": [],
+      "option_map": {}
+    }
+  ],
+  "product_category": {
+    "code": "15",
+    "name": "Fiberglass, Yer Üstü Havuzlar, Spalar",
+    "name_en": "Fiberglass, Above Ground Pools, Spas",
+    "parent": null,
+    "default_attribute_set_key": "fiberglass-spas"
+  },
+  "family_values": {
+    "sonsuz-y-z-endless-swimming": {}
+  },
+  "product_values": {
+    "PSFAC58517": {
+      "family_key": "sonsuz-y-z-endless-swimming",
+      "attribute_set_key": "sonsuz-y-z-endless-swimming",
+      "values": {
+        "intensity_levels": 8
+      },
+      "native": {
+        "default_code": "PSFAC58517",
+        "name": "Sonsuz Yüzüş (Endless Swimming) (PSFAC58517)",
+        "prices": [
+          {
+            "currency": "USD",
+            "price": 1710.0
+          }
+        ],
+        "category_code": "15"
+      }
+    }
+  }
+}

@@ -1,0 +1,1057 @@
+{
+  "meta": {
+    "generator": "pim/generate_pim_json.py",
+    "generated_at": "2026-09-04",
+    "source_files": [
+      "14_Olimpik_Havuz_Urunleri__Olympic_Pool_Products.json",
+      "14_Olimpik_Havuz_Urunleri__Olympic_Pool_Products_attributes.json"
+    ],
+    "category_no": "14",
+    "category_tr": "Olimpik Havuz Ürünleri",
+    "category_en": "Olympic Pool Products",
+    "odoo_model": "product.template",
+    "pim_modules": [
+      "attribute_set",
+      "product_attribute_set",
+      "pim"
+    ],
+    "technical_name_prefix": "olympic",
+    "family_count": 18,
+    "variant_count": 35,
+    "import_order": [
+      "attribute_groups",
+      "attribute_sets (ustten alta, parent once)",
+      "attributes (custom -> ir.model.fields; native -> field_id)",
+      "attribute.option kayitlari (select/multiselect icin)",
+      "product_category (varsayilan set baglanti)",
+      "product_values (product.template + x_ alan degerleri)"
+    ],
+    "design_notes": [
+      "Set hiyerarşisi attribute.set.parent_id ile kurulur; alt setler üst setin niteliklerini kalıtır (complete_attribute_ids).",
+      "Kategori genelinde ortak nitelikler kök sette; yalnızca alt gruplarda görülen nitelikler ilgili ara/aile setine bağlanır (ör. kum kapasitesi yalnızca Kum Filtreleri setinde).",
+      "Bir nitelik birden fazla sete bağlanabilir (attribute_set_ids m2m): grain_size hem 25 Mikron hem Filtre Medyaları setinde.",
+      "serialized=False seçildi; gerçek kolon arama/filtreleme/gruplama avantajı sağlar. Yüzlerce niteliğe çıkılırsa serialized=True önerilir (x_custom_json_attrs JSON blob).",
+      "Ağırlık doğal (native) nitelik olarak product.template.weight alanına bağlandı; ambalaj ağırlığı (25 kg çuvallar) da bu alana yazılır.",
+      "select/multiselect nitelikler attribute.option kayıtlarıyla normalize edildi; serbest metin yerine seçim listesi kullanılarak veri tutarlılığı sağlanır.",
+      "Urun adi (name) aile başlığı + model; model yoksa aile başlığı + koddan üretilir. default_code her zaman koddur."
+    ],
+    "data_quality_notes": [
+      "Ikon değerleri normalize edildi (yildiz/tire temizligi, 'RESIDENTAL' -> 'RESIDENTIAL', '- POOL PLUMBING LINES' -> 'POOL PLUMBING LINES').",
+      "6 yollu vanalarda büyük 'Ø' disli, küçük 'ø' yapistirma baglantiyi belirtir; secenek etiketleri buna gore aciklastirildi.",
+      "ap_diameter alani iki anlamda kullaniliyor: sayisal degerler filtre capi (diameter_mm), aralik degerler ('0,5-1,2 mm') tane boyutu (grain_size) olarak ayristirildi.",
+      "'ambalaj_packing' ('25 kg') degeri urunun gercek agirligi oldugu icin native weight alanina yazildi.",
+      "Rotex ailesinde family spec 'max_pressure_bar=1.5' ile variant tablosundaki 'MAX. CALISMA BASINCI 2,5 bar' celisiyor; her ikisi ayri nitelikte (kok 'Maks. Basinc' ve kum filtre 'Maks. Calisma Basinci') tasindi, gozden gecirilmeli.",
+      "Lamex tablolarindaki 1.050+ mm capli satirlar kum filtreler icin dogrudur; PDF'te pompa bolumune tasmasi kaynak cikarimidir (02 kategorisinde zaten yer alirlar).",
+      "Rotex aile tablosunda Woundex ile ayni kodlu satirlar var (12015123100-03); urun atamalari Woundex tarafindadir ve cift uretim engellendi.",
+      "bullets_tr listesi bazi ailelerde TR+EN satirlari icerir; highlights alani kaynagini birebir tasir.",
+      "Zeolit ailesi kaynak PDF'te skimmer, havuz ortusu, merdiven gibi diger urunleri de kapsar; set adi 'Zeolit ve Diger Urunler' olarak duzenlendi."
+    ]
+  },
+  "attribute_groups": [
+    {
+      "key": "general",
+      "name": "Genel",
+      "name_en": "General",
+      "sequence": 10
+    },
+    {
+      "key": "physical",
+      "name": "Fiziksel Özellikler",
+      "name_en": "Physical Specs",
+      "sequence": 20
+    }
+  ],
+  "attribute_sets": [
+    {
+      "key": "olympic-pool",
+      "name": "Olimpik Havuz Ürünleri",
+      "name_en": "Olympic Pool Products",
+      "parent_key": null,
+      "sequence": 10,
+      "is_root": true
+    },
+    {
+      "key": "kulvar-sistemleri",
+      "name": "Kulvar Sistemleri",
+      "name_en": "Lane Systems",
+      "parent_key": "olympic-pool",
+      "sequence": 20
+    },
+    {
+      "key": "atlama-platformlari",
+      "name": "Atlama Platformları",
+      "name_en": "Starting Blocks",
+      "parent_key": "olympic-pool",
+      "sequence": 30
+    },
+    {
+      "key": "yaris-ekipmanlari",
+      "name": "Yarış Ekipmanları",
+      "name_en": "Racing Equipment",
+      "parent_key": "olympic-pool",
+      "sequence": 40
+    },
+    {
+      "key": "4-5-6-number-products",
+      "name": "Kulvar Bağlantı ve Topları",
+      "name_en": "Lane Connectors & Balls",
+      "parent_key": "kulvar-sistemleri",
+      "sequence": 10,
+      "family_product_id": "4-5-6-number-products",
+      "family_variant_count": 6
+    },
+    {
+      "key": "kulvar-seperat-r-y-zd-r-c-ve-toplar-lane-separator-floater-a",
+      "name": "Kulvar Ayracı",
+      "name_en": "Lane Ropes",
+      "parent_key": "kulvar-sistemleri",
+      "sequence": 20,
+      "family_product_id": "kulvar-seperat-r-y-zd-r-c-ve-toplar-lane-separator-floater-a",
+      "family_variant_count": 6
+    },
+    {
+      "key": "kulvar-sarma-tamburu-float-lines-roller",
+      "name": "Kulvar Sarma Tamburu",
+      "name_en": "Float Lines Roller",
+      "parent_key": "kulvar-sistemleri",
+      "sequence": 30,
+      "family_product_id": "kulvar-sarma-tamburu-float-lines-roller",
+      "family_variant_count": 2
+    },
+    {
+      "key": "seperat-r-ankra-bronz-d-k-m-kromajl-bronze-casting-and-chrom",
+      "name": "Kulvar Ayracı Ankrajı (Bronz Döküm, Kromajlı)",
+      "name_en": "Lane Anchor (Bronze Casting, Chromed)",
+      "parent_key": "kulvar-sistemleri",
+      "sequence": 40,
+      "family_product_id": "seperat-r-ankra-bronz-d-k-m-kromajl-bronze-casting-and-chrom",
+      "family_variant_count": 1
+    },
+    {
+      "key": "gerdirme-ubu-u-double-edged-hooked-brass",
+      "name": "Gerdirme Çubuğu (Pirinç)",
+      "name_en": "Tension Rod (Brass)",
+      "parent_key": "kulvar-sistemleri",
+      "sequence": 50,
+      "family_product_id": "gerdirme-ubu-u-double-edged-hooked-brass",
+      "family_variant_count": 1
+    },
+    {
+      "key": "seperat-r-gerdirici-bronz-d-k-m-kromajl-spring-model-sunborn",
+      "name": "Kulvar Gerdiricisi (Yaylı, Bronz Döküm)",
+      "name_en": "Lane Tensioner (Spring, Bronze Casting)",
+      "parent_key": "kulvar-sistemleri",
+      "sequence": 60,
+      "family_product_id": "seperat-r-gerdirici-bronz-d-k-m-kromajl-spring-model-sunborn",
+      "family_variant_count": 1
+    },
+    {
+      "key": "seperat-r-kancas-makaral-float-line-hook",
+      "name": "Kulvar Kancası (Makaralı)",
+      "name_en": "Float Line Hook (Pulley)",
+      "parent_key": "kulvar-sistemleri",
+      "sequence": 70,
+      "family_product_id": "seperat-r-kancas-makaral-float-line-hook",
+      "family_variant_count": 1
+    },
+    {
+      "key": "ask-kancas-emniyet-mandal-hook-with-safety-latch",
+      "name": "Aski Kancası (Emniyet Mandalı)",
+      "name_en": "Hanging Hook (Safety Latch)",
+      "parent_key": "kulvar-sistemleri",
+      "sequence": 80,
+      "family_product_id": "ask-kancas-emniyet-mandal-hook-with-safety-latch",
+      "family_variant_count": 1
+    },
+    {
+      "key": "su-st-ba-lama-halkas-overhead-bracket",
+      "name": "Tavan Bağlama Halkası",
+      "name_en": "Overhead Bracket",
+      "parent_key": "kulvar-sistemleri",
+      "sequence": 90,
+      "family_product_id": "su-st-ba-lama-halkas-overhead-bracket",
+      "family_variant_count": 1
+    },
+    {
+      "key": "sabit-atlama-platformu-fixed-starting-blocks",
+      "name": "Sabit Atlama Platformu",
+      "name_en": "Fixed Starting Block",
+      "parent_key": "atlama-platformlari",
+      "sequence": 100,
+      "family_product_id": "sabit-atlama-platformu-fixed-starting-blocks",
+      "family_variant_count": 2
+    },
+    {
+      "key": "sabit-2-basamakl-atlama-platformu-fixed-2-step-starting-plat",
+      "name": "Sabit 2 Basamaklı Atlama Platformu",
+      "name_en": "Fixed 2-Step Starting Block",
+      "parent_key": "atlama-platformlari",
+      "sequence": 110,
+      "family_product_id": "sabit-2-basamakl-atlama-platformu-fixed-2-step-starting-plat",
+      "family_variant_count": 1
+    },
+    {
+      "key": "ayarlanabilir-atlama-platformu-adjustable-starting-blocks",
+      "name": "Ayarlanabilir Atlama Platformu",
+      "name_en": "Adjustable Starting Block",
+      "parent_key": "atlama-platformlari",
+      "sequence": 120,
+      "family_product_id": "ayarlanabilir-atlama-platformu-adjustable-starting-blocks",
+      "family_variant_count": 2
+    },
+    {
+      "key": "beton-tip-ankraj-concrete-type-anchor",
+      "name": "Beton Tip Ankraj",
+      "name_en": "Concrete Type Anchor",
+      "parent_key": "atlama-platformlari",
+      "sequence": 130,
+      "family_product_id": "beton-tip-ankraj-concrete-type-anchor",
+      "family_variant_count": 1
+    },
+    {
+      "key": "fil-sava-tip-ankraj-finnish-inclined-type-anchor",
+      "name": "Fil Ayağı Tip Ankraj",
+      "name_en": "Finnish Inclined Anchor",
+      "parent_key": "atlama-platformlari",
+      "sequence": 140,
+      "family_product_id": "fil-sava-tip-ankraj-finnish-inclined-type-anchor",
+      "family_variant_count": 1
+    },
+    {
+      "key": "yanl-k-i-kaz-dire-i-false-start-indicator",
+      "name": "Yanlış Başlama Direği",
+      "name_en": "False Start Indicator",
+      "parent_key": "yaris-ekipmanlari",
+      "sequence": 150,
+      "family_product_id": "yanl-k-i-kaz-dire-i-false-start-indicator",
+      "family_variant_count": 2
+    },
+    {
+      "key": "geri-d-n-i-kaz-dire-i-backstroke-turn-indicators",
+      "name": "Sırt Üstü Dönüş Direği",
+      "name_en": "Backstroke Turn Indicator",
+      "parent_key": "yaris-ekipmanlari",
+      "sequence": 160,
+      "family_product_id": "geri-d-n-i-kaz-dire-i-backstroke-turn-indicators",
+      "family_variant_count": 2
+    },
+    {
+      "key": "d-n-paneli-ve-deste-i-return-panel-and-bracket",
+      "name": "Dönüş Paneli ve Desteği",
+      "name_en": "Return Panel and Bracket",
+      "parent_key": "yaris-ekipmanlari",
+      "sequence": 170,
+      "family_product_id": "d-n-paneli-ve-deste-i-return-panel-and-bracket",
+      "family_variant_count": 3
+    },
+    {
+      "key": "can-kurtaran-hakem-koltu-u-life-guard-chair",
+      "name": "Can Kurtaran Hakem Koltuğu",
+      "name_en": "Life Guard Chair",
+      "parent_key": "yaris-ekipmanlari",
+      "sequence": 180,
+      "family_product_id": "can-kurtaran-hakem-koltu-u-life-guard-chair",
+      "family_variant_count": 1
+    }
+  ],
+  "attributes": [
+    {
+      "key": "model",
+      "name": "x_olympic_model",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Ürün Adı",
+      "field_description_en": "Product Name",
+      "attribute_type": "char",
+      "serialized": false,
+      "widget": null,
+      "group_key": "general",
+      "set_keys": [
+        "olympic-pool"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.model",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "color",
+      "name": "x_olympic_color",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Renk",
+      "field_description_en": "Color",
+      "attribute_type": "select",
+      "serialized": false,
+      "widget": null,
+      "group_key": "general",
+      "set_keys": [
+        "olympic-pool"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.model",
+      "options": [
+        "Kırmızı",
+        "Mavi",
+        "Beyaz"
+      ],
+      "option_map": {
+        "kırmızı": "Kırmızı",
+        "mavi": "Mavi",
+        "beyaz": "Beyaz"
+      }
+    },
+    {
+      "key": "length_m",
+      "name": "x_olympic_length_m",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Uzunluk (m)",
+      "field_description_en": "Length (m)",
+      "attribute_type": "float",
+      "serialized": false,
+      "widget": null,
+      "group_key": "physical",
+      "set_keys": [
+        "olympic-pool"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.uzunluk_lenght | uzunluk_mt_length_mt",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "steps",
+      "name": "x_olympic_steps",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Basamak Sayısı",
+      "field_description_en": "Steps",
+      "attribute_type": "integer",
+      "serialized": false,
+      "widget": null,
+      "group_key": "physical",
+      "set_keys": [
+        "olympic-pool"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.basamak_step",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "height_cm",
+      "name": "x_olympic_height_cm",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Yükseklik (cm)",
+      "field_description_en": "Height (cm)",
+      "attribute_type": "float",
+      "serialized": false,
+      "widget": null,
+      "group_key": "physical",
+      "set_keys": [
+        "olympic-pool"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.y_ksekli_k_cm_height_cm",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "weight",
+      "name": "weight",
+      "nature": "native",
+      "native_field": "weight",
+      "field_description": "Ağırlık (kg)",
+      "field_description_en": "Weight (kg)",
+      "attribute_type": "float",
+      "serialized": false,
+      "widget": null,
+      "group_key": "physical",
+      "set_keys": [
+        "olympic-pool"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.a_irlik_weight",
+      "options": [],
+      "option_map": {}
+    }
+  ],
+  "product_category": {
+    "code": "14",
+    "name": "Olimpik Havuz Ürünleri",
+    "name_en": "Olympic Pool Products",
+    "parent": null,
+    "default_attribute_set_key": "olympic-pool"
+  },
+  "family_values": {
+    "4-5-6-number-products": {},
+    "kulvar-seperat-r-y-zd-r-c-ve-toplar-lane-separator-floater-a": {},
+    "sabit-atlama-platformu-fixed-starting-blocks": {},
+    "sabit-2-basamakl-atlama-platformu-fixed-2-step-starting-plat": {},
+    "ayarlanabilir-atlama-platformu-adjustable-starting-blocks": {},
+    "beton-tip-ankraj-concrete-type-anchor": {},
+    "fil-sava-tip-ankraj-finnish-inclined-type-anchor": {},
+    "seperat-r-ankra-bronz-d-k-m-kromajl-bronze-casting-and-chrom": {},
+    "gerdirme-ubu-u-double-edged-hooked-brass": {},
+    "seperat-r-gerdirici-bronz-d-k-m-kromajl-spring-model-sunborn": {},
+    "seperat-r-kancas-makaral-float-line-hook": {},
+    "ask-kancas-emniyet-mandal-hook-with-safety-latch": {},
+    "su-st-ba-lama-halkas-overhead-bracket": {},
+    "kulvar-sarma-tamburu-float-lines-roller": {},
+    "yanl-k-i-kaz-dire-i-false-start-indicator": {},
+    "geri-d-n-i-kaz-dire-i-backstroke-turn-indicators": {},
+    "d-n-paneli-ve-deste-i-return-panel-and-bracket": {},
+    "can-kurtaran-hakem-koltu-u-life-guard-chair": {}
+  },
+  "product_values": {
+    "13515123002": {
+      "family_key": "4-5-6-number-products",
+      "attribute_set_key": "4-5-6-number-products",
+      "values": {
+        "color": "Kırmızı",
+        "model": "dişi / erkek"
+      },
+      "native": {
+        "default_code": "13515123002",
+        "name": "Kulvar Bağlantı ve Topları dişi / erkek (Kırmızı)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 0.5
+          }
+        ],
+        "category_code": "14"
+      }
+    },
+    "13515123016": {
+      "family_key": "4-5-6-number-products",
+      "attribute_set_key": "4-5-6-number-products",
+      "values": {
+        "color": "Mavi",
+        "model": "dişi / erkek"
+      },
+      "native": {
+        "default_code": "13515123016",
+        "name": "Kulvar Bağlantı ve Topları dişi / erkek (Mavi)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 0.5
+          }
+        ],
+        "category_code": "14"
+      }
+    },
+    "13515123019": {
+      "family_key": "4-5-6-number-products",
+      "attribute_set_key": "4-5-6-number-products",
+      "values": {
+        "color": "Beyaz",
+        "model": "dişi / erkek"
+      },
+      "native": {
+        "default_code": "13515123019",
+        "name": "Kulvar Bağlantı ve Topları dişi / erkek (Beyaz)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 0.5
+          }
+        ],
+        "category_code": "14"
+      }
+    },
+    "13515123006": {
+      "family_key": "4-5-6-number-products",
+      "attribute_set_key": "4-5-6-number-products",
+      "values": {
+        "color": "Beyaz",
+        "model": "kulvar topu"
+      },
+      "native": {
+        "default_code": "13515123006",
+        "name": "Kulvar Bağlantı ve Topları kulvar topu (Beyaz)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 0.5
+          }
+        ],
+        "category_code": "14"
+      }
+    },
+    "13515123007": {
+      "family_key": "4-5-6-number-products",
+      "attribute_set_key": "4-5-6-number-products",
+      "values": {
+        "color": "Kırmızı",
+        "model": "kulvar topu"
+      },
+      "native": {
+        "default_code": "13515123007",
+        "name": "Kulvar Bağlantı ve Topları kulvar topu (Kırmızı)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 0.5
+          }
+        ],
+        "category_code": "14"
+      }
+    },
+    "13515123008": {
+      "family_key": "4-5-6-number-products",
+      "attribute_set_key": "4-5-6-number-products",
+      "values": {
+        "color": "Mavi",
+        "model": "kulvar topu"
+      },
+      "native": {
+        "default_code": "13515123008",
+        "name": "Kulvar Bağlantı ve Topları kulvar topu (Mavi)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 0.5
+          }
+        ],
+        "category_code": "14"
+      }
+    },
+    "13515123010": {
+      "family_key": "kulvar-seperat-r-y-zd-r-c-ve-toplar-lane-separator-floater-a",
+      "attribute_set_key": "kulvar-seperat-r-y-zd-r-c-ve-toplar-lane-separator-floater-a",
+      "values": {
+        "length_m": 25.0,
+        "model": "Seul"
+      },
+      "native": {
+        "default_code": "13515123010",
+        "name": "Kulvar Ayracı Seul (25 m)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 476.0
+          }
+        ],
+        "category_code": "14"
+      }
+    },
+    "13515123011": {
+      "family_key": "kulvar-seperat-r-y-zd-r-c-ve-toplar-lane-separator-floater-a",
+      "attribute_set_key": "kulvar-seperat-r-y-zd-r-c-ve-toplar-lane-separator-floater-a",
+      "values": {
+        "length_m": 50.0,
+        "model": "Seul"
+      },
+      "native": {
+        "default_code": "13515123011",
+        "name": "Kulvar Ayracı Seul (50 m)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 961.0
+          }
+        ],
+        "category_code": "14"
+      }
+    },
+    "13515123012": {
+      "family_key": "kulvar-seperat-r-y-zd-r-c-ve-toplar-lane-separator-floater-a",
+      "attribute_set_key": "kulvar-seperat-r-y-zd-r-c-ve-toplar-lane-separator-floater-a",
+      "values": {
+        "length_m": 25.0,
+        "model": "Moskova"
+      },
+      "native": {
+        "default_code": "13515123012",
+        "name": "Kulvar Ayracı Moskova (25 m)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 512.0
+          }
+        ],
+        "category_code": "14"
+      }
+    },
+    "13515123013": {
+      "family_key": "kulvar-seperat-r-y-zd-r-c-ve-toplar-lane-separator-floater-a",
+      "attribute_set_key": "kulvar-seperat-r-y-zd-r-c-ve-toplar-lane-separator-floater-a",
+      "values": {
+        "length_m": 50.0,
+        "model": "Moskova"
+      },
+      "native": {
+        "default_code": "13515123013",
+        "name": "Kulvar Ayracı Moskova (50 m)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 1100.0
+          }
+        ],
+        "category_code": "14"
+      }
+    },
+    "13515123014": {
+      "family_key": "kulvar-seperat-r-y-zd-r-c-ve-toplar-lane-separator-floater-a",
+      "attribute_set_key": "kulvar-seperat-r-y-zd-r-c-ve-toplar-lane-separator-floater-a",
+      "values": {
+        "length_m": 25.0,
+        "model": "Roma"
+      },
+      "native": {
+        "default_code": "13515123014",
+        "name": "Kulvar Ayracı Roma (25 m)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 270.0
+          }
+        ],
+        "category_code": "14"
+      }
+    },
+    "13515123015": {
+      "family_key": "kulvar-seperat-r-y-zd-r-c-ve-toplar-lane-separator-floater-a",
+      "attribute_set_key": "kulvar-seperat-r-y-zd-r-c-ve-toplar-lane-separator-floater-a",
+      "values": {
+        "length_m": 50.0,
+        "model": "Roma"
+      },
+      "native": {
+        "default_code": "13515123015",
+        "name": "Kulvar Ayracı Roma (50 m)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 560.0
+          }
+        ],
+        "category_code": "14"
+      }
+    },
+    "13516123001": {
+      "family_key": "sabit-atlama-platformu-fixed-starting-blocks",
+      "attribute_set_key": "sabit-atlama-platformu-fixed-starting-blocks",
+      "values": {
+        "steps": 1,
+        "height_cm": 40.0
+      },
+      "native": {
+        "default_code": "13516123001",
+        "name": "Sabit Atlama Platformu (13516123001)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 630.0
+          }
+        ],
+        "category_code": "14"
+      }
+    },
+    "13516132003": {
+      "family_key": "sabit-atlama-platformu-fixed-starting-blocks",
+      "attribute_set_key": "sabit-atlama-platformu-fixed-starting-blocks",
+      "values": {
+        "steps": 2,
+        "height_cm": 70.0
+      },
+      "native": {
+        "default_code": "13516132003",
+        "name": "Sabit Atlama Platformu (13516132003)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 745.0
+          }
+        ],
+        "category_code": "14"
+      }
+    },
+    "13516123002": {
+      "family_key": "sabit-2-basamakl-atlama-platformu-fixed-2-step-starting-plat",
+      "attribute_set_key": "sabit-2-basamakl-atlama-platformu-fixed-2-step-starting-plat",
+      "values": {
+        "steps": 2,
+        "height_cm": 60.0
+      },
+      "native": {
+        "default_code": "13516123002",
+        "name": "Sabit 2 Basamaklı Atlama Platformu (13516123002)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 720.0
+          }
+        ],
+        "category_code": "14"
+      }
+    },
+    "13516132001": {
+      "family_key": "ayarlanabilir-atlama-platformu-adjustable-starting-blocks",
+      "attribute_set_key": "ayarlanabilir-atlama-platformu-adjustable-starting-blocks",
+      "values": {
+        "steps": 1,
+        "height_cm": 40.0
+      },
+      "native": {
+        "default_code": "13516132001",
+        "name": "Ayarlanabilir Atlama Platformu (13516132001)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 850.0
+          }
+        ],
+        "category_code": "14"
+      }
+    },
+    "13516132002": {
+      "family_key": "ayarlanabilir-atlama-platformu-adjustable-starting-blocks",
+      "attribute_set_key": "ayarlanabilir-atlama-platformu-adjustable-starting-blocks",
+      "values": {
+        "steps": 2,
+        "height_cm": 70.0
+      },
+      "native": {
+        "default_code": "13516132002",
+        "name": "Ayarlanabilir Atlama Platformu (13516132002)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 1068.0
+          }
+        ],
+        "category_code": "14"
+      }
+    },
+    "13517122008": {
+      "family_key": "beton-tip-ankraj-concrete-type-anchor",
+      "attribute_set_key": "beton-tip-ankraj-concrete-type-anchor",
+      "values": {
+        "weight": 0.44
+      },
+      "native": {
+        "default_code": "13517122008",
+        "name": "Beton Tip Ankraj (13517122008)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 55.0
+          }
+        ],
+        "category_code": "14"
+      }
+    },
+    "13517122009": {
+      "family_key": "fil-sava-tip-ankraj-finnish-inclined-type-anchor",
+      "attribute_set_key": "fil-sava-tip-ankraj-finnish-inclined-type-anchor",
+      "values": {
+        "weight": 0.44
+      },
+      "native": {
+        "default_code": "13517122009",
+        "name": "Fil Ayağı Tip Ankraj (13517122009)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 48.0
+          }
+        ],
+        "category_code": "14"
+      }
+    },
+    "13517122010": {
+      "family_key": "seperat-r-ankra-bronz-d-k-m-kromajl-bronze-casting-and-chrom",
+      "attribute_set_key": "seperat-r-ankra-bronz-d-k-m-kromajl-bronze-casting-and-chrom",
+      "values": {
+        "weight": 0.5
+      },
+      "native": {
+        "default_code": "13517122010",
+        "name": "Kulvar Ayracı Ankrajı (Bronz Döküm, Kromajlı) (13517122010)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 83.0
+          }
+        ],
+        "category_code": "14"
+      }
+    },
+    "13517122011": {
+      "family_key": "gerdirme-ubu-u-double-edged-hooked-brass",
+      "attribute_set_key": "gerdirme-ubu-u-double-edged-hooked-brass",
+      "values": {
+        "weight": 0.215
+      },
+      "native": {
+        "default_code": "13517122011",
+        "name": "Gerdirme Çubuğu (Pirinç) (13517122011)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 72.0
+          }
+        ],
+        "category_code": "14"
+      }
+    },
+    "13517122012": {
+      "family_key": "seperat-r-gerdirici-bronz-d-k-m-kromajl-spring-model-sunborn",
+      "attribute_set_key": "seperat-r-gerdirici-bronz-d-k-m-kromajl-spring-model-sunborn",
+      "values": {
+        "weight": 0.72
+      },
+      "native": {
+        "default_code": "13517122012",
+        "name": "Kulvar Gerdiricisi (Yaylı, Bronz Döküm) (13517122012)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 165.0
+          }
+        ],
+        "category_code": "14"
+      }
+    },
+    "13517122013": {
+      "family_key": "seperat-r-kancas-makaral-float-line-hook",
+      "attribute_set_key": "seperat-r-kancas-makaral-float-line-hook",
+      "values": {
+        "weight": 0.04
+      },
+      "native": {
+        "default_code": "13517122013",
+        "name": "Kulvar Kancası (Makaralı) (13517122013)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 16.0
+          }
+        ],
+        "category_code": "14"
+      }
+    },
+    "13517122014": {
+      "family_key": "ask-kancas-emniyet-mandal-hook-with-safety-latch",
+      "attribute_set_key": "ask-kancas-emniyet-mandal-hook-with-safety-latch",
+      "values": {
+        "weight": 0.12
+      },
+      "native": {
+        "default_code": "13517122014",
+        "name": "Aski Kancası (Emniyet Mandalı) (13517122014)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 25.0
+          }
+        ],
+        "category_code": "14"
+      }
+    },
+    "13517122015": {
+      "family_key": "su-st-ba-lama-halkas-overhead-bracket",
+      "attribute_set_key": "su-st-ba-lama-halkas-overhead-bracket",
+      "values": {
+        "weight": 0.25
+      },
+      "native": {
+        "default_code": "13517122015",
+        "name": "Tavan Bağlama Halkası (13517122015)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 40.0
+          }
+        ],
+        "category_code": "14"
+      }
+    },
+    "13517122016": {
+      "family_key": "kulvar-sarma-tamburu-float-lines-roller",
+      "attribute_set_key": "kulvar-sarma-tamburu-float-lines-roller",
+      "values": {
+        "length_m": 1.2,
+        "weight": 0.215
+      },
+      "native": {
+        "default_code": "13517122016",
+        "name": "Kulvar Sarma Tamburu (13517122016)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 900.0
+          }
+        ],
+        "category_code": "14"
+      }
+    },
+    "13517122017": {
+      "family_key": "kulvar-sarma-tamburu-float-lines-roller",
+      "attribute_set_key": "kulvar-sarma-tamburu-float-lines-roller",
+      "values": {
+        "length_m": 1.8,
+        "weight": 0.215
+      },
+      "native": {
+        "default_code": "13517122017",
+        "name": "Kulvar Sarma Tamburu (13517122017)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 1100.0
+          }
+        ],
+        "category_code": "14"
+      }
+    },
+    "13517122001": {
+      "family_key": "yanl-k-i-kaz-dire-i-false-start-indicator",
+      "attribute_set_key": "yanl-k-i-kaz-dire-i-false-start-indicator",
+      "values": {
+        "length_m": 12.5
+      },
+      "native": {
+        "default_code": "13517122001",
+        "name": "Yanlış Başlama Direği (13517122001)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 230.0
+          }
+        ],
+        "category_code": "14"
+      }
+    },
+    "13517122002": {
+      "family_key": "yanl-k-i-kaz-dire-i-false-start-indicator",
+      "attribute_set_key": "yanl-k-i-kaz-dire-i-false-start-indicator",
+      "values": {
+        "length_m": 25.0
+      },
+      "native": {
+        "default_code": "13517122002",
+        "name": "Yanlış Başlama Direği (13517122002)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 285.0
+          }
+        ],
+        "category_code": "14"
+      }
+    },
+    "13517122003": {
+      "family_key": "geri-d-n-i-kaz-dire-i-backstroke-turn-indicators",
+      "attribute_set_key": "geri-d-n-i-kaz-dire-i-backstroke-turn-indicators",
+      "values": {
+        "length_m": 12.5
+      },
+      "native": {
+        "default_code": "13517122003",
+        "name": "Sırt Üstü Dönüş Direği (13517122003)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 270.0
+          }
+        ],
+        "category_code": "14"
+      }
+    },
+    "13517122004": {
+      "family_key": "geri-d-n-i-kaz-dire-i-backstroke-turn-indicators",
+      "attribute_set_key": "geri-d-n-i-kaz-dire-i-backstroke-turn-indicators",
+      "values": {
+        "length_m": 25.0
+      },
+      "native": {
+        "default_code": "13517122004",
+        "name": "Sırt Üstü Dönüş Direği (13517122004)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 325.0
+          }
+        ],
+        "category_code": "14"
+      }
+    },
+    "13517122005": {
+      "family_key": "d-n-paneli-ve-deste-i-return-panel-and-bracket",
+      "attribute_set_key": "d-n-paneli-ve-deste-i-return-panel-and-bracket",
+      "values": {
+        "length_m": 2.0
+      },
+      "native": {
+        "default_code": "13517122005",
+        "name": "Dönüş Paneli ve Desteği (13517122005)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 435.0
+          }
+        ],
+        "category_code": "14"
+      }
+    },
+    "13517122006": {
+      "family_key": "d-n-paneli-ve-deste-i-return-panel-and-bracket",
+      "attribute_set_key": "d-n-paneli-ve-deste-i-return-panel-and-bracket",
+      "values": {
+        "length_m": 2.5
+      },
+      "native": {
+        "default_code": "13517122006",
+        "name": "Dönüş Paneli ve Desteği (13517122006)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 490.0
+          }
+        ],
+        "category_code": "14"
+      }
+    },
+    "13517122007": {
+      "family_key": "d-n-paneli-ve-deste-i-return-panel-and-bracket",
+      "attribute_set_key": "d-n-paneli-ve-deste-i-return-panel-and-bracket",
+      "values": {},
+      "native": {
+        "default_code": "13517122007",
+        "name": "Dönüş Paneli ve Desteği (13517122007 (Panel Desteği Panel Support ))",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 390.0
+          }
+        ],
+        "category_code": "14"
+      }
+    },
+    "13021122001": {
+      "family_key": "can-kurtaran-hakem-koltu-u-life-guard-chair",
+      "attribute_set_key": "can-kurtaran-hakem-koltu-u-life-guard-chair",
+      "values": {
+        "length_m": 12.5
+      },
+      "native": {
+        "default_code": "13021122001",
+        "name": "Can Kurtaran Hakem Koltuğu (13021122001)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 1250.0
+          }
+        ],
+        "category_code": "14"
+      }
+    }
+  }
+}

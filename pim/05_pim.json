@@ -1,0 +1,1233 @@
+{
+  "meta": {
+    "generator": "pim/generate_pim_json.py",
+    "generated_at": "2026-09-04",
+    "source_files": [
+      "05_Havuz_Temizlik_Urunleri__Pool_Cleaning_Products.json",
+      "05_Havuz_Temizlik_Urunleri__Pool_Cleaning_Products_attributes.json"
+    ],
+    "category_no": "05",
+    "category_tr": "Havuz Temizlik Ürünleri",
+    "category_en": "Pool Cleaning Products",
+    "odoo_model": "product.template",
+    "pim_modules": [
+      "attribute_set",
+      "product_attribute_set",
+      "pim"
+    ],
+    "technical_name_prefix": "clean",
+    "family_count": 17,
+    "variant_count": 34,
+    "import_order": [
+      "attribute_groups",
+      "attribute_sets (ustten alta, parent once)",
+      "attributes (custom -> ir.model.fields; native -> field_id)",
+      "attribute.option kayitlari (select/multiselect icin)",
+      "product_category (varsayilan set baglanti)",
+      "product_values (product.template + x_ alan degerleri)"
+    ],
+    "design_notes": [
+      "Set hiyerarşisi attribute.set.parent_id ile kurulur; alt setler üst setin niteliklerini kalıtır (complete_attribute_ids).",
+      "Kategori genelinde ortak nitelikler kök sette; yalnızca alt gruplarda görülen nitelikler ilgili ara/aile setine bağlanır (ör. kum kapasitesi yalnızca Kum Filtreleri setinde).",
+      "Bir nitelik birden fazla sete bağlanabilir (attribute_set_ids m2m): grain_size hem 25 Mikron hem Filtre Medyaları setinde.",
+      "serialized=False seçildi; gerçek kolon arama/filtreleme/gruplama avantajı sağlar. Yüzlerce niteliğe çıkılırsa serialized=True önerilir (x_custom_json_attrs JSON blob).",
+      "Ağırlık doğal (native) nitelik olarak product.template.weight alanına bağlandı; ambalaj ağırlığı (25 kg çuvallar) da bu alana yazılır.",
+      "select/multiselect nitelikler attribute.option kayıtlarıyla normalize edildi; serbest metin yerine seçim listesi kullanılarak veri tutarlılığı sağlanır.",
+      "Urun adi (name) aile başlığı + model; model yoksa aile başlığı + koddan üretilir. default_code her zaman koddur."
+    ],
+    "data_quality_notes": [
+      "Ikon değerleri normalize edildi (yildiz/tire temizligi, 'RESIDENTAL' -> 'RESIDENTIAL', '- POOL PLUMBING LINES' -> 'POOL PLUMBING LINES').",
+      "6 yollu vanalarda büyük 'Ø' disli, küçük 'ø' yapistirma baglantiyi belirtir; secenek etiketleri buna gore aciklastirildi.",
+      "ap_diameter alani iki anlamda kullaniliyor: sayisal degerler filtre capi (diameter_mm), aralik degerler ('0,5-1,2 mm') tane boyutu (grain_size) olarak ayristirildi.",
+      "'ambalaj_packing' ('25 kg') degeri urunun gercek agirligi oldugu icin native weight alanina yazildi.",
+      "Rotex ailesinde family spec 'max_pressure_bar=1.5' ile variant tablosundaki 'MAX. CALISMA BASINCI 2,5 bar' celisiyor; her ikisi ayri nitelikte (kok 'Maks. Basinc' ve kum filtre 'Maks. Calisma Basinci') tasindi, gozden gecirilmeli.",
+      "Lamex tablolarindaki 1.050+ mm capli satirlar kum filtreler icin dogrudur; PDF'te pompa bolumune tasmasi kaynak cikarimidir (02 kategorisinde zaten yer alirlar).",
+      "Rotex aile tablosunda Woundex ile ayni kodlu satirlar var (12015123100-03); urun atamalari Woundex tarafindadir ve cift uretim engellendi.",
+      "bullets_tr listesi bazi ailelerde TR+EN satirlari icerir; highlights alani kaynagini birebir tasir.",
+      "Zeolit ailesi kaynak PDF'te skimmer, havuz ortusu, merdiven gibi diger urunleri de kapsar; set adi 'Zeolit ve Diger Urunler' olarak duzenlendi."
+    ]
+  },
+  "attribute_groups": [
+    {
+      "key": "general",
+      "name": "Genel",
+      "name_en": "General",
+      "sequence": 10
+    },
+    {
+      "key": "technical",
+      "name": "Teknik Özellikler",
+      "name_en": "Technical Specs",
+      "sequence": 20
+    },
+    {
+      "key": "electrical",
+      "name": "Elektrik",
+      "name_en": "Electrical",
+      "sequence": 30
+    },
+    {
+      "key": "physical",
+      "name": "Fiziksel Özellikler",
+      "name_en": "Physical Specs",
+      "sequence": 40
+    }
+  ],
+  "attribute_sets": [
+    {
+      "key": "pool-cleaning",
+      "name": "Havuz Temizlik Ürünleri",
+      "name_en": "Pool Cleaning Products",
+      "parent_key": null,
+      "sequence": 10,
+      "is_root": true
+    },
+    {
+      "key": "robotlar",
+      "name": "Havuz Robotları",
+      "name_en": "Pool Robots",
+      "parent_key": "pool-cleaning",
+      "sequence": 20
+    },
+    {
+      "key": "kepce-fircalar",
+      "name": "Kepçe ve Fırçalar",
+      "name_en": "Leaf Scoops & Brushes",
+      "parent_key": "pool-cleaning",
+      "sequence": 30
+    },
+    {
+      "key": "termometreler",
+      "name": "Havuz ve Spa Termometreleri",
+      "name_en": "Pool & Spa Thermometers",
+      "parent_key": "pool-cleaning",
+      "sequence": 40
+    },
+    {
+      "key": "goodrob-easy",
+      "name": "Goodrob Easy",
+      "name_en": "Goodrob Easy",
+      "parent_key": "robotlar",
+      "sequence": 10,
+      "family_product_id": "goodrob-easy",
+      "family_variant_count": 1
+    },
+    {
+      "key": "goodrob-easy-plus",
+      "name": "Goodrob Easy Plus",
+      "name_en": "Goodrob Easy Plus",
+      "parent_key": "robotlar",
+      "sequence": 20,
+      "family_product_id": "goodrob-easy-plus",
+      "family_variant_count": 1
+    },
+    {
+      "key": "goodrob-maxi",
+      "name": "Goodrob Maxi",
+      "name_en": "Goodrob Maxi",
+      "parent_key": "robotlar",
+      "sequence": 30,
+      "family_product_id": "goodrob-maxi",
+      "family_variant_count": 1
+    },
+    {
+      "key": "goodrob-pro",
+      "name": "Goodrob Pro",
+      "name_en": "Goodrob Pro",
+      "parent_key": "robotlar",
+      "sequence": 40,
+      "family_product_id": "goodrob-pro",
+      "family_variant_count": 1
+    },
+    {
+      "key": "goodrob-king-500",
+      "name": "Goodrob King 500",
+      "name_en": "Goodrob King 500",
+      "parent_key": "robotlar",
+      "sequence": 50,
+      "family_product_id": "goodrob-king-500",
+      "family_variant_count": 1
+    },
+    {
+      "key": "goodrob-king-1250",
+      "name": "Goodrob King 1250",
+      "name_en": "Goodrob King 1250",
+      "parent_key": "robotlar",
+      "sequence": 60,
+      "family_product_id": "goodrob-king-1250",
+      "family_variant_count": 1
+    },
+    {
+      "key": "goodrob-king-serisi-yedek-par-alar",
+      "name": "Goodrob King Serisi Yedek Parçaları",
+      "name_en": "Goodrob King Serisi Yedek Parçaları",
+      "parent_key": "robotlar",
+      "sequence": 70,
+      "family_product_id": "goodrob-king-serisi-yedek-par-alar",
+      "family_variant_count": 2
+    },
+    {
+      "key": "poolvac-v-flex",
+      "name": "PoolVac V-Flex",
+      "name_en": "PoolVac V-Flex",
+      "parent_key": "robotlar",
+      "sequence": 80,
+      "family_product_id": "poolvac-v-flex",
+      "family_variant_count": 1
+    },
+    {
+      "key": "tigershark",
+      "name": "TigerShark",
+      "name_en": "TigerShark",
+      "parent_key": "robotlar",
+      "sequence": 90,
+      "family_product_id": "tigershark",
+      "family_variant_count": 1
+    },
+    {
+      "key": "tigershark-qc",
+      "name": "TigerShark QC",
+      "name_en": "TigerShark QC",
+      "parent_key": "robotlar",
+      "sequence": 100,
+      "family_product_id": "tigershark-qc",
+      "family_variant_count": 1
+    },
+    {
+      "key": "tigershark-xl-qc",
+      "name": "TigerShark XL QC",
+      "name_en": "TigerShark XL QC",
+      "parent_key": "robotlar",
+      "sequence": 110,
+      "family_product_id": "tigershark-xl-qc",
+      "family_variant_count": 1
+    },
+    {
+      "key": "tigershark-2",
+      "name": "TigerShark 2",
+      "name_en": "TigerShark 2",
+      "parent_key": "robotlar",
+      "sequence": 120,
+      "family_product_id": "tigershark-2",
+      "family_variant_count": 2
+    },
+    {
+      "key": "havuz-robotu-ta-ma-arabas-caddy-card",
+      "name": "Havuz Robotu Taşıma Arabası",
+      "name_en": "Robot Caddy Cart",
+      "parent_key": "robotlar",
+      "sequence": 130,
+      "family_product_id": "havuz-robotu-ta-ma-arabas-caddy-card",
+      "family_variant_count": 1
+    },
+    {
+      "key": "havuz-kep-eleri-leaf-scoops",
+      "name": "Havuz Kepçeleri",
+      "name_en": "Leaf Scoops",
+      "parent_key": "kepce-fircalar",
+      "sequence": 140,
+      "family_product_id": "havuz-kep-eleri-leaf-scoops",
+      "family_variant_count": 6
+    },
+    {
+      "key": "havuz-f-r-alar-pool-brushes",
+      "name": "Havuz Fırçaları",
+      "name_en": "Pool Brushes",
+      "parent_key": "kepce-fircalar",
+      "sequence": 150,
+      "family_product_id": "havuz-f-r-alar-pool-brushes",
+      "family_variant_count": 4
+    },
+    {
+      "key": "havuz-ve-spa-termometleri",
+      "name": "Havuz ve Spa Termometreleri",
+      "name_en": "Pool & Spa Thermometers",
+      "parent_key": "termometreler",
+      "sequence": 160,
+      "family_product_id": "havuz-ve-spa-termometleri",
+      "family_variant_count": 8
+    },
+    {
+      "key": "magic-eraser-temizlik-s-nger-magic-eraser",
+      "name": "Magic Eraser Temizlik Süngeri",
+      "name_en": "Magic Eraser Cleaning Sponge",
+      "parent_key": "pool-cleaning",
+      "sequence": 170,
+      "family_product_id": "magic-eraser-temizlik-s-nger-magic-eraser",
+      "family_variant_count": 1
+    }
+  ],
+  "attributes": [
+    {
+      "key": "model",
+      "name": "x_clean_model",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Model",
+      "field_description_en": "Model",
+      "attribute_type": "char",
+      "serialized": false,
+      "widget": null,
+      "group_key": "general",
+      "set_keys": [
+        "pool-cleaning"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.model",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "compatibility",
+      "name": "x_clean_compatibility",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Uyumluluk",
+      "field_description_en": "Compatibility",
+      "attribute_type": "char",
+      "serialized": false,
+      "widget": null,
+      "group_key": "general",
+      "set_keys": [
+        "pool-cleaning"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.uyumluluk_compatibility",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "weight",
+      "name": "weight",
+      "nature": "native",
+      "native_field": "weight",
+      "field_description": "Ağırlık (kg)",
+      "field_description_en": "Weight (kg)",
+      "attribute_type": "float",
+      "serialized": false,
+      "widget": null,
+      "group_key": "physical",
+      "set_keys": [
+        "pool-cleaning"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.a_irlik_weight",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "dims",
+      "name": "x_clean_dims",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Ölçüler",
+      "field_description_en": "Dimensions",
+      "attribute_type": "char",
+      "serialized": false,
+      "widget": null,
+      "group_key": "physical",
+      "set_keys": [
+        "pool-cleaning"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.l_ler_size | l_size",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "length_cm",
+      "name": "x_clean_length_cm",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Uzunluk (cm)",
+      "field_description_en": "Length (cm)",
+      "attribute_type": "float",
+      "serialized": false,
+      "widget": null,
+      "group_key": "physical",
+      "set_keys": [
+        "pool-cleaning"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.uzunluk_length",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "material",
+      "name": "x_clean_material",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Malzeme",
+      "field_description_en": "Material",
+      "attribute_type": "char",
+      "serialized": false,
+      "widget": null,
+      "group_key": "physical",
+      "set_keys": [
+        "pool-cleaning"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.malzeme_material",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "pole_length",
+      "name": "x_clean_pole_length",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Sap Uzunluğu",
+      "field_description_en": "Pole Length",
+      "attribute_type": "char",
+      "serialized": false,
+      "widget": null,
+      "group_key": "physical",
+      "set_keys": [
+        "pool-cleaning"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.sap_uzunlu_u_pole_length",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "power_w",
+      "name": "x_clean_power_w",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Güç (W)",
+      "field_description_en": "Power (W)",
+      "attribute_type": "float",
+      "serialized": false,
+      "widget": null,
+      "group_key": "electrical",
+      "set_keys": [
+        "pool-cleaning"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.g_power",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "power_input",
+      "name": "x_clean_power_input",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Güç Girişi",
+      "field_description_en": "Power Input",
+      "attribute_type": "char",
+      "serialized": false,
+      "widget": null,
+      "group_key": "electrical",
+      "set_keys": [
+        "pool-cleaning"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.g_power_input",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "charge_time_h",
+      "name": "x_clean_charge_time_h",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Şarj Süresi (saat)",
+      "field_description_en": "Charging Time (h)",
+      "attribute_type": "float",
+      "serialized": false,
+      "widget": null,
+      "group_key": "electrical",
+      "set_keys": [
+        "robotlar"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.arj_s_resi_charging_time",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "hose_length_m",
+      "name": "x_clean_hose_length_m",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Hortum Uzunluğu (m)",
+      "field_description_en": "Hose Length (m)",
+      "attribute_type": "float",
+      "serialized": false,
+      "widget": null,
+      "group_key": "technical",
+      "set_keys": [
+        "robotlar"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.hortum_uzunlu_u_hose_length",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "max_pool_size",
+      "name": "x_clean_max_pool_size",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Maks. Havuz Ölçüsü",
+      "field_description_en": "Max. Pool Size",
+      "attribute_type": "char",
+      "serialized": false,
+      "widget": null,
+      "group_key": "technical",
+      "set_keys": [
+        "robotlar"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.max_havuz_l_s_pool_max_size",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "recommended_pool_size",
+      "name": "x_clean_recommended_pool_size",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Önerilen Havuz Boyutu",
+      "field_description_en": "Recommended Pool Size",
+      "attribute_type": "char",
+      "serialized": false,
+      "widget": null,
+      "group_key": "technical",
+      "set_keys": [
+        "robotlar"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.neri_len_havuz_boyutu_recommended_pool_size",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "suction_flow_m3h",
+      "name": "x_clean_suction_flow_m3h",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Emiş Kapasitesi (m³/h)",
+      "field_description_en": "Suction Capacity (m³/h)",
+      "attribute_type": "float",
+      "serialized": false,
+      "widget": null,
+      "group_key": "technical",
+      "set_keys": [
+        "robotlar"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.emi_kapasi_tesi_suction_capacity",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "cleaning_speed",
+      "name": "x_clean_cleaning_speed",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Temizlik Hızı",
+      "field_description_en": "Cleaning Speed",
+      "attribute_type": "char",
+      "serialized": false,
+      "widget": null,
+      "group_key": "technical",
+      "set_keys": [
+        "robotlar"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.temi_zli_k_hizi_cleaning_speed",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "filtration_fineness",
+      "name": "x_clean_filtration_fineness",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Filtrasyon Hassasiyeti",
+      "field_description_en": "Filtration Fineness",
+      "attribute_type": "char",
+      "serialized": false,
+      "widget": null,
+      "group_key": "technical",
+      "set_keys": [
+        "robotlar"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.fi_ltasyon_hassasi_yeti_filtration_fineness",
+      "options": [],
+      "option_map": {}
+    }
+  ],
+  "product_category": {
+    "code": "05",
+    "name": "Havuz Temizlik Ürünleri",
+    "name_en": "Pool Cleaning Products",
+    "parent": null,
+    "default_attribute_set_key": "pool-cleaning"
+  },
+  "family_values": {
+    "goodrob-easy": {},
+    "goodrob-easy-plus": {},
+    "goodrob-maxi": {},
+    "goodrob-pro": {},
+    "goodrob-king-500": {},
+    "goodrob-king-1250": {},
+    "goodrob-king-serisi-yedek-par-alar": {},
+    "poolvac-v-flex": {},
+    "tigershark": {},
+    "tigershark-qc": {},
+    "tigershark-xl-qc": {},
+    "tigershark-2": {},
+    "havuz-robotu-ta-ma-arabas-caddy-card": {},
+    "havuz-kep-eleri-leaf-scoops": {},
+    "havuz-f-r-alar-pool-brushes": {},
+    "magic-eraser-temizlik-s-nger-magic-eraser": {},
+    "havuz-ve-spa-termometleri": {}
+  },
+  "product_values": {
+    "19815273202": {
+      "family_key": "goodrob-easy",
+      "attribute_set_key": "goodrob-easy",
+      "values": {
+        "weight": 3.5,
+        "pole_length": "0,7 - 2,4 mt",
+        "power_input": "100-240 V 50/60 HZ"
+      },
+      "native": {
+        "default_code": "19815273202",
+        "name": " (19815273202)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 299.0
+          }
+        ],
+        "category_code": "05"
+      }
+    },
+    "19815273203": {
+      "family_key": "goodrob-easy-plus",
+      "attribute_set_key": "goodrob-easy-plus",
+      "values": {
+        "weight": 3.0,
+        "pole_length": "0,7 - 2,4 mt",
+        "power_input": "100-240 V 50/60 HZ"
+      },
+      "native": {
+        "default_code": "19815273203",
+        "name": " (19815273203)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 339.0
+          }
+        ],
+        "category_code": "05"
+      }
+    },
+    "19815273200": {
+      "family_key": "goodrob-maxi",
+      "attribute_set_key": "goodrob-maxi",
+      "values": {
+        "weight": 3.9,
+        "power_w": 30.0,
+        "charge_time_h": 4.0
+      },
+      "native": {
+        "default_code": "19815273200",
+        "name": " (19815273200)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 490.0
+          }
+        ],
+        "category_code": "05"
+      }
+    },
+    "1981527320": {
+      "family_key": "goodrob-pro",
+      "attribute_set_key": "goodrob-pro",
+      "values": {
+        "weight": 7.7,
+        "power_w": 65.0,
+        "charge_time_h": 4.0
+      },
+      "native": {
+        "default_code": "1981527320",
+        "name": " (1981527320)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 1280.0
+          }
+        ],
+        "category_code": "05"
+      }
+    },
+    "19815273204": {
+      "family_key": "goodrob-king-500",
+      "attribute_set_key": "goodrob-king-500",
+      "values": {
+        "weight": 9.4,
+        "power_w": 100.0,
+        "charge_time_h": 6.0,
+        "recommended_pool_size": "2"
+      },
+      "native": {
+        "default_code": "19815273204",
+        "name": " (19815273204)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 3800.0
+          }
+        ],
+        "category_code": "05"
+      }
+    },
+    "19815273205": {
+      "family_key": "goodrob-king-1250",
+      "attribute_set_key": "goodrob-king-1250",
+      "values": {
+        "weight": 9.4,
+        "power_w": 100.0,
+        "charge_time_h": 6.0,
+        "recommended_pool_size": "< 1.250m²"
+      },
+      "native": {
+        "default_code": "19815273205",
+        "name": " (19815273205)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 4500.0
+          }
+        ],
+        "category_code": "05"
+      }
+    },
+    "2099004531": {
+      "family_key": "goodrob-king-serisi-yedek-par-alar",
+      "attribute_set_key": "goodrob-king-serisi-yedek-par-alar",
+      "values": {},
+      "native": {
+        "default_code": "2099004531",
+        "name": " (2099004531)",
+        "prices": [],
+        "category_code": "05"
+      }
+    },
+    "2099004530": {
+      "family_key": "goodrob-king-serisi-yedek-par-alar",
+      "attribute_set_key": "goodrob-king-serisi-yedek-par-alar",
+      "values": {},
+      "native": {
+        "default_code": "2099004530",
+        "name": " (2099004530)",
+        "prices": [],
+        "category_code": "05"
+      }
+    },
+    "14016273009": {
+      "family_key": "poolvac-v-flex",
+      "attribute_set_key": "poolvac-v-flex",
+      "values": {
+        "hose_length_m": 12.0,
+        "max_pool_size": "6 m x 12 m"
+      },
+      "native": {
+        "default_code": "14016273009",
+        "name": "PoolVac V-Flex (14016273009)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 749.0
+          }
+        ],
+        "category_code": "05"
+      }
+    },
+    "14016273014": {
+      "family_key": "tigershark",
+      "attribute_set_key": "tigershark",
+      "values": {
+        "weight": 11.4,
+        "hose_length_m": 16.76,
+        "max_pool_size": "7 m x 15 m",
+        "suction_flow_m3h": 17.0,
+        "cleaning_speed": "18 m/min",
+        "filtration_fineness": "30μ"
+      },
+      "native": {
+        "default_code": "14016273014",
+        "name": "TigerShark (14016273014)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 1900.0
+          }
+        ],
+        "category_code": "05"
+      }
+    },
+    "14016273013": {
+      "family_key": "tigershark-qc",
+      "attribute_set_key": "tigershark-qc",
+      "values": {
+        "weight": 11.4,
+        "hose_length_m": 16.76,
+        "max_pool_size": "7 m x 15 m",
+        "suction_flow_m3h": 17.0,
+        "cleaning_speed": "18 m/min",
+        "filtration_fineness": "30μ"
+      },
+      "native": {
+        "default_code": "14016273013",
+        "name": "TigerShark QC (14016273013)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 1950.0
+          }
+        ],
+        "category_code": "05"
+      }
+    },
+    "14016273011": {
+      "family_key": "tigershark-xl-qc",
+      "attribute_set_key": "tigershark-xl-qc",
+      "values": {
+        "weight": 11.4,
+        "hose_length_m": 16.76,
+        "max_pool_size": "7 m x 15 m",
+        "suction_flow_m3h": 17.0,
+        "cleaning_speed": "18 m/min",
+        "filtration_fineness": "30μ"
+      },
+      "native": {
+        "default_code": "14016273011",
+        "name": "TigerShark XL QC (14016273011)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 1950.0
+          }
+        ],
+        "category_code": "05"
+      }
+    },
+    "14016273018": {
+      "family_key": "tigershark-2",
+      "attribute_set_key": "tigershark-2",
+      "values": {
+        "weight": 19.0,
+        "hose_length_m": 30.0,
+        "max_pool_size": "25 m x 20 m",
+        "suction_flow_m3h": 17.0,
+        "cleaning_speed": "5 m²/dk",
+        "filtration_fineness": "5μ"
+      },
+      "native": {
+        "default_code": "14016273018",
+        "name": "TigerShark 2 (14016273018 Fırçalı Brush)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 3350.0
+          }
+        ],
+        "category_code": "05"
+      }
+    },
+    "14016273017": {
+      "family_key": "tigershark-2",
+      "attribute_set_key": "tigershark-2",
+      "values": {
+        "weight": 19.0,
+        "hose_length_m": 30.0,
+        "max_pool_size": "25 m x 20 m",
+        "suction_flow_m3h": 17.0,
+        "cleaning_speed": "5 m²/dk",
+        "filtration_fineness": "5μ"
+      },
+      "native": {
+        "default_code": "14016273017",
+        "name": "TigerShark 2 (14016273017 Süngerli Foam)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 3350.0
+          }
+        ],
+        "category_code": "05"
+      }
+    },
+    "19815273013": {
+      "family_key": "havuz-robotu-ta-ma-arabas-caddy-card",
+      "attribute_set_key": "havuz-robotu-ta-ma-arabas-caddy-card",
+      "values": {
+        "compatibility": "TigerShark®, AquaVac® models",
+        "weight": 8.0,
+        "dims": "89 x 46 x 28 cm"
+      },
+      "native": {
+        "default_code": "19815273013",
+        "name": "Havuz Robotu Taşıma Arabası (19815273013)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 245.0
+          }
+        ],
+        "category_code": "05"
+      }
+    },
+    "14019123001": {
+      "family_key": "havuz-kep-eleri-leaf-scoops",
+      "attribute_set_key": "havuz-kep-eleri-leaf-scoops",
+      "values": {
+        "model": "1 Taraklı Ekonomik Model Economic Deep Bag Rake"
+      },
+      "native": {
+        "default_code": "14019123001",
+        "name": "Havuz Kepçeleri 1 Taraklı Ekonomik Model Economic Deep Bag Rake",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 9.0
+          }
+        ],
+        "category_code": "05"
+      }
+    },
+    "14019123002": {
+      "family_key": "havuz-kep-eleri-leaf-scoops",
+      "attribute_set_key": "havuz-kep-eleri-leaf-scoops",
+      "values": {
+        "model": "2 Taraklı Lüks Model Deluxe Deep Bag Rake"
+      },
+      "native": {
+        "default_code": "14019123002",
+        "name": "Havuz Kepçeleri 2 Taraklı Lüks Model Deluxe Deep Bag Rake",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 11.0
+          }
+        ],
+        "category_code": "05"
+      }
+    },
+    "14019123006": {
+      "family_key": "havuz-kep-eleri-leaf-scoops",
+      "attribute_set_key": "havuz-kep-eleri-leaf-scoops",
+      "values": {
+        "model": "3 Kalın Yeşil Çerçevesi Lüks Model Plastic Deep Leaf Rake In Green Color"
+      },
+      "native": {
+        "default_code": "14019123006",
+        "name": "Havuz Kepçeleri 3 Kalın Yeşil Çerçevesi Lüks Model Plastic Deep Leaf Rake In Green Color",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 15.0
+          }
+        ],
+        "category_code": "05"
+      }
+    },
+    "14019123003": {
+      "family_key": "havuz-kep-eleri-leaf-scoops",
+      "attribute_set_key": "havuz-kep-eleri-leaf-scoops",
+      "values": {
+        "model": "1 Standart Model Kepçe Standart Leaf Skimmer"
+      },
+      "native": {
+        "default_code": "14019123003",
+        "name": "Havuz Kepçeleri 1 Standart Model Kepçe Standart Leaf Skimmer",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 7.25
+          }
+        ],
+        "category_code": "05"
+      }
+    },
+    "14019123004": {
+      "family_key": "havuz-kep-eleri-leaf-scoops",
+      "attribute_set_key": "havuz-kep-eleri-leaf-scoops",
+      "values": {
+        "model": "2 Plastik Lüks Model Kepçe Heavy Duty Plastic Leaf Skimmer"
+      },
+      "native": {
+        "default_code": "14019123004",
+        "name": "Havuz Kepçeleri 2 Plastik Lüks Model Kepçe Heavy Duty Plastic Leaf Skimmer",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 10.45
+          }
+        ],
+        "category_code": "05"
+      }
+    },
+    "14019123005": {
+      "family_key": "havuz-kep-eleri-leaf-scoops",
+      "attribute_set_key": "havuz-kep-eleri-leaf-scoops",
+      "values": {
+        "model": "3 Alüminyum Tutamaklı Kepçe Leaf Skimmer With Aluminium Pole"
+      },
+      "native": {
+        "default_code": "14019123005",
+        "name": "Havuz Kepçeleri 3 Alüminyum Tutamaklı Kepçe Leaf Skimmer With Aluminium Pole",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 11.55
+          }
+        ],
+        "category_code": "05"
+      }
+    },
+    "14020123001": {
+      "family_key": "havuz-f-r-alar-pool-brushes",
+      "attribute_set_key": "havuz-f-r-alar-pool-brushes",
+      "values": {
+        "model": "Kıvrık Plastik Telli Curved Plastic Wire Bristle Head",
+        "length_cm": 45.0
+      },
+      "native": {
+        "default_code": "14020123001",
+        "name": "Havuz Fırçaları Kıvrık Plastik Telli Curved Plastic Wire Bristle Head",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 8.0
+          }
+        ],
+        "category_code": "05"
+      }
+    },
+    "14020123002": {
+      "family_key": "havuz-f-r-alar-pool-brushes",
+      "attribute_set_key": "havuz-f-r-alar-pool-brushes",
+      "values": {
+        "model": "Kıvrık Plastik Telli Alüminyum Destekli Curved Plastic Wire Bristle Head Aluminium Back",
+        "length_cm": 45.0
+      },
+      "native": {
+        "default_code": "14020123002",
+        "name": "Havuz Fırçaları Kıvrık Plastik Telli Alüminyum Destekli Curved Plastic Wire Bristle Head Aluminium Back",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 13.5
+          }
+        ],
+        "category_code": "05"
+      }
+    },
+    "14020123003": {
+      "family_key": "havuz-f-r-alar-pool-brushes",
+      "attribute_set_key": "havuz-f-r-alar-pool-brushes",
+      "values": {
+        "model": "Duvar Tip Düz Plastik Telli Wall Type Flat Plastic Wire Bristle Head",
+        "length_cm": 26.0
+      },
+      "native": {
+        "default_code": "14020123003",
+        "name": "Havuz Fırçaları Duvar Tip Düz Plastik Telli Wall Type Flat Plastic Wire Bristle Head",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 5.9
+          }
+        ],
+        "category_code": "05"
+      }
+    },
+    "14020123004": {
+      "family_key": "havuz-f-r-alar-pool-brushes",
+      "attribute_set_key": "havuz-f-r-alar-pool-brushes",
+      "values": {
+        "model": "Düz Paslanmaz Çelik Telli Flat Type Stainless Steel Wire Bristle Head",
+        "length_cm": 26.0
+      },
+      "native": {
+        "default_code": "14020123004",
+        "name": "Havuz Fırçaları Düz Paslanmaz Çelik Telli Flat Type Stainless Steel Wire Bristle Head",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 12.0
+          }
+        ],
+        "category_code": "05"
+      }
+    },
+    "14021133001": {
+      "family_key": "magic-eraser-temizlik-s-nger-magic-eraser",
+      "attribute_set_key": "magic-eraser-temizlik-s-nger-magic-eraser",
+      "values": {
+        "dims": "7 x 11 cm"
+      },
+      "native": {
+        "default_code": "14021133001",
+        "name": "Magic Eraser Temizlik Süngeri (14021133001)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 4.5
+          }
+        ],
+        "category_code": "05"
+      }
+    },
+    "14515123009": {
+      "family_key": "havuz-ve-spa-termometleri",
+      "attribute_set_key": "havuz-ve-spa-termometleri",
+      "values": {
+        "material": "PP"
+      },
+      "native": {
+        "default_code": "14515123009",
+        "name": "Havuz ve Spa Termometreleri (14515123009)",
+        "prices": [],
+        "category_code": "05"
+      }
+    },
+    "14515123001": {
+      "family_key": "havuz-ve-spa-termometleri",
+      "attribute_set_key": "havuz-ve-spa-termometleri",
+      "values": {
+        "model": "Ekonomik Model İpiyle Birlikte Economic Model With Rope"
+      },
+      "native": {
+        "default_code": "14515123001",
+        "name": "Havuz ve Spa Termometreleri Ekonomik Model İpiyle Birlikte Economic Model With Rope",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 6.0
+          }
+        ],
+        "category_code": "05"
+      }
+    },
+    "14515123002": {
+      "family_key": "havuz-ve-spa-termometleri",
+      "attribute_set_key": "havuz-ve-spa-termometleri",
+      "values": {
+        "model": "Lüks Model Yüzer, İpiyle Birlikte Deluxe Model Floating With Rope"
+      },
+      "native": {
+        "default_code": "14515123002",
+        "name": "Havuz ve Spa Termometreleri Lüks Model Yüzer, İpiyle Birlikte Deluxe Model Floating With Rope",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 6.0
+          }
+        ],
+        "category_code": "05"
+      }
+    },
+    "14515123003": {
+      "family_key": "havuz-ve-spa-termometleri",
+      "attribute_set_key": "havuz-ve-spa-termometleri",
+      "values": {
+        "model": "Jumbo Model İpiyle Birlikte Jumbo Model With Rope"
+      },
+      "native": {
+        "default_code": "14515123003",
+        "name": "Havuz ve Spa Termometreleri Jumbo Model İpiyle Birlikte Jumbo Model With Rope",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 13.5
+          }
+        ],
+        "category_code": "05"
+      }
+    },
+    "14515123004": {
+      "family_key": "havuz-ve-spa-termometleri",
+      "attribute_set_key": "havuz-ve-spa-termometleri",
+      "values": {
+        "model": "Ekonomik Model Renkli İpiyle Birlikte Economic Model Color Type With Rope"
+      },
+      "native": {
+        "default_code": "14515123004",
+        "name": "Havuz ve Spa Termometreleri Ekonomik Model Renkli İpiyle Birlikte Economic Model Color Type With Rope",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 12.0
+          }
+        ],
+        "category_code": "05"
+      }
+    },
+    "14515123005": {
+      "family_key": "havuz-ve-spa-termometleri",
+      "attribute_set_key": "havuz-ve-spa-termometleri",
+      "values": {
+        "model": "Hayvan Modeli İpiyle Birlikte Animal Form Floating With Rope"
+      },
+      "native": {
+        "default_code": "14515123005",
+        "name": "Havuz ve Spa Termometreleri Hayvan Modeli İpiyle Birlikte Animal Form Floating With Rope",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 5.0
+          }
+        ],
+        "category_code": "05"
+      }
+    },
+    "14515123006": {
+      "family_key": "havuz-ve-spa-termometleri",
+      "attribute_set_key": "havuz-ve-spa-termometleri",
+      "values": {
+        "model": "Hayvan Figürlü Yüzer İpiyle Birlikte Animal Form Floating With Rope"
+      },
+      "native": {
+        "default_code": "14515123006",
+        "name": "Havuz ve Spa Termometreleri Hayvan Figürlü Yüzer İpiyle Birlikte Animal Form Floating With Rope",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 5.0
+          }
+        ],
+        "category_code": "05"
+      }
+    },
+    "14515123008": {
+      "family_key": "havuz-ve-spa-termometleri",
+      "attribute_set_key": "havuz-ve-spa-termometleri",
+      "values": {
+        "model": "Profesyonel Tip Yüzer Deluxe Floating Dial"
+      },
+      "native": {
+        "default_code": "14515123008",
+        "name": "Havuz ve Spa Termometreleri Profesyonel Tip Yüzer Deluxe Floating Dial",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 26.0
+          }
+        ],
+        "category_code": "05"
+      }
+    }
+  }
+}

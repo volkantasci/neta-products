@@ -1,0 +1,3693 @@
+{
+  "meta": {
+    "generator": "pim/generate_pim_json.py",
+    "generated_at": "2026-09-04",
+    "source_files": [
+      "08_Havuz_Isitma_ve_Nem_Alma_Urunleri__Pool_Heating_and_Dehumidifiers_Product.json",
+      "08_Havuz_Isitma_ve_Nem_Alma_Urunleri__Pool_Heating_and_Dehumidifiers_Product_attributes.json"
+    ],
+    "category_no": "08",
+    "category_tr": "Havuz Isıtma ve Nem Alma Ürünleri",
+    "category_en": "Pool Heating and Dehumidifiers Product",
+    "odoo_model": "product.template",
+    "pim_modules": [
+      "attribute_set",
+      "product_attribute_set",
+      "pim"
+    ],
+    "technical_name_prefix": "heat",
+    "family_count": 14,
+    "variant_count": 132,
+    "import_order": [
+      "attribute_groups",
+      "attribute_sets (ustten alta, parent once)",
+      "attributes (custom -> ir.model.fields; native -> field_id)",
+      "attribute.option kayitlari (select/multiselect icin)",
+      "product_category (varsayilan set baglanti)",
+      "product_values (product.template + x_ alan degerleri)"
+    ],
+    "design_notes": [
+      "Set hiyerarşisi attribute.set.parent_id ile kurulur; alt setler üst setin niteliklerini kalıtır (complete_attribute_ids).",
+      "Kategori genelinde ortak nitelikler kök sette; yalnızca alt gruplarda görülen nitelikler ilgili ara/aile setine bağlanır (ör. kum kapasitesi yalnızca Kum Filtreleri setinde).",
+      "Bir nitelik birden fazla sete bağlanabilir (attribute_set_ids m2m): grain_size hem 25 Mikron hem Filtre Medyaları setinde.",
+      "serialized=False seçildi; gerçek kolon arama/filtreleme/gruplama avantajı sağlar. Yüzlerce niteliğe çıkılırsa serialized=True önerilir (x_custom_json_attrs JSON blob).",
+      "Ağırlık doğal (native) nitelik olarak product.template.weight alanına bağlandı; ambalaj ağırlığı (25 kg çuvallar) da bu alana yazılır.",
+      "select/multiselect nitelikler attribute.option kayıtlarıyla normalize edildi; serbest metin yerine seçim listesi kullanılarak veri tutarlılığı sağlanır.",
+      "Urun adi (name) aile başlığı + model; model yoksa aile başlığı + koddan üretilir. default_code her zaman koddur."
+    ],
+    "data_quality_notes": [
+      "Ikon değerleri normalize edildi (yildiz/tire temizligi, 'RESIDENTAL' -> 'RESIDENTIAL', '- POOL PLUMBING LINES' -> 'POOL PLUMBING LINES').",
+      "6 yollu vanalarda büyük 'Ø' disli, küçük 'ø' yapistirma baglantiyi belirtir; secenek etiketleri buna gore aciklastirildi.",
+      "ap_diameter alani iki anlamda kullaniliyor: sayisal degerler filtre capi (diameter_mm), aralik degerler ('0,5-1,2 mm') tane boyutu (grain_size) olarak ayristirildi.",
+      "'ambalaj_packing' ('25 kg') degeri urunun gercek agirligi oldugu icin native weight alanina yazildi.",
+      "Rotex ailesinde family spec 'max_pressure_bar=1.5' ile variant tablosundaki 'MAX. CALISMA BASINCI 2,5 bar' celisiyor; her ikisi ayri nitelikte (kok 'Maks. Basinc' ve kum filtre 'Maks. Calisma Basinci') tasindi, gozden gecirilmeli.",
+      "Lamex tablolarindaki 1.050+ mm capli satirlar kum filtreler icin dogrudur; PDF'te pompa bolumune tasmasi kaynak cikarimidir (02 kategorisinde zaten yer alirlar).",
+      "Rotex aile tablosunda Woundex ile ayni kodlu satirlar var (12015123100-03); urun atamalari Woundex tarafindadir ve cift uretim engellendi.",
+      "bullets_tr listesi bazi ailelerde TR+EN satirlari icerir; highlights alani kaynagini birebir tasir.",
+      "Zeolit ailesi kaynak PDF'te skimmer, havuz ortusu, merdiven gibi diger urunleri de kapsar; set adi 'Zeolit ve Diger Urunler' olarak duzenlendi."
+    ]
+  },
+  "attribute_groups": [
+    {
+      "key": "general",
+      "name": "Genel",
+      "name_en": "General",
+      "sequence": 10
+    },
+    {
+      "key": "technical",
+      "name": "Teknik Özellikler",
+      "name_en": "Technical Specs",
+      "sequence": 20
+    },
+    {
+      "key": "electrical",
+      "name": "Elektrik",
+      "name_en": "Electrical",
+      "sequence": 30
+    },
+    {
+      "key": "physical",
+      "name": "Fiziksel Özellikler",
+      "name_en": "Physical Specs",
+      "sequence": 40
+    },
+    {
+      "key": "connection",
+      "name": "Bağlantı ve Montaj",
+      "name_en": "Connection & Fitting",
+      "sequence": 50
+    }
+  ],
+  "attribute_sets": [
+    {
+      "key": "pool-heating",
+      "name": "Havuz Isıtma ve Nem Alma Ürünleri",
+      "name_en": "Pool Heating and Dehumidification",
+      "parent_key": null,
+      "sequence": 10,
+      "is_root": true
+    },
+    {
+      "key": "isi-pompalari",
+      "name": "Isı Pompaları",
+      "name_en": "Heat Pumps",
+      "parent_key": "pool-heating",
+      "sequence": 20
+    },
+    {
+      "key": "esanjorler",
+      "name": "Eşanjörler",
+      "name_en": "Heat Exchangers",
+      "parent_key": "pool-heating",
+      "sequence": 30
+    },
+    {
+      "key": "nano-spa-model",
+      "name": "Nano Spa Model",
+      "name_en": "Nano Spa Model",
+      "parent_key": "isi-pompalari",
+      "sequence": 10,
+      "family_product_id": "nano-spa-model",
+      "family_variant_count": 7
+    },
+    {
+      "key": "flowline-2",
+      "name": "Flowline 2",
+      "name_en": "Flowline 2",
+      "parent_key": "isi-pompalari",
+      "sequence": 20,
+      "family_product_id": "flowline-2",
+      "family_variant_count": 7
+    },
+    {
+      "key": "evolution-2",
+      "name": "Evolution 2",
+      "name_en": "Evolution 2",
+      "parent_key": "isi-pompalari",
+      "sequence": 30,
+      "family_product_id": "evolution-2",
+      "family_variant_count": 6
+    },
+    {
+      "key": "optima-compact",
+      "name": "Optima Compact",
+      "name_en": "Optima Compact",
+      "parent_key": "isi-pompalari",
+      "sequence": 40,
+      "family_product_id": "optima-compact",
+      "family_variant_count": 6
+    },
+    {
+      "key": "sfs-joey",
+      "name": "SFS Joey",
+      "name_en": "SFS Joey",
+      "parent_key": "isi-pompalari",
+      "sequence": 50,
+      "family_product_id": "sfs-joey",
+      "family_variant_count": 10
+    },
+    {
+      "key": "titan-optima",
+      "name": "Titan Optima",
+      "name_en": "Titan Optima",
+      "parent_key": "isi-pompalari",
+      "sequence": 60,
+      "family_product_id": "titan-optima",
+      "family_variant_count": 10
+    },
+    {
+      "key": "heatsmart-koolsmart",
+      "name": "Heatsmart & Koolsmart",
+      "name_en": "Heatsmart & Koolsmart",
+      "parent_key": "isi-pompalari",
+      "sequence": 70,
+      "family_product_id": "heatsmart-koolsmart",
+      "family_variant_count": 2
+    },
+    {
+      "key": "pool-smart-plus",
+      "name": "Pool Smart Plus",
+      "name_en": "Pool Smart Plus",
+      "parent_key": "isi-pompalari",
+      "sequence": 80,
+      "family_product_id": "pool-smart-plus",
+      "family_variant_count": 1
+    },
+    {
+      "key": "6x-efficiency",
+      "name": "6x Verimli Isı Pompası",
+      "name_en": "6x Efficiency Heat Pump",
+      "parent_key": "isi-pompalari",
+      "sequence": 90,
+      "family_product_id": "6x-efficiency",
+      "family_variant_count": 5
+    },
+    {
+      "key": "smart-inverter",
+      "name": "Smart İnverter",
+      "name_en": "Smart Inverter",
+      "parent_key": "isi-pompalari",
+      "sequence": 100,
+      "family_product_id": "smart-inverter",
+      "family_variant_count": 7
+    },
+    {
+      "key": "residential-inverter",
+      "name": "Konut Tipi İnverter",
+      "name_en": "Residential Inverter",
+      "parent_key": "isi-pompalari",
+      "sequence": 110,
+      "family_product_id": "residential-inverter",
+      "family_variant_count": 9
+    },
+    {
+      "key": "plakal-e-anj-r-plate-heat-exchanger",
+      "name": "Plakalı Eşanjör",
+      "name_en": "Plate Heat Exchanger",
+      "parent_key": "esanjorler",
+      "sequence": 120,
+      "family_product_id": "plakal-e-anj-r-plate-heat-exchanger",
+      "family_variant_count": 54
+    },
+    {
+      "key": "g2c-heat-exchanger",
+      "name": "G2C Eşanjör",
+      "name_en": "G2C Heat Exchanger",
+      "parent_key": "esanjorler",
+      "sequence": 130,
+      "family_product_id": "g2c-heat-exchanger",
+      "family_variant_count": 4
+    },
+    {
+      "key": "g2-multi-tubular",
+      "name": "G2 Multi Tubular Eşanjör",
+      "name_en": "G2 Multi Tubular Heat Exchanger",
+      "parent_key": "esanjorler",
+      "sequence": 140,
+      "family_product_id": "g2-multi-tubular",
+      "family_variant_count": 4
+    }
+  ],
+  "attributes": [
+    {
+      "key": "model",
+      "name": "x_heat_model",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Model",
+      "field_description_en": "Model",
+      "attribute_type": "char",
+      "serialized": false,
+      "widget": null,
+      "group_key": "general",
+      "set_keys": [
+        "pool-heating"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.model",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "phase",
+      "name": "x_heat_phase",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Faz",
+      "field_description_en": "Phase",
+      "attribute_type": "select",
+      "serialized": false,
+      "widget": null,
+      "group_key": "general",
+      "set_keys": [
+        "pool-heating"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.faz_phase",
+      "options": [
+        "Monofaz (Single Phase)",
+        "Trifaz (Three Phase)",
+        "Mono / Tri"
+      ],
+      "option_map": {
+        "Monofaz Single phase": "Monofaz (Single Phase)",
+        "Monofaz Mono": "Monofaz (Single Phase)",
+        "Trifaz Threephase": "Trifaz (Three Phase)",
+        "Trifaz Threephase 3 faz/phase 400V": "Trifaz (Three Phase)"
+      }
+    },
+    {
+      "key": "power_kw",
+      "name": "x_heat_power_kw",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Güç (kW)",
+      "field_description_en": "Power (kW)",
+      "attribute_type": "float",
+      "serialized": false,
+      "widget": null,
+      "group_key": "technical",
+      "set_keys": [
+        "pool-heating"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.g_power",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "required_flow_m3h",
+      "name": "x_heat_required_flow_m3h",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Gerekli Debi (m³/h)",
+      "field_description_en": "Required Flow (m³/h)",
+      "attribute_type": "float",
+      "serialized": false,
+      "widget": null,
+      "group_key": "technical",
+      "set_keys": [
+        "pool-heating"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.debi_i_hti_yaci_flow_requirements",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "max_flow_m3h",
+      "name": "x_heat_max_flow_m3h",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Maks. Debi (m³/h)",
+      "field_description_en": "Max. Flow (m³/h)",
+      "attribute_type": "float",
+      "serialized": false,
+      "widget": null,
+      "group_key": "technical",
+      "set_keys": [
+        "pool-heating"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "dims",
+      "name": "x_heat_dims",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Ölçüler (UxDxG)",
+      "field_description_en": "Dimensions (LxDxW)",
+      "attribute_type": "char",
+      "serialized": false,
+      "widget": null,
+      "group_key": "physical",
+      "set_keys": [
+        "pool-heating"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.l_ler_uxdxg_dimensions_lxdxw",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "frequency",
+      "name": "x_heat_frequency",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Frekans",
+      "field_description_en": "Frequency",
+      "attribute_type": "char",
+      "serialized": false,
+      "widget": null,
+      "group_key": "electrical",
+      "set_keys": [
+        "pool-heating"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.frekans_frequency",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "volume_m3",
+      "name": "x_heat_volume_m3",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Hacim (m³)",
+      "field_description_en": "Volume (m³)",
+      "attribute_type": "float",
+      "serialized": false,
+      "widget": null,
+      "group_key": "physical",
+      "set_keys": [
+        "pool-heating"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.haci_m_volume",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "gross_kg",
+      "name": "x_heat_gross_kg",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Brüt Ağırlık (kg)",
+      "field_description_en": "Gross Weight (kg)",
+      "attribute_type": "float",
+      "serialized": false,
+      "widget": null,
+      "group_key": "physical",
+      "set_keys": [
+        "pool-heating"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.a_irlik_gross_weight",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "power_output",
+      "name": "x_heat_power_output",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Güç Çıkışı",
+      "field_description_en": "Power Output",
+      "attribute_type": "char",
+      "serialized": false,
+      "widget": null,
+      "group_key": "electrical",
+      "set_keys": [
+        "pool-heating"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.g_iki_i_power_output",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "accessories_included",
+      "name": "x_heat_accessories_included",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Dahil Aksesuarlar",
+      "field_description_en": "Accessories Included",
+      "attribute_type": "char",
+      "serialized": false,
+      "widget": null,
+      "group_key": "technical",
+      "set_keys": [
+        "pool-heating"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.aksesuarlar_dahi_ldi_r_accessories_included",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "hot_water_flow",
+      "name": "x_heat_hot_water_flow",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Sıcak Su Akışı (L/dk)",
+      "field_description_en": "Hot Water Flow (L/min)",
+      "attribute_type": "float",
+      "serialized": false,
+      "widget": null,
+      "group_key": "technical",
+      "set_keys": [
+        "isi-pompalari"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.sicak_su_aki_i_hot_water_flow",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "pool_water_flow",
+      "name": "x_heat_pool_water_flow",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Havuz Suyu Akışı (L/dk)",
+      "field_description_en": "Pool Water Flow (L/min)",
+      "attribute_type": "float",
+      "serialized": false,
+      "widget": null,
+      "group_key": "technical",
+      "set_keys": [
+        "isi-pompalari"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.havuzun_suyunun_aki_i_flow_of_pool_water",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "heat_capacity_kcalh",
+      "name": "x_heat_heat_capacity_kcalh",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Eşanjör Kapasitesi (kcal/h)",
+      "field_description_en": "Exchanger Capacity (kcal/h)",
+      "attribute_type": "float",
+      "serialized": false,
+      "widget": null,
+      "group_key": "technical",
+      "set_keys": [
+        "esanjorler"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.e_anj_r_kapasi_tesi_kcal_h",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "pool_area_m2",
+      "name": "x_heat_pool_area_m2",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Havuz Alanı (m²)",
+      "field_description_en": "Pool Area (m²)",
+      "attribute_type": "float",
+      "serialized": false,
+      "widget": null,
+      "group_key": "technical",
+      "set_keys": [
+        "esanjorler"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.havuz_m",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "reji_m",
+      "name": "x_heat_reji_m",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Reji (m)",
+      "field_description_en": "Regime (m)",
+      "attribute_type": "float",
+      "serialized": false,
+      "widget": null,
+      "group_key": "technical",
+      "set_keys": [
+        "esanjorler"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.reji_m",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "exchanger_model",
+      "name": "x_heat_exchanger_model",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Eşanjör Modeli",
+      "field_description_en": "Exchanger Model",
+      "attribute_type": "char",
+      "serialized": false,
+      "widget": null,
+      "group_key": "technical",
+      "set_keys": [
+        "esanjorler"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.e_anj_r_modeli",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "plate_count",
+      "name": "x_heat_plate_count",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Plaka Sayısı",
+      "field_description_en": "Plate Count",
+      "attribute_type": "float",
+      "serialized": false,
+      "widget": null,
+      "group_key": "technical",
+      "set_keys": [
+        "esanjorler"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.plaka_sayisi",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "temp_range",
+      "name": "x_heat_temp_range",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Sıcaklık Aralığı (°C)",
+      "field_description_en": "Temperature Range (°C)",
+      "attribute_type": "char",
+      "serialized": false,
+      "widget": null,
+      "group_key": "technical",
+      "set_keys": [
+        "esanjorler"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.sicaklik",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "connection",
+      "name": "x_heat_connection",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Bağlantı",
+      "field_description_en": "Connection",
+      "attribute_type": "char",
+      "serialized": false,
+      "widget": null,
+      "group_key": "connection",
+      "set_keys": [
+        "esanjorler"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.ba_lanti_connection | iki_ba_lanti",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "length_mm",
+      "name": "x_heat_length_mm",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Uzunluk (mm)",
+      "field_description_en": "Length (mm)",
+      "attribute_type": "float",
+      "serialized": false,
+      "widget": null,
+      "group_key": "physical",
+      "set_keys": [
+        "esanjorler"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.l_mm",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "primer_flow_m3h",
+      "name": "x_heat_primer_flow_m3h",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Primer Debi (m³/h)",
+      "field_description_en": "Primary Flow (m³/h)",
+      "attribute_type": "float",
+      "serialized": false,
+      "widget": null,
+      "group_key": "technical",
+      "set_keys": [
+        "esanjorler"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.primer_debi_primary_flow",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "primer_loss_kpa",
+      "name": "x_heat_primer_loss_kpa",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Primer Basınç Kaybı (kPa)",
+      "field_description_en": "Primary Pressure Loss (kPa)",
+      "attribute_type": "float",
+      "serialized": false,
+      "widget": null,
+      "group_key": "technical",
+      "set_keys": [
+        "esanjorler"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.primer_ba_sin_kaybi_loss_kpa",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "secondary_flow_m3h",
+      "name": "x_heat_secondary_flow_m3h",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Sekonder Debi (m³/h)",
+      "field_description_en": "Secondary Flow (m³/h)",
+      "attribute_type": "float",
+      "serialized": false,
+      "widget": null,
+      "group_key": "technical",
+      "set_keys": [
+        "esanjorler"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.sekonder_debi_secondary_flow",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "secondary_loss_kpa",
+      "name": "x_heat_secondary_loss_kpa",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Sekonder Basınç Kaybı (kPa)",
+      "field_description_en": "Secondary Pressure Loss (kPa)",
+      "attribute_type": "float",
+      "serialized": false,
+      "widget": null,
+      "group_key": "technical",
+      "set_keys": [
+        "esanjorler"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.sekonder_basin_kaybi_loss_kpa",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "heat_15c_kw",
+      "name": "x_heat_heat_15c_kw",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Isıtma Gücü 15°C (kW)",
+      "field_description_en": "Heating Power 15°C (kW)",
+      "attribute_type": "float",
+      "serialized": false,
+      "widget": null,
+      "group_key": "technical",
+      "set_keys": [
+        "esanjorler"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.t_15_c_kw",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "heat_30c_kw",
+      "name": "x_heat_heat_30c_kw",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Isıtma Gücü 30°C (kW)",
+      "field_description_en": "Heating Power 30°C (kW)",
+      "attribute_type": "float",
+      "serialized": false,
+      "widget": null,
+      "group_key": "technical",
+      "set_keys": [
+        "esanjorler"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.t_30_c_kw",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "heat_65c_kw",
+      "name": "x_heat_heat_65c_kw",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Isıtma Gücü 65°C (kW)",
+      "field_description_en": "Heating Power 65°C (kW)",
+      "attribute_type": "float",
+      "serialized": false,
+      "widget": null,
+      "group_key": "technical",
+      "set_keys": [
+        "esanjorler"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.t_65_c_kw",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "pressure_bar",
+      "name": "x_heat_pressure_bar",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Maks. Basınç (bar)",
+      "field_description_en": "Max. Pressure (bar)",
+      "attribute_type": "float",
+      "serialized": false,
+      "widget": null,
+      "group_key": "technical",
+      "set_keys": [
+        "esanjorler"
+      ],
+      "value_level": "family",
+      "source": "family_specs_quantitative.max_pressure_bar",
+      "options": [],
+      "option_map": {}
+    }
+  ],
+  "product_category": {
+    "code": "08",
+    "name": "Havuz Isıtma ve Nem Alma Ürünleri",
+    "name_en": "Pool Heating and Dehumidifiers Product",
+    "parent": null,
+    "default_attribute_set_key": "pool-heating"
+  },
+  "family_values": {
+    "nano-spa-model": {},
+    "flowline-2": {},
+    "evolution-2": {},
+    "optima-compact": {},
+    "sfs-joey": {},
+    "titan-optima": {},
+    "g2-multi-tubular": {},
+    "heatsmart-koolsmart": {},
+    "g2c-heat-exchanger": {
+      "pressure_bar": 0.3
+    },
+    "pool-smart-plus": {},
+    "6x-efficiency": {},
+    "plakal-e-anj-r-plate-heat-exchanger": {},
+    "smart-inverter": {},
+    "residential-inverter": {}
+  },
+  "product_values": {
+    "16015123106": {
+      "family_key": "nano-spa-model",
+      "attribute_set_key": "nano-spa-model",
+      "values": {
+        "phase": "Monofaz (Single Phase)",
+        "power_kw": 1.0,
+        "required_flow_m3h": 1.0,
+        "max_flow_m3h": 17.0
+      },
+      "native": {
+        "default_code": "16015123106",
+        "name": " (16015123106)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 610.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16015123111": {
+      "family_key": "nano-spa-model",
+      "attribute_set_key": "nano-spa-model",
+      "values": {
+        "phase": "Monofaz (Single Phase)",
+        "power_kw": 2.0,
+        "required_flow_m3h": 1.0,
+        "max_flow_m3h": 17.0
+      },
+      "native": {
+        "default_code": "16015123111",
+        "name": " (16015123111)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 618.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16015123112": {
+      "family_key": "nano-spa-model",
+      "attribute_set_key": "nano-spa-model",
+      "values": {
+        "phase": "Monofaz (Single Phase)",
+        "power_kw": 3.0,
+        "required_flow_m3h": 1.0,
+        "max_flow_m3h": 17.0
+      },
+      "native": {
+        "default_code": "16015123112",
+        "name": " (16015123112)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 625.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16015123110": {
+      "family_key": "nano-spa-model",
+      "attribute_set_key": "nano-spa-model",
+      "values": {
+        "phase": "Monofaz (Single Phase)",
+        "power_kw": 4.0,
+        "required_flow_m3h": 1.0,
+        "max_flow_m3h": 17.0
+      },
+      "native": {
+        "default_code": "16015123110",
+        "name": " (16015123110)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 635.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16015123109": {
+      "family_key": "nano-spa-model",
+      "attribute_set_key": "nano-spa-model",
+      "values": {
+        "phase": "Monofaz (Single Phase)",
+        "power_kw": 5.0,
+        "required_flow_m3h": 1.0,
+        "max_flow_m3h": 17.0
+      },
+      "native": {
+        "default_code": "16015123109",
+        "name": " (16015123109)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 645.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16015123108": {
+      "family_key": "nano-spa-model",
+      "attribute_set_key": "nano-spa-model",
+      "values": {
+        "phase": "Monofaz (Single Phase)",
+        "power_kw": 6.0,
+        "required_flow_m3h": 1.0,
+        "max_flow_m3h": 17.0
+      },
+      "native": {
+        "default_code": "16015123108",
+        "name": " (16015123108)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 655.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16015123083": {
+      "family_key": "nano-spa-model",
+      "attribute_set_key": "nano-spa-model",
+      "values": {
+        "phase": "Trifaz (Three Phase)",
+        "power_kw": 8.0,
+        "required_flow_m3h": 1.0,
+        "max_flow_m3h": 17.0
+      },
+      "native": {
+        "default_code": "16015123083",
+        "name": " (16015123083)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 670.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16015123090": {
+      "family_key": "flowline-2",
+      "attribute_set_key": "flowline-2",
+      "values": {
+        "phase": "Monofaz (Single Phase)",
+        "power_kw": 6.0,
+        "required_flow_m3h": 1.0,
+        "max_flow_m3h": 17.0
+      },
+      "native": {
+        "default_code": "16015123090",
+        "name": " (16015123090)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 605.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16015123088": {
+      "family_key": "flowline-2",
+      "attribute_set_key": "flowline-2",
+      "values": {
+        "phase": "Trifaz (Three Phase)",
+        "power_kw": 6.0,
+        "required_flow_m3h": 4.0,
+        "max_flow_m3h": 17.0
+      },
+      "native": {
+        "default_code": "16015123088",
+        "name": " (16015123088)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 690.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16015123127": {
+      "family_key": "flowline-2",
+      "attribute_set_key": "flowline-2",
+      "values": {
+        "phase": "Trifaz (Three Phase)",
+        "power_kw": 9.0,
+        "required_flow_m3h": 4.0,
+        "max_flow_m3h": 17.0
+      },
+      "native": {
+        "default_code": "16015123127",
+        "name": " (16015123127)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 705.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16015123126": {
+      "family_key": "flowline-2",
+      "attribute_set_key": "flowline-2",
+      "values": {
+        "phase": "Trifaz (Three Phase)",
+        "power_kw": 12.0,
+        "required_flow_m3h": 4.0,
+        "max_flow_m3h": 17.0
+      },
+      "native": {
+        "default_code": "16015123126",
+        "name": " (16015123126)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 715.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16015123104": {
+      "family_key": "flowline-2",
+      "attribute_set_key": "flowline-2",
+      "values": {
+        "phase": "Trifaz (Three Phase)",
+        "power_kw": 15.0,
+        "required_flow_m3h": 4.0,
+        "max_flow_m3h": 17.0
+      },
+      "native": {
+        "default_code": "16015123104",
+        "name": " (16015123104)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 730.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16015123125": {
+      "family_key": "flowline-2",
+      "attribute_set_key": "flowline-2",
+      "values": {
+        "phase": "Trifaz (Three Phase)",
+        "power_kw": 18.0,
+        "required_flow_m3h": 4.0,
+        "max_flow_m3h": 17.0
+      },
+      "native": {
+        "default_code": "16015123125",
+        "name": " (16015123125)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 750.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16015123129": {
+      "family_key": "flowline-2",
+      "attribute_set_key": "flowline-2",
+      "values": {
+        "phase": "Trifaz (Three Phase)",
+        "power_kw": 24.0,
+        "required_flow_m3h": 4.0,
+        "max_flow_m3h": 17.0
+      },
+      "native": {
+        "default_code": "16015123129",
+        "name": " (16015123129)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 775.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16015123117": {
+      "family_key": "evolution-2",
+      "attribute_set_key": "evolution-2",
+      "values": {
+        "phase": "Mono / Tri",
+        "power_kw": 6.0,
+        "required_flow_m3h": 1.0,
+        "max_flow_m3h": 17.0
+      },
+      "native": {
+        "default_code": "16015123117",
+        "name": " (16015123117)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 1065.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16015123124": {
+      "family_key": "evolution-2",
+      "attribute_set_key": "evolution-2",
+      "values": {
+        "phase": "Mono / Tri",
+        "power_kw": 9.0,
+        "required_flow_m3h": 4.0,
+        "max_flow_m3h": 17.0
+      },
+      "native": {
+        "default_code": "16015123124",
+        "name": " (16015123124)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 1080.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16015123123": {
+      "family_key": "evolution-2",
+      "attribute_set_key": "evolution-2",
+      "values": {
+        "phase": "Mono / Tri",
+        "power_kw": 12.0,
+        "required_flow_m3h": 4.0,
+        "max_flow_m3h": 17.0
+      },
+      "native": {
+        "default_code": "16015123123",
+        "name": " (16015123123)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 1095.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16015123113": {
+      "family_key": "evolution-2",
+      "attribute_set_key": "evolution-2",
+      "values": {
+        "phase": "Trifaz (Three Phase)",
+        "power_kw": 15.0,
+        "required_flow_m3h": 4.0,
+        "max_flow_m3h": 17.0
+      },
+      "native": {
+        "default_code": "16015123113",
+        "name": " (16015123113)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 1105.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16015123122": {
+      "family_key": "evolution-2",
+      "attribute_set_key": "evolution-2",
+      "values": {
+        "phase": "Trifaz (Three Phase)",
+        "power_kw": 18.0,
+        "required_flow_m3h": 4.0,
+        "max_flow_m3h": 17.0
+      },
+      "native": {
+        "default_code": "16015123122",
+        "name": " (16015123122)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 1230.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16015123121": {
+      "family_key": "evolution-2",
+      "attribute_set_key": "evolution-2",
+      "values": {
+        "phase": "Trifaz (Three Phase)",
+        "power_kw": 24.0,
+        "required_flow_m3h": 4.0,
+        "max_flow_m3h": 17.0
+      },
+      "native": {
+        "default_code": "16015123121",
+        "name": " (16015123121)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 1280.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16015123079": {
+      "family_key": "optima-compact",
+      "attribute_set_key": "optima-compact",
+      "values": {
+        "phase": "Mono / Tri",
+        "power_kw": 6.0,
+        "required_flow_m3h": 1.0,
+        "max_flow_m3h": 17.0
+      },
+      "native": {
+        "default_code": "16015123079",
+        "name": " (16015123079)",
+        "prices": [],
+        "category_code": "08"
+      }
+    },
+    "16015123080": {
+      "family_key": "optima-compact",
+      "attribute_set_key": "optima-compact",
+      "values": {
+        "phase": "Mono / Tri",
+        "power_kw": 9.0,
+        "required_flow_m3h": 4.0,
+        "max_flow_m3h": 17.0
+      },
+      "native": {
+        "default_code": "16015123080",
+        "name": " (16015123080)",
+        "prices": [],
+        "category_code": "08"
+      }
+    },
+    "16015123078": {
+      "family_key": "optima-compact",
+      "attribute_set_key": "optima-compact",
+      "values": {
+        "phase": "Mono / Tri",
+        "power_kw": 12.0,
+        "required_flow_m3h": 4.0,
+        "max_flow_m3h": 17.0
+      },
+      "native": {
+        "default_code": "16015123078",
+        "name": " (16015123078)",
+        "prices": [],
+        "category_code": "08"
+      }
+    },
+    "16015123077": {
+      "family_key": "optima-compact",
+      "attribute_set_key": "optima-compact",
+      "values": {
+        "phase": "Trifaz (Three Phase)",
+        "power_kw": 15.0,
+        "required_flow_m3h": 4.0,
+        "max_flow_m3h": 17.0
+      },
+      "native": {
+        "default_code": "16015123077",
+        "name": " (16015123077)",
+        "prices": [],
+        "category_code": "08"
+      }
+    },
+    "16015123076": {
+      "family_key": "optima-compact",
+      "attribute_set_key": "optima-compact",
+      "values": {
+        "phase": "Trifaz (Three Phase)",
+        "power_kw": 18.0,
+        "required_flow_m3h": 4.0,
+        "max_flow_m3h": 17.0
+      },
+      "native": {
+        "default_code": "16015123076",
+        "name": " (16015123076)",
+        "prices": [],
+        "category_code": "08"
+      }
+    },
+    "16015123075": {
+      "family_key": "optima-compact",
+      "attribute_set_key": "optima-compact",
+      "values": {
+        "phase": "Trifaz (Three Phase)",
+        "power_kw": 24.0,
+        "required_flow_m3h": 4.0,
+        "max_flow_m3h": 17.0
+      },
+      "native": {
+        "default_code": "16015123075",
+        "name": " (16015123075)",
+        "prices": [],
+        "category_code": "08"
+      }
+    },
+    "16015123065": {
+      "family_key": "sfs-joey",
+      "attribute_set_key": "sfs-joey",
+      "values": {
+        "phase": "Trifaz (Three Phase)",
+        "power_kw": 18.0,
+        "required_flow_m3h": 7.0,
+        "max_flow_m3h": 15.0
+      },
+      "native": {
+        "default_code": "16015123065",
+        "name": "SFS Joey (16015123065)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 2870.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16015123066": {
+      "family_key": "sfs-joey",
+      "attribute_set_key": "sfs-joey",
+      "values": {
+        "phase": "Trifaz (Three Phase)",
+        "power_kw": 24.0,
+        "required_flow_m3h": 7.0,
+        "max_flow_m3h": 15.0
+      },
+      "native": {
+        "default_code": "16015123066",
+        "name": "SFS Joey (16015123066)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 2930.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16015123067": {
+      "family_key": "sfs-joey",
+      "attribute_set_key": "sfs-joey",
+      "values": {
+        "phase": "Trifaz (Three Phase)",
+        "power_kw": 30.0,
+        "required_flow_m3h": 7.0,
+        "max_flow_m3h": 15.0
+      },
+      "native": {
+        "default_code": "16015123067",
+        "name": "SFS Joey (16015123067)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 3000.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16015123068": {
+      "family_key": "sfs-joey",
+      "attribute_set_key": "sfs-joey",
+      "values": {
+        "phase": "Trifaz (Three Phase)",
+        "power_kw": 36.0,
+        "required_flow_m3h": 7.0,
+        "max_flow_m3h": 15.0
+      },
+      "native": {
+        "default_code": "16015123068",
+        "name": "SFS Joey (16015123068)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 3650.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16015123069": {
+      "family_key": "sfs-joey",
+      "attribute_set_key": "sfs-joey",
+      "values": {
+        "phase": "Trifaz (Three Phase)",
+        "power_kw": 45.0,
+        "required_flow_m3h": 7.0,
+        "max_flow_m3h": 15.0
+      },
+      "native": {
+        "default_code": "16015123069",
+        "name": "SFS Joey (16015123069)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 3680.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16015123070": {
+      "family_key": "sfs-joey",
+      "attribute_set_key": "sfs-joey",
+      "values": {
+        "phase": "Trifaz (Three Phase)",
+        "power_kw": 54.0,
+        "required_flow_m3h": 7.0,
+        "max_flow_m3h": 15.0
+      },
+      "native": {
+        "default_code": "16015123070",
+        "name": "SFS Joey (16015123070)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 3840.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16015123071": {
+      "family_key": "sfs-joey",
+      "attribute_set_key": "sfs-joey",
+      "values": {
+        "phase": "Trifaz (Three Phase)",
+        "power_kw": 60.0,
+        "required_flow_m3h": 7.0,
+        "max_flow_m3h": 15.0
+      },
+      "native": {
+        "default_code": "16015123071",
+        "name": "SFS Joey (16015123071)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 4025.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16015123072": {
+      "family_key": "sfs-joey",
+      "attribute_set_key": "sfs-joey",
+      "values": {
+        "phase": "Trifaz (Three Phase)",
+        "power_kw": 72.0,
+        "required_flow_m3h": 7.0,
+        "max_flow_m3h": 15.0
+      },
+      "native": {
+        "default_code": "16015123072",
+        "name": "SFS Joey (16015123072)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 4990.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16015123073": {
+      "family_key": "sfs-joey",
+      "attribute_set_key": "sfs-joey",
+      "values": {
+        "phase": "Trifaz (Three Phase)",
+        "power_kw": 96.0,
+        "required_flow_m3h": 7.0,
+        "max_flow_m3h": 15.0
+      },
+      "native": {
+        "default_code": "16015123073",
+        "name": "SFS Joey (16015123073)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 6500.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16015123074": {
+      "family_key": "sfs-joey",
+      "attribute_set_key": "sfs-joey",
+      "values": {
+        "phase": "Trifaz (Three Phase)",
+        "power_kw": 120.0,
+        "required_flow_m3h": 7.0,
+        "max_flow_m3h": 15.0
+      },
+      "native": {
+        "default_code": "16015123074",
+        "name": "SFS Joey (16015123074)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 7800.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16015123082": {
+      "family_key": "titan-optima",
+      "attribute_set_key": "titan-optima",
+      "values": {
+        "phase": "Trifaz (Three Phase)",
+        "power_kw": 18.0,
+        "required_flow_m3h": 12.0,
+        "max_flow_m3h": 45.0
+      },
+      "native": {
+        "default_code": "16015123082",
+        "name": " (16015123082)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 3500.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16015123081": {
+      "family_key": "titan-optima",
+      "attribute_set_key": "titan-optima",
+      "values": {
+        "phase": "Trifaz (Three Phase)",
+        "power_kw": 24.0,
+        "required_flow_m3h": 12.0,
+        "max_flow_m3h": 45.0
+      },
+      "native": {
+        "default_code": "16015123081",
+        "name": " (16015123081)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 3550.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16015123119": {
+      "family_key": "titan-optima",
+      "attribute_set_key": "titan-optima",
+      "values": {
+        "phase": "Trifaz (Three Phase)",
+        "power_kw": 30.0,
+        "required_flow_m3h": 12.0,
+        "max_flow_m3h": 45.0
+      },
+      "native": {
+        "default_code": "16015123119",
+        "name": " (16015123119)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 3610.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16015123107": {
+      "family_key": "titan-optima",
+      "attribute_set_key": "titan-optima",
+      "values": {
+        "phase": "Trifaz (Three Phase)",
+        "power_kw": 36.0,
+        "required_flow_m3h": 12.0,
+        "max_flow_m3h": 45.0
+      },
+      "native": {
+        "default_code": "16015123107",
+        "name": " (16015123107)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 4350.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16015123120": {
+      "family_key": "titan-optima",
+      "attribute_set_key": "titan-optima",
+      "values": {
+        "phase": "Trifaz (Three Phase)",
+        "power_kw": 45.0,
+        "required_flow_m3h": 12.0,
+        "max_flow_m3h": 45.0
+      },
+      "native": {
+        "default_code": "16015123120",
+        "name": " (16015123120)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 4500.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16015123091": {
+      "family_key": "titan-optima",
+      "attribute_set_key": "titan-optima",
+      "values": {
+        "phase": "Trifaz (Three Phase)",
+        "power_kw": 54.0,
+        "required_flow_m3h": 12.0,
+        "max_flow_m3h": 45.0
+      },
+      "native": {
+        "default_code": "16015123091",
+        "name": " (16015123091)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 4650.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16015123114": {
+      "family_key": "titan-optima",
+      "attribute_set_key": "titan-optima",
+      "values": {
+        "phase": "Trifaz (Three Phase)",
+        "power_kw": 60.0,
+        "required_flow_m3h": 12.0,
+        "max_flow_m3h": 45.0
+      },
+      "native": {
+        "default_code": "16015123114",
+        "name": " (16015123114)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 4850.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16015123118": {
+      "family_key": "titan-optima",
+      "attribute_set_key": "titan-optima",
+      "values": {
+        "phase": "Trifaz (Three Phase)",
+        "power_kw": 72.0,
+        "required_flow_m3h": 12.0,
+        "max_flow_m3h": 45.0
+      },
+      "native": {
+        "default_code": "16015123118",
+        "name": " (16015123118)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 5900.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16015123097": {
+      "family_key": "titan-optima",
+      "attribute_set_key": "titan-optima",
+      "values": {
+        "phase": "Trifaz (Three Phase)",
+        "power_kw": 96.0,
+        "required_flow_m3h": 12.0,
+        "max_flow_m3h": 45.0
+      },
+      "native": {
+        "default_code": "16015123097",
+        "name": " (16015123097)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 7550.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16015123115": {
+      "family_key": "titan-optima",
+      "attribute_set_key": "titan-optima",
+      "values": {
+        "phase": "Trifaz (Three Phase)",
+        "power_kw": 120.0,
+        "required_flow_m3h": 12.0,
+        "max_flow_m3h": 45.0
+      },
+      "native": {
+        "default_code": "16015123115",
+        "name": " (16015123115)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 9330.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16016123007": {
+      "family_key": "g2-multi-tubular",
+      "attribute_set_key": "g2-multi-tubular",
+      "values": {
+        "power_kw": 30.0,
+        "connection": "50 mm"
+      },
+      "native": {
+        "default_code": "16016123007",
+        "name": "G2 Multi Tubular Eşanjör (16016123007)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 530.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16016123008": {
+      "family_key": "g2-multi-tubular",
+      "attribute_set_key": "g2-multi-tubular",
+      "values": {
+        "power_kw": 49.0,
+        "connection": "50 mm"
+      },
+      "native": {
+        "default_code": "16016123008",
+        "name": "G2 Multi Tubular Eşanjör (16016123008)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 655.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16016123010": {
+      "family_key": "g2-multi-tubular",
+      "attribute_set_key": "g2-multi-tubular",
+      "values": {
+        "power_kw": 85.0,
+        "connection": "50 mm"
+      },
+      "native": {
+        "default_code": "16016123010",
+        "name": "G2 Multi Tubular Eşanjör (16016123010)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 805.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16016123011": {
+      "family_key": "g2-multi-tubular",
+      "attribute_set_key": "g2-multi-tubular",
+      "values": {
+        "power_kw": 122.0,
+        "connection": "50 mm"
+      },
+      "native": {
+        "default_code": "16016123011",
+        "name": "G2 Multi Tubular Eşanjör (16016123011)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 1120.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16016123013": {
+      "family_key": "heatsmart-koolsmart",
+      "attribute_set_key": "heatsmart-koolsmart",
+      "values": {
+        "model": "Heatsmart",
+        "power_kw": 100.0,
+        "frequency": "50/60 hz"
+      },
+      "native": {
+        "default_code": "16016123013",
+        "name": "Heatsmart",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 1690.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16016123020": {
+      "family_key": "heatsmart-koolsmart",
+      "attribute_set_key": "heatsmart-koolsmart",
+      "values": {
+        "model": "Koolsmart",
+        "power_kw": 100.0,
+        "frequency": "50/60 hz"
+      },
+      "native": {
+        "default_code": "16016123020",
+        "name": "Koolsmart",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 935.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16016123012": {
+      "family_key": "g2c-heat-exchanger",
+      "attribute_set_key": "g2c-heat-exchanger",
+      "values": {
+        "model": "G2C-HE-170T",
+        "length_mm": 560.0,
+        "primer_flow_m3h": 10.0,
+        "primer_loss_kpa": 12.0,
+        "secondary_flow_m3h": 28.0,
+        "secondary_loss_kpa": 20.0,
+        "heat_15c_kw": 32.0,
+        "heat_30c_kw": 69.0,
+        "heat_65c_kw": 170.0
+      },
+      "native": {
+        "default_code": "16016123012",
+        "name": "G2C Eşanjör G2C-HE-170T",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 2290.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16016123014": {
+      "family_key": "g2c-heat-exchanger",
+      "attribute_set_key": "g2c-heat-exchanger",
+      "values": {
+        "model": "G2C-HE-220T",
+        "length_mm": 710.0,
+        "primer_flow_m3h": 10.0,
+        "primer_loss_kpa": 16.0,
+        "secondary_flow_m3h": 28.0,
+        "secondary_loss_kpa": 26.0,
+        "heat_15c_kw": 42.0,
+        "heat_30c_kw": 91.0,
+        "heat_65c_kw": 220.0
+      },
+      "native": {
+        "default_code": "16016123014",
+        "name": "G2C Eşanjör G2C-HE-220T",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 2550.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16016123015": {
+      "family_key": "g2c-heat-exchanger",
+      "attribute_set_key": "g2c-heat-exchanger",
+      "values": {
+        "model": "G2C-HE-270T",
+        "length_mm": 860.0,
+        "primer_flow_m3h": 10.0,
+        "primer_loss_kpa": 20.0,
+        "secondary_flow_m3h": 28.0,
+        "secondary_loss_kpa": 30.0,
+        "heat_15c_kw": 56.0,
+        "heat_30c_kw": 117.0,
+        "heat_65c_kw": 270.0
+      },
+      "native": {
+        "default_code": "16016123015",
+        "name": "G2C Eşanjör G2C-HE-270T",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 3220.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16016123016": {
+      "family_key": "g2c-heat-exchanger",
+      "attribute_set_key": "g2c-heat-exchanger",
+      "values": {
+        "model": "G2C-HE-320T",
+        "length_mm": 960.0,
+        "primer_flow_m3h": 10.0,
+        "primer_loss_kpa": 23.0,
+        "secondary_flow_m3h": 28.0,
+        "secondary_loss_kpa": 32.0,
+        "heat_15c_kw": 65.0,
+        "heat_30c_kw": 136.0,
+        "heat_65c_kw": 320.0
+      },
+      "native": {
+        "default_code": "16016123016",
+        "name": "G2C Eşanjör G2C-HE-320T",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 3750.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16015123055": {
+      "family_key": "pool-smart-plus",
+      "attribute_set_key": "pool-smart-plus",
+      "values": {
+        "volume_m3": 20.0,
+        "gross_kg": 1450.0,
+        "power_output": "Voltajsız ısıtma çıkışı ve voltajsız filtrasyon pompası çıkışı Volt free heating output and volt free filtration pump output",
+        "accessories_included": "3 m uzunluğunda akış anahtarı, 3 m uzunluğun da sıcaklık sensörü, T parçası ve 50 mm ve 1,5\" Redüktörler 3m long flow switch, 3m long temperature sensor, T-piece and 50mm &amp; 1.5\" Reducers"
+      },
+      "native": {
+        "default_code": "16015123055",
+        "name": " (16015123055)",
+        "prices": [],
+        "category_code": "08"
+      }
+    },
+    "16017124001": {
+      "family_key": "6x-efficiency",
+      "attribute_set_key": "6x-efficiency",
+      "values": {
+        "power_kw": 24.0,
+        "hot_water_flow": 18.0,
+        "pool_water_flow": 150.0
+      },
+      "native": {
+        "default_code": "16017124001",
+        "name": "6x Verimli Isı Pompası (16017124001)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 212.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16017124002": {
+      "family_key": "6x-efficiency",
+      "attribute_set_key": "6x-efficiency",
+      "values": {
+        "power_kw": 40.0,
+        "hot_water_flow": 25.0,
+        "pool_water_flow": 200.0
+      },
+      "native": {
+        "default_code": "16017124002",
+        "name": "6x Verimli Isı Pompası (16017124002)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 234.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16017124003": {
+      "family_key": "6x-efficiency",
+      "attribute_set_key": "6x-efficiency",
+      "values": {
+        "power_kw": 65.0,
+        "hot_water_flow": 30.0,
+        "pool_water_flow": 250.0
+      },
+      "native": {
+        "default_code": "16017124003",
+        "name": "6x Verimli Isı Pompası (16017124003)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 250.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16017124004": {
+      "family_key": "6x-efficiency",
+      "attribute_set_key": "6x-efficiency",
+      "values": {
+        "power_kw": 75.0,
+        "hot_water_flow": 35.0,
+        "pool_water_flow": 300.0
+      },
+      "native": {
+        "default_code": "16017124004",
+        "name": "6x Verimli Isı Pompası (16017124004)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 272.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16017124005": {
+      "family_key": "6x-efficiency",
+      "attribute_set_key": "6x-efficiency",
+      "values": {
+        "power_kw": 120.0,
+        "hot_water_flow": 50.0,
+        "pool_water_flow": 360.0
+      },
+      "native": {
+        "default_code": "16017124005",
+        "name": "6x Verimli Isı Pompası (16017124005)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 368.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16017122101": {
+      "family_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "attribute_set_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "values": {
+        "heat_capacity_kcalh": 17000.0,
+        "pool_area_m2": 10.0,
+        "reji_m": 12.0,
+        "exchanger_model": "504",
+        "plate_count": 5.0,
+        "temp_range": "10-28",
+        "connection": "40 mm"
+      },
+      "native": {
+        "default_code": "16017122101",
+        "name": "Plakalı Eşanjör (16017122101)",
+        "prices": [
+          {
+            "currency": "USD",
+            "price": 408.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16017122102": {
+      "family_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "attribute_set_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "values": {
+        "heat_capacity_kcalh": 25000.0,
+        "pool_area_m2": 15.0,
+        "reji_m": 12.0,
+        "exchanger_model": "504",
+        "plate_count": 5.0,
+        "temp_range": "10-28",
+        "connection": "40 mm"
+      },
+      "native": {
+        "default_code": "16017122102",
+        "name": "Plakalı Eşanjör (16017122102)",
+        "prices": [
+          {
+            "currency": "USD",
+            "price": 408.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16017122103": {
+      "family_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "attribute_set_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "values": {
+        "heat_capacity_kcalh": 34000.0,
+        "pool_area_m2": 20.0,
+        "reji_m": 12.0,
+        "exchanger_model": "504",
+        "plate_count": 6.0,
+        "temp_range": "10-28",
+        "connection": "40 mm"
+      },
+      "native": {
+        "default_code": "16017122103",
+        "name": "Plakalı Eşanjör (16017122103)",
+        "prices": [
+          {
+            "currency": "USD",
+            "price": 423.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16017122104": {
+      "family_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "attribute_set_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "values": {
+        "heat_capacity_kcalh": 42000.0,
+        "pool_area_m2": 25.0,
+        "reji_m": 12.0,
+        "exchanger_model": "504",
+        "plate_count": 7.0,
+        "temp_range": "10-28",
+        "connection": "40 mm"
+      },
+      "native": {
+        "default_code": "16017122104",
+        "name": "Plakalı Eşanjör (16017122104)",
+        "prices": [
+          {
+            "currency": "USD",
+            "price": 438.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16017122105": {
+      "family_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "attribute_set_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "values": {
+        "heat_capacity_kcalh": 45000.0,
+        "pool_area_m2": 30.0,
+        "reji_m": 12.0,
+        "exchanger_model": "504",
+        "plate_count": 7.0,
+        "temp_range": "10-28",
+        "connection": "40 mm"
+      },
+      "native": {
+        "default_code": "16017122105",
+        "name": "Plakalı Eşanjör (16017122105)",
+        "prices": [
+          {
+            "currency": "USD",
+            "price": 438.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16017122106": {
+      "family_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "attribute_set_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "values": {
+        "heat_capacity_kcalh": 52500.0,
+        "pool_area_m2": 35.0,
+        "reji_m": 12.0,
+        "exchanger_model": "504",
+        "plate_count": 8.0,
+        "temp_range": "10-28",
+        "connection": "40 mm"
+      },
+      "native": {
+        "default_code": "16017122106",
+        "name": "Plakalı Eşanjör (16017122106)",
+        "prices": [
+          {
+            "currency": "USD",
+            "price": 450.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16017122107": {
+      "family_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "attribute_set_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "values": {
+        "heat_capacity_kcalh": 60000.0,
+        "pool_area_m2": 40.0,
+        "reji_m": 12.0,
+        "exchanger_model": "504",
+        "plate_count": 8.0,
+        "temp_range": "10-28",
+        "connection": "40 mm"
+      },
+      "native": {
+        "default_code": "16017122107",
+        "name": "Plakalı Eşanjör (16017122107)",
+        "prices": [
+          {
+            "currency": "USD",
+            "price": 450.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16017122108": {
+      "family_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "attribute_set_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "values": {
+        "heat_capacity_kcalh": 67500.0,
+        "pool_area_m2": 45.0,
+        "reji_m": 12.0,
+        "exchanger_model": "504",
+        "plate_count": 9.0,
+        "temp_range": "10-28",
+        "connection": "40 mm"
+      },
+      "native": {
+        "default_code": "16017122108",
+        "name": "Plakalı Eşanjör (16017122108)",
+        "prices": [
+          {
+            "currency": "USD",
+            "price": 465.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16017122109": {
+      "family_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "attribute_set_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "values": {
+        "heat_capacity_kcalh": 75000.0,
+        "pool_area_m2": 50.0,
+        "reji_m": 12.0,
+        "exchanger_model": "504",
+        "plate_count": 10.0,
+        "temp_range": "10-28",
+        "connection": "40 mm"
+      },
+      "native": {
+        "default_code": "16017122109",
+        "name": "Plakalı Eşanjör (16017122109)",
+        "prices": [
+          {
+            "currency": "USD",
+            "price": 480.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16017122110": {
+      "family_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "attribute_set_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "values": {
+        "heat_capacity_kcalh": 90000.0,
+        "pool_area_m2": 60.0,
+        "reji_m": 12.0,
+        "exchanger_model": "504",
+        "plate_count": 11.0,
+        "temp_range": "10-28",
+        "connection": "40 mm"
+      },
+      "native": {
+        "default_code": "16017122110",
+        "name": "Plakalı Eşanjör (16017122110)",
+        "prices": [
+          {
+            "currency": "USD",
+            "price": 495.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16017122111": {
+      "family_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "attribute_set_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "values": {
+        "heat_capacity_kcalh": 105000.0,
+        "pool_area_m2": 70.0,
+        "reji_m": 12.0,
+        "exchanger_model": "504",
+        "plate_count": 12.0,
+        "temp_range": "10-28",
+        "connection": "40 mm"
+      },
+      "native": {
+        "default_code": "16017122111",
+        "name": "Plakalı Eşanjör (16017122111)",
+        "prices": [
+          {
+            "currency": "USD",
+            "price": 510.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16017122112": {
+      "family_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "attribute_set_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "values": {
+        "heat_capacity_kcalh": 120000.0,
+        "pool_area_m2": 80.0,
+        "reji_m": 12.0,
+        "exchanger_model": "504",
+        "plate_count": 14.0,
+        "temp_range": "10-28",
+        "connection": "40 mm"
+      },
+      "native": {
+        "default_code": "16017122112",
+        "name": "Plakalı Eşanjör (16017122112)",
+        "prices": [
+          {
+            "currency": "USD",
+            "price": 540.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16017122113": {
+      "family_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "attribute_set_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "values": {
+        "heat_capacity_kcalh": 135000.0,
+        "pool_area_m2": 90.0,
+        "reji_m": 12.0,
+        "exchanger_model": "504",
+        "plate_count": 16.0,
+        "temp_range": "10-28",
+        "connection": "40 mm"
+      },
+      "native": {
+        "default_code": "16017122113",
+        "name": "Plakalı Eşanjör (16017122113)",
+        "prices": [
+          {
+            "currency": "USD",
+            "price": 567.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16017122114": {
+      "family_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "attribute_set_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "values": {
+        "heat_capacity_kcalh": 150000.0,
+        "pool_area_m2": 100.0,
+        "reji_m": 12.0,
+        "exchanger_model": "504",
+        "plate_count": 16.0,
+        "temp_range": "10-28",
+        "connection": "40 mm"
+      },
+      "native": {
+        "default_code": "16017122114",
+        "name": "Plakalı Eşanjör (16017122114)",
+        "prices": [
+          {
+            "currency": "USD",
+            "price": 567.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16017122115": {
+      "family_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "attribute_set_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "values": {
+        "heat_capacity_kcalh": 188000.0,
+        "pool_area_m2": 125.0,
+        "reji_m": 12.0,
+        "exchanger_model": "504",
+        "plate_count": 22.0,
+        "temp_range": "10-28",
+        "connection": "40 mm"
+      },
+      "native": {
+        "default_code": "16017122115",
+        "name": "Plakalı Eşanjör (16017122115)",
+        "prices": [
+          {
+            "currency": "USD",
+            "price": 654.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16017122116": {
+      "family_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "attribute_set_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "values": {
+        "heat_capacity_kcalh": 225000.0,
+        "pool_area_m2": 150.0,
+        "reji_m": 12.0,
+        "exchanger_model": "504",
+        "plate_count": 26.0,
+        "temp_range": "10-28",
+        "connection": "40 mm"
+      },
+      "native": {
+        "default_code": "16017122116",
+        "name": "Plakalı Eşanjör (16017122116)",
+        "prices": [
+          {
+            "currency": "USD",
+            "price": 714.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16017122117": {
+      "family_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "attribute_set_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "values": {
+        "heat_capacity_kcalh": 262000.0,
+        "pool_area_m2": 175.0,
+        "reji_m": 12.0,
+        "exchanger_model": "707",
+        "plate_count": 14.0,
+        "temp_range": "10-28",
+        "connection": "63 mm"
+      },
+      "native": {
+        "default_code": "16017122117",
+        "name": "Plakalı Eşanjör (16017122117)",
+        "prices": [
+          {
+            "currency": "USD",
+            "price": 1080.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16017122118": {
+      "family_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "attribute_set_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "values": {
+        "heat_capacity_kcalh": 300000.0,
+        "pool_area_m2": 200.0,
+        "reji_m": 12.0,
+        "exchanger_model": "707",
+        "plate_count": 17.0,
+        "temp_range": "10-28",
+        "connection": "63 mm"
+      },
+      "native": {
+        "default_code": "16017122118",
+        "name": "Plakalı Eşanjör (16017122118)",
+        "prices": [
+          {
+            "currency": "USD",
+            "price": 1134.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16017122119": {
+      "family_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "attribute_set_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "values": {
+        "heat_capacity_kcalh": 375000.0,
+        "pool_area_m2": 250.0,
+        "reji_m": 12.0,
+        "exchanger_model": "707",
+        "plate_count": 21.0,
+        "temp_range": "10-28",
+        "connection": "63 mm"
+      },
+      "native": {
+        "default_code": "16017122119",
+        "name": "Plakalı Eşanjör (16017122119)",
+        "prices": [
+          {
+            "currency": "USD",
+            "price": 1212.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16017122120": {
+      "family_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "attribute_set_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "values": {
+        "heat_capacity_kcalh": 450000.0,
+        "pool_area_m2": 300.0,
+        "reji_m": 12.0,
+        "exchanger_model": "707",
+        "plate_count": 26.0,
+        "temp_range": "10-28",
+        "connection": "63 mm"
+      },
+      "native": {
+        "default_code": "16017122120",
+        "name": "Plakalı Eşanjör (16017122120)",
+        "prices": [
+          {
+            "currency": "USD",
+            "price": 1305.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16017122121": {
+      "family_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "attribute_set_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "values": {
+        "heat_capacity_kcalh": 600000.0,
+        "pool_area_m2": 400.0,
+        "reji_m": 12.0,
+        "exchanger_model": "707",
+        "plate_count": 34.0,
+        "temp_range": "10-28",
+        "connection": "63 mm"
+      },
+      "native": {
+        "default_code": "16017122121",
+        "name": "Plakalı Eşanjör (16017122121)",
+        "prices": [
+          {
+            "currency": "USD",
+            "price": 1455.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16017122122": {
+      "family_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "attribute_set_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "values": {
+        "heat_capacity_kcalh": 750000.0,
+        "pool_area_m2": 500.0,
+        "reji_m": 12.0,
+        "exchanger_model": "707",
+        "plate_count": 46.0,
+        "temp_range": "10-28",
+        "connection": "63 mm"
+      },
+      "native": {
+        "default_code": "16017122122",
+        "name": "Plakalı Eşanjör (16017122122)",
+        "prices": [
+          {
+            "currency": "USD",
+            "price": 1680.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16017122123": {
+      "family_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "attribute_set_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "values": {
+        "heat_capacity_kcalh": 30000.0,
+        "pool_area_m2": 30.0,
+        "reji_m": 18.0,
+        "exchanger_model": "504",
+        "plate_count": 6.0,
+        "temp_range": "10-28",
+        "connection": "40 mm"
+      },
+      "native": {
+        "default_code": "16017122123",
+        "name": "Plakalı Eşanjör (16017122123)",
+        "prices": [
+          {
+            "currency": "USD",
+            "price": 423.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16017122124": {
+      "family_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "attribute_set_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "values": {
+        "heat_capacity_kcalh": 35000.0,
+        "pool_area_m2": 35.0,
+        "reji_m": 18.0,
+        "exchanger_model": "504",
+        "plate_count": 6.0,
+        "temp_range": "10-28",
+        "connection": "40 mm"
+      },
+      "native": {
+        "default_code": "16017122124",
+        "name": "Plakalı Eşanjör (16017122124)",
+        "prices": [
+          {
+            "currency": "USD",
+            "price": 423.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16017122125": {
+      "family_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "attribute_set_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "values": {
+        "heat_capacity_kcalh": 40000.0,
+        "pool_area_m2": 40.0,
+        "reji_m": 18.0,
+        "exchanger_model": "504",
+        "plate_count": 7.0,
+        "temp_range": "10-28",
+        "connection": "40 mm"
+      },
+      "native": {
+        "default_code": "16017122125",
+        "name": "Plakalı Eşanjör (16017122125)",
+        "prices": [
+          {
+            "currency": "USD",
+            "price": 438.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16017122126": {
+      "family_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "attribute_set_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "values": {
+        "heat_capacity_kcalh": 45000.0,
+        "pool_area_m2": 45.0,
+        "reji_m": 18.0,
+        "exchanger_model": "504",
+        "plate_count": 7.0,
+        "temp_range": "10-28",
+        "connection": "40 mm"
+      },
+      "native": {
+        "default_code": "16017122126",
+        "name": "Plakalı Eşanjör (16017122126)",
+        "prices": [
+          {
+            "currency": "USD",
+            "price": 438.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16017122127": {
+      "family_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "attribute_set_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "values": {
+        "heat_capacity_kcalh": 50000.0,
+        "pool_area_m2": 50.0,
+        "reji_m": 18.0,
+        "exchanger_model": "504",
+        "plate_count": 7.0,
+        "temp_range": "10-28",
+        "connection": "40 mm"
+      },
+      "native": {
+        "default_code": "16017122127",
+        "name": "Plakalı Eşanjör (16017122127)",
+        "prices": [
+          {
+            "currency": "USD",
+            "price": 438.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16017122128": {
+      "family_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "attribute_set_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "values": {
+        "heat_capacity_kcalh": 60000.0,
+        "pool_area_m2": 60.0,
+        "reji_m": 18.0,
+        "exchanger_model": "504",
+        "plate_count": 8.0,
+        "temp_range": "10-28",
+        "connection": "40 mm"
+      },
+      "native": {
+        "default_code": "16017122128",
+        "name": "Plakalı Eşanjör (16017122128)",
+        "prices": [
+          {
+            "currency": "USD",
+            "price": 450.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16017122129": {
+      "family_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "attribute_set_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "values": {
+        "heat_capacity_kcalh": 70000.0,
+        "pool_area_m2": 70.0,
+        "reji_m": 18.0,
+        "exchanger_model": "504",
+        "plate_count": 9.0,
+        "temp_range": "10-28",
+        "connection": "40 mm"
+      },
+      "native": {
+        "default_code": "16017122129",
+        "name": "Plakalı Eşanjör (16017122129)",
+        "prices": [
+          {
+            "currency": "USD",
+            "price": 465.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16017122130": {
+      "family_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "attribute_set_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "values": {
+        "heat_capacity_kcalh": 80000.0,
+        "pool_area_m2": 80.0,
+        "reji_m": 18.0,
+        "exchanger_model": "504",
+        "plate_count": 10.0,
+        "temp_range": "10-28",
+        "connection": "40 mm"
+      },
+      "native": {
+        "default_code": "16017122130",
+        "name": "Plakalı Eşanjör (16017122130)",
+        "prices": [
+          {
+            "currency": "USD",
+            "price": 480.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16017122131": {
+      "family_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "attribute_set_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "values": {
+        "heat_capacity_kcalh": 90000.0,
+        "pool_area_m2": 90.0,
+        "reji_m": 18.0,
+        "exchanger_model": "504",
+        "plate_count": 11.0,
+        "temp_range": "10-28",
+        "connection": "40 mm"
+      },
+      "native": {
+        "default_code": "16017122131",
+        "name": "Plakalı Eşanjör (16017122131)",
+        "prices": [
+          {
+            "currency": "USD",
+            "price": 495.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16017122132": {
+      "family_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "attribute_set_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "values": {
+        "heat_capacity_kcalh": 100000.0,
+        "pool_area_m2": 100.0,
+        "reji_m": 18.0,
+        "exchanger_model": "504",
+        "plate_count": 12.0,
+        "temp_range": "10-28",
+        "connection": "40 mm"
+      },
+      "native": {
+        "default_code": "16017122132",
+        "name": "Plakalı Eşanjör (16017122132)",
+        "prices": [
+          {
+            "currency": "USD",
+            "price": 510.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16017122133": {
+      "family_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "attribute_set_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "values": {
+        "heat_capacity_kcalh": 125000.0,
+        "pool_area_m2": 125.0,
+        "reji_m": 18.0,
+        "exchanger_model": "504",
+        "plate_count": 14.0,
+        "temp_range": "10-28",
+        "connection": "40 mm"
+      },
+      "native": {
+        "default_code": "16017122133",
+        "name": "Plakalı Eşanjör (16017122133)",
+        "prices": [
+          {
+            "currency": "USD",
+            "price": 540.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16017122134": {
+      "family_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "attribute_set_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "values": {
+        "heat_capacity_kcalh": 150000.0,
+        "pool_area_m2": 150.0,
+        "reji_m": 18.0,
+        "exchanger_model": "504",
+        "plate_count": 16.0,
+        "temp_range": "10-28",
+        "connection": "40 mm"
+      },
+      "native": {
+        "default_code": "16017122134",
+        "name": "Plakalı Eşanjör (16017122134)",
+        "prices": [
+          {
+            "currency": "USD",
+            "price": 567.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16017122135": {
+      "family_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "attribute_set_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "values": {
+        "heat_capacity_kcalh": 175000.0,
+        "pool_area_m2": 175.0,
+        "reji_m": 18.0,
+        "exchanger_model": "504",
+        "plate_count": 20.0,
+        "temp_range": "10-28",
+        "connection": "40 mm"
+      },
+      "native": {
+        "default_code": "16017122135",
+        "name": "Plakalı Eşanjör (16017122135)",
+        "prices": [
+          {
+            "currency": "USD",
+            "price": 582.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16017122136": {
+      "family_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "attribute_set_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "values": {
+        "heat_capacity_kcalh": 200000.0,
+        "pool_area_m2": 200.0,
+        "reji_m": 18.0,
+        "exchanger_model": "504",
+        "plate_count": 24.0,
+        "temp_range": "10-28",
+        "connection": "40 mm"
+      },
+      "native": {
+        "default_code": "16017122136",
+        "name": "Plakalı Eşanjör (16017122136)",
+        "prices": [
+          {
+            "currency": "USD",
+            "price": 642.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16017122137": {
+      "family_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "attribute_set_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "values": {
+        "heat_capacity_kcalh": 250000.0,
+        "pool_area_m2": 250.0,
+        "reji_m": 18.0,
+        "exchanger_model": "504",
+        "plate_count": 32.0,
+        "temp_range": "10-28",
+        "connection": "40 mm"
+      },
+      "native": {
+        "default_code": "16017122137",
+        "name": "Plakalı Eşanjör (16017122137)",
+        "prices": [
+          {
+            "currency": "USD",
+            "price": 756.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16017122138": {
+      "family_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "attribute_set_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "values": {
+        "heat_capacity_kcalh": 300000.0,
+        "pool_area_m2": 300.0,
+        "reji_m": 18.0,
+        "exchanger_model": "707",
+        "plate_count": 17.0,
+        "temp_range": "10-28",
+        "connection": "63 mm"
+      },
+      "native": {
+        "default_code": "16017122138",
+        "name": "Plakalı Eşanjör (16017122138)",
+        "prices": [
+          {
+            "currency": "USD",
+            "price": 1134.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16017122139": {
+      "family_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "attribute_set_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "values": {
+        "heat_capacity_kcalh": 400000.0,
+        "pool_area_m2": 400.0,
+        "reji_m": 18.0,
+        "exchanger_model": "707",
+        "plate_count": 22.0,
+        "temp_range": "10-28",
+        "connection": "63 mm"
+      },
+      "native": {
+        "default_code": "16017122139",
+        "name": "Plakalı Eşanjör (16017122139)",
+        "prices": [
+          {
+            "currency": "USD",
+            "price": 1230.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16017122140": {
+      "family_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "attribute_set_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "values": {
+        "heat_capacity_kcalh": 500000.0,
+        "pool_area_m2": 500.0,
+        "reji_m": 18.0,
+        "exchanger_model": "707",
+        "plate_count": 28.0,
+        "temp_range": "10-28",
+        "connection": "63 mm"
+      },
+      "native": {
+        "default_code": "16017122140",
+        "name": "Plakalı Eşanjör (16017122140)",
+        "prices": [
+          {
+            "currency": "USD",
+            "price": 1338.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16017122141": {
+      "family_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "attribute_set_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "values": {
+        "heat_capacity_kcalh": 38000.0,
+        "pool_area_m2": 50.0,
+        "reji_m": 24.0,
+        "exchanger_model": "504",
+        "plate_count": 7.0,
+        "temp_range": "10-28",
+        "connection": "40 mm"
+      },
+      "native": {
+        "default_code": "16017122141",
+        "name": "Plakalı Eşanjör (16017122141)",
+        "prices": [
+          {
+            "currency": "USD",
+            "price": 438.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16017122142": {
+      "family_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "attribute_set_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "values": {
+        "heat_capacity_kcalh": 45000.0,
+        "pool_area_m2": 60.0,
+        "reji_m": 24.0,
+        "exchanger_model": "504",
+        "plate_count": 7.0,
+        "temp_range": "10-28",
+        "connection": "40 mm"
+      },
+      "native": {
+        "default_code": "16017122142",
+        "name": "Plakalı Eşanjör (16017122142)",
+        "prices": [
+          {
+            "currency": "USD",
+            "price": 438.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16017122143": {
+      "family_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "attribute_set_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "values": {
+        "heat_capacity_kcalh": 53000.0,
+        "pool_area_m2": 70.0,
+        "reji_m": 24.0,
+        "exchanger_model": "504",
+        "plate_count": 8.0,
+        "temp_range": "10-28",
+        "connection": "40 mm"
+      },
+      "native": {
+        "default_code": "16017122143",
+        "name": "Plakalı Eşanjör (16017122143)",
+        "prices": [
+          {
+            "currency": "USD",
+            "price": 450.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16017122144": {
+      "family_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "attribute_set_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "values": {
+        "heat_capacity_kcalh": 60000.0,
+        "pool_area_m2": 80.0,
+        "reji_m": 24.0,
+        "exchanger_model": "504",
+        "plate_count": 8.0,
+        "temp_range": "10-28",
+        "connection": "40 mm"
+      },
+      "native": {
+        "default_code": "16017122144",
+        "name": "Plakalı Eşanjör (16017122144)",
+        "prices": [
+          {
+            "currency": "USD",
+            "price": 450.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16017122145": {
+      "family_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "attribute_set_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "values": {
+        "heat_capacity_kcalh": 67500.0,
+        "pool_area_m2": 90.0,
+        "reji_m": 24.0,
+        "exchanger_model": "504",
+        "plate_count": 9.0,
+        "temp_range": "10-28",
+        "connection": "40 mm"
+      },
+      "native": {
+        "default_code": "16017122145",
+        "name": "Plakalı Eşanjör (16017122145)",
+        "prices": [
+          {
+            "currency": "USD",
+            "price": 465.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16017122146": {
+      "family_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "attribute_set_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "values": {
+        "heat_capacity_kcalh": 75000.0,
+        "pool_area_m2": 100.0,
+        "reji_m": 24.0,
+        "exchanger_model": "504",
+        "plate_count": 10.0,
+        "temp_range": "10-28",
+        "connection": "40 mm"
+      },
+      "native": {
+        "default_code": "16017122146",
+        "name": "Plakalı Eşanjör (16017122146)",
+        "prices": [
+          {
+            "currency": "USD",
+            "price": 480.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16017122147": {
+      "family_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "attribute_set_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "values": {
+        "heat_capacity_kcalh": 94000.0,
+        "pool_area_m2": 125.0,
+        "reji_m": 24.0,
+        "exchanger_model": "504",
+        "plate_count": 11.0,
+        "temp_range": "10-28",
+        "connection": "40 mm"
+      },
+      "native": {
+        "default_code": "16017122147",
+        "name": "Plakalı Eşanjör (16017122147)",
+        "prices": [
+          {
+            "currency": "USD",
+            "price": 495.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16017122148": {
+      "family_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "attribute_set_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "values": {
+        "heat_capacity_kcalh": 112500.0,
+        "pool_area_m2": 150.0,
+        "reji_m": 24.0,
+        "exchanger_model": "504",
+        "plate_count": 13.0,
+        "temp_range": "10-28",
+        "connection": "40 mm"
+      },
+      "native": {
+        "default_code": "16017122148",
+        "name": "Plakalı Eşanjör (16017122148)",
+        "prices": [
+          {
+            "currency": "USD",
+            "price": 525.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16017122149": {
+      "family_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "attribute_set_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "values": {
+        "heat_capacity_kcalh": 132000.0,
+        "pool_area_m2": 175.0,
+        "reji_m": 24.0,
+        "exchanger_model": "504",
+        "plate_count": 14.0,
+        "temp_range": "10-28",
+        "connection": "40 mm"
+      },
+      "native": {
+        "default_code": "16017122149",
+        "name": "Plakalı Eşanjör (16017122149)",
+        "prices": [
+          {
+            "currency": "USD",
+            "price": 540.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16017122150": {
+      "family_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "attribute_set_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "values": {
+        "heat_capacity_kcalh": 150000.0,
+        "pool_area_m2": 200.0,
+        "reji_m": 24.0,
+        "exchanger_model": "504",
+        "plate_count": 16.0,
+        "temp_range": "10-28",
+        "connection": "40 mm"
+      },
+      "native": {
+        "default_code": "16017122150",
+        "name": "Plakalı Eşanjör (16017122150)",
+        "prices": [
+          {
+            "currency": "USD",
+            "price": 567.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16017122151": {
+      "family_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "attribute_set_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "values": {
+        "heat_capacity_kcalh": 190000.0,
+        "pool_area_m2": 250.0,
+        "reji_m": 24.0,
+        "exchanger_model": "504",
+        "plate_count": 22.0,
+        "temp_range": "10-28",
+        "connection": "40 mm"
+      },
+      "native": {
+        "default_code": "16017122151",
+        "name": "Plakalı Eşanjör (16017122151)",
+        "prices": [
+          {
+            "currency": "USD",
+            "price": 612.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16017122152": {
+      "family_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "attribute_set_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "values": {
+        "heat_capacity_kcalh": 225000.0,
+        "pool_area_m2": 300.0,
+        "reji_m": 24.0,
+        "exchanger_model": "504",
+        "plate_count": 26.0,
+        "temp_range": "10-28",
+        "connection": "40 mm"
+      },
+      "native": {
+        "default_code": "16017122152",
+        "name": "Plakalı Eşanjör (16017122152)",
+        "prices": [
+          {
+            "currency": "USD",
+            "price": 669.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16017122153": {
+      "family_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "attribute_set_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "values": {
+        "heat_capacity_kcalh": 300000.0,
+        "pool_area_m2": 400.0,
+        "reji_m": 24.0,
+        "exchanger_model": "707",
+        "plate_count": 17.0,
+        "temp_range": "10-28",
+        "connection": "63 mm"
+      },
+      "native": {
+        "default_code": "16017122153",
+        "name": "Plakalı Eşanjör (16017122153)",
+        "prices": [
+          {
+            "currency": "USD",
+            "price": 1134.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16017122154": {
+      "family_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "attribute_set_key": "plakal-e-anj-r-plate-heat-exchanger",
+      "values": {
+        "heat_capacity_kcalh": 375000.0,
+        "pool_area_m2": 500.0,
+        "reji_m": 24.0,
+        "exchanger_model": "707",
+        "plate_count": 21.0,
+        "temp_range": "10-28",
+        "connection": "63 mm"
+      },
+      "native": {
+        "default_code": "16017122154",
+        "name": "Plakalı Eşanjör (16017122154)",
+        "prices": [
+          {
+            "currency": "USD",
+            "price": 1212.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16019123013": {
+      "family_key": "smart-inverter",
+      "attribute_set_key": "smart-inverter",
+      "values": {
+        "power_kw": 10.5,
+        "dims": "1.130mm x 420mm x 760mm"
+      },
+      "native": {
+        "default_code": "16019123013",
+        "name": "Smart İnverter (16019123013)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 2745.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16019123019": {
+      "family_key": "smart-inverter",
+      "attribute_set_key": "smart-inverter",
+      "values": {
+        "power_kw": 16.5,
+        "dims": "1.180mm x 470mm x 860mm"
+      },
+      "native": {
+        "default_code": "16019123019",
+        "name": "Smart İnverter (16019123019)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 3250.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16019123014": {
+      "family_key": "smart-inverter",
+      "attribute_set_key": "smart-inverter",
+      "values": {
+        "power_kw": 21.0,
+        "dims": "1.230mm x 530mm x 1.100mm"
+      },
+      "native": {
+        "default_code": "16019123014",
+        "name": "Smart İnverter (16019123014)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 4300.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16019123015": {
+      "family_key": "smart-inverter",
+      "attribute_set_key": "smart-inverter",
+      "values": {
+        "power_kw": 24.0,
+        "dims": "1.230mm x 530mm x 1.100mm"
+      },
+      "native": {
+        "default_code": "16019123015",
+        "name": "Smart İnverter (16019123015)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 5300.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16019123023": {
+      "family_key": "smart-inverter",
+      "attribute_set_key": "smart-inverter",
+      "values": {
+        "power_kw": 32.5,
+        "dims": "1.250mm x 530mm x 1.480mm"
+      },
+      "native": {
+        "default_code": "16019123023",
+        "name": "Smart İnverter (16019123023)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 8075.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16019123022": {
+      "family_key": "smart-inverter",
+      "attribute_set_key": "smart-inverter",
+      "values": {
+        "power_kw": 65.0,
+        "dims": "1.240 mm x 500mm x 1.770mm"
+      },
+      "native": {
+        "default_code": "16019123022",
+        "name": "Smart İnverter (16019123022)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 14050.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16019123071": {
+      "family_key": "smart-inverter",
+      "attribute_set_key": "smart-inverter",
+      "values": {
+        "power_kw": 130.0,
+        "dims": "1.140mm x 1.280mm x 2.110mm"
+      },
+      "native": {
+        "default_code": "16019123071",
+        "name": "Smart İnverter (16019123071)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 27000.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16019123083": {
+      "family_key": "residential-inverter",
+      "attribute_set_key": "residential-inverter",
+      "values": {
+        "power_kw": 10.0,
+        "dims": "1.050mm x 455mm x 788mm"
+      },
+      "native": {
+        "default_code": "16019123083",
+        "name": "Konut Tipi İnverter (16019123083)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 6350.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16019123084": {
+      "family_key": "residential-inverter",
+      "attribute_set_key": "residential-inverter",
+      "values": {
+        "power_kw": 12.0,
+        "dims": "1.180mm x 455mm x 910mm"
+      },
+      "native": {
+        "default_code": "16019123084",
+        "name": "Konut Tipi İnverter (16019123084)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 7700.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16019123085": {
+      "family_key": "residential-inverter",
+      "attribute_set_key": "residential-inverter",
+      "values": {
+        "power_kw": 15.0,
+        "dims": "1.000mm x 435mm x 1.335mm"
+      },
+      "native": {
+        "default_code": "16019123085",
+        "name": "Konut Tipi İnverter (16019123085)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 9150.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16019123086": {
+      "family_key": "residential-inverter",
+      "attribute_set_key": "residential-inverter",
+      "values": {
+        "power_kw": 15.0,
+        "dims": "1.000mm x 435mm x 1.335mm"
+      },
+      "native": {
+        "default_code": "16019123086",
+        "name": "Konut Tipi İnverter (16019123086)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 9300.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16019123087": {
+      "family_key": "residential-inverter",
+      "attribute_set_key": "residential-inverter",
+      "values": {
+        "power_kw": 18.0,
+        "dims": "1.000mm x 435mm x 1.335mm"
+      },
+      "native": {
+        "default_code": "16019123087",
+        "name": "Konut Tipi İnverter (16019123087)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 9750.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16019123088": {
+      "family_key": "residential-inverter",
+      "attribute_set_key": "residential-inverter",
+      "values": {
+        "power_kw": 18.0,
+        "dims": "1.000mm x 435mm x 1.335mm"
+      },
+      "native": {
+        "default_code": "16019123088",
+        "name": "Konut Tipi İnverter (16019123088)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 10250.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16019123089": {
+      "family_key": "residential-inverter",
+      "attribute_set_key": "residential-inverter",
+      "values": {
+        "power_kw": 24.0,
+        "dims": "1.170 mm x 455mm x 1.560mm"
+      },
+      "native": {
+        "default_code": "16019123089",
+        "name": "Konut Tipi İnverter (16019123089)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 11650.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16019123090": {
+      "family_key": "residential-inverter",
+      "attribute_set_key": "residential-inverter",
+      "values": {
+        "power_kw": 30.0,
+        "dims": "1.170 mm x 455mm x 1.560mm"
+      },
+      "native": {
+        "default_code": "16019123090",
+        "name": "Konut Tipi İnverter (16019123090)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 13600.0
+          }
+        ],
+        "category_code": "08"
+      }
+    },
+    "16019123091": {
+      "family_key": "residential-inverter",
+      "attribute_set_key": "residential-inverter",
+      "values": {
+        "power_kw": 36.0,
+        "dims": "1.170 mm x 455mm x 1.560mm"
+      },
+      "native": {
+        "default_code": "16019123091",
+        "name": "Konut Tipi İnverter (16019123091)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 14150.0
+          }
+        ],
+        "category_code": "08"
+      }
+    }
+  }
+}

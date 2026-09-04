@@ -1,0 +1,3972 @@
+{
+  "meta": {
+    "generator": "pim/generate_pim_json.py",
+    "generated_at": "2026-09-04",
+    "source_files": [
+      "06_Havuz_Dezenfeksiyon_Ekipmanlari__Pool_Disinfection_Equipment.json",
+      "06_Havuz_Dezenfeksiyon_Ekipmanlari__Pool_Disinfection_Equipment_attributes.json"
+    ],
+    "category_no": "06",
+    "category_tr": "Havuz Dezenfeksiyon Ekipmanları",
+    "category_en": "Pool Disinfection Equipment",
+    "odoo_model": "product.template",
+    "pim_modules": [
+      "attribute_set",
+      "product_attribute_set",
+      "pim"
+    ],
+    "technical_name_prefix": "disinf",
+    "family_count": 47,
+    "variant_count": 147,
+    "import_order": [
+      "attribute_groups",
+      "attribute_sets (ustten alta, parent once)",
+      "attributes (custom -> ir.model.fields; native -> field_id)",
+      "attribute.option kayitlari (select/multiselect icin)",
+      "product_category (varsayilan set baglanti)",
+      "product_values (product.template + x_ alan degerleri)"
+    ],
+    "design_notes": [
+      "Set hiyerarşisi attribute.set.parent_id ile kurulur; alt setler üst setin niteliklerini kalıtır (complete_attribute_ids).",
+      "Kategori genelinde ortak nitelikler kök sette; yalnızca alt gruplarda görülen nitelikler ilgili ara/aile setine bağlanır (ör. kum kapasitesi yalnızca Kum Filtreleri setinde).",
+      "Bir nitelik birden fazla sete bağlanabilir (attribute_set_ids m2m): grain_size hem 25 Mikron hem Filtre Medyaları setinde.",
+      "serialized=False seçildi; gerçek kolon arama/filtreleme/gruplama avantajı sağlar. Yüzlerce niteliğe çıkılırsa serialized=True önerilir (x_custom_json_attrs JSON blob).",
+      "Ağırlık doğal (native) nitelik olarak product.template.weight alanına bağlandı; ambalaj ağırlığı (25 kg çuvallar) da bu alana yazılır.",
+      "select/multiselect nitelikler attribute.option kayıtlarıyla normalize edildi; serbest metin yerine seçim listesi kullanılarak veri tutarlılığı sağlanır.",
+      "Urun adi (name) aile başlığı + model; model yoksa aile başlığı + koddan üretilir. default_code her zaman koddur."
+    ],
+    "data_quality_notes": [
+      "Ikon değerleri normalize edildi (yildiz/tire temizligi, 'RESIDENTAL' -> 'RESIDENTIAL', '- POOL PLUMBING LINES' -> 'POOL PLUMBING LINES').",
+      "6 yollu vanalarda büyük 'Ø' disli, küçük 'ø' yapistirma baglantiyi belirtir; secenek etiketleri buna gore aciklastirildi.",
+      "ap_diameter alani iki anlamda kullaniliyor: sayisal degerler filtre capi (diameter_mm), aralik degerler ('0,5-1,2 mm') tane boyutu (grain_size) olarak ayristirildi.",
+      "'ambalaj_packing' ('25 kg') degeri urunun gercek agirligi oldugu icin native weight alanina yazildi.",
+      "Rotex ailesinde family spec 'max_pressure_bar=1.5' ile variant tablosundaki 'MAX. CALISMA BASINCI 2,5 bar' celisiyor; her ikisi ayri nitelikte (kok 'Maks. Basinc' ve kum filtre 'Maks. Calisma Basinci') tasindi, gozden gecirilmeli.",
+      "Lamex tablolarindaki 1.050+ mm capli satirlar kum filtreler icin dogrudur; PDF'te pompa bolumune tasmasi kaynak cikarimidir (02 kategorisinde zaten yer alirlar).",
+      "Rotex aile tablosunda Woundex ile ayni kodlu satirlar var (12015123100-03); urun atamalari Woundex tarafindadir ve cift uretim engellendi.",
+      "bullets_tr listesi bazi ailelerde TR+EN satirlari icerir; highlights alani kaynagini birebir tasir.",
+      "Zeolit ailesi kaynak PDF'te skimmer, havuz ortusu, merdiven gibi diger urunleri de kapsar; set adi 'Zeolit ve Diger Urunler' olarak duzenlendi."
+    ]
+  },
+  "attribute_groups": [
+    {
+      "key": "general",
+      "name": "Genel",
+      "name_en": "General",
+      "sequence": 10
+    },
+    {
+      "key": "technical",
+      "name": "Teknik Özellikler",
+      "name_en": "Technical Specs",
+      "sequence": 20
+    },
+    {
+      "key": "electrical",
+      "name": "Elektrik",
+      "name_en": "Electrical",
+      "sequence": 30
+    },
+    {
+      "key": "physical",
+      "name": "Fiziksel Özellikler",
+      "name_en": "Physical Specs",
+      "sequence": 40
+    },
+    {
+      "key": "connection",
+      "name": "Bağlantı ve Montaj",
+      "name_en": "Connection & Fitting",
+      "sequence": 50
+    }
+  ],
+  "attribute_sets": [
+    {
+      "key": "pool-disinfection",
+      "name": "Havuz Dezenfeksiyon Ekipmanları",
+      "name_en": "Pool Disinfection Equipment",
+      "parent_key": null,
+      "sequence": 10,
+      "is_root": true
+    },
+    {
+      "key": "uv-sistemleri",
+      "name": "UV Sistemleri",
+      "name_en": "UV Systems",
+      "parent_key": "pool-disinfection",
+      "sequence": 20
+    },
+    {
+      "key": "klor-ureticileri",
+      "name": "Klor Üreticileri",
+      "name_en": "Chlorine Generators",
+      "parent_key": "pool-disinfection",
+      "sequence": 30
+    },
+    {
+      "key": "dozaj-panelleri",
+      "name": "Dozaj Pompaları ve Panelleri",
+      "name_en": "Dosing Pumps & Panels",
+      "parent_key": "pool-disinfection",
+      "sequence": 40
+    },
+    {
+      "key": "dozaj-aksesuarlari",
+      "name": "Dozaj Aksesuarları",
+      "name_en": "Dosing Accessories",
+      "parent_key": "pool-disinfection",
+      "sequence": 50
+    },
+    {
+      "key": "hijyen-test",
+      "name": "Hijyen ve Test Ürünleri",
+      "name_en": "Hygiene & Test Products",
+      "parent_key": "pool-disinfection",
+      "sequence": 60
+    },
+    {
+      "key": "5-year-guarantee",
+      "name": "UV Sistemleri (MPL)",
+      "name_en": "UV Systems (MPL)",
+      "parent_key": "uv-sistemleri",
+      "sequence": 10,
+      "family_product_id": "5-year-guarantee",
+      "family_variant_count": 20
+    },
+    {
+      "key": "end-stri-yel-uv-industrial-uv",
+      "name": "Endüstriyel UV",
+      "name_en": "Industrial UV",
+      "parent_key": "uv-sistemleri",
+      "sequence": 20,
+      "family_product_id": "end-stri-yel-uv-industrial-uv",
+      "family_variant_count": 8
+    },
+    {
+      "key": "uv-benefits-for-public-pools-and-water-parks",
+      "name": "Havuz UV Sistemleri (FW)",
+      "name_en": "Pool UV Systems (FW)",
+      "parent_key": "uv-sistemleri",
+      "sequence": 30,
+      "family_product_id": "uv-benefits-for-public-pools-and-water-parks",
+      "family_variant_count": 6
+    },
+    {
+      "key": "uv-c-teknoloji-si-uv-c-technology",
+      "name": "UV-C Teknolojisi",
+      "name_en": "UV-C Technology",
+      "parent_key": "uv-sistemleri",
+      "sequence": 40,
+      "family_product_id": "uv-c-teknoloji-si-uv-c-technology",
+      "family_variant_count": 5
+    },
+    {
+      "key": "fotokatalitik-oksidasyon-photocatalytic-oxidation",
+      "name": "Fotokatalitik Oksidasyon",
+      "name_en": "Photocatalytic Oxidation",
+      "parent_key": "uv-sistemleri",
+      "sequence": 50,
+      "family_product_id": "fotokatalitik-oksidasyon-photocatalytic-oxidation",
+      "family_variant_count": 3
+    },
+    {
+      "key": "sistem-ba-lant-emas-system-connection-diagram",
+      "name": "Kontrol Sistemleri (KLX)",
+      "name_en": "Control Systems (KLX)",
+      "parent_key": "klor-ureticileri",
+      "sequence": 60,
+      "family_product_id": "sistem-ba-lant-emas-system-connection-diagram",
+      "family_variant_count": 9
+    },
+    {
+      "key": "havuz-y-neti-mi-pool-manager",
+      "name": "Havuz Yönetimi (Pool Manager)",
+      "name_en": "Pool Manager",
+      "parent_key": "klor-ureticileri",
+      "sequence": 70,
+      "family_product_id": "havuz-y-neti-mi-pool-manager",
+      "family_variant_count": 8
+    },
+    {
+      "key": "automation",
+      "name": "Automation",
+      "name_en": "Automation",
+      "parent_key": "klor-ureticileri",
+      "sequence": 80,
+      "family_product_id": "automation",
+      "family_variant_count": 4
+    },
+    {
+      "key": "s-serisi-s-series",
+      "name": "S Serisi S Series",
+      "name_en": "S Serisi S Series",
+      "parent_key": "klor-ureticileri",
+      "sequence": 90,
+      "family_product_id": "s-serisi-s-series",
+      "family_variant_count": 4
+    },
+    {
+      "key": "deni-z-dayanimi-sea-resistant",
+      "name": "Deniz Dayanımlı",
+      "name_en": "Sea Resistant",
+      "parent_key": "klor-ureticileri",
+      "sequence": 100,
+      "family_product_id": "deni-z-dayanimi-sea-resistant",
+      "family_variant_count": 3
+    },
+    {
+      "key": "mini-dev-mighty-mini",
+      "name": "Mini Dev (Mighty Mini)",
+      "name_en": "Mighty Mini",
+      "parent_key": "klor-ureticileri",
+      "sequence": 110,
+      "family_product_id": "mini-dev-mighty-mini",
+      "family_variant_count": 1
+    },
+    {
+      "key": "6-si-bi-r-arada-6-in-one",
+      "name": "6'sı Bir Arada (6 in One)",
+      "name_en": "6 in One",
+      "parent_key": "klor-ureticileri",
+      "sequence": 120,
+      "family_product_id": "6-si-bi-r-arada-6-in-one",
+      "family_variant_count": 1
+    },
+    {
+      "key": "wifi-i-le-hi-jyen-wi-fi-hygiene",
+      "name": "Wi-Fi ile Hijyen",
+      "name_en": "Wi-Fi Hygiene",
+      "parent_key": "klor-ureticileri",
+      "sequence": 130,
+      "family_product_id": "wifi-i-le-hi-jyen-wi-fi-hygiene",
+      "family_variant_count": 1
+    },
+    {
+      "key": "akilli-klor-pool-manager",
+      "name": "Akıllı Klor (Pool Manager)",
+      "name_en": "Smart Chlorine (Pool Manager)",
+      "parent_key": "klor-ureticileri",
+      "sequence": 140,
+      "family_product_id": "akilli-klor-pool-manager",
+      "family_variant_count": 1
+    },
+    {
+      "key": "kompact-model",
+      "name": "Kompact Model",
+      "name_en": "Kompact Model",
+      "parent_key": "dozaj-panelleri",
+      "sequence": 150,
+      "family_product_id": "kompact-model",
+      "family_variant_count": 2
+    },
+    {
+      "key": "kompact-drp-200-model",
+      "name": "Kompact DRP 200 Model",
+      "name_en": "Kompact DRP 200 Model",
+      "parent_key": "dozaj-panelleri",
+      "sequence": 160,
+      "family_product_id": "kompact-drp-200-model",
+      "family_variant_count": 1
+    },
+    {
+      "key": "kompact-drp-200-model-set",
+      "name": "Kompact DRP 200 Model Set",
+      "name_en": "Kompact DRP 200 Model Set",
+      "parent_key": "dozaj-panelleri",
+      "sequence": 170,
+      "family_product_id": "kompact-drp-200-model-set",
+      "family_variant_count": 1
+    },
+    {
+      "key": "trp-603-model",
+      "name": "TRP 603 Model",
+      "name_en": "TRP 603 Model",
+      "parent_key": "dozaj-panelleri",
+      "sequence": 180,
+      "family_product_id": "trp-603-model",
+      "family_variant_count": 1
+    },
+    {
+      "key": "tekna-evo-aks-model",
+      "name": "Tekna Evo AKS Model",
+      "name_en": "Tekna Evo AKS Model",
+      "parent_key": "dozaj-panelleri",
+      "sequence": 190,
+      "family_product_id": "tekna-evo-aks-model",
+      "family_variant_count": 3
+    },
+    {
+      "key": "pool-dose-panel",
+      "name": "Pool Dose Panel",
+      "name_en": "Pool Dose Panel",
+      "parent_key": "dozaj-panelleri",
+      "sequence": 200,
+      "family_product_id": "pool-dose-panel",
+      "family_variant_count": 1
+    },
+    {
+      "key": "kemidose-panel",
+      "name": "Kemidose Panel",
+      "name_en": "Kemidose Panel",
+      "parent_key": "dozaj-panelleri",
+      "sequence": 210,
+      "family_product_id": "kemidose-panel",
+      "family_variant_count": 1
+    },
+    {
+      "key": "evo-basic-panel",
+      "name": "Evo Basic Panel",
+      "name_en": "Evo Basic Panel",
+      "parent_key": "dozaj-panelleri",
+      "sequence": 220,
+      "family_product_id": "evo-basic-panel",
+      "family_variant_count": 1
+    },
+    {
+      "key": "aks-800-803-panel",
+      "name": "AKS 800 / 803 Panel",
+      "name_en": "AKS 800 / 803 Panel",
+      "parent_key": "dozaj-panelleri",
+      "sequence": 230,
+      "family_product_id": "aks-800-803-panel",
+      "family_variant_count": 2
+    },
+    {
+      "key": "k-800-cl-panel",
+      "name": "K 800 CL Panel",
+      "name_en": "K 800 CL Panel",
+      "parent_key": "dozaj-panelleri",
+      "sequence": 240,
+      "family_product_id": "k-800-cl-panel",
+      "family_variant_count": 1
+    },
+    {
+      "key": "akl-800-803-panel",
+      "name": "AKL 800 / 803 Panel",
+      "name_en": "AKL 800 / 803 Panel",
+      "parent_key": "dozaj-panelleri",
+      "sequence": 250,
+      "family_product_id": "akl-800-803-panel",
+      "family_variant_count": 2
+    },
+    {
+      "key": "poolone-peristaltik-dozaj-pompas-poolone-peristaltic-dosing-",
+      "name": "Poolone Peristaltik Dozaj Pompası Poolone Peristaltic Dosing Pump",
+      "name_en": "Poolone Peristaltik Dozaj Pompası Poolone Peristaltic Dosing Pump",
+      "parent_key": "dozaj-panelleri",
+      "sequence": 260,
+      "family_product_id": "poolone-peristaltik-dozaj-pompas-poolone-peristaltic-dosing-",
+      "family_variant_count": 2
+    },
+    {
+      "key": "emi-filtresi-ve-ekvalfi-suction-filter-and-check-valve",
+      "name": "Emiş Filtresi ve Çekvalfi Suction Filter and Check Valve",
+      "name_en": "Basma Çekvalfi Discharge Check Valve",
+      "parent_key": "dozaj-aksesuarlari",
+      "sequence": 270,
+      "family_product_id": "emi-filtresi-ve-ekvalfi-suction-filter-and-check-valve",
+      "family_variant_count": 1
+    },
+    {
+      "key": "basma-ekvalfi-discharge-check-valve",
+      "name": "Basma Çekvalfi Discharge Check Valve",
+      "name_en": "Basma Çekvalfi Discharge Check Valve",
+      "parent_key": "dozaj-aksesuarlari",
+      "sequence": 280,
+      "family_product_id": "basma-ekvalfi-discharge-check-valve",
+      "family_variant_count": 1
+    },
+    {
+      "key": "kalibrasyon-s-v-lar-calibration-fluid-kit",
+      "name": "Kalibrasyon Sıvıları Calibration Fluid Kit",
+      "name_en": "Kalibrasyon Sıvıları Calibration Fluid Kit",
+      "parent_key": "dozaj-aksesuarlari",
+      "sequence": 290,
+      "family_product_id": "kalibrasyon-s-v-lar-calibration-fluid-kit",
+      "family_variant_count": 2
+    },
+    {
+      "key": "ph-probu-ph-probe",
+      "name": "PH Probu PH Probe",
+      "name_en": "PH Probu PH Probe",
+      "parent_key": "dozaj-aksesuarlari",
+      "sequence": 300,
+      "family_product_id": "ph-probu-ph-probe",
+      "family_variant_count": 2
+    },
+    {
+      "key": "orp-elektrotu-orp-electrode",
+      "name": "ORP Elektrotu ORP Electrode",
+      "name_en": "ORP Elektrotu ORP Electrode",
+      "parent_key": "dozaj-aksesuarlari",
+      "sequence": 310,
+      "family_product_id": "orp-elektrotu-orp-electrode",
+      "family_variant_count": 2
+    },
+    {
+      "key": "seviye-sens-r-level-sensor",
+      "name": "Seviye Sensörü Level Sensor",
+      "name_en": "Seviye Sensörü Level Sensor",
+      "parent_key": "dozaj-aksesuarlari",
+      "sequence": 320,
+      "family_product_id": "seviye-sens-r-level-sensor",
+      "family_variant_count": 1
+    },
+    {
+      "key": "prob-tutucular-probe-holder",
+      "name": "Prob Tutucuları Probe Holder",
+      "name_en": "Prob Tutucuları Probe Holder",
+      "parent_key": "dozaj-aksesuarlari",
+      "sequence": 330,
+      "family_product_id": "prob-tutucular-probe-holder",
+      "family_variant_count": 2
+    },
+    {
+      "key": "klorinat-r-chlorinator",
+      "name": "Klorinatör Chlorinator",
+      "name_en": "Klorinatör Chlorinator",
+      "parent_key": "dozaj-aksesuarlari",
+      "sequence": 340,
+      "family_product_id": "klorinat-r-chlorinator",
+      "family_variant_count": 2
+    },
+    {
+      "key": "chemical-mixing-tank",
+      "name": "Chemical Mixing Tank",
+      "name_en": "Chemical Mixing Tank",
+      "parent_key": "dozaj-aksesuarlari",
+      "sequence": 350,
+      "family_product_id": "chemical-mixing-tank",
+      "family_variant_count": 2
+    },
+    {
+      "key": "motorized-mixing-tank",
+      "name": "Motorized Mixing Tank",
+      "name_en": "Motorized Mixing Tank",
+      "parent_key": "dozaj-aksesuarlari",
+      "sequence": 360,
+      "family_product_id": "motorized-mixing-tank",
+      "family_variant_count": 2
+    },
+    {
+      "key": "chemical-mixer",
+      "name": "Chemical Mixer",
+      "name_en": "Chemical Mixer",
+      "parent_key": "dozaj-aksesuarlari",
+      "sequence": 370,
+      "family_product_id": "chemical-mixer",
+      "family_variant_count": 2
+    },
+    {
+      "key": "dispenser",
+      "name": "Dispenser",
+      "name_en": "Dispenser",
+      "parent_key": "dozaj-aksesuarlari",
+      "sequence": 380,
+      "family_product_id": "dispenser",
+      "family_variant_count": 2
+    },
+    {
+      "key": "ayak-y-kama-teknesi-foot-washing-basin",
+      "name": "Ayak Yıkama Teknesi Foot Washing Basin",
+      "name_en": "Ayak Yıkama Teknesi Foot Washing Basin",
+      "parent_key": "hijyen-test",
+      "sequence": 390,
+      "family_product_id": "ayak-y-kama-teknesi-foot-washing-basin",
+      "family_variant_count": 3
+    },
+    {
+      "key": "ph-otomatik-su-kalite-dedekt-r-oh-automatic-water-quality-de",
+      "name": "PH Otomatik Su Kalite Dedektörü OH Automatic Water Quality Detector",
+      "name_en": "PH Otomatik Su Kalite Dedektörü OH Automatic Water Quality Detector",
+      "parent_key": "hijyen-test",
+      "sequence": 400,
+      "family_product_id": "ph-otomatik-su-kalite-dedekt-r-oh-automatic-water-quality-de",
+      "family_variant_count": 1
+    },
+    {
+      "key": "test-kitleri-test-kits",
+      "name": "Test Kitleri Test Kits",
+      "name_en": "Test Kitleri Test Kits",
+      "parent_key": "hijyen-test",
+      "sequence": 410,
+      "family_product_id": "test-kitleri-test-kits",
+      "family_variant_count": 3
+    },
+    {
+      "key": "test-ka-d-test-strips",
+      "name": "Test Kağıdı Test Strips",
+      "name_en": "Test Kağıdı Test Strips",
+      "parent_key": "hijyen-test",
+      "sequence": 420,
+      "family_product_id": "test-ka-d-test-strips",
+      "family_variant_count": 1
+    },
+    {
+      "key": "test-kit-dpd1-and-phenol-tablets",
+      "name": "Test Kit DPD1 and Phenol Tablets",
+      "name_en": "Test Kit DPD1 and Phenol Tablets",
+      "parent_key": "hijyen-test",
+      "sequence": 430,
+      "family_product_id": "test-kit-dpd1-and-phenol-tablets",
+      "family_variant_count": 1
+    },
+    {
+      "key": "test-kit-with-liquid-set",
+      "name": "Test Kit With Liquid Set",
+      "name_en": "Test Kit With Liquid Set",
+      "parent_key": "hijyen-test",
+      "sequence": 440,
+      "family_product_id": "test-kit-with-liquid-set",
+      "family_variant_count": 2
+    },
+    {
+      "key": "granular-salt",
+      "name": "Granular Salt",
+      "name_en": "Granular Salt",
+      "parent_key": "hijyen-test",
+      "sequence": 450,
+      "family_product_id": "granular-salt",
+      "family_variant_count": 2
+    },
+    {
+      "key": "ozon-jenerat-rleri-ozone-generators",
+      "name": "Ozon Jeneratörleri",
+      "name_en": "Ozone Generators",
+      "parent_key": "pool-disinfection",
+      "sequence": 460,
+      "family_product_id": "ozon-jenerat-rleri-ozone-generators",
+      "family_variant_count": 9
+    },
+    {
+      "key": "max-veri-m-max-efficiency",
+      "name": "Max. Verim Serisi",
+      "name_en": "Max. Efficiency Series",
+      "parent_key": "pool-disinfection",
+      "sequence": 470,
+      "family_product_id": "max-veri-m-max-efficiency",
+      "family_variant_count": 12
+    }
+  ],
+  "attributes": [
+    {
+      "key": "model",
+      "name": "x_disinf_model",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Model",
+      "field_description_en": "Model",
+      "attribute_type": "char",
+      "serialized": false,
+      "widget": null,
+      "group_key": "general",
+      "set_keys": [
+        "pool-disinfection"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.model",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "product_label",
+      "name": "x_disinf_product_label",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Ürün Adı",
+      "field_description_en": "Product Label",
+      "attribute_type": "char",
+      "serialized": false,
+      "widget": null,
+      "group_key": "general",
+      "set_keys": [
+        "pool-disinfection"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.r_n_i_smi_product_name | tanim_description",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "pool_volume_m3",
+      "name": "x_disinf_pool_volume_m3",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Havuz Hacmi (m³)",
+      "field_description_en": "Pool Volume (m³)",
+      "attribute_type": "float",
+      "serialized": false,
+      "widget": null,
+      "group_key": "technical",
+      "set_keys": [
+        "pool-disinfection"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.havuz_hacmi_pool_volume",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "max_pool_volume_m3",
+      "name": "x_disinf_max_pool_volume_m3",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Maks. Havuz Hacmi (m³)",
+      "field_description_en": "Max. Pool Volume (m³)",
+      "attribute_type": "float",
+      "serialized": false,
+      "widget": null,
+      "group_key": "technical",
+      "set_keys": [
+        "pool-disinfection"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.max_havuz_hacmi_max_pool_volume",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "max_flow_m3h",
+      "name": "x_disinf_max_flow_m3h",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Maks. Debi (m³/h)",
+      "field_description_en": "Max. Flow Rate (m³/h)",
+      "attribute_type": "float",
+      "serialized": false,
+      "widget": null,
+      "group_key": "technical",
+      "set_keys": [
+        "pool-disinfection"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.max_debi_m_3_h_max_flow_rate_m_3_h | max_debi_m_h_max_flow_rate_m_h | max_debi_m_h_max_flow_m_h | max_debi_m_3_h_max_flow_m_3_h",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "connection",
+      "name": "x_disinf_connection",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Bağlantı",
+      "field_description_en": "Connection",
+      "attribute_type": "char",
+      "serialized": false,
+      "widget": null,
+      "group_key": "connection",
+      "set_keys": [
+        "pool-disinfection"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.ba_lanti_connection | ba_lanti_mm_connection_mm",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "weight",
+      "name": "weight",
+      "nature": "native",
+      "native_field": "weight",
+      "field_description": "Ağırlık (kg)",
+      "field_description_en": "Weight (kg)",
+      "attribute_type": "float",
+      "serialized": false,
+      "widget": null,
+      "group_key": "physical",
+      "set_keys": [
+        "pool-disinfection"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.a_irlik_weight",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "power_w",
+      "name": "x_disinf_power_w",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Güç (W)",
+      "field_description_en": "Power (W)",
+      "attribute_type": "float",
+      "serialized": false,
+      "widget": null,
+      "group_key": "electrical",
+      "set_keys": [
+        "pool-disinfection"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.watt",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "voltage",
+      "name": "x_disinf_voltage",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Voltaj / Frekans",
+      "field_description_en": "Voltage / Frequency",
+      "attribute_type": "char",
+      "serialized": false,
+      "widget": null,
+      "group_key": "electrical",
+      "set_keys": [
+        "pool-disinfection"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.voltaj_voltage | voltaj_frekans_voltage_frequency",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "lamp_power",
+      "name": "x_disinf_lamp_power",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "UV Lamba Gücü",
+      "field_description_en": "UV Lamp Power",
+      "attribute_type": "char",
+      "serialized": false,
+      "widget": null,
+      "group_key": "technical",
+      "set_keys": [
+        "uv-sistemleri"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.uv_lamba_g_c_uv_lamp_power",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "reactor_length_mm",
+      "name": "x_disinf_reactor_length_mm",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Reaktör/Uzunluk (mm)",
+      "field_description_en": "Reactor Length (mm)",
+      "attribute_type": "float",
+      "serialized": false,
+      "widget": null,
+      "group_key": "physical",
+      "set_keys": [
+        "uv-sistemleri"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.reakt_r_uzunlu_u_reactor_length | r_n_boyutu_uzunluk_product_size_length",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "tube",
+      "name": "x_disinf_tube",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Tüp Yapısı",
+      "field_description_en": "Tube Configuration",
+      "attribute_type": "char",
+      "serialized": false,
+      "widget": null,
+      "group_key": "technical",
+      "set_keys": [
+        "uv-sistemleri"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.t_p_tube",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "chlorine_gph",
+      "name": "x_disinf_chlorine_gph",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Klor Üretimi (g/saat)",
+      "field_description_en": "Chlorine Production (g/h)",
+      "attribute_type": "float",
+      "serialized": false,
+      "widget": null,
+      "group_key": "technical",
+      "set_keys": [
+        "klor-ureticileri"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.klor_reti_mi_chlorine",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "salt_level",
+      "name": "x_disinf_salt_level",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Tuz Seviyesi (PPM)",
+      "field_description_en": "Salt Level (PPM)",
+      "attribute_type": "char",
+      "serialized": false,
+      "widget": null,
+      "group_key": "technical",
+      "set_keys": [
+        "klor-ureticileri"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.tuz_sevi_yesi_salt_level | tuz_arali_i_salinity_range",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "pipe",
+      "name": "x_disinf_pipe",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Boru",
+      "field_description_en": "Pipe",
+      "attribute_type": "char",
+      "serialized": false,
+      "widget": null,
+      "group_key": "connection",
+      "set_keys": [
+        "klor-ureticileri"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.boru_pipe",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "orp_level",
+      "name": "x_disinf_orp_level",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "ORP Seviyesi (mV)",
+      "field_description_en": "ORP Level (mV)",
+      "attribute_type": "char",
+      "serialized": false,
+      "widget": null,
+      "group_key": "technical",
+      "set_keys": [
+        "klor-ureticileri"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.orp_sevi_yesi_orp_level",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "water_hardness",
+      "name": "x_disinf_water_hardness",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Su Sertliği",
+      "field_description_en": "Water Hardness",
+      "attribute_type": "char",
+      "serialized": false,
+      "widget": null,
+      "group_key": "technical",
+      "set_keys": [
+        "klor-ureticileri"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.su_sertli_i_water_hardness",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "water_temp",
+      "name": "x_disinf_water_temp",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Su Sıcaklığı",
+      "field_description_en": "Water Temperature",
+      "attribute_type": "char",
+      "serialized": false,
+      "widget": null,
+      "group_key": "technical",
+      "set_keys": [
+        "klor-ureticileri"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.su_sicakli_i_water_temp",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "protection",
+      "name": "x_disinf_protection",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Koruma Sınıfı",
+      "field_description_en": "Protection",
+      "attribute_type": "char",
+      "serialized": false,
+      "widget": null,
+      "group_key": "technical",
+      "set_keys": [
+        "klor-ureticileri"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.koruma_protection",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "rated_current",
+      "name": "x_disinf_rated_current",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Anma Akımı",
+      "field_description_en": "Rated Current",
+      "attribute_type": "char",
+      "serialized": false,
+      "widget": null,
+      "group_key": "electrical",
+      "set_keys": [
+        "klor-ureticileri"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.akim_rated_current",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "rated_voltage",
+      "name": "x_disinf_rated_voltage",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Anma Voltajı",
+      "field_description_en": "Rated Voltage",
+      "attribute_type": "char",
+      "serialized": false,
+      "widget": null,
+      "group_key": "electrical",
+      "set_keys": [
+        "klor-ureticileri"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.geri_li_m_rated_voltage",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "power_input",
+      "name": "x_disinf_power_input",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Güç Girişi",
+      "field_description_en": "Power Input",
+      "attribute_type": "char",
+      "serialized": false,
+      "widget": null,
+      "group_key": "electrical",
+      "set_keys": [
+        "klor-ureticileri"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.g_gi_ri_i_power_input",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "power_output",
+      "name": "x_disinf_power_output",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Güç Çıkışı",
+      "field_description_en": "Power Output",
+      "attribute_type": "char",
+      "serialized": false,
+      "widget": null,
+      "group_key": "electrical",
+      "set_keys": [
+        "klor-ureticileri"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.g_iki_i_power_output",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "ph_valve",
+      "name": "x_disinf_ph_valve",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "pH Valfi",
+      "field_description_en": "pH Valve",
+      "attribute_type": "char",
+      "serialized": false,
+      "widget": null,
+      "group_key": "technical",
+      "set_keys": [
+        "klor-ureticileri"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.ph_valfi_ph_valve",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "flow_lth",
+      "name": "x_disinf_flow_lth",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Debi (L/h)",
+      "field_description_en": "Flow (L/h)",
+      "attribute_type": "float",
+      "serialized": false,
+      "widget": null,
+      "group_key": "technical",
+      "set_keys": [
+        "dozaj-panelleri"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.debi_lt_h_flow_lt_h",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "pressure_bar",
+      "name": "x_disinf_pressure_bar",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Maks. Basınç (bar)",
+      "field_description_en": "Max. Pressure (bar)",
+      "attribute_type": "float",
+      "serialized": false,
+      "widget": null,
+      "group_key": "technical",
+      "set_keys": [
+        "dozaj-panelleri"
+      ],
+      "value_level": "family",
+      "source": "family_specs_quantitative.max_pressure_bar | basin_power | basin_pressure | basin_bar_pressure",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "pump_capacity",
+      "name": "x_disinf_pump_capacity",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Pompa Kapasitesi",
+      "field_description_en": "Pump Capacity",
+      "attribute_type": "char",
+      "serialized": false,
+      "widget": null,
+      "group_key": "technical",
+      "set_keys": [
+        "dozaj-panelleri"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.pompa_kapasi_tesi_pump_capacity",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "capacity",
+      "name": "x_disinf_capacity",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Kapasite",
+      "field_description_en": "Capacity",
+      "attribute_type": "char",
+      "serialized": false,
+      "widget": null,
+      "group_key": "technical",
+      "set_keys": [
+        "dozaj-panelleri",
+        "dozaj-aksesuarlari"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.kapasi_te_capacity",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "measuring_range",
+      "name": "x_disinf_measuring_range",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Ölçüm Aralığı",
+      "field_description_en": "Measuring Range",
+      "attribute_type": "char",
+      "serialized": false,
+      "widget": null,
+      "group_key": "technical",
+      "set_keys": [
+        "dozaj-panelleri",
+        "dozaj-aksesuarlari"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.l_m_arali_i_measuring_range",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "tablet_capacity",
+      "name": "x_disinf_tablet_capacity",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Tablet Kapasitesi",
+      "field_description_en": "Tablet Carrying Capacity",
+      "attribute_type": "char",
+      "serialized": false,
+      "widget": null,
+      "group_key": "technical",
+      "set_keys": [
+        "dozaj-aksesuarlari"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.tablet_kapasi_te_tablet_carrying_capacity",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "dims",
+      "name": "x_disinf_dims",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Ölçüler (cm)",
+      "field_description_en": "Dimensions (cm)",
+      "attribute_type": "char",
+      "serialized": false,
+      "widget": null,
+      "group_key": "physical",
+      "set_keys": [
+        "hijyen-test"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.r_n_l_leri_cm_product_sizes_cm",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "tupe",
+      "name": "x_disinf_tupe",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Tipe (TUPE)",
+      "field_description_en": "Type (TUPE)",
+      "attribute_type": "char",
+      "serialized": false,
+      "widget": null,
+      "group_key": "technical",
+      "set_keys": [
+        "max-veri-m-max-efficiency"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.t_p_tupe",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "gross_kg",
+      "name": "x_disinf_gross_kg",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Brüt Ağırlık (kg)",
+      "field_description_en": "Gross Weight (kg)",
+      "attribute_type": "float",
+      "serialized": false,
+      "widget": null,
+      "group_key": "physical",
+      "set_keys": [
+        "max-veri-m-max-efficiency"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.br_t_kg_gross_kg",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "flow_switch",
+      "name": "x_disinf_flow_switch",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Akış Anahtarı",
+      "field_description_en": "Flow Switch",
+      "attribute_type": "char",
+      "serialized": false,
+      "widget": null,
+      "group_key": "technical",
+      "set_keys": [
+        "max-veri-m-max-efficiency"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.aki_anahtari_flow_switch",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "plug",
+      "name": "x_disinf_plug",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Priz",
+      "field_description_en": "Plug",
+      "attribute_type": "char",
+      "serialized": false,
+      "widget": null,
+      "group_key": "electrical",
+      "set_keys": [
+        "max-veri-m-max-efficiency"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.pri_z_plug",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "lamp_indicator",
+      "name": "x_disinf_lamp_indicator",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Lamba Ömrü Göstergesi",
+      "field_description_en": "Lamp Life Indicator",
+      "attribute_type": "char",
+      "serialized": false,
+      "widget": null,
+      "group_key": "technical",
+      "set_keys": [
+        "max-veri-m-max-efficiency"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.analog_lamba_m_r_g_stergeli_digital_lamp_life_indicator",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "vh_mount",
+      "name": "x_disinf_vh_mount",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Dikey/Yatay Montaj",
+      "field_description_en": "Vertical/Horizontal Mounting",
+      "attribute_type": "char",
+      "serialized": false,
+      "widget": null,
+      "group_key": "technical",
+      "set_keys": [
+        "max-veri-m-max-efficiency"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.di_key_yatay_montaj_vertical_or_horizontal_mountable",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "lamp_sign",
+      "name": "x_disinf_lamp_sign",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Lamba Göstergesi",
+      "field_description_en": "Lamp Sign",
+      "attribute_type": "char",
+      "serialized": false,
+      "widget": null,
+      "group_key": "technical",
+      "set_keys": [
+        "max-veri-m-max-efficiency"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.lamba_g_stergesi_lamp_sign",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "pool_type_mark",
+      "name": "x_disinf_pool_type_mark",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Havuz Tipi (İşaret)",
+      "field_description_en": "For Pool Type (Mark)",
+      "attribute_type": "char",
+      "serialized": false,
+      "widget": null,
+      "group_key": "technical",
+      "set_keys": [
+        "max-veri-m-max-efficiency"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.havuz_tipi_for_pool_type",
+      "options": [],
+      "option_map": {}
+    }
+  ],
+  "product_category": {
+    "code": "06",
+    "name": "Havuz Dezenfeksiyon Ekipmanları",
+    "name_en": "Pool Disinfection Equipment",
+    "parent": null,
+    "default_attribute_set_key": "pool-disinfection"
+  },
+  "family_values": {
+    "wifi-i-le-hi-jyen-wi-fi-hygiene": {},
+    "6-si-bi-r-arada-6-in-one": {},
+    "mini-dev-mighty-mini": {},
+    "deni-z-dayanimi-sea-resistant": {},
+    "automation": {},
+    "s-serisi-s-series": {},
+    "havuz-y-neti-mi-pool-manager": {},
+    "akilli-klor-pool-manager": {},
+    "sistem-ba-lant-emas-system-connection-diagram": {},
+    "uv-c-teknoloji-si-uv-c-technology": {},
+    "max-veri-m-max-efficiency": {},
+    "fotokatalitik-oksidasyon-photocatalytic-oxidation": {},
+    "uv-benefits-for-public-pools-and-water-parks": {},
+    "5-year-guarantee": {},
+    "end-stri-yel-uv-industrial-uv": {},
+    "ozon-jenerat-rleri-ozone-generators": {},
+    "kompact-model": {},
+    "kompact-drp-200-model": {},
+    "trp-603-model": {},
+    "tekna-evo-aks-model": {},
+    "pool-dose-panel": {
+      "pressure_bar": 1.5
+    },
+    "kemidose-panel": {
+      "pressure_bar": 1.5
+    },
+    "evo-basic-panel": {},
+    "aks-800-803-panel": {},
+    "k-800-cl-panel": {},
+    "akl-800-803-panel": {},
+    "poolone-peristaltik-dozaj-pompas-poolone-peristaltic-dosing-": {
+      "pressure_bar": 1.5
+    },
+    "kompact-drp-200-model-set": {},
+    "emi-filtresi-ve-ekvalfi-suction-filter-and-check-valve": {},
+    "basma-ekvalfi-discharge-check-valve": {},
+    "kalibrasyon-s-v-lar-calibration-fluid-kit": {},
+    "ph-probu-ph-probe": {},
+    "orp-elektrotu-orp-electrode": {},
+    "seviye-sens-r-level-sensor": {},
+    "prob-tutucular-probe-holder": {},
+    "klorinat-r-chlorinator": {},
+    "chemical-mixing-tank": {},
+    "motorized-mixing-tank": {},
+    "chemical-mixer": {},
+    "dispenser": {},
+    "ayak-y-kama-teknesi-foot-washing-basin": {},
+    "ph-otomatik-su-kalite-dedekt-r-oh-automatic-water-quality-de": {},
+    "test-kitleri-test-kits": {},
+    "test-ka-d-test-strips": {},
+    "test-kit-dpd1-and-phenol-tablets": {},
+    "test-kit-with-liquid-set": {},
+    "granular-salt": {}
+  },
+  "product_values": {
+    "15521113072": {
+      "family_key": "wifi-i-le-hi-jyen-wi-fi-hygiene",
+      "attribute_set_key": "wifi-i-le-hi-jyen-wi-fi-hygiene",
+      "values": {
+        "model": "CLOMAX 200",
+        "pool_volume_m3": 85.0,
+        "chlorine_gph": 20.0,
+        "salt_level": "2700~4500PPM",
+        "water_hardness": "≤200mg/L",
+        "water_temp": "10~45°C",
+        "rated_current": "2.5A",
+        "rated_voltage": "100-240V~50/60Hz"
+      },
+      "native": {
+        "default_code": "15521113072",
+        "name": "Wi-Fi ile Hijyen CLOMAX 200",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 799.0
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "15521113080": {
+      "family_key": "6-si-bi-r-arada-6-in-one",
+      "attribute_set_key": "6-si-bi-r-arada-6-in-one",
+      "values": {
+        "model": "CLOMAX 500",
+        "pool_volume_m3": 90.0,
+        "chlorine_gph": 20.0,
+        "salt_level": "2700-4500PPM",
+        "orp_level": "400-800",
+        "power_input": "AC100-240V~50/60Hz",
+        "power_output": "DC24V",
+        "ph_valve": "2700~4500PPM"
+      },
+      "native": {
+        "default_code": "15521113080",
+        "name": "6'sı Bir Arada (6 in One) CLOMAX 500",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 2200.0
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "15521123007": {
+      "family_key": "mini-dev-mighty-mini",
+      "attribute_set_key": "mini-dev-mighty-mini",
+      "values": {
+        "pool_volume_m3": 90000.0,
+        "voltage": "200-240v / 50-60 Hz",
+        "chlorine_gph": 20.0
+      },
+      "native": {
+        "default_code": "15521123007",
+        "name": "Mini Dev (Mighty Mini) (15521123007)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 1199.0
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "19818123005": {
+      "family_key": "deni-z-dayanimi-sea-resistant",
+      "attribute_set_key": "deni-z-dayanimi-sea-resistant",
+      "values": {
+        "model": "45 Gr / H"
+      },
+      "native": {
+        "default_code": "19818123005",
+        "name": "Deniz Dayanımlı 45 Gr / H (19818123005)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 950.0
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "19818123022": {
+      "family_key": "deni-z-dayanimi-sea-resistant",
+      "attribute_set_key": "deni-z-dayanimi-sea-resistant",
+      "values": {
+        "model": "45 Gr / H"
+      },
+      "native": {
+        "default_code": "19818123022",
+        "name": "Deniz Dayanımlı 45 Gr / H (19818123022)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 60.0
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "15521113084": {
+      "family_key": "deni-z-dayanimi-sea-resistant",
+      "attribute_set_key": "deni-z-dayanimi-sea-resistant",
+      "values": {
+        "pool_volume_m3": 170.0,
+        "voltage": "220V-240V / 50.60 Hz 300W",
+        "chlorine_gph": 45.0
+      },
+      "native": {
+        "default_code": "15521113084",
+        "name": "Deniz Dayanımlı (15521113084)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 1490.0
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "15521273024": {
+      "family_key": "automation",
+      "attribute_set_key": "automation",
+      "values": {
+        "model": "G12",
+        "pool_volume_m3": 50.0,
+        "voltage": "110-220 V",
+        "chlorine_gph": 12.0,
+        "salt_level": "1.500-7.000PPM"
+      },
+      "native": {
+        "default_code": "15521273024",
+        "name": "G12",
+        "prices": [],
+        "category_code": "06"
+      }
+    },
+    "15521273025": {
+      "family_key": "automation",
+      "attribute_set_key": "automation",
+      "values": {
+        "model": "G18",
+        "pool_volume_m3": 60.0,
+        "voltage": "110-220 V",
+        "chlorine_gph": 14.0,
+        "salt_level": "1.500-7.000PPM"
+      },
+      "native": {
+        "default_code": "15521273025",
+        "name": "G18",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 3220.0
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "15521273026": {
+      "family_key": "automation",
+      "attribute_set_key": "automation",
+      "values": {
+        "model": "G40",
+        "pool_volume_m3": 120.0,
+        "voltage": "110-220 V",
+        "chlorine_gph": 26.0,
+        "salt_level": "1.500-7.000PPM"
+      },
+      "native": {
+        "default_code": "15521273026",
+        "name": "G40",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 3490.0
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "15521273027": {
+      "family_key": "automation",
+      "attribute_set_key": "automation",
+      "values": {
+        "model": "G60",
+        "pool_volume_m3": 150.0,
+        "voltage": "110-220 V",
+        "chlorine_gph": 36.0,
+        "salt_level": "1.500-7.000PPM"
+      },
+      "native": {
+        "default_code": "15521273027",
+        "name": "G60",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 3670.0
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "15521273020": {
+      "family_key": "s-serisi-s-series",
+      "attribute_set_key": "s-serisi-s-series",
+      "values": {
+        "model": "S12",
+        "pool_volume_m3": 50.0,
+        "voltage": "110-220 V",
+        "chlorine_gph": 12.0,
+        "pipe": "63/50 cm"
+      },
+      "native": {
+        "default_code": "15521273020",
+        "name": "S12",
+        "prices": [],
+        "category_code": "06"
+      }
+    },
+    "15521273021": {
+      "family_key": "s-serisi-s-series",
+      "attribute_set_key": "s-serisi-s-series",
+      "values": {
+        "model": "S18",
+        "pool_volume_m3": 60.0,
+        "voltage": "110-220 V",
+        "chlorine_gph": 14.0,
+        "pipe": "63/50 cm"
+      },
+      "native": {
+        "default_code": "15521273021",
+        "name": "S18",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 1780.0
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "15521273022": {
+      "family_key": "s-serisi-s-series",
+      "attribute_set_key": "s-serisi-s-series",
+      "values": {
+        "model": "S40",
+        "pool_volume_m3": 120.0,
+        "voltage": "110-220 V",
+        "chlorine_gph": 26.0,
+        "pipe": "63/50 cm"
+      },
+      "native": {
+        "default_code": "15521273022",
+        "name": "S40",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 1930.0
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "15521273023": {
+      "family_key": "s-serisi-s-series",
+      "attribute_set_key": "s-serisi-s-series",
+      "values": {
+        "model": "S60",
+        "pool_volume_m3": 150.0,
+        "voltage": "110-220 V",
+        "chlorine_gph": 36.0,
+        "pipe": "63/50 cm"
+      },
+      "native": {
+        "default_code": "15521273023",
+        "name": "S60",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 2170.0
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "15521113054": {
+      "family_key": "havuz-y-neti-mi-pool-manager",
+      "attribute_set_key": "havuz-y-neti-mi-pool-manager",
+      "values": {
+        "model": "KLX 8",
+        "pool_volume_m3": 20.0,
+        "voltage": "200v"
+      },
+      "native": {
+        "default_code": "15521113054",
+        "name": "Havuz Yönetimi (Pool Manager) KLX 8",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 1395.0
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "15521113050": {
+      "family_key": "havuz-y-neti-mi-pool-manager",
+      "attribute_set_key": "havuz-y-neti-mi-pool-manager",
+      "values": {
+        "model": "KLX 16",
+        "pool_volume_m3": 50.0,
+        "voltage": "200v"
+      },
+      "native": {
+        "default_code": "15521113050",
+        "name": "Havuz Yönetimi (Pool Manager) KLX 16",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 1455.0
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "15521113066": {
+      "family_key": "havuz-y-neti-mi-pool-manager",
+      "attribute_set_key": "havuz-y-neti-mi-pool-manager",
+      "values": {
+        "model": "KLX 22",
+        "pool_volume_m3": 90.0,
+        "voltage": "200v"
+      },
+      "native": {
+        "default_code": "15521113066",
+        "name": "Havuz Yönetimi (Pool Manager) KLX 22",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 1670.0
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "15521113065": {
+      "family_key": "havuz-y-neti-mi-pool-manager",
+      "attribute_set_key": "havuz-y-neti-mi-pool-manager",
+      "values": {
+        "model": "KLX 33",
+        "pool_volume_m3": 150.0,
+        "voltage": "200v"
+      },
+      "native": {
+        "default_code": "15521113065",
+        "name": "Havuz Yönetimi (Pool Manager) KLX 33",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 2030.0
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "15521113049": {
+      "family_key": "havuz-y-neti-mi-pool-manager",
+      "attribute_set_key": "havuz-y-neti-mi-pool-manager",
+      "values": {
+        "model": "KLX 50",
+        "pool_volume_m3": 200.0,
+        "voltage": "200v"
+      },
+      "native": {
+        "default_code": "15521113049",
+        "name": "Havuz Yönetimi (Pool Manager) KLX 50",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 3725.0
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "15521113053": {
+      "family_key": "havuz-y-neti-mi-pool-manager",
+      "attribute_set_key": "havuz-y-neti-mi-pool-manager",
+      "values": {
+        "model": "pH kiti"
+      },
+      "native": {
+        "default_code": "15521113053",
+        "name": "Havuz Yönetimi (Pool Manager) pH kiti",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 630.0
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "15521113152": {
+      "family_key": "havuz-y-neti-mi-pool-manager",
+      "attribute_set_key": "havuz-y-neti-mi-pool-manager",
+      "values": {
+        "model": "RX kiti"
+      },
+      "native": {
+        "default_code": "15521113152",
+        "name": "Havuz Yönetimi (Pool Manager) RX kiti",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 600.0
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "15521113051": {
+      "family_key": "havuz-y-neti-mi-pool-manager",
+      "attribute_set_key": "havuz-y-neti-mi-pool-manager",
+      "values": {
+        "model": "WIFI Modülü"
+      },
+      "native": {
+        "default_code": "15521113051",
+        "name": "Havuz Yönetimi (Pool Manager) WIFI Modülü",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 816.0
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "15521113154": {
+      "family_key": "akilli-klor-pool-manager",
+      "attribute_set_key": "akilli-klor-pool-manager",
+      "values": {
+        "model": "16 g/h",
+        "pool_volume_m3": 75.0,
+        "protection": "IP 65"
+      },
+      "native": {
+        "default_code": "15521113154",
+        "name": "Akıllı Klor (Pool Manager) 16 g/h",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 1200.0
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "15521113063": {
+      "family_key": "sistem-ba-lant-emas-system-connection-diagram",
+      "attribute_set_key": "sistem-ba-lant-emas-system-connection-diagram",
+      "values": {
+        "pool_volume_m3": 80.0,
+        "voltage": "200v",
+        "chlorine_gph": 50.0
+      },
+      "native": {
+        "default_code": "15521113063",
+        "name": "Kontrol Sistemleri (KLX) (15521113063)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 5727.0
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "15521113073": {
+      "family_key": "sistem-ba-lant-emas-system-connection-diagram",
+      "attribute_set_key": "sistem-ba-lant-emas-system-connection-diagram",
+      "values": {
+        "pool_volume_m3": 120.0,
+        "voltage": "200v",
+        "chlorine_gph": 95.0
+      },
+      "native": {
+        "default_code": "15521113073",
+        "name": "Kontrol Sistemleri (KLX) (15521113073)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 7500.0
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "15521113071": {
+      "family_key": "sistem-ba-lant-emas-system-connection-diagram",
+      "attribute_set_key": "sistem-ba-lant-emas-system-connection-diagram",
+      "values": {
+        "pool_volume_m3": 325.0,
+        "voltage": "200v",
+        "chlorine_gph": 155.0
+      },
+      "native": {
+        "default_code": "15521113071",
+        "name": "Kontrol Sistemleri (KLX) (15521113071)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 9500.0
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "15521113074": {
+      "family_key": "sistem-ba-lant-emas-system-connection-diagram",
+      "attribute_set_key": "sistem-ba-lant-emas-system-connection-diagram",
+      "values": {
+        "pool_volume_m3": 350.0,
+        "voltage": "200v",
+        "chlorine_gph": 200.0
+      },
+      "native": {
+        "default_code": "15521113074",
+        "name": "Kontrol Sistemleri (KLX) (15521113074)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 14000.0
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "15521113057": {
+      "family_key": "sistem-ba-lant-emas-system-connection-diagram",
+      "attribute_set_key": "sistem-ba-lant-emas-system-connection-diagram",
+      "values": {
+        "pool_volume_m3": 500.0,
+        "voltage": "200v",
+        "chlorine_gph": 250.0
+      },
+      "native": {
+        "default_code": "15521113057",
+        "name": "Kontrol Sistemleri (KLX) (15521113057)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 18500.0
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "15521113056": {
+      "family_key": "sistem-ba-lant-emas-system-connection-diagram",
+      "attribute_set_key": "sistem-ba-lant-emas-system-connection-diagram",
+      "values": {
+        "pool_volume_m3": 700.0,
+        "voltage": "200v",
+        "chlorine_gph": 350.0
+      },
+      "native": {
+        "default_code": "15521113056",
+        "name": "Kontrol Sistemleri (KLX) (15521113056)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 19795.0
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "15521113068": {
+      "family_key": "sistem-ba-lant-emas-system-connection-diagram",
+      "attribute_set_key": "sistem-ba-lant-emas-system-connection-diagram",
+      "values": {
+        "pool_volume_m3": 1000.0,
+        "voltage": "200v",
+        "chlorine_gph": 500.0
+      },
+      "native": {
+        "default_code": "15521113068",
+        "name": "Kontrol Sistemleri (KLX) (15521113068)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 31195.0
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "15521113055": {
+      "family_key": "sistem-ba-lant-emas-system-connection-diagram",
+      "attribute_set_key": "sistem-ba-lant-emas-system-connection-diagram",
+      "values": {
+        "pool_volume_m3": 1500.0,
+        "voltage": "200v",
+        "chlorine_gph": 750.0
+      },
+      "native": {
+        "default_code": "15521113055",
+        "name": "Kontrol Sistemleri (KLX) (15521113055)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 46792.0
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "15521113067": {
+      "family_key": "sistem-ba-lant-emas-system-connection-diagram",
+      "attribute_set_key": "sistem-ba-lant-emas-system-connection-diagram",
+      "values": {
+        "pool_volume_m3": 2000.0,
+        "voltage": "200v",
+        "chlorine_gph": 1000.0
+      },
+      "native": {
+        "default_code": "15521113067",
+        "name": "Kontrol Sistemleri (KLX) (15521113067)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 62390.0
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "15520123003": {
+      "family_key": "uv-c-teknoloji-si-uv-c-technology",
+      "attribute_set_key": "uv-c-teknoloji-si-uv-c-technology",
+      "values": {
+        "pool_volume_m3": 10.0,
+        "connection": "50 mm",
+        "weight": 2.8,
+        "power_w": 12.0
+      },
+      "native": {
+        "default_code": "15520123003",
+        "name": "UV-C Teknolojisi (15520123003)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 500.0
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "15520123004": {
+      "family_key": "uv-c-teknoloji-si-uv-c-technology",
+      "attribute_set_key": "uv-c-teknoloji-si-uv-c-technology",
+      "values": {
+        "pool_volume_m3": 15.0,
+        "connection": "50-63 mm",
+        "weight": 2.8,
+        "power_w": 16.0
+      },
+      "native": {
+        "default_code": "15520123004",
+        "name": "UV-C Teknolojisi (15520123004)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 625.0
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "15520123006": {
+      "family_key": "uv-c-teknoloji-si-uv-c-technology",
+      "attribute_set_key": "uv-c-teknoloji-si-uv-c-technology",
+      "values": {
+        "pool_volume_m3": 40.0,
+        "connection": "50-63 mm",
+        "weight": 3.6,
+        "power_w": 40.0
+      },
+      "native": {
+        "default_code": "15520123006",
+        "name": "UV-C Teknolojisi (15520123006)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 695.0
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "15520123007": {
+      "family_key": "uv-c-teknoloji-si-uv-c-technology",
+      "attribute_set_key": "uv-c-teknoloji-si-uv-c-technology",
+      "values": {
+        "pool_volume_m3": 75.0,
+        "connection": "50-63 mm",
+        "weight": 3.9,
+        "power_w": 75.0
+      },
+      "native": {
+        "default_code": "15520123007",
+        "name": "UV-C Teknolojisi (15520123007)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 715.0
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "15520123005": {
+      "family_key": "uv-c-teknoloji-si-uv-c-technology",
+      "attribute_set_key": "uv-c-teknoloji-si-uv-c-technology",
+      "values": {
+        "pool_volume_m3": 150.0,
+        "connection": "50-63 mm",
+        "weight": 5.0,
+        "power_w": 130.0
+      },
+      "native": {
+        "default_code": "15520123005",
+        "name": "UV-C Teknolojisi (15520123005)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 1336.0
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "15520123116": {
+      "family_key": "max-veri-m-max-efficiency",
+      "attribute_set_key": "max-veri-m-max-efficiency",
+      "values": {
+        "model": "Mini Standart",
+        "vh_mount": "✓",
+        "pool_type_mark": "✓",
+        "pool_volume_m3": 30.0,
+        "max_flow_m3h": 15.0,
+        "power_w": 30.0,
+        "tupe": "30",
+        "gross_kg": 6.06,
+        "lamp_sign": "✗"
+      },
+      "native": {
+        "default_code": "15520123116",
+        "name": "Max. Verim Serisi Mini Standart",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 1575.0
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "15520123029": {
+      "family_key": "max-veri-m-max-efficiency",
+      "attribute_set_key": "max-veri-m-max-efficiency",
+      "values": {
+        "model": "Mini Classic",
+        "flow_switch": "✓",
+        "plug": "✓",
+        "lamp_indicator": "✓",
+        "vh_mount": "✓",
+        "pool_type_mark": "✓",
+        "pool_volume_m3": 30.0,
+        "max_flow_m3h": 15.0,
+        "power_w": 30.0,
+        "tupe": "30",
+        "gross_kg": 6.06,
+        "lamp_sign": "✓"
+      },
+      "native": {
+        "default_code": "15520123029",
+        "name": "Max. Verim Serisi Mini Classic",
+        "prices": [],
+        "category_code": "06"
+      }
+    },
+    "15520123117": {
+      "family_key": "max-veri-m-max-efficiency",
+      "attribute_set_key": "max-veri-m-max-efficiency",
+      "values": {
+        "model": "Single Standart",
+        "vh_mount": "✓",
+        "pool_volume_m3": 55.0,
+        "max_flow_m3h": 21.0,
+        "power_w": 55.0,
+        "tupe": "55",
+        "gross_kg": 9.01,
+        "lamp_sign": "✗"
+      },
+      "native": {
+        "default_code": "15520123117",
+        "name": "Max. Verim Serisi Single Standart",
+        "prices": [],
+        "category_code": "06"
+      }
+    },
+    "15520123013": {
+      "family_key": "max-veri-m-max-efficiency",
+      "attribute_set_key": "max-veri-m-max-efficiency",
+      "values": {
+        "model": "Single Classic",
+        "flow_switch": "✓",
+        "plug": "✓",
+        "lamp_indicator": "✓",
+        "vh_mount": "✓",
+        "pool_volume_m3": 55.0,
+        "max_flow_m3h": 21.0,
+        "power_w": 55.0,
+        "tupe": "55",
+        "gross_kg": 9.05,
+        "lamp_sign": "✓"
+      },
+      "native": {
+        "default_code": "15520123013",
+        "name": "Max. Verim Serisi Single Classic",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 955.0
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "15520123027": {
+      "family_key": "max-veri-m-max-efficiency",
+      "attribute_set_key": "max-veri-m-max-efficiency",
+      "values": {
+        "model": "Double Standart",
+        "vh_mount": "✓",
+        "pool_volume_m3": 110.0,
+        "max_flow_m3h": 42.0,
+        "power_w": 110.0,
+        "tupe": "110",
+        "gross_kg": 10.01,
+        "lamp_sign": "✗"
+      },
+      "native": {
+        "default_code": "15520123027",
+        "name": "Max. Verim Serisi Double Standart",
+        "prices": [],
+        "category_code": "06"
+      }
+    },
+    "15520123017": {
+      "family_key": "max-veri-m-max-efficiency",
+      "attribute_set_key": "max-veri-m-max-efficiency",
+      "values": {
+        "model": "Double Classic",
+        "flow_switch": "✓",
+        "plug": "✓",
+        "lamp_indicator": "✓",
+        "vh_mount": "✓",
+        "pool_volume_m3": 110.0,
+        "max_flow_m3h": 42.0,
+        "power_w": 110.0,
+        "tupe": "110",
+        "gross_kg": 12.45,
+        "lamp_sign": "✓"
+      },
+      "native": {
+        "default_code": "15520123017",
+        "name": "Max. Verim Serisi Double Classic",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 1370.0
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "15520123028": {
+      "family_key": "fotokatalitik-oksidasyon-photocatalytic-oxidation",
+      "attribute_set_key": "fotokatalitik-oksidasyon-photocatalytic-oxidation",
+      "values": {
+        "pool_volume_m3": 35.0,
+        "max_flow_m3h": 10.0,
+        "power_w": 30.0,
+        "reactor_length_mm": 623.0,
+        "tube": "Mini Classic"
+      },
+      "native": {
+        "default_code": "15520123028",
+        "name": "Fotokatalitik Oksidasyon (15520123028)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 1350.0
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "15520123016": {
+      "family_key": "fotokatalitik-oksidasyon-photocatalytic-oxidation",
+      "attribute_set_key": "fotokatalitik-oksidasyon-photocatalytic-oxidation",
+      "values": {
+        "pool_volume_m3": 65.0,
+        "max_flow_m3h": 14.0,
+        "power_w": 55.0,
+        "reactor_length_mm": 981.0,
+        "tube": "Tek Single"
+      },
+      "native": {
+        "default_code": "15520123016",
+        "name": "Fotokatalitik Oksidasyon (15520123016)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 1720.0
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "15520123015": {
+      "family_key": "fotokatalitik-oksidasyon-photocatalytic-oxidation",
+      "attribute_set_key": "fotokatalitik-oksidasyon-photocatalytic-oxidation",
+      "values": {
+        "pool_volume_m3": 130.0,
+        "max_flow_m3h": 28.0,
+        "power_w": 110.0,
+        "reactor_length_mm": 981.0,
+        "tube": "Çift Double"
+      },
+      "native": {
+        "default_code": "15520123015",
+        "name": "Fotokatalitik Oksidasyon (15520123015)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 2715.0
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "FW3150 HO": {
+      "family_key": "uv-benefits-for-public-pools-and-water-parks",
+      "attribute_set_key": "uv-benefits-for-public-pools-and-water-parks",
+      "values": {
+        "max_flow_m3h": 15.0,
+        "connection": "2\" 1/2",
+        "lamp_power": "3x87 W",
+        "reactor_length_mm": 1143.0
+      },
+      "native": {
+        "default_code": "FW3150 HO",
+        "name": "Havuz UV Sistemleri (FW) (FW3150 HO)",
+        "prices": [],
+        "category_code": "06"
+      }
+    },
+    "FW3205 HO": {
+      "family_key": "uv-benefits-for-public-pools-and-water-parks",
+      "attribute_set_key": "uv-benefits-for-public-pools-and-water-parks",
+      "values": {
+        "max_flow_m3h": 22.0,
+        "connection": "3\"",
+        "lamp_power": "3x87 W",
+        "reactor_length_mm": 1150.0
+      },
+      "native": {
+        "default_code": "FW3205 HO",
+        "name": "Havuz UV Sistemleri (FW) (FW3205 HO)",
+        "prices": [],
+        "category_code": "06"
+      }
+    },
+    "FW4205 HO": {
+      "family_key": "uv-benefits-for-public-pools-and-water-parks",
+      "attribute_set_key": "uv-benefits-for-public-pools-and-water-parks",
+      "values": {
+        "max_flow_m3h": 30.0,
+        "connection": "3\"",
+        "lamp_power": "4x87 W",
+        "reactor_length_mm": 1150.0
+      },
+      "native": {
+        "default_code": "FW4205 HO",
+        "name": "Havuz UV Sistemleri (FW) (FW4205 HO)",
+        "prices": [],
+        "category_code": "06"
+      }
+    },
+    "FW5205 HO": {
+      "family_key": "uv-benefits-for-public-pools-and-water-parks",
+      "attribute_set_key": "uv-benefits-for-public-pools-and-water-parks",
+      "values": {
+        "max_flow_m3h": 37.0,
+        "connection": "3\"",
+        "lamp_power": "5x87 W",
+        "reactor_length_mm": 1150.0
+      },
+      "native": {
+        "default_code": "FW5205 HO",
+        "name": "Havuz UV Sistemleri (FW) (FW5205 HO)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 18028.0
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "FW6205 HO": {
+      "family_key": "uv-benefits-for-public-pools-and-water-parks",
+      "attribute_set_key": "uv-benefits-for-public-pools-and-water-parks",
+      "values": {
+        "max_flow_m3h": 43.0,
+        "connection": "4\"",
+        "lamp_power": "6x87 W",
+        "reactor_length_mm": 1146.0
+      },
+      "native": {
+        "default_code": "FW6205 HO",
+        "name": "Havuz UV Sistemleri (FW) (FW6205 HO)",
+        "prices": [],
+        "category_code": "06"
+      }
+    },
+    "FW6273 HO": {
+      "family_key": "uv-benefits-for-public-pools-and-water-parks",
+      "attribute_set_key": "uv-benefits-for-public-pools-and-water-parks",
+      "values": {
+        "max_flow_m3h": 67.0,
+        "connection": "4\"",
+        "lamp_power": "6x87 W",
+        "reactor_length_mm": 1162.0
+      },
+      "native": {
+        "default_code": "FW6273 HO",
+        "name": "Havuz UV Sistemleri (FW) (FW6273 HO)",
+        "prices": [],
+        "category_code": "06"
+      }
+    },
+    "MPL030 EL 270W": {
+      "family_key": "5-year-guarantee",
+      "attribute_set_key": "5-year-guarantee",
+      "values": {
+        "max_flow_m3h": 10.0,
+        "connection": "DN 80",
+        "lamp_power": "1 x 270 W",
+        "reactor_length_mm": 326.0
+      },
+      "native": {
+        "default_code": "MPL030 EL 270W",
+        "name": "UV Sistemleri (MPL) (MPL030 EL 270W)",
+        "prices": [],
+        "category_code": "06"
+      }
+    },
+    "MPL030 EL 400 W": {
+      "family_key": "5-year-guarantee",
+      "attribute_set_key": "5-year-guarantee",
+      "values": {
+        "max_flow_m3h": 20.0,
+        "connection": "DN 100",
+        "lamp_power": "1 x 400 W",
+        "reactor_length_mm": 396.0
+      },
+      "native": {
+        "default_code": "MPL030 EL 400 W",
+        "name": "UV Sistemleri (MPL) (MPL030 EL 400 W)",
+        "prices": [],
+        "category_code": "06"
+      }
+    },
+    "MPL030 EL 600 W": {
+      "family_key": "5-year-guarantee",
+      "attribute_set_key": "5-year-guarantee",
+      "values": {
+        "max_flow_m3h": 30.0,
+        "connection": "DN 100",
+        "lamp_power": "1 x 600 W",
+        "reactor_length_mm": 396.0
+      },
+      "native": {
+        "default_code": "MPL030 EL 600 W",
+        "name": "UV Sistemleri (MPL) (MPL030 EL 600 W)",
+        "prices": [],
+        "category_code": "06"
+      }
+    },
+    "MPL030 EL 1000W": {
+      "family_key": "5-year-guarantee",
+      "attribute_set_key": "5-year-guarantee",
+      "values": {
+        "max_flow_m3h": 50.0,
+        "connection": "DN 100",
+        "lamp_power": "1 x 1 kW",
+        "reactor_length_mm": 396.0
+      },
+      "native": {
+        "default_code": "MPL030 EL 1000W",
+        "name": "UV Sistemleri (MPL) (MPL030 EL 1000W)",
+        "prices": [],
+        "category_code": "06"
+      }
+    },
+    "MPL030 EL 1800W": {
+      "family_key": "5-year-guarantee",
+      "attribute_set_key": "5-year-guarantee",
+      "values": {
+        "max_flow_m3h": 80.0,
+        "connection": "DN 125",
+        "lamp_power": "1 x 1,8 kW",
+        "reactor_length_mm": 398.0
+      },
+      "native": {
+        "default_code": "MPL030 EL 1800W",
+        "name": "UV Sistemleri (MPL) (MPL030 EL 1800W)",
+        "prices": [],
+        "category_code": "06"
+      }
+    },
+    "MPL140": {
+      "family_key": "5-year-guarantee",
+      "attribute_set_key": "5-year-guarantee",
+      "values": {
+        "max_flow_m3h": 140.0,
+        "connection": "DN 150",
+        "lamp_power": "1 x 1,8 kW",
+        "reactor_length_mm": 600.0
+      },
+      "native": {
+        "default_code": "MPL140",
+        "name": "UV Sistemleri (MPL) (MPL140)",
+        "prices": [],
+        "category_code": "06"
+      }
+    },
+    "MPL230": {
+      "family_key": "5-year-guarantee",
+      "attribute_set_key": "5-year-guarantee",
+      "values": {
+        "max_flow_m3h": 230.0,
+        "connection": "DN 200",
+        "lamp_power": "1 x 3 kW",
+        "reactor_length_mm": 600.0
+      },
+      "native": {
+        "default_code": "MPL230",
+        "name": "UV Sistemleri (MPL) (MPL230)",
+        "prices": [],
+        "category_code": "06"
+      }
+    },
+    "MPL300": {
+      "family_key": "5-year-guarantee",
+      "attribute_set_key": "5-year-guarantee",
+      "values": {
+        "max_flow_m3h": 300.0,
+        "connection": "DN 250",
+        "lamp_power": "1 x 3 kW",
+        "reactor_length_mm": 600.0
+      },
+      "native": {
+        "default_code": "MPL300",
+        "name": "UV Sistemleri (MPL) (MPL300)",
+        "prices": [],
+        "category_code": "06"
+      }
+    },
+    "MPL500": {
+      "family_key": "5-year-guarantee",
+      "attribute_set_key": "5-year-guarantee",
+      "values": {
+        "max_flow_m3h": 450.0,
+        "connection": "DN 350",
+        "lamp_power": "1 x 4,5 kW",
+        "reactor_length_mm": 800.0
+      },
+      "native": {
+        "default_code": "MPL500",
+        "name": "UV Sistemleri (MPL) (MPL500)",
+        "prices": [],
+        "category_code": "06"
+      }
+    },
+    "MPL030 SD 270W": {
+      "family_key": "5-year-guarantee",
+      "attribute_set_key": "5-year-guarantee",
+      "values": {
+        "max_flow_m3h": 10.0,
+        "connection": "DN 80",
+        "lamp_power": "1 x 270 W",
+        "reactor_length_mm": 326.0
+      },
+      "native": {
+        "default_code": "MPL030 SD 270W",
+        "name": "UV Sistemleri (MPL) (MPL030 SD 270W)",
+        "prices": [],
+        "category_code": "06"
+      }
+    },
+    "MPL030 SD 400W": {
+      "family_key": "5-year-guarantee",
+      "attribute_set_key": "5-year-guarantee",
+      "values": {
+        "max_flow_m3h": 20.0,
+        "connection": "DN 100",
+        "lamp_power": "1 x 400 W",
+        "reactor_length_mm": 396.0
+      },
+      "native": {
+        "default_code": "MPL030 SD 400W",
+        "name": "UV Sistemleri (MPL) (MPL030 SD 400W)",
+        "prices": [],
+        "category_code": "06"
+      }
+    },
+    "MPL030 SD 600W": {
+      "family_key": "5-year-guarantee",
+      "attribute_set_key": "5-year-guarantee",
+      "values": {
+        "max_flow_m3h": 30.0,
+        "connection": "DN 100",
+        "lamp_power": "1 x 600 W",
+        "reactor_length_mm": 396.0
+      },
+      "native": {
+        "default_code": "MPL030 SD 600W",
+        "name": "UV Sistemleri (MPL) (MPL030 SD 600W)",
+        "prices": [],
+        "category_code": "06"
+      }
+    },
+    "MPL030 SD 1000W": {
+      "family_key": "5-year-guarantee",
+      "attribute_set_key": "5-year-guarantee",
+      "values": {
+        "max_flow_m3h": 50.0,
+        "connection": "DN 100",
+        "lamp_power": "1 x 1 kW",
+        "reactor_length_mm": 396.0
+      },
+      "native": {
+        "default_code": "MPL030 SD 1000W",
+        "name": "UV Sistemleri (MPL) (MPL030 SD 1000W)",
+        "prices": [],
+        "category_code": "06"
+      }
+    },
+    "MPL030 SD 1800W": {
+      "family_key": "5-year-guarantee",
+      "attribute_set_key": "5-year-guarantee",
+      "values": {
+        "max_flow_m3h": 80.0,
+        "connection": "DN 125",
+        "lamp_power": "1 x 1,8 kW",
+        "reactor_length_mm": 405.0
+      },
+      "native": {
+        "default_code": "MPL030 SD 1800W",
+        "name": "UV Sistemleri (MPL) (MPL030 SD 1800W)",
+        "prices": [],
+        "category_code": "06"
+      }
+    },
+    "MPL140 SD": {
+      "family_key": "5-year-guarantee",
+      "attribute_set_key": "5-year-guarantee",
+      "values": {
+        "max_flow_m3h": 140.0,
+        "connection": "DN 150",
+        "lamp_power": "1 x 1,8 kW",
+        "reactor_length_mm": 600.0
+      },
+      "native": {
+        "default_code": "MPL140 SD",
+        "name": "UV Sistemleri (MPL) (MPL140 SD)",
+        "prices": [],
+        "category_code": "06"
+      }
+    },
+    "MPL230 SD": {
+      "family_key": "5-year-guarantee",
+      "attribute_set_key": "5-year-guarantee",
+      "values": {
+        "max_flow_m3h": 230.0,
+        "connection": "DN 200",
+        "lamp_power": "1 x 3 kW",
+        "reactor_length_mm": 600.0
+      },
+      "native": {
+        "default_code": "MPL230 SD",
+        "name": "UV Sistemleri (MPL) (MPL230 SD)",
+        "prices": [],
+        "category_code": "06"
+      }
+    },
+    "MPL300 SD": {
+      "family_key": "5-year-guarantee",
+      "attribute_set_key": "5-year-guarantee",
+      "values": {
+        "max_flow_m3h": 300.0,
+        "connection": "DN 250",
+        "lamp_power": "1 x 3 kW",
+        "reactor_length_mm": 600.0
+      },
+      "native": {
+        "default_code": "MPL300 SD",
+        "name": "UV Sistemleri (MPL) (MPL300 SD)",
+        "prices": [],
+        "category_code": "06"
+      }
+    },
+    "MPL500+ SD": {
+      "family_key": "5-year-guarantee",
+      "attribute_set_key": "5-year-guarantee",
+      "values": {
+        "max_flow_m3h": 450.0,
+        "connection": "DN 350",
+        "lamp_power": "1 x 5 kW",
+        "reactor_length_mm": 800.0
+      },
+      "native": {
+        "default_code": "MPL500+ SD",
+        "name": "UV Sistemleri (MPL) (MPL500+ SD)",
+        "prices": [],
+        "category_code": "06"
+      }
+    },
+    "MPL700": {
+      "family_key": "5-year-guarantee",
+      "attribute_set_key": "5-year-guarantee",
+      "values": {
+        "max_flow_m3h": 700.0,
+        "connection": "DN200",
+        "lamp_power": "2 x 1.8 kW",
+        "reactor_length_mm": 920.0
+      },
+      "native": {
+        "default_code": "MPL700",
+        "name": "UV Sistemleri (MPL) (MPL700 NEW)",
+        "prices": [],
+        "category_code": "06"
+      }
+    },
+    "MPL900": {
+      "family_key": "5-year-guarantee",
+      "attribute_set_key": "5-year-guarantee",
+      "values": {
+        "max_flow_m3h": 900.0,
+        "connection": "DN250",
+        "lamp_power": "2 x 1.8 kW",
+        "reactor_length_mm": 1150.0
+      },
+      "native": {
+        "default_code": "MPL900",
+        "name": "UV Sistemleri (MPL) (MPL900 NEW)",
+        "prices": [],
+        "category_code": "06"
+      }
+    },
+    "MP030 600W EL": {
+      "family_key": "end-stri-yel-uv-industrial-uv",
+      "attribute_set_key": "end-stri-yel-uv-industrial-uv",
+      "values": {
+        "max_flow_m3h": 30.0,
+        "connection": "DN 80",
+        "lamp_power": "1 x 600 W",
+        "reactor_length_mm": 491.0
+      },
+      "native": {
+        "default_code": "MP030 600W EL",
+        "name": "Endüstriyel UV (MP030 600W EL)",
+        "prices": [],
+        "category_code": "06"
+      }
+    },
+    "MP030 1kW EL": {
+      "family_key": "end-stri-yel-uv-industrial-uv",
+      "attribute_set_key": "end-stri-yel-uv-industrial-uv",
+      "values": {
+        "max_flow_m3h": 40.0,
+        "connection": "DN 80",
+        "lamp_power": "1 x 1 kw",
+        "reactor_length_mm": 491.0
+      },
+      "native": {
+        "default_code": "MP030 1kW EL",
+        "name": "Endüstriyel UV (MP030 1kW EL)",
+        "prices": [],
+        "category_code": "06"
+      }
+    },
+    "MP100 TS": {
+      "family_key": "end-stri-yel-uv-industrial-uv",
+      "attribute_set_key": "end-stri-yel-uv-industrial-uv",
+      "values": {
+        "max_flow_m3h": 80.0,
+        "connection": "DN125",
+        "lamp_power": "1 x 1 kw",
+        "reactor_length_mm": 1175.0
+      },
+      "native": {
+        "default_code": "MP100 TS",
+        "name": "Endüstriyel UV (MP100 TS)",
+        "prices": [],
+        "category_code": "06"
+      }
+    },
+    "MP125 TS": {
+      "family_key": "end-stri-yel-uv-industrial-uv",
+      "attribute_set_key": "end-stri-yel-uv-industrial-uv",
+      "values": {
+        "max_flow_m3h": 140.0,
+        "connection": "D150",
+        "lamp_power": "1 x 3 kw",
+        "reactor_length_mm": 1152.0
+      },
+      "native": {
+        "default_code": "MP125 TS",
+        "name": "Endüstriyel UV (MP125 TS)",
+        "prices": [],
+        "category_code": "06"
+      }
+    },
+    "MP140 TS": {
+      "family_key": "end-stri-yel-uv-industrial-uv",
+      "attribute_set_key": "end-stri-yel-uv-industrial-uv",
+      "values": {
+        "max_flow_m3h": 300.0,
+        "connection": "DN200",
+        "lamp_power": "1 x 3 kw",
+        "reactor_length_mm": 1244.0
+      },
+      "native": {
+        "default_code": "MP140 TS",
+        "name": "Endüstriyel UV (MP140 TS)",
+        "prices": [],
+        "category_code": "06"
+      }
+    },
+    "MP240 TS": {
+      "family_key": "end-stri-yel-uv-industrial-uv",
+      "attribute_set_key": "end-stri-yel-uv-industrial-uv",
+      "values": {
+        "max_flow_m3h": 450.0,
+        "connection": "DN250",
+        "lamp_power": "2 x 3 kw",
+        "reactor_length_mm": 1020.0
+      },
+      "native": {
+        "default_code": "MP240 TS",
+        "name": "Endüstriyel UV (MP240 TS)",
+        "prices": [],
+        "category_code": "06"
+      }
+    },
+    "MP340 TS": {
+      "family_key": "end-stri-yel-uv-industrial-uv",
+      "attribute_set_key": "end-stri-yel-uv-industrial-uv",
+      "values": {
+        "max_flow_m3h": 675.0,
+        "connection": "DN300",
+        "lamp_power": "3 x 3 kw",
+        "reactor_length_mm": 725.0
+      },
+      "native": {
+        "default_code": "MP340 TS",
+        "name": "Endüstriyel UV (MP340 TS)",
+        "prices": [],
+        "category_code": "06"
+      }
+    },
+    "MP440 TS": {
+      "family_key": "end-stri-yel-uv-industrial-uv",
+      "attribute_set_key": "end-stri-yel-uv-industrial-uv",
+      "values": {
+        "max_flow_m3h": 900.0,
+        "connection": "DN300",
+        "lamp_power": "4 x 3 kw",
+        "reactor_length_mm": 824.0
+      },
+      "native": {
+        "default_code": "MP440 TS",
+        "name": "Endüstriyel UV (MP440 TS)",
+        "prices": [],
+        "category_code": "06"
+      }
+    },
+    "15522123001": {
+      "family_key": "ozon-jenerat-rleri-ozone-generators",
+      "attribute_set_key": "ozon-jenerat-rleri-ozone-generators",
+      "values": {
+        "model": "0,5 gr/h",
+        "pool_volume_m3": 50.0
+      },
+      "native": {
+        "default_code": "15522123001",
+        "name": "Ozon Jeneratörleri 0,5 gr/h",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 853.0
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "15522123002": {
+      "family_key": "ozon-jenerat-rleri-ozone-generators",
+      "attribute_set_key": "ozon-jenerat-rleri-ozone-generators",
+      "values": {
+        "model": "1 gr/h",
+        "pool_volume_m3": 100.0
+      },
+      "native": {
+        "default_code": "15522123002",
+        "name": "Ozon Jeneratörleri 1 gr/h",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 1558.0
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "15522123014": {
+      "family_key": "ozon-jenerat-rleri-ozone-generators",
+      "attribute_set_key": "ozon-jenerat-rleri-ozone-generators",
+      "values": {
+        "model": "3 gr/h",
+        "pool_volume_m3": 300.0
+      },
+      "native": {
+        "default_code": "15522123014",
+        "name": "Ozon Jeneratörleri 3 gr/h",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 2084.0
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "15522123004": {
+      "family_key": "ozon-jenerat-rleri-ozone-generators",
+      "attribute_set_key": "ozon-jenerat-rleri-ozone-generators",
+      "values": {
+        "model": "5 gr/h",
+        "pool_volume_m3": 500.0
+      },
+      "native": {
+        "default_code": "15522123004",
+        "name": "Ozon Jeneratörleri 5 gr/h",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 2547.0
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "15522123010": {
+      "family_key": "ozon-jenerat-rleri-ozone-generators",
+      "attribute_set_key": "ozon-jenerat-rleri-ozone-generators",
+      "values": {
+        "model": "10 gr/h",
+        "pool_volume_m3": 1000.0
+      },
+      "native": {
+        "default_code": "15522123010",
+        "name": "Ozon Jeneratörleri 10 gr/h",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 3263.0
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "15522123005": {
+      "family_key": "ozon-jenerat-rleri-ozone-generators",
+      "attribute_set_key": "ozon-jenerat-rleri-ozone-generators",
+      "values": {
+        "model": "20 gr/h"
+      },
+      "native": {
+        "default_code": "15522123005",
+        "name": "Ozon Jeneratörleri 20 gr/h",
+        "prices": [],
+        "category_code": "06"
+      }
+    },
+    "15522123006": {
+      "family_key": "ozon-jenerat-rleri-ozone-generators",
+      "attribute_set_key": "ozon-jenerat-rleri-ozone-generators",
+      "values": {
+        "model": "30 gr/h"
+      },
+      "native": {
+        "default_code": "15522123006",
+        "name": "Ozon Jeneratörleri 30 gr/h",
+        "prices": [],
+        "category_code": "06"
+      }
+    },
+    "15522123007": {
+      "family_key": "ozon-jenerat-rleri-ozone-generators",
+      "attribute_set_key": "ozon-jenerat-rleri-ozone-generators",
+      "values": {
+        "model": "50 gr/h"
+      },
+      "native": {
+        "default_code": "15522123007",
+        "name": "Ozon Jeneratörleri 50 gr/h",
+        "prices": [],
+        "category_code": "06"
+      }
+    },
+    "15522123009": {
+      "family_key": "ozon-jenerat-rleri-ozone-generators",
+      "attribute_set_key": "ozon-jenerat-rleri-ozone-generators",
+      "values": {
+        "model": "80 gr/h"
+      },
+      "native": {
+        "default_code": "15522123009",
+        "name": "Ozon Jeneratörleri 80 gr/h",
+        "prices": [],
+        "category_code": "06"
+      }
+    },
+    "15515253088": {
+      "family_key": "kompact-model",
+      "attribute_set_key": "kompact-model",
+      "values": {
+        "flow_lth": 5.0,
+        "pressure_bar": 8.0
+      },
+      "native": {
+        "default_code": "15515253088",
+        "name": " (15515253088)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 290.0
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "15515253089": {
+      "family_key": "kompact-model",
+      "attribute_set_key": "kompact-model",
+      "values": {
+        "flow_lth": 3.0,
+        "pressure_bar": 10.0
+      },
+      "native": {
+        "default_code": "15515253089",
+        "name": " (15515253089)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 280.0
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "15515253056": {
+      "family_key": "kompact-drp-200-model",
+      "attribute_set_key": "kompact-drp-200-model",
+      "values": {
+        "flow_lth": 5.0,
+        "pressure_bar": 8.0
+      },
+      "native": {
+        "default_code": "15515253056",
+        "name": " (15515253056)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 710.0
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "15515253073": {
+      "family_key": "trp-603-model",
+      "attribute_set_key": "trp-603-model",
+      "values": {
+        "flow_lth": 8.0,
+        "pressure_bar": 2.0
+      },
+      "native": {
+        "default_code": "15515253073",
+        "name": " (15515253073)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 1300.0
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "15515253053": {
+      "family_key": "tekna-evo-aks-model",
+      "attribute_set_key": "tekna-evo-aks-model",
+      "values": {
+        "model": "AKS 603",
+        "flow_lth": 5.0,
+        "pressure_bar": 10.0
+      },
+      "native": {
+        "default_code": "15515253053",
+        "name": "AKS 603",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 425.0
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "15515253070": {
+      "family_key": "tekna-evo-aks-model",
+      "attribute_set_key": "tekna-evo-aks-model",
+      "values": {
+        "model": "AKS 800",
+        "flow_lth": 10.0,
+        "pressure_bar": 10.0
+      },
+      "native": {
+        "default_code": "15515253070",
+        "name": "AKS 800 (10)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 570.0
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "15515253069": {
+      "family_key": "tekna-evo-aks-model",
+      "attribute_set_key": "tekna-evo-aks-model",
+      "values": {
+        "model": "AKS 803",
+        "flow_lth": 15.0,
+        "pressure_bar": 5.0
+      },
+      "native": {
+        "default_code": "15515253069",
+        "name": "AKS 803 (15)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 735.0
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "15515253075": {
+      "family_key": "pool-dose-panel",
+      "attribute_set_key": "pool-dose-panel",
+      "values": {
+        "max_pool_volume_m3": 100.0,
+        "pump_capacity": "5 Lt / 1,5 bar"
+      },
+      "native": {
+        "default_code": "15515253075",
+        "name": " (15515253075)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 1510.0
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "15515253080": {
+      "family_key": "kemidose-panel",
+      "attribute_set_key": "kemidose-panel",
+      "values": {
+        "max_pool_volume_m3": 450.0,
+        "pump_capacity": "5 Lt / 1,5 bar"
+      },
+      "native": {
+        "default_code": "15515253080",
+        "name": " (15515253080)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 1565.0
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "15515253077": {
+      "family_key": "evo-basic-panel",
+      "attribute_set_key": "evo-basic-panel",
+      "values": {
+        "max_pool_volume_m3": 500.0,
+        "pump_capacity": "5 lt / 8 bar"
+      },
+      "native": {
+        "default_code": "15515253077",
+        "name": " (15515253077)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 1970.0
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "15515253063": {
+      "family_key": "aks-800-803-panel",
+      "attribute_set_key": "aks-800-803-panel",
+      "values": {
+        "model": "AKS 800",
+        "max_pool_volume_m3": 1500.0,
+        "pump_capacity": "10 Lt / 10 bar"
+      },
+      "native": {
+        "default_code": "15515253063",
+        "name": "AKS 800 (1500)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 2890.0
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "15515253061": {
+      "family_key": "aks-800-803-panel",
+      "attribute_set_key": "aks-800-803-panel",
+      "values": {
+        "model": "AKS 803",
+        "max_pool_volume_m3": 2500.0,
+        "pump_capacity": "10 Lt / 10 bar"
+      },
+      "native": {
+        "default_code": "15515253061",
+        "name": "AKS 803 (2500)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 3250.0
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "15515253074": {
+      "family_key": "k-800-cl-panel",
+      "attribute_set_key": "k-800-cl-panel",
+      "values": {
+        "max_pool_volume_m3": 1500.0,
+        "pump_capacity": "10 Lt / 10 bar"
+      },
+      "native": {
+        "default_code": "15515253074",
+        "name": " (15515253074)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 6255.0
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "15515253062": {
+      "family_key": "akl-800-803-panel",
+      "attribute_set_key": "akl-800-803-panel",
+      "values": {
+        "model": "AKL 800",
+        "max_pool_volume_m3": 1500.0,
+        "pump_capacity": "10 Lt / 10 bar"
+      },
+      "native": {
+        "default_code": "15515253062",
+        "name": "AKL 800",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 2960.0
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "15515253060": {
+      "family_key": "akl-800-803-panel",
+      "attribute_set_key": "akl-800-803-panel",
+      "values": {
+        "model": "AKL 803",
+        "max_pool_volume_m3": 2500.0,
+        "pump_capacity": "10 Lt / 10 bar"
+      },
+      "native": {
+        "default_code": "15515253060",
+        "name": "AKL 803",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 3380.0
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "164252005": {
+      "family_key": "poolone-peristaltik-dozaj-pompas-poolone-peristaltic-dosing-",
+      "attribute_set_key": "poolone-peristaltik-dozaj-pompas-poolone-peristaltic-dosing-",
+      "values": {
+        "model": "Poolone",
+        "pressure_bar": 1.5,
+        "capacity": "1,5 L/ h",
+        "measuring_range": "6,6 - 8 pH"
+      },
+      "native": {
+        "default_code": "164252005",
+        "name": "Poolone (6,6 - 8 pH)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 520.0
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "164252006": {
+      "family_key": "poolone-peristaltik-dozaj-pompas-poolone-peristaltic-dosing-",
+      "attribute_set_key": "poolone-peristaltik-dozaj-pompas-poolone-peristaltic-dosing-",
+      "values": {
+        "model": "Poolone",
+        "pressure_bar": 1.5,
+        "capacity": "1,5 L/ h",
+        "measuring_range": "0 - 1000 mV"
+      },
+      "native": {
+        "default_code": "164252006",
+        "name": "Poolone (0 - 1000 mV)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 520.0
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "15515253090": {
+      "family_key": "kompact-drp-200-model-set",
+      "attribute_set_key": "kompact-drp-200-model-set",
+      "values": {
+        "flow_lth": 5.0,
+        "pressure_bar": 8.0
+      },
+      "native": {
+        "default_code": "15515253090",
+        "name": " (15515253090)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 1010.0
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "19818253019": {
+      "family_key": "emi-filtresi-ve-ekvalfi-suction-filter-and-check-valve",
+      "attribute_set_key": "emi-filtresi-ve-ekvalfi-suction-filter-and-check-valve",
+      "values": {},
+      "native": {
+        "default_code": "19818253019",
+        "name": " (19818253019)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 45.0
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "19818253020": {
+      "family_key": "basma-ekvalfi-discharge-check-valve",
+      "attribute_set_key": "basma-ekvalfi-discharge-check-valve",
+      "values": {},
+      "native": {
+        "default_code": "19818253020",
+        "name": " (19818253020)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 35.0
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "19818002003": {
+      "family_key": "kalibrasyon-s-v-lar-calibration-fluid-kit",
+      "attribute_set_key": "kalibrasyon-s-v-lar-calibration-fluid-kit",
+      "values": {
+        "product_label": "Ph Kalibrasyon Sıvısı (4-7) Ph Calibration Liquid (4-7)"
+      },
+      "native": {
+        "default_code": "19818002003",
+        "name": " (19818002003)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 45.0
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "19818002004": {
+      "family_key": "kalibrasyon-s-v-lar-calibration-fluid-kit",
+      "attribute_set_key": "kalibrasyon-s-v-lar-calibration-fluid-kit",
+      "values": {
+        "product_label": "ORP Kalibrasyon Sıvısı (465 mV) ORP Calibration Liquid (465 mV)"
+      },
+      "native": {
+        "default_code": "19818002004",
+        "name": " (19818002004)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 30.0
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "19818253021": {
+      "family_key": "ph-probu-ph-probe",
+      "attribute_set_key": "ph-probu-ph-probe",
+      "values": {
+        "product_label": "6 mt Kablolu 6 mt Cable Lenght"
+      },
+      "native": {
+        "default_code": "19818253021",
+        "name": " (19818253021)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 250.0
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "19818253022": {
+      "family_key": "ph-probu-ph-probe",
+      "attribute_set_key": "ph-probu-ph-probe",
+      "values": {
+        "product_label": "1,5 mt Kablolu 1,5 mt Cable Lenght"
+      },
+      "native": {
+        "default_code": "19818253022",
+        "name": " (19818253022)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 220.0
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "19818253023": {
+      "family_key": "orp-elektrotu-orp-electrode",
+      "attribute_set_key": "orp-elektrotu-orp-electrode",
+      "values": {
+        "product_label": "6 mt Kablolu 6 mt Cable Lenght"
+      },
+      "native": {
+        "default_code": "19818253023",
+        "name": " (19818253023)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 265.0
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "19818253024": {
+      "family_key": "orp-elektrotu-orp-electrode",
+      "attribute_set_key": "orp-elektrotu-orp-electrode",
+      "values": {
+        "product_label": "1,5 mt Kablolu 1,5 mt Cable Lenght"
+      },
+      "native": {
+        "default_code": "19818253024",
+        "name": " (19818253024)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 235.0
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "19818253027": {
+      "family_key": "seviye-sens-r-level-sensor",
+      "attribute_set_key": "seviye-sens-r-level-sensor",
+      "values": {
+        "product_label": "6 mt Kablolu 6 mt Cable Lenght"
+      },
+      "native": {
+        "default_code": "19818253027",
+        "name": " (19818253027)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 70.0
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "19818253025": {
+      "family_key": "prob-tutucular-probe-holder",
+      "attribute_set_key": "prob-tutucular-probe-holder",
+      "values": {
+        "product_label": "By-Pass Tip Hazneli Prob Tutucu (5\" hazneli pislik tutucu ön filtre) Probe Holder with By-Pass type housing"
+      },
+      "native": {
+        "default_code": "19818253025",
+        "name": " (19818253025)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 140.0
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "19818253026": {
+      "family_key": "prob-tutucular-probe-holder",
+      "attribute_set_key": "prob-tutucular-probe-holder",
+      "values": {
+        "product_label": "Hat Tip Prob Tutucu Probe Holder with Line Type"
+      },
+      "native": {
+        "default_code": "19818253026",
+        "name": " (19818253026)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 35.0
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "02099002419": {
+      "family_key": "klorinat-r-chlorinator",
+      "attribute_set_key": "klorinat-r-chlorinator",
+      "values": {
+        "model": "Online 4 Kg",
+        "connection": "1 ½\""
+      },
+      "native": {
+        "default_code": "02099002419",
+        "name": "Online 4 Kg (02099002419)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 72.0
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "02099002420": {
+      "family_key": "klorinat-r-chlorinator",
+      "attribute_set_key": "klorinat-r-chlorinator",
+      "values": {
+        "model": "Online 4 Kg",
+        "connection": "1 ½\""
+      },
+      "native": {
+        "default_code": "02099002420",
+        "name": "Online 4 Kg (02099002420)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 72.0
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "15518002001": {
+      "family_key": "chemical-mixing-tank",
+      "attribute_set_key": "chemical-mixing-tank",
+      "values": {
+        "model": "DD 100.A",
+        "capacity": "100 lt"
+      },
+      "native": {
+        "default_code": "15518002001",
+        "name": "DD 100.A",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 70.0
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "15518002002": {
+      "family_key": "chemical-mixing-tank",
+      "attribute_set_key": "chemical-mixing-tank",
+      "values": {
+        "model": "DD 200.A",
+        "capacity": "200 lt"
+      },
+      "native": {
+        "default_code": "15518002002",
+        "name": "DD 200.A",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 110.0
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "15518002004": {
+      "family_key": "motorized-mixing-tank",
+      "attribute_set_key": "motorized-mixing-tank",
+      "values": {
+        "model": "MK 100.A",
+        "capacity": "100 lt"
+      },
+      "native": {
+        "default_code": "15518002004",
+        "name": "MK 100.A",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 790.0
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "15518002005": {
+      "family_key": "motorized-mixing-tank",
+      "attribute_set_key": "motorized-mixing-tank",
+      "values": {
+        "model": "MK 200.A",
+        "capacity": "200 lt"
+      },
+      "native": {
+        "default_code": "15518002005",
+        "name": "MK 200.A",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 865.0
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "164002024": {
+      "family_key": "chemical-mixer",
+      "attribute_set_key": "chemical-mixer",
+      "values": {
+        "product_label": "Kimyasal karıştırıcı motoru 0,18 kw Mixer for tank chemical low rpm"
+      },
+      "native": {
+        "default_code": "164002024",
+        "name": " (164002024)",
+        "prices": [],
+        "category_code": "06"
+      }
+    },
+    "164002018": {
+      "family_key": "chemical-mixer",
+      "attribute_set_key": "chemical-mixer",
+      "values": {
+        "product_label": "Kimyasal karıştırıcı çubuk paslanmaz Chemical stirring rod stainless"
+      },
+      "native": {
+        "default_code": "164002018",
+        "name": " (164002018)",
+        "prices": [],
+        "category_code": "06"
+      }
+    },
+    "15517123001": {
+      "family_key": "dispenser",
+      "attribute_set_key": "dispenser",
+      "values": {
+        "model": "72.D",
+        "tablet_capacity": "1 Kg"
+      },
+      "native": {
+        "default_code": "15517123001",
+        "name": "72.D",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 6.1
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "15517123002": {
+      "family_key": "dispenser",
+      "attribute_set_key": "dispenser",
+      "values": {
+        "model": "Mini",
+        "tablet_capacity": "200 Gr"
+      },
+      "native": {
+        "default_code": "15517123002",
+        "name": "Mini",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 4.0
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "19818123007": {
+      "family_key": "ayak-y-kama-teknesi-foot-washing-basin",
+      "attribute_set_key": "ayak-y-kama-teknesi-foot-washing-basin",
+      "values": {
+        "dims": "31x36"
+      },
+      "native": {
+        "default_code": "19818123007",
+        "name": " (19818123007 (Plastik Plastic))",
+        "prices": [],
+        "category_code": "06"
+      }
+    },
+    "19818122003": {
+      "family_key": "ayak-y-kama-teknesi-foot-washing-basin",
+      "attribute_set_key": "ayak-y-kama-teknesi-foot-washing-basin",
+      "values": {
+        "dims": "48x31"
+      },
+      "native": {
+        "default_code": "19818122003",
+        "name": " (19818122003)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 60.0
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "19818122002": {
+      "family_key": "ayak-y-kama-teknesi-foot-washing-basin",
+      "attribute_set_key": "ayak-y-kama-teknesi-foot-washing-basin",
+      "values": {
+        "dims": "70x45"
+      },
+      "native": {
+        "default_code": "19818122002",
+        "name": " (19818122002)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 80.0
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "15519223003": {
+      "family_key": "ph-otomatik-su-kalite-dedekt-r-oh-automatic-water-quality-de",
+      "attribute_set_key": "ph-otomatik-su-kalite-dedekt-r-oh-automatic-water-quality-de",
+      "values": {
+        "product_label": "Kalem Tipi PH Ölçer Pen Type Ph Meter"
+      },
+      "native": {
+        "default_code": "15519223003",
+        "name": " (15519223003)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 20.0
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "15519123001": {
+      "family_key": "test-kitleri-test-kits",
+      "attribute_set_key": "test-kitleri-test-kits",
+      "values": {
+        "model": "2'li Sıvılı 2 Way Liquid"
+      },
+      "native": {
+        "default_code": "15519123001",
+        "name": "2'li Sıvılı 2 Way Liquid",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 9.0
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "15519223001": {
+      "family_key": "test-kitleri-test-kits",
+      "attribute_set_key": "test-kitleri-test-kits",
+      "values": {
+        "model": "Haplı With Tablet"
+      },
+      "native": {
+        "default_code": "15519223001",
+        "name": "Haplı With Tablet",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 13.0
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "15519123002": {
+      "family_key": "test-kitleri-test-kits",
+      "attribute_set_key": "test-kitleri-test-kits",
+      "values": {
+        "model": "5'li Sıvılı 5 Way Liquid"
+      },
+      "native": {
+        "default_code": "15519123002",
+        "name": "5'li Sıvılı 5 Way Liquid",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 15.0
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "15519123005": {
+      "family_key": "test-ka-d-test-strips",
+      "attribute_set_key": "test-ka-d-test-strips",
+      "values": {},
+      "native": {
+        "default_code": "15519123005",
+        "name": " (15519123005)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 10.0
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "TK-H-YED-DPD1": {
+      "family_key": "test-kit-dpd1-and-phenol-tablets",
+      "attribute_set_key": "test-kit-dpd1-and-phenol-tablets",
+      "values": {
+        "model": "DPD1"
+      },
+      "native": {
+        "default_code": "TK-H-YED-DPD1",
+        "name": "DPD1",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 1.5
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "15519123009": {
+      "family_key": "test-kit-with-liquid-set",
+      "attribute_set_key": "test-kit-with-liquid-set",
+      "values": {
+        "model": "2'li Oto ve Phenol Yedek Sıvısı Oto &amp; Phenol Liquid 2 Line Set"
+      },
+      "native": {
+        "default_code": "15519123009",
+        "name": "2'li Oto ve Phenol Yedek Sıvısı Oto &amp; Phenol Liquid 2 Line Set",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 5.0
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "15519123008": {
+      "family_key": "test-kit-with-liquid-set",
+      "attribute_set_key": "test-kit-with-liquid-set",
+      "values": {
+        "model": "5'li Yedek Sıvı 5 Line Set"
+      },
+      "native": {
+        "default_code": "15519123008",
+        "name": "5'li Yedek Sıvı 5 Line Set",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 6.0
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "59915133012": {
+      "family_key": "granular-salt",
+      "attribute_set_key": "granular-salt",
+      "values": {
+        "product_label": "Tuz Salt",
+        "weight": 25.0
+      },
+      "native": {
+        "default_code": "59915133012",
+        "name": " (59915133012)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 0.35
+          }
+        ],
+        "category_code": "06"
+      }
+    },
+    "59915133010": {
+      "family_key": "granular-salt",
+      "attribute_set_key": "granular-salt",
+      "values": {
+        "product_label": "Tuz Tablet Tablet Salt",
+        "weight": 25.0
+      },
+      "native": {
+        "default_code": "59915133010",
+        "name": " (59915133010)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 0.4
+          }
+        ],
+        "category_code": "06"
+      }
+    }
+  }
+}

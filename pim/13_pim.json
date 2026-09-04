@@ -1,0 +1,1314 @@
+{
+  "meta": {
+    "generator": "pim/generate_pim_json.py",
+    "generated_at": "2026-09-04",
+    "source_files": [
+      "13_Bahce_ve_Golet_Urunleri__Garden_and_Pond_Products.json",
+      "13_Bahce_ve_Golet_Urunleri__Garden_and_Pond_Products_attributes.json"
+    ],
+    "category_no": "13",
+    "category_tr": "Bahçe ve Gölet Ürünleri",
+    "category_en": "Garden and Pond Products",
+    "odoo_model": "product.template",
+    "pim_modules": [
+      "attribute_set",
+      "product_attribute_set",
+      "pim"
+    ],
+    "technical_name_prefix": "pond",
+    "family_count": 10,
+    "variant_count": 31,
+    "import_order": [
+      "attribute_groups",
+      "attribute_sets (ustten alta, parent once)",
+      "attributes (custom -> ir.model.fields; native -> field_id)",
+      "attribute.option kayitlari (select/multiselect icin)",
+      "product_category (varsayilan set baglanti)",
+      "product_values (product.template + x_ alan degerleri)"
+    ],
+    "design_notes": [
+      "Set hiyerarşisi attribute.set.parent_id ile kurulur; alt setler üst setin niteliklerini kalıtır (complete_attribute_ids).",
+      "Kategori genelinde ortak nitelikler kök sette; yalnızca alt gruplarda görülen nitelikler ilgili ara/aile setine bağlanır (ör. kum kapasitesi yalnızca Kum Filtreleri setinde).",
+      "Bir nitelik birden fazla sete bağlanabilir (attribute_set_ids m2m): grain_size hem 25 Mikron hem Filtre Medyaları setinde.",
+      "serialized=False seçildi; gerçek kolon arama/filtreleme/gruplama avantajı sağlar. Yüzlerce niteliğe çıkılırsa serialized=True önerilir (x_custom_json_attrs JSON blob).",
+      "Ağırlık doğal (native) nitelik olarak product.template.weight alanına bağlandı; ambalaj ağırlığı (25 kg çuvallar) da bu alana yazılır.",
+      "select/multiselect nitelikler attribute.option kayıtlarıyla normalize edildi; serbest metin yerine seçim listesi kullanılarak veri tutarlılığı sağlanır.",
+      "Urun adi (name) aile başlığı + model; model yoksa aile başlığı + koddan üretilir. default_code her zaman koddur."
+    ],
+    "data_quality_notes": [
+      "Ikon değerleri normalize edildi (yildiz/tire temizligi, 'RESIDENTAL' -> 'RESIDENTIAL', '- POOL PLUMBING LINES' -> 'POOL PLUMBING LINES').",
+      "6 yollu vanalarda büyük 'Ø' disli, küçük 'ø' yapistirma baglantiyi belirtir; secenek etiketleri buna gore aciklastirildi.",
+      "ap_diameter alani iki anlamda kullaniliyor: sayisal degerler filtre capi (diameter_mm), aralik degerler ('0,5-1,2 mm') tane boyutu (grain_size) olarak ayristirildi.",
+      "'ambalaj_packing' ('25 kg') degeri urunun gercek agirligi oldugu icin native weight alanina yazildi.",
+      "Rotex ailesinde family spec 'max_pressure_bar=1.5' ile variant tablosundaki 'MAX. CALISMA BASINCI 2,5 bar' celisiyor; her ikisi ayri nitelikte (kok 'Maks. Basinc' ve kum filtre 'Maks. Calisma Basinci') tasindi, gozden gecirilmeli.",
+      "Lamex tablolarindaki 1.050+ mm capli satirlar kum filtreler icin dogrudur; PDF'te pompa bolumune tasmasi kaynak cikarimidir (02 kategorisinde zaten yer alirlar).",
+      "Rotex aile tablosunda Woundex ile ayni kodlu satirlar var (12015123100-03); urun atamalari Woundex tarafindadir ve cift uretim engellendi.",
+      "bullets_tr listesi bazi ailelerde TR+EN satirlari icerir; highlights alani kaynagini birebir tasir.",
+      "Zeolit ailesi kaynak PDF'te skimmer, havuz ortusu, merdiven gibi diger urunleri de kapsar; set adi 'Zeolit ve Diger Urunler' olarak duzenlendi."
+    ]
+  },
+  "attribute_groups": [
+    {
+      "key": "general",
+      "name": "Genel",
+      "name_en": "General",
+      "sequence": 10
+    },
+    {
+      "key": "technical",
+      "name": "Teknik Özellikler",
+      "name_en": "Technical Specs",
+      "sequence": 20
+    },
+    {
+      "key": "electrical",
+      "name": "Elektrik",
+      "name_en": "Electrical",
+      "sequence": 30
+    },
+    {
+      "key": "physical",
+      "name": "Fiziksel Özellikler",
+      "name_en": "Physical Specs",
+      "sequence": 40
+    },
+    {
+      "key": "connection",
+      "name": "Bağlantı ve Montaj",
+      "name_en": "Connection & Fitting",
+      "sequence": 50
+    }
+  ],
+  "attribute_sets": [
+    {
+      "key": "garden-pond",
+      "name": "Bahçe ve Gölet Ürünleri",
+      "name_en": "Garden and Pond Products",
+      "parent_key": null,
+      "sequence": 10,
+      "is_root": true
+    },
+    {
+      "key": "golet-filtreleri",
+      "name": "Gölet Filtreleri",
+      "name_en": "Pond Filters",
+      "parent_key": "garden-pond",
+      "sequence": 20
+    },
+    {
+      "key": "golet-pompalari",
+      "name": "Gölet Pompaları",
+      "name_en": "Pond Pumps",
+      "parent_key": "garden-pond",
+      "sequence": 30
+    },
+    {
+      "key": "g-venli-fi-lrasyon-reliable-filtration",
+      "name": "Gölet Filtresi (Biyolojik)",
+      "name_en": "Pond Bio Filter",
+      "parent_key": "golet-filtreleri",
+      "sequence": 10,
+      "family_product_id": "g-venli-fi-lrasyon-reliable-filtration",
+      "family_variant_count": 1
+    },
+    {
+      "key": "basin-li-fi-lrasyon-pressurized-filtration",
+      "name": "Basınçlı Gölet Filtresi (UV-C)",
+      "name_en": "Pressurized Pond Filter with UV",
+      "parent_key": "golet-filtreleri",
+      "sequence": 20,
+      "family_product_id": "basin-li-fi-lrasyon-pressurized-filtration",
+      "family_variant_count": 5
+    },
+    {
+      "key": "uv-g-vencesi-uv-assurance",
+      "name": "Gölet UV Dezenfektanı",
+      "name_en": "Pond UV Clarifier",
+      "parent_key": "golet-filtreleri",
+      "sequence": 30,
+      "family_product_id": "uv-g-vencesi-uv-assurance",
+      "family_variant_count": 1
+    },
+    {
+      "key": "enerji-tasarrufu-energy-saving",
+      "name": "Gölet Pompası (Enerji Tasarruflu)",
+      "name_en": "Pond Pump (Energy Saving)",
+      "parent_key": "golet-pompalari",
+      "sequence": 40,
+      "family_product_id": "enerji-tasarrufu-energy-saving",
+      "family_variant_count": 4
+    },
+    {
+      "key": "tamamen-su-ge-i-rmez-motor-sealed-waterproof",
+      "name": "Gölet Pompası (Su Geçirmez Motor)",
+      "name_en": "Pond Pump (Waterproof Motor)",
+      "parent_key": "golet-pompalari",
+      "sequence": 50,
+      "family_product_id": "tamamen-su-ge-i-rmez-motor-sealed-waterproof",
+      "family_variant_count": 1
+    },
+    {
+      "key": "temi-z-si-rk-lasyon-clean-circulation",
+      "name": "Gölet Pompa ve UV Kombinleri",
+      "name_en": "Pond Pump & UV Combos",
+      "parent_key": "golet-pompalari",
+      "sequence": 60,
+      "family_product_id": "temi-z-si-rk-lasyon-clean-circulation",
+      "family_variant_count": 8
+    },
+    {
+      "key": "senkron-smart",
+      "name": "Senkron Smart Gölet Pompası",
+      "name_en": "Senkron Smart Pond Pump",
+      "parent_key": "golet-pompalari",
+      "sequence": 70,
+      "family_product_id": "senkron-smart",
+      "family_variant_count": 2
+    },
+    {
+      "key": "trione",
+      "name": "Trione Gölet Pompası",
+      "name_en": "Trione Pond Pump",
+      "parent_key": "golet-pompalari",
+      "sequence": 80,
+      "family_product_id": "trione",
+      "family_variant_count": 1
+    },
+    {
+      "key": "esteti-k-aki-aesthetic-flow",
+      "name": "Su Perdesi Kanalları",
+      "name_en": "Waterfall Channels",
+      "parent_key": "garden-pond",
+      "sequence": 90,
+      "family_product_id": "esteti-k-aki-aesthetic-flow",
+      "family_variant_count": 4
+    },
+    {
+      "key": "suni-ah-ap-taban-wooden-base",
+      "name": "Bahçe ve Güneş Duşları",
+      "name_en": "Garden & Solar Showers",
+      "parent_key": "garden-pond",
+      "sequence": 100,
+      "family_product_id": "suni-ah-ap-taban-wooden-base",
+      "family_variant_count": 4
+    }
+  ],
+  "attributes": [
+    {
+      "key": "model",
+      "name": "x_pond_model",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Ürün Adı",
+      "field_description_en": "Product Name",
+      "attribute_type": "char",
+      "serialized": false,
+      "widget": null,
+      "group_key": "general",
+      "set_keys": [
+        "garden-pond"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.model | r_n_adi_name",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "power_w",
+      "name": "x_pond_power_w",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Güç (W)",
+      "field_description_en": "Power (W)",
+      "attribute_type": "float",
+      "serialized": false,
+      "widget": null,
+      "group_key": "technical",
+      "set_keys": [
+        "garden-pond"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.g_power",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "rated_power_w",
+      "name": "x_pond_rated_power_w",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Anma Gücü (W)",
+      "field_description_en": "Rated Power (W)",
+      "attribute_type": "float",
+      "serialized": false,
+      "widget": null,
+      "group_key": "technical",
+      "set_keys": [
+        "garden-pond"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.g_de_eri_rated_power",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "max_flow_lth",
+      "name": "x_pond_max_flow_lth",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Maks. Debi (L/saat)",
+      "field_description_en": "Max. Flow (L/h)",
+      "attribute_type": "float",
+      "serialized": false,
+      "widget": null,
+      "group_key": "technical",
+      "set_keys": [
+        "garden-pond"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.debi_max_flow | debi_flow | debi_flow_max | debi_flow_rate | debi_l_h_flow_l_h",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "head_max_m",
+      "name": "x_pond_head_max_m",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Maks. Basma Yüksekliği (m)",
+      "field_description_en": "Max. Head (m)",
+      "attribute_type": "float",
+      "serialized": false,
+      "widget": null,
+      "group_key": "technical",
+      "set_keys": [
+        "garden-pond"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.max_ati_max_head | basma_y_ksekli_i_head_max | basma_y_ksekli_i_head",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "pond_fish_m3",
+      "name": "x_pond_pond_fish_m3",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Balıklı Gölet (m³)",
+      "field_description_en": "Pond with Fish (m³)",
+      "attribute_type": "float",
+      "serialized": false,
+      "widget": null,
+      "group_key": "technical",
+      "set_keys": [
+        "garden-pond"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.balikli_g_let_pond_with_fish",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "pond_normal_m3",
+      "name": "x_pond_pond_normal_m3",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Dekoratif Gölet (m³)",
+      "field_description_en": "Normal Pond (m³)",
+      "attribute_type": "float",
+      "serialized": false,
+      "widget": null,
+      "group_key": "technical",
+      "set_keys": [
+        "garden-pond"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.dekorati_f_g_let_normal_pond",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "capacity",
+      "name": "x_pond_capacity",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Kapasite",
+      "field_description_en": "Capacity",
+      "attribute_type": "char",
+      "serialized": false,
+      "widget": null,
+      "group_key": "technical",
+      "set_keys": [
+        "garden-pond"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.kapasi_te_capacity | uv_lamba_g_c_uv_lamp_powerfish",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "tank_capacity_l",
+      "name": "x_pond_tank_capacity_l",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Tank Kapasitesi (L)",
+      "field_description_en": "Tank Capacity (L)",
+      "attribute_type": "float",
+      "serialized": false,
+      "widget": null,
+      "group_key": "technical",
+      "set_keys": [
+        "garden-pond"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.kapasi_te_tank_capacity | tank_kapasi_tesi_tank_capacity",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "tank_material",
+      "name": "x_pond_tank_material",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Tank Malzemesi",
+      "field_description_en": "Tank Material",
+      "attribute_type": "char",
+      "serialized": false,
+      "widget": null,
+      "group_key": "technical",
+      "set_keys": [
+        "garden-pond"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.tank_ci_nsi_tank_material",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "pressure_bar",
+      "name": "x_pond_pressure_bar",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Maks. Basınç (bar)",
+      "field_description_en": "Max. Pressure (bar)",
+      "attribute_type": "float",
+      "serialized": false,
+      "widget": null,
+      "group_key": "technical",
+      "set_keys": [
+        "garden-pond"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.basin_max_pressure",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "uv_power_w",
+      "name": "x_pond_uv_power_w",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "UV-C Gücü (W)",
+      "field_description_en": "UV-C Power (W)",
+      "attribute_type": "float",
+      "serialized": false,
+      "widget": null,
+      "group_key": "technical",
+      "set_keys": [
+        "garden-pond"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.uv_g_c_bulb_power | uv_c_lamba_uv_c_lamp",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "dims",
+      "name": "x_pond_dims",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Ölçüler",
+      "field_description_en": "Dimensions",
+      "attribute_type": "char",
+      "serialized": false,
+      "widget": null,
+      "group_key": "physical",
+      "set_keys": [
+        "garden-pond"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.l_dimensions | r_n_boyutu_item_size | l_size",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "length_mm",
+      "name": "x_pond_length_mm",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Uzunluk (mm)",
+      "field_description_en": "Length (mm)",
+      "attribute_type": "float",
+      "serialized": false,
+      "widget": null,
+      "group_key": "physical",
+      "set_keys": [
+        "garden-pond"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.uzunluk_production_length",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "lip_length_mm",
+      "name": "x_pond_lip_length_mm",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Dudak Uzunluğu (mm)",
+      "field_description_en": "Lip Length (mm)",
+      "attribute_type": "float",
+      "serialized": false,
+      "widget": null,
+      "group_key": "physical",
+      "set_keys": [
+        "garden-pond"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.a_iz_uzunlu_u_lip_length",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "with_led",
+      "name": "x_pond_with_led",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "LED Durumu",
+      "field_description_en": "With LED",
+      "attribute_type": "select",
+      "serialized": false,
+      "widget": null,
+      "group_key": "general",
+      "set_keys": [
+        "garden-pond"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.ledli_with_led",
+      "options": [
+        "Ledli",
+        "Led'siz"
+      ],
+      "option_map": {
+        "+": "Ledli",
+        "x": "Led'siz"
+      }
+    },
+    {
+      "key": "cable_m",
+      "name": "x_pond_cable_m",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Kablo (m)",
+      "field_description_en": "Cable (m)",
+      "attribute_type": "float",
+      "serialized": false,
+      "widget": null,
+      "group_key": "technical",
+      "set_keys": [
+        "garden-pond"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.kablo_cable",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "voltage",
+      "name": "x_pond_voltage",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Voltaj",
+      "field_description_en": "Voltage",
+      "attribute_type": "char",
+      "serialized": false,
+      "widget": null,
+      "group_key": "electrical",
+      "set_keys": [
+        "garden-pond"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.voltaj_voltage",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "connection",
+      "name": "x_pond_connection",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Bağlantı/Adaptör",
+      "field_description_en": "Connection",
+      "attribute_type": "char",
+      "serialized": false,
+      "widget": null,
+      "group_key": "connection",
+      "set_keys": [
+        "garden-pond"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.hortum_adapt_r_dimensions | gi_ri_iki_adapt_r_inlet_outlet_adapter | uv_c_ba_lanti_connection_uv_c",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "outlet",
+      "name": "x_pond_outlet",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Çıkış (Outlet)",
+      "field_description_en": "Outlet",
+      "attribute_type": "char",
+      "serialized": false,
+      "widget": null,
+      "group_key": "connection",
+      "set_keys": [
+        "garden-pond"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.iki_outlet",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "certificate",
+      "name": "x_pond_certificate",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Sertifika",
+      "field_description_en": "Certificate",
+      "attribute_type": "char",
+      "serialized": false,
+      "widget": null,
+      "group_key": "general",
+      "set_keys": [
+        "garden-pond"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.serti_fi_ka_certificate",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "weight",
+      "name": "weight",
+      "nature": "native",
+      "native_field": "weight",
+      "field_description": "Ağırlık (kg)",
+      "field_description_en": "Weight (kg)",
+      "attribute_type": "float",
+      "serialized": false,
+      "widget": null,
+      "group_key": "physical",
+      "set_keys": [
+        "garden-pond"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.a_irlik_weight",
+      "options": [],
+      "option_map": {}
+    }
+  ],
+  "product_category": {
+    "code": "13",
+    "name": "Bahçe ve Gölet Ürünleri",
+    "name_en": "Garden and Pond Products",
+    "parent": null,
+    "default_attribute_set_key": "garden-pond"
+  },
+  "family_values": {
+    "g-venli-fi-lrasyon-reliable-filtration": {},
+    "basin-li-fi-lrasyon-pressurized-filtration": {},
+    "uv-g-vencesi-uv-assurance": {},
+    "enerji-tasarrufu-energy-saving": {},
+    "tamamen-su-ge-i-rmez-motor-sealed-waterproof": {},
+    "temi-z-si-rk-lasyon-clean-circulation": {},
+    "senkron-smart": {},
+    "trione": {},
+    "suni-ah-ap-taban-wooden-base": {},
+    "esteti-k-aki-aesthetic-flow": {}
+  },
+  "product_values": {
+    "GAR202310001": {
+      "family_key": "g-venli-fi-lrasyon-reliable-filtration",
+      "attribute_set_key": "g-venli-fi-lrasyon-reliable-filtration",
+      "values": {
+        "max_flow_lth": 12000.0,
+        "pond_fish_m3": 45.0,
+        "pond_normal_m3": 90.0,
+        "dims": "1280x540x400 mm",
+        "connection": "PUV236"
+      },
+      "native": {
+        "default_code": "GAR202310001",
+        "name": "Gölet Filtresi (Biyolojik) (GAR202310001)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 1765.0
+          }
+        ],
+        "category_code": "13"
+      }
+    },
+    "GAR202310011": {
+      "family_key": "basin-li-fi-lrasyon-pressurized-filtration",
+      "attribute_set_key": "basin-li-fi-lrasyon-pressurized-filtration",
+      "values": {
+        "max_flow_lth": 6000.0,
+        "pond_fish_m3": 3.0,
+        "pond_normal_m3": 6.0,
+        "tank_capacity_l": 16.0,
+        "uv_power_w": 11.0,
+        "dims": "310x310x405 mm"
+      },
+      "native": {
+        "default_code": "GAR202310011",
+        "name": "Basınçlı Gölet Filtresi (UV-C) (GAR202310011)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 505.0
+          }
+        ],
+        "category_code": "13"
+      }
+    },
+    "GAR202310012": {
+      "family_key": "basin-li-fi-lrasyon-pressurized-filtration",
+      "attribute_set_key": "basin-li-fi-lrasyon-pressurized-filtration",
+      "values": {
+        "max_flow_lth": 10000.0,
+        "pond_fish_m3": 6.0,
+        "pond_normal_m3": 12.0,
+        "tank_capacity_l": 25.0,
+        "uv_power_w": 11.0,
+        "dims": "380x380x520 mm"
+      },
+      "native": {
+        "default_code": "GAR202310012",
+        "name": "Basınçlı Gölet Filtresi (UV-C) (GAR202310012)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 800.0
+          }
+        ],
+        "category_code": "13"
+      }
+    },
+    "GAR202310013": {
+      "family_key": "basin-li-fi-lrasyon-pressurized-filtration",
+      "attribute_set_key": "basin-li-fi-lrasyon-pressurized-filtration",
+      "values": {
+        "max_flow_lth": 10000.0,
+        "pond_fish_m3": 15.0,
+        "pond_normal_m3": 30.0,
+        "tank_capacity_l": 38.0,
+        "uv_power_w": 18.0,
+        "dims": "380x380x730 mm"
+      },
+      "native": {
+        "default_code": "GAR202310013",
+        "name": "Basınçlı Gölet Filtresi (UV-C) (GAR202310013)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 930.0
+          }
+        ],
+        "category_code": "13"
+      }
+    },
+    "GAR202310015": {
+      "family_key": "basin-li-fi-lrasyon-pressurized-filtration",
+      "attribute_set_key": "basin-li-fi-lrasyon-pressurized-filtration",
+      "values": {
+        "max_flow_lth": 14000.0,
+        "pond_fish_m3": 30.0,
+        "pond_normal_m3": 60.0,
+        "tank_capacity_l": 75.0,
+        "uv_power_w": 55.0,
+        "dims": "450x450x725 mm"
+      },
+      "native": {
+        "default_code": "GAR202310015",
+        "name": "Basınçlı Gölet Filtresi (UV-C) (GAR202310015)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 1875.0
+          }
+        ],
+        "category_code": "13"
+      }
+    },
+    "GAR202310014": {
+      "family_key": "basin-li-fi-lrasyon-pressurized-filtration",
+      "attribute_set_key": "basin-li-fi-lrasyon-pressurized-filtration",
+      "values": {
+        "max_flow_lth": 20000.0,
+        "pond_fish_m3": 50.0,
+        "pond_normal_m3": 100.0,
+        "tank_capacity_l": 300.0,
+        "uv_power_w": 55.0,
+        "dims": "750x750x890 mm"
+      },
+      "native": {
+        "default_code": "GAR202310014",
+        "name": "Basınçlı Gölet Filtresi (UV-C) (GAR202310014)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 4750.0
+          }
+        ],
+        "category_code": "13"
+      }
+    },
+    "GAR202310002": {
+      "family_key": "uv-g-vencesi-uv-assurance",
+      "attribute_set_key": "uv-g-vencesi-uv-assurance",
+      "values": {
+        "rated_power_w": 40.0,
+        "max_flow_lth": 6000.0,
+        "capacity": "90 m³",
+        "pressure_bar": 0.3,
+        "connection": "3/4\"-1-1/2\""
+      },
+      "native": {
+        "default_code": "GAR202310002",
+        "name": "Gölet UV Dezenfektanı (GAR202310002)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 250.0
+          }
+        ],
+        "category_code": "13"
+      }
+    },
+    "GAR202310016": {
+      "family_key": "enerji-tasarrufu-energy-saving",
+      "attribute_set_key": "enerji-tasarrufu-energy-saving",
+      "values": {
+        "power_w": 40.0,
+        "max_flow_lth": 6000.0,
+        "head_max_m": 4.2,
+        "dims": "240x200x135 mm"
+      },
+      "native": {
+        "default_code": "GAR202310016",
+        "name": "Gölet Pompası (Enerji Tasarruflu) (GAR202310016)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 283.0
+          }
+        ],
+        "category_code": "13"
+      }
+    },
+    "GAR202310003": {
+      "family_key": "enerji-tasarrufu-energy-saving",
+      "attribute_set_key": "enerji-tasarrufu-energy-saving",
+      "values": {
+        "power_w": 80.0,
+        "max_flow_lth": 10000.0,
+        "head_max_m": 6.0,
+        "dims": "280x240x140 mm"
+      },
+      "native": {
+        "default_code": "GAR202310003",
+        "name": "Gölet Pompası (Enerji Tasarruflu) (GAR202310003)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 322.0
+          }
+        ],
+        "category_code": "13"
+      }
+    },
+    "GAR202310017": {
+      "family_key": "enerji-tasarrufu-energy-saving",
+      "attribute_set_key": "enerji-tasarrufu-energy-saving",
+      "values": {
+        "power_w": 100.0,
+        "max_flow_lth": 12000.0,
+        "head_max_m": 6.5,
+        "dims": "280x240x140 mm"
+      },
+      "native": {
+        "default_code": "GAR202310017",
+        "name": "Gölet Pompası (Enerji Tasarruflu) (GAR202310017)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 340.0
+          }
+        ],
+        "category_code": "13"
+      }
+    },
+    "GAR202310018": {
+      "family_key": "enerji-tasarrufu-energy-saving",
+      "attribute_set_key": "enerji-tasarrufu-energy-saving",
+      "values": {
+        "power_w": 120.0,
+        "max_flow_lth": 14000.0,
+        "head_max_m": 7.0,
+        "dims": "280x240x140 mm"
+      },
+      "native": {
+        "default_code": "GAR202310018",
+        "name": "Gölet Pompası (Enerji Tasarruflu) (GAR202310018)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 565.0
+          }
+        ],
+        "category_code": "13"
+      }
+    },
+    "GAR202310019": {
+      "family_key": "tamamen-su-ge-i-rmez-motor-sealed-waterproof",
+      "attribute_set_key": "tamamen-su-ge-i-rmez-motor-sealed-waterproof",
+      "values": {
+        "rated_power_w": 175.0,
+        "max_flow_lth": 18000.0,
+        "head_max_m": 8.5,
+        "connection": "1\"-1-1/4\"-1-1/2\"-2\"",
+        "certificate": "CE / GS"
+      },
+      "native": {
+        "default_code": "GAR202310019",
+        "name": "Gölet Pompası (Su Geçirmez Motor) (GAR202310019)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 480.0
+          }
+        ],
+        "category_code": "13"
+      }
+    },
+    "GAR202310007": {
+      "family_key": "temi-z-si-rk-lasyon-clean-circulation",
+      "attribute_set_key": "temi-z-si-rk-lasyon-clean-circulation",
+      "values": {
+        "power_w": 28.0,
+        "max_flow_lth": 1000.0,
+        "head_max_m": 1.6,
+        "capacity": "2500 L",
+        "uv_power_w": 9.0,
+        "dims": "316x251x135 mm"
+      },
+      "native": {
+        "default_code": "GAR202310007",
+        "name": "Gölet Pompa ve UV Kombinleri (GAR202310007)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 200.0
+          }
+        ],
+        "category_code": "13"
+      }
+    },
+    "GAR202310006": {
+      "family_key": "temi-z-si-rk-lasyon-clean-circulation",
+      "attribute_set_key": "temi-z-si-rk-lasyon-clean-circulation",
+      "values": {
+        "power_w": 45.0,
+        "max_flow_lth": 2000.0,
+        "head_max_m": 2.0,
+        "capacity": "4000 L",
+        "uv_power_w": 11.0,
+        "dims": "387x275x136 mm"
+      },
+      "native": {
+        "default_code": "GAR202310006",
+        "name": "Gölet Pompa ve UV Kombinleri (GAR202310006)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 226.0
+          }
+        ],
+        "category_code": "13"
+      }
+    },
+    "19810123071": {
+      "family_key": "temi-z-si-rk-lasyon-clean-circulation",
+      "attribute_set_key": "temi-z-si-rk-lasyon-clean-circulation",
+      "values": {
+        "power_w": 6.0,
+        "max_flow_lth": 350.0,
+        "head_max_m": 0.8,
+        "outlet": "13 m",
+        "weight": 11.0
+      },
+      "native": {
+        "default_code": "19810123071",
+        "name": "Gölet Pompa ve UV Kombinleri (19810123071)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 42.0
+          }
+        ],
+        "category_code": "13"
+      }
+    },
+    "19810123072": {
+      "family_key": "temi-z-si-rk-lasyon-clean-circulation",
+      "attribute_set_key": "temi-z-si-rk-lasyon-clean-circulation",
+      "values": {
+        "power_w": 12.0,
+        "max_flow_lth": 750.0,
+        "head_max_m": 1.5,
+        "outlet": "13 m",
+        "weight": 12.5
+      },
+      "native": {
+        "default_code": "19810123072",
+        "name": "Gölet Pompa ve UV Kombinleri (19810123072)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 53.0
+          }
+        ],
+        "category_code": "13"
+      }
+    },
+    "19810123090": {
+      "family_key": "temi-z-si-rk-lasyon-clean-circulation",
+      "attribute_set_key": "temi-z-si-rk-lasyon-clean-circulation",
+      "values": {
+        "power_w": 35.0,
+        "max_flow_lth": 2000.0,
+        "head_max_m": 3.0,
+        "outlet": "1 / 2\"",
+        "weight": 20.0
+      },
+      "native": {
+        "default_code": "19810123090",
+        "name": "Gölet Pompa ve UV Kombinleri (19810123090)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 82.0
+          }
+        ],
+        "category_code": "13"
+      }
+    },
+    "19810123091": {
+      "family_key": "temi-z-si-rk-lasyon-clean-circulation",
+      "attribute_set_key": "temi-z-si-rk-lasyon-clean-circulation",
+      "values": {
+        "power_w": 55.0,
+        "max_flow_lth": 3000.0,
+        "head_max_m": 3.5,
+        "outlet": "1 / 2\"",
+        "weight": 22.6
+      },
+      "native": {
+        "default_code": "19810123091",
+        "name": "Gölet Pompa ve UV Kombinleri (19810123091)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 110.0
+          }
+        ],
+        "category_code": "13"
+      }
+    },
+    "19810123075": {
+      "family_key": "temi-z-si-rk-lasyon-clean-circulation",
+      "attribute_set_key": "temi-z-si-rk-lasyon-clean-circulation",
+      "values": {
+        "power_w": 85.0,
+        "max_flow_lth": 5000.0,
+        "head_max_m": 4.5,
+        "outlet": "1\"",
+        "weight": 22.6
+      },
+      "native": {
+        "default_code": "19810123075",
+        "name": "Gölet Pompa ve UV Kombinleri (19810123075)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 250.0
+          }
+        ],
+        "category_code": "13"
+      }
+    },
+    "19810123076": {
+      "family_key": "temi-z-si-rk-lasyon-clean-circulation",
+      "attribute_set_key": "temi-z-si-rk-lasyon-clean-circulation",
+      "values": {
+        "power_w": 105.0,
+        "max_flow_lth": 6000.0,
+        "head_max_m": 5.2,
+        "outlet": "1\"",
+        "weight": 23.0
+      },
+      "native": {
+        "default_code": "19810123076",
+        "name": "Gölet Pompa ve UV Kombinleri (19810123076)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 270.0
+          }
+        ],
+        "category_code": "13"
+      }
+    },
+    "19810123080": {
+      "family_key": "senkron-smart",
+      "attribute_set_key": "senkron-smart",
+      "values": {
+        "model": "Dalgıç Pompa Submersible Pump",
+        "power_w": 550.0,
+        "max_flow_lth": 10000.0,
+        "head_max_m": 8.5,
+        "cable_m": 10.0,
+        "voltage": "220V/50Hz"
+      },
+      "native": {
+        "default_code": "19810123080",
+        "name": "Senkron Smart Gölet Pompası Dalgıç Pompa Submersible Pump",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 110.0
+          }
+        ],
+        "category_code": "13"
+      }
+    },
+    "11516262039": {
+      "family_key": "senkron-smart",
+      "attribute_set_key": "senkron-smart",
+      "values": {
+        "model": "Havuz Örtüsü Dalgıç Pompası Submersible Pump for Pool Cover",
+        "power_w": 550.0,
+        "max_flow_lth": 10000.0,
+        "head_max_m": 8.5,
+        "cable_m": 10.0,
+        "voltage": "220V/50Hz"
+      },
+      "native": {
+        "default_code": "11516262039",
+        "name": "Senkron Smart Gölet Pompası Havuz Örtüsü Dalgıç Pompası Submersible Pump for Pool Cover",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 150.0
+          }
+        ],
+        "category_code": "13"
+      }
+    },
+    "19810123081": {
+      "family_key": "trione",
+      "attribute_set_key": "trione",
+      "values": {
+        "power_w": 550.0,
+        "max_flow_lth": 10500.0,
+        "head_max_m": 8.0,
+        "cable_m": 10.0,
+        "voltage": "220V/50Hz"
+      },
+      "native": {
+        "default_code": "19810123081",
+        "name": "Trione Gölet Pompası (19810123081)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 90.0
+          }
+        ],
+        "category_code": "13"
+      }
+    },
+    "GAR202310024": {
+      "family_key": "suni-ah-ap-taban-wooden-base",
+      "attribute_set_key": "suni-ah-ap-taban-wooden-base",
+      "values": {
+        "dims": "64x100 cm"
+      },
+      "native": {
+        "default_code": "GAR202310024",
+        "name": "Bahçe ve Güneş Duşları (GAR202310024)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 225.0
+          }
+        ],
+        "category_code": "13"
+      }
+    },
+    "GAR2023100082": {
+      "family_key": "suni-ah-ap-taban-wooden-base",
+      "attribute_set_key": "suni-ah-ap-taban-wooden-base",
+      "values": {
+        "tank_capacity_l": 20.0,
+        "tank_material": "PVC",
+        "pressure_bar": 4.0,
+        "dims": "2160xdiax110mm"
+      },
+      "native": {
+        "default_code": "GAR2023100082",
+        "name": "Bahçe ve Güneş Duşları (GAR2023100082)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 300.0
+          }
+        ],
+        "category_code": "13"
+      }
+    },
+    "GAR2023100081": {
+      "family_key": "suni-ah-ap-taban-wooden-base",
+      "attribute_set_key": "suni-ah-ap-taban-wooden-base",
+      "values": {
+        "tank_capacity_l": 35.0,
+        "tank_material": "PVC",
+        "pressure_bar": 4.0,
+        "dims": "2170x220x180mm"
+      },
+      "native": {
+        "default_code": "GAR2023100081",
+        "name": "Bahçe ve Güneş Duşları (GAR2023100081)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 350.0
+          }
+        ],
+        "category_code": "13"
+      }
+    },
+    "GAR2023100083 NEW": {
+      "family_key": "suni-ah-ap-taban-wooden-base",
+      "attribute_set_key": "suni-ah-ap-taban-wooden-base",
+      "values": {
+        "tank_capacity_l": 40.0,
+        "tank_material": "PVC",
+        "pressure_bar": 4.0,
+        "dims": "2300x215x160mm"
+      },
+      "native": {
+        "default_code": "GAR2023100083 NEW",
+        "name": "Bahçe ve Güneş Duşları (GAR2023100083 NEW)",
+        "prices": [],
+        "category_code": "13"
+      }
+    },
+    "GAR202310020": {
+      "family_key": "esteti-k-aki-aesthetic-flow",
+      "attribute_set_key": "esteti-k-aki-aesthetic-flow",
+      "values": {
+        "max_flow_lth": 4000.0,
+        "length_mm": 300.0,
+        "lip_length_mm": 30.0,
+        "with_led": "Ledli"
+      },
+      "native": {
+        "default_code": "GAR202310020",
+        "name": "Su Perdesi Kanalları (GAR202310020)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 245.0
+          }
+        ],
+        "category_code": "13"
+      }
+    },
+    "GAR202310021": {
+      "family_key": "esteti-k-aki-aesthetic-flow",
+      "attribute_set_key": "esteti-k-aki-aesthetic-flow",
+      "values": {
+        "max_flow_lth": 6000.0,
+        "length_mm": 600.0,
+        "lip_length_mm": 30.0,
+        "with_led": "Ledli"
+      },
+      "native": {
+        "default_code": "GAR202310021",
+        "name": "Su Perdesi Kanalları (GAR202310021)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 320.0
+          }
+        ],
+        "category_code": "13"
+      }
+    },
+    "GAR202310022": {
+      "family_key": "esteti-k-aki-aesthetic-flow",
+      "attribute_set_key": "esteti-k-aki-aesthetic-flow",
+      "values": {
+        "max_flow_lth": 10000.0,
+        "length_mm": 900.0,
+        "lip_length_mm": 30.0,
+        "with_led": "Led'siz"
+      },
+      "native": {
+        "default_code": "GAR202310022",
+        "name": "Su Perdesi Kanalları (GAR202310022)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 495.0
+          }
+        ],
+        "category_code": "13"
+      }
+    },
+    "GAR202310023": {
+      "family_key": "esteti-k-aki-aesthetic-flow",
+      "attribute_set_key": "esteti-k-aki-aesthetic-flow",
+      "values": {
+        "max_flow_lth": 12000.0,
+        "length_mm": 1200.0,
+        "lip_length_mm": 30.0,
+        "with_led": "Led'siz"
+      },
+      "native": {
+        "default_code": "GAR202310023",
+        "name": "Su Perdesi Kanalları (GAR202310023)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 530.0
+          }
+        ],
+        "category_code": "13"
+      }
+    }
+  }
+}

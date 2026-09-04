@@ -1,0 +1,1221 @@
+{
+  "meta": {
+    "generator": "pim/generate_pim_json.py",
+    "generated_at": "2026-09-04",
+    "source_files": [
+      "10_Jakuzi_ve_Spa_Urunleri__Jacuzzi_and_Spa_Products.json",
+      "10_Jakuzi_ve_Spa_Urunleri__Jacuzzi_and_Spa_Products_attributes.json"
+    ],
+    "category_no": "10",
+    "category_tr": "Jakuzi ve Spa Ürünleri",
+    "category_en": "Jacuzzi and Spa Products",
+    "odoo_model": "product.template",
+    "pim_modules": [
+      "attribute_set",
+      "product_attribute_set",
+      "pim"
+    ],
+    "technical_name_prefix": "spa",
+    "family_count": 18,
+    "variant_count": 40,
+    "import_order": [
+      "attribute_groups",
+      "attribute_sets (ustten alta, parent once)",
+      "attributes (custom -> ir.model.fields; native -> field_id)",
+      "attribute.option kayitlari (select/multiselect icin)",
+      "product_category (varsayilan set baglanti)",
+      "product_values (product.template + x_ alan degerleri)"
+    ],
+    "design_notes": [
+      "Set hiyerarşisi attribute.set.parent_id ile kurulur; alt setler üst setin niteliklerini kalıtır (complete_attribute_ids).",
+      "Kategori genelinde ortak nitelikler kök sette; yalnızca alt gruplarda görülen nitelikler ilgili ara/aile setine bağlanır (ör. kum kapasitesi yalnızca Kum Filtreleri setinde).",
+      "Bir nitelik birden fazla sete bağlanabilir (attribute_set_ids m2m): grain_size hem 25 Mikron hem Filtre Medyaları setinde.",
+      "serialized=False seçildi; gerçek kolon arama/filtreleme/gruplama avantajı sağlar. Yüzlerce niteliğe çıkılırsa serialized=True önerilir (x_custom_json_attrs JSON blob).",
+      "Ağırlık doğal (native) nitelik olarak product.template.weight alanına bağlandı; ambalaj ağırlığı (25 kg çuvallar) da bu alana yazılır.",
+      "select/multiselect nitelikler attribute.option kayıtlarıyla normalize edildi; serbest metin yerine seçim listesi kullanılarak veri tutarlılığı sağlanır.",
+      "Urun adi (name) aile başlığı + model; model yoksa aile başlığı + koddan üretilir. default_code her zaman koddur."
+    ],
+    "data_quality_notes": [
+      "Ikon değerleri normalize edildi (yildiz/tire temizligi, 'RESIDENTAL' -> 'RESIDENTIAL', '- POOL PLUMBING LINES' -> 'POOL PLUMBING LINES').",
+      "6 yollu vanalarda büyük 'Ø' disli, küçük 'ø' yapistirma baglantiyi belirtir; secenek etiketleri buna gore aciklastirildi.",
+      "ap_diameter alani iki anlamda kullaniliyor: sayisal degerler filtre capi (diameter_mm), aralik degerler ('0,5-1,2 mm') tane boyutu (grain_size) olarak ayristirildi.",
+      "'ambalaj_packing' ('25 kg') degeri urunun gercek agirligi oldugu icin native weight alanina yazildi.",
+      "Rotex ailesinde family spec 'max_pressure_bar=1.5' ile variant tablosundaki 'MAX. CALISMA BASINCI 2,5 bar' celisiyor; her ikisi ayri nitelikte (kok 'Maks. Basinc' ve kum filtre 'Maks. Calisma Basinci') tasindi, gozden gecirilmeli.",
+      "Lamex tablolarindaki 1.050+ mm capli satirlar kum filtreler icin dogrudur; PDF'te pompa bolumune tasmasi kaynak cikarimidir (02 kategorisinde zaten yer alirlar).",
+      "Rotex aile tablosunda Woundex ile ayni kodlu satirlar var (12015123100-03); urun atamalari Woundex tarafindadir ve cift uretim engellendi.",
+      "bullets_tr listesi bazi ailelerde TR+EN satirlari icerir; highlights alani kaynagini birebir tasir.",
+      "Zeolit ailesi kaynak PDF'te skimmer, havuz ortusu, merdiven gibi diger urunleri de kapsar; set adi 'Zeolit ve Diger Urunler' olarak duzenlendi."
+    ]
+  },
+  "attribute_groups": [
+    {
+      "key": "general",
+      "name": "Genel",
+      "name_en": "General",
+      "sequence": 10
+    },
+    {
+      "key": "technical",
+      "name": "Teknik Özellikler",
+      "name_en": "Technical Specs",
+      "sequence": 20
+    },
+    {
+      "key": "electrical",
+      "name": "Elektrik",
+      "name_en": "Electrical",
+      "sequence": 30
+    },
+    {
+      "key": "physical",
+      "name": "Fiziksel Özellikler",
+      "name_en": "Physical Specs",
+      "sequence": 40
+    },
+    {
+      "key": "connection",
+      "name": "Bağlantı ve Montaj",
+      "name_en": "Connection & Fitting",
+      "sequence": 50
+    }
+  ],
+  "attribute_sets": [
+    {
+      "key": "jacuzzi-spa",
+      "name": "Jakuzi ve Spa Ürünleri",
+      "name_en": "Jacuzzi and Spa Products",
+      "parent_key": null,
+      "sequence": 10,
+      "is_root": true
+    },
+    {
+      "key": "jetler",
+      "name": "Jakuzi Jetleri",
+      "name_en": "Spa Jets",
+      "parent_key": "jacuzzi-spa",
+      "sequence": 20
+    },
+    {
+      "key": "butonlar-nozullar",
+      "name": "Butonlar ve Nozullar",
+      "name_en": "Buttons & Nozzles",
+      "parent_key": "jacuzzi-spa",
+      "sequence": 30
+    },
+    {
+      "key": "su-hatti",
+      "name": "Emiş, Kollektör ve Hortumlar",
+      "name_en": "Drains, Collectors & Hoses",
+      "parent_key": "jacuzzi-spa",
+      "sequence": 40
+    },
+    {
+      "key": "blowerlar",
+      "name": "Blowerlar ve Yedekleri",
+      "name_en": "Blowers & Parts",
+      "parent_key": "jacuzzi-spa",
+      "sequence": 50
+    },
+    {
+      "key": "32-mm-hava-ve-32-su-k-l-32-mm-air-and-32-water-outlet",
+      "name": "Ø32 Hava ve Ø32 Su Çıkışlı Jet",
+      "name_en": "Ø32 Air and Ø32 Water Jet",
+      "parent_key": "jetler",
+      "sequence": 10,
+      "family_product_id": "32-mm-hava-ve-32-su-k-l-32-mm-air-and-32-water-outlet",
+      "family_variant_count": 1
+    },
+    {
+      "key": "damla-model-jakuzi-seti-face-eyeball-spa-jet",
+      "name": "Damla Model Jakuzi Seti (Face Eyeball)",
+      "name_en": "Face Eyeball Spa Jet Set",
+      "parent_key": "jetler",
+      "sequence": 20,
+      "family_product_id": "damla-model-jakuzi-seti-face-eyeball-spa-jet",
+      "family_variant_count": 1
+    },
+    {
+      "key": "ok-du-seti-barb-jet",
+      "name": "Şok Duş Seti (Barb Jet)",
+      "name_en": "Shock Shower Set (Barb Jet)",
+      "parent_key": "jetler",
+      "sequence": 30,
+      "family_product_id": "ok-du-seti-barb-jet",
+      "family_variant_count": 1
+    },
+    {
+      "key": "d-ner-tip-11-jet-contas-yla-11-face-swirl-jet-with-gasket",
+      "name": "Döner Tip Ø11 ½\" Jet (Contalı)",
+      "name_en": "Rotary Ø11 ½\" Jet with Seal",
+      "parent_key": "jetler",
+      "sequence": 40,
+      "family_product_id": "d-ner-tip-11-jet-contas-yla-11-face-swirl-jet-with-gasket",
+      "family_variant_count": 1
+    },
+    {
+      "key": "32-mm-hava-ve-50-su-k-l-32-mm-air-and-50-water-outlet",
+      "name": "Ø32 Hava ve Ø50 Su Çıkışlı Jet",
+      "name_en": "Ø32 Air and Ø50 Water Jet",
+      "parent_key": "jetler",
+      "sequence": 50,
+      "family_product_id": "32-mm-hava-ve-50-su-k-l-32-mm-air-and-50-water-outlet",
+      "family_variant_count": 1
+    },
+    {
+      "key": "d-z-g-r-n-ml-standart-jet-smooth-face-swirl-jet",
+      "name": "Düz Görünümlü (Standart) Jet",
+      "name_en": "Smooth Face (Swirl) Jet",
+      "parent_key": "jetler",
+      "sequence": 60,
+      "family_product_id": "d-z-g-r-n-ml-standart-jet-smooth-face-swirl-jet",
+      "family_variant_count": 1
+    },
+    {
+      "key": "d-ner-tip-jet-rotary-type-jet",
+      "name": "Döner Tip Jet",
+      "name_en": "Rotary Type Jet",
+      "parent_key": "jetler",
+      "sequence": 70,
+      "family_product_id": "d-ner-tip-jet-rotary-type-jet",
+      "family_variant_count": 1
+    },
+    {
+      "key": "damla-model-d-ner-jet-drop-type-adjustable-jet",
+      "name": "Damla Model Döner Jet",
+      "name_en": "Drop Type Adjustable Jet",
+      "parent_key": "jetler",
+      "sequence": 80,
+      "family_product_id": "damla-model-d-ner-jet-drop-type-adjustable-jet",
+      "family_variant_count": 1
+    },
+    {
+      "key": "pnomatik-buton-pneumatic-button",
+      "name": "Pnömatik Buton",
+      "name_en": "Pneumatic Button",
+      "parent_key": "butonlar-nozullar",
+      "sequence": 90,
+      "family_product_id": "pnomatik-buton-pneumatic-button",
+      "family_variant_count": 2
+    },
+    {
+      "key": "hava-ayar-butonu-air-adjustment-button",
+      "name": "Hava Ayar Butonu",
+      "name_en": "Air Adjustment Button",
+      "parent_key": "butonlar-nozullar",
+      "sequence": 100,
+      "family_product_id": "hava-ayar-butonu-air-adjustment-button",
+      "family_variant_count": 2
+    },
+    {
+      "key": "9-delikli-blower-nozulu-9-hole-nozzle",
+      "name": "9 Delikli Blower Nozulu",
+      "name_en": "9 Hole Nozzle",
+      "parent_key": "butonlar-nozullar",
+      "sequence": 110,
+      "family_product_id": "9-delikli-blower-nozulu-9-hole-nozzle",
+      "family_variant_count": 1
+    },
+    {
+      "key": "blower-nozulu-air-blower-nozzle",
+      "name": "Blower Nozulu",
+      "name_en": "Air Blower Nozzle",
+      "parent_key": "butonlar-nozullar",
+      "sequence": 120,
+      "family_product_id": "blower-nozulu-air-blower-nozzle",
+      "family_variant_count": 1
+    },
+    {
+      "key": "jakuzi-emi-s-zge-leri-50-mm-jacuzzi-drains-50-mm",
+      "name": "Jakuzi Emiş Süzgeçleri 50 mm",
+      "name_en": "Jacuzzi Drains 50 mm",
+      "parent_key": "su-hatti",
+      "sequence": 130,
+      "family_product_id": "jakuzi-emi-s-zge-leri-50-mm-jacuzzi-drains-50-mm",
+      "family_variant_count": 2
+    },
+    {
+      "key": "jakuzi-kollekt-rleri-jacuzzi-collectors",
+      "name": "Jakuzi Kollektörleri",
+      "name_en": "Jacuzzi Collectors",
+      "parent_key": "su-hatti",
+      "sequence": 140,
+      "family_product_id": "jakuzi-kollekt-rleri-jacuzzi-collectors",
+      "family_variant_count": 5
+    },
+    {
+      "key": "jakuzi-hortumlar-jacuzzi-hoses",
+      "name": "Jakuzi Hortumları",
+      "name_en": "Jacuzzi Hoses",
+      "parent_key": "su-hatti",
+      "sequence": 150,
+      "family_product_id": "jakuzi-hortumlar-jacuzzi-hoses",
+      "family_variant_count": 5
+    },
+    {
+      "key": "jakuzi-hava-blower-jacuzzi-air-blower",
+      "name": "Jakuzi Hava Blower'ı",
+      "name_en": "Jacuzzi Air Blower",
+      "parent_key": "blowerlar",
+      "sequence": 160,
+      "family_product_id": "jakuzi-hava-blower-jacuzzi-air-blower",
+      "family_variant_count": 3
+    },
+    {
+      "key": "blower-wf-model",
+      "name": "Blower WF Model",
+      "name_en": "Blower WF Model",
+      "parent_key": "blowerlar",
+      "sequence": 170,
+      "family_product_id": "blower-wf-model",
+      "family_variant_count": 8
+    },
+    {
+      "key": "blower-yedekleri-blower-parts",
+      "name": "Blower Yedekleri",
+      "name_en": "Blower Parts",
+      "parent_key": "blowerlar",
+      "sequence": 180,
+      "family_product_id": "blower-yedekleri-blower-parts",
+      "family_variant_count": 3
+    }
+  ],
+  "attributes": [
+    {
+      "key": "model",
+      "name": "x_spa_model",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Model",
+      "field_description_en": "Model",
+      "attribute_type": "char",
+      "serialized": false,
+      "widget": null,
+      "group_key": "general",
+      "set_keys": [
+        "jacuzzi-spa"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.model",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "product_label",
+      "name": "x_spa_product_label",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Ürün Adı",
+      "field_description_en": "Product Label",
+      "attribute_type": "char",
+      "serialized": false,
+      "widget": null,
+      "group_key": "general",
+      "set_keys": [
+        "jacuzzi-spa"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.tanim_description | r_n_tanimi_description",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "phase",
+      "name": "x_spa_phase",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Faz",
+      "field_description_en": "Phase",
+      "attribute_type": "select",
+      "serialized": false,
+      "widget": null,
+      "group_key": "technical",
+      "set_keys": [
+        "blowerlar"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.faz_phase",
+      "options": [
+        "Monofaz (II)",
+        "Trifaz (III)"
+      ],
+      "option_map": {
+        "II": "Monofaz (II)",
+        "III": "Trifaz (III)"
+      }
+    },
+    {
+      "key": "power_w",
+      "name": "x_spa_power_w",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Güç (W)",
+      "field_description_en": "Power (W)",
+      "attribute_type": "float",
+      "serialized": false,
+      "widget": null,
+      "group_key": "electrical",
+      "set_keys": [
+        "jacuzzi-spa"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.watt",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "voltage_v",
+      "name": "x_spa_voltage_v",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Voltaj (V)",
+      "field_description_en": "Voltage (V)",
+      "attribute_type": "float",
+      "serialized": false,
+      "widget": null,
+      "group_key": "electrical",
+      "set_keys": [
+        "jacuzzi-spa"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.watt",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "noise_db",
+      "name": "x_spa_noise_db",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Ses Seviyesi (dB)",
+      "field_description_en": "Noise Level (dB)",
+      "attribute_type": "float",
+      "serialized": false,
+      "widget": null,
+      "group_key": "technical",
+      "set_keys": [
+        "blowerlar"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.desi_bel_decibel",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "connection",
+      "name": "x_spa_connection",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Bağlantı",
+      "field_description_en": "Connection",
+      "attribute_type": "char",
+      "serialized": false,
+      "widget": null,
+      "group_key": "connection",
+      "set_keys": [
+        "jacuzzi-spa"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.ba_lanti_connection",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "diameter_mm",
+      "name": "x_spa_diameter_mm",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Çap (mm)",
+      "field_description_en": "Diameter (mm)",
+      "attribute_type": "float",
+      "serialized": false,
+      "widget": null,
+      "group_key": "physical",
+      "set_keys": [
+        "jacuzzi-spa"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.ap_dia",
+      "options": [],
+      "option_map": {}
+    }
+  ],
+  "product_category": {
+    "code": "10",
+    "name": "Jakuzi ve Spa Ürünleri",
+    "name_en": "Jacuzzi and Spa Products",
+    "parent": null,
+    "default_attribute_set_key": "jacuzzi-spa"
+  },
+  "family_values": {
+    "32-mm-hava-ve-32-su-k-l-32-mm-air-and-32-water-outlet": {},
+    "damla-model-jakuzi-seti-face-eyeball-spa-jet": {},
+    "ok-du-seti-barb-jet": {},
+    "d-ner-tip-11-jet-contas-yla-11-face-swirl-jet-with-gasket": {},
+    "32-mm-hava-ve-50-su-k-l-32-mm-air-and-50-water-outlet": {},
+    "d-z-g-r-n-ml-standart-jet-smooth-face-swirl-jet": {},
+    "d-ner-tip-jet-rotary-type-jet": {},
+    "damla-model-d-ner-jet-drop-type-adjustable-jet": {},
+    "pnomatik-buton-pneumatic-button": {},
+    "hava-ayar-butonu-air-adjustment-button": {},
+    "9-delikli-blower-nozulu-9-hole-nozzle": {},
+    "blower-nozulu-air-blower-nozzle": {},
+    "jakuzi-emi-s-zge-leri-50-mm-jacuzzi-drains-50-mm": {},
+    "jakuzi-kollekt-rleri-jacuzzi-collectors": {},
+    "jakuzi-hortumlar-jacuzzi-hoses": {},
+    "jakuzi-hava-blower-jacuzzi-air-blower": {},
+    "blower-wf-model": {},
+    "blower-yedekleri-blower-parts": {}
+  },
+  "product_values": {
+    "43015123001": {
+      "family_key": "32-mm-hava-ve-32-su-k-l-32-mm-air-and-32-water-outlet",
+      "attribute_set_key": "32-mm-hava-ve-32-su-k-l-32-mm-air-and-32-water-outlet",
+      "values": {
+        "model": "WF 1138"
+      },
+      "native": {
+        "default_code": "43015123001",
+        "name": "Ø32 Hava ve Ø32 Su Çıkışlı Jet WF 1138",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 8.8
+          }
+        ],
+        "category_code": "10"
+      }
+    },
+    "43015123002": {
+      "family_key": "damla-model-jakuzi-seti-face-eyeball-spa-jet",
+      "attribute_set_key": "damla-model-jakuzi-seti-face-eyeball-spa-jet",
+      "values": {
+        "model": "WF 1113B"
+      },
+      "native": {
+        "default_code": "43015123002",
+        "name": "Damla Model Jakuzi Seti (Face Eyeball) WF 1113B",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 7.7
+          }
+        ],
+        "category_code": "10"
+      }
+    },
+    "43015123004": {
+      "family_key": "ok-du-seti-barb-jet",
+      "attribute_set_key": "ok-du-seti-barb-jet",
+      "values": {
+        "model": "WF 0054"
+      },
+      "native": {
+        "default_code": "43015123004",
+        "name": "Şok Duş Seti (Barb Jet) WF 0054",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 9.9
+          }
+        ],
+        "category_code": "10"
+      }
+    },
+    "43015123005": {
+      "family_key": "d-ner-tip-11-jet-contas-yla-11-face-swirl-jet-with-gasket",
+      "attribute_set_key": "d-ner-tip-11-jet-contas-yla-11-face-swirl-jet-with-gasket",
+      "values": {
+        "model": "WF 2206"
+      },
+      "native": {
+        "default_code": "43015123005",
+        "name": "Döner Tip Ø11 ½\" Jet (Contalı) WF 2206",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 8.8
+          }
+        ],
+        "category_code": "10"
+      }
+    },
+    "43015123006": {
+      "family_key": "32-mm-hava-ve-50-su-k-l-32-mm-air-and-50-water-outlet",
+      "attribute_set_key": "32-mm-hava-ve-50-su-k-l-32-mm-air-and-50-water-outlet",
+      "values": {
+        "model": "WF 0031"
+      },
+      "native": {
+        "default_code": "43015123006",
+        "name": "Ø32 Hava ve Ø50 Su Çıkışlı Jet WF 0031",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 15.0
+          }
+        ],
+        "category_code": "10"
+      }
+    },
+    "43015123007": {
+      "family_key": "d-z-g-r-n-ml-standart-jet-smooth-face-swirl-jet",
+      "attribute_set_key": "d-z-g-r-n-ml-standart-jet-smooth-face-swirl-jet",
+      "values": {
+        "model": "WF 0044"
+      },
+      "native": {
+        "default_code": "43015123007",
+        "name": "Düz Görünümlü (Standart) Jet WF 0044",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 11.0
+          }
+        ],
+        "category_code": "10"
+      }
+    },
+    "43015123008": {
+      "family_key": "d-ner-tip-jet-rotary-type-jet",
+      "attribute_set_key": "d-ner-tip-jet-rotary-type-jet",
+      "values": {
+        "model": "WF 0048"
+      },
+      "native": {
+        "default_code": "43015123008",
+        "name": "Döner Tip Jet WF 0048",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 11.0
+          }
+        ],
+        "category_code": "10"
+      }
+    },
+    "43015123009": {
+      "family_key": "damla-model-d-ner-jet-drop-type-adjustable-jet",
+      "attribute_set_key": "damla-model-d-ner-jet-drop-type-adjustable-jet",
+      "values": {
+        "model": "WF 0018"
+      },
+      "native": {
+        "default_code": "43015123009",
+        "name": "Damla Model Döner Jet WF 0018",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 18.5
+          }
+        ],
+        "category_code": "10"
+      }
+    },
+    "43016123003": {
+      "family_key": "pnomatik-buton-pneumatic-button",
+      "attribute_set_key": "pnomatik-buton-pneumatic-button",
+      "values": {
+        "model": "WF 1844 B-ABS"
+      },
+      "native": {
+        "default_code": "43016123003",
+        "name": "Pnömatik Buton WF 1844 B-ABS",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 3.0
+          }
+        ],
+        "category_code": "10"
+      }
+    },
+    "43016123004": {
+      "family_key": "pnomatik-buton-pneumatic-button",
+      "attribute_set_key": "pnomatik-buton-pneumatic-button",
+      "values": {
+        "model": "WF-1844K-SS 304"
+      },
+      "native": {
+        "default_code": "43016123004",
+        "name": "Pnömatik Buton WF-1844K-SS 304",
+        "prices": [],
+        "category_code": "10"
+      }
+    },
+    "43016123005": {
+      "family_key": "hava-ayar-butonu-air-adjustment-button",
+      "attribute_set_key": "hava-ayar-butonu-air-adjustment-button",
+      "values": {
+        "model": "WF 1834 B"
+      },
+      "native": {
+        "default_code": "43016123005",
+        "name": "Hava Ayar Butonu WF 1834 B",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 5.0
+          }
+        ],
+        "category_code": "10"
+      }
+    },
+    "43016123001": {
+      "family_key": "hava-ayar-butonu-air-adjustment-button",
+      "attribute_set_key": "hava-ayar-butonu-air-adjustment-button",
+      "values": {
+        "model": "WF 1835"
+      },
+      "native": {
+        "default_code": "43016123001",
+        "name": "Hava Ayar Butonu WF 1835",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 6.0
+          }
+        ],
+        "category_code": "10"
+      }
+    },
+    "43016123002": {
+      "family_key": "9-delikli-blower-nozulu-9-hole-nozzle",
+      "attribute_set_key": "9-delikli-blower-nozulu-9-hole-nozzle",
+      "values": {
+        "model": "WF 2211 B"
+      },
+      "native": {
+        "default_code": "43016123002",
+        "name": "9 Delikli Blower Nozulu WF 2211 B",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 4.0
+          }
+        ],
+        "category_code": "10"
+      }
+    },
+    "43016123007": {
+      "family_key": "blower-nozulu-air-blower-nozzle",
+      "attribute_set_key": "blower-nozulu-air-blower-nozzle",
+      "values": {
+        "model": "WF 2209"
+      },
+      "native": {
+        "default_code": "43016123007",
+        "name": "Blower Nozulu WF 2209",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 2.0
+          }
+        ],
+        "category_code": "10"
+      }
+    },
+    "43017123001": {
+      "family_key": "jakuzi-emi-s-zge-leri-50-mm-jacuzzi-drains-50-mm",
+      "attribute_set_key": "jakuzi-emi-s-zge-leri-50-mm-jacuzzi-drains-50-mm",
+      "values": {
+        "model": "WF 3811",
+        "product_label": "Delikli Perforated"
+      },
+      "native": {
+        "default_code": "43017123001",
+        "name": "Jakuzi Emiş Süzgeçleri 50 mm WF 3811",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 22.0
+          }
+        ],
+        "category_code": "10"
+      }
+    },
+    "43017123002": {
+      "family_key": "jakuzi-emi-s-zge-leri-50-mm-jacuzzi-drains-50-mm",
+      "attribute_set_key": "jakuzi-emi-s-zge-leri-50-mm-jacuzzi-drains-50-mm",
+      "values": {
+        "model": "WF 3822 B",
+        "product_label": "Yapıştırırmalı Cemented"
+      },
+      "native": {
+        "default_code": "43017123002",
+        "name": "Jakuzi Emiş Süzgeçleri 50 mm WF 3822 B",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 23.1
+          }
+        ],
+        "category_code": "10"
+      }
+    },
+    "43018123001": {
+      "family_key": "jakuzi-kollekt-rleri-jacuzzi-collectors",
+      "attribute_set_key": "jakuzi-kollekt-rleri-jacuzzi-collectors",
+      "values": {
+        "model": "WF 2201 B"
+      },
+      "native": {
+        "default_code": "43018123001",
+        "name": "Jakuzi Kollektörleri WF 2201 B",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 4.4
+          }
+        ],
+        "category_code": "10"
+      }
+    },
+    "43018123002": {
+      "family_key": "jakuzi-kollekt-rleri-jacuzzi-collectors",
+      "attribute_set_key": "jakuzi-kollekt-rleri-jacuzzi-collectors",
+      "values": {
+        "model": "WF 1824"
+      },
+      "native": {
+        "default_code": "43018123002",
+        "name": "Jakuzi Kollektörleri WF 1824",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 16.5
+          }
+        ],
+        "category_code": "10"
+      }
+    },
+    "43018123003": {
+      "family_key": "jakuzi-kollekt-rleri-jacuzzi-collectors",
+      "attribute_set_key": "jakuzi-kollekt-rleri-jacuzzi-collectors",
+      "values": {
+        "model": "WF 1825"
+      },
+      "native": {
+        "default_code": "43018123003",
+        "name": "Jakuzi Kollektörleri WF 1825",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 18.7
+          }
+        ],
+        "category_code": "10"
+      }
+    },
+    "43018123004": {
+      "family_key": "jakuzi-kollekt-rleri-jacuzzi-collectors",
+      "attribute_set_key": "jakuzi-kollekt-rleri-jacuzzi-collectors",
+      "values": {
+        "model": "WF 1865"
+      },
+      "native": {
+        "default_code": "43018123004",
+        "name": "Jakuzi Kollektörleri WF 1865",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 19.8
+          }
+        ],
+        "category_code": "10"
+      }
+    },
+    "43018123005": {
+      "family_key": "jakuzi-kollekt-rleri-jacuzzi-collectors",
+      "attribute_set_key": "jakuzi-kollekt-rleri-jacuzzi-collectors",
+      "values": {
+        "model": "WF 1864"
+      },
+      "native": {
+        "default_code": "43018123005",
+        "name": "Jakuzi Kollektörleri WF 1864",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 22.0
+          }
+        ],
+        "category_code": "10"
+      }
+    },
+    "43019002001": {
+      "family_key": "jakuzi-hortumlar-jacuzzi-hoses",
+      "attribute_set_key": "jakuzi-hortumlar-jacuzzi-hoses",
+      "values": {
+        "diameter_mm": 32.0
+      },
+      "native": {
+        "default_code": "43019002001",
+        "name": "Jakuzi Hortumları (43019002001)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 7.5
+          }
+        ],
+        "category_code": "10"
+      }
+    },
+    "43019002002": {
+      "family_key": "jakuzi-hortumlar-jacuzzi-hoses",
+      "attribute_set_key": "jakuzi-hortumlar-jacuzzi-hoses",
+      "values": {
+        "diameter_mm": 50.0
+      },
+      "native": {
+        "default_code": "43019002002",
+        "name": "Jakuzi Hortumları (43019002002)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 11.5
+          }
+        ],
+        "category_code": "10"
+      }
+    },
+    "43019002003": {
+      "family_key": "jakuzi-hortumlar-jacuzzi-hoses",
+      "attribute_set_key": "jakuzi-hortumlar-jacuzzi-hoses",
+      "values": {
+        "diameter_mm": 63.0
+      },
+      "native": {
+        "default_code": "43019002003",
+        "name": "Jakuzi Hortumları (43019002003)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 12.5
+          }
+        ],
+        "category_code": "10"
+      }
+    },
+    "43019002005": {
+      "family_key": "jakuzi-hortumlar-jacuzzi-hoses",
+      "attribute_set_key": "jakuzi-hortumlar-jacuzzi-hoses",
+      "values": {
+        "diameter_mm": 75.0
+      },
+      "native": {
+        "default_code": "43019002005",
+        "name": "Jakuzi Hortumları (43019002005)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 22.0
+          }
+        ],
+        "category_code": "10"
+      }
+    },
+    "43019002004": {
+      "family_key": "jakuzi-hortumlar-jacuzzi-hoses",
+      "attribute_set_key": "jakuzi-hortumlar-jacuzzi-hoses",
+      "values": {
+        "diameter_mm": 90.0
+      },
+      "native": {
+        "default_code": "43019002004",
+        "name": "Jakuzi Hortumları (43019002004)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 23.0
+          }
+        ],
+        "category_code": "10"
+      }
+    },
+    "43021123001": {
+      "family_key": "jakuzi-hava-blower-jacuzzi-air-blower",
+      "attribute_set_key": "jakuzi-hava-blower-jacuzzi-air-blower",
+      "values": {
+        "model": "EB 350",
+        "power_w": 350.0,
+        "voltage_v": 220.0
+      },
+      "native": {
+        "default_code": "43021123001",
+        "name": "Jakuzi Hava Blower'ı EB 350",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 85.0
+          }
+        ],
+        "category_code": "10"
+      }
+    },
+    "43021123003": {
+      "family_key": "jakuzi-hava-blower-jacuzzi-air-blower",
+      "attribute_set_key": "jakuzi-hava-blower-jacuzzi-air-blower",
+      "values": {
+        "model": "EB 450",
+        "power_w": 450.0,
+        "voltage_v": 220.0
+      },
+      "native": {
+        "default_code": "43021123003",
+        "name": "Jakuzi Hava Blower'ı EB 450",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 120.0
+          }
+        ],
+        "category_code": "10"
+      }
+    },
+    "43021123002": {
+      "family_key": "jakuzi-hava-blower-jacuzzi-air-blower",
+      "attribute_set_key": "jakuzi-hava-blower-jacuzzi-air-blower",
+      "values": {
+        "model": "EB 550",
+        "power_w": 550.0,
+        "voltage_v": 220.0
+      },
+      "native": {
+        "default_code": "43021123002",
+        "name": "Jakuzi Hava Blower'ı EB 550",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 125.0
+          }
+        ],
+        "category_code": "10"
+      }
+    },
+    "16017124006": {
+      "family_key": "blower-wf-model",
+      "attribute_set_key": "blower-wf-model",
+      "values": {
+        "model": "1,1 kW MONO WF",
+        "phase": "Monofaz (II)",
+        "noise_db": 64.0,
+        "connection": "2\""
+      },
+      "native": {
+        "default_code": "16017124006",
+        "name": "Blower WF Model 1,1 kW MONO WF",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 380.0
+          }
+        ],
+        "category_code": "10"
+      }
+    },
+    "16017124007": {
+      "family_key": "blower-wf-model",
+      "attribute_set_key": "blower-wf-model",
+      "values": {
+        "model": "1,3 kW MONO WF",
+        "phase": "Monofaz (II)",
+        "noise_db": 64.0,
+        "connection": "2\""
+      },
+      "native": {
+        "default_code": "16017124007",
+        "name": "Blower WF Model 1,3 kW MONO WF",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 390.0
+          }
+        ],
+        "category_code": "10"
+      }
+    },
+    "16017124008": {
+      "family_key": "blower-wf-model",
+      "attribute_set_key": "blower-wf-model",
+      "values": {
+        "model": "1,5 kW MONO WF",
+        "phase": "Monofaz (II)",
+        "noise_db": 64.0,
+        "connection": "2\""
+      },
+      "native": {
+        "default_code": "16017124008",
+        "name": "Blower WF Model 1,5 kW MONO WF",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 440.0
+          }
+        ],
+        "category_code": "10"
+      }
+    },
+    "16017124009": {
+      "family_key": "blower-wf-model",
+      "attribute_set_key": "blower-wf-model",
+      "values": {
+        "model": "2,2 kW MONO WF",
+        "phase": "Monofaz (II)",
+        "noise_db": 64.0,
+        "connection": "2\""
+      },
+      "native": {
+        "default_code": "16017124009",
+        "name": "Blower WF Model 2,2 kW MONO WF",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 530.0
+          }
+        ],
+        "category_code": "10"
+      }
+    },
+    "16017124010": {
+      "family_key": "blower-wf-model",
+      "attribute_set_key": "blower-wf-model",
+      "values": {
+        "model": "1,1 kW TRI WF",
+        "phase": "Trifaz (III)",
+        "noise_db": 64.0,
+        "connection": "2\""
+      },
+      "native": {
+        "default_code": "16017124010",
+        "name": "Blower WF Model 1,1 kW TRI WF",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 360.0
+          }
+        ],
+        "category_code": "10"
+      }
+    },
+    "16017124011": {
+      "family_key": "blower-wf-model",
+      "attribute_set_key": "blower-wf-model",
+      "values": {
+        "model": "1,3 kW TRI WF",
+        "phase": "Trifaz (III)",
+        "noise_db": 64.0,
+        "connection": "2\""
+      },
+      "native": {
+        "default_code": "16017124011",
+        "name": "Blower WF Model 1,3 kW TRI WF",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 370.0
+          }
+        ],
+        "category_code": "10"
+      }
+    },
+    "16017124012": {
+      "family_key": "blower-wf-model",
+      "attribute_set_key": "blower-wf-model",
+      "values": {
+        "model": "1,5 kW TRI WF",
+        "phase": "Trifaz (III)",
+        "noise_db": 64.0,
+        "connection": "2\""
+      },
+      "native": {
+        "default_code": "16017124012",
+        "name": "Blower WF Model 1,5 kW TRI WF",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 430.0
+          }
+        ],
+        "category_code": "10"
+      }
+    },
+    "16017124013": {
+      "family_key": "blower-wf-model",
+      "attribute_set_key": "blower-wf-model",
+      "values": {
+        "model": "2,2 kW TRI WF",
+        "phase": "Trifaz (III)",
+        "noise_db": 70.0,
+        "connection": "2\""
+      },
+      "native": {
+        "default_code": "16017124013",
+        "name": "Blower WF Model 2,2 kW TRI WF",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 520.0
+          }
+        ],
+        "category_code": "10"
+      }
+    },
+    "49811122001": {
+      "family_key": "blower-yedekleri-blower-parts",
+      "attribute_set_key": "blower-yedekleri-blower-parts",
+      "values": {
+        "product_label": "2- Emiş Takımı (İtalya) Suction Kid (Italy)",
+        "model": "2- Emiş Takımı (İtalya) Suction Kid (Italy)"
+      },
+      "native": {
+        "default_code": "49811122001",
+        "name": "Blower Yedekleri 2- Emiş Takımı (İtalya) Suction Kid (Italy)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 65.0
+          }
+        ],
+        "category_code": "10"
+      }
+    },
+    "16017124015": {
+      "family_key": "blower-yedekleri-blower-parts",
+      "attribute_set_key": "blower-yedekleri-blower-parts",
+      "values": {
+        "product_label": "1- Emiş Nozulu Suction Nozzle Waterfun",
+        "model": "1- Emiş Nozulu Suction Nozzle Waterfun"
+      },
+      "native": {
+        "default_code": "16017124015",
+        "name": "Blower Yedekleri 1- Emiş Nozulu Suction Nozzle Waterfun",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 40.0
+          }
+        ],
+        "category_code": "10"
+      }
+    },
+    "16017124014": {
+      "family_key": "blower-yedekleri-blower-parts",
+      "attribute_set_key": "blower-yedekleri-blower-parts",
+      "values": {
+        "product_label": "Susturucu Silencer Waterfun",
+        "model": "Susturucu Silencer Waterfun"
+      },
+      "native": {
+        "default_code": "16017124014",
+        "name": "Blower Yedekleri Susturucu Silencer Waterfun",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 40.0
+          }
+        ],
+        "category_code": "10"
+      }
+    }
+  }
+}

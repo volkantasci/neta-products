@@ -1,0 +1,1409 @@
+{
+  "meta": {
+    "generator": "pim/generate_pim_json.py",
+    "generated_at": "2026-09-04",
+    "source_files": [
+      "09_Havuz_Ici_ve_Kenar_Kaplama_Urunleri__Pool_Indoor_and_Outdoor_Products.json",
+      "09_Havuz_Ici_ve_Kenar_Kaplama_Urunleri__Pool_Indoor_and_Outdoor_Products_attributes.json"
+    ],
+    "category_no": "09",
+    "category_tr": "Havuz İçi ve Kenar Kaplama Ürünleri",
+    "category_en": "Pool Indoor and Outdoor Products",
+    "odoo_model": "product.template",
+    "pim_modules": [
+      "attribute_set",
+      "product_attribute_set",
+      "pim"
+    ],
+    "technical_name_prefix": "lining",
+    "family_count": 18,
+    "variant_count": 56,
+    "import_order": [
+      "attribute_groups",
+      "attribute_sets (ustten alta, parent once)",
+      "attributes (custom -> ir.model.fields; native -> field_id)",
+      "attribute.option kayitlari (select/multiselect icin)",
+      "product_category (varsayilan set baglanti)",
+      "product_values (product.template + x_ alan degerleri)"
+    ],
+    "design_notes": [
+      "Set hiyerarşisi attribute.set.parent_id ile kurulur; alt setler üst setin niteliklerini kalıtır (complete_attribute_ids).",
+      "Kategori genelinde ortak nitelikler kök sette; yalnızca alt gruplarda görülen nitelikler ilgili ara/aile setine bağlanır (ör. kum kapasitesi yalnızca Kum Filtreleri setinde).",
+      "Bir nitelik birden fazla sete bağlanabilir (attribute_set_ids m2m): grain_size hem 25 Mikron hem Filtre Medyaları setinde.",
+      "serialized=False seçildi; gerçek kolon arama/filtreleme/gruplama avantajı sağlar. Yüzlerce niteliğe çıkılırsa serialized=True önerilir (x_custom_json_attrs JSON blob).",
+      "Ağırlık doğal (native) nitelik olarak product.template.weight alanına bağlandı; ambalaj ağırlığı (25 kg çuvallar) da bu alana yazılır.",
+      "select/multiselect nitelikler attribute.option kayıtlarıyla normalize edildi; serbest metin yerine seçim listesi kullanılarak veri tutarlılığı sağlanır.",
+      "Urun adi (name) aile başlığı + model; model yoksa aile başlığı + koddan üretilir. default_code her zaman koddur."
+    ],
+    "data_quality_notes": [
+      "Ikon değerleri normalize edildi (yildiz/tire temizligi, 'RESIDENTAL' -> 'RESIDENTIAL', '- POOL PLUMBING LINES' -> 'POOL PLUMBING LINES').",
+      "6 yollu vanalarda büyük 'Ø' disli, küçük 'ø' yapistirma baglantiyi belirtir; secenek etiketleri buna gore aciklastirildi.",
+      "ap_diameter alani iki anlamda kullaniliyor: sayisal degerler filtre capi (diameter_mm), aralik degerler ('0,5-1,2 mm') tane boyutu (grain_size) olarak ayristirildi.",
+      "'ambalaj_packing' ('25 kg') degeri urunun gercek agirligi oldugu icin native weight alanina yazildi.",
+      "Rotex ailesinde family spec 'max_pressure_bar=1.5' ile variant tablosundaki 'MAX. CALISMA BASINCI 2,5 bar' celisiyor; her ikisi ayri nitelikte (kok 'Maks. Basinc' ve kum filtre 'Maks. Calisma Basinci') tasindi, gozden gecirilmeli.",
+      "Lamex tablolarindaki 1.050+ mm capli satirlar kum filtreler icin dogrudur; PDF'te pompa bolumune tasmasi kaynak cikarimidir (02 kategorisinde zaten yer alirlar).",
+      "Rotex aile tablosunda Woundex ile ayni kodlu satirlar var (12015123100-03); urun atamalari Woundex tarafindadir ve cift uretim engellendi.",
+      "bullets_tr listesi bazi ailelerde TR+EN satirlari icerir; highlights alani kaynagini birebir tasir.",
+      "Zeolit ailesi kaynak PDF'te skimmer, havuz ortusu, merdiven gibi diger urunleri de kapsar; set adi 'Zeolit ve Diger Urunler' olarak duzenlendi."
+    ]
+  },
+  "attribute_groups": [
+    {
+      "key": "general",
+      "name": "Genel",
+      "name_en": "General",
+      "sequence": 10
+    },
+    {
+      "key": "technical",
+      "name": "Teknik Özellikler",
+      "name_en": "Technical Specs",
+      "sequence": 20
+    },
+    {
+      "key": "physical",
+      "name": "Fiziksel Özellikler",
+      "name_en": "Physical Specs",
+      "sequence": 30
+    }
+  ],
+  "attribute_sets": [
+    {
+      "key": "pool-lining",
+      "name": "Havuz İçi ve Kenar Kaplama Ürünleri",
+      "name_en": "Pool Indoor and Outdoor Products",
+      "parent_key": null,
+      "sequence": 10,
+      "is_root": true
+    },
+    {
+      "key": "liner-urunleri",
+      "name": "Liner Ürünleri",
+      "name_en": "Liner Products",
+      "parent_key": "pool-lining",
+      "sequence": 20
+    },
+    {
+      "key": "kenar-tutamaklar",
+      "name": "Kenar Ürünleri ve Tutamaklar",
+      "name_en": "Edging & Handles",
+      "parent_key": "pool-lining",
+      "sequence": 30
+    },
+    {
+      "key": "liner-pool-cover",
+      "name": "Liner Kaplama",
+      "name_en": "Liner Pool Cover",
+      "parent_key": "liner-urunleri",
+      "sequence": 10,
+      "family_product_id": "liner-pool-cover",
+      "family_variant_count": 20
+    },
+    {
+      "key": "pvc-kapl-metal-liner-montaj-tas-d-z-pvc-coated-metal-straigh",
+      "name": "PVC Kaplı Metal Liner Montaj Çıtası (Düz)",
+      "name_en": "PVC Coated Metal Liner Strip (Straight)",
+      "parent_key": "liner-urunleri",
+      "sequence": 20,
+      "family_product_id": "pvc-kapl-metal-liner-montaj-tas-d-z-pvc-coated-metal-straigh",
+      "family_variant_count": 1
+    },
+    {
+      "key": "pvc-kapl-metal-liner-tas-k-vr-lm-pvc-coated-metal-liner-fixi",
+      "name": "PVC Kaplı Metal Liner Çıtası (Kıvrılmış)",
+      "name_en": "PVC Coated Metal Liner Strip (Curved)",
+      "parent_key": "liner-urunleri",
+      "sequence": 30,
+      "family_product_id": "pvc-kapl-metal-liner-tas-k-vr-lm-pvc-coated-metal-liner-fixi",
+      "family_variant_count": 1
+    },
+    {
+      "key": "liner-kenar-tutama-liner-handle",
+      "name": "Liner Kenar Tutamağı",
+      "name_en": "Liner Handle",
+      "parent_key": "liner-urunleri",
+      "sequence": 40,
+      "family_product_id": "liner-kenar-tutama-liner-handle",
+      "family_variant_count": 1
+    },
+    {
+      "key": "liner-liquid-transparent-liner-liquid-blue",
+      "name": "Liner Likit",
+      "name_en": "Liner Liquid",
+      "parent_key": "liner-urunleri",
+      "sequence": 50,
+      "family_product_id": "liner-liquid-transparent-liner-liquid-blue",
+      "family_variant_count": 3
+    },
+    {
+      "key": "liner-geotextile",
+      "name": "Liner Geotextil",
+      "name_en": "Liner Geotextile",
+      "parent_key": "liner-urunleri",
+      "sequence": 60,
+      "family_product_id": "liner-geotextile",
+      "family_variant_count": 2
+    },
+    {
+      "key": "liner-vinly-pool-repair-kit",
+      "name": "Liner Vinil Onarım Kiti",
+      "name_en": "Vinyl Pool Repair Kit",
+      "parent_key": "liner-urunleri",
+      "sequence": 70,
+      "family_product_id": "liner-vinly-pool-repair-kit",
+      "family_variant_count": 1
+    },
+    {
+      "key": "tutamak-kobalt-handle-cobalt",
+      "name": "Tutamak Kobalt",
+      "name_en": "Cobalt Handle",
+      "parent_key": "kenar-tutamaklar",
+      "sequence": 80,
+      "family_product_id": "tutamak-kobalt-handle-cobalt",
+      "family_variant_count": 2
+    },
+    {
+      "key": "oluklu-tutamak-kobalt-grooved-handle-cobalt",
+      "name": "Oluklu Tutamak Kobalt",
+      "name_en": "Grooved Handle Cobalt",
+      "parent_key": "kenar-tutamaklar",
+      "sequence": 90,
+      "family_product_id": "oluklu-tutamak-kobalt-grooved-handle-cobalt",
+      "family_variant_count": 1
+    },
+    {
+      "key": "b-y-k-tutamak-kobalt-big-handle-cobalt",
+      "name": "Büyük Tutamak Kobalt",
+      "name_en": "Big Handle Cobalt",
+      "parent_key": "kenar-tutamaklar",
+      "sequence": 100,
+      "family_product_id": "b-y-k-tutamak-kobalt-big-handle-cobalt",
+      "family_variant_count": 3
+    },
+    {
+      "key": "oluklu-b-y-k-tutamak-kobalt-grooved-big-handle-cobalt",
+      "name": "Oluklu Büyük Tutamak Kobalt",
+      "name_en": "Grooved Big Handle Cobalt",
+      "parent_key": "kenar-tutamaklar",
+      "sequence": 110,
+      "family_product_id": "oluklu-b-y-k-tutamak-kobalt-grooved-big-handle-cobalt",
+      "family_variant_count": 2
+    },
+    {
+      "key": "profilli-b-y-k-tutamak-kobalt-big-handle-big-profile-cobalt",
+      "name": "Profilli Büyük Tutamak Kobalt",
+      "name_en": "Big Handle With Profile Cobalt",
+      "parent_key": "kenar-tutamaklar",
+      "sequence": 120,
+      "family_product_id": "profilli-b-y-k-tutamak-kobalt-big-handle-big-profile-cobalt",
+      "family_variant_count": 2
+    },
+    {
+      "key": "profilli-oluklu-b-y-k-tutamak-kobalt-big-handle-with-profile",
+      "name": "Profilli Oluklu Büyük Tutamak Kobalt",
+      "name_en": "Grooved Big Handle With Profile Cobalt",
+      "parent_key": "kenar-tutamaklar",
+      "sequence": 130,
+      "family_product_id": "profilli-oluklu-b-y-k-tutamak-kobalt-big-handle-with-profile",
+      "family_variant_count": 2
+    },
+    {
+      "key": "s-rs-z-kaymaz-unglazed-antisip",
+      "name": "Sırsız Kaymaz Antisip",
+      "name_en": "Unglazed Antisip",
+      "parent_key": "kenar-tutamaklar",
+      "sequence": 140,
+      "family_product_id": "s-rs-z-kaymaz-unglazed-antisip",
+      "family_variant_count": 1
+    },
+    {
+      "key": "profilli-s-rs-z-kaymaz-unglazed-antisip-with-profile",
+      "name": "Profilli Sırsız Kaymaz Antisip",
+      "name_en": "Unglazed Antisip With Profile",
+      "parent_key": "kenar-tutamaklar",
+      "sequence": 150,
+      "family_product_id": "profilli-s-rs-z-kaymaz-unglazed-antisip-with-profile",
+      "family_variant_count": 1
+    },
+    {
+      "key": "d-k-e-external-corner-cobalt",
+      "name": "Dış Köşe Kobalt",
+      "name_en": "External Corner Cobalt",
+      "parent_key": "kenar-tutamaklar",
+      "sequence": 160,
+      "family_product_id": "d-k-e-external-corner-cobalt",
+      "family_variant_count": 2
+    },
+    {
+      "key": "i-k-e-internal-corner-cobalt",
+      "name": "İç Köşe Kobalt",
+      "name_en": "Internal Corner Cobalt",
+      "parent_key": "kenar-tutamaklar",
+      "sequence": 170,
+      "family_product_id": "i-k-e-internal-corner-cobalt",
+      "family_variant_count": 2
+    },
+    {
+      "key": "havuz-seramikleri-pool-ceramics",
+      "name": "Havuz Seramikleri Pool Ceramics",
+      "name_en": "Havuz Seramikleri Pool Ceramics",
+      "parent_key": "pool-lining",
+      "sequence": 180,
+      "family_product_id": "havuz-seramikleri-pool-ceramics",
+      "family_variant_count": 9
+    }
+  ],
+  "attributes": [
+    {
+      "key": "model",
+      "name": "x_lining_model",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Model",
+      "field_description_en": "Model",
+      "attribute_type": "char",
+      "serialized": false,
+      "widget": null,
+      "group_key": "general",
+      "set_keys": [
+        "pool-lining"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.model",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "product_label",
+      "name": "x_lining_product_label",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Desen/Ürün Adı",
+      "field_description_en": "Pattern/Product Label",
+      "attribute_type": "char",
+      "serialized": false,
+      "widget": null,
+      "group_key": "general",
+      "set_keys": [
+        "pool-lining"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.r_n_i_smi_product_name | tanim_description",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "alt_code",
+      "name": "x_lining_alt_code",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Alternatif Kod/Ölçü",
+      "field_description_en": "Alt. Code/Size",
+      "attribute_type": "char",
+      "serialized": false,
+      "widget": null,
+      "group_key": "general",
+      "set_keys": [
+        "pool-lining"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "length_m",
+      "name": "x_lining_length_m",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Uzunluk (m)",
+      "field_description_en": "Length (m)",
+      "attribute_type": "float",
+      "serialized": false,
+      "widget": null,
+      "group_key": "physical",
+      "set_keys": [
+        "pool-lining"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.uzunluk_length | uzunl_uk_le_ngth",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "thickness_mm",
+      "name": "x_lining_thickness_mm",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Kalınlık (mm)",
+      "field_description_en": "Thickness (mm)",
+      "attribute_type": "float",
+      "serialized": false,
+      "widget": null,
+      "group_key": "physical",
+      "set_keys": [
+        "pool-lining"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.kalinlik_thickness",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "width_cm",
+      "name": "x_lining_width_cm",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Genişlik (cm)",
+      "field_description_en": "Width (cm)",
+      "attribute_type": "float",
+      "serialized": false,
+      "widget": null,
+      "group_key": "physical",
+      "set_keys": [
+        "pool-lining"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.geni_li_k_width",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "roll_m2",
+      "name": "x_lining_roll_m2",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Rulo (m²)",
+      "field_description_en": "Roll (m²)",
+      "attribute_type": "float",
+      "serialized": false,
+      "widget": null,
+      "group_key": "physical",
+      "set_keys": [
+        "pool-lining"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.rulo_m_2_roll_m_2",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "dims",
+      "name": "x_lining_dims",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Ölçüler",
+      "field_description_en": "Dimensions",
+      "attribute_type": "char",
+      "serialized": false,
+      "widget": null,
+      "group_key": "physical",
+      "set_keys": [
+        "pool-lining"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.l_size",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "package_size",
+      "name": "x_lining_package_size",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Gramaj/Ambalaj",
+      "field_description_en": "Package Size",
+      "attribute_type": "char",
+      "serialized": false,
+      "widget": null,
+      "group_key": "physical",
+      "set_keys": [
+        "pool-lining"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.gramaj_weight",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "ceramic_bases",
+      "name": "x_lining_ceramic_bases",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Seramik Kodları",
+      "field_description_en": "Ceramic Base Codes",
+      "attribute_type": "char",
+      "serialized": false,
+      "widget": null,
+      "group_key": "technical",
+      "set_keys": [
+        "havuz-seramikleri-pool-ceramics"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.serami_k_kodlari_bases",
+      "options": [],
+      "option_map": {}
+    }
+  ],
+  "product_category": {
+    "code": "09",
+    "name": "Havuz İçi ve Kenar Kaplama Ürünleri",
+    "name_en": "Pool Indoor and Outdoor Products",
+    "parent": null,
+    "default_attribute_set_key": "pool-lining"
+  },
+  "family_values": {
+    "liner-pool-cover": {},
+    "pvc-kapl-metal-liner-montaj-tas-d-z-pvc-coated-metal-straigh": {},
+    "pvc-kapl-metal-liner-tas-k-vr-lm-pvc-coated-metal-liner-fixi": {},
+    "liner-kenar-tutama-liner-handle": {},
+    "liner-liquid-transparent-liner-liquid-blue": {},
+    "liner-geotextile": {},
+    "liner-vinly-pool-repair-kit": {},
+    "havuz-seramikleri-pool-ceramics": {},
+    "tutamak-kobalt-handle-cobalt": {},
+    "oluklu-tutamak-kobalt-grooved-handle-cobalt": {},
+    "b-y-k-tutamak-kobalt-big-handle-cobalt": {},
+    "oluklu-b-y-k-tutamak-kobalt-grooved-big-handle-cobalt": {},
+    "profilli-b-y-k-tutamak-kobalt-big-handle-big-profile-cobalt": {},
+    "profilli-oluklu-b-y-k-tutamak-kobalt-big-handle-with-profile": {},
+    "s-rs-z-kaymaz-unglazed-antisip": {},
+    "profilli-s-rs-z-kaymaz-unglazed-antisip-with-profile": {},
+    "d-k-e-external-corner-cobalt": {},
+    "i-k-e-internal-corner-cobalt": {}
+  },
+  "product_values": {
+    "327274340008": {
+      "family_key": "liner-pool-cover",
+      "attribute_set_key": "liner-pool-cover",
+      "values": {
+        "product_label": "NEW Stoneflex Sapphire",
+        "length_m": 25.0,
+        "thickness_mm": 1.5,
+        "width_cm": 165.0,
+        "roll_m2": 41.25,
+        "model": "NEW Stoneflex Sapphire"
+      },
+      "native": {
+        "default_code": "327274340008",
+        "name": "Liner Kaplama NEW Stoneflex Sapphire",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 52.5
+          }
+        ],
+        "category_code": "09"
+      }
+    },
+    "327274340009": {
+      "family_key": "liner-pool-cover",
+      "attribute_set_key": "liner-pool-cover",
+      "values": {
+        "product_label": "NEW Stoneflex Urban 15",
+        "length_m": 25.0,
+        "thickness_mm": 1.5,
+        "width_cm": 165.0,
+        "roll_m2": 41.25,
+        "model": "NEW Stoneflex Urban 15"
+      },
+      "native": {
+        "default_code": "327274340009",
+        "name": "Liner Kaplama NEW Stoneflex Urban 15",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 52.5
+          }
+        ],
+        "category_code": "09"
+      }
+    },
+    "327074334002": {
+      "family_key": "liner-pool-cover",
+      "attribute_set_key": "liner-pool-cover",
+      "values": {
+        "product_label": "Stoneflex Royal",
+        "length_m": 25.0,
+        "thickness_mm": 1.5,
+        "width_cm": 165.0,
+        "roll_m2": 41.25,
+        "model": "Stoneflex Royal"
+      },
+      "native": {
+        "default_code": "327074334002",
+        "name": "Liner Kaplama Stoneflex Royal",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 52.5
+          }
+        ],
+        "category_code": "09"
+      }
+    },
+    "327274340003": {
+      "family_key": "liner-pool-cover",
+      "attribute_set_key": "liner-pool-cover",
+      "values": {
+        "product_label": "Stoneflex Jasper Sand",
+        "length_m": 25.0,
+        "thickness_mm": 1.5,
+        "width_cm": 165.0,
+        "roll_m2": 41.25,
+        "model": "Stoneflex Jasper Sand"
+      },
+      "native": {
+        "default_code": "327274340003",
+        "name": "Liner Kaplama Stoneflex Jasper Sand",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 52.5
+          }
+        ],
+        "category_code": "09"
+      }
+    },
+    "327198042001": {
+      "family_key": "liner-pool-cover",
+      "attribute_set_key": "liner-pool-cover",
+      "values": {
+        "product_label": "Stonetile Elegance",
+        "length_m": 25.0,
+        "thickness_mm": 1.5,
+        "width_cm": 165.0,
+        "roll_m2": 41.25,
+        "model": "Stonetile Elegance"
+      },
+      "native": {
+        "default_code": "327198042001",
+        "name": "Liner Kaplama Stonetile Elegance",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 52.5
+          }
+        ],
+        "category_code": "09"
+      }
+    },
+    "327198043002": {
+      "family_key": "liner-pool-cover",
+      "attribute_set_key": "liner-pool-cover",
+      "values": {
+        "product_label": "Stonetile Golden",
+        "length_m": 25.0,
+        "thickness_mm": 1.5,
+        "width_cm": 165.0,
+        "roll_m2": 41.25,
+        "model": "Stonetile Golden"
+      },
+      "native": {
+        "default_code": "327198043002",
+        "name": "Liner Kaplama Stonetile Golden",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 52.5
+          }
+        ],
+        "category_code": "09"
+      }
+    },
+    "327274340004": {
+      "family_key": "liner-pool-cover",
+      "attribute_set_key": "liner-pool-cover",
+      "values": {
+        "product_label": "StoneFlex Forest",
+        "length_m": 25.0,
+        "thickness_mm": 1.5,
+        "width_cm": 165.0,
+        "roll_m2": 41.25,
+        "model": "StoneFlex Forest"
+      },
+      "native": {
+        "default_code": "327274340004",
+        "name": "Liner Kaplama StoneFlex Forest",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 52.5
+          }
+        ],
+        "category_code": "09"
+      }
+    },
+    "327274340005": {
+      "family_key": "liner-pool-cover",
+      "attribute_set_key": "liner-pool-cover",
+      "values": {
+        "product_label": "StoneTile Marine 15",
+        "length_m": 25.0,
+        "thickness_mm": 1.5,
+        "width_cm": 165.0,
+        "roll_m2": 41.25,
+        "model": "StoneTile Marine 15"
+      },
+      "native": {
+        "default_code": "327274340005",
+        "name": "Liner Kaplama StoneTile Marine 15",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 52.5
+          }
+        ],
+        "category_code": "09"
+      }
+    },
+    "327274340006": {
+      "family_key": "liner-pool-cover",
+      "attribute_set_key": "liner-pool-cover",
+      "values": {
+        "product_label": "StoneTile Tropic 15",
+        "length_m": 25.0,
+        "thickness_mm": 1.5,
+        "width_cm": 165.0,
+        "roll_m2": 41.25,
+        "model": "StoneTile Tropic 15"
+      },
+      "native": {
+        "default_code": "327274340006",
+        "name": "Liner Kaplama StoneTile Tropic 15",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 52.5
+          }
+        ],
+        "category_code": "09"
+      }
+    },
+    "327074730001": {
+      "family_key": "liner-pool-cover",
+      "attribute_set_key": "liner-pool-cover",
+      "values": {
+        "product_label": "Pacific",
+        "length_m": 25.0,
+        "thickness_mm": 1.5,
+        "width_cm": 165.0,
+        "roll_m2": 41.25,
+        "model": "Pacific"
+      },
+      "native": {
+        "default_code": "327074730001",
+        "name": "Liner Kaplama Pacific",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 26.5
+          }
+        ],
+        "category_code": "09"
+      }
+    },
+    "67515123018": {
+      "family_key": "liner-pool-cover",
+      "attribute_set_key": "liner-pool-cover",
+      "values": {
+        "product_label": "Galit Pvc",
+        "length_m": 25.0,
+        "thickness_mm": 1.5,
+        "width_cm": 165.0,
+        "roll_m2": 41.25,
+        "model": "Galit Pvc"
+      },
+      "native": {
+        "default_code": "67515123018",
+        "name": "Liner Kaplama Galit Pvc",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 26.5
+          }
+        ],
+        "category_code": "09"
+      }
+    },
+    "67516123028": {
+      "family_key": "liner-pool-cover",
+      "attribute_set_key": "liner-pool-cover",
+      "values": {
+        "product_label": "Navy Blue 8287",
+        "length_m": 25.0,
+        "thickness_mm": 1.5,
+        "width_cm": 165.0,
+        "roll_m2": 41.25,
+        "model": "Navy Blue 8287"
+      },
+      "native": {
+        "default_code": "67516123028",
+        "name": "Liner Kaplama Navy Blue 8287",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 23.0
+          }
+        ],
+        "category_code": "09"
+      }
+    },
+    "67516123018": {
+      "family_key": "liner-pool-cover",
+      "attribute_set_key": "liner-pool-cover",
+      "values": {
+        "product_label": "Light Blue 8286 Pvc",
+        "length_m": 25.0,
+        "thickness_mm": 1.5,
+        "width_cm": 165.0,
+        "roll_m2": 41.25,
+        "model": "Light Blue 8286 Pvc"
+      },
+      "native": {
+        "default_code": "67516123018",
+        "name": "Liner Kaplama Light Blue 8286 Pvc",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 23.0
+          }
+        ],
+        "category_code": "09"
+      }
+    },
+    "67515123015": {
+      "family_key": "liner-pool-cover",
+      "attribute_set_key": "liner-pool-cover",
+      "values": {
+        "product_label": "Sarı Kum Desenli Pvc",
+        "length_m": 25.0,
+        "thickness_mm": 1.5,
+        "width_cm": 165.0,
+        "roll_m2": 41.25,
+        "model": "Sarı Kum Desenli Pvc"
+      },
+      "native": {
+        "default_code": "67515123015",
+        "name": "Liner Kaplama Sarı Kum Desenli Pvc",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 23.0
+          }
+        ],
+        "category_code": "09"
+      }
+    },
+    "67515123019": {
+      "family_key": "liner-pool-cover",
+      "attribute_set_key": "liner-pool-cover",
+      "values": {
+        "product_label": "Snapir",
+        "length_m": 25.0,
+        "thickness_mm": 1.5,
+        "width_cm": 165.0,
+        "roll_m2": 41.25,
+        "model": "Snapir"
+      },
+      "native": {
+        "default_code": "67515123019",
+        "name": "Liner Kaplama Snapir",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 26.5
+          }
+        ],
+        "category_code": "09"
+      }
+    },
+    "67515123020": {
+      "family_key": "liner-pool-cover",
+      "attribute_set_key": "liner-pool-cover",
+      "values": {
+        "product_label": "Granit NG 1",
+        "length_m": 25.0,
+        "thickness_mm": 1.5,
+        "width_cm": 165.0,
+        "roll_m2": 41.25,
+        "model": "Granit NG 1"
+      },
+      "native": {
+        "default_code": "67515123020",
+        "name": "Liner Kaplama Granit NG 1",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 26.5
+          }
+        ],
+        "category_code": "09"
+      }
+    },
+    "67516123029": {
+      "family_key": "liner-pool-cover",
+      "attribute_set_key": "liner-pool-cover",
+      "values": {
+        "product_label": "Blue",
+        "length_m": 25.0,
+        "thickness_mm": 1.5,
+        "width_cm": 165.0,
+        "roll_m2": 41.25,
+        "model": "Blue"
+      },
+      "native": {
+        "default_code": "67516123029",
+        "name": "Liner Kaplama Blue",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 23.0
+          }
+        ],
+        "category_code": "09"
+      }
+    },
+    "67515123011": {
+      "family_key": "liner-pool-cover",
+      "attribute_set_key": "liner-pool-cover",
+      "values": {
+        "product_label": "Green",
+        "length_m": 25.0,
+        "thickness_mm": 1.5,
+        "width_cm": 165.0,
+        "roll_m2": 41.25,
+        "model": "Green"
+      },
+      "native": {
+        "default_code": "67515123011",
+        "name": "Liner Kaplama Green",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 23.0
+          }
+        ],
+        "category_code": "09"
+      }
+    },
+    "67515123017": {
+      "family_key": "liner-pool-cover",
+      "attribute_set_key": "liner-pool-cover",
+      "values": {
+        "product_label": "Grey",
+        "length_m": 25.0,
+        "thickness_mm": 1.5,
+        "width_cm": 165.0,
+        "roll_m2": 41.25,
+        "model": "Grey"
+      },
+      "native": {
+        "default_code": "67515123017",
+        "name": "Liner Kaplama Grey",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 23.0
+          }
+        ],
+        "category_code": "09"
+      }
+    },
+    "69811002001": {
+      "family_key": "pvc-kapl-metal-liner-montaj-tas-d-z-pvc-coated-metal-straigh",
+      "attribute_set_key": "pvc-kapl-metal-liner-montaj-tas-d-z-pvc-coated-metal-straigh",
+      "values": {
+        "length_m": 2.0
+      },
+      "native": {
+        "default_code": "69811002001",
+        "name": "PVC Kaplı Metal Liner Montaj Çıtası (Düz) (69811002001)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 5.0
+          }
+        ],
+        "category_code": "09"
+      }
+    },
+    "69811002002": {
+      "family_key": "pvc-kapl-metal-liner-tas-k-vr-lm-pvc-coated-metal-liner-fixi",
+      "attribute_set_key": "pvc-kapl-metal-liner-tas-k-vr-lm-pvc-coated-metal-liner-fixi",
+      "values": {
+        "length_m": 2.0
+      },
+      "native": {
+        "default_code": "69811002002",
+        "name": "PVC Kaplı Metal Liner Çıtası (Kıvrılmış) (69811002002)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 7.0
+          }
+        ],
+        "category_code": "09"
+      }
+    },
+    "69811002003": {
+      "family_key": "liner-kenar-tutama-liner-handle",
+      "attribute_set_key": "liner-kenar-tutama-liner-handle",
+      "values": {},
+      "native": {
+        "default_code": "69811002003",
+        "name": "Liner Kenar Tutamağı (69811002003)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 4.0
+          }
+        ],
+        "category_code": "09"
+      }
+    },
+    "0462701": {
+      "family_key": "liner-liquid-transparent-liner-liquid-blue",
+      "attribute_set_key": "liner-liquid-transparent-liner-liquid-blue",
+      "values": {
+        "package_size": "1 Lt",
+        "model": "Şeffaf Transparent"
+      },
+      "native": {
+        "default_code": "0462701",
+        "name": "Liner Likit Şeffaf Transparent",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 55.0
+          }
+        ],
+        "category_code": "09"
+      }
+    },
+    "0462708": {
+      "family_key": "liner-liquid-transparent-liner-liquid-blue",
+      "attribute_set_key": "liner-liquid-transparent-liner-liquid-blue",
+      "values": {
+        "package_size": "1 Lt",
+        "model": "Mavi Blue"
+      },
+      "native": {
+        "default_code": "0462708",
+        "name": "Liner Likit Mavi Blue",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 55.0
+          }
+        ],
+        "category_code": "09"
+      }
+    },
+    "327274340007": {
+      "family_key": "liner-liquid-transparent-liner-liquid-blue",
+      "attribute_set_key": "liner-liquid-transparent-liner-liquid-blue",
+      "values": {
+        "package_size": "1 Lt",
+        "model": "Liner Forest Likit Liquid"
+      },
+      "native": {
+        "default_code": "327274340007",
+        "name": "Liner Likit Liner Forest Likit Liquid",
+        "prices": [],
+        "category_code": "09"
+      }
+    },
+    "2099002610": {
+      "family_key": "liner-geotextile",
+      "attribute_set_key": "liner-geotextile",
+      "values": {
+        "package_size": "250 gr"
+      },
+      "native": {
+        "default_code": "2099002610",
+        "name": "Liner Geotextil (2099002610)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 1.75
+          }
+        ],
+        "category_code": "09"
+      }
+    },
+    "02099002613": {
+      "family_key": "liner-geotextile",
+      "attribute_set_key": "liner-geotextile",
+      "values": {
+        "package_size": "500 gr"
+      },
+      "native": {
+        "default_code": "02099002613",
+        "name": "Liner Geotextil (02099002613)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 3.0
+          }
+        ],
+        "category_code": "09"
+      }
+    },
+    "69811123001": {
+      "family_key": "liner-vinly-pool-repair-kit",
+      "attribute_set_key": "liner-vinly-pool-repair-kit",
+      "values": {
+        "package_size": "30 gr"
+      },
+      "native": {
+        "default_code": "69811123001",
+        "name": "Liner Vinil Onarım Kiti (69811123001)",
+        "prices": [
+          {
+            "currency": "EUR",
+            "price": 7.0
+          }
+        ],
+        "category_code": "09"
+      }
+    },
+    "15x15 147x147x8,5 mm": {
+      "family_key": "havuz-seramikleri-pool-ceramics",
+      "attribute_set_key": "havuz-seramikleri-pool-ceramics",
+      "values": {
+        "alt_code": "60x120 597x1197x10 mm",
+        "ceramic_bases": "15x15 147x147x8,5 mm"
+      },
+      "native": {
+        "default_code": "15x15 147x147x8,5 mm",
+        "name": " (15x15 147x147x8,5 mm)",
+        "prices": [],
+        "category_code": "09"
+      }
+    },
+    "MC583": {
+      "family_key": "havuz-seramikleri-pool-ceramics",
+      "attribute_set_key": "havuz-seramikleri-pool-ceramics",
+      "values": {
+        "alt_code": "MC567",
+        "ceramic_bases": "MC583"
+      },
+      "native": {
+        "default_code": "MC583",
+        "name": " (MC583)",
+        "prices": [],
+        "category_code": "09"
+      }
+    },
+    "Cod: 905574 Cod: 905573": {
+      "family_key": "havuz-seramikleri-pool-ceramics",
+      "attribute_set_key": "havuz-seramikleri-pool-ceramics",
+      "values": {
+        "ceramic_bases": "Cod: 905574 Cod: 905573"
+      },
+      "native": {
+        "default_code": "Cod: 905574 Cod: 905573",
+        "name": " (Cod: 905574 Cod: 905573)",
+        "prices": [],
+        "category_code": "09"
+      }
+    },
+    "Cod: 905502 Cod: 905498": {
+      "family_key": "havuz-seramikleri-pool-ceramics",
+      "attribute_set_key": "havuz-seramikleri-pool-ceramics",
+      "values": {
+        "ceramic_bases": "Cod: 905502 Cod: 905498"
+      },
+      "native": {
+        "default_code": "Cod: 905502 Cod: 905498",
+        "name": " (Cod: 905502 Cod: 905498)",
+        "prices": [],
+        "category_code": "09"
+      }
+    },
+    "Cod: 905503 Cod: 905499": {
+      "family_key": "havuz-seramikleri-pool-ceramics",
+      "attribute_set_key": "havuz-seramikleri-pool-ceramics",
+      "values": {
+        "ceramic_bases": "Cod: 905503 Cod: 905499"
+      },
+      "native": {
+        "default_code": "Cod: 905503 Cod: 905499",
+        "name": " (Cod: 905503 Cod: 905499)",
+        "prices": [],
+        "category_code": "09"
+      }
+    },
+    "Cod: 905505 Cod: 905501": {
+      "family_key": "havuz-seramikleri-pool-ceramics",
+      "attribute_set_key": "havuz-seramikleri-pool-ceramics",
+      "values": {
+        "ceramic_bases": "Cod: 905505 Cod: 905501"
+      },
+      "native": {
+        "default_code": "Cod: 905505 Cod: 905501",
+        "name": " (Cod: 905505 Cod: 905501)",
+        "prices": [],
+        "category_code": "09"
+      }
+    },
+    "Cod: 905788 Cod: 905789": {
+      "family_key": "havuz-seramikleri-pool-ceramics",
+      "attribute_set_key": "havuz-seramikleri-pool-ceramics",
+      "values": {
+        "ceramic_bases": "Cod: 905788 Cod: 905789"
+      },
+      "native": {
+        "default_code": "Cod: 905788 Cod: 905789",
+        "name": " (Cod: 905788 Cod: 905789)",
+        "prices": [],
+        "category_code": "09"
+      }
+    },
+    "580151002": {
+      "family_key": "tutamak-kobalt-handle-cobalt",
+      "attribute_set_key": "tutamak-kobalt-handle-cobalt",
+      "values": {
+        "model": "Pötikare Petit Carre",
+        "dims": "12x25 cm"
+      },
+      "native": {
+        "default_code": "580151002",
+        "name": "Tutamak Kobalt Pötikare Petit Carre",
+        "prices": [],
+        "category_code": "09"
+      }
+    },
+    "68015152001": {
+      "family_key": "tutamak-kobalt-handle-cobalt",
+      "attribute_set_key": "tutamak-kobalt-handle-cobalt",
+      "values": {
+        "model": "Düz Universal",
+        "dims": "12x25 cm"
+      },
+      "native": {
+        "default_code": "68015152001",
+        "name": "Tutamak Kobalt Düz Universal",
+        "prices": [],
+        "category_code": "09"
+      }
+    },
+    "68015152009": {
+      "family_key": "oluklu-tutamak-kobalt-grooved-handle-cobalt",
+      "attribute_set_key": "oluklu-tutamak-kobalt-grooved-handle-cobalt",
+      "values": {
+        "model": "Pötikare Petit Carre",
+        "dims": "12x25 cm"
+      },
+      "native": {
+        "default_code": "68015152009",
+        "name": "Oluklu Tutamak Kobalt Pötikare Petit Carre",
+        "prices": [],
+        "category_code": "09"
+      }
+    },
+    "580151014": {
+      "family_key": "b-y-k-tutamak-kobalt-big-handle-cobalt",
+      "attribute_set_key": "b-y-k-tutamak-kobalt-big-handle-cobalt",
+      "values": {
+        "model": "Pötikare Petit Carre",
+        "dims": "25x25 cm"
+      },
+      "native": {
+        "default_code": "580151014",
+        "name": "Büyük Tutamak Kobalt Pötikare Petit Carre (25x25 cm)",
+        "prices": [],
+        "category_code": "09"
+      }
+    },
+    "580151026": {
+      "family_key": "b-y-k-tutamak-kobalt-big-handle-cobalt",
+      "attribute_set_key": "b-y-k-tutamak-kobalt-big-handle-cobalt",
+      "values": {
+        "model": "Pötikare Petit Carre",
+        "dims": "30x25 cm"
+      },
+      "native": {
+        "default_code": "580151026",
+        "name": "Büyük Tutamak Kobalt Pötikare Petit Carre (30x25 cm)",
+        "prices": [],
+        "category_code": "09"
+      }
+    },
+    "68016152001": {
+      "family_key": "b-y-k-tutamak-kobalt-big-handle-cobalt",
+      "attribute_set_key": "b-y-k-tutamak-kobalt-big-handle-cobalt",
+      "values": {
+        "model": "Düz Universal",
+        "dims": "25x25 cm"
+      },
+      "native": {
+        "default_code": "68016152001",
+        "name": "Büyük Tutamak Kobalt Düz Universal",
+        "prices": [],
+        "category_code": "09"
+      }
+    },
+    "68015152012": {
+      "family_key": "oluklu-b-y-k-tutamak-kobalt-grooved-big-handle-cobalt",
+      "attribute_set_key": "oluklu-b-y-k-tutamak-kobalt-grooved-big-handle-cobalt",
+      "values": {
+        "model": "Pötikare Petit Carre",
+        "dims": "25x25 cm"
+      },
+      "native": {
+        "default_code": "68015152012",
+        "name": "Oluklu Büyük Tutamak Kobalt Pötikare Petit Carre (25x25 cm)",
+        "prices": [],
+        "category_code": "09"
+      }
+    },
+    "68015152013": {
+      "family_key": "oluklu-b-y-k-tutamak-kobalt-grooved-big-handle-cobalt",
+      "attribute_set_key": "oluklu-b-y-k-tutamak-kobalt-grooved-big-handle-cobalt",
+      "values": {
+        "model": "Pötikare Petit Carre",
+        "dims": "30x25 cm"
+      },
+      "native": {
+        "default_code": "68015152013",
+        "name": "Oluklu Büyük Tutamak Kobalt Pötikare Petit Carre (30x25 cm)",
+        "prices": [],
+        "category_code": "09"
+      }
+    },
+    "580151016": {
+      "family_key": "profilli-b-y-k-tutamak-kobalt-big-handle-big-profile-cobalt",
+      "attribute_set_key": "profilli-b-y-k-tutamak-kobalt-big-handle-big-profile-cobalt",
+      "values": {
+        "model": "Pötikare Petit Carre",
+        "dims": "25x25 cm"
+      },
+      "native": {
+        "default_code": "580151016",
+        "name": "Profilli Büyük Tutamak Kobalt Pötikare Petit Carre (25x25 cm)",
+        "prices": [],
+        "category_code": "09"
+      }
+    },
+    "580151018": {
+      "family_key": "profilli-b-y-k-tutamak-kobalt-big-handle-big-profile-cobalt",
+      "attribute_set_key": "profilli-b-y-k-tutamak-kobalt-big-handle-big-profile-cobalt",
+      "values": {
+        "model": "Pötikare Petit Carre",
+        "dims": "30x25 cm"
+      },
+      "native": {
+        "default_code": "580151018",
+        "name": "Profilli Büyük Tutamak Kobalt Pötikare Petit Carre (30x25 cm)",
+        "prices": [],
+        "category_code": "09"
+      }
+    },
+    "580151020": {
+      "family_key": "profilli-oluklu-b-y-k-tutamak-kobalt-big-handle-with-profile",
+      "attribute_set_key": "profilli-oluklu-b-y-k-tutamak-kobalt-big-handle-with-profile",
+      "values": {
+        "dims": "25x25 cm"
+      },
+      "native": {
+        "default_code": "580151020",
+        "name": "Profilli Oluklu Büyük Tutamak Kobalt (580151020)",
+        "prices": [],
+        "category_code": "09"
+      }
+    },
+    "580151019": {
+      "family_key": "profilli-oluklu-b-y-k-tutamak-kobalt-big-handle-with-profile",
+      "attribute_set_key": "profilli-oluklu-b-y-k-tutamak-kobalt-big-handle-with-profile",
+      "values": {
+        "dims": "30x25 cm"
+      },
+      "native": {
+        "default_code": "580151019",
+        "name": "Profilli Oluklu Büyük Tutamak Kobalt (580151019)",
+        "prices": [],
+        "category_code": "09"
+      }
+    },
+    "580151007": {
+      "family_key": "s-rs-z-kaymaz-unglazed-antisip",
+      "attribute_set_key": "s-rs-z-kaymaz-unglazed-antisip",
+      "values": {
+        "dims": "12x25 cm"
+      },
+      "native": {
+        "default_code": "580151007",
+        "name": "Sırsız Kaymaz Antisip (580151007)",
+        "prices": [],
+        "category_code": "09"
+      }
+    },
+    "580151017": {
+      "family_key": "profilli-s-rs-z-kaymaz-unglazed-antisip-with-profile",
+      "attribute_set_key": "profilli-s-rs-z-kaymaz-unglazed-antisip-with-profile",
+      "values": {
+        "dims": "12x25 cm"
+      },
+      "native": {
+        "default_code": "580151017",
+        "name": "Profilli Sırsız Kaymaz Antisip (580151017)",
+        "prices": [],
+        "category_code": "09"
+      }
+    },
+    "580151024": {
+      "family_key": "d-k-e-external-corner-cobalt",
+      "attribute_set_key": "d-k-e-external-corner-cobalt",
+      "values": {
+        "dims": "12,5x12,5 cm"
+      },
+      "native": {
+        "default_code": "580151024",
+        "name": "Dış Köşe Kobalt (580151024)",
+        "prices": [],
+        "category_code": "09"
+      }
+    },
+    "580151025": {
+      "family_key": "d-k-e-external-corner-cobalt",
+      "attribute_set_key": "d-k-e-external-corner-cobalt",
+      "values": {
+        "dims": "25x25 cm"
+      },
+      "native": {
+        "default_code": "580151025",
+        "name": "Dış Köşe Kobalt (580151025)",
+        "prices": [],
+        "category_code": "09"
+      }
+    },
+    "580151010": {
+      "family_key": "i-k-e-internal-corner-cobalt",
+      "attribute_set_key": "i-k-e-internal-corner-cobalt",
+      "values": {
+        "dims": "25x25 cm"
+      },
+      "native": {
+        "default_code": "580151010",
+        "name": "İç Köşe Kobalt (580151010)",
+        "prices": [],
+        "category_code": "09"
+      }
+    },
+    "580151023": {
+      "family_key": "i-k-e-internal-corner-cobalt",
+      "attribute_set_key": "i-k-e-internal-corner-cobalt",
+      "values": {
+        "dims": "30x25 cm"
+      },
+      "native": {
+        "default_code": "580151023",
+        "name": "İç Köşe Kobalt (580151023)",
+        "prices": [],
+        "category_code": "09"
+      }
+    }
+  }
+}

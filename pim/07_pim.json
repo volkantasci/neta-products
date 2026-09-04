@@ -1,0 +1,733 @@
+{
+  "meta": {
+    "generator": "pim/generate_pim_json.py",
+    "generated_at": "2026-09-04",
+    "source_files": [
+      "07_Havuz_Kimyasal_Urunleri__Pool_Chemical_Product.json",
+      "07_Havuz_Kimyasal_Urunleri__Pool_Chemical_Product_attributes.json"
+    ],
+    "category_no": "07",
+    "category_tr": "Havuz Kimyasal Ürünleri",
+    "category_en": "Pool Chemical Product",
+    "odoo_model": "product.template",
+    "pim_modules": [
+      "attribute_set",
+      "product_attribute_set",
+      "pim"
+    ],
+    "technical_name_prefix": "chem",
+    "family_count": 11,
+    "variant_count": 37,
+    "import_order": [
+      "attribute_groups",
+      "attribute_sets (ustten alta, parent once)",
+      "attributes (custom -> ir.model.fields; native -> field_id)",
+      "attribute.option kayitlari (select/multiselect icin)",
+      "product_category (varsayilan set baglanti)",
+      "product_values (product.template + x_ alan degerleri)"
+    ],
+    "design_notes": [
+      "Set hiyerarşisi attribute.set.parent_id ile kurulur; alt setler üst setin niteliklerini kalıtır (complete_attribute_ids).",
+      "Kategori genelinde ortak nitelikler kök sette; yalnızca alt gruplarda görülen nitelikler ilgili ara/aile setine bağlanır (ör. kum kapasitesi yalnızca Kum Filtreleri setinde).",
+      "Bir nitelik birden fazla sete bağlanabilir (attribute_set_ids m2m): grain_size hem 25 Mikron hem Filtre Medyaları setinde.",
+      "serialized=False seçildi; gerçek kolon arama/filtreleme/gruplama avantajı sağlar. Yüzlerce niteliğe çıkılırsa serialized=True önerilir (x_custom_json_attrs JSON blob).",
+      "Ağırlık doğal (native) nitelik olarak product.template.weight alanına bağlandı; ambalaj ağırlığı (25 kg çuvallar) da bu alana yazılır.",
+      "select/multiselect nitelikler attribute.option kayıtlarıyla normalize edildi; serbest metin yerine seçim listesi kullanılarak veri tutarlılığı sağlanır.",
+      "Urun adi (name) aile başlığı + model; model yoksa aile başlığı + koddan üretilir. default_code her zaman koddur."
+    ],
+    "data_quality_notes": [
+      "Ikon değerleri normalize edildi (yildiz/tire temizligi, 'RESIDENTAL' -> 'RESIDENTIAL', '- POOL PLUMBING LINES' -> 'POOL PLUMBING LINES').",
+      "6 yollu vanalarda büyük 'Ø' disli, küçük 'ø' yapistirma baglantiyi belirtir; secenek etiketleri buna gore aciklastirildi.",
+      "ap_diameter alani iki anlamda kullaniliyor: sayisal degerler filtre capi (diameter_mm), aralik degerler ('0,5-1,2 mm') tane boyutu (grain_size) olarak ayristirildi.",
+      "'ambalaj_packing' ('25 kg') degeri urunun gercek agirligi oldugu icin native weight alanina yazildi.",
+      "Rotex ailesinde family spec 'max_pressure_bar=1.5' ile variant tablosundaki 'MAX. CALISMA BASINCI 2,5 bar' celisiyor; her ikisi ayri nitelikte (kok 'Maks. Basinc' ve kum filtre 'Maks. Calisma Basinci') tasindi, gozden gecirilmeli.",
+      "Lamex tablolarindaki 1.050+ mm capli satirlar kum filtreler icin dogrudur; PDF'te pompa bolumune tasmasi kaynak cikarimidir (02 kategorisinde zaten yer alirlar).",
+      "Rotex aile tablosunda Woundex ile ayni kodlu satirlar var (12015123100-03); urun atamalari Woundex tarafindadir ve cift uretim engellendi.",
+      "bullets_tr listesi bazi ailelerde TR+EN satirlari icerir; highlights alani kaynagini birebir tasir.",
+      "Zeolit ailesi kaynak PDF'te skimmer, havuz ortusu, merdiven gibi diger urunleri de kapsar; set adi 'Zeolit ve Diger Urunler' olarak duzenlendi."
+    ]
+  },
+  "attribute_groups": [
+    {
+      "key": "physical",
+      "name": "Fiziksel Özellikler",
+      "name_en": "Physical Specs",
+      "sequence": 10
+    }
+  ],
+  "attribute_sets": [
+    {
+      "key": "pool-chemicals",
+      "name": "Havuz Kimyasal Ürünleri",
+      "name_en": "Pool Chemical Products",
+      "parent_key": null,
+      "sequence": 10,
+      "is_root": true
+    },
+    {
+      "key": "klor-urunleri",
+      "name": "Klor Ürünleri",
+      "name_en": "Chlorine Products",
+      "parent_key": "pool-chemicals",
+      "sequence": 20
+    },
+    {
+      "key": "ph-kontrol",
+      "name": "pH Kontrol",
+      "name_en": "pH Control",
+      "parent_key": "pool-chemicals",
+      "sequence": 30
+    },
+    {
+      "key": "temizlik-bakim",
+      "name": "Temizlik ve Bakım Kimyasalları",
+      "name_en": "Cleaning & Maintenance Chemicals",
+      "parent_key": "pool-chemicals",
+      "sequence": 40
+    },
+    {
+      "key": "gc-56-granular-chlorine",
+      "name": "Granül Klor %56 (GC 56)",
+      "name_en": "Granular Chlorine 56% (GC 56)",
+      "parent_key": "klor-urunleri",
+      "sequence": 10,
+      "family_product_id": "gc-56-granular-chlorine",
+      "family_variant_count": 4
+    },
+    {
+      "key": "gc-90-granular-chlorine",
+      "name": "Granül Klor %90 (GC 90)",
+      "name_en": "Granular Chlorine 90% (GC 90)",
+      "parent_key": "klor-urunleri",
+      "sequence": 20,
+      "family_product_id": "gc-90-granular-chlorine",
+      "family_variant_count": 4
+    },
+    {
+      "key": "tc-200-chlorine-tablet",
+      "name": "Klor Tableti (TC 200)",
+      "name_en": "Chlorine Tablet (TC 200)",
+      "parent_key": "klor-urunleri",
+      "sequence": 30,
+      "family_product_id": "tc-200-chlorine-tablet",
+      "family_variant_count": 4
+    },
+    {
+      "key": "the-secret-weapon-of-indoor-pools",
+      "name": "Kapalı Havuz Kimyasalı (Secret Weapon)",
+      "name_en": "Indoor Pool Chemical (Secret Weapon)",
+      "parent_key": "klor-urunleri",
+      "sequence": 40,
+      "family_product_id": "the-secret-weapon-of-indoor-pools",
+      "family_variant_count": 4
+    },
+    {
+      "key": "pr-ph-reducer",
+      "name": "pH Düşürücü (PR −)",
+      "name_en": "pH Reducer (PR −)",
+      "parent_key": "ph-kontrol",
+      "sequence": 50,
+      "family_product_id": "pr-ph-reducer",
+      "family_variant_count": 4
+    },
+    {
+      "key": "pr-ph-increaseer",
+      "name": "pH Yükseltici (PR +)",
+      "name_en": "pH Increaser (PR +)",
+      "parent_key": "ph-kontrol",
+      "sequence": 60,
+      "family_product_id": "pr-ph-increaseer",
+      "family_variant_count": 2
+    },
+    {
+      "key": "lac-liquid-algaecide",
+      "name": "Sıvı Yosun Giderici (LAC)",
+      "name_en": "Liquid Algaecide (LAC)",
+      "parent_key": "temizlik-bakim",
+      "sequence": 70,
+      "family_product_id": "lac-liquid-algaecide",
+      "family_variant_count": 3
+    },
+    {
+      "key": "cleaner-s-power",
+      "name": "Temizlik Kimyasalı (Cleaner's Power)",
+      "name_en": "Cleaner's Power",
+      "parent_key": "temizlik-bakim",
+      "sequence": 80,
+      "family_product_id": "cleaner-s-power",
+      "family_variant_count": 3
+    },
+    {
+      "key": "lb-liquid-brighener",
+      "name": "Sıvı Parlatıcı (LB)",
+      "name_en": "Liquid Brightener (LB)",
+      "parent_key": "temizlik-bakim",
+      "sequence": 90,
+      "family_product_id": "lb-liquid-brighener",
+      "family_variant_count": 3
+    },
+    {
+      "key": "sc-liquid-surface-cleaner",
+      "name": "Sıvı Yüzey Temizleyici (SC)",
+      "name_en": "Liquid Surface Cleaner (SC)",
+      "parent_key": "temizlik-bakim",
+      "sequence": 100,
+      "family_product_id": "sc-liquid-surface-cleaner",
+      "family_variant_count": 2
+    },
+    {
+      "key": "b-t-n-bakim-complete-care",
+      "name": "Bütün Bakım (Complete Care)",
+      "name_en": "Complete Care",
+      "parent_key": "temizlik-bakim",
+      "sequence": 110,
+      "family_product_id": "b-t-n-bakim-complete-care",
+      "family_variant_count": 4
+    }
+  ],
+  "attributes": [
+    {
+      "key": "packing_kg",
+      "name": "x_chem_packing_kg",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Ambalaj (kg)",
+      "field_description_en": "Packing (kg)",
+      "attribute_type": "float",
+      "serialized": false,
+      "widget": null,
+      "group_key": "physical",
+      "set_keys": [
+        "pool-chemicals"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.ambalaj_packing",
+      "options": [],
+      "option_map": {}
+    },
+    {
+      "key": "packing_type",
+      "name": "x_chem_packing_type",
+      "nature": "custom",
+      "native_field": null,
+      "field_description": "Ambalaj Tipi",
+      "field_description_en": "Packing Type",
+      "attribute_type": "char",
+      "serialized": false,
+      "widget": null,
+      "group_key": "physical",
+      "set_keys": [
+        "pool-chemicals"
+      ],
+      "value_level": "variant",
+      "source": "variant_quantitative.ambalaj_packing",
+      "options": [],
+      "option_map": {}
+    }
+  ],
+  "product_category": {
+    "code": "07",
+    "name": "Havuz Kimyasal Ürünleri",
+    "name_en": "Pool Chemical Product",
+    "parent": null,
+    "default_attribute_set_key": "pool-chemicals"
+  },
+  "family_values": {
+    "gc-56-granular-chlorine": {},
+    "gc-90-granular-chlorine": {},
+    "the-secret-weapon-of-indoor-pools": {},
+    "tc-200-chlorine-tablet": {},
+    "b-t-n-bakim-complete-care": {},
+    "pr-ph-reducer": {},
+    "pr-ph-increaseer": {},
+    "lac-liquid-algaecide": {},
+    "cleaner-s-power": {},
+    "lb-liquid-brighener": {},
+    "sc-liquid-surface-cleaner": {}
+  },
+  "product_values": {
+    "54015133005": {
+      "family_key": "gc-56-granular-chlorine",
+      "attribute_set_key": "gc-56-granular-chlorine",
+      "values": {
+        "packing_kg": 50.0
+      },
+      "native": {
+        "default_code": "54015133005",
+        "name": "Granül Klor %56 (GC 56) 50 kg",
+        "prices": [],
+        "category_code": "07"
+      }
+    },
+    "54015133014": {
+      "family_key": "gc-56-granular-chlorine",
+      "attribute_set_key": "gc-56-granular-chlorine",
+      "values": {
+        "packing_kg": 25.0
+      },
+      "native": {
+        "default_code": "54015133014",
+        "name": "Granül Klor %56 (GC 56) 25 kg",
+        "prices": [],
+        "category_code": "07"
+      }
+    },
+    "54015133003": {
+      "family_key": "gc-56-granular-chlorine",
+      "attribute_set_key": "gc-56-granular-chlorine",
+      "values": {
+        "packing_kg": 10.0
+      },
+      "native": {
+        "default_code": "54015133003",
+        "name": "Granül Klor %56 (GC 56) 10 kg",
+        "prices": [],
+        "category_code": "07"
+      }
+    },
+    "54015133002": {
+      "family_key": "gc-56-granular-chlorine",
+      "attribute_set_key": "gc-56-granular-chlorine",
+      "values": {
+        "packing_kg": 5.0
+      },
+      "native": {
+        "default_code": "54015133002",
+        "name": "Granül Klor %56 (GC 56) 5 kg",
+        "prices": [],
+        "category_code": "07"
+      }
+    },
+    "54015133010": {
+      "family_key": "gc-90-granular-chlorine",
+      "attribute_set_key": "gc-90-granular-chlorine",
+      "values": {
+        "packing_kg": 50.0
+      },
+      "native": {
+        "default_code": "54015133010",
+        "name": "Granül Klor %90 (GC 90) 50 kg",
+        "prices": [],
+        "category_code": "07"
+      }
+    },
+    "54015133012": {
+      "family_key": "gc-90-granular-chlorine",
+      "attribute_set_key": "gc-90-granular-chlorine",
+      "values": {
+        "packing_kg": 25.0
+      },
+      "native": {
+        "default_code": "54015133012",
+        "name": "Granül Klor %90 (GC 90) 25 kg",
+        "prices": [],
+        "category_code": "07"
+      }
+    },
+    "54015133008": {
+      "family_key": "gc-90-granular-chlorine",
+      "attribute_set_key": "gc-90-granular-chlorine",
+      "values": {
+        "packing_kg": 10.0
+      },
+      "native": {
+        "default_code": "54015133008",
+        "name": "Granül Klor %90 (GC 90) 10 kg",
+        "prices": [],
+        "category_code": "07"
+      }
+    },
+    "54015133007": {
+      "family_key": "gc-90-granular-chlorine",
+      "attribute_set_key": "gc-90-granular-chlorine",
+      "values": {
+        "packing_kg": 5.0
+      },
+      "native": {
+        "default_code": "54015133007",
+        "name": "Granül Klor %90 (GC 90) 5 kg",
+        "prices": [],
+        "category_code": "07"
+      }
+    },
+    "440002006": {
+      "family_key": "the-secret-weapon-of-indoor-pools",
+      "attribute_set_key": "the-secret-weapon-of-indoor-pools",
+      "values": {
+        "packing_kg": 40.0
+      },
+      "native": {
+        "default_code": "440002006",
+        "name": "Kapalı Havuz Kimyasalı (Secret Weapon) 40 kg",
+        "prices": [],
+        "category_code": "07"
+      }
+    },
+    "440002011": {
+      "family_key": "the-secret-weapon-of-indoor-pools",
+      "attribute_set_key": "the-secret-weapon-of-indoor-pools",
+      "values": {
+        "packing_kg": 25.0
+      },
+      "native": {
+        "default_code": "440002011",
+        "name": "Kapalı Havuz Kimyasalı (Secret Weapon) 25 kg",
+        "prices": [],
+        "category_code": "07"
+      }
+    },
+    "440002012": {
+      "family_key": "the-secret-weapon-of-indoor-pools",
+      "attribute_set_key": "the-secret-weapon-of-indoor-pools",
+      "values": {
+        "packing_kg": 10.0
+      },
+      "native": {
+        "default_code": "440002012",
+        "name": "Kapalı Havuz Kimyasalı (Secret Weapon) 10 kg",
+        "prices": [],
+        "category_code": "07"
+      }
+    },
+    "440002005": {
+      "family_key": "the-secret-weapon-of-indoor-pools",
+      "attribute_set_key": "the-secret-weapon-of-indoor-pools",
+      "values": {
+        "packing_kg": 5.0
+      },
+      "native": {
+        "default_code": "440002005",
+        "name": "Kapalı Havuz Kimyasalı (Secret Weapon) 5 kg",
+        "prices": [],
+        "category_code": "07"
+      }
+    },
+    "54016133004": {
+      "family_key": "tc-200-chlorine-tablet",
+      "attribute_set_key": "tc-200-chlorine-tablet",
+      "values": {
+        "packing_kg": 50.0
+      },
+      "native": {
+        "default_code": "54016133004",
+        "name": "Klor Tableti (TC 200) 50 kg",
+        "prices": [],
+        "category_code": "07"
+      }
+    },
+    "54016133007": {
+      "family_key": "tc-200-chlorine-tablet",
+      "attribute_set_key": "tc-200-chlorine-tablet",
+      "values": {
+        "packing_kg": 25.0
+      },
+      "native": {
+        "default_code": "54016133007",
+        "name": "Klor Tableti (TC 200) 25 kg",
+        "prices": [],
+        "category_code": "07"
+      }
+    },
+    "54016133002": {
+      "family_key": "tc-200-chlorine-tablet",
+      "attribute_set_key": "tc-200-chlorine-tablet",
+      "values": {
+        "packing_kg": 10.0
+      },
+      "native": {
+        "default_code": "54016133002",
+        "name": "Klor Tableti (TC 200) 10 kg",
+        "prices": [],
+        "category_code": "07"
+      }
+    },
+    "54016133003": {
+      "family_key": "tc-200-chlorine-tablet",
+      "attribute_set_key": "tc-200-chlorine-tablet",
+      "values": {
+        "packing_kg": 5.0
+      },
+      "native": {
+        "default_code": "54016133003",
+        "name": "Klor Tableti (TC 200) 5 kg",
+        "prices": [],
+        "category_code": "07"
+      }
+    },
+    "54022002001": {
+      "family_key": "b-t-n-bakim-complete-care",
+      "attribute_set_key": "b-t-n-bakim-complete-care",
+      "values": {
+        "packing_kg": 50.0
+      },
+      "native": {
+        "default_code": "54022002001",
+        "name": "Bütün Bakım (Complete Care) 50 kg",
+        "prices": [],
+        "category_code": "07"
+      }
+    },
+    "54022002011": {
+      "family_key": "b-t-n-bakim-complete-care",
+      "attribute_set_key": "b-t-n-bakim-complete-care",
+      "values": {
+        "packing_kg": 20.0
+      },
+      "native": {
+        "default_code": "54022002011",
+        "name": "Bütün Bakım (Complete Care) 20 kg",
+        "prices": [],
+        "category_code": "07"
+      }
+    },
+    "54022002002": {
+      "family_key": "b-t-n-bakim-complete-care",
+      "attribute_set_key": "b-t-n-bakim-complete-care",
+      "values": {
+        "packing_kg": 10.0
+      },
+      "native": {
+        "default_code": "54022002002",
+        "name": "Bütün Bakım (Complete Care) 10 kg",
+        "prices": [],
+        "category_code": "07"
+      }
+    },
+    "54022002010": {
+      "family_key": "b-t-n-bakim-complete-care",
+      "attribute_set_key": "b-t-n-bakim-complete-care",
+      "values": {
+        "packing_kg": 5.0
+      },
+      "native": {
+        "default_code": "54022002010",
+        "name": "Bütün Bakım (Complete Care) 5 kg",
+        "prices": [],
+        "category_code": "07"
+      }
+    },
+    "55015133001": {
+      "family_key": "pr-ph-reducer",
+      "attribute_set_key": "pr-ph-reducer",
+      "values": {
+        "packing_kg": 25.0,
+        "packing_type": "Kova Drum"
+      },
+      "native": {
+        "default_code": "55015133001",
+        "name": "pH Düşürücü (PR −) 25 kg (Kova Drum)",
+        "prices": [],
+        "category_code": "07"
+      }
+    },
+    "55015133004": {
+      "family_key": "pr-ph-reducer",
+      "attribute_set_key": "pr-ph-reducer",
+      "values": {
+        "packing_kg": 25.0,
+        "packing_type": "PP Torba PP Back"
+      },
+      "native": {
+        "default_code": "55015133004",
+        "name": "pH Düşürücü (PR −) 25 kg (PP Torba PP Back)",
+        "prices": [],
+        "category_code": "07"
+      }
+    },
+    "55015133002": {
+      "family_key": "pr-ph-reducer",
+      "attribute_set_key": "pr-ph-reducer",
+      "values": {
+        "packing_kg": 10.0
+      },
+      "native": {
+        "default_code": "55015133002",
+        "name": "pH Düşürücü (PR −) 10 kg",
+        "prices": [],
+        "category_code": "07"
+      }
+    },
+    "55015133003": {
+      "family_key": "pr-ph-reducer",
+      "attribute_set_key": "pr-ph-reducer",
+      "values": {
+        "packing_kg": 6.0
+      },
+      "native": {
+        "default_code": "55015133003",
+        "name": "pH Düşürücü (PR −) 6 kg",
+        "prices": [],
+        "category_code": "07"
+      }
+    },
+    "5016132002": {
+      "family_key": "pr-ph-increaseer",
+      "attribute_set_key": "pr-ph-increaseer",
+      "values": {
+        "packing_kg": 5.0
+      },
+      "native": {
+        "default_code": "5016132002",
+        "name": "pH Yükseltici (PR +) 5 kg",
+        "prices": [],
+        "category_code": "07"
+      }
+    },
+    "55016132001": {
+      "family_key": "pr-ph-increaseer",
+      "attribute_set_key": "pr-ph-increaseer",
+      "values": {
+        "packing_kg": 10.0
+      },
+      "native": {
+        "default_code": "55016132001",
+        "name": "pH Yükseltici (PR +) 10 kg",
+        "prices": [],
+        "category_code": "07"
+      }
+    },
+    "54017131001": {
+      "family_key": "lac-liquid-algaecide",
+      "attribute_set_key": "lac-liquid-algaecide",
+      "values": {
+        "packing_kg": 20.0
+      },
+      "native": {
+        "default_code": "54017131001",
+        "name": "Sıvı Yosun Giderici (LAC) 20 kg",
+        "prices": [],
+        "category_code": "07"
+      }
+    },
+    "54017131002": {
+      "family_key": "lac-liquid-algaecide",
+      "attribute_set_key": "lac-liquid-algaecide",
+      "values": {
+        "packing_kg": 10.0
+      },
+      "native": {
+        "default_code": "54017131002",
+        "name": "Sıvı Yosun Giderici (LAC) 10 kg",
+        "prices": [],
+        "category_code": "07"
+      }
+    },
+    "54017131003": {
+      "family_key": "lac-liquid-algaecide",
+      "attribute_set_key": "lac-liquid-algaecide",
+      "values": {
+        "packing_kg": 5.0
+      },
+      "native": {
+        "default_code": "54017131003",
+        "name": "Sıvı Yosun Giderici (LAC) 5 kg",
+        "prices": [],
+        "category_code": "07"
+      }
+    },
+    "55018131001": {
+      "family_key": "cleaner-s-power",
+      "attribute_set_key": "cleaner-s-power",
+      "values": {
+        "packing_kg": 20.0
+      },
+      "native": {
+        "default_code": "55018131001",
+        "name": "Temizlik Kimyasalı (Cleaner's Power) 20 kg",
+        "prices": [],
+        "category_code": "07"
+      }
+    },
+    "55018131002": {
+      "family_key": "cleaner-s-power",
+      "attribute_set_key": "cleaner-s-power",
+      "values": {
+        "packing_kg": 10.0
+      },
+      "native": {
+        "default_code": "55018131002",
+        "name": "Temizlik Kimyasalı (Cleaner's Power) 10 kg",
+        "prices": [],
+        "category_code": "07"
+      }
+    },
+    "55018131003": {
+      "family_key": "cleaner-s-power",
+      "attribute_set_key": "cleaner-s-power",
+      "values": {
+        "packing_kg": 5.0
+      },
+      "native": {
+        "default_code": "55018131003",
+        "name": "Temizlik Kimyasalı (Cleaner's Power) 5 kg",
+        "prices": [],
+        "category_code": "07"
+      }
+    },
+    "55017131005": {
+      "family_key": "lb-liquid-brighener",
+      "attribute_set_key": "lb-liquid-brighener",
+      "values": {
+        "packing_kg": 20.0
+      },
+      "native": {
+        "default_code": "55017131005",
+        "name": "Sıvı Parlatıcı (LB) 20 kg",
+        "prices": [],
+        "category_code": "07"
+      }
+    },
+    "55017131002": {
+      "family_key": "lb-liquid-brighener",
+      "attribute_set_key": "lb-liquid-brighener",
+      "values": {
+        "packing_kg": 10.0
+      },
+      "native": {
+        "default_code": "55017131002",
+        "name": "Sıvı Parlatıcı (LB) 10 kg",
+        "prices": [],
+        "category_code": "07"
+      }
+    },
+    "55017131003": {
+      "family_key": "lb-liquid-brighener",
+      "attribute_set_key": "lb-liquid-brighener",
+      "values": {
+        "packing_kg": 5.0
+      },
+      "native": {
+        "default_code": "55017131003",
+        "name": "Sıvı Parlatıcı (LB) 5 kg",
+        "prices": [],
+        "category_code": "07"
+      }
+    },
+    "54021132002": {
+      "family_key": "sc-liquid-surface-cleaner",
+      "attribute_set_key": "sc-liquid-surface-cleaner",
+      "values": {
+        "packing_kg": 20.0
+      },
+      "native": {
+        "default_code": "54021132002",
+        "name": "Sıvı Yüzey Temizleyici (SC) 20 kg",
+        "prices": [],
+        "category_code": "07"
+      }
+    },
+    "54021132001": {
+      "family_key": "sc-liquid-surface-cleaner",
+      "attribute_set_key": "sc-liquid-surface-cleaner",
+      "values": {
+        "packing_kg": 5.0
+      },
+      "native": {
+        "default_code": "54021132001",
+        "name": "Sıvı Yüzey Temizleyici (SC) 5 kg",
+        "prices": [],
+        "category_code": "07"
+      }
+    }
+  }
+}
